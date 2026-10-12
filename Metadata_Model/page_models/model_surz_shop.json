@@ -1,0 +1,454 @@
+{
+  "page": {
+    "obj_name": "surz_shop",
+    "title": "Instruments",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 36,
+            "bottom": 32
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Shop",
+                "href": "/instruments"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "Shop surgical instruments",
+            "anchorId": "all-instruments"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Quality Surgical Instruments Supplier in India \u2014 forceps, retractors, clamps and handles for theatre, clinic and orthopaedic work.",
+            "style": {
+              "typography": {
+                "maxWidth": 560
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_body",
+        "tag": "main",
+        "style": {
+          "padding": {
+            "top": 32,
+            "bottom": 48
+          }
+        },
+        "blocks": [
+          {
+            "id": "fb",
+            "type": "filter_bar",
+            "target": "cg_all",
+            "layout": "inline",
+            "search": {
+              "label": "Search instruments",
+              "placeholder": "Search instruments"
+            },
+            "facets": [
+              {
+                "id": "fspec",
+                "label": "Specialty",
+                "from": "eyebrow",
+                "showCounts": true,
+                "allLabel": "All instruments"
+              }
+            ],
+            "sort": [
+              {
+                "id": "sp1",
+                "label": "Price: low to high",
+                "by": "price",
+                "dir": "asc"
+              },
+              {
+                "id": "sp2",
+                "label": "Price: high to low",
+                "by": "price",
+                "dir": "desc"
+              },
+              {
+                "id": "sn1",
+                "label": "Name: A to Z",
+                "by": "title",
+                "dir": "asc"
+              }
+            ],
+            "resultLabel": "{n} instruments"
+          },
+          {
+            "id": "cg_all",
+            "type": "card",
+            "style": {
+              "hover": {
+                "translateY": -4,
+                "shadow": "lg"
+              },
+              "hoverScope": "items",
+              "transition": 200
+            },
+            "repeat": {
+              "source": "ds_products",
+              "as": "p",
+              "designCount": 4,
+              "layout": {
+                "mode": "grid",
+                "columns": 4,
+                "gap": 20
+              }
+            },
+            "bindings": {
+              "card.title": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageAlt": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.eyebrow": {
+                "source": "item_field",
+                "path": "CATEGORY_NAME"
+              },
+              "card.imageUrl": {
+                "source": "item_field",
+                "path": "IMAGE_URL"
+              },
+              "card.badge": {
+                "source": "item_field",
+                "path": "RIBBON"
+              },
+              "card.price": {
+                "source": "item_field",
+                "path": "UNIT_PRICE"
+              },
+              "card.compareAtPrice": {
+                "source": "item_field",
+                "path": "MRP"
+              },
+              "card.hoverImageUrl": {
+                "source": "item_field",
+                "path": "HOVER_IMAGE_URL"
+              }
+            },
+            "cardStyle": {
+              "radius": 14,
+              "padding": 14,
+              "titleSize": 14,
+              "bodySize": 13,
+              "border": true,
+              "shadow": "sm",
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "card": {
+              "id": "cg_all_c",
+              "title": "Instrument",
+              "eyebrow": "Specialty",
+              "badge": "",
+              "price": "0",
+              "priceFormat": "currency",
+              "priceCurrency": "INR",
+              "showSavings": true,
+              "wishlist": true,
+              "secondaryCta": {
+                "id": "cg_all_a",
+                "label": "Add to bag",
+                "variant": "primary",
+                "size": "sm",
+                "icon": "shopping-cart",
+                "on_click": {
+                  "kind": "add_to_cart",
+                  "sku": "{{p.PRODUCT_CODE}}",
+                  "name": "{{p.PRODUCT_NAME}}",
+                  "price": "\u20b9{{p.UNIT_PRICE}}",
+                  "image": "{{p.IMAGE_URL}}",
+                  "href": "/{{p.SLUG}}",
+                  "meta": "{{p.CATEGORY_NAME}}",
+                  "addedLabel": "Added",
+                  "inCartLabel": "In bag \u00b7 {n}",
+                  "inCartStepper": true,
+                  "toast": true,
+                  "toastLabel": "Added to bag",
+                  "toastLinkLabel": "View bag",
+                  "cartHref": "/cart"
+                }
+              },
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "on_click": {
+              "kind": "external_url",
+              "url": "/{{p.SLUG}}",
+              "newTab": false
+            }
+          },
+          {
+            "id": "cg_none",
+            "type": "paragraph",
+            "text": "No instrument matches that. Clear the search or pick another specialty.",
+            "style": {
+              "textColor": "var(--pg-muted)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_cta",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 40,
+            "bottom": 40
+          }
+        },
+        "blocks": [
+          {
+            "id": "cta_h",
+            "type": "heading",
+            "level": 2,
+            "text": "Ordering for a hospital or distributor?"
+          },
+          {
+            "id": "cta_p",
+            "type": "paragraph",
+            "text": "Download the full Kapsons catalogue or ask us for a bulk quote."
+          },
+          {
+            "id": "cta_b",
+            "type": "button_group",
+            "align": "left",
+            "gap": 12,
+            "buttons": [
+              {
+                "id": "cta_b1",
+                "label": "Download Catalogue",
+                "variant": "secondary",
+                "icon": "download",
+                "on_click": {
+                  "kind": "navigate",
+                  "obj_type": "S",
+                  "obj_name": "surz_online_catalogue"
+                }
+              },
+              {
+                "id": "cta_b2",
+                "label": "Contact us",
+                "variant": "outline",
+                "on_click": {
+                  "kind": "navigate",
+                  "obj_type": "S",
+                  "obj_name": "surz_contact"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Surgical, orthopaedic and dissecting instruments",
+      "description": "All 22 Surzion references, in stock in Jalandhar, with published grade, pattern and finish."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "dataSources": [
+      {
+        "id": "ds_products",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 200,
+        "filters": [
+          {
+            "id": "f_listed",
+            "column": "IS_ACTIVE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "Y"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "SORT_ORDER",
+            "dir": "asc"
+          },
+          {
+            "column": "PRODUCT_NAME",
+            "dir": "asc"
+          }
+        ],
+        "columns": [
+          "PRODUCT_CODE",
+          "PRODUCT_NAME",
+          "CATEGORY_NAME",
+          "CATEGORY_CODE",
+          "SUBTITLE",
+          "DESCR",
+          "UNIT_PRICE",
+          "MRP",
+          "SLUG",
+          "IMAGE_URL",
+          "HOVER_IMAGE_URL",
+          "RIBBON",
+          "STOCK_QTY",
+          "SORT_ORDER"
+        ]
+      }
+    ],
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

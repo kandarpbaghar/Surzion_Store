@@ -1,0 +1,30 @@
+{
+ "scores": {
+  "text": 0.981,
+  "headings": 0.4,
+  "images": 1.0,
+  "sections": {
+   "page": 2,
+   "source": 2
+  },
+  "paint": 1.0,
+  "fonts": true
+ },
+ "passed": false,
+ "issues": [
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: 3 source heading(s) are missing, e.g. 'return, refund & replacement policy'; 'terms and conditions'; \"we'll reply within 12 hours\"",
+   "blocking": true
+  }
+ ],
+ "missing": {
+  "headings": [
+   "return, refund & replacement policy",
+   "terms and conditions",
+   "we'll reply within 12 hours"
+  ],
+  "images": [],
+  "paint": []
+ }
+}

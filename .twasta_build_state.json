@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "objects": {
+    "V:surz_partner_sales": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_sales",
+      "verified_at": 1791453208.662231,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "e90152098b581cb8"
+    },
+    "V:surz_partner_leaderboard": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_leaderboard",
+      "verified_at": 1791453208.6626291,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "93b8d16aa482fb0e"
+    },
+    "V:surz_partner_discount": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_discount",
+      "verified_at": 1791453208.66296,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "da9e6b01c80c47ab"
+    },
+    "V:surz_partner_trend": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_trend",
+      "verified_at": 1791453208.663244,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "560462622cc4ed20"
+    },
+    "V:surz_partner_kpis": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_kpis",
+      "verified_at": 1791453208.6635242,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "0640cc0f79839db0"
+    },
+    "V:surz_partner_approval_funnel": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_approval_funnel",
+      "verified_at": 1791453208.6638038,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "bfef4c0d83b5d478"
+    },
+    "V:surz_partner_top_instruments": {
+      "obj_type": "V",
+      "obj_name": "surz_partner_top_instruments",
+      "verified_at": 1791453208.664083,
+      "verify_ok": true,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "634b784df265feff"
+    },
+    "D:surz_partner_dashboard": {
+      "obj_type": "D",
+      "obj_name": "surz_partner_dashboard",
+      "verified_at": 1791453208.6643682,
+      "verify_ok": false,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "92c338212a084a3e"
+    },
+    "M:surz_sales_line": {
+      "obj_type": "M",
+      "obj_name": "SURZ_SALES_LINE",
+      "verified_at": 1791453208.664654,
+      "verify_ok": false,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "ba61358373c9bf3f"
+    },
+    "M:surz_order_header": {
+      "obj_type": "M",
+      "obj_name": "SURZ_ORDER_HEADER",
+      "verified_at": 1791453208.665032,
+      "verify_ok": false,
+      "verify_summary": "verified by the dock's post-turn BI gate",
+      "verify_fingerprint": "1a86bf0be8d327e6"
+    }
+  }
+}

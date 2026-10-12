@@ -1,0 +1,123 @@
+{
+ "version": 1,
+ "kind": "design_tokens",
+ "pages": 13,
+ "fonts": {
+  "body": "Poppins",
+  "heading": "Poppins",
+  "base_size": 16,
+  "h_sizes": {
+   "h1": 54,
+   "h2": 20,
+   "h3": 19
+  },
+  "heading_weight": 600
+ },
+ "colors": {
+  "primary": "#0e2358",
+  "accent": "#edf1fa",
+  "heading": "#0b1a3d",
+  "text": "#5b6b8c",
+  "link": "#0b1a3d",
+  "background": "#f5f8fe",
+  "surface": "#ffffff",
+  "surface_alt": "#ffffff",
+  "on_primary": "#ffffff",
+  "votes": {
+   "button_bg": {
+    "#0e2358": 102,
+    "#ffffff": 27,
+    "rgba(255, 255, 255, 0.9)": 24,
+    "rgba(8, 20, 52, 0.35)": 9,
+    "#edf1fa": 3
+   },
+   "card_bg": {
+    "#ffffff": 74,
+    "rgba(8, 20, 52, 0.35)": 3,
+    "#e5f5ee": 3,
+    "rgba(255, 255, 255, 0.08)": 2,
+    "#eef0f2": 1,
+    "#0e2358": 1
+   },
+   "text": {
+    "#5b6b8c": 53,
+    "#33415f": 53,
+    "#0b1a3d": 51,
+    "#1f9d63": 8,
+    "#2f6be6": 7,
+    "#ffffff": 7,
+    "#c9d6f2": 6,
+    "#9db8f5": 6
+   },
+   "link": {
+    "#0b1a3d": 34,
+    "#0e2358": 5,
+    "#ffffff": 5,
+    "#2f6be6": 5,
+    "#146c45": 1
+   },
+   "section_bg": {
+    "#ffffff": 38,
+    "#0e2358": 11,
+    "#edf1fa": 1,
+    "#f7f9fe": 1
+   },
+   "heading": {
+    "#0b1a3d": 51,
+    "#ffffff": 5
+   }
+  }
+ },
+ "layout": {
+  "max_width": 1220
+ },
+ "buttons": {
+  "radius": 999.0,
+  "pill": true
+ },
+ "theme": {
+  "preset": "modern-light",
+  "palette": {
+   "primary": "#0e2358",
+   "primaryHover": "#0e2358",
+   "onPrimary": "#ffffff",
+   "accent": "#edf1fa",
+   "accentHover": "#edf1fa",
+   "onAccent": "#111827",
+   "heading": "#0b1a3d",
+   "text": "#5b6b8c",
+   "muted": "#5b6b8c",
+   "link": "#0b1a3d",
+   "linkHover": "#0b1a3d",
+   "inverted": "#ffffff",
+   "background": "#f5f8fe",
+   "surface": "#ffffff",
+   "surfaceAlt": "#ffffff"
+  },
+  "typography": {
+   "fontFamily": "poppins",
+   "headingFamily": "poppins",
+   "customFontFamily": "Poppins",
+   "customHeadingFamily": "Poppins",
+   "baseSize": 16,
+   "scaleRatio": 1.118,
+   "lineHeight": 1.6,
+   "headingWeight": 600,
+   "headingLineHeight": 1.2,
+   "eyebrowTransform": "none"
+  },
+  "layout": {
+   "contentWidth": "wide",
+   "maxWidth": 1220,
+   "paddingX": 24,
+   "paddingY": 0,
+   "background": {
+    "kind": "color",
+    "color": "#f5f8fe"
+   },
+   "align": "left",
+   "blockGap": 16,
+   "borderRadius": 24
+  }
+ }
+}

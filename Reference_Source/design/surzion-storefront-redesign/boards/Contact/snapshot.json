@@ -1,0 +1,1018 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Contact.dc.html",
+ "title": "Contact — Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1354,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 54,
+   "weight": 600,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "60.48px",
+   "letterSpacing": "-1.08px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 30,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "36px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 19,
+   "weight": 400,
+   "color": "rgb(225, 232, 247)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.3px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": true,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion — The Surgical Excellence",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion — The Surgical Excellence",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 412,
+     "y": 19,
+     "w": 45,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Shop.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 487,
+     "y": 19,
+     "w": 39,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/About.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 555,
+     "y": 19,
+     "w": 46,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/Catalogue.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 631,
+     "y": 19,
+     "w": 130,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Partners",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 791,
+     "y": 19,
+     "w": 63,
+     "h": 43
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"M20 20l-3.5-3.5\"></path></svg>",
+    "cls": "",
+    "color": "rgb(11, 26, 61)",
+    "rect": {
+     "x": 989,
+     "y": 30,
+     "w": 20,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Sign in",
+    "href": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1027,
+     "y": 18,
+     "w": 99,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 600,
+     "color": "rgb(14, 35, 88)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1191,
+     "y": 17,
+     "w": 137,
+     "h": 46
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 412,
+       "y": 19,
+       "w": 442,
+       "h": 43
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 977,
+       "y": 17,
+       "w": 351,
+       "h": 46
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": {
+  "rect": {
+   "x": 0,
+   "y": 1179,
+   "w": 1440,
+   "h": 175
+  },
+  "bg": {
+   "color": "rgb(16, 32, 39)"
+  },
+  "color": "rgb(255, 255, 255)",
+  "sticky": false,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion",
+   "h": 32,
+   "w": 128
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(228, 234, 246)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "25.5px",
+   "letterSpacing": null
+  },
+  "text": "Shop\nAbout\nOnline catalogue\nPolicies\nBecome a partner\n© 2025. All rights reserved.\nSurzion is a brand of Kapsons · ISO and CE certified instruments",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 124,
+     "y": 44,
+     "w": 128,
+     "h": 32
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Shop.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(228, 234, 246)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "25.5px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 514,
+     "y": 38,
+     "w": 39,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/About.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(228, 234, 246)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "25.5px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 581,
+     "y": 38,
+     "w": 46,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/Catalogue.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(228, 234, 246)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "25.5px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 655,
+     "y": 38,
+     "w": 130,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Policies",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(228, 234, 246)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "25.5px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 812,
+     "y": 38,
+     "w": 57,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Become a partner",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(228, 234, 246)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "25.5px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 897,
+     "y": 38,
+     "w": 137,
+     "h": 44
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M24 12.07C24 5.44 18.63.07 12 .07S0 5.44 0 12.07c0 5.99 4.39 10.96 10.13 11.86v-8.39H7.08v-3.47h3.05V9.43c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.69.23 2.69.23v2.95h-1.51c-1.49 0-1.96.93-1.96 1.88v2.25h3.33l-.53 3.47h-2.8v8.39C19.61 23.03 24 18.06 24 12.07z\"></path></svg>",
+    "cls": "",
+    "color": "rgb(76, 145, 215)",
+    "rect": {
+     "x": 1290,
+     "y": 44,
+     "w": 32,
+     "h": 32
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 36,
+       "w": 152,
+       "h": 48
+      },
+      "bg": {
+       "color": "rgb(255, 255, 255)"
+      },
+      "radius": "12px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 514,
+       "y": 38,
+       "w": 519,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1284,
+       "y": 38,
+       "w": 44,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://www.facebook.com/profile.php?id=61593815422631"
+     }
+    ]
+   },
+   {
+    "kind": "columns",
+    "columns": 2,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 125,
+       "w": 170,
+       "h": 22
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 920,
+       "y": 125,
+       "w": 408,
+       "h": 22
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "floating": [],
+ "colors": [
+  {
+   "role": "section_bg",
+   "color": "rgb(14, 35, 88)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(157, 184, 245)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(225, 232, 247)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 40
+   },
+   "fullBleed": true,
+   "contentBox": null,
+   "bg": {
+    "color": "rgb(14, 35, 88)"
+   },
+   "color": "rgb(255, 255, 255)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 112,
+        "y": 10,
+        "w": 343,
+        "h": 20
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 856,
+        "y": 10,
+        "w": 472,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html"
+      }
+     ]
+    }
+   ],
+   "items": [],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "118aff71ba2df660"
+  },
+  {
+   "index": 1,
+   "key": "1:contact-us",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 121,
+    "w": 1440,
+    "h": 400
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 112,
+    "w": 1216
+   },
+   "bg": {
+    "image": "https://design.local/surzion-storefront-redesign/assets/6202c69e9ff5357ec31a4acfe3cffc15.jpg",
+    "size": "cover",
+    "position": "50% 45%",
+    "attachment": "fixed"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "text",
+     "text": "CONTACT US",
+     "html": "CONTACT US",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "color": "rgb(157, 184, 245)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": "1.82px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 111,
+      "w": 1216,
+      "h": 20
+     }
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Contact Us",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 54,
+      "weight": 600,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "60.48px",
+      "letterSpacing": "-1.08px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 147,
+      "w": 1216,
+      "h": 60
+     }
+    },
+    {
+     "t": "text",
+     "text": "Reach out for high-quality surgical instruments and support.",
+     "html": "Reach out for high-quality surgical instruments and support.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 19,
+      "weight": 400,
+      "color": "rgb(225, 232, 247)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.3px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 224,
+      "w": 560,
+      "h": 65
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "e114ee28ff125305"
+  },
+  {
+   "index": 2,
+   "key": "2:find-us",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 521,
+    "w": 1440,
+    "h": 658
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 112,
+    "w": 1216
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 72,
+    "bottom": 88,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 112,
+        "y": 72,
+        "w": 594,
+        "h": 468
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 762,
+        "y": 72,
+        "w": 566,
+        "h": 498
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "22px",
+       "shadow": "rgba(14, 35, 88, 0.08) 0px 18px 40px 0px",
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Find us",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 30,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "36px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 72,
+      "w": 594,
+      "h": 36
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2F6BE6\" stroke-width=\"1.8\" stroke-linejoin=\"round\" style=\"flex: none; margin-top: 4px\"><path d=\"M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z\"></path><circle cx=\"12\" cy=\"9\" r=\"2.5\"></circle></svg>",
+     "cls": "",
+     "color": "rgb(11, 26, 61)",
+     "rect": {
+      "x": 112,
+      "y": 132,
+      "w": 20,
+      "h": 20
+     }
+    },
+    {
+     "t": "text",
+     "text": "Location",
+     "html": "Location",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 146,
+      "y": 128,
+      "w": 560,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "html": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 146,
+      "y": 151,
+      "w": 560,
+      "h": 51
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://design.local/surzion-storefront-redesign/assets/6f6c315e7189e47d081b42a49cacbe72.jpg",
+     "alt": "Map of Kapurthala Road, Jalandhar, with the Surzion location pinned",
+     "natural": {
+      "w": 1200,
+      "h": 640
+     },
+     "href": "https://www.google.com/maps/search/?api=1&query=3%2C%20Kapurthala%20Road%2C%20Jalandhar%20Vihar%2C%20Prime%20Enclave%20Ext%20Chopra%20Township%2C%20Jalandhar%2C%20Punjab%2C%20India%2C%20144021",
+     "rect": {
+      "x": 113,
+      "y": 223,
+      "w": 592,
+      "h": 316
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "email",
+       "label": "",
+       "required": true
+      },
+      {
+       "name": "",
+       "type": "textarea",
+       "label": "",
+       "required": true
+      }
+     ],
+     "submit": "",
+     "rect": {
+      "x": 762,
+      "y": 72,
+      "w": 566,
+      "h": 498
+     }
+    }
+   ],
+   "crop": "sections/s02.jpg",
+   "fingerprint": "c3a2b69599587309"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Contact.dc.html",
+ "captured_at": "2026-10-09T13:08:02Z",
+ "page_fingerprint": "0bc5e7379d52ad2d",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Contact",
+  "state": null,
+  "visible_text": "Exclusive discounts on surgical instruments today!\nNEW\nCreators & influencers: get your own Surzion discount code →\nHome\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue\nCONTACT US\nContact Us\n\nReach out for high-quality surgical instruments and support.\n\nFind us\nLocation\n3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021\nOpen in Google Maps →\nYour First Name\nYour Email Address*\nYour Message*\nSubmit Your Inquiry\nShop\nAbout\nOnline catalogue\nPolicies\nBecome a partner\n© 2025. All rights reserved.\nSurzion is a brand of Kapsons · ISO and CE certified instruments",
+  "sample_text": [],
+  "sample_images": []
+ }
+}

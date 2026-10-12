@@ -1,0 +1,73 @@
+{
+  "transaction": {
+    "obj_name": "surz_customer_address",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Address",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_CUSTOMER_ADDRESS",
+          "row_security": {
+            "rules": [
+              {"column": "REGISTRY_ID", "source": "user_id"}
+            ],
+            "exempt_roles": ["admin", "func-admin"]
+          },
+          "columns": [
+            {"column": {"name": "address_id", "db_name": "ADDRESS_ID", "col_type": "VARCHAR20", "heading": "Address id", "group_name": "Basic", "mandatory": 0, "key": true, "protect": 1, "hidden": 0,
+              "default_value": "auto_generate_prefixed()",
+              "series": {"parts": [{"source": "const", "text": "ADR-"}], "separator": "", "width": 5},
+              "validations": [
+                {"type": "builtin", "name": "Address id unique", "error_code": "ADR_DUP", "message": "Address id {form.ADDRESS_ID} already exists.", "builtin": {"kind": "must_be_unique"}}
+              ]}},
+            {"column": {"name": "label", "db_name": "LABEL", "col_type": "VARCHAR20", "heading": "Label", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "dropdown", "values": ["Home", "Clinic", "Hospital", "Office", "Other"]}}},
+            {"column": {"name": "contact_name", "db_name": "CONTACT_NAME", "col_type": "VARCHAR120", "heading": "Contact name", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "phone", "db_name": "PHONE", "col_type": "VARCHAR30", "heading": "Phone", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "address_line1", "db_name": "ADDRESS_LINE1", "col_type": "VARCHAR400", "heading": "Address", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "address_line2", "db_name": "ADDRESS_LINE2", "col_type": "VARCHAR200", "heading": "Address line 2", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "city", "db_name": "CITY", "col_type": "VARCHAR80", "heading": "City", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "state_name", "db_name": "STATE_NAME", "col_type": "VARCHAR80", "heading": "State", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "pincode", "db_name": "PINCODE", "col_type": "VARCHAR12", "heading": "PIN code", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "is_default", "db_name": "IS_DEFAULT", "col_type": "VARCHAR1", "heading": "Default address", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "default_value": "N",
+              "edit_mask": {"mask": "dropdown", "values": ["Y", "N"]}}},
+            {"column": {"name": "registry_id", "db_name": "REGISTRY_ID", "col_type": "VARCHAR120", "heading": "Shop account", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "customer_id", "db_name": "CUSTOMER_ID", "col_type": "VARCHAR20", "heading": "Customer", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1,
+              "lookup": "SURZ_CUSTOMER(CUSTOMER_NAME, CUSTOMER_ID)", "must_exist_in": "SURZ_CUSTOMER"}},
+            {"column": {"name": "add_date", "db_name": "ADD_DATE", "col_type": "DATETIME", "heading": "Added on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_date"}},
+            {"column": {"name": "add_user", "db_name": "ADD_USER", "col_type": "VARCHAR10", "heading": "Added by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_user"}},
+            {"column": {"name": "chg_date", "db_name": "CHG_DATE", "col_type": "DATETIME", "heading": "Changed on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_date"}},
+            {"column": {"name": "chg_user", "db_name": "CHG_USER", "col_type": "VARCHAR10", "heading": "Changed by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_user"}}
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {"table_name": "SURZ_CUSTOMER_ADDRESS", "main_table": true}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_address_default",
+          "language": "python",
+          "description": "Keep exactly one default address per customer and resolve CUSTOMER_ID",
+          "spec": "pre_commit on SURZ_CUSTOMER_ADDRESS. Skip when the save is a delete. The header row already exists on the save connection; re-read it by ADDRESS_ID (txn_id). STEP 1 resolve CUSTOMER_ID: when blank, set it from SURZ_CUSTOMER where REGISTRY_ID = this row's REGISTRY_ID (lowest CUSTOMER_ID if several); leave NULL when no customer exists yet (not an error: surz_capture_customer links it on the first order) and UPDATE the row when resolved. STEP 2 define the owner group: rows with the same CUSTOMER_ID when it is known, otherwise rows with the same REGISTRY_ID (when both blank the group is just this row). STEP 3 if this row is the only address in the group (no other rows) force IS_DEFAULT = 'Y' on it. STEP 4 else if this row's IS_DEFAULT = 'Y' UPDATE every OTHER row of the group SET IS_DEFAULT = 'N' (and refresh CHG_DATE/CHG_USER on rows changed). A blank/other IS_DEFAULT is normalised to 'N'. STEP 5 if after this save the group would have no default (e.g. the default row was edited to 'N'), set this row back to 'Y' only when it is the sole address, otherwise promote the earliest ADD_DATE other row to 'Y'. Return None on success; on any unexpected failure log and return {'error': 'Could not save the address'}."
+        }
+      }
+    ],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

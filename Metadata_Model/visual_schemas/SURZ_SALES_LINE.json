@@ -1,0 +1,1197 @@
+{
+  "SCHEMA": {
+    "SCHEMA_NAME": "SURZ_SALES_LINE",
+    "SCHEMA_DESCR": "Surzion sales at ORDER LINE grain — one row per instrument line of an order, with its order header, instrument, category, customer and referring partner.",
+    "SCHEMA_TYPE": "S",
+    "CONNECTION_ID": "",
+    "MAIN_TABLE": "SURZ_ORDER_LINE",
+    "TABLES": [
+      {
+        "TABLE_NAME": "SURZ_ORDER_LINE",
+        "TABLE_DISPLAY_NAME": "Order Line",
+        "ALIAS": "OL",
+        "CONDITION": "",
+        "COLUMNS": [
+          {
+            "DBNAME": "ORDER_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_ORDER_NO",
+            "DISPLAY_NAME": "Order No",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the order header.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "LINE_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_LINE_NO",
+            "DISPLAY_NAME": "Line No",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": 10,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.Integer",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Line sequence within the order.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PRODUCT_CODE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_PRODUCT_CODE",
+            "DISPLAY_NAME": "Instrument Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the instrument master.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PRODUCT_NAME",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_PRODUCT_NAME",
+            "DISPLAY_NAME": "Instrument (as ordered)",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 160,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Name captured on the order line.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "QTY",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_QTY",
+            "DISPLAY_NAME": "Qty",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "SUM",
+            "DESCRIPTION": "Units ordered on the line.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "UNIT_PRICE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_UNIT_PRICE",
+            "DISPLAY_NAME": "Unit Price",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "AVG",
+            "DESCRIPTION": "Price charged per unit (INR). Average across lines — not additive.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "GST_RATE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_GST_RATE",
+            "DISPLAY_NAME": "GST %",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(5,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "AVG",
+            "DESCRIPTION": "GST rate applied to the line — a rate, never summed.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "LINE_TOTAL",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_LINE_TOTAL",
+            "DISPLAY_NAME": "Line Total",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(14,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "SUM",
+            "DESCRIPTION": "Line value in INR — the additive revenue measure of this schema.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          { "DBNAME": "DISC_PCT", "UNIQUE_NAME": "SURZ_ORDER_LINE_DISC_PCT", "DISPLAY_NAME": "Discount %", "COLTYPE": "NUMBER", "DBSIZE": "(5,2)", "NATIVETYPE": "AN", "JAVATYPE": "java.math.BigDecimal", "DEFAULTFUNCTION": "AVG", "DESCRIPTION": "Discount percentage applied to the line - a rate, never summed.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "DISC_AMT", "UNIQUE_NAME": "SURZ_ORDER_LINE_DISC_AMT", "DISPLAY_NAME": "Line Discount", "COLTYPE": "NUMBER", "DBSIZE": "(14,2)", "NATIVETYPE": "AN", "JAVATYPE": "java.math.BigDecimal", "DEFAULTFUNCTION": "SUM", "DESCRIPTION": "Discount given on the line (INR) - additive at line grain.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "TAXABLE_VALUE", "UNIQUE_NAME": "SURZ_ORDER_LINE_TAXABLE_VALUE", "DISPLAY_NAME": "Taxable Value", "COLTYPE": "NUMBER", "DBSIZE": "(14,2)", "NATIVETYPE": "AN", "JAVATYPE": "java.math.BigDecimal", "DEFAULTFUNCTION": "SUM", "DESCRIPTION": "Line value after discount, before GST (INR) - the net sales measure.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false }
+        ]
+      },
+      {
+        "TABLE_NAME": "SURZ_ORDER",
+        "TABLE_DISPLAY_NAME": "Order",
+        "ALIAS": "OH",
+        "CONDITION": "",
+        "COLUMNS": [
+          {
+            "DBNAME": "ORDER_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_NO",
+            "DISPLAY_NAME": "Order No",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Order identifier — COUNT DISTINCT basis for order counts.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "ORDER_DATE",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_DATE",
+            "DISPLAY_NAME": "Ordered On",
+            "COLTYPE": "DATE",
+            "DBSIZE": 10,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.sql.Date",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Date the order was placed.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PAID_ON",
+            "UNIQUE_NAME": "SURZ_ORDER_PAID_ON",
+            "DISPLAY_NAME": "Paid On",
+            "COLTYPE": "DATE",
+            "DBSIZE": 19,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.sql.Date",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Timestamp the online payment was captured (blank while unpaid).",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CUSTOMER_ID",
+            "UNIQUE_NAME": "SURZ_ORDER_CUSTOMER_ID",
+            "DISPLAY_NAME": "Customer Id",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the customer master.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CUSTOMER_NAME",
+            "UNIQUE_NAME": "SURZ_ORDER_CUSTOMER_NAME",
+            "DISPLAY_NAME": "Customer (as ordered)",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 120,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Name captured on the order.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PAY_STATUS",
+            "UNIQUE_NAME": "SURZ_ORDER_PAY_STATUS",
+            "DISPLAY_NAME": "Payment Status",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 12,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "PENDING | PAID | COD | REFUNDED | FAILED. Captured revenue = PAID (recognised at payment), or COD once ORDER_STATUS is DELIVERED (recognised on hand-over).",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PAY_METHOD",
+            "UNIQUE_NAME": "SURZ_ORDER_PAY_METHOD",
+            "DISPLAY_NAME": "Paid By",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 40,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Payment instrument used at checkout.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "ORDER_STATUS",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_STATUS",
+            "DISPLAY_NAME": "Order Status",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 16,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "NEW | CONFIRMED | PACKED | SHIPPED | DELIVERED | CANCELLED. DELIVERED is what recognises a COD order's cash; a prepaid order is revenue from payment, whatever its fulfilment state.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "DISCOUNT_CODE",
+            "UNIQUE_NAME": "SURZ_ORDER_DISCOUNT_CODE",
+            "DISPLAY_NAME": "Discount Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 24,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Discount code applied to the order.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "COURIER",
+            "UNIQUE_NAME": "SURZ_ORDER_COURIER",
+            "DISPLAY_NAME": "Courier",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 80,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Carrier the order shipped with.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          { "DBNAME": "PARTNER_ID", "UNIQUE_NAME": "SURZ_ORDER_PARTNER_ID", "DISPLAY_NAME": "Partner Id", "COLTYPE": "CHAR", "DBSIZE": 20, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Referring partner (join key to the partner master). Blank for orders without a partner code.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "PARTNER_NAME", "UNIQUE_NAME": "SURZ_ORDER_PARTNER_NAME", "DISPLAY_NAME": "Partner (as ordered)", "COLTYPE": "CHAR", "DBSIZE": 120, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner name captured on the order.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false }
+        ]
+      },
+      {
+        "TABLE_NAME": "SURZ_PRODUCT",
+        "TABLE_DISPLAY_NAME": "Instrument",
+        "ALIAS": "PR",
+        "CONDITION": "",
+        "COLUMNS": [
+          {
+            "DBNAME": "PRODUCT_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PRODUCT_CODE",
+            "DISPLAY_NAME": "Instrument Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument master key.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PRODUCT_NAME",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PRODUCT_NAME",
+            "DISPLAY_NAME": "Instrument",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 160,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Catalogue name of the instrument.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CATEGORY_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_CATEGORY_CODE",
+            "DISPLAY_NAME": "Category Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 12,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the category master.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "GRADE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_GRADE",
+            "DISPLAY_NAME": "Steel Grade",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 40,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Steel grade of the instrument.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "FINISH",
+            "UNIQUE_NAME": "SURZ_PRODUCT_FINISH",
+            "DISPLAY_NAME": "Finish",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 40,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Surface finish.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PATTERN",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PATTERN",
+            "DISPLAY_NAME": "Pattern",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 60,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument pattern.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "LENGTH_MM",
+            "UNIQUE_NAME": "SURZ_PRODUCT_LENGTH_MM",
+            "DISPLAY_NAME": "Length (mm)",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(8,1)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument length — a product attribute, not additive.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "HSN_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_HSN_CODE",
+            "DISPLAY_NAME": "HSN",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 12,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "HSN classification code.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "GST_RATE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_GST_RATE",
+            "DISPLAY_NAME": "Catalogue GST %",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(5,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "GST rate on the master — a rate, never summed.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "UNIT_PRICE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_UNIT_PRICE",
+            "DISPLAY_NAME": "Catalogue Price",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "List price on the master (INR) — product grain, do not SUM at line grain.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "MRP",
+            "UNIQUE_NAME": "SURZ_PRODUCT_MRP",
+            "DISPLAY_NAME": "List Price",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "MRP on the master (INR) — product grain, do not SUM at line grain.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "STOCK_QTY",
+            "UNIQUE_NAME": "SURZ_PRODUCT_STOCK_QTY",
+            "DISPLAY_NAME": "In Stock",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Current stock snapshot — product grain; repeated on every line, so never SUM it here.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "REORDER_LEVEL",
+            "UNIQUE_NAME": "SURZ_PRODUCT_REORDER_LEVEL",
+            "DISPLAY_NAME": "Reorder At",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": "(12,2)",
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.math.BigDecimal",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Reorder threshold — product grain; never SUM it here.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "IS_ACTIVE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_IS_ACTIVE",
+            "DISPLAY_NAME": "Listed In Shop",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 1,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Y = listed in the storefront.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          }
+        ]
+      },
+      {
+        "TABLE_NAME": "SURZ_CATEGORY",
+        "TABLE_DISPLAY_NAME": "Category",
+        "ALIAS": "CT",
+        "CONDITION": "",
+        "COLUMNS": [
+          {
+            "DBNAME": "CATEGORY_CODE",
+            "UNIQUE_NAME": "SURZ_CATEGORY_CATEGORY_CODE",
+            "DISPLAY_NAME": "Category Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 12,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Category master key.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CATEGORY_NAME",
+            "UNIQUE_NAME": "SURZ_CATEGORY_CATEGORY_NAME",
+            "DISPLAY_NAME": "Category",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 80,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Category name shown in the shop.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "SORT_ORDER",
+            "UNIQUE_NAME": "SURZ_CATEGORY_SORT_ORDER",
+            "DISPLAY_NAME": "Shown In Position",
+            "COLTYPE": "NUMBER",
+            "DBSIZE": 10,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.Integer",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Display order in the storefront.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "IS_ACTIVE",
+            "UNIQUE_NAME": "SURZ_CATEGORY_IS_ACTIVE",
+            "DISPLAY_NAME": "Active",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 1,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Y = active category.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          }
+        ]
+      },
+      {
+        "TABLE_NAME": "SURZ_CUSTOMER",
+        "TABLE_DISPLAY_NAME": "Customer",
+        "ALIAS": "CU",
+        "CONDITION": "",
+        "COLUMNS": [
+          {
+            "DBNAME": "CUSTOMER_ID",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CUSTOMER_ID",
+            "DISPLAY_NAME": "Customer Id",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Customer master key.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CUSTOMER_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CUSTOMER_NAME",
+            "DISPLAY_NAME": "Contact Name",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 120,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Buying contact.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "ORG_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_ORG_NAME",
+            "DISPLAY_NAME": "Hospital / Company",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 160,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Organisation the order belongs to.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "CITY",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CITY",
+            "DISPLAY_NAME": "City",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 80,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery city.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "STATE_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_STATE_NAME",
+            "DISPLAY_NAME": "State",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 80,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery state — the geography slicer.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "PINCODE",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_PINCODE",
+            "DISPLAY_NAME": "PIN Code",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 12,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery PIN code.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          },
+          {
+            "DBNAME": "GSTIN",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_GSTIN",
+            "DISPLAY_NAME": "GSTIN",
+            "COLTYPE": "CHAR",
+            "DBSIZE": 20,
+            "NATIVETYPE": "AN",
+            "JAVATYPE": "java.lang.String",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Customer GST registration.",
+            "ROW_SECURITY": false,
+            "COL_SECURITY": false,
+            "HIDDEN": false
+          }
+        ]
+      },
+      {
+        "TABLE_NAME": "SURZ_PARTNER",
+        "TABLE_DISPLAY_NAME": "Partner",
+        "ALIAS": "PA",
+        "CONDITION": "",
+        "COLUMNS": [
+          { "DBNAME": "PARTNER_ID", "UNIQUE_NAME": "SURZ_PARTNER_PARTNER_ID", "DISPLAY_NAME": "Partner Id", "COLTYPE": "CHAR", "DBSIZE": 20, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner master key (one row per partner application).", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "PARTNER_NAME", "UNIQUE_NAME": "SURZ_PARTNER_PARTNER_NAME", "DISPLAY_NAME": "Partner", "COLTYPE": "CHAR", "DBSIZE": 120, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner contact name.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "ORG_NAME", "UNIQUE_NAME": "SURZ_PARTNER_ORG_NAME", "DISPLAY_NAME": "Partner Organisation", "COLTYPE": "CHAR", "DBSIZE": 160, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner organisation.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "BUSINESS_TYPE", "UNIQUE_NAME": "SURZ_PARTNER_BUSINESS_TYPE", "DISPLAY_NAME": "Business Type", "COLTYPE": "CHAR", "DBSIZE": 30, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Type of partner business.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "CITY", "UNIQUE_NAME": "SURZ_PARTNER_CITY", "DISPLAY_NAME": "Partner City", "COLTYPE": "CHAR", "DBSIZE": 80, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner city.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "STATE_NAME", "UNIQUE_NAME": "SURZ_PARTNER_STATE_NAME", "DISPLAY_NAME": "Partner State", "COLTYPE": "CHAR", "DBSIZE": 80, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner state.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "STATUS", "UNIQUE_NAME": "SURZ_PARTNER_STATUS", "DISPLAY_NAME": "Application Status", "COLTYPE": "CHAR", "DBSIZE": 16, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "PENDING | APPROVED | REJECTED. Active partners = APPROVED.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "DISCOUNT_CODE", "UNIQUE_NAME": "SURZ_PARTNER_DISCOUNT_CODE", "DISPLAY_NAME": "Partner Discount Code", "COLTYPE": "CHAR", "DBSIZE": 24, "NATIVETYPE": "AN", "JAVATYPE": "java.lang.String", "DEFAULTFUNCTION": "", "DESCRIPTION": "Discount code issued to the partner.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false },
+          { "DBNAME": "DISCOUNT_PCT", "UNIQUE_NAME": "SURZ_PARTNER_DISCOUNT_PCT", "DISPLAY_NAME": "Partner Discount %", "COLTYPE": "NUMBER", "DBSIZE": "(5,2)", "NATIVETYPE": "AN", "JAVATYPE": "java.math.BigDecimal", "DEFAULTFUNCTION": "AVG", "DESCRIPTION": "Discount percentage granted to the partner - a rate, never summed.", "ROW_SECURITY": false, "COL_SECURITY": false, "HIDDEN": false }
+        ]
+      }
+    ],
+    "JOINS": [
+      {
+        "JOIN_ID": "J001",
+        "LEFT_TABLE": "SURZ_ORDER_LINE",
+        "RIGHT_TABLE": "SURZ_ORDER",
+        "JOIN_TYPE": "INNER",
+        "JOIN_CONDITION": "SURZ_ORDER_LINE.ORDER_NO = SURZ_ORDER.ORDER_NO"
+      },
+      {
+        "JOIN_ID": "J002",
+        "LEFT_TABLE": "SURZ_ORDER_LINE",
+        "RIGHT_TABLE": "SURZ_PRODUCT",
+        "JOIN_TYPE": "LEFT",
+        "JOIN_CONDITION": "SURZ_ORDER_LINE.PRODUCT_CODE = SURZ_PRODUCT.PRODUCT_CODE"
+      },
+      {
+        "JOIN_ID": "J003",
+        "LEFT_TABLE": "SURZ_PRODUCT",
+        "RIGHT_TABLE": "SURZ_CATEGORY",
+        "JOIN_TYPE": "LEFT",
+        "JOIN_CONDITION": "SURZ_PRODUCT.CATEGORY_CODE = SURZ_CATEGORY.CATEGORY_CODE"
+      },
+      {
+        "JOIN_ID": "J004",
+        "LEFT_TABLE": "SURZ_ORDER",
+        "RIGHT_TABLE": "SURZ_CUSTOMER",
+        "JOIN_TYPE": "LEFT",
+        "JOIN_CONDITION": "SURZ_ORDER.CUSTOMER_ID = SURZ_CUSTOMER.CUSTOMER_ID"
+      },
+      {
+        "JOIN_ID": "J005",
+        "LEFT_TABLE": "SURZ_ORDER",
+        "RIGHT_TABLE": "SURZ_PARTNER",
+        "JOIN_TYPE": "LEFT",
+        "JOIN_CONDITION": "SURZ_ORDER.PARTNER_ID = SURZ_PARTNER.PARTNER_ID"
+      }
+    ],
+    "COLUMN_GROUPS": [
+      {
+        "GROUP_ID": "G001",
+        "GROUP_NAME": "Sales Facts",
+        "GROUP_DISPLAY_NAME": "Sales Facts",
+        "GROUP_ICON": "📊",
+        "ALLOWED_TYPES": "NUMBER",
+        "DESCRIPTION": "Additive order-line measures (INR / units).",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "LINE_TOTAL",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_LINE_TOTAL",
+            "DISPLAY_NAME": "Line Total",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "SUM",
+            "DESCRIPTION": "Line value in INR — the additive revenue measure of this schema."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "QTY",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_QTY",
+            "DISPLAY_NAME": "Qty",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "SUM",
+            "DESCRIPTION": "Units ordered on the line."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "UNIT_PRICE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_UNIT_PRICE",
+            "DISPLAY_NAME": "Unit Price",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "AVG",
+            "DESCRIPTION": "Price charged per unit (INR). Average across lines — not additive."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "GST_RATE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_GST_RATE",
+            "DISPLAY_NAME": "GST %",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "AVG",
+            "DESCRIPTION": "GST rate applied to the line — a rate, never summed."
+          },
+          { "TABLE_NAME": "SURZ_ORDER_LINE", "DBNAME": "DISC_AMT", "UNIQUE_NAME": "SURZ_ORDER_LINE_DISC_AMT", "DISPLAY_NAME": "Line Discount", "COLTYPE": "NUMBER", "DEFAULTFUNCTION": "SUM", "DESCRIPTION": "Discount given on the line (INR) - additive at line grain." },
+          { "TABLE_NAME": "SURZ_ORDER_LINE", "DBNAME": "TAXABLE_VALUE", "UNIQUE_NAME": "SURZ_ORDER_LINE_TAXABLE_VALUE", "DISPLAY_NAME": "Taxable Value", "COLTYPE": "NUMBER", "DEFAULTFUNCTION": "SUM", "DESCRIPTION": "Line value after discount, before GST (INR) - the net sales measure." },
+          { "TABLE_NAME": "SURZ_ORDER_LINE", "DBNAME": "DISC_PCT", "UNIQUE_NAME": "SURZ_ORDER_LINE_DISC_PCT", "DISPLAY_NAME": "Discount %", "COLTYPE": "NUMBER", "DEFAULTFUNCTION": "AVG", "DESCRIPTION": "Discount percentage applied to the line - a rate, never summed." }
+        ]
+      },
+      {
+        "GROUP_ID": "G002",
+        "GROUP_NAME": "Order Line",
+        "GROUP_DISPLAY_NAME": "Order Line",
+        "GROUP_ICON": "🧾",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Attributes of the order line itself.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "ORDER_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_ORDER_NO",
+            "DISPLAY_NAME": "Order No",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the order header."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "LINE_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_LINE_NO",
+            "DISPLAY_NAME": "Line No",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Line sequence within the order."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "PRODUCT_CODE",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_PRODUCT_CODE",
+            "DISPLAY_NAME": "Instrument Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the instrument master."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER_LINE",
+            "DBNAME": "PRODUCT_NAME",
+            "UNIQUE_NAME": "SURZ_ORDER_LINE_PRODUCT_NAME",
+            "DISPLAY_NAME": "Instrument (as ordered)",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Name captured on the order line."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G003",
+        "GROUP_NAME": "Order",
+        "GROUP_DISPLAY_NAME": "Order",
+        "GROUP_ICON": "📦",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Order header attributes — payment and fulfilment state.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "ORDER_NO",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_NO",
+            "DISPLAY_NAME": "Order No",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Order identifier — COUNT DISTINCT basis for order counts."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "PAY_STATUS",
+            "UNIQUE_NAME": "SURZ_ORDER_PAY_STATUS",
+            "DISPLAY_NAME": "Payment Status",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "PENDING | PAID | COD | REFUNDED | FAILED. Captured revenue = PAID (recognised at payment), or COD once ORDER_STATUS is DELIVERED (recognised on hand-over)."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "PAY_METHOD",
+            "UNIQUE_NAME": "SURZ_ORDER_PAY_METHOD",
+            "DISPLAY_NAME": "Paid By",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Payment instrument used at checkout."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "ORDER_STATUS",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_STATUS",
+            "DISPLAY_NAME": "Order Status",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "NEW | CONFIRMED | PACKED | SHIPPED | DELIVERED | CANCELLED. DELIVERED is what recognises a COD order's cash; a prepaid order is revenue from payment, whatever its fulfilment state."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "DISCOUNT_CODE",
+            "UNIQUE_NAME": "SURZ_ORDER_DISCOUNT_CODE",
+            "DISPLAY_NAME": "Discount Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Discount code applied to the order."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "COURIER",
+            "UNIQUE_NAME": "SURZ_ORDER_COURIER",
+            "DISPLAY_NAME": "Courier",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Carrier the order shipped with."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "CUSTOMER_ID",
+            "UNIQUE_NAME": "SURZ_ORDER_CUSTOMER_ID",
+            "DISPLAY_NAME": "Customer Id",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the customer master."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "CUSTOMER_NAME",
+            "UNIQUE_NAME": "SURZ_ORDER_CUSTOMER_NAME",
+            "DISPLAY_NAME": "Customer (as ordered)",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Name captured on the order."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G004",
+        "GROUP_NAME": "Date",
+        "GROUP_DISPLAY_NAME": "Date",
+        "GROUP_ICON": "📅",
+        "ALLOWED_TYPES": "DATE",
+        "DESCRIPTION": "Dates for time slicing.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "ORDER_DATE",
+            "UNIQUE_NAME": "SURZ_ORDER_ORDER_DATE",
+            "DISPLAY_NAME": "Ordered On",
+            "COLTYPE": "DATE",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Date the order was placed."
+          },
+          {
+            "TABLE_NAME": "SURZ_ORDER",
+            "DBNAME": "PAID_ON",
+            "UNIQUE_NAME": "SURZ_ORDER_PAID_ON",
+            "DISPLAY_NAME": "Paid On",
+            "COLTYPE": "DATE",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Timestamp the online payment was captured (blank while unpaid)."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G005",
+        "GROUP_NAME": "Instrument",
+        "GROUP_DISPLAY_NAME": "Instrument",
+        "GROUP_ICON": "🩺",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Instrument master attributes.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "PRODUCT_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PRODUCT_CODE",
+            "DISPLAY_NAME": "Instrument Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument master key."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "PRODUCT_NAME",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PRODUCT_NAME",
+            "DISPLAY_NAME": "Instrument",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Catalogue name of the instrument."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "CATEGORY_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_CATEGORY_CODE",
+            "DISPLAY_NAME": "Category Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Join key to the category master."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "GRADE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_GRADE",
+            "DISPLAY_NAME": "Steel Grade",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Steel grade of the instrument."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "FINISH",
+            "UNIQUE_NAME": "SURZ_PRODUCT_FINISH",
+            "DISPLAY_NAME": "Finish",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Surface finish."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "PATTERN",
+            "UNIQUE_NAME": "SURZ_PRODUCT_PATTERN",
+            "DISPLAY_NAME": "Pattern",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument pattern."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "LENGTH_MM",
+            "UNIQUE_NAME": "SURZ_PRODUCT_LENGTH_MM",
+            "DISPLAY_NAME": "Length (mm)",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Instrument length — a product attribute, not additive."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "HSN_CODE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_HSN_CODE",
+            "DISPLAY_NAME": "HSN",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "HSN classification code."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "GST_RATE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_GST_RATE",
+            "DISPLAY_NAME": "Catalogue GST %",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "GST rate on the master — a rate, never summed."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "UNIT_PRICE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_UNIT_PRICE",
+            "DISPLAY_NAME": "Catalogue Price",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "List price on the master (INR) — product grain, do not SUM at line grain."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "MRP",
+            "UNIQUE_NAME": "SURZ_PRODUCT_MRP",
+            "DISPLAY_NAME": "List Price",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "MRP on the master (INR) — product grain, do not SUM at line grain."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "STOCK_QTY",
+            "UNIQUE_NAME": "SURZ_PRODUCT_STOCK_QTY",
+            "DISPLAY_NAME": "In Stock",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Current stock snapshot — product grain; repeated on every line, so never SUM it here."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "REORDER_LEVEL",
+            "UNIQUE_NAME": "SURZ_PRODUCT_REORDER_LEVEL",
+            "DISPLAY_NAME": "Reorder At",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Reorder threshold — product grain; never SUM it here."
+          },
+          {
+            "TABLE_NAME": "SURZ_PRODUCT",
+            "DBNAME": "IS_ACTIVE",
+            "UNIQUE_NAME": "SURZ_PRODUCT_IS_ACTIVE",
+            "DISPLAY_NAME": "Listed In Shop",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Y = listed in the storefront."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G006",
+        "GROUP_NAME": "Category",
+        "GROUP_DISPLAY_NAME": "Category",
+        "GROUP_ICON": "🏷",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Catalogue category.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_CATEGORY",
+            "DBNAME": "CATEGORY_CODE",
+            "UNIQUE_NAME": "SURZ_CATEGORY_CATEGORY_CODE",
+            "DISPLAY_NAME": "Category Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Category master key."
+          },
+          {
+            "TABLE_NAME": "SURZ_CATEGORY",
+            "DBNAME": "CATEGORY_NAME",
+            "UNIQUE_NAME": "SURZ_CATEGORY_CATEGORY_NAME",
+            "DISPLAY_NAME": "Category",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Category name shown in the shop."
+          },
+          {
+            "TABLE_NAME": "SURZ_CATEGORY",
+            "DBNAME": "SORT_ORDER",
+            "UNIQUE_NAME": "SURZ_CATEGORY_SORT_ORDER",
+            "DISPLAY_NAME": "Shown In Position",
+            "COLTYPE": "NUMBER",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Display order in the storefront."
+          },
+          {
+            "TABLE_NAME": "SURZ_CATEGORY",
+            "DBNAME": "IS_ACTIVE",
+            "UNIQUE_NAME": "SURZ_CATEGORY_IS_ACTIVE",
+            "DISPLAY_NAME": "Active",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Y = active category."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G007",
+        "GROUP_NAME": "Customer",
+        "GROUP_DISPLAY_NAME": "Customer",
+        "GROUP_ICON": "🏥",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Buying hospital / company and where it ships.",
+        "COLUMNS": [
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "CUSTOMER_ID",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CUSTOMER_ID",
+            "DISPLAY_NAME": "Customer Id",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Customer master key."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "CUSTOMER_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CUSTOMER_NAME",
+            "DISPLAY_NAME": "Contact Name",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Buying contact."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "ORG_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_ORG_NAME",
+            "DISPLAY_NAME": "Hospital / Company",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Organisation the order belongs to."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "CITY",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_CITY",
+            "DISPLAY_NAME": "City",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery city."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "STATE_NAME",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_STATE_NAME",
+            "DISPLAY_NAME": "State",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery state — the geography slicer."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "PINCODE",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_PINCODE",
+            "DISPLAY_NAME": "PIN Code",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Delivery PIN code."
+          },
+          {
+            "TABLE_NAME": "SURZ_CUSTOMER",
+            "DBNAME": "GSTIN",
+            "UNIQUE_NAME": "SURZ_CUSTOMER_GSTIN",
+            "DISPLAY_NAME": "GSTIN",
+            "COLTYPE": "CHAR",
+            "DEFAULTFUNCTION": "",
+            "DESCRIPTION": "Customer GST registration."
+          }
+        ]
+      },
+      {
+        "GROUP_ID": "G008",
+        "GROUP_NAME": "Partner",
+        "GROUP_DISPLAY_NAME": "Partner",
+        "GROUP_ICON": "🤝",
+        "ALLOWED_TYPES": "ANY",
+        "DESCRIPTION": "Referring partner on the order and the partner master. Filter PARTNER_ID not blank to keep partner orders only.",
+        "COLUMNS": [
+          { "TABLE_NAME": "SURZ_ORDER", "DBNAME": "PARTNER_ID", "UNIQUE_NAME": "SURZ_ORDER_PARTNER_ID", "DISPLAY_NAME": "Partner Id", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Referring partner (join key to the partner master). Blank for orders without a partner code." },
+          { "TABLE_NAME": "SURZ_ORDER", "DBNAME": "PARTNER_NAME", "UNIQUE_NAME": "SURZ_ORDER_PARTNER_NAME", "DISPLAY_NAME": "Partner (as ordered)", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner name captured on the order." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "PARTNER_ID", "UNIQUE_NAME": "SURZ_PARTNER_PARTNER_ID", "DISPLAY_NAME": "Partner Id", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner master key (one row per partner application)." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "PARTNER_NAME", "UNIQUE_NAME": "SURZ_PARTNER_PARTNER_NAME", "DISPLAY_NAME": "Partner", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner contact name." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "ORG_NAME", "UNIQUE_NAME": "SURZ_PARTNER_ORG_NAME", "DISPLAY_NAME": "Partner Organisation", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner organisation." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "BUSINESS_TYPE", "UNIQUE_NAME": "SURZ_PARTNER_BUSINESS_TYPE", "DISPLAY_NAME": "Business Type", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Type of partner business." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "CITY", "UNIQUE_NAME": "SURZ_PARTNER_CITY", "DISPLAY_NAME": "Partner City", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner city." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "STATE_NAME", "UNIQUE_NAME": "SURZ_PARTNER_STATE_NAME", "DISPLAY_NAME": "Partner State", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Partner state." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "STATUS", "UNIQUE_NAME": "SURZ_PARTNER_STATUS", "DISPLAY_NAME": "Application Status", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "PENDING | APPROVED | REJECTED. Active partners = APPROVED." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "DISCOUNT_CODE", "UNIQUE_NAME": "SURZ_PARTNER_DISCOUNT_CODE", "DISPLAY_NAME": "Partner Discount Code", "COLTYPE": "CHAR", "DEFAULTFUNCTION": "", "DESCRIPTION": "Discount code issued to the partner." },
+          { "TABLE_NAME": "SURZ_PARTNER", "DBNAME": "DISCOUNT_PCT", "UNIQUE_NAME": "SURZ_PARTNER_DISCOUNT_PCT", "DISPLAY_NAME": "Partner Discount %", "COLTYPE": "NUMBER", "DEFAULTFUNCTION": "AVG", "DESCRIPTION": "Discount percentage granted to the partner - a rate, never summed." }
+        ]
+      }
+    ],
+    "ROW_SECURITY": [],
+    "COLUMN_SECURITY": []
+  }
+}

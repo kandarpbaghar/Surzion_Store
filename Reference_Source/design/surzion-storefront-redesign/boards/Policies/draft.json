@@ -1,0 +1,1076 @@
+{
+ "page": {
+  "obj_name": "Policies",
+  "title": "Policies — Surzion",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Policies — Surzion"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_2",
+    "name": "Section 3",
+    "blocks": [
+     {
+      "id": "p_8d794f_1",
+      "type": "paragraph",
+      "text": "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_8d794f_2",
+      "type": "paragraph",
+      "text": "These Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_8d794f_3",
+      "type": "paragraph",
+      "text": "By accessing the Website or placing an order, you agree to be bound by these Terms.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "2",
+     "fingerprint": "cb685ccf867a989a",
+     "crop": "sections/s02.jpg"
+    }
+   },
+   {
+    "id": "sec_31businessin",
+    "name": "1. Business Information",
+    "blocks": [
+     {
+      "id": "h_d2e583_1",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Business Information"
+     },
+     {
+      "id": "p_d2e583_2",
+      "type": "paragraph",
+      "text": "Brand: Surzion",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_d2e583_3",
+      "type": "paragraph",
+      "text": "Legal/Business Name: Kapson",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_d2e583_4",
+      "type": "paragraph",
+      "text": "Business Structure: Proprietorship",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_d2e583_5",
+      "type": "paragraph",
+      "text": "Country of Operation: India",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "3:1-business-information",
+     "fingerprint": "74c6440bc03254f1",
+     "crop": "sections/s03.jpg"
+    }
+   },
+   {
+    "id": "sec_42useofthewe",
+    "name": "2. Use of the Website",
+    "blocks": [
+     {
+      "id": "h_e51fb5_1",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Use of the Website"
+     },
+     {
+      "id": "p_e51fb5_2",
+      "type": "paragraph",
+      "text": "You agree to use the Website only for lawful purposes and in accordance with these Terms.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_e51fb5_3",
+      "type": "paragraph",
+      "text": "You must not:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "ul_e51fb5_9",
+      "type": "bullet_list",
+      "items": [
+       {
+        "id": "li_e51fb5_4",
+        "text": "Use the Website for fraudulent or unlawful purposes"
+       },
+       {
+        "id": "li_e51fb5_5",
+        "text": "Attempt to gain unauthorized access to the Website or its systems"
+       },
+       {
+        "id": "li_e51fb5_6",
+        "text": "Interfere with the security or operation of the Website"
+       },
+       {
+        "id": "li_e51fb5_7",
+        "text": "Copy, reproduce or misuse Website content without permission"
+       },
+       {
+        "id": "li_e51fb5_8",
+        "text": "Submit false, misleading or fraudulent information"
+       }
+      ],
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "4:2-use-of-the-website",
+     "fingerprint": "e021573f1ad42aa3",
+     "crop": "sections/s04.jpg"
+    }
+   },
+   {
+    "id": "sec_53products",
+    "name": "3. Products",
+    "blocks": [
+     {
+      "id": "h_4a1802_1",
+      "type": "heading",
+      "level": 2,
+      "text": "3. Products"
+     },
+     {
+      "id": "p_4a1802_2",
+      "type": "paragraph",
+      "text": "surzion offers surgical and related instruments and products.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_4a1802_3",
+      "type": "paragraph",
+      "text": "We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_4a1802_4",
+      "type": "paragraph",
+      "text": "However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_4a1802_5",
+      "type": "paragraph",
+      "text": "Product images may be for representation purposes and should be read together with the product specifications and description.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "5:3-products",
+     "fingerprint": "729771e75dd4edc7",
+     "crop": "sections/s05.jpg"
+    }
+   },
+   {
+    "id": "sec_64prices",
+    "name": "4. Prices",
+    "blocks": [
+     {
+      "id": "h_f2d642_1",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Prices"
+     },
+     {
+      "id": "p_f2d642_2",
+      "type": "paragraph",
+      "text": "All product prices displayed on the Website are subject to change without prior notice.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_f2d642_3",
+      "type": "paragraph",
+      "text": "Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_f2d642_4",
+      "type": "paragraph",
+      "text": "We reserve the right to correct pricing, product-description or other inadvertent errors.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_f2d642_5",
+      "type": "paragraph",
+      "text": "If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "6:4-prices",
+     "fingerprint": "bda9525cdcde5072",
+     "crop": "sections/s06.jpg"
+    }
+   },
+   {
+    "id": "sec_75orders",
+    "name": "5. Orders",
+    "blocks": [
+     {
+      "id": "h_6193a8_1",
+      "type": "heading",
+      "level": 2,
+      "text": "5. Orders"
+     },
+     {
+      "id": "p_6193a8_2",
+      "type": "paragraph",
+      "text": "Placing an order constitutes a request to purchase the selected product.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_6193a8_3",
+      "type": "paragraph",
+      "text": "An order may be subject to verification and acceptance by Surzion.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_6193a8_4",
+      "type": "paragraph",
+      "text": "We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "ul_6193a8_11",
+      "type": "bullet_list",
+      "items": [
+       {
+        "id": "li_6193a8_5",
+        "text": "Product unavailability"
+       },
+       {
+        "id": "li_6193a8_6",
+        "text": "Pricing or listing errors"
+       },
+       {
+        "id": "li_6193a8_7",
+        "text": "Suspected fraudulent transactions"
+       },
+       {
+        "id": "li_6193a8_8",
+        "text": "Incorrect customer information"
+       },
+       {
+        "id": "li_6193a8_9",
+        "text": "Shipping restrictions"
+       },
+       {
+        "id": "li_6193a8_10",
+        "text": "Circumstances beyond our reasonable control"
+       }
+      ],
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_6193a8_12",
+      "type": "paragraph",
+      "text": "If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "7:5-orders",
+     "fingerprint": "3490d3edde3931e2",
+     "crop": "sections/s07.jpg"
+    }
+   },
+   {
+    "id": "sec_86payment",
+    "name": "6. Payment",
+    "blocks": [
+     {
+      "id": "h_40c691_1",
+      "type": "heading",
+      "level": 2,
+      "text": "6. Payment"
+     },
+     {
+      "id": "p_40c691_2",
+      "type": "paragraph",
+      "text": "surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_40c691_3",
+      "type": "paragraph",
+      "text": "Payment processing may be handled by third-party payment service providers.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "8:6-payment",
+     "fingerprint": "ac913085833d5825",
+     "crop": "sections/s08.jpg"
+    }
+   },
+   {
+    "id": "sec_97shippingan",
+    "name": "7. Shipping and Delivery",
+    "blocks": [
+     {
+      "id": "h_695640_1",
+      "type": "heading",
+      "level": 2,
+      "text": "7. Shipping and Delivery"
+     },
+     {
+      "id": "p_695640_2",
+      "type": "paragraph",
+      "text": "Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_695640_3",
+      "type": "paragraph",
+      "text": "After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_695640_4",
+      "type": "paragraph",
+      "text": "Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_695640_5",
+      "type": "paragraph",
+      "text": "Delivery timelines are estimates and may be affected by:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "ul_695640_14",
+      "type": "bullet_list",
+      "items": [
+       {
+        "id": "li_695640_6",
+        "text": "Public holidays"
+       },
+       {
+        "id": "li_695640_7",
+        "text": "Weather conditions"
+       },
+       {
+        "id": "li_695640_8",
+        "text": "Courier delays"
+       },
+       {
+        "id": "li_695640_9",
+        "text": "Incorrect or incomplete addresses"
+       },
+       {
+        "id": "li_695640_10",
+        "text": "Remote-area delivery"
+       },
+       {
+        "id": "li_695640_11",
+        "text": "Natural disasters"
+       },
+       {
+        "id": "li_695640_12",
+        "text": "Government restrictions"
+       },
+       {
+        "id": "li_695640_13",
+        "text": "Other circumstances beyond our reasonable control"
+       }
+      ],
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "9:7-shipping-and-delivery",
+     "fingerprint": "a28620e886b6198c",
+     "crop": "sections/s09.jpg"
+    }
+   },
+   {
+    "id": "sec_108cancellat",
+    "name": "8. Cancellation",
+    "blocks": [
+     {
+      "id": "h_a22bc8_1",
+      "type": "heading",
+      "level": 2,
+      "text": "8. Cancellation"
+     },
+     {
+      "id": "p_a22bc8_2",
+      "type": "paragraph",
+      "text": "Customers may request cancellation of an order before the order has been dispatched.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_a22bc8_3",
+      "type": "paragraph",
+      "text": "Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_a22bc8_4",
+      "type": "paragraph",
+      "text": "If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "10:8-cancellation",
+     "fingerprint": "a66ebb8075337fb9",
+     "crop": "sections/s10.jpg"
+    }
+   },
+   {
+    "id": "sec_119returnsre",
+    "name": "9. Returns, Refunds and Replacements",
+    "blocks": [
+     {
+      "id": "h_4291ac_1",
+      "type": "heading",
+      "level": 2,
+      "text": "9. Returns, Refunds and Replacements"
+     },
+     {
+      "id": "p_4291ac_2",
+      "type": "paragraph",
+      "text": "Returns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_4291ac_3",
+      "type": "paragraph",
+      "text": "Customers are advised to review that policy before placing an order.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "11:9-returns-refunds-and-replacements",
+     "fingerprint": "ace547c7b0d41cd7",
+     "crop": "sections/s11.jpg"
+    }
+   },
+   {
+    "id": "sec_1210oneyearr",
+    "name": "10. One-Year Replacement Warranty",
+    "blocks": [
+     {
+      "id": "h_872ded_1",
+      "type": "heading",
+      "level": 2,
+      "text": "10. One-Year Replacement Warranty"
+     },
+     {
+      "id": "p_872ded_2",
+      "type": "paragraph",
+      "text": "Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_872ded_3",
+      "type": "paragraph",
+      "text": "The warranty does not generally cover damage resulting from:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "ul_872ded_12",
+      "type": "bullet_list",
+      "items": [
+       {
+        "id": "li_872ded_4",
+        "text": "Improper use"
+       },
+       {
+        "id": "li_872ded_5",
+        "text": "Accidental damage"
+       },
+       {
+        "id": "li_872ded_6",
+        "text": "Negligence"
+       },
+       {
+        "id": "li_872ded_7",
+        "text": "Unauthorized modification or repair"
+       },
+       {
+        "id": "li_872ded_8",
+        "text": "Improper cleaning or maintenance"
+       },
+       {
+        "id": "li_872ded_9",
+        "text": "Normal wear and tear"
+       },
+       {
+        "id": "li_872ded_10",
+        "text": "Corrosion or damage caused by improper storage or care"
+       },
+       {
+        "id": "li_872ded_11",
+        "text": "Damage resulting from use contrary to the product’s intended purpose"
+       }
+      ],
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_872ded_13",
+      "type": "paragraph",
+      "text": "Warranty eligibility will be determined after inspection of the returned product.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "12:10-one-year-replacement-warranty",
+     "fingerprint": "14776c08a9ca26b5",
+     "crop": "sections/s12.jpg"
+    }
+   },
+   {
+    "id": "sec_1311intellec",
+    "name": "11. Intellectual Property",
+    "blocks": [
+     {
+      "id": "h_cc91df_1",
+      "type": "heading",
+      "level": 2,
+      "text": "11. Intellectual Property"
+     },
+     {
+      "id": "p_cc91df_2",
+      "type": "paragraph",
+      "text": "All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_cc91df_3",
+      "type": "paragraph",
+      "text": "You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "13:11-intellectual-property",
+     "fingerprint": "5dc9e74955599a31",
+     "crop": "sections/s13.jpg"
+    }
+   },
+   {
+    "id": "sec_1412thirdpar",
+    "name": "12. Third-Party Services",
+    "blocks": [
+     {
+      "id": "h_f8e009_1",
+      "type": "heading",
+      "level": 2,
+      "text": "12. Third-Party Services"
+     },
+     {
+      "id": "p_f8e009_2",
+      "type": "paragraph",
+      "text": "The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_f8e009_3",
+      "type": "paragraph",
+      "text": "Your use of such services may also be subject to the terms and policies of those third parties.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "14:12-third-party-services",
+     "fingerprint": "f3035fee0401455c",
+     "crop": "sections/s14.jpg"
+    }
+   },
+   {
+    "id": "sec_1513limitati",
+    "name": "13. Limitation of Liability",
+    "blocks": [
+     {
+      "id": "h_25440b_1",
+      "type": "heading",
+      "level": 2,
+      "text": "13. Limitation of Liability"
+     },
+     {
+      "id": "p_25440b_2",
+      "type": "paragraph",
+      "text": "To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_25440b_3",
+      "type": "paragraph",
+      "text": "Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "15:13-limitation-of-liability",
+     "fingerprint": "f5a5053bdd5b896c",
+     "crop": "sections/s15.jpg"
+    }
+   },
+   {
+    "id": "sec_1614forcemaj",
+    "name": "14. Force Majeure",
+    "blocks": [
+     {
+      "id": "h_aeec4e_1",
+      "type": "heading",
+      "level": 2,
+      "text": "14. Force Majeure"
+     },
+     {
+      "id": "p_aeec4e_2",
+      "type": "paragraph",
+      "text": "surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "16:14-force-majeure",
+     "fingerprint": "814a7b33f234191a",
+     "crop": "sections/s16.jpg"
+    }
+   },
+   {
+    "id": "sec_1715governin",
+    "name": "15. Governing Law",
+    "blocks": [
+     {
+      "id": "h_80de47_1",
+      "type": "heading",
+      "level": 2,
+      "text": "15. Governing Law"
+     },
+     {
+      "id": "p_80de47_2",
+      "type": "paragraph",
+      "text": "These Terms shall be governed by the laws applicable in India.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_80de47_3",
+      "type": "paragraph",
+      "text": "Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "17:15-governing-law",
+     "fingerprint": "861838dd04eb55af",
+     "crop": "sections/s17.jpg"
+    }
+   },
+   {
+    "id": "sec_1816changest",
+    "name": "16. Changes to These Terms",
+    "blocks": [
+     {
+      "id": "h_3c51dc_1",
+      "type": "heading",
+      "level": 2,
+      "text": "16. Changes to These Terms"
+     },
+     {
+      "id": "p_3c51dc_2",
+      "type": "paragraph",
+      "text": "surzion may update these Terms from time to time.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_3c51dc_3",
+      "type": "paragraph",
+      "text": "The revised Terms will be published on the Website and will become effective from the date specified in the updated version.",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "18:16-changes-to-these-terms",
+     "fingerprint": "1f871b70eb5e55c0",
+     "crop": "sections/s18.jpg"
+    }
+   },
+   {
+    "id": "sec_1917contact",
+    "name": "17. Contact",
+    "blocks": [
+     {
+      "id": "h_95a42f_1",
+      "type": "heading",
+      "level": 2,
+      "text": "17. Contact"
+     },
+     {
+      "id": "p_95a42f_2",
+      "type": "paragraph",
+      "text": "For questions regarding these Terms, orders or products:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_95a42f_3",
+      "type": "paragraph",
+      "text": "KAPSON ( surzion )",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_95a42f_4",
+      "type": "paragraph",
+      "text": "Email: sales@surzion.com",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_95a42f_5",
+      "type": "paragraph",
+      "text": "Phone: +917814861010, +918195831010",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_95a42f_6",
+      "type": "paragraph",
+      "text": "Address:",
+      "style": {
+       "textColor": "#33415f"
+      }
+     },
+     {
+      "id": "p_95a42f_7",
+      "type": "paragraph",
+      "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+      "style": {
+       "textColor": "#33415f"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "key": "19:17-contact",
+     "fingerprint": "bd9e3eb1198b7abb",
+     "crop": "sections/s19.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+   "captured_at": "2026-10-09T13:08:09Z",
+   "page_fingerprint": "07b7d92cf7c85370",
+   "draft_version": 1
+  }
+ }
+}

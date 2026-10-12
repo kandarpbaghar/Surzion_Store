@@ -1,0 +1,20 @@
+{
+  "id": "c8d086ce-4068-4cb3-bd17-3a23b362ae85",
+  "project": "Surzion_Store",
+  "backend": "claude",
+  "title": "On the partner portal page (surz_partner_portal), add a \"Your referral performan",
+  "kind": "modify",
+  "status": "completed",
+  "description": "On the partner portal page (surz_partner_portal), add a \"Your referral performan",
+  "created_at": 1791545111.2458181,
+  "updated_at": 1791545147.394675,
+  "todos": [],
+  "phases": [],
+  "originating_prompt": "On the partner portal page (surz_partner_portal), add a \"Your referral performance\" infographic under the \"Orders claimed with my code\" heading, in the Claude Design style of this site (Surzion navy #0E2358, blue #2F6BE6, Poppins):\n\n- a bar chart of the signed-in partner's claimed orders per month (last 6 months), and the discount they gave per month as a second series,\n- a big \"Total your followers saved\" number that counts up when the card appears,\n- hovering a bar shows that month's orders and savings.\n\nUse the partner's real claimed orders (surz_partner_order), not sample numbers, and show a friendly empty state when there are none yet. No standard block draws this, so build it the way the platform expects for that.",
+  "resume_ref": {
+    "session_id": "741643d1-5fe6-48b2-8257-c3f96c8b3d26",
+    "claude_session_id": "34f14ff4-cc90-4011-b209-47c1570cb891"
+  },
+  "depends_on": [],
+  "result_summary": "Need the surz_partner_order columns and how the T data source filters to the signed-in partner.I added the \"Your referral performance\" infographic to `surz_partner_portal` as a `custom_code` block. I haven't opened the page in preview, so none of it has been checked on screen or against real data.\n\n**What it does**\n- **Placement:** it sits right under the \"Orders claimed with my code\" heading and its note, above the order filter. It is visible to the `partner` role only.\n- **Chart:** a Chart.js bar chart for the last 6 months. Orders claimed is the navy series and discount given is the blue series. Discount is on its own right-hand axis because the two numbers are on very different scales.\n- **Count-up:** the \"Total your followers saved\" number counts up when the card fades in.\n- **Hover:** hovering a month shows that month's orders and savings.\n- **Style:** Poppins, #0E2358 and #2F6BE6, white card with rounded corners.\n- **Real data:** it reads `surz_partner_order` through a new page data source, `ds_claimed_orders`. Orders and savings are added up by order month from `ORDER_DATE` and `DISCOUNT_AMT`.\n- **Empty state:** with no claimed orders in the last 6 months it shows \"No claimed orders yet\" with a short explanation. A load failure shows a \"Could not load your performance\" message.\n\n**Things to check**\n- The data source has no filter for the signed-in partner. I'm relying on `surz_partner_order` being limited to the partner's own orders, as the existing orders list embed on this page is. Please confirm in preview that only the signed-in partner's orders are counted.\n- Amounts are shown in \u20b9.\n- The data source fetches at most 1,000 orders, newest first.\n- This relies on live data access, so it works on the live page but not on a published static site.\n\nI didn't update `requirement_doc.md`, since the project has none.\n\nThe only file touched is `Metadata_Model/page_models/model_surz_partner_portal.json`.\n\nFiles touched: Metadata_Model/page_models/model_surz_partner_portal.json"
+}

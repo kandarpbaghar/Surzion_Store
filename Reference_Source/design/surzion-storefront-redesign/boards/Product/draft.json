@@ -1,0 +1,161 @@
+{
+ "page": {
+  "obj_name": "Product",
+  "title": "Artery Forceps Robert — Surzion",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Artery Forceps Robert — Surzion"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0",
+    "name": "Section 1",
+    "blocks": [
+     {
+      "id": "ico_68c72b_1",
+      "type": "image",
+      "url": "svg:38dc10a43682ed36fba6",
+      "alt": "",
+      "maxWidth": 18,
+      "align": "left"
+     },
+     {
+      "id": "ico_68c72b_2",
+      "type": "image",
+      "url": "svg:38dc10a43682ed36fba6",
+      "alt": "",
+      "maxWidth": 18,
+      "align": "left"
+     },
+     {
+      "id": "ico_68c72b_3",
+      "type": "image",
+      "url": "svg:38dc10a43682ed36fba6",
+      "alt": "",
+      "maxWidth": 18,
+      "align": "left"
+     },
+     {
+      "id": "ico_68c72b_4",
+      "type": "image",
+      "url": "svg:38dc10a43682ed36fba6",
+      "alt": "",
+      "maxWidth": 18,
+      "align": "left"
+     },
+     {
+      "id": "ico_68c72b_5",
+      "type": "image",
+      "url": "svg:38dc10a43682ed36fba6",
+      "alt": "",
+      "maxWidth": 18,
+      "align": "left"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Product.dc.html",
+     "key": "0",
+     "fingerprint": "8e26fe8f00c9f2b5",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_3",
+    "name": "Section 4",
+    "blocks": [
+     {
+      "id": "btn_a9fe9b_1",
+      "type": "button",
+      "button": {
+       "id": "btn_a9fe9b_2",
+       "label": "Helpful (6)",
+       "variant": "outline",
+       "size": "sm"
+      },
+      "align": "right"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Product.dc.html",
+     "key": "3",
+     "fingerprint": "b33fbd0aa5fae7ab",
+     "crop": "sections/s03.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/Product.dc.html",
+   "captured_at": "2026-10-09T13:07:39Z",
+   "page_fingerprint": "a36e1ec6f73930b3",
+   "draft_version": 1
+  }
+ }
+}

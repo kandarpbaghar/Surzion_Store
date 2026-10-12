@@ -1,0 +1,292 @@
+{
+ "version": 1,
+ "pages": {
+  "surz_home": {
+   "url": "https://surzion.com/",
+   "page_fingerprint": "3124d2636f00ee60",
+   "captured_at": "2026-10-08T13:55:49Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:product-categories": "78d203db9ebdefcb"
+   }
+  },
+  "surz_shop": {
+   "url": "https://surzion.com/shop",
+   "page_fingerprint": "122d77bca1cdc1b4",
+   "captured_at": "2026-10-08T13:56:05Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:browse-by": "084008fe32dddb26"
+   }
+  },
+  "surz_about": {
+   "url": "https://surzion.com/about",
+   "page_fingerprint": "ebe13a27525556e0",
+   "captured_at": "2026-10-08T13:56:17Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:about-surzion": "6de4809ef3bd7aad"
+   }
+  },
+  "surz_contact": {
+   "url": "https://surzion.com/contact",
+   "page_fingerprint": "84dba8a77f91cf77",
+   "captured_at": "2026-10-08T13:56:27Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:contact-us": "367e9212ad29e96b"
+   }
+  },
+  "surz_privacy": {
+   "url": "https://surzion.com/privacy-policy",
+   "page_fingerprint": "1a5f4e827573bc99",
+   "captured_at": "2026-10-08T13:56:39Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:privacy-policy": "c29e78e62fcffd2f"
+   }
+  },
+  "surz_terms": {
+   "url": "https://surzion.com/terms-and-conditions",
+   "page_fingerprint": "3fafc4ff3ef4cd71",
+   "captured_at": "2026-10-08T13:56:54Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:terms-and-conditions": "a5a0355b86123844"
+   }
+  },
+  "surz_returns": {
+   "url": "https://surzion.com/refund-policy",
+   "page_fingerprint": "6a149cd4e61095f6",
+   "captured_at": "2026-10-08T13:57:04Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:returns-refunds-policy": "596fd285d6fad714"
+   }
+  },
+  "surz_p_adenoid_curette_with_cage_surgical_instruments": {
+   "url": "https://surzion.com/adenoid-curette-with-cage-surgical-instruments",
+   "page_fingerprint": "3857483777786da9",
+   "captured_at": "2026-10-08T13:57:19Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:adenoid-curette-with-cage": "678d8f9544a1c8e1"
+   }
+  },
+  "surz_p_adson_beckman_retractor": {
+   "url": "https://surzion.com/adson-beckman-retractor",
+   "page_fingerprint": "85c8f81be742ce3b",
+   "captured_at": "2026-10-08T13:57:29Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:adson-beckman-retractor": "e6c014269588311f"
+   }
+  },
+  "surz_p_adson_brown_tissue_forceps": {
+   "url": "https://surzion.com/adson-brown-tissue-forceps",
+   "page_fingerprint": "032df45b38097f6d",
+   "captured_at": "2026-10-08T13:57:43Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:adson-brown-tissue-forceps": "e2135b3afa4453a1"
+   }
+  },
+  "surz_p_adson_brown_tissue_forceps1": {
+   "url": "https://surzion.com/adson-brown-tissue-forceps1",
+   "page_fingerprint": "deb1a039b7bf8d26",
+   "captured_at": "2026-10-08T13:57:56Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:adson-brown-tissue-forceps": "6e0dee4a496ebe73"
+   }
+  },
+  "surz_p_premium_surgical_instruments_2": {
+   "url": "https://surzion.com/premium-surgical-instruments-2",
+   "page_fingerprint": "e41da392161d5c23",
+   "captured_at": "2026-10-08T13:58:05Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:adson-dissecting-forceps-plain": "376a74150684a2cb"
+   }
+  },
+  "surz_p_allis_tissue_forceps_surgical_tissue_forceps": {
+   "url": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps",
+   "page_fingerprint": "9cdcd6a57ec47239",
+   "captured_at": "2026-10-08T13:58:20Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:allis-tissue-forceps": "83139bace6f5b64c"
+   }
+  },
+  "surz_p_allis_tissue_forceps_autragrip": {
+   "url": "https://surzion.com/allis-tissue-forceps-autragrip",
+   "page_fingerprint": "054c6772331aa094",
+   "captured_at": "2026-10-08T13:58:35Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:allis-tissue-forceps-autagrip": "31b399d7ff77bc1d"
+   }
+  },
+  "surz_p_allison_lung_retractor": {
+   "url": "https://surzion.com/allison-lung-retractor",
+   "page_fingerprint": "6fd12e5e436d4524",
+   "captured_at": "2026-10-08T13:58:46Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:allison-lung-retractor": "d68902e3617c33d9"
+   }
+  },
+  "surz_p_anderson_tendon_tunneling_forceps": {
+   "url": "https://surzion.com/anderson-tendon-tunneling-forceps",
+   "page_fingerprint": "1565c8b2733770b4",
+   "captured_at": "2026-10-08T13:58:58Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:anderson-tendon-tunneling-forceps": "c2d0c80624c951b8"
+   }
+  },
+  "surz_p_artery_forceps_crile": {
+   "url": "https://surzion.com/artery-forceps-crile",
+   "page_fingerprint": "9a7289cc83d67a80",
+   "captured_at": "2026-10-08T13:59:10Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-crile": "30ee7f47785b6c70"
+   }
+  },
+  "surz_p_artery_forceps_kocher": {
+   "url": "https://surzion.com/artery-forceps-kocher",
+   "page_fingerprint": "32f37dae8eff5716",
+   "captured_at": "2026-10-08T13:59:23Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-kocher": "b221910615482549"
+   }
+  },
+  "surz_p_artery_forceps_ochsner": {
+   "url": "https://surzion.com/artery-forceps-ochsner",
+   "page_fingerprint": "6fbac2dcf43c7294",
+   "captured_at": "2026-10-08T13:59:39Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-ochsner": "19d44b95adbf013a"
+   }
+  },
+  "surz_p_artery_forceps_pean": {
+   "url": "https://surzion.com/artery-forceps-pean",
+   "page_fingerprint": "bc3083a0c4765929",
+   "captured_at": "2026-10-08T13:59:50Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-pean": "db7725117dc73356"
+   }
+  },
+  "surz_p_artery_forceps_robert_hemostatic_forceps": {
+   "url": "https://surzion.com/artery-forceps-robert-hemostatic-forceps",
+   "page_fingerprint": "f1697f04553320a1",
+   "captured_at": "2026-10-08T14:00:00Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-robert": "94adcea970d0dddb"
+   }
+  },
+  "surz_p_bp_handle_bayonet_5": {
+   "url": "https://surzion.com/bp-handle-bayonet-5",
+   "page_fingerprint": "dbf2b90a0c0368df",
+   "captured_at": "2026-10-08T14:00:12Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:b-p-handle-bayonet": "dd68b45442f0e867"
+   }
+  },
+  "surz_p_babcock_forceps_autogrip": {
+   "url": "https://surzion.com/babcock-forceps-autogrip",
+   "page_fingerprint": "ca4ae40ecf478d35",
+   "captured_at": "2026-10-08T14:00:25Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:babcock-forceps-autogrip": "bf90f1bad30255d4"
+   }
+  },
+  "surz_p_bulldog_clamps": {
+   "url": "https://surzion.com/bulldog-clamps",
+   "page_fingerprint": "13ea07793f64ee42",
+   "captured_at": "2026-10-08T14:00:38Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:babcock-forceps-tc": "10d894741fc3dabc"
+   }
+  },
+  "surz_p_birkett_tonsil_artery_forceps": {
+   "url": "https://surzion.com/birkett-tonsil-artery-forceps",
+   "page_fingerprint": "18fba6531b245853",
+   "captured_at": "2026-10-08T14:00:49Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:birkett-tonsil-artery-forceps": "d783c3cf146c9005"
+   }
+  },
+  "surz_p_dandy_artery_forceps_55": {
+   "url": "https://surzion.com/dandy-artery-forceps-55",
+   "page_fingerprint": "bee284276432610f",
+   "captured_at": "2026-10-08T14:00:59Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:bone-hook": "2d3f0bf164e36c21"
+   }
+  },
+  "surz_p_bone_reduction_clamp_towel_type": {
+   "url": "https://surzion.com/bone-reduction-clamp-towel-type",
+   "page_fingerprint": "6334a35aa758a586",
+   "captured_at": "2026-10-08T14:01:10Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:bone-reduction-clamp-towel-type": "8270625251feee37"
+   }
+  },
+  "surz_p_bulldog_clamps1": {
+   "url": "https://surzion.com/bulldog-clamps1",
+   "page_fingerprint": "1dc475f0f649cd22",
+   "captured_at": "2026-10-08T14:01:24Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:artery-forceps-dandy": "8b74fd29a59d8a25"
+   }
+  },
+  "surz_p_castpaw_retractor_kilner_retractor": {
+   "url": "https://surzion.com/castpaw-retractor-kilner-retractor",
+   "page_fingerprint": "3ccc58e6e846c144",
+   "captured_at": "2026-10-08T14:01:32Z",
+   "sections": {
+    "0": "f2c93da64630a5b8",
+    "1:castpaw-retractor-kilner-retractor": "45b5a819d905b2d1"
+   }
+  }
+ },
+ "chrome": {
+  "header_text": "Home\nShop\nAbout\nOnline catalogue\ncart\nDownload Catalogue",
+  "footer_text": ""
+ },
+ "menus_live": {
+  "header": [
+   {
+    "label": "Home",
+    "page": "surz_home"
+   },
+   {
+    "label": "Shop",
+    "page": "surz_shop"
+   },
+   {
+    "label": "About",
+    "page": "surz_about"
+   },
+   {
+    "label": "Online catalogue",
+    "href": "/online-catalogue"
+   }
+  ]
+ },
+ "synced_at": "2026-10-08T14:13:51Z",
+ "last_plan": "20261008T135535Z-eb44a6"
+}

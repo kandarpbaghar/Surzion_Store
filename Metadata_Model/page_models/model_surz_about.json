@@ -1,0 +1,693 @@
+{
+  "page": {
+    "obj_name": "surz_about",
+    "title": "About",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "inputs": [],
+    "actions": [],
+    "blocks": [],
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "seo": {
+      "title": "About Surzion \u2014 the surgical excellence",
+      "description": "Surzion manufactures surgical, orthopaedic and dissecting instruments in Jalandhar, Punjab."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "sections": [
+      {
+        "id": "sec_hero",
+        "name": "Hero",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 96,
+            "bottom": 96
+          },
+          "background": {
+            "kind": "image",
+            "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/5fdc4a4d4f71350a.jpg",
+            "overlay": "rgba(8,20,52,0.58)",
+            "parallax": true
+          }
+        },
+        "blocks": [
+          {
+            "id": "hero_h",
+            "type": "heading",
+            "level": 1,
+            "eyebrow": "About Surzion",
+            "text": "Experience builds vision, and vision creates innovation.",
+            "style": {
+              "typography": {
+                "fontSize": 44,
+                "maxWidth": 720
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_intro",
+        "name": "About surzion",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "intro_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "center",
+            "columns": [
+              {
+                "id": "intro_c1",
+                "blocks": [
+                  {
+                    "id": "intro_h",
+                    "type": "heading",
+                    "level": 1,
+                    "eyebrow": "Who we are",
+                    "text": "About surzion"
+                  },
+                  {
+                    "id": "intro_tag",
+                    "type": "paragraph",
+                    "text": "Experience builds vision, and vision creates innovation.",
+                    "style": {
+                      "textColor": "var(--pg-accent)",
+                      "typography": {
+                        "fontSize": 20
+                      }
+                    }
+                  },
+                  {
+                    "id": "intro_p1",
+                    "type": "paragraph",
+                    "text": "With over 7 years of experience in medical sales and marketing, our journey led us to establish KAPSONS \u2014 a company born from passion and precision."
+                  },
+                  {
+                    "id": "intro_p2",
+                    "type": "paragraph",
+                    "text": "From this journey came SURZION, a brand designed to represent The Surgical Excellence."
+                  },
+                  {
+                    "id": "intro_p3",
+                    "type": "paragraph",
+                    "text": "Our instruments, made with 410, 420, and 316-grade stainless steel, as well as tungsten carbide and titanium materials, meet international standards of quality."
+                  },
+                  {
+                    "id": "intro_p4",
+                    "type": "paragraph",
+                    "text": "Certified with ISO and CE, we are driven by one mission \u2014 to empower surgeons with reliable and innovative instruments that define perfection."
+                  }
+                ]
+              },
+              {
+                "id": "intro_c2",
+                "blocks": [
+                  {
+                    "id": "intro_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/bdf4706f1b4dca55.jpg",
+                    "alt": "Set of shiny dental and surgical instruments arranged on a hexagon-patterned cloth",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 548,
+                    "naturalWidth": 548,
+                    "naturalHeight": 544
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_stats",
+        "name": "Stats",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 56,
+            "bottom": 56
+          }
+        },
+        "blocks": [
+          {
+            "id": "stats_row",
+            "type": "stats",
+            "columns": 2,
+            "align": "center",
+            "items": [
+              {
+                "id": "stat_1",
+                "value": "150",
+                "suffix": "+",
+                "label": "Trusted by professionals"
+              },
+              {
+                "id": "stat_2",
+                "value": "15",
+                "label": "Quality assured"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_gallery",
+        "name": "Gallery",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "gallery",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "gal_h",
+            "type": "heading",
+            "level": 2,
+            "eyebrow": "Gallery",
+            "text": "Explore our range of high-quality surgical instruments.",
+            "style": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "gal_grid",
+            "type": "gallery",
+            "columns": 4,
+            "gap": 16,
+            "rounded": true,
+            "items": [
+              {
+                "id": "g1",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/99faca9473759223.jpg",
+                "caption": "Artery forceps (TC)"
+              },
+              {
+                "id": "g2",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e095d0a13a8b5501.jpg",
+                "caption": "Beckman Eaton retractor"
+              },
+              {
+                "id": "g3",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/6f70e1548749eb5f.jpg",
+                "caption": "Alexander biopsy forceps"
+              },
+              {
+                "id": "g4",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a78f578d321b6e3e.jpg",
+                "caption": "Adson periosteal elevator"
+              },
+              {
+                "id": "g5",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ae08c48cb48e8e85.jpg",
+                "caption": "Heath suture cutting scissor"
+              },
+              {
+                "id": "g6",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c2bb968abe011ad9.jpg",
+                "caption": "Volkmann bone curette, fibre handle"
+              },
+              {
+                "id": "g7",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/cf42a9457f5518fd.jpg",
+                "caption": "Castroviejo needle holder, round T.C."
+              },
+              {
+                "id": "g8",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/1762fc785c6aab47.jpg",
+                "caption": "Adson dissecting forceps, toothed T.C."
+              }
+            ]
+          },
+          {
+            "id": "gal_card",
+            "type": "image",
+            "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e2c1271ed4ecc57d.jpg",
+            "alt": "Kapsons business card",
+            "rounded": true,
+            "shadow": true,
+            "align": "center",
+            "maxWidth": 560,
+            "naturalWidth": 768,
+            "naturalHeight": 355
+          }
+        ]
+      },
+      {
+        "id": "sec_band1",
+        "name": "Surgical Instruments",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "band1_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "center",
+            "columns": [
+              {
+                "id": "b1_t",
+                "blocks": [
+                  {
+                    "id": "b1_h",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Surgical Instruments"
+                  },
+                  {
+                    "id": "b1_p",
+                    "type": "paragraph",
+                    "text": "Quality wholesale supplier for healthcare professionals in India."
+                  }
+                ]
+              },
+              {
+                "id": "b1_i",
+                "blocks": [
+                  {
+                    "id": "b1_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0905b8f4c26b5f13.jpg",
+                    "alt": "Baby Balfour retractor, a Surzion surgical instrument",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 520,
+                    "naturalWidth": 768,
+                    "naturalHeight": 758
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_band2",
+        "name": "Quality Instruments",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "band2_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "center",
+            "columns": [
+              {
+                "id": "b2_i",
+                "blocks": [
+                  {
+                    "id": "b2_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/19b9fc943aee9084.jpg",
+                    "alt": "Surzion surgical tools prepared for medical institutions",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 520,
+                    "naturalWidth": 768,
+                    "naturalHeight": 804
+                  }
+                ]
+              },
+              {
+                "id": "b2_t",
+                "blocks": [
+                  {
+                    "id": "b2_h",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Quality Instruments"
+                  },
+                  {
+                    "id": "b2_p",
+                    "type": "paragraph",
+                    "text": "Reliable surgical tools for medical institutions and professionals."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_band3",
+        "name": "Titanium Instruments",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "band3_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "center",
+            "columns": [
+              {
+                "id": "b3_t",
+                "blocks": [
+                  {
+                    "id": "b3_h",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Titanium Instruments"
+                  },
+                  {
+                    "id": "b3_p",
+                    "type": "paragraph",
+                    "text": "Supporting the medical community with our products."
+                  }
+                ]
+              },
+              {
+                "id": "b3_i",
+                "blocks": [
+                  {
+                    "id": "b3_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/47910bcceb0b2ca1.jpg",
+                    "alt": "Titanium surgical instruments from Surzion",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 520,
+                    "naturalWidth": 768,
+                    "naturalHeight": 794
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_band4",
+        "name": "Wide Range and Healthcare Support",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "band4_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 40,
+            "align": "top",
+            "columns": [
+              {
+                "id": "b4_a",
+                "blocks": [
+                  {
+                    "id": "b4_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/1199326256dbea7d.jpg",
+                    "alt": "Wide range of high-quality medical instruments",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 520,
+                    "naturalWidth": 768,
+                    "naturalHeight": 390
+                  },
+                  {
+                    "id": "b4_h",
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Wide Range"
+                  },
+                  {
+                    "id": "b4_p",
+                    "type": "paragraph",
+                    "text": "Diverse selection of high-quality medical instruments available."
+                  }
+                ]
+              },
+              {
+                "id": "b4_b",
+                "blocks": [
+                  {
+                    "id": "b5_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0b2a67da475b594f.jpg",
+                    "alt": "Surzion team committed to healthcare instrument supply",
+                    "rounded": true,
+                    "shadow": true,
+                    "align": "center",
+                    "maxWidth": 520,
+                    "naturalWidth": 768,
+                    "naturalHeight": 390
+                  },
+                  {
+                    "id": "b5_h",
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Healthcare Support"
+                  },
+                  {
+                    "id": "b5_p",
+                    "type": "paragraph",
+                    "text": "Committed to excellence in medical instrument supply."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_cta",
+        "name": "Closing call to action",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          }
+        },
+        "blocks": [
+          {
+            "id": "cta_close",
+            "type": "cta_banner",
+            "title": "We provide premium surgical solutions for precision care",
+            "subtitle": "Call +91-7814861010 or +91-8195831010",
+            "align": "center",
+            "background": {
+              "kind": "transparent"
+            },
+            "primaryCta": {
+              "id": "cta_contact",
+              "label": "Contact us",
+              "variant": "secondary",
+              "size": "lg",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/contact",
+                "newTab": false
+              }
+            },
+            "secondaryCta": {
+              "id": "cta_shop",
+              "label": "Browse instruments",
+              "variant": "outline",
+              "size": "lg",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/instruments",
+                "newTab": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "source": {
+      "url": "https://surzion.com/about",
+      "captured_at": "2026-10-08T13:56:17Z",
+      "page_fingerprint": "ebe13a27525556e0",
+      "draft_version": 1
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

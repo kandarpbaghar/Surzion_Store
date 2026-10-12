@@ -1,0 +1,461 @@
+{
+  "page": {
+    "obj_name": "surz_checkout",
+    "title": "Checkout",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [
+      {
+        "name": "orderId",
+        "label": "Order",
+        "type": "text",
+        "display": true
+      }
+    ],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_co_bar",
+        "tag": "header",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 18,
+            "bottom": 18
+          }
+        },
+        "blocks": [
+          {
+            "id": "co_bar",
+            "type": "columns",
+            "count": 3,
+            "gap": 24,
+            "align": "center",
+            "columns": [
+              {
+                "id": "co_bar_l",
+                "blocks": [
+                  {
+                    "id": "co_logo",
+                    "type": "image",
+                    "align": "left",
+                    "maxWidth": 150,
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                    "alt": "Surzion",
+                    "on_click": {
+                      "kind": "external_url",
+                      "url": "/",
+                      "newTab": false
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "co_bar_c",
+                "blocks": [
+                  {
+                    "id": "co_progress",
+                    "type": "steps",
+                    "variant": "progress",
+                    "current": 1,
+                    "align": "center",
+                    "heading": "Checkout progress",
+                    "steps": [
+                      {
+                        "id": "st1",
+                        "title": "Cart"
+                      },
+                      {
+                        "id": "st2",
+                        "title": "Details & code"
+                      },
+                      {
+                        "id": "st3",
+                        "title": "Payment"
+                      }
+                    ],
+                    "advance": [
+                      {
+                        "whenVar": "orderId",
+                        "current": 2
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "co_bar_r",
+                "blocks": [
+                  {
+                    "id": "co_secure",
+                    "type": "paragraph",
+                    "text": "🔒 Secure checkout",
+                    "style": {
+                      "textColor": "var(--pg-muted)",
+                      "typography": {
+                        "fontSize": 14
+                      },
+                      "align": "right"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 40,
+            "bottom": 0
+          }
+        },
+        "blocks": [
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "Checkout",
+            "style": {
+              "typography": {
+                "fontSize": 40,
+                "fontWeight": 600
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_order",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 24,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "co",
+            "type": "cart_checkout",
+            "order": {
+              "object": "surz_order",
+              "lines": {
+                "detailFormNo": "2",
+                "skuColumn": "PRODUCT_CODE",
+                "qtyColumn": "QTY"
+              },
+              "set": {
+                "ORDER_STATUS": "NEW"
+              },
+              "composeAddress": {
+                "column": "SHIP_ADDRESS",
+                "template": "{{line1}}, {{line2}}, {{city}}, {{state}} {{pin}}"
+              },
+              "referenceColumn": "ORDER_NO",
+              "totalColumn": "TOTAL_AMOUNT"
+            },
+            "fields": [
+              {
+                "key": "name",
+                "label": "Full name",
+                "column": "CUSTOMER_NAME",
+                "addressColumn": "CONTACT_NAME",
+                "required": true,
+                "prefill": "name",
+                "autocomplete": "name",
+                "group": "contact"
+              },
+              {
+                "key": "email",
+                "label": "Email",
+                "column": "EMAIL",
+                "kind": "email",
+                "required": true,
+                "prefill": "email",
+                "autocomplete": "email",
+                "group": "contact"
+              },
+              {
+                "key": "phone",
+                "label": "Mobile number",
+                "column": "PHONE",
+                "addressColumn": "PHONE",
+                "kind": "tel",
+                "required": true,
+                "autocomplete": "tel",
+                "group": "contact",
+                "prefill": "phone"
+              },
+              {
+                "key": "line1",
+                "label": "Address line 1",
+                "addressColumn": "ADDRESS_LINE1",
+                "required": true,
+                "autocomplete": "address-line1",
+                "group": "address"
+              },
+              {
+                "key": "line2",
+                "label": "Address line 2 (area, landmark)",
+                "addressColumn": "ADDRESS_LINE2",
+                "autocomplete": "address-line2",
+                "group": "address"
+              },
+              {
+                "key": "city",
+                "label": "City",
+                "addressColumn": "CITY",
+                "required": true,
+                "autocomplete": "address-level2",
+                "group": "address"
+              },
+              {
+                "key": "state",
+                "label": "State",
+                "addressColumn": "STATE_NAME",
+                "required": true,
+                "autocomplete": "address-level1",
+                "group": "address"
+              },
+              {
+                "key": "pin",
+                "label": "PIN code",
+                "addressColumn": "PINCODE",
+                "kind": "postcode",
+                "required": true,
+                "autocomplete": "postal-code",
+                "group": "address"
+              },
+              {
+                "key": "label",
+                "label": "Address label (Home, Hospital, Clinic)",
+                "addressColumn": "LABEL",
+                "group": "address"
+              }
+            ],
+            "addresses": {
+              "object": "surz_customer_address",
+              "labelColumn": "LABEL",
+              "allowSave": true
+            },
+            "orderIdVar": "orderId",
+            "requireSignIn": true,
+            "clearCart": "on_order",
+            "showSummary": true,
+            "promo": {
+              "column": "DISCOUNT_CODE",
+              "lookup": {
+                "object": "surz_discount",
+                "codeColumn": "CODE",
+                "percentColumn": "PERCENT_OFF",
+                "labelColumn": "PARTNER_HANDLE",
+                "activeColumn": "IS_ACTIVE",
+                "activeValue": "Y",
+                "validFromColumn": "VALID_FROM",
+                "validToColumn": "VALID_TO",
+                "minOrderColumn": "MIN_ORDER"
+              },
+              "label": "Creator or discount code",
+              "placeholder": "e.g. DRSHARMA10",
+              "appliedText": "{{code}} applied · shared by {{label}}",
+              "discountLabel": "Creator discount ({{percent}}%)"
+            },
+            "summaryRules": {
+              "taxPercent": 12,
+              "shippingFlat": 250,
+              "shippingFreeOver": 5000,
+              "taxLabel": "GST (12%)"
+            },
+            "heading": "",
+            "contactHeading": "Contact",
+            "addressHeading": "Delivery address",
+            "submitLabel": "Continue to payment",
+            "emptyText": "Your cart is empty. Add some instruments first.",
+            "emptyCtaHref": "/instruments",
+            "successTitle": "Order placed",
+            "successBody": "Thank you. Your order is saved. Choose how you would like to pay below.",
+            "submitInSummary": true,
+            "signedInContact": "card",
+            "summaryTotalLabel": "Total",
+            "summaryNote": "Pay online with Razorpay or choose cash on delivery",
+            "note": {
+              "body": "Followed a creator who recommended Surzion? Enter their code in the order summary to save on every item.",
+              "icon": "tag"
+            }
+          },
+          {
+            "id": "pay",
+            "type": "payment_checkout",
+            "objName": "surz_order",
+            "txnIdVar": "orderId",
+            "amountColumn": "TOTAL_AMOUNT",
+            "ownerColumn": "REGISTRY_ID",
+            "referenceColumn": "ORDER_NO",
+            "payerNameColumn": "CUSTOMER_NAME",
+            "payerEmailColumn": "EMAIL",
+            "payerContactColumn": "PHONE",
+            "writeback": {
+              "statusColumn": "PAY_STATUS",
+              "statusValue": "PAID",
+              "paymentIdColumn": "PAYMENT_REF",
+              "paidAmountColumn": "PAID_AMOUNT",
+              "paidAtColumn": "PAID_ON",
+              "methodColumn": "PAY_METHOD"
+            },
+            "heading": "Pay for your order",
+            "description": "Pay online by card, UPI or net banking, or choose Cash on Delivery.",
+            "buttonLabel": "Pay online",
+            "successTitle": "Order confirmed",
+            "successBody": "We have recorded your payment choice and your order is confirmed. Your order number and total are shown above.",
+            "showCodOption": true,
+            "codLabel": "Cash on Delivery",
+            "hideUntilRecord": true
+          },
+          {
+            "id": "policies",
+            "type": "paragraph",
+            "text": "By placing an order you accept our terms, shipping and returns policies."
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Checkout",
+      "description": ""
+    },
+    "navigation": {
+      "showHeader": false,
+      "showFooter": true
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

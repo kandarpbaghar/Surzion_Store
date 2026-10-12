@@ -1,0 +1,399 @@
+{
+  "page": {
+    "obj_name": "surz_cat_general",
+    "title": "General Surgical Instruments",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 48,
+            "bottom": 40
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Instruments",
+                "href": "/instruments"
+              },
+              {
+                "id": "bc2",
+                "label": "General surgical",
+                "href": "/surgical-instruments"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "eyebrow": "Product category",
+            "text": "General Surgical Instruments"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Reliable, high-quality general surgical instruments for every operating theatre and clinic."
+          },
+          {
+            "id": "nav_b",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "nav_all",
+                "label": "All instruments",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/instruments",
+                  "newTab": false
+                }
+              },
+              {
+                "id": "nav_ort",
+                "label": "Orthopaedic",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/orthopaedic",
+                  "newTab": false
+                }
+              },
+              {
+                "id": "nav_dis",
+                "label": "Dissecting forceps",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/dissecting-forceps",
+                  "newTab": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_grid",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 56,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "cg",
+            "type": "card",
+            "cardStyle": {
+              "radius": 14,
+              "padding": 16,
+              "titleSize": 18,
+              "bodySize": 15,
+              "border": true,
+              "shadow": "md",
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "style": {
+              "hover": {
+                "translateY": -4,
+                "shadow": "lg"
+              },
+              "hoverScope": "items",
+              "transition": 200
+            },
+            "repeat": {
+              "source": "ds_products",
+              "as": "p",
+              "designCount": 4,
+              "layout": {
+                "mode": "grid",
+                "columns": 4,
+                "gap": 24
+              }
+            },
+            "bindings": {
+              "card.title": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageAlt": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageUrl": {
+                "source": "item_field",
+                "path": "IMAGE_URL"
+              },
+              "card.badge": {
+                "source": "item_field",
+                "path": "RIBBON"
+              },
+              "card.price": {
+                "source": "item_field",
+                "path": "UNIT_PRICE"
+              },
+              "card.compareAtPrice": {
+                "source": "item_field",
+                "path": "MRP"
+              },
+              "card.hoverImageUrl": {
+                "source": "item_field",
+                "path": "HOVER_IMAGE_URL"
+              }
+            },
+            "card": {
+              "id": "cg_c",
+              "title": "Instrument",
+              "badge": "",
+              "price": "0",
+              "priceFormat": "currency",
+              "priceCurrency": "INR",
+              "showSavings": true,
+              "wishlist": true,
+              "imageFit": "contain",
+              "imageAspect": "1/1",
+              "secondaryCta": {
+                "id": "cg_a",
+                "label": "Add to bag",
+                "variant": "primary",
+                "size": "sm",
+                "icon": "shopping-cart",
+                "on_click": {
+                  "kind": "add_to_cart",
+                  "sku": "{{p.PRODUCT_CODE}}",
+                  "name": "{{p.PRODUCT_NAME}}",
+                  "price": "\u20b9{{p.UNIT_PRICE}}",
+                  "image": "{{p.IMAGE_URL}}",
+                  "href": "/{{p.SLUG}}",
+                  "meta": "{{p.CATEGORY_NAME}}",
+                  "addedLabel": "Added",
+                  "inCartLabel": "In cart \u00b7 {n}",
+                  "inCartStepper": true,
+                  "toast": true,
+                  "toastLabel": "Added to cart",
+                  "toastLinkLabel": "View cart",
+                  "cartHref": "/cart"
+                }
+              }
+            },
+            "on_click": {
+              "kind": "external_url",
+              "url": "/{{p.SLUG}}",
+              "newTab": false
+            }
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "General Surgical Instruments | Surzion",
+      "description": "General surgical instruments from Surzion."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "dataSources": [
+      {
+        "id": "ds_products",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 200,
+        "filters": [
+          {
+            "id": "f_listed",
+            "column": "IS_ACTIVE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "Y"
+            }
+          },
+          {
+            "id": "f_cat",
+            "column": "CATEGORY_CODE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "GEN"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "SORT_ORDER",
+            "dir": "asc"
+          },
+          {
+            "column": "PRODUCT_NAME",
+            "dir": "asc"
+          }
+        ],
+        "columns": [
+          "PRODUCT_CODE",
+          "PRODUCT_NAME",
+          "CATEGORY_NAME",
+          "CATEGORY_CODE",
+          "UNIT_PRICE",
+          "MRP",
+          "SLUG",
+          "IMAGE_URL",
+          "HOVER_IMAGE_URL",
+          "RIBBON",
+          "SORT_ORDER"
+        ]
+      }
+    ],
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

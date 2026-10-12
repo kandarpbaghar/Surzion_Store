@@ -1,0 +1,68 @@
+{
+  "DATA_SOURCE_MODE": "sql",
+  "SQLMODEL": {
+    "SQLModel": {
+      "COLUMNS": [
+        {
+          "COLUMN": [
+            { "COLID": 2, "NAME": "KPI_VALUE", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "KPI value", "name": "KPI value", "descr": "Headline number of the KPI (count or INR)", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(16,2)", "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } },
+            { "COLID": 3, "NAME": "KPI_LABEL", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "KPI label", "name": "KPI label", "descr": "Caption of the KPI", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 40, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 160, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true }
+          ]
+        }
+      ]
+    },
+    "CRITERIA": {
+      "query": {
+        "rules": [
+          { "id": "Criteria_1", "field": "SURZ_ORDER.ORDER_DATE", "DBNAME": "ORDER_DATE", "tableName": "SURZ_ORDER", "COLTYPE": "date", "currentFieldType": "date", "operator": ">=", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "From Date", "value": ":calendar_month_start", "chipValue": [], "promptVar": "from_date" },
+          { "id": "Criteria_2", "field": "SURZ_ORDER.ORDER_DATE", "DBNAME": "ORDER_DATE", "tableName": "SURZ_ORDER", "COLTYPE": "date", "currentFieldType": "date", "operator": "<=", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "To Date", "value": ":calendar_today", "chipValue": [], "promptVar": "to_date" },
+          { "id": "Criteria_3", "field": "SURZ_ORDER.PARTNER_NAME", "DBNAME": "PARTNER_NAME", "tableName": "SURZ_ORDER", "COLTYPE": "string", "currentFieldType": "string", "operator": "like", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "Partner", "value": "%", "chipValue": [], "promptVar": "partner_name", "lookup": "SURZ_PARTNER(PARTNER_NAME, PARTNER_NAME)", "lookup_title": "Select a partner" }
+        ],
+        "condition": "and"
+      }
+    },
+    "VISUAL_NAME": "Card",
+    "SCHEMA_NAME": "SURZ_PARTNER_KPIS",
+    "SCHEMA_DESCR": "Partner Sales KPIs",
+    "SCHEMA_TYPE": "S",
+    "OUTPUT_TYPE": "JSON",
+    "DATABASE_TYPE": "1",
+    "DATABASE_DETAIL": { "DATABASE_NAME": "PostgreSQL", "TYPE": 1 }
+  },
+  "LAYOUT_DATA": {
+    "visualLayout": {
+      "ID": "cards",
+      "VisualName": "Card",
+      "VisualType": "Standard/UserDefined",
+      "VisualIcon": "Card.svg",
+      "DisplayOrder": "15",
+      "className": "InsightCards",
+      "linkOptions": "",
+      "OutputType": "JSON",
+      "options": [
+        { "optionId": "1", "optionName": "cardColorPallete", "optionHeading": "Card Color Pallete", "dataType": "string", "defaultValue": "DarkBlue-Yellow-Green", "listOfValues": "Pink,Purple,Orange,SkyBlue,Green,Yellow,DarkBlue,Yellow-SkyBlue,DarkBlue-Yellow,Yellow-Green,DarkBlue-Green", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "2", "optionName": "chartBackgroundColor", "optionHeading": "Chart Background Color", "dataType": "string", "defaultValue": "Transparent", "listOfValues": "White,Transparent", "allowChange": "true", "optionType": "others" },
+        { "optionId": "3", "optionName": "autoRefreshSeconds", "optionHeading": "Auto refresh (seconds)", "dataType": "number", "defaultValue": "0", "listOfValues": "", "allowChange": "true", "optionType": "outer" },
+        { "optionId": "4", "optionName": "microVisual", "optionHeading": "Micro-visual (graphic on each card)", "dataType": "string", "defaultValue": "none", "listOfValues": "auto,none,sparkline,sparkbars,donut,gauge,ring,progressbar", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "5", "optionName": "toolbar", "optionHeading": "Show Toolbar", "dataType": "boolean", "defaultValue": "true", "listOfValues": "true,false", "allowChange": "true" },
+        { "optionId": "6", "optionName": "cardMode", "optionHeading": "Cards drawn (how many)", "dataType": "string", "defaultValue": "one-per-row", "listOfValues": "auto,one-per-row,group,one-per-measure,single", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "8", "optionName": "headlineAgg", "optionHeading": "Headline value (how rows combine)", "dataType": "string", "defaultValue": "auto", "listOfValues": "auto,last,sum,avg,min,max,count", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "17", "optionName": "graphicPosition", "optionHeading": "Graphic placement", "dataType": "string", "defaultValue": "off", "listOfValues": "auto,right,bottom,off", "allowChange": "true", "optionType": "inner" }
+      ],
+      "ColumnGroups": [
+        { "GroupID": 1, "GroupName": "Top Left", "GroupDescription": "FirstRowLeftDescription", "GroupIcon": "Left_Top.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "TopLeft", "COLUMNS": [] },
+        { "GroupID": 2, "GroupName": "Top Right", "GroupDescription": "FirstRowRightDescription", "GroupIcon": "Right_Top.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "TopRight", "COLUMNS": [] },
+        { "GroupID": 3, "GroupName": "Center First Row", "GroupDescription": "CenterFirstRowDescription", "GroupIcon": "Right_Bottom.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "CenterFirstRow", "COLUMNS": [
+          { "COLID": 2, "NAME": "KPI_VALUE", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "KPI value", "name": "KPI value", "descr": "Headline number of the KPI (count or INR)", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(16,2)", "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Center First Row", "StandardName": "CenterFirstRow", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } }
+        ] },
+        { "GroupID": 4, "GroupName": "Center Second Row", "GroupDescription": "CenterSecondRowDescription", "GroupIcon": "Right_Bottom.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "CenterSecondRow", "COLUMNS": [
+          { "COLID": 3, "NAME": "KPI_LABEL", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "KPI label", "name": "KPI label", "descr": "Caption of the KPI", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 40, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 160, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Center Second Row", "StandardName": "CenterSecondRow", "checked": true }
+        ] },
+        { "GroupID": 5, "GroupName": "Bottom Left", "GroupDescription": "ThirdRowRightDescription", "GroupIcon": "Right_Bottom.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "BottomLeft", "COLUMNS": [] },
+        { "GroupID": 6, "GroupName": "Bottom Right", "GroupDescription": "ThirdRowRightDescription", "GroupIcon": "Right_Bottom.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": "", "StandardName": "BottomRight", "COLUMNS": [] }
+      ]
+    },
+    "layoutdata": {}
+  },
+  "SOURCE_SQL": "WITH p AS (SELECT o.ORDER_NO, COALESCE(o.SUBTOTAL, 0) AS GROSS, COALESCE(o.DISCOUNT_AMT, 0) AS DISC FROM SURZ_ORDER o WHERE o.PARTNER_ID IS NOT NULL AND o.PARTNER_ID <> '' AND COALESCE(o.ORDER_STATUS, 'NEW') <> 'CANCELLED' AND o.ORDER_DATE >= ?.from_date AND o.ORDER_DATE <= ?.to_date AND o.PARTNER_NAME LIKE ?.partner_name)\nSELECT KPI_LABEL, KPI_VALUE FROM (\n  SELECT 1 AS KPI_SEQ, 'Partner orders' AS KPI_LABEL, CAST(COUNT(*) AS NUMERIC) AS KPI_VALUE FROM p\n  UNION ALL SELECT 2, 'Gross sales (INR)', CAST(COALESCE(SUM(GROSS), 0) AS NUMERIC) FROM p\n  UNION ALL SELECT 3, 'Discount given (INR)', CAST(COALESCE(SUM(DISC), 0) AS NUMERIC) FROM p\n  UNION ALL SELECT 4, 'Net sales (INR)', CAST(COALESCE(SUM(GROSS - DISC), 0) AS NUMERIC) FROM p\n  UNION ALL SELECT 5, 'Active partners', CAST(COUNT(*) AS NUMERIC) FROM SURZ_PARTNER WHERE STATUS = 'APPROVED'\n) k ORDER BY KPI_SEQ"
+}

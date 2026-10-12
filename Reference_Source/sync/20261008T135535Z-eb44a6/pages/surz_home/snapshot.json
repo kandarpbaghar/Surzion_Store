@@ -1,0 +1,4078 @@
+{
+ "url": "https://surzion.com/",
+ "title": "Trusted Wholesale Supplier of Surgical Instruments | Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 5582,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "DM Sans",
+   "size": 16,
+   "color": "rgb(29, 30, 32)"
+  },
+  "h1": null,
+  "h2": null,
+  "h3": {
+   "family": "Poppins",
+   "size": 64,
+   "weight": 400,
+   "color": "rgb(25, 118, 210)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "83.2px",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Poppins",
+   "size": 14,
+   "weight": 500,
+   "color": "rgb(255, 255, 255)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "24.08px",
+   "letterSpacing": "0.14px"
+  }
+ },
+ "pageBg": "rgba(0, 0, 0, 0)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 60
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(29, 30, 32)",
+  "sticky": false,
+  "logo": {
+   "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+   "alt": "Surzion logo",
+   "h": 60,
+   "w": 237
+  },
+  "buttons": [
+   {
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px"
+    }
+   }
+  ],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 16,
+   "weight": 400,
+   "color": "rgb(124, 189, 100)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "27.52px",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\ncart\nDownload Catalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+    "alt": "Surzion logo",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://surzion.com/",
+    "rect": {
+     "x": 124,
+     "y": 0,
+     "w": 237,
+     "h": 60
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://surzion.com/",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(124, 189, 100)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 372,
+     "y": 16,
+     "w": 51,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://surzion.com/shop",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 444,
+     "y": 16,
+     "w": 43,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://surzion.com/about",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 508,
+     "y": 16,
+     "w": 50,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://surzion.com/online-catalogue",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 579,
+     "y": 16,
+     "w": 139,
+     "h": 28
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+    "cls": "",
+    "color": "rgb(25, 118, 210)",
+    "rect": {
+     "x": 999,
+     "y": 16,
+     "w": 29,
+     "h": 29
+    }
+   },
+   {
+    "t": "button",
+    "text": "cart",
+    "href": null,
+    "style": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(13, 20, 26)",
+     "radius": "0px",
+     "border": null,
+     "size": 16,
+     "weight": 400,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1039,
+     "y": 15,
+     "w": 63,
+     "h": 30
+    }
+   },
+   {
+    "t": "button",
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px",
+     "border": "1px solid rgb(124, 189, 100)",
+     "size": 11,
+     "weight": 700,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1113,
+     "y": 5,
+     "w": 203,
+     "h": 51
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 4,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 124,
+       "y": 0,
+       "w": 237,
+       "h": 60
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://surzion.com/"
+     },
+     {
+      "rect": {
+       "x": 372,
+       "y": 16,
+       "w": 616,
+       "h": 28
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1039,
+       "y": 15,
+       "w": 63,
+       "h": 30
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1113,
+       "y": 5,
+       "w": 203,
+       "h": 51
+      },
+      "bg": {
+       "color": "rgba(25, 117, 209, 0.6)"
+      },
+      "radius": "25px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [
+  {
+   "text": "",
+   "href": "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+   "rect": {
+    "x": 1356,
+    "y": 812,
+    "w": 64,
+    "h": 64
+   },
+   "edge": "right",
+   "vertical": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(29, 30, 32)",
+   "radius": "100px"
+  }
+ ],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgba(25, 117, 209, 0.75)",
+   "n": 54
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 27
+  },
+  {
+   "role": "text",
+   "color": "rgb(13, 20, 26)",
+   "n": 19
+  },
+  {
+   "role": "heading",
+   "color": "rgb(13, 20, 26)",
+   "n": 18
+  },
+  {
+   "role": "text",
+   "color": "rgba(25, 117, 209, 0.97)",
+   "n": 17
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 10
+  },
+  {
+   "role": "link",
+   "color": "rgb(255, 255, 255)",
+   "n": 5
+  },
+  {
+   "role": "link",
+   "color": "rgb(13, 20, 26)",
+   "n": 3
+  },
+  {
+   "role": "button_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(86, 88, 94)",
+   "n": 3
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.78)",
+   "n": 3
+  },
+  {
+   "role": "text",
+   "color": "rgb(86, 88, 94)",
+   "n": 2
+  },
+  {
+   "role": "heading",
+   "color": "rgb(255, 255, 255)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(76, 145, 215)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(25, 118, 210)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.82)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.8)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 100
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(76, 145, 215)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 4,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 124,
+        "y": 40,
+        "w": 237,
+        "h": 60
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/"
+      },
+      {
+       "rect": {
+        "x": 372,
+        "y": 56,
+        "w": 616,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1039,
+        "y": 55,
+        "w": 63,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1113,
+        "y": 45,
+        "w": 203,
+        "h": 51
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.6)"
+       },
+       "radius": "25px",
+       "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+       "border": "1px solid rgb(124, 189, 100)",
+       "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "Exclusive discounts on surgical instruments today!",
+     "html": "<span style=\"font-weight: 700;\"><strong>Exclusive discounts on surgical instruments today!</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 8,
+      "w": 1224,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+     "alt": "Surzion logo",
+     "natural": {
+      "w": 768,
+      "h": 192
+     },
+     "href": "https://surzion.com/",
+     "rect": {
+      "x": 124,
+      "y": 40,
+      "w": 237,
+      "h": 60
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "link",
+     "text": "Home",
+     "href": "https://surzion.com/",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 372,
+      "y": 56,
+      "w": 51,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Shop",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 444,
+      "y": 56,
+      "w": 43,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "About",
+     "href": "https://surzion.com/about",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 508,
+      "y": 56,
+      "w": 50,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Online catalogue",
+     "href": "https://surzion.com/online-catalogue",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 579,
+      "y": 56,
+      "w": 139,
+      "h": 28
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+     "cls": "",
+     "color": "rgb(25, 118, 210)",
+     "rect": {
+      "x": 999,
+      "y": 56,
+      "w": 29,
+      "h": 29
+     }
+    },
+    {
+     "t": "button",
+     "text": "cart",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 16,
+      "weight": 400,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1039,
+      "y": 55,
+      "w": 63,
+      "h": 30
+     }
+    },
+    {
+     "t": "button",
+     "text": "Download Catalogue",
+     "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "25px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 11,
+      "weight": 700,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1113,
+      "y": 45,
+      "w": 203,
+      "h": 51
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "f2c93da64630a5b8"
+  },
+  {
+   "index": 1,
+   "key": "1:product-categories",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 100,
+    "w": 1440,
+    "h": 5482
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 15,
+    "w": 1409
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 5,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 405,
+        "y": 778,
+        "w": 309,
+        "h": 60
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.82)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 726,
+        "y": 778,
+        "w": 309,
+        "h": 60
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.78)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 120,
+        "y": 143,
+        "w": 1192,
+        "h": 439
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 417,
+        "y": 508,
+        "w": 598,
+        "h": 43
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 413,
+        "y": 645,
+        "w": 598,
+        "h": 31
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 413,
+        "y": 519,
+        "w": 606,
+        "h": 133
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 3,
+     "rows": 6,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 108,
+        "y": 1091,
+        "w": 1224,
+        "h": 83
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 1257,
+        "w": 400,
+        "h": 430
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 954,
+        "y": 1541,
+        "w": 140,
+        "h": 52
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 122,
+        "y": 1601,
+        "w": 317,
+        "h": 36
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 520,
+        "y": 1257,
+        "w": 400,
+        "h": 430
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 1257,
+        "w": 400,
+        "h": 430
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 536,
+        "y": 1601,
+        "w": 317,
+        "h": 36
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 954,
+        "y": 1601,
+        "w": 231,
+        "h": 36
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 633,
+        "y": 1742,
+        "w": 173,
+        "h": 50
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.78)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 211,
+        "y": 1742,
+        "w": 173,
+        "h": 50
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.78)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1046,
+        "y": 1742,
+        "w": 173,
+        "h": 50
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.8)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 544,
+        "y": 1513,
+        "w": 143,
+        "h": 78
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 128,
+        "y": 1513,
+        "w": 143,
+        "h": 78
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 11,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 278,
+        "y": 5196,
+        "w": 49,
+        "h": 32
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4845,
+        "w": 744,
+        "h": 31
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5130,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5261,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5407,
+        "w": 503,
+        "h": 18
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5323,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5195,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5057,
+        "w": 378,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4924,
+        "w": 378,
+        "h": 63
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4993,
+        "w": 581,
+        "h": 62
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 4856,
+        "w": 209,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 4893,
+        "w": 400,
+        "h": 532
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "cards",
+     "columns": 4,
+     "rows": 5,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 16,
+        "y": 2152,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/adson-beckman-retractor"
+      },
+      {
+       "rect": {
+        "x": 369,
+        "y": 2152,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/bulldog-clamps1"
+      },
+      {
+       "rect": {
+        "x": 723,
+        "y": 2152,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/artery-forceps-crile"
+      },
+      {
+       "rect": {
+        "x": 1076,
+        "y": 2152,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/artery-forceps-kocher"
+      },
+      {
+       "rect": {
+        "x": 16,
+        "y": 2652,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/dandy-artery-forceps-55"
+      },
+      {
+       "rect": {
+        "x": 369,
+        "y": 2652,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/birkett-tonsil-artery-forceps"
+      },
+      {
+       "rect": {
+        "x": 723,
+        "y": 2652,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/artery-forceps-ochsner"
+      },
+      {
+       "rect": {
+        "x": 1076,
+        "y": 2652,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/artery-forceps-pean"
+      },
+      {
+       "rect": {
+        "x": 16,
+        "y": 3152,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/bulldog-clamps"
+      },
+      {
+       "rect": {
+        "x": 369,
+        "y": 3152,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/bone-reduction-clamp-towel-type"
+      },
+      {
+       "rect": {
+        "x": 723,
+        "y": 3152,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/adson-brown-tissue-forceps1"
+      },
+      {
+       "rect": {
+        "x": 1076,
+        "y": 3152,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/castpaw-retractor-kilner-retractor"
+      },
+      {
+       "rect": {
+        "x": 16,
+        "y": 3676,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/allis-tissue-forceps-autragrip"
+      },
+      {
+       "rect": {
+        "x": 369,
+        "y": 3676,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/artery-forceps-robert-hemostatic-forceps"
+      },
+      {
+       "rect": {
+        "x": 723,
+        "y": 3676,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/allison-lung-retractor"
+      },
+      {
+       "rect": {
+        "x": 1076,
+        "y": 3676,
+        "w": 348,
+        "h": 514
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/anderson-tendon-tunneling-forceps"
+      },
+      {
+       "rect": {
+        "x": 16,
+        "y": 4199,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/bp-handle-bayonet-5"
+      },
+      {
+       "rect": {
+        "x": 369,
+        "y": 4199,
+        "w": 348,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps"
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 16,
+        "y": 2105,
+        "w": 73,
+        "h": 16
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 89,
+        "y": 2098,
+        "w": 1335,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "link",
+     "text": "Shop Now",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Poppins",
+      "size": 30,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "51.6px",
+      "letterSpacing": "0.3px"
+     },
+     "rect": {
+      "x": 405,
+      "y": 778,
+      "w": 309,
+      "h": 60
+     }
+    },
+    {
+     "t": "link",
+     "text": "Explore Products",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Poppins",
+      "size": 30,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "51.6px",
+      "letterSpacing": "0.3px"
+     },
+     "rect": {
+      "x": 726,
+      "y": 778,
+      "w": 309,
+      "h": 60
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/untitled-design-1-2fOKm0tY1M4A7Tcy.png",
+     "alt": "",
+     "natural": {
+      "w": 1440,
+      "h": 530
+     },
+     "href": null,
+     "rect": {
+      "x": 120,
+      "y": 143,
+      "w": 1192,
+      "h": 439
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "text",
+     "text": "BY",
+     "html": "<span style=\"font-family: Roboto; font-weight: 700;\"><strong>BY</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 32,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "41.6px",
+      "letterSpacing": "0.32px"
+     },
+     "rect": {
+      "x": 417,
+      "y": 508,
+      "w": 598,
+      "h": 43
+     }
+    },
+    {
+     "t": "text",
+     "text": "Quality Surgical Instruments Supplier in India",
+     "html": "<span style=\"font-family: &quot;Libre Baskerville&quot;; font-weight: 400;\">Quality Surgical Instruments Supplier in India</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "31.2px",
+      "letterSpacing": "0.24px"
+     },
+     "rect": {
+      "x": 413,
+      "y": 645,
+      "w": 598,
+      "h": 31
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/untitled-design-3-wPHYU0kKxks4USI9.png",
+     "alt": "",
+     "natural": {
+      "w": 709,
+      "h": 156
+     },
+     "href": null,
+     "rect": {
+      "x": 413,
+      "y": 519,
+      "w": 606,
+      "h": 133
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Product Categories",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 64,
+      "weight": 400,
+      "color": "rgb(25, 118, 210)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "83.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 1091,
+      "w": 1224,
+      "h": 83
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/adson-periosteal-elevator-3-e0OZMALjlEpWnLzc.jpg",
+     "alt": "",
+     "natural": {
+      "w": 468,
+      "h": 503
+     },
+     "href": null,
+     "rect": {
+      "x": 108,
+      "y": 1257,
+      "w": 400,
+      "h": 430
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "TC Surgical Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "26px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 954,
+      "y": 1541,
+      "w": 140,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Explore our extensive range of surgical tools.",
+     "html": "Explore our extensive range of surgical tools.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 122,
+      "y": 1601,
+      "w": 317,
+      "h": 36
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/heath-suture-cutting-scissor-1-Ny2IFFnywYYN7gBV.jpg",
+     "alt": "",
+     "natural": {
+      "w": 468,
+      "h": 503
+     },
+     "href": null,
+     "rect": {
+      "x": 520,
+      "y": 1257,
+      "w": 400,
+      "h": 430
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/castroviejo-needle-holder-round-t.c-4-k79h4kCOhCGAYeui.png",
+     "alt": "",
+     "natural": {
+      "w": 468,
+      "h": 503
+     },
+     "href": null,
+     "rect": {
+      "x": 932,
+      "y": 1257,
+      "w": 400,
+      "h": 430
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "text",
+     "text": "Reliable and high-quality medical instruments available.",
+     "html": "Reliable and high-quality medical instruments available.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 536,
+      "y": 1601,
+      "w": 317,
+      "h": 36
+     }
+    },
+    {
+     "t": "text",
+     "text": "Support your practice with our trusted products.",
+     "html": "Support your practice with our trusted products.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 954,
+      "y": 1601,
+      "w": 231,
+      "h": 36
+     }
+    },
+    {
+     "t": "link",
+     "text": "Explore Collection",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 633,
+      "y": 1742,
+      "w": 173,
+      "h": 50
+     }
+    },
+    {
+     "t": "link",
+     "text": "Explore Collection",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 211,
+      "y": 1742,
+      "w": 173,
+      "h": 50
+     }
+    },
+    {
+     "t": "link",
+     "text": "Explore Collection",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1046,
+      "y": 1742,
+      "w": 173,
+      "h": 50
+     }
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "General Surgical Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "26px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 544,
+      "y": 1513,
+      "w": 143,
+      "h": 78
+     }
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Orthopaedic Surgical Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "26px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 128,
+      "y": 1513,
+      "w": 143,
+      "h": 78
+     }
+    },
+    {
+     "t": "text",
+     "text": "22 products",
+     "html": "22 products",
+     "links": null,
+     "style": {
+      "family": "DM Sans",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 2105,
+      "w": 73,
+      "h": 16
+     }
+    },
+    {
+     "t": "text",
+     "text": "Top Quality",
+     "html": "Top Quality",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 28,
+      "y": 2166,
+      "w": 82,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/2253fc3d-312a-4db2-a37e-04a65f5c441b.jpg",
+     "alt": "Adson Beckman Retractor",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/adson-beckman-retractor",
+     "rect": {
+      "x": 15,
+      "y": 2152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Adson Beckman Retractor",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 2522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹3200.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹3200.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 16,
+      "y": 2554,
+      "w": 75,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 16,
+      "y": 2590,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7318ecff-6d51-493e-9dfa-c0462a2c9cc2.jpg",
+     "alt": "Artery Forceps Dandy",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/bulldog-clamps1",
+     "rect": {
+      "x": 368,
+      "y": 2152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Dandy",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 369,
+      "y": 2522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹439.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹439.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 369,
+      "y": 2554,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 369,
+      "y": 2590,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Best Seller",
+     "html": "Best Seller",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 735,
+      "y": 2166,
+      "w": 74,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/05e85cdf-a6c8-4bfc-8f44-68f8b11e1f37.jpg",
+     "alt": "Artery Forceps Crile",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/artery-forceps-crile",
+     "rect": {
+      "x": 722,
+      "y": 2152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Crile",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 723,
+      "y": 2522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹390.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹390.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 723,
+      "y": 2554,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 723,
+      "y": 2590,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Best Seller",
+     "html": "Best Seller",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 1088,
+      "y": 2166,
+      "w": 74,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/0a3dfb54-f76d-4049-b7f3-ebf28b616794.jpg",
+     "alt": "Artery Forceps Kocher",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/artery-forceps-kocher",
+     "rect": {
+      "x": 1075,
+      "y": 2152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Kocher",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1076,
+      "y": 2522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹390.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹390.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 2554,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 2590,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Top Quality",
+     "html": "Top Quality",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 28,
+      "y": 2666,
+      "w": 82,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/1b5ae771-9791-4b4c-a948-1a9679979b21.jpg",
+     "alt": "Bone Hook",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/dandy-artery-forceps-55",
+     "rect": {
+      "x": 15,
+      "y": 2652,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Bone Hook",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 3022,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹445.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹445.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 16,
+      "y": 3054,
+      "w": 66,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 16,
+      "y": 3090,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Premium Quality",
+     "html": "Premium Quality",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 381,
+      "y": 2666,
+      "w": 120,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/85593d49-ecc3-4fcb-92f5-2889944c79b7.jpg",
+     "alt": "Birkett Tonsil Artery Forceps",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/birkett-tonsil-artery-forceps",
+     "rect": {
+      "x": 368,
+      "y": 2652,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Birkett Tonsil Artery Forceps",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 369,
+      "y": 3022,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹585.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹585.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 369,
+      "y": 3054,
+      "w": 66,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 369,
+      "y": 3090,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 735,
+      "y": 2666,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9c06aa3f-04f0-4575-83fa-32197f669f19.jpg",
+     "alt": "Artery Forceps Ochsner",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/artery-forceps-ochsner",
+     "rect": {
+      "x": 722,
+      "y": 2652,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Ochsner",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 723,
+      "y": 3022,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹404.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹404.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 723,
+      "y": 3054,
+      "w": 66,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 723,
+      "y": 3090,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Premium Quality",
+     "html": "Premium Quality",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 1088,
+      "y": 2666,
+      "w": 120,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e2974baa-a52b-423b-a979-9ea20fab8338.jpg",
+     "alt": "Artery Forceps Pean",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/artery-forceps-pean",
+     "rect": {
+      "x": 1075,
+      "y": 2652,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Pean",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3022,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹426.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹426.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3054,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3090,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Premium Quality",
+     "html": "Premium Quality",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 28,
+      "y": 3166,
+      "w": 120,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7b93a326-b2f8-4392-9a4c-b002fb4026dd.jpg",
+     "alt": "Babcock Forceps TC",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/bulldog-clamps",
+     "rect": {
+      "x": 15,
+      "y": 3152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Babcock Forceps TC",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 3522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹1950.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹1950.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 16,
+      "y": 3554,
+      "w": 72,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 16,
+      "y": 3613,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Best Seller",
+     "html": "Best Seller",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 381,
+      "y": 3166,
+      "w": 74,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a659f76-e2cd-4eb9-8ecc-f40b64eb30a1.png",
+     "alt": "Bone Reduction Clamp Towel Type",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/bone-reduction-clamp-towel-type",
+     "rect": {
+      "x": 368,
+      "y": 3152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Bone Reduction Clamp Towel Type",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 369,
+      "y": 3522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹1800.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹1800.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 369,
+      "y": 3554,
+      "w": 72,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 369,
+      "y": 3613,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Best Seller",
+     "html": "Best Seller",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 735,
+      "y": 3166,
+      "w": 74,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6c70a453-0aca-489a-826f-97d78aba38bd.jpg",
+     "alt": "Adson Brown Tissue Forceps",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/adson-brown-tissue-forceps1",
+     "rect": {
+      "x": 722,
+      "y": 3152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Adson Brown Tissue Forceps",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 723,
+      "y": 3522,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹675.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹675.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 723,
+      "y": 3554,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 723,
+      "y": 3613,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Surgical Grade",
+     "html": "Surgical Grade",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 1088,
+      "y": 3166,
+      "w": 107,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e34f605a-e6ab-4ba1-b17a-dabace0315fe.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/castpaw-retractor-kilner-retractor",
+     "rect": {
+      "x": 1075,
+      "y": 3152,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Castpaw Retractor (Kilner Retractor)",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3522,
+      "w": 348,
+      "h": 48
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹350.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹350.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3578,
+      "w": 65,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 3613,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 28,
+      "y": 3690,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a0b9829c-0343-4d4e-9679-b92caffdb7f4.jpg",
+     "alt": "Allis Tissue Forceps Autagrip",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/allis-tissue-forceps-autragrip",
+     "rect": {
+      "x": 15,
+      "y": 3676,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Allis Tissue Forceps Autagrip",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 4046,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹1463.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹1463.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 16,
+      "y": 4078,
+      "w": 71,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 16,
+      "y": 4137,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 381,
+      "y": 3690,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/cf9502bc-2b78-401b-a37c-555eb2059f0f.jpg",
+     "alt": "Artery Forceps Robert",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/artery-forceps-robert-hemostatic-forceps",
+     "rect": {
+      "x": 368,
+      "y": 3676,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Artery Forceps Robert",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 369,
+      "y": 4046,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹732.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹732.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 369,
+      "y": 4078,
+      "w": 63,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 369,
+      "y": 4137,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "Best Seller",
+     "html": "Best Seller",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 735,
+      "y": 3690,
+      "w": 74,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/01d1cec1-ef48-495a-a447-a1398287d099.jpg",
+     "alt": "Allison Lung Retractor",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/allison-lung-retractor",
+     "rect": {
+      "x": 722,
+      "y": 3676,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Allison Lung Retractor",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 723,
+      "y": 4046,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹2010.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹2010.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 723,
+      "y": 4078,
+      "w": 71,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 723,
+      "y": 4137,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 1088,
+      "y": 3690,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/b327c5e3-c84b-4591-91e6-a7e79050b590.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/anderson-tendon-tunneling-forceps",
+     "rect": {
+      "x": 1075,
+      "y": 3676,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Anderson Tendon Tunneling Forceps",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1076,
+      "y": 4046,
+      "w": 348,
+      "h": 48
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹3900.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹3900.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 4102,
+      "w": 76,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 1076,
+      "y": 4137,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 28,
+      "y": 4213,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD%2Fassets%2F6a1f7e03-1434-4ce7-9485-97813801c2e6.jpg",
+     "alt": "B.P Handle Bayonet",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/bp-handle-bayonet-5",
+     "rect": {
+      "x": 15,
+      "y": 4199,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "B.P Handle Bayonet",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 16,
+      "y": 4570,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹634.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹634.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 16,
+      "y": 4602,
+      "w": 66,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 16,
+      "y": 4637,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "text",
+     "text": "New",
+     "html": "New",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgba(25, 117, 209, 0.97)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 381,
+      "y": 4213,
+      "w": 31,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/473a67fe-b16e-4bca-bcd9-49a97b7c633a.jpg",
+     "alt": "Allis Tissue Forceps",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps",
+     "rect": {
+      "x": 368,
+      "y": 4199,
+      "w": 348,
+      "h": 350
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Allis Tissue Forceps",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 369,
+      "y": 4570,
+      "w": 348,
+      "h": 24
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹415.00",
+     "html": "<!----><span data-v-0bd4b8ef=\"\" class=\"\">₹415.00</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 369,
+      "y": 4602,
+      "w": 62,
+      "h": 28
+     }
+    },
+    {
+     "t": "button",
+     "text": "Add to bag",
+     "href": null,
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.75)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 14,
+      "weight": 700,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 369,
+      "y": 4637,
+      "w": 114,
+      "h": 52
+     }
+    },
+    {
+     "t": "button",
+     "text": "",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 10,
+      "weight": 400,
+      "family": "DM Sans"
+     },
+     "rect": {
+      "x": 648,
+      "y": 4705,
+      "w": 36,
+      "h": 36
+     }
+    },
+    {
+     "t": "button",
+     "text": "1",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 10,
+      "weight": 500,
+      "family": "DM Sans"
+     },
+     "rect": {
+      "x": 684,
+      "y": 4705,
+      "w": 36,
+      "h": 36
+     }
+    },
+    {
+     "t": "button",
+     "text": "2",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 10,
+      "weight": 400,
+      "family": "DM Sans"
+     },
+     "rect": {
+      "x": 720,
+      "y": 4705,
+      "w": 36,
+      "h": 36
+     }
+    },
+    {
+     "t": "button",
+     "text": "",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 10,
+      "weight": 400,
+      "family": "DM Sans"
+     },
+     "rect": {
+      "x": 756,
+      "y": 4705,
+      "w": 36,
+      "h": 36
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path>\n</svg>",
+     "cls": "",
+     "color": "rgba(25, 117, 209, 0.78)",
+     "rect": {
+      "x": 278,
+      "y": 5196,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "text",
+     "text": "We provide premium surgical solutions for precision care",
+     "html": "<span style=\"font-weight: 700;\"><strong>We provide premium surgical solutions for precision care</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "31.2px",
+      "letterSpacing": "0.24px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 4845,
+      "w": 744,
+      "h": 31
+     }
+    },
+    {
+     "t": "text",
+     "text": "Contact us",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"_self\" rel=\"\" href=\"/contact\" data-page-id=\"ai-nyDG0\" style=\"text-decoration: none;\">Contact us</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Contact us",
+       "href": "https://surzion.com/contact"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5130,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-7814861010 )",
+     "html": "(+91-7814861010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5261,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "© 2025. All rights reserved.",
+     "html": "© 2025. All rights reserved.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5407,
+      "w": 503,
+      "h": 18
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-8195831010 )",
+     "html": "(+91-8195831010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5323,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Follow us >>>>>>",
+     "html": "<span style=\"font-weight: 700;\"><strong>Follow us    &gt;&gt;&gt;&gt;&gt;&gt;</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5195,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Privacy Policy",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"\" href=\"/privacy-policy\" data-page-id=\"zvwWi_\" style=\"text-decoration: none;\">Privacy Policy</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Privacy Policy",
+       "href": "https://surzion.com/privacy-policy"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5057,
+      "w": 378,
+      "h": 28
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Return, Refund & Replacement Policy",
+     "href": "https://surzion.com/refund-policy",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 4924,
+      "w": 378,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Terms and Conditions",
+     "href": "https://surzion.com/terms-and-conditions",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 4993,
+      "w": 581,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We'll reply within 12 hours",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 932,
+      "y": 4856,
+      "w": 209,
+      "h": 21
+     }
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "Name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Last name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Your email*",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Message*",
+       "required": false
+      }
+     ],
+     "submit": "Submit your inquiry",
+     "rect": {
+      "x": 932,
+      "y": 4893,
+      "w": 400,
+      "h": 530
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "78d203db9ebdefcb"
+  }
+ ],
+ "version": 1,
+ "kind": "page_snapshot",
+ "source_url": "https://surzion.com/",
+ "captured_at": "2026-10-08T13:55:49Z",
+ "page_fingerprint": "3124d2636f00ee60"
+}

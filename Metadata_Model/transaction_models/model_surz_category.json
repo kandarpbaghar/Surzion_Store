@@ -1,0 +1,180 @@
+{
+  "transaction": {
+    "obj_name": "surz_category",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Category",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_CATEGORY",
+          "columns": [
+            {
+              "column": {
+                "name": "category_code",
+                "db_name": "CATEGORY_CODE",
+                "col_type": "VARCHAR12",
+                "heading": "Category code",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "category_name",
+                "db_name": "CATEGORY_NAME",
+                "col_type": "VARCHAR80",
+                "heading": "Category",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "descr",
+                "db_name": "DESCR",
+                "col_type": "VARCHAR400",
+                "heading": "Description",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "textarea"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "image_url",
+                "db_name": "IMAGE_URL",
+                "col_type": "VARCHAR400",
+                "heading": "Image",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "image"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "sort_order",
+                "db_name": "SORT_ORDER",
+                "col_type": "NUMBER",
+                "heading": "Shown in position",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "is_active",
+                "db_name": "IS_ACTIVE",
+                "col_type": "VARCHAR1",
+                "heading": "Active",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "Y",
+                "edit_mask": {
+                  "mask": "yes_no"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_CATEGORY",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

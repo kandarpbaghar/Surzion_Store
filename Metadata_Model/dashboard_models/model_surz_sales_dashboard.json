@@ -1,0 +1,218 @@
+{
+  "DASHBOARD": {
+    "DASHBOARD_ID": "SURZ_SALES_DASHBOARD",
+    "DASHBOARD_TYPE": "S",
+    "DASHBOARD_NAME": "Surzion Sales & Payments",
+    "DASHBOARD_DESCR": "The morning view of the shop: what has been paid for, what is still unpaid, which instruments and categories are earning, and what needs reordering.",
+    "CREATED_BY": "admin",
+    "CREATED_DATE": "2026-09-21",
+    "REFRESH_INTERVAL_SECONDS": 0,
+    "GLOBAL_CRITERIA": [
+      {
+        "PARAM_NAME": "FROM_DATE",
+        "PROMPT_LABEL": "From Date",
+        "DEFAULT_VALUE": ":calendar_month_start",
+        "DATA_TYPE": "date",
+        "OPERATOR": ">=",
+        "BROADCAST_TO": [
+          "VIS_PAYMENT_STATUS",
+          "VIS_REVENUE_TREND",
+          "VIS_NET_BILLED_TREND",
+          "VIS_CATEGORY_MIX",
+          "VIS_TOP_INSTRUMENTS"
+        ]
+      },
+      {
+        "PARAM_NAME": "TO_DATE",
+        "PROMPT_LABEL": "To Date",
+        "DEFAULT_VALUE": ":calendar_today",
+        "DATA_TYPE": "date",
+        "OPERATOR": "<=",
+        "BROADCAST_TO": [
+          "VIS_PAYMENT_STATUS",
+          "VIS_REVENUE_TREND",
+          "VIS_NET_BILLED_TREND",
+          "VIS_CATEGORY_MIX",
+          "VIS_TOP_INSTRUMENTS"
+        ]
+      },
+      {
+        "PARAM_NAME": "CATEGORY_NAME",
+        "PROMPT_LABEL": "Category",
+        "DEFAULT_VALUE": "%",
+        "DATA_TYPE": "string",
+        "OPERATOR": "like",
+        "BROADCAST_TO": [
+          "VIS_REVENUE_TREND",
+          "VIS_CATEGORY_MIX",
+          "VIS_TOP_INSTRUMENTS",
+          "VIS_STOCK_COVER"
+        ],
+        "lookup": "SURZ_CATEGORY(CATEGORY_NAME, CATEGORY_NAME)"
+      }
+    ],
+    "VISUALS": [
+      {
+        "VISUAL_ID": "VIS_PAYMENT_STATUS",
+        "VISUAL_NAME": "Money in, money waiting",
+        "POSITION": {
+          "X": 0,
+          "Y": 0,
+          "WIDTH": 12,
+          "HEIGHT": 2
+        },
+        "VISUAL_CONFIG_REF": "model_surz_payment_status.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "FROM_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "FROM_DATE"
+          },
+          {
+            "VISUAL_PARAM": "TO_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "TO_DATE"
+          }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_REVENUE_TREND",
+        "VISUAL_NAME": "Revenue captured (instrument lines)",
+        "POSITION": {
+          "X": 0,
+          "Y": 2,
+          "WIDTH": 6,
+          "HEIGHT": 4
+        },
+        "VISUAL_CONFIG_REF": "model_surz_revenue_trend.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "FROM_DATE"
+          },
+          {
+            "VISUAL_PARAM": "TO_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "TO_DATE"
+          },
+          {
+            "VISUAL_PARAM": "SURZ_CATEGORY.CATEGORY_NAME",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "CATEGORY_NAME"
+          }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_NET_BILLED_TREND",
+        "VISUAL_NAME": "Net billed (invoice totals)",
+        "POSITION": {
+          "X": 6,
+          "Y": 2,
+          "WIDTH": 6,
+          "HEIGHT": 4
+        },
+        "VISUAL_CONFIG_REF": "model_surz_net_billed_trend.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "FROM_DATE"
+          },
+          {
+            "VISUAL_PARAM": "TO_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "TO_DATE"
+          }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_CATEGORY_MIX",
+        "VISUAL_NAME": "Revenue mix by category",
+        "POSITION": {
+          "X": 0,
+          "Y": 6,
+          "WIDTH": 5,
+          "HEIGHT": 4
+        },
+        "VISUAL_CONFIG_REF": "model_surz_category_mix.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "FROM_DATE"
+          },
+          {
+            "VISUAL_PARAM": "TO_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "TO_DATE"
+          },
+          {
+            "VISUAL_PARAM": "SURZ_CATEGORY.CATEGORY_NAME",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "CATEGORY_NAME"
+          }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_TOP_INSTRUMENTS",
+        "VISUAL_NAME": "Top instruments by revenue",
+        "POSITION": {
+          "X": 5,
+          "Y": 6,
+          "WIDTH": 7,
+          "HEIGHT": 4
+        },
+        "VISUAL_CONFIG_REF": "model_surz_top_instruments.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "FROM_DATE"
+          },
+          {
+            "VISUAL_PARAM": "TO_DATE",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "TO_DATE"
+          },
+          {
+            "VISUAL_PARAM": "SURZ_CATEGORY.CATEGORY_NAME",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "CATEGORY_NAME"
+          },
+          {
+            "VISUAL_PARAM": "TOP_N",
+            "BIND_TYPE": "unbound"
+          }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_STOCK_COVER",
+        "VISUAL_NAME": "At or below reorder level",
+        "POSITION": {
+          "X": 0,
+          "Y": 10,
+          "WIDTH": 12,
+          "HEIGHT": 5
+        },
+        "VISUAL_CONFIG_REF": "model_surz_stock_cover.json",
+        "CRITERIA_BINDINGS": [
+          {
+            "VISUAL_PARAM": "CATEGORY_NAME",
+            "BIND_TYPE": "global",
+            "GLOBAL_PARAM": "CATEGORY_NAME"
+          }
+        ]
+      }
+    ],
+    "DRILL_THROUGH": [
+      {
+        "SOURCE_VISUAL_ID": "VIS_CATEGORY_MIX",
+        "TARGET_TYPE": "self",
+        "PARAM_MAPPING": {
+          "SURZ_CATEGORY_CATEGORY_NAME": "CATEGORY_NAME"
+        }
+      }
+    ]
+  }
+}

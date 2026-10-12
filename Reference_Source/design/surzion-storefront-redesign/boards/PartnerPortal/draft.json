@@ -1,0 +1,680 @@
+{
+ "page": {
+  "obj_name": "PartnerPortal",
+  "title": "My partner account",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "My partner account"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0application",
+    "name": "Application status",
+    "blocks": [
+     {
+      "id": "cols_b24579_3",
+      "type": "columns",
+      "count": 1,
+      "columns": [
+       {
+        "id": "col_b24579_2",
+        "blocks": [
+         {
+          "id": "h_b24579_1",
+          "type": "heading",
+          "level": 2,
+          "text": "Application status"
+         }
+        ],
+        "width": "100fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "ul_b24579_7",
+      "type": "numbered_list",
+      "items": [
+       {
+        "id": "li_b24579_4",
+        "text": "Application received\n[Applied date]",
+        "iconUrl": "svg:af98eeb15a9ff019337b"
+       },
+       {
+        "id": "li_b24579_5",
+        "text": "Reviewed by our team\nYour followers' discount set",
+        "iconUrl": "svg:af98eeb15a9ff019337b"
+       },
+       {
+        "id": "li_b24579_6",
+        "text": "Partner role granted\nCode and QR code emailed to you",
+        "iconUrl": "svg:af98eeb15a9ff019337b"
+       }
+      ],
+      "style": {
+       "textColor": "#0b1a3d"
+      }
+     },
+     {
+      "id": "p_b24579_8",
+      "type": "paragraph",
+      "text": "Pending applications can still be edited. Once approved or rejected, they are locked.",
+      "style": {
+       "typography": {
+        "fontSize": 13
+       }
+      }
+     },
+     {
+      "id": "p_b24579_9",
+      "type": "paragraph",
+      "text": "YOUR PARTNER CODE",
+      "style": {
+       "textColor": "#9db8f5",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "ico_b24579_10",
+      "type": "image",
+      "url": "svg:2e33f2cd4c28df014cb6",
+      "alt": "",
+      "maxWidth": 120,
+      "align": "left"
+     },
+     {
+      "id": "p_b24579_11",
+      "type": "paragraph",
+      "text": "[CODE]",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 30,
+        "fontWeight": 700
+       }
+      }
+     },
+     {
+      "id": "p_b24579_12",
+      "type": "paragraph",
+      "text": "Followers save [N]% on every item",
+      "style": {
+       "textColor": "#c9d6f2"
+      }
+     },
+     {
+      "id": "cols_b24579_22",
+      "type": "columns",
+      "count": 3,
+      "columns": [
+       {
+        "id": "col_b24579_15",
+        "blocks": [
+         {
+          "id": "btn_b24579_13",
+          "type": "button",
+          "button": {
+           "id": "btn_b24579_14",
+           "label": "Copy code",
+           "variant": "secondary",
+           "size": "md"
+          },
+          "align": "left"
+         }
+        ],
+        "width": "32fr"
+       },
+       {
+        "id": "col_b24579_18",
+        "blocks": [
+         {
+          "id": "btn_b24579_16",
+          "type": "button",
+          "button": {
+           "id": "btn_b24579_17",
+           "label": "Download QR",
+           "variant": "outline",
+           "size": "md"
+          },
+          "align": "left"
+         }
+        ],
+        "width": "38fr"
+       },
+       {
+        "id": "col_b24579_21",
+        "blocks": [
+         {
+          "id": "btn_b24579_19",
+          "type": "button",
+          "button": {
+           "id": "btn_b24579_20",
+           "label": "Share link",
+           "variant": "outline",
+           "size": "md"
+          },
+          "align": "left"
+         }
+        ],
+        "width": "31fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+     "key": "0:application-status",
+     "fingerprint": "dc69f8983a32017f",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_1ordersclaim",
+    "name": "Orders claimed with my code",
+    "blocks": [
+     {
+      "id": "cols_c2427e_4",
+      "type": "columns",
+      "count": 1,
+      "columns": [
+       {
+        "id": "col_c2427e_3",
+        "blocks": [
+         {
+          "id": "h_c2427e_1",
+          "type": "heading",
+          "level": 2,
+          "text": "Orders claimed with my code"
+         },
+         {
+          "id": "p_c2427e_2",
+          "type": "paragraph",
+          "text": "Buyer names are masked. The discount is applied per item, before GST.",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         }
+        ],
+        "width": "100fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "cols_c2427e_17",
+      "type": "columns",
+      "count": 6,
+      "columns": [
+       {
+        "id": "col_c2427e_6",
+        "blocks": [
+         {
+          "id": "p_c2427e_5",
+          "type": "paragraph",
+          "text": "ORDER",
+          "style": {
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_8",
+        "blocks": [
+         {
+          "id": "p_c2427e_7",
+          "type": "paragraph",
+          "text": "BUYER",
+          "style": {
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_10",
+        "blocks": [
+         {
+          "id": "p_c2427e_9",
+          "type": "paragraph",
+          "text": "STATUS",
+          "style": {
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_12",
+        "blocks": [
+         {
+          "id": "p_c2427e_11",
+          "type": "paragraph",
+          "text": "PAYMENT",
+          "style": {
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_14",
+        "blocks": [
+         {
+          "id": "p_c2427e_13",
+          "type": "paragraph",
+          "text": "DISCOUNT",
+          "style": {
+           "align": "right",
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_16",
+        "blocks": [
+         {
+          "id": "p_c2427e_15",
+          "type": "paragraph",
+          "text": "TOTAL",
+          "style": {
+           "align": "right",
+           "typography": {
+            "fontSize": 12,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "cols_c2427e_28",
+      "type": "columns",
+      "count": 5,
+      "columns": [
+       {
+        "id": "col_c2427e_19",
+        "blocks": [
+         {
+          "id": "p_c2427e_18",
+          "type": "paragraph",
+          "text": "[Date]",
+          "style": {
+           "textColor": "#8494b4",
+           "typography": {
+            "fontSize": 12
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_21",
+        "blocks": [
+         {
+          "id": "p_c2427e_20",
+          "type": "paragraph",
+          "text": "[R•••• K.]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_23",
+        "blocks": [
+         {
+          "id": "p_c2427e_22",
+          "type": "paragraph",
+          "text": "Cash on delivery",
+          "style": {
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_25",
+        "blocks": [
+         {
+          "id": "p_c2427e_24",
+          "type": "paragraph",
+          "text": "−₹[0]",
+          "style": {
+           "textColor": "#1f9d63",
+           "align": "right",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_27",
+        "blocks": [
+         {
+          "id": "p_c2427e_26",
+          "type": "paragraph",
+          "text": "₹[0]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "align": "right",
+           "typography": {
+            "fontSize": 14,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "cols_c2427e_39",
+      "type": "columns",
+      "count": 5,
+      "columns": [
+       {
+        "id": "col_c2427e_30",
+        "blocks": [
+         {
+          "id": "p_c2427e_29",
+          "type": "paragraph",
+          "text": "[Date]",
+          "style": {
+           "textColor": "#8494b4",
+           "typography": {
+            "fontSize": 12
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_32",
+        "blocks": [
+         {
+          "id": "p_c2427e_31",
+          "type": "paragraph",
+          "text": "[R•••• K.]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_34",
+        "blocks": [
+         {
+          "id": "p_c2427e_33",
+          "type": "paragraph",
+          "text": "Online · Razorpay",
+          "style": {
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_36",
+        "blocks": [
+         {
+          "id": "p_c2427e_35",
+          "type": "paragraph",
+          "text": "−₹[0]",
+          "style": {
+           "textColor": "#1f9d63",
+           "align": "right",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_38",
+        "blocks": [
+         {
+          "id": "p_c2427e_37",
+          "type": "paragraph",
+          "text": "₹[0]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "align": "right",
+           "typography": {
+            "fontSize": 14,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "cols_c2427e_50",
+      "type": "columns",
+      "count": 5,
+      "columns": [
+       {
+        "id": "col_c2427e_41",
+        "blocks": [
+         {
+          "id": "p_c2427e_40",
+          "type": "paragraph",
+          "text": "[Date]",
+          "style": {
+           "textColor": "#8494b4",
+           "typography": {
+            "fontSize": 12
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_43",
+        "blocks": [
+         {
+          "id": "p_c2427e_42",
+          "type": "paragraph",
+          "text": "[R•••• K.]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_45",
+        "blocks": [
+         {
+          "id": "p_c2427e_44",
+          "type": "paragraph",
+          "text": "Cash on delivery",
+          "style": {
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_47",
+        "blocks": [
+         {
+          "id": "p_c2427e_46",
+          "type": "paragraph",
+          "text": "−₹[0]",
+          "style": {
+           "textColor": "#1f9d63",
+           "align": "right",
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ]
+       },
+       {
+        "id": "col_c2427e_49",
+        "blocks": [
+         {
+          "id": "p_c2427e_48",
+          "type": "paragraph",
+          "text": "₹[0]",
+          "style": {
+           "textColor": "#0b1a3d",
+           "align": "right",
+           "typography": {
+            "fontSize": 14,
+            "fontWeight": 600
+           }
+          }
+         }
+        ]
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+     "key": "1:orders-claimed-with-my-code",
+     "fingerprint": "69e6830213f7dd76",
+     "crop": "sections/s01.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+   "captured_at": "2026-10-09T13:07:08Z",
+   "page_fingerprint": "e0b39109dec02917",
+   "draft_version": 1
+  }
+ }
+}

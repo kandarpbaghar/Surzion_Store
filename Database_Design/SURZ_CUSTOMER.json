@@ -1,0 +1,151 @@
+{
+  "table_name": "SURZ_CUSTOMER",
+  "description": "Customer (surz_customer)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "CUSTOMER_ID",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Customer id"
+    },
+    {
+      "column_name": "CUSTOMER_NAME",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 2,
+      "key": false,
+      "mandatory": true,
+      "description": "Contact name"
+    },
+    {
+      "column_name": "ORG_NAME",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 3,
+      "key": false,
+      "mandatory": false,
+      "description": "Hospital or company"
+    },
+    {
+      "column_name": "EMAIL",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Email"
+    },
+    {
+      "column_name": "PHONE",
+      "data_type": "VARCHAR",
+      "size": "30",
+      "sequence": 5,
+      "key": false,
+      "mandatory": false,
+      "description": "Phone"
+    },
+    {
+      "column_name": "REGISTRY_ID",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 6,
+      "key": false,
+      "mandatory": false,
+      "description": "Shop account"
+    },
+    {
+      "column_name": "GSTIN",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 7,
+      "key": false,
+      "mandatory": false,
+      "description": "GSTIN"
+    },
+    {
+      "column_name": "BILL_ADDRESS",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 8,
+      "key": false,
+      "mandatory": false,
+      "description": "Billing address"
+    },
+    {
+      "column_name": "SHIP_ADDRESS",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 9,
+      "key": false,
+      "mandatory": false,
+      "description": "Delivery address"
+    },
+    {
+      "column_name": "CITY",
+      "data_type": "VARCHAR",
+      "size": "80",
+      "sequence": 10,
+      "key": false,
+      "mandatory": false,
+      "description": "City"
+    },
+    {
+      "column_name": "STATE_NAME",
+      "data_type": "VARCHAR",
+      "size": "80",
+      "sequence": 11,
+      "key": false,
+      "mandatory": false,
+      "description": "State"
+    },
+    {
+      "column_name": "PINCODE",
+      "data_type": "VARCHAR",
+      "size": "12",
+      "sequence": 12,
+      "key": false,
+      "mandatory": false,
+      "description": "PIN code"
+    },
+    {
+      "column_name": "ADD_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 13,
+      "key": false,
+      "mandatory": false,
+      "description": "Added on"
+    },
+    {
+      "column_name": "ADD_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 14,
+      "key": false,
+      "mandatory": false,
+      "description": "Added by"
+    },
+    {
+      "column_name": "CHG_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 15,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed on"
+    },
+    {
+      "column_name": "CHG_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 16,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed by"
+    }
+  ]
+}

@@ -1,0 +1,914 @@
+{
+  "application": {
+    "id": "Surzion_Store",
+    "title": "Surzion Store",
+    "description": "Surgical instrument storefront \u2014 catalogue, cart, orders and online payment.",
+    "icon": "storefront",
+    "theme_color": "#14307A",
+    "group": "generated",
+    "folder_name": "Surzion_Store",
+    "generated": false,
+    "db_mode": "postgres",
+    "biz_logic": "python",
+    "auth": {
+      "requireLogin": false,
+      "loginPage": "surz_login",
+      "providers": [
+        "project-users"
+      ],
+      "defaultRoles": [
+        "customer"
+      ],
+      "grants": [
+        {
+          "role": "customer",
+          "obj_name": "surz_partner_apply",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_partner_apply",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_partner_apply",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "customer",
+          "obj_name": "surz_partner",
+          "actions": [
+            "list",
+            "load"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_partner",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_partner",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "customer",
+          "obj_name": "surz_partner_order",
+          "actions": [
+            "list",
+            "load"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_partner_order",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_partner_order",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_discount",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_discount",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "customer",
+          "obj_name": "surz_customer_address",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save",
+            "delete"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_customer_address",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_customer_address",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "customer",
+          "obj_name": "surz_customer_payment_method",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save",
+            "delete"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_customer_payment_method",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_customer_payment_method",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "customer",
+          "obj_name": "surz_order",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "save"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_order",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_order",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_product_review",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_product_review",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_partner_apply",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_partner",
+          "actions": [
+            "list",
+            "load"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_partner_order",
+          "actions": [
+            "list",
+            "load"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_customer_address",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save",
+            "delete"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_customer_payment_method",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "edit",
+            "save",
+            "delete"
+          ]
+        },
+        {
+          "role": "partner",
+          "obj_name": "surz_order",
+          "actions": [
+            "list",
+            "load",
+            "add",
+            "save"
+          ]
+        }
+      ],
+      "defaultCountryCode": "+91"
+    },
+    "collect_payments": true
+  },
+  "navigation": [
+    {
+      "id": "site",
+      "obj_type": "X",
+      "title": "Surzion storefront",
+      "obj_name": "surz_site",
+      "parent_id": "",
+      "order": 0,
+      "functional_specs": "{\"slug\": \"shop\", \"title\": \"Surzion\", \"is_primary\": true, \"theme\": {\"ref\": \"surzion\"}, \"header_page_obj_name\": \"surz_site_header\", \"footer_page_obj_name\": \"surz_site_footer\", \"header_scroll\": \"sticky\", \"header_shrink\": true, \"page_overrides\": {\"surz_home\": {\"slug\": \"\", \"is_home\": true, \"show_in_nav\": false}, \"surz_shop\": {\"slug\": \"instruments\", \"nav_label\": \"Shop\"}, \"surz_quality\": {\"slug\": \"quality\", \"nav_label\": \"Quality\"}, \"surz_about\": {\"slug\": \"about\", \"nav_label\": \"About\"}, \"surz_contact\": {\"slug\": \"contact\", \"nav_label\": \"Contact\"}, \"surz_online_catalogue\": {\"slug\": \"online-catalogue\", \"nav_label\": \"Online catalogue\"}, \"surz_partner_register\": {\"slug\": \"partner\", \"nav_label\": \"Partners\"}, \"surz_partner_portal\": {\"slug\": \"partner-portal\", \"show_in_nav\": false, \"nav_label\": \"My partner account\"}, \"surz_cart_page\": {\"slug\": \"cart\", \"show_in_nav\": false}, \"surz_checkout\": {\"slug\": \"checkout\", \"show_in_nav\": false}, \"surz_login\": {\"slug\": \"login\", \"show_in_nav\": false, \"nav_label\": \"Sign in\"}, \"surz_my_orders\": {\"slug\": \"my-orders\", \"show_in_nav\": false, \"nav_label\": \"My orders\"}, \"surz_wishlist\": {\"slug\": \"wishlist\", \"show_in_nav\": false, \"nav_label\": \"Wishlist\"}, \"surz_my_account\": {\"slug\": \"my-account\", \"show_in_nav\": false, \"nav_label\": \"My account\"}, \"surz_cat_orthopaedic\": {\"slug\": \"orthopaedic\", \"show_in_nav\": false, \"nav_label\": \"Orthopaedic\"}, \"surz_cat_general\": {\"slug\": \"surgical-instruments\", \"show_in_nav\": false, \"nav_label\": \"General surgical\"}, \"surz_cat_dissecting\": {\"slug\": \"dissecting-forceps\", \"show_in_nav\": false, \"nav_label\": \"Dissecting forceps\"}, \"surz_privacy\": {\"slug\": \"privacy\", \"nav_label\": \"Privacy policy\"}, \"surz_terms\": {\"slug\": \"terms\", \"nav_label\": \"Terms & conditions\"}, \"surz_shipping\": {\"slug\": \"shipping\", \"nav_label\": \"Shipping policy\"}, \"surz_returns\": {\"slug\": \"returns\", \"nav_label\": \"Returns & refunds\"}, \"surz_p_adenoid_curette_with_cage_surgical_instruments\": {\"slug\": \"adenoid-curette-with-cage-surgical-instruments\", \"show_in_nav\": false, \"nav_label\": \"Adenoid Curette with Cage\"}, \"surz_p_adson_beckman_retractor\": {\"slug\": \"adson-beckman-retractor\", \"show_in_nav\": false, \"nav_label\": \"Adson Beckman Retractor\"}, \"surz_p_adson_brown_tissue_forceps\": {\"slug\": \"adson-brown-tissue-forceps\", \"show_in_nav\": false, \"nav_label\": \"Adson Brown Tissue Forceps\"}, \"surz_p_adson_brown_tissue_forceps1\": {\"slug\": \"adson-brown-tissue-forceps1\", \"show_in_nav\": false, \"nav_label\": \"Adson Brown Tissue Forceps (fine)\"}, \"surz_p_premium_surgical_instruments_2\": {\"slug\": \"premium-surgical-instruments-2\", \"show_in_nav\": false, \"nav_label\": \"Adson Dissecting Forceps Plain\"}, \"surz_p_allis_tissue_forceps_surgical_tissue_forceps\": {\"slug\": \"allis-tissue-forceps-surgical-tissue-forceps\", \"show_in_nav\": false, \"nav_label\": \"Allis Tissue Forceps\"}, \"surz_p_allis_tissue_forceps_autragrip\": {\"slug\": \"allis-tissue-forceps-autragrip\", \"show_in_nav\": false, \"nav_label\": \"Allis Tissue Forceps Autagrip\"}, \"surz_p_allison_lung_retractor\": {\"slug\": \"allison-lung-retractor\", \"show_in_nav\": false, \"nav_label\": \"Allison Lung Retractor\"}, \"surz_p_anderson_tendon_tunneling_forceps\": {\"slug\": \"anderson-tendon-tunneling-forceps\", \"show_in_nav\": false, \"nav_label\": \"Anderson Tendon Tunneling Forceps\"}, \"surz_p_artery_forceps_crile\": {\"slug\": \"artery-forceps-crile\", \"show_in_nav\": false, \"nav_label\": \"Artery Forceps Crile\"}, \"surz_p_artery_forceps_kocher\": {\"slug\": \"artery-forceps-kocher\", \"show_in_nav\": false, \"nav_label\": \"Artery Forceps Kocher\"}, \"surz_p_artery_forceps_ochsner\": {\"slug\": \"artery-forceps-ochsner\", \"show_in_nav\": false, \"nav_label\": \"Artery Forceps Ochsner\"}, \"surz_p_artery_forceps_pean\": {\"slug\": \"artery-forceps-pean\", \"show_in_nav\": false, \"nav_label\": \"Artery Forceps Pean\"}, \"surz_p_artery_forceps_robert_hemostatic_forceps\": {\"slug\": \"artery-forceps-robert-hemostatic-forceps\", \"show_in_nav\": false, \"nav_label\": \"Artery Forceps Robert\"}, \"surz_p_bp_handle_bayonet_5\": {\"slug\": \"bp-handle-bayonet-5\", \"show_in_nav\": false, \"nav_label\": \"B.P Handle Bayonet\"}, \"surz_p_babcock_forceps_autogrip\": {\"slug\": \"babcock-forceps-autogrip\", \"show_in_nav\": false, \"nav_label\": \"Babcock Forceps Autogrip\"}, \"surz_p_bulldog_clamps\": {\"slug\": \"bulldog-clamps\", \"show_in_nav\": false, \"nav_label\": \"Babcock Forceps TC\"}, \"surz_p_birkett_tonsil_artery_forceps\": {\"slug\": \"birkett-tonsil-artery-forceps\", \"show_in_nav\": false, \"nav_label\": \"Birkett Tonsil Artery Forceps\"}, \"surz_p_dandy_artery_forceps_55\": {\"slug\": \"dandy-artery-forceps-55\", \"show_in_nav\": false, \"nav_label\": \"Bone Hook\"}, \"surz_p_bone_reduction_clamp_towel_type\": {\"slug\": \"bone-reduction-clamp-towel-type\", \"show_in_nav\": false, \"nav_label\": \"Bone Reduction Clamp Towel Type\"}, \"surz_p_bulldog_clamps1\": {\"slug\": \"bulldog-clamps1\", \"show_in_nav\": false, \"nav_label\": \"Bulldog Clamps\"}, \"surz_p_castpaw_retractor_kilner_retractor\": {\"slug\": \"castpaw-retractor-kilner-retractor\", \"show_in_nav\": false, \"nav_label\": \"Castpaw Retractor (Kilner Retractor)\"}}, \"settings\": {\"siteName\": \"Surzion\", \"lang\": \"en-IN\", \"defaultOgImage\": \"\", \"sitemap\": true}, \"menus\": {\"header\": [{\"page\": \"surz_home\", \"label\": \"Home\"}, {\"page\": \"surz_shop\"}, {\"page\": \"surz_about\"}, {\"page\": \"surz_online_catalogue\"}, {\"page\": \"surz_partner_register\"}], \"footer\": [{\"page\": \"surz_partner_register\"}, {\"page\": \"surz_quality\"}, {\"page\": \"surz_contact\"}, {\"page\": \"surz_privacy\"}, {\"page\": \"surz_terms\"}, {\"page\": \"surz_shipping\"}, {\"page\": \"surz_returns\"}]}}"
+    },
+    {
+      "id": "pg_header",
+      "obj_type": "S",
+      "title": "Site header",
+      "obj_name": "surz_site_header",
+      "parent_id": "site",
+      "order": 8
+    },
+    {
+      "id": "pg_partner_register",
+      "obj_type": "S",
+      "title": "Become a partner",
+      "obj_name": "surz_partner_register",
+      "parent_id": "site",
+      "order": 10
+    },
+    {
+      "id": "pg_partner_portal",
+      "obj_type": "S",
+      "title": "My partner account",
+      "obj_name": "surz_partner_portal",
+      "parent_id": "site",
+      "order": 11
+    },
+    {
+      "id": "pg_footer",
+      "obj_type": "S",
+      "title": "Site footer",
+      "obj_name": "surz_site_footer",
+      "parent_id": "site",
+      "order": 9
+    },
+    {
+      "id": "pg_home",
+      "obj_type": "S",
+      "title": "Home",
+      "obj_name": "surz_home",
+      "parent_id": "site",
+      "order": 10
+    },
+    {
+      "id": "pg_cart",
+      "obj_type": "S",
+      "title": "Cart",
+      "obj_name": "surz_cart_page",
+      "parent_id": "site",
+      "order": 11
+    },
+    {
+      "id": "pg_checkout",
+      "obj_type": "S",
+      "title": "Checkout",
+      "obj_name": "surz_checkout",
+      "parent_id": "site",
+      "order": 12
+    },
+    {
+      "id": "pg_login",
+      "obj_type": "S",
+      "title": "Sign in",
+      "obj_name": "surz_login",
+      "parent_id": "site",
+      "order": 15
+    },
+    {
+      "id": "pg_my_orders",
+      "obj_type": "S",
+      "title": "My orders",
+      "obj_name": "surz_my_orders",
+      "parent_id": "site",
+      "order": 16
+    },
+    {
+      "id": "pg_wishlist",
+      "obj_type": "S",
+      "title": "Wishlist",
+      "obj_name": "surz_wishlist",
+      "parent_id": "site",
+      "order": 17
+    },
+    {
+      "id": "pg_my_account",
+      "obj_type": "S",
+      "title": "My account",
+      "obj_name": "surz_my_account",
+      "parent_id": "site",
+      "order": 18
+    },
+    {
+      "id": "pg_cat_ort",
+      "obj_type": "S",
+      "title": "Orthopaedic Surgical Instruments",
+      "obj_name": "surz_cat_orthopaedic",
+      "parent_id": "site",
+      "order": 19
+    },
+    {
+      "id": "pg_cat_gen",
+      "obj_type": "S",
+      "title": "General Surgical Instruments",
+      "obj_name": "surz_cat_general",
+      "parent_id": "site",
+      "order": 20
+    },
+    {
+      "id": "pg_cat_dis",
+      "obj_type": "S",
+      "title": "Dissecting Forceps",
+      "obj_name": "surz_cat_dissecting",
+      "parent_id": "site",
+      "order": 21
+    },
+    {
+      "id": "pg_shop",
+      "obj_type": "S",
+      "title": "Instruments",
+      "obj_name": "surz_shop",
+      "parent_id": "site",
+      "order": 0
+    },
+    {
+      "id": "pg_quality",
+      "obj_type": "S",
+      "title": "Quality",
+      "obj_name": "surz_quality",
+      "parent_id": "site",
+      "order": 1
+    },
+    {
+      "id": "pg_about",
+      "obj_type": "S",
+      "title": "About",
+      "obj_name": "surz_about",
+      "parent_id": "site",
+      "order": 2
+    },
+    {
+      "id": "pg_contact",
+      "obj_type": "S",
+      "title": "Contact",
+      "obj_name": "surz_contact",
+      "parent_id": "site",
+      "order": 3
+    },
+    {
+      "id": "pg_online_catalogue",
+      "obj_type": "S",
+      "title": "Online catalogue",
+      "obj_name": "surz_online_catalogue",
+      "parent_id": "site",
+      "order": 14
+    },
+    {
+      "id": "pg_privacy",
+      "obj_type": "S",
+      "title": "Privacy policy",
+      "obj_name": "surz_privacy",
+      "parent_id": "site",
+      "order": 4
+    },
+    {
+      "id": "pg_terms",
+      "obj_type": "S",
+      "title": "Terms & conditions",
+      "obj_name": "surz_terms",
+      "parent_id": "site",
+      "order": 5
+    },
+    {
+      "id": "pg_shipping",
+      "obj_type": "S",
+      "title": "Shipping policy",
+      "obj_name": "surz_shipping",
+      "parent_id": "site",
+      "order": 6
+    },
+    {
+      "id": "pg_returns",
+      "obj_type": "S",
+      "title": "Returns & refunds",
+      "obj_name": "surz_returns",
+      "parent_id": "site",
+      "order": 7
+    },
+    {
+      "id": "f_catalogue_pages",
+      "obj_type": "-",
+      "title": "Instrument pages",
+      "obj_name": "instrument_pages",
+      "parent_id": "site",
+      "order": 13
+    },
+    {
+      "id": "pp_0",
+      "obj_type": "S",
+      "title": "Adenoid Curette with Cage",
+      "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+      "parent_id": "f_catalogue_pages",
+      "order": 0
+    },
+    {
+      "id": "pp_1",
+      "obj_type": "S",
+      "title": "Adson Beckman Retractor",
+      "obj_name": "surz_p_adson_beckman_retractor",
+      "parent_id": "f_catalogue_pages",
+      "order": 1
+    },
+    {
+      "id": "pp_2",
+      "obj_type": "S",
+      "title": "Adson Brown Tissue Forceps",
+      "obj_name": "surz_p_adson_brown_tissue_forceps",
+      "parent_id": "f_catalogue_pages",
+      "order": 2
+    },
+    {
+      "id": "pp_3",
+      "obj_type": "S",
+      "title": "Adson Brown Tissue Forceps (fine)",
+      "obj_name": "surz_p_adson_brown_tissue_forceps1",
+      "parent_id": "f_catalogue_pages",
+      "order": 3
+    },
+    {
+      "id": "pp_4",
+      "obj_type": "S",
+      "title": "Adson Dissecting Forceps Plain",
+      "obj_name": "surz_p_premium_surgical_instruments_2",
+      "parent_id": "f_catalogue_pages",
+      "order": 4
+    },
+    {
+      "id": "pp_5",
+      "obj_type": "S",
+      "title": "Allis Tissue Forceps",
+      "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+      "parent_id": "f_catalogue_pages",
+      "order": 5
+    },
+    {
+      "id": "pp_6",
+      "obj_type": "S",
+      "title": "Allis Tissue Forceps Autagrip",
+      "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+      "parent_id": "f_catalogue_pages",
+      "order": 6
+    },
+    {
+      "id": "pp_7",
+      "obj_type": "S",
+      "title": "Allison Lung Retractor",
+      "obj_name": "surz_p_allison_lung_retractor",
+      "parent_id": "f_catalogue_pages",
+      "order": 7
+    },
+    {
+      "id": "pp_8",
+      "obj_type": "S",
+      "title": "Anderson Tendon Tunneling Forceps",
+      "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+      "parent_id": "f_catalogue_pages",
+      "order": 8
+    },
+    {
+      "id": "pp_9",
+      "obj_type": "S",
+      "title": "Artery Forceps Crile",
+      "obj_name": "surz_p_artery_forceps_crile",
+      "parent_id": "f_catalogue_pages",
+      "order": 9
+    },
+    {
+      "id": "pp_10",
+      "obj_type": "S",
+      "title": "Artery Forceps Kocher",
+      "obj_name": "surz_p_artery_forceps_kocher",
+      "parent_id": "f_catalogue_pages",
+      "order": 10
+    },
+    {
+      "id": "pp_11",
+      "obj_type": "S",
+      "title": "Artery Forceps Ochsner",
+      "obj_name": "surz_p_artery_forceps_ochsner",
+      "parent_id": "f_catalogue_pages",
+      "order": 11
+    },
+    {
+      "id": "pp_12",
+      "obj_type": "S",
+      "title": "Artery Forceps Pean",
+      "obj_name": "surz_p_artery_forceps_pean",
+      "parent_id": "f_catalogue_pages",
+      "order": 12
+    },
+    {
+      "id": "pp_13",
+      "obj_type": "S",
+      "title": "Artery Forceps Robert",
+      "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+      "parent_id": "f_catalogue_pages",
+      "order": 13
+    },
+    {
+      "id": "pp_14",
+      "obj_type": "S",
+      "title": "B.P Handle Bayonet",
+      "obj_name": "surz_p_bp_handle_bayonet_5",
+      "parent_id": "f_catalogue_pages",
+      "order": 14
+    },
+    {
+      "id": "pp_15",
+      "obj_type": "S",
+      "title": "Babcock Forceps Autogrip",
+      "obj_name": "surz_p_babcock_forceps_autogrip",
+      "parent_id": "f_catalogue_pages",
+      "order": 15
+    },
+    {
+      "id": "pp_16",
+      "obj_type": "S",
+      "title": "Babcock Forceps TC",
+      "obj_name": "surz_p_bulldog_clamps",
+      "parent_id": "f_catalogue_pages",
+      "order": 16
+    },
+    {
+      "id": "pp_17",
+      "obj_type": "S",
+      "title": "Birkett Tonsil Artery Forceps",
+      "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+      "parent_id": "f_catalogue_pages",
+      "order": 17
+    },
+    {
+      "id": "pp_18",
+      "obj_type": "S",
+      "title": "Bone Hook",
+      "obj_name": "surz_p_dandy_artery_forceps_55",
+      "parent_id": "f_catalogue_pages",
+      "order": 18
+    },
+    {
+      "id": "pp_19",
+      "obj_type": "S",
+      "title": "Bone Reduction Clamp Towel Type",
+      "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+      "parent_id": "f_catalogue_pages",
+      "order": 19
+    },
+    {
+      "id": "pp_20",
+      "obj_type": "S",
+      "title": "Bulldog Clamps",
+      "obj_name": "surz_p_bulldog_clamps1",
+      "parent_id": "f_catalogue_pages",
+      "order": 20
+    },
+    {
+      "id": "pp_21",
+      "obj_type": "S",
+      "title": "Castpaw Retractor (Kilner Retractor)",
+      "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+      "parent_id": "f_catalogue_pages",
+      "order": 21
+    },
+    {
+      "id": "f_catalogue",
+      "obj_type": "F",
+      "title": "Catalogue",
+      "obj_name": "catalogue",
+      "parent_id": ""
+    },
+    {
+      "id": "t_category",
+      "obj_type": "T",
+      "title": "Categories",
+      "obj_name": "surz_category",
+      "parent_id": "f_catalogue"
+    },
+    {
+      "id": "t_product",
+      "obj_type": "T",
+      "title": "Instruments",
+      "obj_name": "surz_product",
+      "parent_id": "f_catalogue"
+    },
+    {
+      "id": "t_hsn",
+      "obj_type": "T",
+      "title": "HSN & GST",
+      "obj_name": "surz_hsn_gst",
+      "parent_id": "f_catalogue"
+    },
+    {
+      "id": "t_testimonial",
+      "obj_type": "T",
+      "title": "Testimonials",
+      "obj_name": "surz_testimonial",
+      "parent_id": "f_catalogue",
+      "functional_specs": "Entry screen for customer testimonials (author, role, quote, rating 1-5, date, active flag). The 10 latest active ones show on the Home page."
+    },
+    {
+      "id": "t_discount",
+      "obj_type": "T",
+      "title": "Discount codes",
+      "obj_name": "surz_discount",
+      "parent_id": "f_catalogue",
+      "roles": [
+        "admin",
+        "func-admin"
+      ]
+    },
+    {
+      "id": "f_sales",
+      "obj_type": "F",
+      "title": "Sales",
+      "obj_name": "sales",
+      "parent_id": ""
+    },
+    {
+      "id": "t_customer",
+      "obj_type": "T",
+      "title": "Customers",
+      "obj_name": "surz_customer",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "t_cart",
+      "obj_type": "T",
+      "title": "Carts",
+      "obj_name": "surz_cart",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "t_order",
+      "obj_type": "T",
+      "title": "Orders",
+      "obj_name": "surz_order",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "t_enquiry",
+      "obj_type": "T",
+      "title": "Enquiries",
+      "obj_name": "surz_enquiry",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "r_invoice",
+      "obj_type": "R",
+      "title": "Tax invoice",
+      "obj_name": "surz_tax_invoice",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "f_analytics",
+      "obj_type": "F",
+      "title": "Analytics",
+      "obj_name": "analytics",
+      "parent_id": ""
+    },
+    {
+      "id": "m_sales_line",
+      "obj_type": "M",
+      "title": "Sales line schema",
+      "obj_name": "SURZ_SALES_LINE",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "d_sales",
+      "obj_type": "D",
+      "title": "Sales dashboard",
+      "obj_name": "surz_sales_dashboard",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_revenue",
+      "obj_type": "V",
+      "title": "Revenue trend",
+      "obj_name": "surz_revenue_trend",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_top",
+      "obj_type": "V",
+      "title": "Top instruments",
+      "obj_name": "surz_top_instruments",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_mix",
+      "obj_type": "V",
+      "title": "Category mix",
+      "obj_name": "surz_category_mix",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_paystatus",
+      "obj_type": "V",
+      "title": "Payment status",
+      "obj_name": "surz_payment_status",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_stock",
+      "obj_type": "V",
+      "title": "Stock cover",
+      "obj_name": "surz_stock_cover",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "m_order_header",
+      "obj_type": "M",
+      "title": "Order header schema",
+      "obj_name": "SURZ_ORDER_HEADER",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "v_netbilled",
+      "obj_type": "V",
+      "title": "Net billed trend",
+      "obj_name": "surz_net_billed_trend",
+      "parent_id": "f_analytics"
+    },
+    {
+      "id": "f_stock",
+      "obj_type": "F",
+      "title": "Stock",
+      "obj_name": "stock",
+      "parent_id": ""
+    },
+    {
+      "id": "t_move",
+      "obj_type": "T",
+      "title": "Stock movements",
+      "obj_name": "surz_stock_move",
+      "parent_id": "f_stock"
+    },
+    {
+      "id": "t_partner",
+      "obj_type": "T",
+      "title": "Partners",
+      "obj_name": "surz_partner",
+      "parent_id": "f_sales",
+      "roles": [
+        "admin",
+        "func-admin"
+      ]
+    },
+    {
+      "id": "t_partner_order",
+      "obj_type": "T",
+      "title": "My referred orders",
+      "obj_name": "surz_partner_order",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "d_partner",
+      "obj_type": "D",
+      "title": "Partner sales",
+      "obj_name": "surz_partner_dashboard",
+      "parent_id": "f_analytics",
+      "roles": [
+        "admin",
+        "func-admin"
+      ]
+    },
+    {
+      "id": "t_partner_apply",
+      "obj_type": "T",
+      "title": "Become a partner",
+      "obj_name": "surz_partner_apply",
+      "parent_id": "f_sales"
+    },
+    {
+      "id": "Surzion_Store.1",
+      "title": "Moderation",
+      "parent_id": "",
+      "icon_image": "folder",
+      "description": "",
+      "obj_name": "",
+      "obj_type": "-",
+      "menu_path": "Surzion_Store.1",
+      "functional_specs": "",
+      "order": 1
+    },
+    {
+      "id": "Surzion_Store.1.1",
+      "title": "Product reviews",
+      "parent_id": "Surzion_Store.1",
+      "icon_image": "edit_note",
+      "description": "",
+      "obj_name": "surz_product_review",
+      "obj_type": "T",
+      "menu_path": "Surzion_Store.1.1",
+      "functional_specs": "Moderation queue of all customer product reviews (PENDING / APPROVED / REJECTED). Func-admin approves or rejects (reject needs a moderator note); only APPROVED reviews are shown on the storefront.",
+      "order": 1,
+      "roles": [
+        "admin",
+        "func-admin"
+      ]
+    },
+    {
+      "id": "Surzion_Store.2",
+      "title": "sales",
+      "parent_id": "",
+      "icon_image": "folder",
+      "description": "",
+      "obj_name": "",
+      "obj_type": "-",
+      "menu_path": "Surzion_Store.2",
+      "functional_specs": "",
+      "order": 2
+    },
+    {
+      "id": "Surzion_Store.2.1",
+      "title": "Customer addresses",
+      "parent_id": "Surzion_Store.2",
+      "icon_image": "edit_note",
+      "description": "",
+      "obj_name": "surz_customer_address",
+      "obj_type": "T",
+      "menu_path": "Surzion_Store.2.1",
+      "functional_specs": "Address book: many delivery addresses per customer, one default. Shoppers see only their own.",
+      "order": 1
+    },
+    {
+      "id": "Surzion_Store.2.2",
+      "title": "Saved payment methods",
+      "parent_id": "Surzion_Store.2",
+      "icon_image": "edit_note",
+      "description": "",
+      "obj_name": "surz_customer_payment_method",
+      "obj_type": "T",
+      "menu_path": "Surzion_Store.2.2",
+      "functional_specs": "Saved payment preferences per customer (COD/UPI/card/netbanking). Stores only display data and the gateway token, never card numbers, CVV or expiry. Shoppers see only their own.",
+      "order": 2
+    }
+  ]
+}

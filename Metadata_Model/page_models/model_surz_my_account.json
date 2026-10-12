@@ -1,0 +1,312 @@
+{
+  "page": {
+    "obj_name": "surz_my_account",
+    "title": "My account",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "chrome": {
+      "smoothScroll": true
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 48,
+            "bottom": 40
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "My account",
+                "href": "/my-account"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "My account"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Manage your delivery addresses and saved payment preferences. Only you can see them. To change your password use the account menu at the top right."
+          },
+          {
+            "id": "head_btns",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "hb_addr",
+                "label": "Address book",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "scroll_to",
+                  "target": "addresses"
+                }
+              },
+              {
+                "id": "hb_pay",
+                "label": "Saved payment methods",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "scroll_to",
+                  "target": "payments"
+                }
+              },
+              {
+                "id": "hb_ord",
+                "label": "My orders",
+                "variant": "primary",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/my-orders",
+                  "newTab": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_addr",
+        "anchorId": "addresses",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 56,
+            "bottom": 48
+          }
+        },
+        "blocks": [
+          {
+            "id": "ah",
+            "type": "heading",
+            "level": 2,
+            "text": "Address book"
+          },
+          {
+            "id": "ap",
+            "type": "paragraph",
+            "text": "Save several delivery addresses and mark one as your default. They appear as a picker at checkout."
+          },
+          {
+            "id": "em_addr",
+            "type": "embed",
+            "embed": {
+              "obj_type": "T",
+              "obj_name": "surz_customer_address",
+              "renderMode": "realtime",
+              "mode": "list",
+              "presentation": "inline",
+              "signInPrompt": {
+                "title": "Sign in to manage your addresses",
+                "body": "Your address book is private to your account. Sign in or create an account to save delivery addresses.",
+                "signInLabel": "Sign in",
+                "registerLabel": "Create account"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_pay",
+        "anchorId": "payments",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 56,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "ph",
+            "type": "heading",
+            "level": 2,
+            "text": "Saved payment methods"
+          },
+          {
+            "id": "pp",
+            "type": "paragraph",
+            "text": "Your preferred ways to pay (Cash on Delivery, UPI, card, net banking). We never store card numbers, CVV or expiry."
+          },
+          {
+            "id": "em_pay",
+            "type": "embed",
+            "embed": {
+              "obj_type": "T",
+              "obj_name": "surz_customer_payment_method",
+              "renderMode": "realtime",
+              "mode": "list",
+              "presentation": "inline",
+              "signInPrompt": {
+                "title": "Sign in to manage your payment methods",
+                "body": "Saved payment preferences are private to your account. Sign in or create an account to add one.",
+                "signInLabel": "Sign in",
+                "registerLabel": "Create account"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "My account | Surzion",
+      "description": "Your Surzion address book and saved payment methods."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

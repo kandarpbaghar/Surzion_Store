@@ -1,0 +1,84 @@
+{
+  "table_name": "SURZ_CART_LINE",
+  "description": "Lines (surz_cart)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "CART_ID",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Cart"
+    },
+    {
+      "column_name": "LINE_NO",
+      "data_type": "NUMBER",
+      "size": "",
+      "sequence": 2,
+      "key": true,
+      "mandatory": true,
+      "description": "Line"
+    },
+    {
+      "column_name": "PRODUCT_CODE",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 3,
+      "key": false,
+      "mandatory": true,
+      "description": "Instrument",
+      "lookup": {
+        "table": "SURZ_PRODUCT",
+        "display_column": "PRODUCT_NAME",
+        "value_column": "PRODUCT_CODE"
+      }
+    },
+    {
+      "column_name": "PRODUCT_NAME",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Name"
+    },
+    {
+      "column_name": "QTY",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 5,
+      "key": false,
+      "mandatory": true,
+      "description": "Qty"
+    },
+    {
+      "column_name": "UNIT_PRICE",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 6,
+      "key": false,
+      "mandatory": false,
+      "description": "Unit price"
+    },
+    {
+      "column_name": "GST_RATE",
+      "data_type": "NUMBER",
+      "size": "5,2",
+      "sequence": 7,
+      "key": false,
+      "mandatory": false,
+      "description": "GST %"
+    },
+    {
+      "column_name": "LINE_TOTAL",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 8,
+      "key": false,
+      "mandatory": false,
+      "description": "Line total"
+    }
+  ]
+}

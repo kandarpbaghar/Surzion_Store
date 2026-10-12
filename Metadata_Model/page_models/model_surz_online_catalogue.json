@@ -1,0 +1,450 @@
+{
+  "page": {
+    "obj_name": "surz_online_catalogue",
+    "title": "Online catalogue",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "inputs": [],
+    "actions": [],
+    "blocks": [],
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "seo": {
+      "title": "Online catalogue | Surzion",
+      "description": "Browse the Surzion surgical instruments catalogue."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "sections": [
+      {
+        "id": "sec_cat_hero",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 88,
+            "bottom": 88
+          },
+          "background": {
+            "kind": "image",
+            "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/b21a70ac356b9a40.jpg",
+            "overlay": "rgba(8,20,52,0.58)",
+            "parallax": true
+          }
+        },
+        "blocks": [
+          {
+            "id": "cat_hero_h",
+            "type": "heading",
+            "level": 1,
+            "eyebrow": "Online catalogue",
+            "text": "The complete Kapsons range in one catalogue",
+            "style": {
+              "typography": {
+                "fontSize": 44,
+                "maxWidth": 640
+              }
+            }
+          },
+          {
+            "id": "cat_hero_b",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "cat_hero_b1",
+                "label": "Download Catalogue",
+                "variant": "secondary",
+                "size": "lg",
+                "icon": "download",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+                  "newTab": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_cat_bulk",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 56,
+            "bottom": 56
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cat_bulk_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 48,
+            "align": "top",
+            "columns": [
+              {
+                "id": "cat_bulk_a",
+                "blocks": [
+                  {
+                    "id": "cat_pdf_cols",
+                    "type": "columns",
+                    "count": 2,
+                    "gap": 24,
+                    "align": "center",
+                    "columns": [
+                      {
+                        "id": "cat_pdf_cover_col",
+                        "width": "170px",
+                        "blocks": [
+                          {
+                            "id": "cat_pdf_cover",
+                            "type": "container",
+                            "padding": 18,
+                            "rounded": true,
+                            "background": {"kind": "color", "color": "var(--pg-primary)"},
+                            "children": [
+                              {"id": "cat_pdf_logo", "type": "image", "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg", "alt": "Surzion", "rounded": true},
+                              {"id": "cat_pdf_sp", "type": "spacer", "height": 56},
+                              {"id": "cat_pdf_ct", "type": "paragraph", "text": "Product catalogue", "style": {"textColor": "var(--pg-on-primary)", "typography": {"fontSize": 13}}}
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "cat_pdf_txt_col",
+                        "blocks": [
+                  {
+                    "id": "cat_pdf_h",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Kapsons catalogue (PDF)"
+                  },
+                  {
+                    "id": "cat_pdf_p",
+                    "type": "paragraph",
+                    "text": "Every Surzion instrument with its pattern and size, ready to share with your purchase team."
+                  },
+                  {
+                    "id": "cat_pdf_b",
+                    "type": "button_group",
+                    "align": "left",
+                    "buttons": [
+                      {
+                        "id": "cat_pdf_b1",
+                        "label": "Download Catalogue",
+                        "variant": "primary",
+                        "icon": "download",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+                          "newTab": true
+                        }
+                      },
+                      {
+                        "id": "cat_pdf_b2",
+                        "label": "Ask on WhatsApp",
+                        "variant": "outline",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "https://wa.me/917814861010",
+                          "newTab": true
+                        }
+                      }
+                    ]
+                  }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cat_bulk_b",
+                "blocks": [
+                  {
+                    "id": "cat_bulk_h",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Buying in bulk?"
+                  },
+                  {
+                    "id": "cat_bulk_p",
+                    "type": "paragraph",
+                    "text": "Hospitals, clinics and distributors can ask for quantity pricing on any instrument in the catalogue. Send us the codes and quantities and we'll reply within 12 hours."
+                  },
+                  {
+                    "id": "cat_bulk_l",
+                    "type": "bullet_list",
+                    "items": [
+                      {
+                        "id": "cbl1",
+                        "text": "ISO and CE certified instruments"
+                      },
+                      {
+                        "id": "cbl2",
+                        "text": "Dispatched within 2\u20133 working days"
+                      },
+                      {
+                        "id": "cbl3",
+                        "text": "One-year replacement warranty on eligible products"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cat_bulk_b1",
+                    "type": "button_group",
+                    "align": "left",
+                    "buttons": [
+                      {
+                        "id": "cat_bulk_btn",
+                        "label": "Request a bulk quote",
+                        "variant": "outline",
+                        "icon": "arrow-right",
+                        "on_click": {
+                          "kind": "navigate",
+                          "obj_type": "S",
+                          "obj_name": "surz_contact"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_catalogue",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 56,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cat_grid_h",
+            "type": "heading",
+            "level": 2,
+            "eyebrow": "Shop by category",
+            "text": "Product Categories"
+          },
+          {
+            "id": "cat_grid",
+            "type": "card_grid",
+            "columns": 3,
+            "gap": 20,
+            "cardStyle": {
+              "radius": 18,
+              "padding": 20,
+              "titleSize": 18,
+              "bodySize": 15,
+              "border": true,
+              "shadow": "sm",
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "cards": [
+              {
+                "id": "cat_tc",
+                "title": "TC Surgical Instruments",
+                "body": "Tungsten-carbide Autagrip and Autogrip patterns for a sure grip.",
+                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ce5cee950a9a290e.jpg",
+                "imageAlt": "TC Surgical Instruments",
+                "cta": {"id": "cat_tc_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/instruments", "newTab": false}},
+                "on_click": {"kind": "external_url", "url": "/instruments", "newTab": false}
+              },
+              {
+                "id": "cat_gen",
+                "title": "General Surgical Instruments",
+                "body": "Artery forceps, clamps, retractors, curettes and scalpel handles.",
+                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7ee286a39bc1a741.jpg",
+                "imageAlt": "General Surgical Instruments",
+                "cta": {"id": "cat_gen_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/surgical-instruments", "newTab": false}},
+                "on_click": {"kind": "external_url", "url": "/surgical-instruments", "newTab": false}
+              },
+              {
+                "id": "cat_ort",
+                "title": "Orthopaedic Surgical Instruments",
+                "body": "Reduction clamps, bone hooks and tendon instruments for trauma work.",
+                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c0d483559c0ef757.jpg",
+                "imageAlt": "Orthopaedic Surgical Instruments",
+                "cta": {"id": "cat_ort_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/orthopaedic", "newTab": false}},
+                "on_click": {"kind": "external_url", "url": "/orthopaedic", "newTab": false}
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dataSources": [
+      {
+        "id": "ds_products",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 200,
+        "filters": [
+          {
+            "id": "f_listed",
+            "column": "IS_ACTIVE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "Y"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "SORT_ORDER",
+            "dir": "asc"
+          },
+          {
+            "column": "PRODUCT_NAME",
+            "dir": "asc"
+          }
+        ],
+        "columns": [
+          "PRODUCT_CODE",
+          "PRODUCT_NAME",
+          "UNIT_PRICE",
+          "MRP",
+          "SLUG",
+          "IMAGE_URL",
+          "HOVER_IMAGE_URL",
+          "SORT_ORDER"
+        ]
+      }
+    ],
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

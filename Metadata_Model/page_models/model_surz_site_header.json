@@ -1,0 +1,386 @@
+{
+  "page": {
+    "obj_name": "surz_site_header",
+    "title": "Site header",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "inputs": [],
+    "actions": [],
+    "blocks": [],
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "navigation": {
+      "showHeader": false,
+      "showFooter": false
+    },
+    "sections": [
+      {
+        "id": "sec_announce",
+        "name": "Announcement bar",
+        "tag": "custom",
+        "width": "full",
+        "sticky": false,
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 8,
+            "bottom": 8
+          }
+        },
+        "blocks": [
+          {
+            "id": "hdr_announce_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 16,
+            "align": "center",
+            "columns": [
+              {
+                "id": "hdr_ann_l",
+                "blocks": [
+                  {
+                    "id": "hdr_announce_p",
+                    "type": "paragraph",
+                    "text": "Exclusive discounts on surgical instruments today!",
+                    "html": "<strong>Exclusive discounts on surgical instruments today!</strong>",
+                    "style": {
+                      "align": "left",
+                      "typography": {
+                        "fontSize": 13,
+                        "fontWeight": 600
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hdr_ann_r",
+                "blocks": [
+                  {
+                    "id": "hdr_announce_btn",
+                    "type": "button",
+                    "align": "right",
+                    "button": {
+                      "id": "hdr_announce_b",
+                      "label": "NEW · Creators & influencers: get your own Surzion discount code",
+                      "variant": "link",
+                      "size": "sm",
+                      "icon": "arrow-right",
+                      "on_click": {
+                        "kind": "external_url",
+                        "url": "/partner",
+                        "newTab": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_header",
+        "name": "Header",
+        "tag": "header",
+        "width": "full",
+        "sticky": true,
+        "style": {
+          "padding": {
+            "top": 18,
+            "bottom": 18
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cols_ad4279_8",
+            "type": "columns",
+            "count": 7,
+            "gap": 8,
+            "align": "center",
+            "columns": [
+              {
+                "id": "col_ad4279_1",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "logo_ad4279_2",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                    "alt": "Surzion logo",
+                    "maxWidth": 150,
+                    "align": "left",
+                    "priority": true,
+                    "on_click": {
+                      "kind": "external_url",
+                      "url": "/",
+                      "newTab": false
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "col_ad4279_3",
+                "blocks": [
+                  {
+                    "id": "nav_ad4279_4",
+                    "type": "nav_menu",
+                    "source": "site",
+                    "menu": "header",
+                    "align": "center",
+                    "includeHome": true,
+                    "mobile": "drawer",
+                    "highlightActive": true
+                  }
+                ]
+              },
+              {
+                "id": "hdr_search",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "hdr_search_btn",
+                    "type": "button",
+                    "align": "right",
+                    "button": {
+                      "id": "hdr_search_b",
+                      "label": "",
+                      "variant": "ghost",
+                      "size": "sm",
+                      "icon": "search",
+                      "on_click": {
+                        "kind": "external_url",
+                        "url": "/instruments",
+                        "newTab": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hdr_auth",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "authm",
+                    "type": "auth_menu",
+                    "align": "right",
+                    "showSignup": false,
+                    "loginLabel": "Sign in",
+                    "signupLabel": "Create account",
+                    "showProfile": true,
+                    "showChangePassword": true,
+                    "links": [
+                      {
+                        "id": "am_acc",
+                        "label": "My account",
+                        "href": "/my-account",
+                        "icon": "person"
+                      },
+                      {
+                        "id": "am_ord",
+                        "label": "My orders",
+                        "href": "/my-orders",
+                        "icon": "receipt_long"
+                      },
+                      {
+                        "id": "am_wish",
+                        "label": "Wishlist",
+                        "href": "/wishlist",
+                        "icon": "favorite"
+                      },
+                      {
+                        "id": "am_part",
+                        "label": "Partner account",
+                        "href": "/partner-portal",
+                        "icon": "handshake"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "hdr_wish",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "wishb",
+                    "type": "wishlist_badge",
+                    "label": "Wishlist",
+                    "href": "/wishlist",
+                    "icon": "heart",
+                    "variant": "ghost",
+                    "iconOnly": true
+                  }
+                ]
+              },
+              {
+                "id": "hdr_cart",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "cartb",
+                    "type": "cart_badge",
+                    "label": "Cart",
+                    "href": "/cart",
+                    "icon": "shopping-cart",
+                    "variant": "ghost",
+                    "iconOnly": true
+                  }
+                ]
+              },
+              {
+                "id": "col_ad4279_5",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "btn_ad4279_6",
+                    "type": "button",
+                    "align": "right",
+                    "button": {
+                      "id": "btn_ad4279_7",
+                      "label": "Catalogue",
+                      "variant": "outline",
+                      "size": "sm",
+                      "icon": "download",
+                      "on_click": {
+                        "kind": "external_url",
+                        "url": "/online-catalogue",
+                        "newTab": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "mobileLayout": "wrap"
+          }
+        ],
+        "source": {
+          "url": "https://surzion.com/",
+          "key": "header",
+          "drafted": "3e9d8dab016b234f"
+        }
+      }
+    ],
+    "source": {
+      "url": "https://surzion.com/",
+      "captured_at": "2026-10-08T13:55:49Z",
+      "draft_version": 1,
+      "chrome": "header"
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

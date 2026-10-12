@@ -1,0 +1,883 @@
+{
+  "transaction": {
+    "obj_name": "surz_order",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Order",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_ORDER",
+          "row_security": {
+            "rules": [
+              {"column": "REGISTRY_ID", "source": "user_id"}
+            ],
+            "exempt_roles": ["admin", "func-admin"]
+          },
+          "columns": [
+            {
+              "column": {
+                "name": "order_no",
+                "db_name": "ORDER_NO",
+                "col_type": "VARCHAR20",
+                "heading": "Order no",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate_prefixed()",
+                "series": {
+                  "parts": [
+                    {
+                      "source": "const",
+                      "text": "SO-"
+                    },
+                    {
+                      "source": "date",
+                      "format": "YYMM"
+                    },
+                    {
+                      "source": "const",
+                      "text": "-"
+                    }
+                  ],
+                  "width": 4
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "order_date",
+                "db_name": "ORDER_DATE",
+                "col_type": "DATE",
+                "heading": "Ordered on",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "today()"
+              }
+            },
+            {
+              "column": {
+                "name": "customer_id",
+                "db_name": "CUSTOMER_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Customer",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 1,
+                "lookup": "SURZ_CUSTOMER(CUSTOMER_NAME, CUSTOMER_ID)",
+                "must_exist_in": "SURZ_CUSTOMER",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_CUSTOMER",
+                  "match_table_col": "CUSTOMER_ID",
+                  "fill": [
+                    {
+                      "form_col": "customer_name",
+                      "table_col": "CUSTOMER_NAME"
+                    },
+                    {
+                      "form_col": "email",
+                      "table_col": "EMAIL"
+                    },
+                    {
+                      "form_col": "phone",
+                      "table_col": "PHONE"
+                    },
+                    {
+                      "form_col": "registry_id",
+                      "table_col": "REGISTRY_ID"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "customer_name",
+                "db_name": "CUSTOMER_NAME",
+                "col_type": "VARCHAR120",
+                "heading": "Name",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "email",
+                "db_name": "EMAIL",
+                "col_type": "VARCHAR160",
+                "heading": "Email",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "phone",
+                "db_name": "PHONE",
+                "col_type": "VARCHAR30",
+                "heading": "Phone",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "registry_id",
+                "db_name": "REGISTRY_ID",
+                "col_type": "VARCHAR120",
+                "heading": "Shop account",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1
+              }
+            },
+            {
+              "column": {
+                "name": "ship_address",
+                "db_name": "SHIP_ADDRESS",
+                "col_type": "VARCHAR400",
+                "heading": "Deliver to",
+                "group_name": "Delivery",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "textarea"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "courier",
+                "db_name": "COURIER",
+                "col_type": "VARCHAR80",
+                "heading": "Courier",
+                "group_name": "Delivery",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "tracking_no",
+                "db_name": "TRACKING_NO",
+                "col_type": "VARCHAR60",
+                "heading": "Tracking",
+                "group_name": "Delivery",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "subtotal",
+                "db_name": "SUBTOTAL",
+                "col_type": "NUMBER14_2",
+                "heading": "Subtotal",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "discount_code",
+                "db_name": "DISCOUNT_CODE",
+                "col_type": "VARCHAR24",
+                "heading": "Discount code",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_order_discount_check",
+                    "language": "python",
+                    "description": "Validate the typed discount code and show its percent before saving",
+                    "spec": "Item change on SURZ_ORDER.DISCOUNT_CODE (plain text, the customer types the code; no lookup). Blank code: return updates that clear DISCOUNT_PCT_INFO, PARTNER_ID, PARTNER_NAME (set each to empty) and no error. Otherwise trim the typed value and match it CASE-INSENSITIVELY against SURZ_DISCOUNT.CODE (upper(CODE) = upper(typed)); the row must have IS_ACTIVE = 'Y' (a NULL/blank IS_ACTIVE counts as active, as in surz_price_order). Unknown or inactive code: return a structured field error on DISCOUNT_CODE ('This discount code is not valid.') and also clear the three fills. A code whose SURZ_DISCOUNT.PARTNER_ID is set counts only when the owning SURZ_PARTNER row has STATUS = 'APPROVED'; otherwise treat as unknown (same wording as surz_price_order). Valid code: return {'updates': {DISCOUNT_CODE: <the stored CODE in its exact stored case>, DISCOUNT_PCT_INFO: PERCENT_OFF, PARTNER_ID: PARTNER_ID (blank when none), PARTNER_NAME: PARTNER_NAME (blank when none)}} so the percent shows before the order is saved. Do not check VALID_FROM/VALID_TO or MIN_ORDER here (surz_price_order applies those at save). Read-only: writes nothing, never increments USAGE_COUNT. If the runtime accepts multi-form updates from an item_change, also return recomputed DISC_PCT / DISC_AMT / TAXABLE_VALUE for every line currently on the form (DISC_AMT = round(LINE_TOTAL * PERCENT_OFF / 100, 2), TAXABLE_VALUE = LINE_TOTAL - DISC_AMT) so lines entered before the code refresh without a save."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "discount_pct_info",
+                "db_name": "PERCENT_OFF",
+                "table_name": "SURZ_DISCOUNT",
+                "col_type": "NUMBER5_2",
+                "heading": "Percent off",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "partner_id",
+                "db_name": "PARTNER_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Partner",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "partner_name",
+                "db_name": "PARTNER_NAME",
+                "col_type": "VARCHAR120",
+                "heading": "Partner name",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "partner_registry_id",
+                "db_name": "PARTNER_REGISTRY_ID",
+                "col_type": "VARCHAR120",
+                "heading": "Partner account",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1
+              }
+            },
+            {
+              "column": {
+                "name": "discount_amt",
+                "db_name": "DISCOUNT_AMT",
+                "col_type": "NUMBER14_2",
+                "heading": "Discount",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "gst_amt",
+                "db_name": "GST_AMT",
+                "col_type": "NUMBER14_2",
+                "heading": "GST",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "shipping_amt",
+                "db_name": "SHIPPING_AMT",
+                "col_type": "NUMBER14_2",
+                "heading": "Shipping",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "total_amount",
+                "db_name": "TOTAL_AMOUNT",
+                "col_type": "NUMBER14_2",
+                "heading": "Total",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "pay_status",
+                "db_name": "PAY_STATUS",
+                "col_type": "VARCHAR12",
+                "heading": "Payment",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "PENDING",
+                "edit_mask": {
+                  "mask": "dropdown",
+                  "values": [
+                    "PENDING",
+                    "PAID",
+                    "COD",
+                    "REFUNDED",
+                    "FAILED"
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "pay_method",
+                "db_name": "PAY_METHOD",
+                "col_type": "VARCHAR40",
+                "heading": "Paid by",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "payment_ref",
+                "db_name": "PAYMENT_REF",
+                "col_type": "VARCHAR120",
+                "heading": "Gateway reference",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "paid_amount",
+                "db_name": "PAID_AMOUNT",
+                "col_type": "NUMBER14_2",
+                "heading": "Amount paid",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "paid_on",
+                "db_name": "PAID_ON",
+                "col_type": "DATETIME",
+                "heading": "Paid on",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "order_status",
+                "db_name": "ORDER_STATUS",
+                "col_type": "VARCHAR16",
+                "heading": "Status",
+                "group_name": "Amounts",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "NEW",
+                "edit_mask": {
+                  "mask": "dropdown",
+                  "values": [
+                    "NEW",
+                    "CONFIRMED",
+                    "PACKED",
+                    "SHIPPED",
+                    "DELIVERED",
+                    "CANCELLED"
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [
+            {
+              "name": "Pay now",
+              "handler": "payment",
+              "scope": "row",
+              "payment": {
+                "amount_column": "TOTAL_AMOUNT",
+                "owner_column": "REGISTRY_ID",
+                "reference_column": "ORDER_NO",
+                "payer_name_column": "CUSTOMER_NAME",
+                "payer_email_column": "EMAIL",
+                "payer_contact_column": "PHONE",
+                "cod_status_value": "COD",
+                "paid_values": [
+                  "PAID",
+                  "COD",
+                  "REFUNDED"
+                ],
+                "writeback": {
+                  "status_column": "PAY_STATUS",
+                  "status_value": "PAID",
+                  "payment_id_column": "PAYMENT_REF",
+                  "paid_amount_column": "PAID_AMOUNT",
+                  "paid_at_column": "PAID_ON",
+                  "method_column": "PAY_METHOD"
+                },
+                "title": "Pay for this order",
+                "success_message": "Thank you — your order is paid."
+              },
+              "validations": [
+                {
+                  "rule": "expression",
+                  "expression": "{form.TOTAL_AMOUNT} > 0",
+                  "message": "This order has nothing to pay."
+                }
+              ]
+            },
+            {
+              "name": "Print invoice",
+              "handler": "report",
+              "scope": "row",
+              "report": {
+                "obj_name": "surz_tax_invoice",
+                "param_map": {
+                  "ORDER_NO": "{form.ORDER_NO}"
+                },
+                "output_format": "pdf"
+              }
+            }
+          ],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_ORDER",
+                  "main_table": true
+                },
+                {
+                  "main_table": false,
+                  "table": "SURZ_DISCOUNT",
+                  "column": "CODE",
+                  "join_table": "SURZ_ORDER",
+                  "join_column": "DISCOUNT_CODE"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "sql_model": {
+          "form_title": "Lines",
+          "form_descr": "",
+          "form_no": "2",
+          "main_table": "SURZ_ORDER_LINE",
+          "columns": [
+            {
+              "column": {
+                "name": "order_no",
+                "db_name": "ORDER_NO",
+                "col_type": "VARCHAR20",
+                "heading": "Order",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 1
+              }
+            },
+            {
+              "column": {
+                "name": "line_no",
+                "db_name": "LINE_NO",
+                "col_type": "NUMBER",
+                "heading": "Line",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate_line_no()"
+              }
+            },
+            {
+              "column": {
+                "name": "product_code",
+                "db_name": "PRODUCT_CODE",
+                "col_type": "VARCHAR20",
+                "heading": "Instrument",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_PRODUCT(PRODUCT_NAME, PRODUCT_CODE)",
+                "must_exist_in": "SURZ_PRODUCT",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_PRODUCT",
+                  "match_table_col": "PRODUCT_CODE",
+                  "fill": [
+                    {
+                      "form_col": "product_name",
+                      "table_col": "PRODUCT_NAME"
+                    },
+                    {
+                      "form_col": "unit_price",
+                      "table_col": "UNIT_PRICE"
+                    },
+                    {
+                      "form_col": "gst_rate",
+                      "table_col": "GST_RATE"
+                    },
+                    {
+                      "form_col": "line_total",
+                      "expr": "round({form.QTY} * {form.UNIT_PRICE}, 2)"
+                    },
+                    {
+                      "form_col": "disc_pct",
+                      "expr": "{header.discount_pct_info}"
+                    },
+                    {
+                      "form_col": "disc_amt",
+                      "expr": "round(round({form.QTY} * {form.UNIT_PRICE}, 2) * {header.discount_pct_info} / 100, 2)"
+                    },
+                    {
+                      "form_col": "taxable_value",
+                      "expr": "round({form.QTY} * {form.UNIT_PRICE}, 2) - round(round({form.QTY} * {form.UNIT_PRICE}, 2) * {header.discount_pct_info} / 100, 2)"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "product_name",
+                "db_name": "PRODUCT_NAME",
+                "col_type": "VARCHAR160",
+                "heading": "Name",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "qty",
+                "db_name": "QTY",
+                "col_type": "NUMBER12_2",
+                "heading": "Qty",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "1",
+                "validations": [
+                  {
+                    "name": "qty_min",
+                    "type": "builtin",
+                    "builtin": {
+                      "kind": "value_in_range",
+                      "min": 1
+                    },
+                    "message": "Quantity must be at least 1."
+                  }
+                ],
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_order_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it — an item_change error is a best-effort cascade the client does not stop on. DISCOUNT PREVIEW: the same return ALSO sets DISC_PCT = the header's DISCOUNT_PCT_INFO (blank = 0), DISC_AMT = round(LINE_TOTAL * DISC_PCT / 100, 2) and TAXABLE_VALUE = LINE_TOTAL - DISC_AMT, read from the payload's header values (header.DISCOUNT_PCT_INFO), so the line grid shows the discount while the order is being entered; surz_price_order remains the authority and overwrites them at save."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "unit_price",
+                "db_name": "UNIT_PRICE",
+                "col_type": "NUMBER12_2",
+                "heading": "Unit price",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                },
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_order_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it — an item_change error is a best-effort cascade the client does not stop on. DISCOUNT PREVIEW: the same return ALSO sets DISC_PCT = the header's DISCOUNT_PCT_INFO (blank = 0), DISC_AMT = round(LINE_TOTAL * DISC_PCT / 100, 2) and TAXABLE_VALUE = LINE_TOTAL - DISC_AMT, read from the payload's header values (header.DISCOUNT_PCT_INFO), so the line grid shows the discount while the order is being entered; surz_price_order remains the authority and overwrites them at save."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "gst_rate",
+                "db_name": "GST_RATE",
+                "col_type": "NUMBER5_2",
+                "heading": "GST %",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "line_total",
+                "db_name": "LINE_TOTAL",
+                "col_type": "NUMBER14_2",
+                "heading": "Line total",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                },
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_order_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it — an item_change error is a best-effort cascade the client does not stop on. DISCOUNT PREVIEW: the same return ALSO sets DISC_PCT = the header's DISCOUNT_PCT_INFO (blank = 0), DISC_AMT = round(LINE_TOTAL * DISC_PCT / 100, 2) and TAXABLE_VALUE = LINE_TOTAL - DISC_AMT, read from the payload's header values (header.DISCOUNT_PCT_INFO), so the line grid shows the discount while the order is being entered; surz_price_order remains the authority and overwrites them at save."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "disc_pct",
+                "db_name": "DISC_PCT",
+                "col_type": "NUMBER5_2",
+                "heading": "Disc %",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "disc_amt",
+                "db_name": "DISC_AMT",
+                "col_type": "NUMBER14_2",
+                "heading": "Discount",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "taxable_value",
+                "db_name": "TAXABLE_VALUE",
+                "col_type": "NUMBER14_2",
+                "heading": "Taxable value",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_ORDER_LINE",
+                  "main_table": true
+                },
+                {
+                  "table_name": "SURZ_PRODUCT",
+                  "condition": "SURZ_ORDER_LINE.PRODUCT_CODE = SURZ_PRODUCT.PRODUCT_CODE"
+                }
+              ]
+            }
+          },
+          "parent_form_no": "1",
+          "parent_key_col": "ORDER_NO"
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_capture_customer",
+          "language": "python",
+          "description": "Create or update the SURZ_CUSTOMER for this order and save the delivery address",
+          "spec": "pre_commit on SURZ_ORDER; runs FIRST (before surz_reserve_stock and surz_price_order). The header row already exists on the save connection. Read the order's REGISTRY_ID, CUSTOMER_NAME, EMAIL, PHONE, SHIP_ADDRESS from the header (re-read SURZ_ORDER by ORDER_NO/txn_id; trim all; blank = None). If EMAIL, PHONE and REGISTRY_ID are ALL blank return {'error': 'Please give an email or phone number'}. If the order already has a non-blank CUSTOMER_ID that exists in SURZ_CUSTOMER (admin picked it), use that customer and skip matching/creation but still run the update and address steps. MATCH, first hit wins: (1) SURZ_CUSTOMER.REGISTRY_ID = order REGISTRY_ID (when non-blank); (2) lower(trim(SURZ_CUSTOMER.EMAIL)) = lower(order EMAIL) (when non-blank); (3) PHONE normalised: strip every non-digit from both sides (SQL regexp_replace(PHONE, '[^0-9]', '', 'g')) and compare the last 10 digits when both have >= 10 digits, else the whole digit string; only when the order phone has at least 7 digits. If several rows match one rule take the lowest CUSTOMER_ID. CREATE when none match: new CUSTOMER_ID in the style of the customer master's default_value auto_generate() (table-wide serial, VARCHAR20): use the engine's auto-generate helper if the BL runtime exposes one for SURZ_CUSTOMER.CUSTOMER_ID; otherwise take max of the numeric CUSTOMER_IDs + 1 inside the same transaction (pad to the width of the existing ids, start 1 if the table is empty) with a retry on a duplicate-key error. INSERT CUSTOMER_NAME (order name; if blank use the EMAIL local part, else the phone digits, since SURZ_CUSTOMER.CUSTOMER_NAME is mandatory), EMAIL (may be NULL: SURZ_CUSTOMER.EMAIL mandatory has been relaxed, never invent a placeholder address), PHONE, REGISTRY_ID, SHIP_ADDRESS, ADD_DATE/ADD_USER/CHG_DATE/CHG_USER audit stamps (ADD_USER 'SYSTEM' when no user). UPDATE when found: set CUSTOMER_NAME, EMAIL, PHONE, SHIP_ADDRESS to the order's value only where the order value is non-blank and differs from the stored one; set REGISTRY_ID from the order only when the customer's REGISTRY_ID is blank (never overwrite a different non-blank registry); refresh CHG_DATE/CHG_USER only when something changed. Then UPDATE SURZ_ORDER SET CUSTOMER_ID = <customer id> WHERE ORDER_NO = <this order>, on the save's own connection. ADDRESS UPSERT: when the order SHIP_ADDRESS is non-blank, normalise it (lower-case, collapse whitespace, drop commas) and compare to the same normalisation of ADDRESS_LINE1 for the customer's existing SURZ_CUSTOMER_ADDRESS rows (also treat an existing row whose ADDRESS_LINE1 + PINCODE match as identical). If none is identical, INSERT into SURZ_CUSTOMER_ADDRESS: ADDRESS_ID = next 'ADR-' + zero-padded serial (same scheme as surz_customer_address: prefix 'ADR-', width 5, max existing + 1), REGISTRY_ID = the order's REGISTRY_ID, CUSTOMER_ID, LABEL 'Delivery', CONTACT_NAME / PHONE from the order, ADDRESS_LINE1 = the free-text SHIP_ADDRESS (truncated to the column size), IS_DEFAULT = 'Y' when the customer has no address yet else 'N', audit stamps. Return None on success; on any unexpected failure log and return {'error': 'Could not register your details. Please try again.'} so the save rolls back."
+        }
+      },
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_reserve_stock",
+          "description": "Reserve stock for the order",
+          "spec": "Reconcile SURZ_PRODUCT.STOCK_QTY against the order's WHOLE surviving line set, in one pass, before the save commits. What each line already holds is read back from the SURZ_STOCK_MOVE ledger this function writes (REF_NO = the order no, LINE_NO = the line), because the previous QTY is nowhere in the payload; only the DIFFERENCE is applied. Running over the whole set — rather than per row — is what lets a DELETED line give its stock back: a hold with no surviving line is released. Taking stock is a CONDITIONAL UPDATE matching only when STOCK_QTY >= the difference; when no row is affected the function returns {'error': '<product name> has only <n> left'} and the whole save rolls back. Every movement is booked A CANCELLED order wants nothing: when ORDER_STATUS is 'CANCELLED' the wanted set is left empty, so every hold nets negative and is released through the same pass. Cancelling is the supported way to void an order. DELETING one is NOT covered and cannot be — the engine fires no business-logic hook on a header delete, so a deleted order's stock would stay debited for ever; delete rights on this object are revoked instead. Every movement is booked in SURZ_STOCK_MOVE — 'OUT' when stock is taken, 'IN' when a shrunk, re-pointed, cancelled or deleted line gives it back, stamped ADD_USER 'SYSTEM' so an inventory ledger never carries an unattributable row. Both halves COALESCE STOCK_QTY, so a product whose stock is NULL can be debited as well as credited. A refusal reports what this line could actually reach — the shelf PLUS what the line itself is still holding — because raising a line from 3 to 10 with 5 on the shelf can legitimately take 8. The correlation read is served by the SURZ_STOCK_MOVE_REF index."
+        }
+      },
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_price_order",
+          "description": "Price the whole order",
+          "spec": "Recompute the order's money from its OWN lines and the product master, never from the client. UNIT_PRICE **and GST_RATE** are re-read from SURZ_PRODUCT and LINE_TOTAL re-derived as round(QTY * UNIT_PRICE, 2); all three are written back to the line, so no money input that arrived over the wire reaches the total — the tax rate included, which is editable on the form and would otherwise let a taxable line be posted at 0%. SUBTOTAL = sum(LINE_TOTAL). DISCOUNT_AMT comes from SURZ_DISCOUNT where CODE = DISCOUNT_CODE: an unknown or inactive code is an ERROR that aborts the save, while a real code that simply does not apply (the order date falls outside VALID_FROM/VALID_TO, or SUBTOTAL < MIN_ORDER) gives 0 and a non-blocking type-'P' prompt naming the reason. A NULL VALID_FROM/VALID_TO means no bound on that side; IS_ACTIVE is mandatory with default 'Y', so a blank cannot arise and blank is read as active. GST_AMT = sum(round(line value after the discount is spread pro rata * GST_RATE / 100, 2)), GST_RATE falling back to the LINE only when the master itself has none — and when neither carries one, the line is taxed at 0% and says so in a non-blocking prompt, so an untaxed line is never mistaken for a zero-rated one. The pro-rata shares are allocated so they SUM to DISCOUNT_AMT exactly (the residual goes to the last line), because a GST document whose taxable value does not equal the discounted subtotal it prints is visibly wrong. SHIPPING_AMT = 0 when SUBTOTAL >= 5000 else 250; TOTAL_AMOUNT = SUBTOTAL - DISCOUNT_AMT + GST_AMT + SHIPPING_AMT. The amounts are written to SURZ_ORDER on the save's own connection (the header row already exists by pre_commit time). A save with no lines is refused. PRICE IS HISTORY ONCE THE ORDER LEAVES: every update re-runs this hook, so stamping a courier, a tracking number or the payment write-back would otherwise re-price a shipped order against today's catalogue — and abort the save outright if an instrument had since been withdrawn. The hook therefore does nothing at all once ORDER_STATUS is past CONFIRMED (PACKED, SHIPPED, DELIVERED, CANCELLED): what was charged is what was charged. KNOWN AND ACCEPTED: because these corrections are made after the row was written and its history stamped, the record audit trail shows the amounts as posted, not as corrected. This hook is what the payment rail's amount column is read from. PARTNER PROGRAMME ADDENDUM (supersedes the pro-rata discount spreading above): the discount is applied per item BEFORE tax. Per line: DISC_PCT = the code's PERCENT_OFF, DISC_AMT = round(LINE_TOTAL * PERCENT_OFF / 100, 2), TAXABLE_VALUE = LINE_TOTAL - DISC_AMT, all three written to SURZ_ORDER_LINE; GST per line = round(TAXABLE_VALUE * GST_RATE / 100, 2) (GST is computed on TAXABLE_VALUE); order DISCOUNT_AMT = sum(DISC_AMT) and GST_AMT = sum of the line GST, so the printed taxable value equals the discounted subtotal exactly. When no code applies (or it does not apply: validity window / MIN_ORDER), DISC_PCT = 0, DISC_AMT = 0, TAXABLE_VALUE = LINE_TOTAL. A code whose SURZ_DISCOUNT.PARTNER_ID is set applies only when the owning SURZ_PARTNER row has STATUS = 'APPROVED'; otherwise treat it as an unknown code (error aborting the save, same wording as an inactive code). On an order that uses a partner code, stamp SURZ_ORDER.PARTNER_ID and PARTNER_NAME from the discount row, and PARTNER_REGISTRY_ID from SURZ_PARTNER.REGISTRY_ID (this hidden column is what surz_partner_order scopes on); for a non-partner or blank code those three are cleared. This hook INCREMENTS NOTHING: SURZ_DISCOUNT.USAGE_COUNT is not touched here."
+        }
+      }
+    ],
+    "post_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_order_confirmation",
+          "description": "Email the order confirmation",
+          "spec": "Sent ONCE, when the order is first placed: the hook returns immediately unless action is 'add', so stamping a courier, a tracking number or a payment reference does not re-send the whole confirmation. After commit, re-read the order and its lines from the database (pre_commit rewrote the money after the payload was built) and hand the confirmation to IOFlow with api.emit_event('surz_order_confirmed', ...) — the only sanctioned side-effect channel; the flow bound to that event is what sends the mail, so the event has to exist in the project's Integration Design. The payload names ORDER_NO, the customer and EMAIL, every line, the five amounts and TOTAL_AMOUNT, plus AMOUNT_DUE and PAYMENT_DUE — which is decided by the AMOUNT outstanding, never by PAY_STATUS, so a status stamped 'PAID' over a part-payment cannot tell a customer they owe nothing; the status only chooses the wording. Every money value travels as an exact 2-decimal STRING, so a flow template renders 6750.30 and not 6750.3. An order with no e-mail address, a missing order, or any failure at all (including an undefined event) is logged and returned from: this hook must NEVER report a failure — the order is already committed."
+        }
+      }
+    ],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "transaction": {
+    "obj_name": "surz_partner_order",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Referred order",
+          "form_descr": "Read-only view of orders placed with the signed-in partner's discount code.",
+          "form_no": "1",
+          "main_table": "SURZ_ORDER",
+          "row_security": {
+            "rules": [
+              {"column": "PARTNER_REGISTRY_ID", "source": "user_id"}
+            ],
+            "exempt_roles": ["admin", "func-admin"]
+          },
+          "list_view": {
+            "allow_add": false,
+            "edit_lock": {"expression": "not_empty({form.order_no})", "reason": "Referred orders are read-only."},
+            "columns": ["order_no", "order_date", "buyer", "order_status", "pay_status", "total_amount"]
+          },
+          "columns": [
+            {"column": {"name": "order_no", "db_name": "ORDER_NO", "col_type": "VARCHAR20", "heading": "Order no", "group_name": "Basic", "mandatory": 0, "key": true, "protect": 1, "hidden": 0}},
+            {"column": {"name": "order_date", "db_name": "ORDER_DATE", "col_type": "DATE", "heading": "Ordered on", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "display": {"type": "date", "datePattern": "dd-MMM-yyyy"}}},
+            {"column": {"name": "buyer", "col_type": "VARCHAR20", "heading": "Buyer", "group_name": "Basic", "protect": 1, "hidden": 0,
+              "sql_expression": "CASE WHEN btrim(coalesce({SURZ_ORDER}.customer_name, ''), ' ' || chr(9) || chr(10) || chr(13)) = '' THEN NULL ELSE upper(left(btrim({SURZ_ORDER}.customer_name, ' ' || chr(9) || chr(10) || chr(13)), 1)) || '••••' || CASE WHEN btrim({SURZ_ORDER}.customer_name, ' ' || chr(9) || chr(10) || chr(13)) ~ '[[:space:]]' THEN ' ' || upper(left(regexp_replace(btrim({SURZ_ORDER}.customer_name, ' ' || chr(9) || chr(10) || chr(13)), '^.*[[:space:]]+', ''), 1)) || '.' ELSE '' END END"}},
+            {"column": {"name": "order_status", "db_name": "ORDER_STATUS", "col_type": "VARCHAR16", "heading": "Status", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 1, "hidden": 0}},
+            {"column": {"name": "pay_status", "db_name": "PAY_STATUS", "col_type": "VARCHAR12", "heading": "Payment", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 1, "hidden": 0}},
+            {"column": {"name": "discount_code", "db_name": "DISCOUNT_CODE", "col_type": "VARCHAR24", "heading": "Your code", "group_name": "Amounts", "mandatory": 0, "key": false, "protect": 1, "hidden": 0}},
+            {"column": {"name": "subtotal", "db_name": "SUBTOTAL", "col_type": "NUMBER14_2", "heading": "Subtotal", "group_name": "Amounts", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "display": {"format": "currency_inr"}}},
+            {"column": {"name": "discount_amt", "db_name": "DISCOUNT_AMT", "col_type": "NUMBER14_2", "heading": "Discount given", "group_name": "Amounts", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "display": {"format": "currency_inr"}}},
+            {"column": {"name": "total_amount", "db_name": "TOTAL_AMOUNT", "col_type": "NUMBER14_2", "heading": "Total", "group_name": "Amounts", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "display": {"format": "currency_inr"}}},
+            {"column": {"name": "partner_id", "db_name": "PARTNER_ID", "col_type": "VARCHAR20", "heading": "Partner", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "partner_name", "db_name": "PARTNER_NAME", "col_type": "VARCHAR120", "heading": "Partner name", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "partner_registry_id", "db_name": "PARTNER_REGISTRY_ID", "col_type": "VARCHAR120", "heading": "Partner account", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}}
+          ],
+          "actions": [
+            {"name": "Edit", "handler": "system", "system_op": "edit", "validations": [
+              {"type": "expression", "name": "Read only", "error_code": "RO", "message": "Referred orders are read-only.", "expression": "1 == 0"}]},
+            {"name": "Delete", "handler": "system", "system_op": "delete", "validations": [
+              {"type": "expression", "name": "Read only", "error_code": "RO", "message": "Referred orders are read-only.", "expression": "1 == 0"}]}
+          ],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {"table_name": "SURZ_ORDER", "main_table": true}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

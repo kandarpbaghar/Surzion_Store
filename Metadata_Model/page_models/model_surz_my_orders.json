@@ -1,0 +1,362 @@
+{
+  "page": {
+    "obj_name": "surz_my_orders",
+    "title": "My orders",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 32,
+            "bottom": 32
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "My orders",
+                "href": "/my-orders"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "My orders"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Track your orders, see what was in each one and buy it again in one click. Sign in with the email or mobile number you used at checkout."
+          }
+        ]
+      },
+      {
+        "id": "sec_orders",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 40,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "shell_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 32,
+            "align": "top",
+            "columns": [
+              {
+                "id": "shell_side",
+                "width": "260px",
+                "blocks": [
+                  {
+                    "id": "side_card",
+                    "type": "container",
+                    "padding": 12,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "border": true
+                    },
+                    "children": [
+                      {
+                        "id": "side_b1",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b1b",
+                          "label": "My orders",
+                          "variant": "primary",
+                          "size": "md",
+                          "icon": "package",
+                          "on_click": {
+                            "kind": "navigate",
+                            "obj_type": "S",
+                            "obj_name": "surz_my_orders"
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b2",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b2b",
+                          "label": "My account",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "user",
+                          "on_click": {
+                            "kind": "navigate",
+                            "obj_type": "S",
+                            "obj_name": "surz_my_account"
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b3",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b3b",
+                          "label": "Wishlist",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "heart",
+                          "on_click": {
+                            "kind": "navigate",
+                            "obj_type": "S",
+                            "obj_name": "surz_wishlist"
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b4",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b4b",
+                          "label": "Partner account",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "users",
+                          "on_click": {
+                            "kind": "navigate",
+                            "obj_type": "S",
+                            "obj_name": "surz_partner_portal"
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b5",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b5b",
+                          "label": "Sign out",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "sign_out",
+                            "redirect": "/"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "shell_main",
+                "blocks": [
+                  {
+                    "id": "mr",
+                    "type": "my_records",
+                    "object": "surz_order",
+                    "heading": "My orders",
+                    "columns": {
+                      "reference": "ORDER_NO",
+                      "date": "ORDER_DATE",
+                      "status": "ORDER_STATUS",
+                      "paymentStatus": "PAY_STATUS",
+                      "total": "TOTAL_AMOUNT"
+                    },
+                    "statusTones": {
+                      "NEW": "info",
+                      "CONFIRMED": "info",
+                      "PACKED": "warning",
+                      "SHIPPED": "warning",
+                      "DELIVERED": "success",
+                      "CANCELLED": "error",
+                      "PAID": "success",
+                      "COD": "info",
+                      "PENDING": "warning",
+                      "REFUNDED": "neutral",
+                      "FAILED": "error"
+                    },
+                    "currencyPrefix": "\u20b9",
+                    "lines": {
+                      "detailFormNo": "2",
+                      "sku": "PRODUCT_CODE",
+                      "name": "PRODUCT_NAME",
+                      "qty": "QTY",
+                      "unitPrice": "UNIT_PRICE",
+                      "amount": "LINE_TOTAL",
+                      "imageFrom": {
+                        "object": "surz_product",
+                        "keyColumn": "PRODUCT_CODE",
+                        "imageColumn": "IMAGE_URL"
+                      }
+                    },
+                    "reorder": {
+                      "label": "Buy again",
+                      "cartHref": "/cart"
+                    },
+                    "pageSize": 10,
+                    "emptyText": "You have not ordered anything yet.",
+                    "emptyCtaLabel": "Browse instruments",
+                    "emptyCtaHref": "/instruments"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "My orders | Surzion",
+      "description": "Your Surzion order history."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

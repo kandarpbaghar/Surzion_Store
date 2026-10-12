@@ -1,0 +1,260 @@
+{
+  "transaction": {
+    "obj_name": "surz_discount",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Discount code",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_DISCOUNT",
+          "columns": [
+            {
+              "column": {
+                "name": "code",
+                "db_name": "CODE",
+                "col_type": "VARCHAR24",
+                "heading": "Code",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "descr",
+                "db_name": "DESCR",
+                "col_type": "VARCHAR160",
+                "heading": "Description",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "percent_off",
+                "db_name": "PERCENT_OFF",
+                "col_type": "NUMBER5_2",
+                "heading": "Percent off",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "min_order",
+                "db_name": "MIN_ORDER",
+                "col_type": "NUMBER12_2",
+                "heading": "Minimum order",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "0"
+              }
+            },
+            {
+              "column": {
+                "name": "valid_from",
+                "db_name": "VALID_FROM",
+                "col_type": "DATE",
+                "heading": "Valid from",
+                "group_name": "Validity",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "valid_to",
+                "db_name": "VALID_TO",
+                "col_type": "DATE",
+                "heading": "Valid to",
+                "group_name": "Validity",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "is_active",
+                "db_name": "IS_ACTIVE",
+                "col_type": "VARCHAR1",
+                "heading": "Active",
+                "group_name": "Validity",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "Y",
+                "edit_mask": {
+                  "mask": "yes_no"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "partner_id",
+                "db_name": "PARTNER_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Partner",
+                "group_name": "Partner",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_PARTNER(PARTNER_NAME, PARTNER_ID)",
+                "must_exist_in": "SURZ_PARTNER",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_PARTNER",
+                  "match_table_col": "PARTNER_ID",
+                  "fill": [
+                    {
+                      "form_col": "partner_name",
+                      "table_col": "PARTNER_NAME"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "partner_name",
+                "db_name": "PARTNER_NAME",
+                "col_type": "VARCHAR120",
+                "heading": "Partner name",
+                "group_name": "Partner",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "partner_handle",
+                "col_type": "VARCHAR60",
+                "heading": "Partner handle",
+                "group_name": "Partner",
+                "protect": 1,
+                "hidden": 0,
+                "sql_expression": "{SURZ_PARTNER}.handle"
+              }
+            },
+            {
+              "column": {
+                "name": "usage_count",
+                "db_name": "USAGE_COUNT",
+                "col_type": "NUMBER",
+                "heading": "Times used",
+                "group_name": "Partner",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "0"
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_DISCOUNT",
+                  "main_table": true
+                },
+                {
+                  "main_table": false,
+                  "table": "SURZ_PARTNER",
+                  "column": "PARTNER_ID",
+                  "join_table": "SURZ_DISCOUNT",
+                  "join_column": "PARTNER_ID",
+                  "join_type": "left"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

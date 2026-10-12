@@ -1,0 +1,131 @@
+{
+  "transaction": {
+    "obj_name": "surz_hsn_gst",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "HSN / GST",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_HSN_GST",
+          "columns": [
+            {
+              "column": {
+                "name": "hsn_code",
+                "db_name": "HSN_CODE",
+                "col_type": "VARCHAR12",
+                "heading": "HSN code",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "descr",
+                "db_name": "DESCR",
+                "col_type": "VARCHAR160",
+                "heading": "Description",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "gst_rate",
+                "db_name": "GST_RATE",
+                "col_type": "NUMBER5_2",
+                "heading": "GST %",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_HSN_GST",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

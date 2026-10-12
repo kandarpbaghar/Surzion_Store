@@ -1,0 +1,71 @@
+{
+  "DATA_SOURCE_MODE": "sqlmodel",
+  "SQLMODEL": {
+    "SQLModel": {
+      "COLUMNS": [
+        {
+          "COLUMN": [
+            { "COLID": 2, "NAME": "SURZ_PRODUCT_PRODUCT_NAME", "DBTABLE": "SURZ_PRODUCT", "DBNAME": "PRODUCT_NAME", "tableName": "SURZ_PRODUCT", "tableDisplayName": "Instrument", "content": "Instrument", "name": "Instrument", "descr": "Catalogue name of the instrument", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 160, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 220, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true },
+            { "COLID": 3, "NAME": "SURZ_ORDER_LINE_TAXABLE_VALUE", "DBTABLE": "SURZ_ORDER_LINE", "DBNAME": "TAXABLE_VALUE", "tableName": "SURZ_ORDER_LINE", "tableDisplayName": "Order Line", "content": "Net Sales", "name": "Net Sales", "descr": "Partner line value after discount, before GST (INR)", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(14,2)", "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true, "display": { "type": "number", "numberStyle": "currency", "currency": "INR", "locale": "en-IN", "decimals": 0 } },
+            { "COLID": 4, "NAME": "SURZ_ORDER_LINE_QTY", "DBTABLE": "SURZ_ORDER_LINE", "DBNAME": "QTY", "tableName": "SURZ_ORDER_LINE", "tableDisplayName": "Order Line", "content": "Units Sold", "name": "Units Sold", "descr": "Units sold through partner orders", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(12,2)", "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } }
+          ]
+        }
+      ]
+    },
+    "CRITERIA": {
+      "query": {
+        "rules": [
+          { "id": "Criteria_1", "field": "SURZ_ORDER.ORDER_DATE", "DBNAME": "ORDER_DATE", "tableName": "SURZ_ORDER", "COLTYPE": "date", "currentFieldType": "date", "operator": ">=", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "From Date", "value": ":calendar_month_start", "chipValue": [], "promptVar": "from_date" },
+          { "id": "Criteria_2", "field": "SURZ_ORDER.ORDER_DATE", "DBNAME": "ORDER_DATE", "tableName": "SURZ_ORDER", "COLTYPE": "date", "currentFieldType": "date", "operator": "<=", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "To Date", "value": ":calendar_today", "chipValue": [], "promptVar": "to_date" },
+          { "id": "Criteria_3", "field": "SURZ_ORDER.PARTNER_ID", "DBNAME": "PARTNER_ID", "tableName": "SURZ_ORDER", "COLTYPE": "string", "currentFieldType": "string", "operator": "like", "queryOption": "F", "prevOption": "F", "customValue": "FixedValue", "promptLabel": "", "value": "_%", "chipValue": [] },
+          { "id": "Criteria_4", "field": "SURZ_ORDER.ORDER_STATUS", "DBNAME": "ORDER_STATUS", "tableName": "SURZ_ORDER", "COLTYPE": "string", "currentFieldType": "string", "operator": "!=", "queryOption": "F", "prevOption": "F", "customValue": "FixedValue", "promptLabel": "", "value": "CANCELLED", "chipValue": [] },
+          { "id": "Criteria_5", "field": "SURZ_ORDER.PARTNER_NAME", "DBNAME": "PARTNER_NAME", "tableName": "SURZ_ORDER", "COLTYPE": "string", "currentFieldType": "string", "operator": "like", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "Partner", "value": "%", "chipValue": [], "promptVar": "partner_name", "lookup": "SURZ_PARTNER(PARTNER_NAME, PARTNER_NAME)", "lookup_title": "Select a partner" },
+          { "id": "Criteria_6", "field": "TOP_N", "DBNAME": "TOP_N", "tableName": "", "COLTYPE": "number", "currentFieldType": "number", "operator": "<=", "queryOption": "P", "prevOption": "P", "customValue": "FixedValue", "promptLabel": "Top N", "value": "10", "chipValue": [], "promptVar": "top_n", "applyTo": "row_limit" }
+        ],
+        "condition": "and"
+      }
+    },
+    "VISUAL_NAME": "Bar",
+    "SCHEMA_NAME": "SURZ_SALES_LINE",
+    "SCHEMA_DESCR": "Top Instruments Sold Through Partner Codes",
+    "SCHEMA_TYPE": "S",
+    "OUTPUT_TYPE": "JSON",
+    "DATABASE_TYPE": "1",
+    "DATABASE_DETAIL": { "DATABASE_NAME": "PostgreSQL", "TYPE": 1 },
+    "ORDER_BY": [ { "column": "SURZ_ORDER_LINE_TAXABLE_VALUE", "direction": "DESC" } ],
+    "ROW_LIMIT": 10
+  },
+  "LAYOUT_DATA": {
+    "visualLayout": {
+      "ID": "bar_h",
+      "VisualName": "Bar",
+      "VisualType": "Standard/UserDefined",
+      "VisualIcon": "Bar.svg",
+      "DisplayOrder": "2",
+      "className": "InsightBarChart",
+      "linkOptions": "",
+      "OutputType": "JSON",
+      "options": [
+        { "optionId": "0", "optionName": "BarOrientation", "optionHeading": "Bar Orientation", "dataType": "string", "defaultValue": "horizontal", "listOfValues": "horizontal,vertical", "allowChange": "true", "optionType": "outer" },
+        { "optionId": "0a", "optionName": "BarType", "optionHeading": "Bar Type", "dataType": "string", "defaultValue": "simple", "listOfValues": "simple,stacked", "allowChange": "true", "optionType": "outer" },
+        { "optionId": "13", "optionName": "themeColor", "optionHeading": "Theme Color", "dataType": "string", "defaultValue": "Green", "listOfValues": "Blue,Green,Orange,Pink,Purple,Yellow,Default", "allowChange": "true", "optionType": "others" },
+        { "optionId": "14", "optionName": "toolbar", "optionHeading": "Show Toolbar", "dataType": "boolean", "defaultValue": "true", "listOfValues": "true,false", "allowChange": "true" },
+        { "optionId": "16", "optionName": "chartBackgroundColor", "optionHeading": "Chart Background Color", "dataType": "string", "defaultValue": "Transparent", "listOfValues": "White,Transparent", "allowChange": "true", "optionType": "others" },
+        { "optionId": "19", "optionName": "showDataLabels", "optionHeading": "Show Data In Graph", "dataType": "boolean", "defaultValue": "true", "listOfValues": "true,false", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "20", "optionName": "autoRefreshSeconds", "optionHeading": "Auto refresh (seconds)", "dataType": "number", "defaultValue": "0", "listOfValues": "", "allowChange": "true", "optionType": "outer" }
+      ],
+      "ColumnGroups": [
+        { "GroupID": 1, "GroupName": "Rows", "GroupDescription": "GroupDescription1", "GroupIcon": "Bar.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": 0, "StandardName": "Rows", "COLUMNS": [
+          { "COLID": 2, "NAME": "SURZ_PRODUCT_PRODUCT_NAME", "DBTABLE": "SURZ_PRODUCT", "DBNAME": "PRODUCT_NAME", "tableName": "SURZ_PRODUCT", "tableDisplayName": "Instrument", "content": "Instrument", "name": "Instrument", "descr": "Catalogue name of the instrument", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 160, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 220, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Rows", "StandardName": "Rows", "checked": true }
+        ] },
+        { "GroupID": 2, "GroupName": "Columns", "GroupDescription": "GroupDescription2", "GroupIcon": "Bar.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": 0, "StandardName": "Columns", "COLUMNS": [] },
+        { "GroupID": 3, "GroupName": "Values", "GroupDescription": "GroupDescription3", "GroupIcon": "Bar.svg", "AllowedColumnTypes": "ANY", "MinColumns": 0, "MaxColumns": 0, "StandardName": "Values", "COLUMNS": [
+          { "COLID": 3, "NAME": "SURZ_ORDER_LINE_TAXABLE_VALUE", "DBTABLE": "SURZ_ORDER_LINE", "DBNAME": "TAXABLE_VALUE", "tableName": "SURZ_ORDER_LINE", "tableDisplayName": "Order Line", "content": "Net Sales", "name": "Net Sales", "descr": "Partner line value after discount, before GST (INR)", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(14,2)", "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Values", "StandardName": "Values", "checked": true, "display": { "type": "number", "numberStyle": "currency", "currency": "INR", "locale": "en-IN", "decimals": 0 } },
+          { "COLID": 4, "NAME": "SURZ_ORDER_LINE_QTY", "DBTABLE": "SURZ_ORDER_LINE", "DBNAME": "QTY", "tableName": "SURZ_ORDER_LINE", "tableDisplayName": "Order Line", "content": "Units Sold", "name": "Units Sold", "descr": "Units sold through partner orders", "type": "number", "JAVATYPE": "java.math.BigDecimal", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": "(12,2)", "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 140, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Values", "StandardName": "Values", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } }
+        ] }
+      ]
+    },
+    "layoutdata": {}
+  },
+  "SOURCE_SQL": ""
+}

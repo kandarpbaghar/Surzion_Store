@@ -1,0 +1,255 @@
+{
+  "transaction": {
+    "obj_name": "surz_customer",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Customer",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_CUSTOMER",
+          "columns": [
+            {
+              "column": {
+                "name": "customer_id",
+                "db_name": "CUSTOMER_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Customer id",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate()"
+              }
+            },
+            {
+              "column": {
+                "name": "customer_name",
+                "db_name": "CUSTOMER_NAME",
+                "col_type": "VARCHAR120",
+                "heading": "Contact name",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "org_name",
+                "db_name": "ORG_NAME",
+                "col_type": "VARCHAR160",
+                "heading": "Hospital or company",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "email",
+                "db_name": "EMAIL",
+                "col_type": "VARCHAR160",
+                "heading": "Email",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "phone",
+                "db_name": "PHONE",
+                "col_type": "VARCHAR30",
+                "heading": "Phone",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "registry_id",
+                "db_name": "REGISTRY_ID",
+                "col_type": "VARCHAR120",
+                "heading": "Shop account",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "gstin",
+                "db_name": "GSTIN",
+                "col_type": "VARCHAR20",
+                "heading": "GSTIN",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "bill_address",
+                "db_name": "BILL_ADDRESS",
+                "col_type": "VARCHAR400",
+                "heading": "Billing address",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "textarea"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "ship_address",
+                "db_name": "SHIP_ADDRESS",
+                "col_type": "VARCHAR400",
+                "heading": "Delivery address",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "textarea"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "city",
+                "db_name": "CITY",
+                "col_type": "VARCHAR80",
+                "heading": "City",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "state_name",
+                "db_name": "STATE_NAME",
+                "col_type": "VARCHAR80",
+                "heading": "State",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "pincode",
+                "db_name": "PINCODE",
+                "col_type": "VARCHAR12",
+                "heading": "PIN code",
+                "group_name": "Billing",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_CUSTOMER",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

@@ -1,0 +1,1625 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+ "title": "Become a Surzion creator partner",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 3032,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 52,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "58.24px",
+   "letterSpacing": "-1.04px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 34,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "40.8px",
+   "letterSpacing": "-0.34px"
+  },
+  "h3": {
+   "family": "Poppins",
+   "size": 19,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 19,
+   "weight": 400,
+   "color": "rgb(91, 107, 140)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.3px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": false,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nRK\nMy account",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 487,
+     "y": 19,
+     "w": 45,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 562,
+     "y": 19,
+     "w": 39,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#about",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 630,
+     "y": 19,
+     "w": 46,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#catalogue",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 706,
+     "y": 19,
+     "w": 130,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Partners",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(47, 107, 230)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 866,
+     "y": 19,
+     "w": 63,
+     "h": 43
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z\"></path><path d=\"M9 8V6a3 3 0 0 1 6 0v2\"></path></svg>",
+    "cls": "",
+    "color": "rgb(11, 26, 61)",
+    "rect": {
+     "x": 1296,
+     "y": 30,
+     "w": 20,
+     "h": 20
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 487,
+       "y": 19,
+       "w": 442,
+       "h": 43
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1127,
+       "y": 17,
+       "w": 201,
+       "h": 46
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": {
+  "rect": {
+   "x": 0,
+   "y": 2956,
+   "w": 1440,
+   "h": 76
+  },
+  "bg": {
+   "color": "rgb(11, 26, 61)"
+  },
+  "color": "rgb(201, 214, 242)",
+  "sticky": false,
+  "logo": null,
+  "buttons": [],
+  "navStyle": null,
+  "text": "© 2026 Surzion. All rights reserved. Surzion is a brand of Kapsons.\nPrivacy\nTerms\nShipping\nReturns",
+  "items": [
+   {
+    "t": "link",
+    "text": "Privacy",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#privacy",
+    "style": {
+     "family": "Poppins",
+     "size": 13,
+     "weight": 400,
+     "color": "rgb(201, 214, 242)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1075,
+     "y": 28,
+     "w": 47,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Terms",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#terms",
+    "style": {
+     "family": "Poppins",
+     "size": 13,
+     "weight": 400,
+     "color": "rgb(201, 214, 242)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1142,
+     "y": 28,
+     "w": 40,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shipping",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#shipping",
+    "style": {
+     "family": "Poppins",
+     "size": 13,
+     "weight": 400,
+     "color": "rgb(201, 214, 242)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1202,
+     "y": 28,
+     "w": 57,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Returns",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#returns",
+    "style": {
+     "family": "Poppins",
+     "size": 13,
+     "weight": 400,
+     "color": "rgb(201, 214, 242)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1279,
+     "y": 28,
+     "w": 49,
+     "h": 20
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 2,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 28,
+       "w": 416,
+       "h": 20
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1075,
+       "y": 28,
+       "w": 253,
+       "h": 20
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "floating": [],
+ "colors": [
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 10
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 8
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 7
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 4
+  },
+  {
+   "role": "text",
+   "color": "rgb(11, 26, 61)",
+   "n": 3
+  },
+  {
+   "role": "text",
+   "color": "rgb(47, 107, 230)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(14, 35, 88)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(238, 240, 242)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 40
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 72,
+    "w": 1296
+   },
+   "bg": {
+    "color": "rgb(14, 35, 88)"
+   },
+   "color": "rgb(255, 255, 255)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "text",
+     "text": "Exclusive discounts on surgical instruments today!",
+     "html": "Exclusive discounts on surgical instruments today!",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 72,
+      "y": 0,
+      "w": 1296,
+      "h": 40
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "191c856c95c09899"
+  },
+  {
+   "index": 1,
+   "key": "1:share-surzion-your-followers-save",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 121,
+    "w": 1440,
+    "h": 557
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 112,
+    "w": 1216
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": "right",
+     "children": [
+      {
+       "rect": {
+        "x": 112,
+        "y": 47,
+        "w": 638,
+        "h": 430
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 806,
+        "y": 40,
+        "w": 522,
+        "h": 444
+       },
+       "bg": {
+        "color": "rgb(238, 240, 242)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "Home / Become a partner",
+     "html": "<a href=\"Main.dc.html\" style=\"color: #5B6B8C; text-decoration: none\">Home</a> / <span style=\"color: #0B1A3D\">Become a partner</span>",
+     "links": [
+      {
+       "text": "Home",
+       "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 500,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 47,
+      "w": 638,
+      "h": 20
+     }
+    },
+    {
+     "t": "text",
+     "text": "CREATOR PARTNER PROGRAMME",
+     "html": "CREATOR PARTNER PROGRAMME",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": "1.82px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 89,
+      "w": 638,
+      "h": 20
+     }
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Share Surzion. Your followers save.",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 52,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "58.24px",
+      "letterSpacing": "-1.04px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 131,
+      "w": 638,
+      "h": 116
+     }
+    },
+    {
+     "t": "text",
+     "text": "Medical creators and influencers on Instagram, YouTube, Facebook and LinkedIn get their own discount code and QR code. Your followers claim it at checkout, and you track every order it brings in.",
+     "html": "Medical creators and influencers on Instagram, YouTube, Facebook and LinkedIn get their own discount code and QR code. Your followers claim it at checkout, and you track every order it brings in.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 19,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.3px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 269,
+      "w": 560,
+      "h": 129
+     }
+    },
+    {
+     "t": "link",
+     "text": "Apply now",
+     "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html#apply",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 421,
+      "w": 169,
+      "h": 54
+     }
+    },
+    {
+     "t": "link",
+     "text": "My partner account",
+     "href": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 295,
+      "y": 421,
+      "w": 215,
+      "h": 56
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://design.local/surzion-storefront-redesign/assets/9a5832314c2172200958947ffcf5f2cd.jpg",
+     "alt": "Hands setting up a phone on a tripod to record a video",
+     "natural": {
+      "w": 1920,
+      "h": 1282
+     },
+     "href": null,
+     "rect": {
+      "x": 806,
+      "y": 40,
+      "w": 522,
+      "h": 444
+     },
+     "radius": "24px"
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M19 5L5 19\"></path><circle cx=\"7\" cy=\"7\" r=\"2.5\"></circle><circle cx=\"17\" cy=\"17\" r=\"2.5\"></circle></svg>",
+     "cls": "",
+     "color": "rgb(31, 157, 99)",
+     "rect": {
+      "x": 1124,
+      "y": 455,
+      "w": 22,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Your followers save",
+     "html": "Your followers save",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.1px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1171,
+      "y": 441,
+      "w": 156,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "[N]% on every item",
+     "html": "[N]% on every item",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1171,
+      "y": 464,
+      "w": 156,
+      "h": 27
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "9062af79593c7751"
+  },
+  {
+   "index": 2,
+   "key": "2:what-you-get",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 678,
+    "w": 1440,
+    "h": 458
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 112,
+    "w": 1216
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 72,
+    "bottom": 56,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "cards",
+     "columns": 3,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 112,
+        "y": 140,
+        "w": 389,
+        "h": 261
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "18px",
+       "shadow": null,
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 525,
+        "y": 140,
+        "w": 389,
+        "h": 261
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "18px",
+       "shadow": null,
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 939,
+        "y": 140,
+        "w": 389,
+        "h": 261
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "18px",
+       "shadow": null,
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "What you get",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 34,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "40.8px",
+      "letterSpacing": "-0.34px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 72,
+      "w": 1216,
+      "h": 41
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"9\" r=\"6\"></circle><path d=\"M8.5 14L7 22l5-3 5 3-1.5-8\"></path></svg>",
+     "cls": "",
+     "color": "rgb(47, 107, 230)",
+     "rect": {
+      "x": 153,
+      "y": 181,
+      "w": 24,
+      "h": 24
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Your own discount code",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 141,
+      "y": 229,
+      "w": 331,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "A personal code issued when you are approved, plus a QR code for your posts, reels and stories.",
+     "html": "A personal code issued when you are approved, plus a QR code for your posts, reels and stories.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 141,
+      "y": 270,
+      "w": 331,
+      "h": 77
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M3 10h18\"></path></svg>",
+     "cls": "",
+     "color": "rgb(47, 107, 230)",
+     "rect": {
+      "x": 566,
+      "y": 181,
+      "w": 24,
+      "h": 24
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Your followers save on every item",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 554,
+      "y": 229,
+      "w": 331,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "Buyers enter your code at checkout. The discount applies per item, before GST, and shows on every line of their invoice.",
+     "html": "Buyers enter your code at checkout. The discount applies per item, before GST, and shows on every line of their invoice.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 554,
+      "y": 270,
+      "w": 331,
+      "h": 77
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M4 20V10M10 20V4M16 20v-7M22 20H2\"></path></svg>",
+     "cls": "",
+     "color": "rgb(47, 107, 230)",
+     "rect": {
+      "x": 980,
+      "y": 181,
+      "w": 24,
+      "h": 24
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Order tracking",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 968,
+      "y": 229,
+      "w": 331,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "See every order claimed with your code in your partner account: date, status, payment and the discount your followers received.",
+     "html": "See every order claimed with your code in your partner account: date, status, payment and the discount your followers received.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 968,
+      "y": 270,
+      "w": 331,
+      "h": 102
+     }
+    }
+   ],
+   "crop": "sections/s02.jpg",
+   "fingerprint": "58b3e064bd7c93ea"
+  },
+  {
+   "index": 3,
+   "key": "3:how-it-works",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 1135,
+    "w": 1440,
+    "h": 349
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 153,
+    "w": 1134
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 72,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 4,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 153,
+        "y": 103,
+        "w": 269,
+        "h": 134
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 442,
+        "y": 103,
+        "w": 269,
+        "h": 134
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 730,
+        "y": 103,
+        "w": 269,
+        "h": 134
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1019,
+        "y": 103,
+        "w": 269,
+        "h": 134
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "How it works",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 28,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "33.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 153,
+      "y": 41,
+      "w": 1134,
+      "h": 34
+     }
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      {
+       "text": "1\nApply\nSign in and tell us about your channels.",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "2\nProfile review\nOur team reviews your channels and sets the discount your followers get.",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "3\nWelcome email\nYour discount code and QR code arrive by email.",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "4\nShare your code\nPost it. Every order claimed with it shows in your partner account.",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 17,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28.9px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 153,
+      "y": 103,
+      "w": 1134,
+      "h": 134
+     }
+    }
+   ],
+   "crop": "sections/s03.jpg",
+   "fingerprint": "c337170d3a63d85f"
+  },
+  {
+   "index": 4,
+   "key": "apply",
+   "anchor": "apply",
+   "tag": "section",
+   "rect": {
+    "x": 0,
+    "y": 1485,
+    "w": 1440,
+    "h": 1472
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 112,
+    "w": 1216
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 72,
+    "bottom": 88,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 112,
+        "y": 73,
+        "w": 365,
+        "h": 509
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 517,
+        "y": 73,
+        "w": 811,
+        "h": 1311
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "24px",
+       "shadow": "rgba(14, 35, 88, 0.07) 0px 24px 60px 0px",
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "APPLY",
+     "html": "APPLY",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": "1.82px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 73,
+      "w": 365,
+      "h": 20
+     }
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Partner application",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 34,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "40.8px",
+      "letterSpacing": "-0.34px"
+     },
+     "rect": {
+      "x": 112,
+      "y": 113,
+      "w": 365,
+      "h": 41
+     }
+    },
+    {
+     "t": "text",
+     "text": "Tell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved.",
+     "html": "Tell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 112,
+      "y": 174,
+      "w": 365,
+      "h": 109
+     }
+    },
+    {
+     "t": "text",
+     "text": "Who can apply",
+     "html": "Who can apply",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 135,
+      "y": 325,
+      "w": 319,
+      "h": 26
+     }
+    },
+    {
+     "t": "text",
+     "text": "Need help?",
+     "html": "Need help?",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 135,
+      "y": 474,
+      "w": 319,
+      "h": 26
+     }
+    },
+    {
+     "t": "text",
+     "text": "sales@surzion.com\n+91 78148 61010",
+     "html": "sales@surzion.com<br>+91 78148 61010",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 135,
+      "y": 513,
+      "w": 319,
+      "h": 45
+     }
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "@yourhandle",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "email",
+       "label": "",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "tel",
+       "label": "+91",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "url",
+       "label": "https://instagram.com/yourhandle",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "textarea",
+       "label": "",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "select",
+       "label": "",
+       "required": false,
+       "options": [
+        "Select range",
+        "Under 5,000",
+        "5,000 – 50,000",
+        "50,000 – 2,50,000",
+        "Over 2,50,000"
+       ]
+      },
+      {
+       "name": "",
+       "type": "select",
+       "label": "",
+       "required": false,
+       "options": [
+        "Select audience",
+        "Surgeons",
+        "Doctors (general)",
+        "Medical students",
+        "Nurses",
+        "Dentists",
+        "Veterinarians"
+       ]
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "select",
+       "label": "",
+       "required": false,
+       "options": [
+        "Select state",
+        "Punjab",
+        "Delhi",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu"
+       ]
+      },
+      {
+       "name": "",
+       "type": "textarea",
+       "label": "e.g. I review surgical kits for residents in weekly reels…",
+       "required": false
+      }
+     ],
+     "submit": "",
+     "rect": {
+      "x": 517,
+      "y": 73,
+      "w": 811,
+      "h": 1311
+     }
+    }
+   ],
+   "crop": "sections/s04.jpg",
+   "fingerprint": "0d5cec8cf11bd60d"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+ "captured_at": "2026-10-09T13:07:03Z",
+ "page_fingerprint": "23773552b08dfc41",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Partner",
+  "state": null,
+  "visible_text": "Exclusive discounts on surgical instruments today!\nHome\nShop\nAbout\nOnline catalogue\nPartners\nRK\nMy account\nHome / Become a partner\nCREATOR PARTNER PROGRAMME\nShare Surzion. Your followers save.\n\nMedical creators and influencers on Instagram, YouTube, Facebook and LinkedIn get their own discount code and QR code. Your followers claim it at checkout, and you track every order it brings in.\n\nApply now\nMy partner account\nYour followers save\n[N]% on every item\nWhat you get\nYour own discount code\n\nA personal code issued when you are approved, plus a QR code for your posts, reels and stories.\n\nYour followers save on every item\n\nBuyers enter your code at checkout. The discount applies per item, before GST, and shows on every line of their invoice.\n\nOrder tracking\n\nSee every order claimed with your code in your partner account: date, status, payment and the discount your followers received.\n\nHow it works\n1\nApply\nSign in and tell us about your channels.\n2\nProfile review\nOur team reviews your channels and sets the discount your followers get.\n3\nWelcome email\nYour discount code and QR code arrive by email.\n4\nShare your code\nPost it. Every order claimed with it shows in your partner account.\nAPPLY\nPartner application\n\nTell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved.\n\nWho can apply\nDoctors & surgeons\nMedical educators\nStudent creators\nHealth influencers\nNeed help?\nsales@surzion.com\n+91 78148 61010\nApplying as\nname@hospital.in\nNot you?\n1\nAbout you\nContact name *\nCreator or channel name\nEmail *\nPhone *\nMain platform\nInstagram\nYouTube\nFacebook\nLinkedIn\nX\nOther\n2\nYour channels\nProfile link *\nOther channels\nOptional, one link per line\nFollowers\nSelect range\nUnder 5,000\n5,000 – 50,000\n50,000 – 2,50,000\nOver 2,50,000\nYour audience\nSelect audience\nSurgeons\nDoctors (general)\nMedical students\nNurses\nDentists\nVeterinarians\nCity\nState\nSelect state\nPunjab\nDelhi\nMaharashtra\nKarnataka\nTamil Nadu\n3\nTell us more\nWhat do you post, and how would you feature Surzion?\nWe reply by email once your profile has been reviewed.\nSubmit application\n© 2026 Surzion. All rights reserved. Surzion is a brand of Kapsons.\nPrivacy\nTerms\nShipping\nReturns",
+  "sample_text": [
+   "Instagram",
+   "YouTube",
+   "Facebook",
+   "LinkedIn",
+   "X",
+   "Other"
+  ],
+  "sample_images": []
+ }
+}

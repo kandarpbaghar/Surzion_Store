@@ -1,0 +1,20 @@
+{
+  "id": "864c6f2c-1e26-44d9-b660-3ed1f56419ee",
+  "project": "Surzion_Store",
+  "backend": "claude",
+  "title": "Allow to enter an image of the testimonial provider and display the same along w",
+  "kind": "modify",
+  "status": "completed",
+  "description": "Allow to enter an image of the testimonial provider and display the same along w",
+  "created_at": 1791620191.544584,
+  "updated_at": 1791620240.1364312,
+  "todos": [],
+  "phases": [],
+  "originating_prompt": "Allow to enter an image of the testimonial provider and display the same along with name",
+  "resume_ref": {
+    "session_id": "d268264f-e22f-42c5-a111-7ec7c1ee1556",
+    "claude_session_id": "f8df0a85-551e-4991-b441-3913d3393f8e"
+  },
+  "depends_on": [],
+  "result_summary": "Let me see how the product image column and its page binding are done.Now apply the edits: new column in the model and design, plus page binding.            {\"column\": {\"name\": \"author_image_url\", \"db_name\": \"AUTHOR_IMAGE_URL\", \"col_type\": \"VARCHAR400\", \"heading\": \"Author Image\", \"group_name\": \"Basic\", \"mandatory\": 0, \"key\": false, \"protect\": 0, \"hidden\": 0, \"edit_mask\": {\"mask\": \"image\"}}},\n            {\"column\": {\"name\": \"quote\", \"db_name\": \"QUOTE\",\"}    {\"column_name\": \"AUTHOR_IMAGE_URL\", \"data_type\": \"VARCHAR\", \"size\": \"400\", \"sequence\": 12, \"key\": false, \"mandatory\": false, \"description\": \"Author Image\"},\n    {\"column_name\": \"ADD_DATE\", \"data_type\": \"DATETIME\", \"size\": \"\", \"sequence\": 8,\"}              \"rating\": {\n                \"source\": \"item_field\",\n                \"path\": \"RATING\"\n              },\n              \"authorAvatarUrl\": {\n                \"source\": \"item_field\",\n                \"path\": \"AUTHOR_IMAGE_URL\"\n              }\n            }\"}          \"AUTHOR_ROLE\",\n          \"AUTHOR_IMAGE_URL\",\n          \"QUOTE\",\n          \"RATING\"\n        ]\"}Testimonials now have an image field for the author, and the Home page shows that image next to the author's name. I haven't deployed or viewed it in the preview, so it's untested.\n\n- **Entry screen:** `Metadata_Model/transaction_models/model_surz_testimonial.json` has a new \"Author Image\" field (`AUTHOR_IMAGE_URL`) with an image upload, placed just before Quote. I copied the setup from the category image field.\n- **Database design:** `Database_Design/SURZ_TESTIMONIAL.json` has the matching new column.\n- **Home page:** In `Metadata_Model/page_models/model_surz_home.json`, the testimonial block now binds the image to the author's avatar. The data source also loads the new column. The name, role, quote and rating work as before.\n\nExisting testimonials have no image until you upload one for each. The new column is added when the preview next deploys the Testimonial screen.\n\nI didn't touch `requirement_doc.md`, since this project doesn't have one.\n\nFiles touched: Database_Design/SURZ_TESTIMONIAL.json, Metadata_Model/page_models/model_surz_home.json, Metadata_Model/transaction_models/model_surz_testimonial.json"
+}

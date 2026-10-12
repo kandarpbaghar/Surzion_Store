@@ -1,0 +1,134 @@
+{
+ "page": {
+  "obj_name": "ForgotPassword",
+  "title": "Reset your password — Surzion",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Reset your password — Surzion"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0forgotyourp",
+    "name": "Forgot your password?",
+    "blocks": [
+     {
+      "id": "h_4917c7_1",
+      "type": "heading",
+      "level": 2,
+      "text": "Forgot your password?",
+      "style": {
+       "typography": {
+        "fontSize": 26
+       }
+      }
+     },
+     {
+      "id": "p_4917c7_2",
+      "type": "paragraph",
+      "text": "Enter the email or mobile number on your account and we'll send you a reset link."
+     },
+     {
+      "id": "btn_4917c7_3",
+      "type": "button",
+      "button": {
+       "id": "btn_4917c7_4",
+       "label": "Send reset link",
+       "variant": "primary",
+       "size": "md"
+      },
+      "align": "left"
+     },
+     {
+      "id": "btn_4917c7_6",
+      "type": "button",
+      "button": {
+       "id": "btn_4917c7_5",
+       "label": "Remembered it? Sign in",
+       "variant": "link",
+       "size": "md",
+       "on_click": {
+        "kind": "external_url",
+        "url": "/surzion-storefront-redesign/Register.dc.html",
+        "newTab": false
+       }
+      },
+      "align": "left"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html",
+     "key": "0:forgot-your-password",
+     "fingerprint": "33efdcc9a5647603",
+     "crop": "sections/s00.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html",
+   "captured_at": "2026-10-09T13:08:15Z",
+   "page_fingerprint": "e529894c9cfa2953",
+   "draft_version": 1
+  }
+ }
+}

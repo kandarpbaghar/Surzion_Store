@@ -1,0 +1,126 @@
+{
+  "transaction": {
+    "obj_name": "surz_partner_apply",
+    "unit_test": {
+      "sample": {
+        "partner_name": "Dr. Anil Kumar",
+        "handle": "@dranilkumar",
+        "email": "anil@example.com",
+        "phone": "+91-9876543210",
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/dranilkumar"
+      },
+      "note": "New mandatory columns HANDLE, PLATFORM, PROFILE_URL require valid values; PROFILE_URL must start with https://"
+    },
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Become a partner",
+          "form_descr": "Apply to join the Surzion partner programme. Applicant-only view: no approval fields or actions.",
+          "form_no": "1",
+          "main_table": "SURZ_PARTNER",
+          "row_security": {
+            "rules": [
+              {"column": "REGISTRY_ID", "source": "user_id"}
+            ],
+            "exempt_roles": ["admin", "func-admin"]
+          },
+          "list_view": {
+            "edit_lock": {"expression": "{form.status} == \"APPROVED\" or {form.status} == \"REJECTED\"", "reason": "This application has been decided and can no longer be edited."},
+            "columns": ["partner_name", "handle", "platform", "email", "phone", "city", "status", "applied_on"]
+          },
+          "columns": [
+            {"column": {"name": "partner_id", "db_name": "PARTNER_ID", "col_type": "VARCHAR20", "heading": "Application id", "group_name": "About you", "mandatory": 0, "key": true, "protect": 1, "hidden": 1,
+              "default_value": "auto_generate_prefixed()",
+              "series": {"parts": [{"source": "const", "text": "PRT"}], "separator": "", "width": 5},
+              "validations": [
+                {"type": "builtin", "name": "Partner id unique", "error_code": "PRT_DUP", "message": "Partner id {form.PARTNER_ID} already exists.", "builtin": {"kind": "must_be_unique"}}
+              ]}},
+            {"column": {"name": "partner_name", "db_name": "PARTNER_NAME", "col_type": "VARCHAR120", "heading": "Contact name", "group_name": "About you", "mandatory": 1, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "handle", "db_name": "HANDLE", "col_type": "VARCHAR60", "heading": "Creator or channel name", "hint": "@yourhandle", "group_name": "About you", "mandatory": 1, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "email", "db_name": "EMAIL", "col_type": "VARCHAR160", "heading": "Email", "group_name": "About you", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "validations": [
+                {"type": "expression", "name": "Valid email", "error_code": "PRT_EMAIL", "message": "Enter a valid email address.", "expression": "match({form.email}, \"^[^@\\\\s]+@[^@\\\\s]+\\\\.[^@\\\\s]+$\")"},
+                {"type": "builtin", "name": "One live application per email", "error_code": "PRT_EMAIL_DUP", "message": "An application for {form.EMAIL} already exists.",
+                 "builtin": {"kind": "must_be_unique", "conditions": [{"column": "STATUS", "op": "!=", "source": "const", "value": "REJECTED"}]}}
+              ]}},
+            {"column": {"name": "phone", "db_name": "PHONE", "col_type": "VARCHAR30", "heading": "Phone", "group_name": "About you", "mandatory": 1, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "platform", "db_name": "PLATFORM", "col_type": "VARCHAR20", "heading": "Main platform", "group_name": "About you", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "radio", "style": "chips", "values": ["Instagram", "YouTube", "Facebook", "LinkedIn", "X", "Other"]}}},
+            {"column": {"name": "profile_url", "db_name": "PROFILE_URL", "col_type": "VARCHAR400", "heading": "Profile link", "group_name": "Your channels", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "url"},
+              "validations": [
+                {"type": "expression", "name": "Link starts with http", "error_code": "PRT_URL", "message": "Profile link must start with http:// or https://", "expression": "startswith(lower(trim({form.profile_url})), \"http://\") or startswith(lower(trim({form.profile_url})), \"https://\")"}
+              ]}},
+            {"column": {"name": "other_channels", "db_name": "OTHER_CHANNELS", "col_type": "TEXT", "heading": "Other channels (one link per line)", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "follower_range", "db_name": "FOLLOWER_RANGE", "col_type": "VARCHAR20", "heading": "Followers", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "dropdown", "values": ["Under 5,000", "5,000 – 50,000", "50,000 – 2,50,000", "Over 2,50,000"]}}},
+            {"column": {"name": "audience", "db_name": "AUDIENCE", "col_type": "VARCHAR30", "heading": "Your audience", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "dropdown", "values": ["Surgeons", "Doctors (general)", "Medical students", "Nurses", "Dentists", "Veterinarians", "Other"]}}},
+            {"column": {"name": "city", "db_name": "CITY", "col_type": "VARCHAR80", "heading": "City", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "state_name", "db_name": "STATE_NAME", "col_type": "VARCHAR80", "heading": "State", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "gstin", "db_name": "GSTIN", "col_type": "VARCHAR20", "heading": "GSTIN (only if you invoice as a business)", "group_name": "Your channels", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "message", "db_name": "MESSAGE", "col_type": "TEXT", "heading": "What do you post, and how would you feature Surzion?", "group_name": "Tell us more", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "org_name", "db_name": "ORG_NAME", "col_type": "VARCHAR160", "heading": "Organisation", "group_name": "Others", "mandatory": 0, "key": false, "protect": 0, "hidden": 1}},
+            {"column": {"name": "business_type", "db_name": "BUSINESS_TYPE", "col_type": "VARCHAR30", "heading": "Business type", "group_name": "Others", "mandatory": 0, "key": false, "protect": 0, "hidden": 1,
+              "edit_mask": {"mask": "dropdown", "values": ["Distributor", "Hospital", "Clinic", "Reseller", "Other"]}}},
+            {"column": {"name": "address", "db_name": "ADDRESS", "col_type": "VARCHAR400", "heading": "Address", "group_name": "Others", "mandatory": 0, "key": false, "protect": 0, "hidden": 1, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "status", "db_name": "STATUS", "col_type": "VARCHAR16", "heading": "Status", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1,
+              "edit_mask": {"mask": "dropdown", "values": ["PENDING", "APPROVED", "REJECTED"]},
+              "display": {"type": "status_tag", "map": [
+                {"when": "APPROVED", "color": "green"},
+                {"when": "REJECTED", "color": "red"},
+                {"when": "PENDING", "color": "yellow"}
+              ], "defaultColor": "grey"}}},
+            {"column": {"name": "applied_on", "db_name": "APPLIED_ON", "col_type": "DATE", "heading": "Applied on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1,
+              "display": {"type": "date", "datePattern": "dd-MMM-yyyy"}}},
+            {"column": {"name": "registry_id", "db_name": "REGISTRY_ID", "col_type": "VARCHAR120", "heading": "Shop account", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "add_date", "db_name": "ADD_DATE", "col_type": "DATETIME", "heading": "Added on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_date"}},
+            {"column": {"name": "add_user", "db_name": "ADD_USER", "col_type": "VARCHAR10", "heading": "Added by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_user"}},
+            {"column": {"name": "chg_date", "db_name": "CHG_DATE", "col_type": "DATETIME", "heading": "Changed on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_date"}},
+            {"column": {"name": "chg_user", "db_name": "CHG_USER", "col_type": "VARCHAR10", "heading": "Changed by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_user"}}
+          ],
+          "actions": [
+            {"name": "Delete", "handler": "system", "system_op": "delete", "validations": [
+              {"type": "expression", "name": "No withdrawal", "error_code": "PRT_NO_DELETE", "message": "An application cannot be deleted here. Contact us to withdraw it.", "expression": "1 == 0"}]}
+          ],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {"table_name": "SURZ_PARTNER", "main_table": true}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_partner_stamp_application",
+          "language": "python",
+          "description": "Server-stamp STATUS and APPLIED_ON on a new application",
+          "spec": "pre_commit on SURZ_PARTNER (shared by surz_partner_apply and surz_partner). Return immediately unless action is 'add'. The header row already exists on the save connection: UPDATE SURZ_PARTNER SET STATUS = 'PENDING' WHERE PARTNER_ID = <header PARTNER_ID / txn_id> AND (STATUS IS NULL OR STATUS = ''), and SET APPLIED_ON = current date WHERE APPLIED_ON IS NULL. Never overwrite a STATUS already present (never trust or accept an APPROVED/REJECTED arriving from a client on add: if the row was added by a non-admin caller force STATUS = 'PENDING' regardless). The form deliberately carries NO client defaults for these two columns so a blank Add form is not dirty. Return None on success; on any unexpected failure log and return {'error': 'Could not register the application'}."
+        }
+      }
+    ],
+    "post_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_partner_received",
+          "language": "python",
+          "description": "Acknowledge a new partner application",
+          "spec": "Runs after commit; return immediately unless action is 'add'. Re-read the saved SURZ_PARTNER row by txn_id/PARTNER_ID and call api.emit_event('surz_partner_registered', {PARTNER_ID, PARTNER_NAME, ORG_NAME, BUSINESS_TYPE, EMAIL, PHONE, CITY, STATE_NAME, MESSAGE, APPLIED_ON}). The flow bound to that event sends (1) an acknowledgement email to the applicant (EMAIL) and (2) a heads-up to the admin mailbox. A missing row, missing EMAIL, or any failure (including an undefined event) is logged and swallowed: this hook must NEVER report a failure, the application is already committed."
+        }
+      }
+    ],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

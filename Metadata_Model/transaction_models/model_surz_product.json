@@ -1,0 +1,531 @@
+{
+  "transaction": {
+    "obj_name": "surz_product",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Instrument",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_PRODUCT",
+          "columns": [
+            {
+              "column": {
+                "name": "product_code",
+                "db_name": "PRODUCT_CODE",
+                "col_type": "VARCHAR20",
+                "heading": "Code",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate_prefixed()",
+                "series": {
+                  "parts": [
+                    {
+                      "source": "const",
+                      "text": "SURZ-"
+                    }
+                  ],
+                  "width": 4
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "product_name",
+                "db_name": "PRODUCT_NAME",
+                "col_type": "VARCHAR160",
+                "heading": "Instrument",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "category_code",
+                "db_name": "CATEGORY_CODE",
+                "col_type": "VARCHAR12",
+                "heading": "Category",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_CATEGORY(CATEGORY_NAME, CATEGORY_CODE)",
+                "must_exist_in": "SURZ_CATEGORY",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_CATEGORY",
+                  "match_table_col": "CATEGORY_CODE",
+                  "fill": [
+                    {
+                      "form_col": "category_name",
+                      "table_col": "CATEGORY_NAME"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "category_name",
+                "db_name": "CATEGORY_NAME",
+                "col_type": "VARCHAR60",
+                "heading": "Category name",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "subtitle",
+                "db_name": "SUBTITLE",
+                "col_type": "VARCHAR160",
+                "heading": "Subtitle",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "descr",
+                "db_name": "DESCR",
+                "col_type": "TEXT",
+                "heading": "Description",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "textarea"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "grade",
+                "db_name": "GRADE",
+                "col_type": "VARCHAR40",
+                "heading": "Steel grade",
+                "group_name": "Specification",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "finish",
+                "db_name": "FINISH",
+                "col_type": "VARCHAR40",
+                "heading": "Finish",
+                "group_name": "Specification",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "length_mm",
+                "db_name": "LENGTH_MM",
+                "col_type": "NUMBER8_1",
+                "heading": "Length (mm)",
+                "group_name": "Specification",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "pattern",
+                "db_name": "PATTERN",
+                "col_type": "VARCHAR60",
+                "heading": "Pattern",
+                "group_name": "Specification",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "hsn_code",
+                "db_name": "HSN_CODE",
+                "col_type": "VARCHAR12",
+                "heading": "HSN",
+                "group_name": "Commercial",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_HSN_GST(DESCR, HSN_CODE)",
+                "must_exist_in": "SURZ_HSN_GST",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_HSN_GST",
+                  "match_table_col": "HSN_CODE",
+                  "fill": [
+                    {
+                      "form_col": "gst_rate",
+                      "table_col": "GST_RATE"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "gst_rate",
+                "db_name": "GST_RATE",
+                "col_type": "NUMBER5_2",
+                "heading": "GST %",
+                "group_name": "Commercial",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "unit_price",
+                "db_name": "UNIT_PRICE",
+                "col_type": "NUMBER12_2",
+                "heading": "Price",
+                "group_name": "Commercial",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "mrp",
+                "db_name": "MRP",
+                "col_type": "NUMBER12_2",
+                "heading": "List price",
+                "group_name": "Commercial",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "stock_qty",
+                "db_name": "STOCK_QTY",
+                "col_type": "NUMBER12_2",
+                "heading": "In stock",
+                "group_name": "Commercial",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "0"
+              }
+            },
+            {
+              "column": {
+                "name": "reorder_level",
+                "db_name": "REORDER_LEVEL",
+                "col_type": "NUMBER12_2",
+                "heading": "Reorder at",
+                "group_name": "Commercial",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "0"
+              }
+            },
+            {
+              "column": {
+                "name": "slug",
+                "db_name": "SLUG",
+                "col_type": "VARCHAR160",
+                "heading": "URL slug",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "image_url",
+                "db_name": "IMAGE_URL",
+                "col_type": "VARCHAR400",
+                "heading": "Main photograph",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "image"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "hover_image_url",
+                "db_name": "HOVER_IMAGE_URL",
+                "col_type": "VARCHAR400",
+                "heading": "Second photograph (mouse-over)",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "image"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "ribbon",
+                "db_name": "RIBBON",
+                "col_type": "VARCHAR30",
+                "heading": "Ribbon",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "dropdown",
+                  "values": [
+                    "",
+                    "Best Seller",
+                    "New",
+                    "Premium Quality",
+                    "Surgical Grade",
+                    "Top Quality"
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "sort_order",
+                "db_name": "SORT_ORDER",
+                "col_type": "NUMBER5",
+                "heading": "Shop order",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "is_active",
+                "db_name": "IS_ACTIVE",
+                "col_type": "VARCHAR1",
+                "heading": "Listed in the shop",
+                "group_name": "Presentation",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "Y",
+                "edit_mask": {
+                  "mask": "yes_no"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_PRODUCT",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "sql_model": {
+          "form_title": "Gallery",
+          "form_descr": "",
+          "form_no": "2",
+          "main_table": "SURZ_PRODUCT_IMAGE",
+          "columns": [
+            {
+              "column": {
+                "name": "product_code",
+                "db_name": "PRODUCT_CODE",
+                "col_type": "VARCHAR20",
+                "heading": "Product",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 1
+              }
+            },
+            {
+              "column": {
+                "name": "img_no",
+                "db_name": "IMG_NO",
+                "col_type": "NUMBER",
+                "heading": "No",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate_line_no()"
+              }
+            },
+            {
+              "column": {
+                "name": "image_url",
+                "db_name": "IMAGE_URL",
+                "col_type": "VARCHAR400",
+                "heading": "Photograph",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "image"
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "caption",
+                "db_name": "CAPTION",
+                "col_type": "VARCHAR160",
+                "heading": "Caption",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_PRODUCT_IMAGE",
+                  "main_table": true
+                },
+                {
+                  "table_name": "SURZ_PRODUCT",
+                  "condition": "SURZ_PRODUCT_IMAGE.PRODUCT_CODE = SURZ_PRODUCT.PRODUCT_CODE"
+                }
+              ]
+            }
+          },
+          "parent_form_no": "1",
+          "parent_key_col": "PRODUCT_CODE"
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

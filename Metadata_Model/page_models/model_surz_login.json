@@ -1,0 +1,427 @@
+{
+  "page": {
+    "obj_name": "surz_login",
+    "title": "Sign in",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_login",
+        "tag": "main",
+        "width": "full",
+        "minHeight": "screen",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        "blocks": [
+          {
+            "id": "login_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 0,
+            "align": "stretch",
+            "columns": [
+              {
+                "id": "lc_l",
+                "blocks": [
+                  {
+                    "id": "left_panel",
+                    "type": "container",
+                    "padding": 64,
+                    "rounded": false,
+                    "align": "left",
+                    "background": {
+                      "kind": "image",
+                      "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/6c5d882eabfdd28a.jpg",
+                      "overlay": "rgba(14,35,88,0.88)"
+                    },
+                    "children": [
+                      {
+                        "id": "lp_top",
+                        "type": "columns",
+                        "count": 2,
+                        "gap": 16,
+                        "align": "center",
+                        "justify": "between",
+                        "mobileLayout": "wrap",
+                        "columns": [
+                          {
+                            "id": "lp_top_l",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "logo",
+                                "type": "image",
+                                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                                "alt": "Surzion - The Surgical Excellence",
+                                "align": "left",
+                                "maxWidth": 164,
+                                "style": {
+                                  "background": {
+                                    "kind": "color",
+                                    "color": "var(--pg-surface)"
+                                  },
+                                  "padding": {
+                                    "top": 12,
+                                    "bottom": 12,
+                                    "left": 20,
+                                    "right": 20
+                                  },
+                                  "borderRadius": 14
+                                },
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/",
+                                  "newTab": false
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "lp_top_r",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "back_shop",
+                                "type": "button",
+                                "align": "right",
+                                "button": {
+                                  "id": "back_shop_b",
+                                  "label": "← Back to the shop",
+                                  "variant": "ghost",
+                                  "size": "md",
+                                  "on_click": {
+                                    "kind": "external_url",
+                                    "url": "/",
+                                    "newTab": false
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "lp_mid",
+                        "type": "container",
+                        "padding": 0,
+                        "background": {
+                          "kind": "transparent"
+                        },
+                        "children": [
+                          {
+                            "id": "lh",
+                            "type": "heading",
+                            "level": 1,
+                            "text": "One account for every order",
+                            "style": {
+                              "textColor": "var(--pg-on-primary)"
+                            }
+                          },
+                          {
+                            "id": "lp",
+                            "type": "paragraph",
+                            "text": "Sign in with your email or mobile number. New here? We create your account as you go and send a link to set your password.",
+                            "style": {
+                              "textColor": "var(--pg-on-primary)"
+                            }
+                          },
+                          {
+                            "id": "lbul",
+                            "type": "custom_code",
+                            "sandbox": true,
+                            "html": "<ul><li>Track orders and reorder in one click</li><li>Saved delivery addresses for faster checkout</li><li>GST invoices for every order, any time</li><li>Become a creator partner from your account</li></ul>",
+                            "css": "body{margin:0}ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}li{display:flex;gap:10px;align-items:center;font-size:15px;color:var(--pg-inverted,#fff)}li:before{content:'';flex:none;width:16px;height:16px;background:no-repeat center/contain url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239DB8F5' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M5 12l4.5 4.5L19 7'/%3E%3C/svg%3E\")}",
+                            "height": 130
+                          }
+                        ]
+                      },
+                      {
+                        "id": "lp_foot",
+                        "type": "container",
+                        "padding": 0,
+                        "background": {
+                          "kind": "transparent"
+                        },
+                        "style": {
+                          "padding": {
+                            "top": 24
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "lp_rule",
+                            "type": "divider"
+                          },
+                          {
+                            "id": "lquote",
+                            "type": "paragraph",
+                            "text": "“Their quality and service are unmatched, making them my go-to supplier for medical needs.”",
+                            "style": {
+                              "textColor": "var(--pg-on-primary)",
+                              "typography": {
+                                "fontSize": 14
+                              }
+                            }
+                          },
+                          {
+                            "id": "lquote_by",
+                            "type": "paragraph",
+                            "text": "Dr. Sharma",
+                            "style": {
+                              "textColor": "var(--pg-on-primary)",
+                              "typography": {
+                                "fontSize": 13,
+                                "fontWeight": 600
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "minHeight": "screen",
+                    "justify": "between",
+                    "textColor": "var(--pg-inverted)"
+                  }
+                ]
+              },
+              {
+                "id": "lc_r",
+                "blocks": [
+                  {
+                    "id": "right_wrap",
+                    "type": "container",
+                    "padding": 32,
+                    "background": {
+                      "kind": "transparent"
+                    },
+                    "children": [
+                      {
+                        "id": "card",
+                        "type": "container",
+                        "padding": 40,
+                        "rounded": true,
+                        "align": "left",
+                        "background": {
+                          "kind": "color",
+                          "color": "var(--pg-surface)"
+                        },
+                        "style": {
+                          "shadow": "lg",
+                          "border": {
+                            "width": 1,
+                            "color": "var(--pg-border)"
+                          },
+                          "borderRadius": 24
+                        },
+                        "children": [
+                          {
+                            "id": "af",
+                            "type": "auth_form",
+                            "mode": "identify",
+                            "heading": "Welcome back",
+                            "subheading": "Enter your email or mobile number to continue.",
+                            "identifierLabel": "Email or mobile number",
+                            "submitLabel": "Continue",
+                            "showTwasta": false,
+                            "tabs": true,
+                            "identifierPlaceholder": "name@hospital.in or 98765 43210",
+                            "signInNote": "New customer? Continue anyway — we’ll create your account and send a set-password link.",
+                            "registerHeading": "Create your account",
+                            "registerSubheading": "Takes under a minute. Use your email, your mobile number, or both.",
+                            "registerSubmitLabel": "Create account",
+                            "nameFields": "split",
+                            "registerIdentity": "contact",
+                            "phoneCountryCode": "+91",
+                            "emailPlaceholder": "name@hospital.in",
+                            "phonePlaceholder": "98765 43210",
+                            "passwordHint": "At least 8 characters with a number.",
+                            "termsHref": "/terms",
+                            "privacyHref": "/privacy",
+                            "registerNote": {
+                              "title": "Create content for doctors or medical students?",
+                              "body": "Create your account, then apply as a creator partner →",
+                              "href": "/partner",
+                              "icon": "building"
+                            }
+                          },
+                          {
+                            "id": "af_safe",
+                            "type": "paragraph",
+                            "text": "Protected sign-in · Your details stay with Surzion",
+                            "style": {
+                              "align": "center",
+                              "typography": {
+                                "fontSize": 12
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "maxWidth": 544,
+                    "justify": "center"
+                  }
+                ]
+              }
+            ],
+            "mobileOrder": "reverse",
+            "style": {
+              "bleed": true
+            }
+          },
+          {
+            "id": "fab_whatsapp",
+            "type": "floating_button",
+            "position": "bottom-right",
+            "background": "#25D366",
+            "button": {
+              "id": "fab_whatsapp_b",
+              "label": "Chat on WhatsApp",
+              "variant": "primary",
+              "size": "lg",
+              "icon": "message-circle",
+              "on_click": {
+                "kind": "external_url",
+                "url": "https://wa.me/917814861010",
+                "newTab": true
+              }
+            },
+            "iconOnlyBelow": 640
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Sign in | Surzion",
+      "description": "Sign in to your Surzion account or create one with your email or mobile number."
+    },
+    "navigation": {
+      "showHeader": false,
+      "showFooter": false
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

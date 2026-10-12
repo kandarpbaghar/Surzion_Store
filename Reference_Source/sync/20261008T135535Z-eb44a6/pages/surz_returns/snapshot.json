@@ -1,0 +1,3159 @@
+{
+ "url": "https://surzion.com/refund-policy",
+ "title": "Refund policy | Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 6765,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "DM Sans",
+   "size": 16,
+   "color": "rgb(29, 30, 32)"
+  },
+  "h1": null,
+  "h2": null,
+  "h3": {
+   "family": "Poppins",
+   "size": 48,
+   "weight": 400,
+   "color": "rgb(25, 118, 210)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "57.6px",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Poppins",
+   "size": 14,
+   "weight": 500,
+   "color": "rgb(255, 255, 255)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "24.08px",
+   "letterSpacing": "0.14px"
+  }
+ },
+ "pageBg": "rgba(0, 0, 0, 0)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 60
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(29, 30, 32)",
+  "sticky": false,
+  "logo": {
+   "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+   "alt": "Surzion logo",
+   "h": 60,
+   "w": 237
+  },
+  "buttons": [
+   {
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px"
+    }
+   }
+  ],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 16,
+   "weight": 400,
+   "color": "rgb(13, 20, 26)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "27.52px",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\ncart\nDownload Catalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+    "alt": "Surzion logo",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://surzion.com/",
+    "rect": {
+     "x": 124,
+     "y": 0,
+     "w": 237,
+     "h": 60
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://surzion.com/",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 372,
+     "y": 16,
+     "w": 51,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://surzion.com/shop",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 444,
+     "y": 16,
+     "w": 43,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://surzion.com/about",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 508,
+     "y": 16,
+     "w": 50,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://surzion.com/online-catalogue",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 579,
+     "y": 16,
+     "w": 139,
+     "h": 28
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+    "cls": "",
+    "color": "rgb(25, 118, 210)",
+    "rect": {
+     "x": 999,
+     "y": 16,
+     "w": 29,
+     "h": 29
+    }
+   },
+   {
+    "t": "button",
+    "text": "cart",
+    "href": null,
+    "style": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(13, 20, 26)",
+     "radius": "0px",
+     "border": null,
+     "size": 16,
+     "weight": 400,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1039,
+     "y": 15,
+     "w": 63,
+     "h": 30
+    }
+   },
+   {
+    "t": "button",
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px",
+     "border": "1px solid rgb(124, 189, 100)",
+     "size": 11,
+     "weight": 700,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1113,
+     "y": 5,
+     "w": 203,
+     "h": 51
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 4,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 124,
+       "y": 0,
+       "w": 237,
+       "h": 60
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://surzion.com/"
+     },
+     {
+      "rect": {
+       "x": 372,
+       "y": 16,
+       "w": 616,
+       "h": 28
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1039,
+       "y": 15,
+       "w": 63,
+       "h": 30
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1113,
+       "y": 5,
+       "w": 203,
+       "h": 51
+      },
+      "bg": {
+       "color": "rgba(25, 117, 209, 0.6)"
+      },
+      "radius": "25px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [
+  {
+   "text": "",
+   "href": "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+   "rect": {
+    "x": 1356,
+    "y": 812,
+    "w": 64,
+    "h": 64
+   },
+   "edge": "right",
+   "vertical": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(29, 30, 32)",
+   "radius": "100px"
+  }
+ ],
+ "colors": [
+  {
+   "role": "text",
+   "color": "rgb(29, 30, 32)",
+   "n": 78
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 33
+  },
+  {
+   "role": "text",
+   "color": "rgb(124, 189, 100)",
+   "n": 13
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 7
+  },
+  {
+   "role": "link",
+   "color": "rgb(13, 20, 26)",
+   "n": 4
+  },
+  {
+   "role": "button_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(255, 255, 255)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(76, 145, 215)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(25, 118, 210)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 100
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(76, 145, 215)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 4,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 124,
+        "y": 40,
+        "w": 237,
+        "h": 60
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/"
+      },
+      {
+       "rect": {
+        "x": 372,
+        "y": 56,
+        "w": 616,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1039,
+        "y": 55,
+        "w": 63,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1113,
+        "y": 45,
+        "w": 203,
+        "h": 51
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.6)"
+       },
+       "radius": "25px",
+       "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+       "border": "1px solid rgb(124, 189, 100)",
+       "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "Exclusive discounts on surgical instruments today!",
+     "html": "<span style=\"font-weight: 700;\"><strong>Exclusive discounts on surgical instruments today!</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 8,
+      "w": 1224,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+     "alt": "Surzion logo",
+     "natural": {
+      "w": 768,
+      "h": 192
+     },
+     "href": "https://surzion.com/",
+     "rect": {
+      "x": 124,
+      "y": 40,
+      "w": 237,
+      "h": 60
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "link",
+     "text": "Home",
+     "href": "https://surzion.com/",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 372,
+      "y": 56,
+      "w": 51,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Shop",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 444,
+      "y": 56,
+      "w": 43,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "About",
+     "href": "https://surzion.com/about",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 508,
+      "y": 56,
+      "w": 50,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Online catalogue",
+     "href": "https://surzion.com/online-catalogue",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 579,
+      "y": 56,
+      "w": 139,
+      "h": 28
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+     "cls": "",
+     "color": "rgb(25, 118, 210)",
+     "rect": {
+      "x": 999,
+      "y": 56,
+      "w": 29,
+      "h": 29
+     }
+    },
+    {
+     "t": "button",
+     "text": "cart",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 16,
+      "weight": 400,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1039,
+      "y": 55,
+      "w": 63,
+      "h": 30
+     }
+    },
+    {
+     "t": "button",
+     "text": "Download Catalogue",
+     "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "25px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 11,
+      "weight": 700,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1113,
+      "y": 45,
+      "w": 203,
+      "h": 51
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "f2c93da64630a5b8"
+  },
+  {
+   "index": 1,
+   "key": "1:returns-refunds-policy",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 100,
+    "w": 1440,
+    "h": 6665
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 11,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 278,
+        "y": 6379,
+        "w": 49,
+        "h": 32
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6028,
+        "w": 744,
+        "h": 31
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6313,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6444,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6590,
+        "w": 503,
+        "h": 18
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6506,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6377,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6240,
+        "w": 378,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6107,
+        "w": 378,
+        "h": 63
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 6176,
+        "w": 581,
+        "h": 62
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 6039,
+        "w": 209,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 6076,
+        "w": 400,
+        "h": 532
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Returns & Refunds policy",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(25, 118, 210)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "57.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 314,
+      "y": 31,
+      "w": 812,
+      "h": 58
+     }
+    },
+    {
+     "t": "text",
+     "text": "Effective Date: 26-01-2026",
+     "html": "<span style=\"font-weight: 700;\"><strong>Effective Date: 26-01-2026</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 129,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "This Return, Refund & Replacement Policy applies to purchases made through surzion, a brand operated by Kapson.",
+     "html": "This Return, Refund &amp; Replacement Policy applies to purchases made through surzion, a brand operated by Kapson.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 184,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "We aim to ensure that customers receive the correct products in proper condition.",
+     "html": "We aim to ensure that customers receive the correct products in proper condition.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 271,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(1).7-Day Return Policy",
+     "html": "<span style=\"font-weight: 400;\">(1)</span>.7-Day Return Policy",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 331,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Customers may request a return within 7 calendar days from the date of delivery.",
+     "html": "Customers may request a return within 7 calendar days from the date of delivery.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 386,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The return request must be submitted within the applicable 7-day period.",
+     "html": "The return request must be submitted within the applicable 7-day period.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 445,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Products returned under the general return policy should:",
+     "html": "Products returned under the general return policy should:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 505,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Be unused",
+     "html": "* Be unused",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 564,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Be in their original condition",
+     "html": "* Be in their original condition",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 624,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Include original packaging and accessories, where applicable",
+     "html": "* Include original packaging and accessories, where applicable",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 684,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Not show signs of misuse, alteration or damage caused after delivery",
+     "html": "* Not show signs of misuse, alteration or damage caused after delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 743,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Be accompanied by the relevant order details/invoice",
+     "html": "* Be accompanied by the relevant order details/invoice",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 803,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "All returns are subject to inspection and approval by Surzion.",
+     "html": "All returns are subject to inspection and approval by Surzion.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 862,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(2).Products That Cannot Be Returned",
+     "html": "(2).Products That Cannot Be Returned",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 922,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "For safety, hygiene and quality-control reasons, products may not be eligible for return where they have been:",
+     "html": "For safety, hygiene and quality-control reasons, products may not be eligible for return where they have been:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 977,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Used",
+     "html": "* Used",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1064,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Modified",
+     "html": "* Modified",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1124,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Damaged after delivery",
+     "html": "* Damaged after delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1183,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Improperly cleaned or maintained",
+     "html": "* Improperly cleaned or maintained",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1243,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Altered, repaired or tampered with",
+     "html": "* Altered, repaired or tampered with",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1302,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Returned without required original packaging/accessories, where applicable",
+     "html": "* Returned without required original packaging/accessories, where applicable",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1362,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "This does not affect rights available to consumers under applicable law in relation to defective, deficient, incorrect or misrepresented products.",
+     "html": "This does not affect rights available to consumers under applicable law in relation to defective, deficient, incorrect or misrepresented products.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1421,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(3).Wrong, Damaged or Defective Products",
+     "html": "(3).Wrong, Damaged or Defective Products",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1508,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "If you receive:",
+     "html": "If you receive:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1564,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* A wrong product",
+     "html": "* A wrong product",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1623,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* A damaged product",
+     "html": "* A damaged product",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1683,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* A product with a manufacturing defect",
+     "html": "* A product with a manufacturing defect",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1742,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* A product materially different from the product ordered",
+     "html": "* A product materially different from the product ordered",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1802,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "please contact us as soon as possible with the order details and supporting photographs/videos where applicable.",
+     "html": "please contact us as soon as possible with the order details and supporting photographs/videos where applicable.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1861,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "After verification, surzion may arrange an appropriate replacement, return or refund in accordance with applicable law and the circumstances of the case.",
+     "html": "After verification, surzion may arrange an appropriate replacement, return or refund in accordance with applicable law and the circumstances of the case.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1948,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(4).Return Shipping Charges",
+     "html": "(4).Return Shipping Charges",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2035,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "For a standard customer-requested return, the customer will be responsible for the cost of shipping the product back to surzion.",
+     "html": "For a standard customer-requested return, the customer will be responsible for the cost of shipping the product back to surzion.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2091,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "Once the returned product is received and approved, surzion will bear the shipping cost for sending the applicable replacement product back to the customer.",
+     "html": "Once the returned product is received and approved, surzion will bear the shipping cost for sending the applicable replacement product back to the customer.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2178,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "The customer will not be charged additional shipping for the replacement shipment.",
+     "html": "The customer will not be charged additional shipping for the replacement shipment.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2265,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "For products that are confirmed to have been wrongly supplied or damaged/defective due to an issue attributable to Surzion, the applicable shipping costs will be handled by Surzion, subject to verification.",
+     "html": "For products that are confirmed to have been wrongly supplied or damaged/defective due to an issue attributable to Surzion, the applicable shipping costs will be handled by Surzion, subject to verification.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2324,
+      "w": 812,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "(5).One-Year Replacement Warranty",
+     "html": "(5).One-Year Replacement Warranty",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2439,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Eligible products are covered by a one-year replacement warranty against manufacturing defects, beginning from the date of delivery.",
+     "html": "Eligible products are covered by a one-year replacement warranty against manufacturing defects, beginning from the date of delivery.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2494,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "If a manufacturing defect develops during the warranty period, the customer may contact surzion with:",
+     "html": "If a manufacturing defect develops during the warranty period, the customer may contact surzion with:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2581,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Order/invoice details",
+     "html": "* Order/invoice details",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2668,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Product information",
+     "html": "* Product information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2728,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Description of the issue",
+     "html": "* Description of the issue",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2787,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Photographs/videos where required",
+     "html": "* Photographs/videos where required",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2847,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The product may need to be returned to surzion for inspection.",
+     "html": "The product may need to be returned to surzion for inspection.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2906,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "If the defect is confirmed to be a manufacturing defect covered by the warranty, surzion will provide a replacement, subject to product availability.",
+     "html": "If the defect is confirmed to be a manufacturing defect covered by the warranty, surzion will provide a replacement, subject to product availability.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2966,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "6. Warranty Exclusions",
+     "html": "6. Warranty Exclusions",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3053,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The one-year replacement warranty does not cover damage or failure caused by:",
+     "html": "The one-year replacement warranty does not cover damage or failure caused by:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3112,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Normal wear and tear",
+     "html": "* Normal wear and tear",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3172,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Accidental damage",
+     "html": "* Accidental damage",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3231,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Improper use",
+     "html": "* Improper use",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3291,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Misuse or negligence",
+     "html": "* Misuse or negligence",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3350,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Improper cleaning or maintenance",
+     "html": "* Improper cleaning or maintenance",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3410,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Improper storage",
+     "html": "* Improper storage",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3469,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Unauthorized modification",
+     "html": "* Unauthorized modification",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3529,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Unauthorized repair",
+     "html": "* Unauthorized repair",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3588,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Corrosion caused by improper handling, cleaning or storage",
+     "html": "* Corrosion caused by improper handling, cleaning or storage",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3648,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Use outside the intended purpose of the product",
+     "html": "* Use outside the intended purpose of the product",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3707,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Damage resulting from circumstances beyond the manufacturer’s or seller’s control",
+     "html": "* Damage resulting from circumstances beyond the manufacturer’s or seller’s control",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3767,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The final determination of warranty eligibility will be made after inspection of the product.",
+     "html": "The final determination of warranty eligibility will be made after inspection of the product.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3826,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(7).Refunds",
+     "html": "(7).Refunds",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3886,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Where a refund is approved, the refund will generally be processed through the original payment method or another appropriate method permitted by the payment provider.",
+     "html": "Where a refund is approved, the refund will generally be processed through the original payment method or another appropriate method permitted by the payment provider.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3940,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "The time taken for the amount to reflect in the customer’s account may depend on the relevant bank, payment gateway or financial institution.",
+     "html": "The time taken for the amount to reflect in the customer’s account may depend on the relevant bank, payment gateway or financial institution.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4027,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "Where a product is returned because of a customer-requested return rather than a confirmed defect, wrong-product delivery or other issue attributable to Surzion, applicable shipping charges may not be refundable.",
+     "html": "Where a product is returned because of a customer-requested return rather than a confirmed defect, wrong-product delivery or other issue attributable to Surzion, applicable shipping charges may not be refundable.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4114,
+      "w": 812,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "(8).Cancellation",
+     "html": "(8).Cancellation",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4229,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Orders may be cancelled before dispatch.",
+     "html": "Orders may be cancelled before dispatch.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4284,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Once an order has been dispatched, cancellation is no longer available and the customer may use the applicable return process described in this Policy.",
+     "html": "Once an order has been dispatched, cancellation is no longer available and the customer may use the applicable return process described in this Policy.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4344,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(9).How to Request a Return or Replacement",
+     "html": "(9).How to Request a Return or Replacement",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4431,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "To request a return, refund or replacement, contact us with:",
+     "html": "To request a return, refund or replacement, contact us with:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4486,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Order number",
+     "html": "* Order number",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4546,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Customer name",
+     "html": "* Customer name",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4605,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Contact number/email",
+     "html": "* Contact number/email",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4665,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Product name",
+     "html": "* Product name",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4724,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Reason for return/replacement",
+     "html": "* Reason for return/replacement",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4784,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Photographs/videos where applicable",
+     "html": "* Photographs/videos where applicable",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4843,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Requests should be sent to:",
+     "html": "Requests should be sent to:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4903,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Email: sales@surzion.com",
+     "html": "Email: sales@surzion.com",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4962,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Phone(WhatsApp): +917814861010",
+     "html": "Phone(WhatsApp): +917814861010",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5022,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Our team may provide return instructions after reviewing the request.",
+     "html": "Our team may provide return instructions after reviewing the request.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5081,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(10).Inspection",
+     "html": "(10).Inspection",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5141,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "All returned products may be inspected before a return, refund or replacement is approved.",
+     "html": "All returned products may be inspected before a return, refund or replacement is approved.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5196,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Submitting a return request does not automatically guarantee approval.",
+     "html": "Submitting a return request does not automatically guarantee approval.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5256,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The decision will be based on the condition of the product, reason for return, applicable warranty conditions and applicable law.",
+     "html": "The decision will be based on the condition of the product, reason for return, applicable warranty conditions and applicable law.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5315,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(11).Changes to This Policy",
+     "html": "(11).Changes to This Policy",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5407,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion may update this Return, Refund & Replacement Policy from time to time.",
+     "html": "surzion may update this Return, Refund &amp; Replacement Policy from time to time.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5463,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The updated version will be published on the Website with the applicable effective date.",
+     "html": "The updated version will be published on the Website with the applicable effective date.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5522,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(12).Contact Us",
+     "html": "(12).Contact Us",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5582,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "KAPSONS( surzion )",
+     "html": "KAPSONS( surzion )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5637,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Email: sales@surzion.com",
+     "html": "Email: sales@surzion.com",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5700,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Phone: +917814861010, +918195831010",
+     "html": "Phone: +917814861010, +918195831010      ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5759,
+      "w": 812,
+      "h": 21
+     }
+    },
+    {
+     "t": "text",
+     "text": "Address:",
+     "html": "<span style=\"color: rgb(124, 189, 100); font-weight: 700;\"><strong>Address:</strong></span>                                                        ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5813,
+      "w": 812,
+      "h": 21
+     }
+    },
+    {
+     "t": "text",
+     "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "html": "<span style=\"color: rgb(0, 0, 0); text-transform: none; letter-spacing: normal; font-family: Roboto, sans-serif; font-weight: 700;\"><strong>3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021</strong></span><span style=\"font-weight: 700;\"><strong> </strong></span>                                                                        ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 5866,
+      "w": 812,
+      "h": 42
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path>\n</svg>",
+     "cls": "",
+     "color": "rgba(25, 117, 209, 0.78)",
+     "rect": {
+      "x": 278,
+      "y": 6379,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "text",
+     "text": "We provide premium surgical solutions for precision care",
+     "html": "<span style=\"font-weight: 700;\"><strong>We provide premium surgical solutions for precision care</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "31.2px",
+      "letterSpacing": "0.24px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6028,
+      "w": 744,
+      "h": 31
+     }
+    },
+    {
+     "t": "text",
+     "text": "Contact us",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"_self\" rel=\"\" href=\"/contact\" data-page-id=\"ai-nyDG0\" style=\"text-decoration: none;\">Contact us</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Contact us",
+       "href": "https://surzion.com/contact"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6313,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-7814861010 )",
+     "html": "(+91-7814861010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6444,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "© 2025. All rights reserved.",
+     "html": "© 2025. All rights reserved.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6590,
+      "w": 503,
+      "h": 18
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-8195831010 )",
+     "html": "(+91-8195831010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6506,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Follow us >>>>>>",
+     "html": "<span style=\"font-weight: 700;\"><strong>Follow us    &gt;&gt;&gt;&gt;&gt;&gt;</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6377,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Privacy Policy",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"\" href=\"/privacy-policy\" data-page-id=\"zvwWi_\" style=\"text-decoration: none;\">Privacy Policy</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Privacy Policy",
+       "href": "https://surzion.com/privacy-policy"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 6240,
+      "w": 378,
+      "h": 28
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Return, Refund & Replacement Policy",
+     "href": "https://surzion.com/refund-policy",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 6107,
+      "w": 378,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Terms and Conditions",
+     "href": "https://surzion.com/terms-and-conditions",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 6176,
+      "w": 581,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We'll reply within 12 hours",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 932,
+      "y": 6039,
+      "w": 209,
+      "h": 21
+     }
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "Name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Last name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Your email*",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Message*",
+       "required": false
+      }
+     ],
+     "submit": "Submit your inquiry",
+     "rect": {
+      "x": 932,
+      "y": 6076,
+      "w": 400,
+      "h": 530
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "596fd285d6fad714"
+  }
+ ],
+ "version": 1,
+ "kind": "page_snapshot",
+ "source_url": "https://surzion.com/refund-policy",
+ "captured_at": "2026-10-08T13:57:04Z",
+ "page_fingerprint": "6a149cd4e61095f6"
+}

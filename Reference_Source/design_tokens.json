@@ -1,0 +1,124 @@
+{
+ "version": 1,
+ "kind": "design_tokens",
+ "pages": 29,
+ "fonts": {
+  "body": "Poppins",
+  "heading": "Poppins",
+  "base_size": 16,
+  "h_sizes": {
+   "h1": 48,
+   "h2": 24,
+   "h3": 18
+  },
+  "heading_weight": 400
+ },
+ "colors": {
+  "primary": "#579de3",
+  "accent": "#579de3",
+  "heading": "#102027",
+  "text": "#1d1e20",
+  "link": "#0d141a",
+  "background": "#ffffff",
+  "surface": "#e3f2fd",
+  "surface_alt": "#f2f2f2",
+  "on_primary": "#f1f1f1",
+  "votes": {
+   "button_bg": {
+    "rgba(25, 117, 209, 0.67)": 396,
+    "#ffffff": 132,
+    "rgba(25, 117, 209, 0.6)": 87,
+    "#fafafa": 66,
+    "#579de3": 60,
+    "rgba(25, 117, 209, 0.75)": 54
+   },
+   "section_bg": {
+    "#ffffff": 482,
+    "#4c91d7": 29
+   },
+   "text": {
+    "#ffffff": 279,
+    "#1d1e20": 237,
+    "#102027": 191,
+    "#7cbd64": 56,
+    "#0d141a": 40,
+    "#1976d2": 19,
+    "rgba(25, 117, 209, 0.97)": 17,
+    "#56585e": 10
+   },
+   "heading": {
+    "#102027": 179,
+    "#ffffff": 63,
+    "#0d141a": 41,
+    "#7cbd64": 33,
+    "#56585e": 7,
+    "#1976d2": 4
+   },
+   "link": {
+    "#0d141a": 113,
+    "#ffffff": 5,
+    "#7cbd64": 3
+   },
+   "card_bg": {
+    "rgba(25, 117, 209, 0.6)": 29,
+    "rgba(25, 117, 209, 0.78)": 3,
+    "rgba(25, 117, 209, 0.82)": 1,
+    "rgba(25, 117, 209, 0.8)": 1,
+    "#7cbd64": 1,
+    "#e3f2fd": 1
+   }
+  }
+ },
+ "layout": {
+  "max_width": 1220
+ },
+ "buttons": {
+  "radius": 999.0,
+  "pill": true
+ },
+ "theme": {
+  "preset": "modern-light",
+  "palette": {
+   "primary": "#579de3",
+   "primaryHover": "#579de3",
+   "onPrimary": "#f1f1f1",
+   "accent": "#579de3",
+   "accentHover": "#579de3",
+   "onAccent": "#ffffff",
+   "heading": "#102027",
+   "text": "#1d1e20",
+   "muted": "#1d1e20",
+   "link": "#0d141a",
+   "linkHover": "#0d141a",
+   "inverted": "#ffffff",
+   "background": "#ffffff",
+   "surface": "#e3f2fd",
+   "surfaceAlt": "#f2f2f2"
+  },
+  "typography": {
+   "fontFamily": "poppins",
+   "headingFamily": "poppins",
+   "customFontFamily": "Poppins",
+   "customHeadingFamily": "Poppins",
+   "baseSize": 16,
+   "scaleRatio": 1.225,
+   "lineHeight": 1.6,
+   "headingWeight": 400,
+   "headingLineHeight": 1.2,
+   "eyebrowTransform": "none"
+  },
+  "layout": {
+   "contentWidth": "wide",
+   "maxWidth": 1220,
+   "paddingX": 24,
+   "paddingY": 0,
+   "background": {
+    "kind": "color",
+    "color": "#ffffff"
+   },
+   "align": "left",
+   "blockGap": 16,
+   "borderRadius": 24
+  }
+ }
+}

@@ -1,0 +1,636 @@
+{
+  "page": {
+    "obj_name": "surz_partner_register",
+    "title": "Become a partner",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_surzion",
+          "name": "Surzion",
+          "background": "#F5F8FE",
+          "surface": "#FFFFFF",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "primary": "#2F6BE6",
+          "onPrimary": "#FFFFFF",
+          "accent": "#D9A03B",
+          "border": "#E4EAF6"
+        },
+        {
+          "id": "cs_ink",
+          "name": "Surzion ink",
+          "background": "#071A45",
+          "surface": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#A8C0E4",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "accent": "#D9A03B",
+          "border": "rgba(255,255,255,0.14)"
+        },
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ],
+      "defaultColorSchemeId": "cs_surzion"
+    },
+    "chrome": {
+      "smoothScroll": true
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 48,
+            "bottom": 56
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Become a partner",
+                "href": "/partner"
+              }
+            ]
+          },
+          {
+            "id": "hero_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "center",
+            "columns": [
+              {
+                "id": "hero_l",
+                "blocks": [
+                  {
+                    "id": "h",
+                    "type": "heading",
+                    "level": 1,
+                    "eyebrow": "Creator partner programme",
+                    "text": "Share Surzion. Your followers save."
+                  },
+                  {
+                    "id": "p",
+                    "type": "paragraph",
+                    "text": "Medical creators and influencers on Instagram, YouTube, Facebook and LinkedIn get their own discount code and QR code. Your followers claim it at checkout, and you track every order it brings in."
+                  },
+                  {
+                    "id": "head_cta",
+                    "type": "button_group",
+                    "align": "left",
+                    "buttons": [
+                      {
+                        "id": "head_apply",
+                        "label": "Apply now",
+                        "variant": "primary",
+                        "size": "lg",
+                        "icon": "arrow-right",
+                        "on_click": {
+                          "kind": "scroll_to",
+                          "target": "apply"
+                        }
+                      },
+                      {
+                        "id": "head_portal",
+                        "label": "My partner account",
+                        "variant": "outline",
+                        "size": "lg",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "/partner-portal",
+                          "newTab": false
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "hero_r",
+                "blocks": [
+                  {
+                    "id": "hero_img",
+                    "type": "image",
+                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e6871592c00ac21d.jpg",
+                    "alt": "Surgeons in theatre",
+                    "align": "center",
+                    "rounded": true,
+                    "aspect": "4:3",
+                    "objectFit": "cover",
+                    "priority": true
+                  },
+                  {
+                    "id": "hero_chip",
+                    "type": "container",
+                    "padding": 14,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "shadow": "lg",
+                      "margin": {
+                        "top": -64,
+                        "left": 20
+                      },
+                      "zIndex": 5
+                    },
+                    "children": [
+                      {
+                        "id": "hero_chip_p",
+                        "type": "paragraph",
+                        "text": "Your followers save on every item",
+                        "style": {
+                          "textColor": "var(--pg-heading)",
+                          "typography": {
+                            "fontSize": 14,
+                            "fontWeight": 600
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_benefits",
+        "anchorId": "benefits",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          }
+        },
+        "blocks": [
+          {
+            "id": "fg_h",
+            "type": "heading",
+            "level": 2,
+            "text": "What you get"
+          },
+          {
+            "id": "fg",
+            "type": "columns",
+            "count": 3,
+            "gap": 24,
+            "align": "top",
+            "animation": {
+              "preset": "fade-up",
+              "on": "scroll",
+              "once": true,
+              "stagger": 90
+            },
+            "columns": [
+              {
+                "id": "fg_c1",
+                "blocks": [
+                  {
+                    "id": "fg_card1",
+                    "type": "container",
+                    "padding": 28,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "shadow": "md",
+                      "border": true,
+                      "hover": {
+                        "translateY": -4,
+                        "shadow": "lg"
+                      },
+                      "transition": 200
+                    },
+                    "children": [
+                      {
+                        "id": "fg_f1",
+                        "type": "feature_grid",
+                        "columns": 1,
+                        "iconStyle": "square",
+                        "items": [
+                          {
+                            "id": "fg_i1",
+                            "icon": "key",
+                            "title": "Your own discount code",
+                            "description": "A personal code issued when you are approved, plus a QR code for your posts, reels and stories."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "fg_c2",
+                "blocks": [
+                  {
+                    "id": "fg_card2",
+                    "type": "container",
+                    "padding": 28,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "shadow": "md",
+                      "border": true,
+                      "hover": {
+                        "translateY": -4,
+                        "shadow": "lg"
+                      },
+                      "transition": 200
+                    },
+                    "children": [
+                      {
+                        "id": "fg_f2",
+                        "type": "feature_grid",
+                        "columns": 1,
+                        "iconStyle": "square",
+                        "items": [
+                          {
+                            "id": "fg_i2",
+                            "icon": "users",
+                            "title": "Your followers save on every item",
+                            "description": "Buyers enter your code at checkout. The discount applies per item, before GST, and shows on every line of their invoice."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "fg_c3",
+                "blocks": [
+                  {
+                    "id": "fg_card3",
+                    "type": "container",
+                    "padding": 28,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "shadow": "md",
+                      "border": true,
+                      "hover": {
+                        "translateY": -4,
+                        "shadow": "lg"
+                      },
+                      "transition": 200
+                    },
+                    "children": [
+                      {
+                        "id": "fg_f3",
+                        "type": "feature_grid",
+                        "columns": 1,
+                        "iconStyle": "square",
+                        "items": [
+                          {
+                            "id": "fg_i3",
+                            "icon": "bar-chart",
+                            "title": "Order tracking",
+                            "description": "See every order claimed with your code in your partner account: date, status, payment and the discount your followers received."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_how",
+        "anchorId": "how",
+        "tag": "main",
+        "width": "full",
+        "dividerTop": {
+          "kind": "wave",
+          "height": 60,
+          "color": "var(--pg-background)"
+        },
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          }
+        },
+        "blocks": [
+          {
+            "id": "st_h",
+            "type": "heading",
+            "level": 2,
+            "text": "How it works"
+          },
+          {
+            "id": "st",
+            "type": "steps",
+            "layout": "horizontal",
+            "numbered": true,
+            "animation": {
+              "preset": "fade-up",
+              "on": "scroll",
+              "once": true,
+              "stagger": 90
+            },
+            "steps": [
+              {
+                "id": "st1",
+                "title": "Apply",
+                "description": "Sign in and tell us about your channels."
+              },
+              {
+                "id": "st2",
+                "title": "Profile review",
+                "description": "Our team reviews your channels and sets the discount your followers get."
+              },
+              {
+                "id": "st3",
+                "title": "Welcome email",
+                "description": "Your discount code and QR code arrive by email."
+              },
+              {
+                "id": "st4",
+                "title": "Share your code",
+                "description": "Post it. Every order claimed with it shows in your partner account."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_apply",
+        "anchorId": "apply",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 72,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "ah",
+            "type": "heading",
+            "level": 2,
+            "eyebrow": "Apply",
+            "text": "Partner application"
+          },
+          {
+            "id": "ap",
+            "type": "paragraph",
+            "text": "Tell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved."
+          },
+          {
+            "id": "signin_note",
+            "type": "callout",
+            "variant": "info",
+            "title": "How to apply",
+            "body": "Any signed-in customer can apply. 1) Sign in or create an account (Sign in / Create account at the top right). 2) Complete the form below. 3) Our team reviews it; when it is approved your account is granted the partner role, your discount code and QR code are issued, and 'Partner account' opens your partner orders.",
+            "icon": "lock",
+            "iconPosition": "left"
+          },
+          {
+            "id": "fill_note",
+            "type": "paragraph",
+            "text": "Fill in your contact, business and address details. Your discount code, percentage and QR code are set by our team when your application is approved."
+          },
+          {
+            "id": "me_strip",
+            "type": "container",
+            "padding": 14,
+            "rounded": true,
+            "background": {
+              "kind": "color",
+              "color": "var(--pg-surface-muted)"
+            },
+            "visibility": {
+              "condition": "{{me.signedIn}}"
+            },
+            "children": [
+              {
+                "id": "me_strip_p",
+                "type": "paragraph",
+                "text": "Applying as {{me.email}}"
+              },
+              {
+                "id": "me_strip_btn",
+                "type": "button",
+                "align": "left",
+                "button": {
+                  "id": "me_strip_btnb",
+                  "label": "Not you?",
+                  "variant": "outline",
+                  "size": "sm",
+                  "on_click": {
+                    "kind": "sign_out",
+                    "redirect": "/login"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "em_apply",
+            "type": "embed",
+            "embed": {
+              "obj_type": "T",
+              "obj_name": "surz_partner_apply",
+              "renderMode": "realtime",
+              "mode": "add",
+              "presentation": "inline",
+              "successMessage": "Thank you. Your application is received and is pending approval. Track it in My partner account."
+            },
+            "signInPrompt": {
+              "title": "Sign in to your partner account",
+              "body": "Applications are linked to your customer account. Sign in or create an account to apply to become a partner.",
+              "signInLabel": "Sign in",
+              "registerLabel": "Create account"
+            }
+          },
+          {
+            "id": "after_apply",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "after_portal",
+                "label": "Check my application status",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/partner-portal",
+                  "newTab": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Become a partner | Surzion",
+      "description": "Apply for a Surzion partner account: your own discount code with QR, per-item discount before GST, and order tracking."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    }
+  }
+}

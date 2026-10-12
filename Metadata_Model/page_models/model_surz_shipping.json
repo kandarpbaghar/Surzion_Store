@@ -1,0 +1,313 @@
+{
+  "page": {
+    "obj_name": "surz_shipping",
+    "title": "Shipping policy",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "inputs": [],
+    "actions": [],
+    "blocks": [],
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "seo": {
+      "title": "Shipping policy",
+      "description": ""
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 28,
+            "bottom": 36
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "separator": "/",
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Policies",
+                "href": "/shipping"
+              }
+            ]
+          },
+          {
+            "id": "h1",
+            "type": "heading",
+            "level": 1,
+            "text": "Policies"
+          },
+          {
+            "id": "sub",
+            "type": "paragraph",
+            "text": "Surzion is a brand operated by Kapson. Questions? Write to sales@surzion.com.",
+            "html": "Surzion is a brand operated by Kapson. Questions? Write to <a href=\"mailto:sales@surzion.com\">sales@surzion.com</a>.",
+            "style": {
+              "textColor": "var(--pg-muted)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_body",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 48,
+            "bottom": 88
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 40,
+            "align": "top",
+            "columns": [
+              {
+                "id": "c_nav",
+                "width": "260px",
+                "blocks": [
+                  {
+                    "id": "side",
+                    "type": "container",
+                    "padding": 10,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "children": [
+                      {
+                        "id": "n1",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n1b",
+                          "label": "Terms and Conditions",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/terms"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n2",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n2b",
+                          "label": "Return, Refund & Replacement Policy",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/returns"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n3",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n3b",
+                          "label": "Privacy Policy",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/privacy"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n4",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n4b",
+                          "label": "Shipping policy",
+                          "variant": "primary",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/shipping"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c_doc",
+                "blocks": [
+                  {
+                    "id": "card",
+                    "type": "container",
+                    "padding": 44,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "children": [
+                      {
+                        "id": "t",
+                        "type": "heading",
+                        "level": 2,
+                        "text": "Shipping policy"
+                      },
+                      {
+                        "id": "p",
+                        "type": "paragraph",
+                        "text": "Dispatch windows, couriers and delivery estimates. Delivery is free on orders over \u20b95,000; below that a flat \u20b9250 applies."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

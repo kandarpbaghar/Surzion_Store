@@ -1,0 +1,2795 @@
+{
+ "url": "https://surzion.com/privacy-policy",
+ "title": "Privacy policy | Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 5825,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "DM Sans",
+   "size": 16,
+   "color": "rgb(29, 30, 32)"
+  },
+  "h1": null,
+  "h2": null,
+  "h3": {
+   "family": "Poppins",
+   "size": 48,
+   "weight": 400,
+   "color": "rgb(25, 118, 210)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "57.6px",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Poppins",
+   "size": 14,
+   "weight": 500,
+   "color": "rgb(255, 255, 255)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "24.08px",
+   "letterSpacing": "0.14px"
+  }
+ },
+ "pageBg": "rgba(0, 0, 0, 0)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 60
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(29, 30, 32)",
+  "sticky": false,
+  "logo": {
+   "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+   "alt": "Surzion logo",
+   "h": 60,
+   "w": 237
+  },
+  "buttons": [
+   {
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px"
+    }
+   }
+  ],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 16,
+   "weight": 400,
+   "color": "rgb(13, 20, 26)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "27.52px",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\ncart\nDownload Catalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+    "alt": "Surzion logo",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://surzion.com/",
+    "rect": {
+     "x": 124,
+     "y": 0,
+     "w": 237,
+     "h": 60
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://surzion.com/",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 372,
+     "y": 16,
+     "w": 51,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://surzion.com/shop",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 444,
+     "y": 16,
+     "w": 43,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://surzion.com/about",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 508,
+     "y": 16,
+     "w": 50,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://surzion.com/online-catalogue",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 579,
+     "y": 16,
+     "w": 139,
+     "h": 28
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+    "cls": "",
+    "color": "rgb(25, 118, 210)",
+    "rect": {
+     "x": 999,
+     "y": 16,
+     "w": 29,
+     "h": 29
+    }
+   },
+   {
+    "t": "button",
+    "text": "cart",
+    "href": null,
+    "style": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(13, 20, 26)",
+     "radius": "0px",
+     "border": null,
+     "size": 16,
+     "weight": 400,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1039,
+     "y": 15,
+     "w": 63,
+     "h": 30
+    }
+   },
+   {
+    "t": "button",
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px",
+     "border": "1px solid rgb(124, 189, 100)",
+     "size": 11,
+     "weight": 700,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1113,
+     "y": 5,
+     "w": 203,
+     "h": 51
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 4,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 124,
+       "y": 0,
+       "w": 237,
+       "h": 60
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://surzion.com/"
+     },
+     {
+      "rect": {
+       "x": 372,
+       "y": 16,
+       "w": 616,
+       "h": 28
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1039,
+       "y": 15,
+       "w": 63,
+       "h": 30
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1113,
+       "y": 5,
+       "w": 203,
+       "h": 51
+      },
+      "bg": {
+       "color": "rgba(25, 117, 209, 0.6)"
+      },
+      "radius": "25px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [
+  {
+   "text": "",
+   "href": "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+   "rect": {
+    "x": 1356,
+    "y": 812,
+    "w": 64,
+    "h": 64
+   },
+   "edge": "right",
+   "vertical": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(29, 30, 32)",
+   "radius": "100px"
+  }
+ ],
+ "colors": [
+  {
+   "role": "text",
+   "color": "rgb(29, 30, 32)",
+   "n": 59
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 29
+  },
+  {
+   "role": "text",
+   "color": "rgb(124, 189, 100)",
+   "n": 14
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 7
+  },
+  {
+   "role": "link",
+   "color": "rgb(13, 20, 26)",
+   "n": 4
+  },
+  {
+   "role": "button_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(255, 255, 255)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(76, 145, 215)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(25, 118, 210)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(13, 20, 26)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 100
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(76, 145, 215)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 4,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 124,
+        "y": 40,
+        "w": 237,
+        "h": 60
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/"
+      },
+      {
+       "rect": {
+        "x": 372,
+        "y": 56,
+        "w": 616,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1039,
+        "y": 55,
+        "w": 63,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1113,
+        "y": 45,
+        "w": 203,
+        "h": 51
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.6)"
+       },
+       "radius": "25px",
+       "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+       "border": "1px solid rgb(124, 189, 100)",
+       "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "Exclusive discounts on surgical instruments today!",
+     "html": "<span style=\"font-weight: 700;\"><strong>Exclusive discounts on surgical instruments today!</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 8,
+      "w": 1224,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+     "alt": "Surzion logo",
+     "natural": {
+      "w": 768,
+      "h": 192
+     },
+     "href": "https://surzion.com/",
+     "rect": {
+      "x": 124,
+      "y": 40,
+      "w": 237,
+      "h": 60
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "link",
+     "text": "Home",
+     "href": "https://surzion.com/",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 372,
+      "y": 56,
+      "w": 51,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Shop",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 444,
+      "y": 56,
+      "w": 43,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "About",
+     "href": "https://surzion.com/about",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 508,
+      "y": 56,
+      "w": 50,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Online catalogue",
+     "href": "https://surzion.com/online-catalogue",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 579,
+      "y": 56,
+      "w": 139,
+      "h": 28
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+     "cls": "",
+     "color": "rgb(25, 118, 210)",
+     "rect": {
+      "x": 999,
+      "y": 56,
+      "w": 29,
+      "h": 29
+     }
+    },
+    {
+     "t": "button",
+     "text": "cart",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 16,
+      "weight": 400,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1039,
+      "y": 55,
+      "w": 63,
+      "h": 30
+     }
+    },
+    {
+     "t": "button",
+     "text": "Download Catalogue",
+     "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "25px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 11,
+      "weight": 700,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1113,
+      "y": 45,
+      "w": 203,
+      "h": 51
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "f2c93da64630a5b8"
+  },
+  {
+   "index": 1,
+   "key": "1:privacy-policy",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 100,
+    "w": 1440,
+    "h": 5725
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 11,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 278,
+        "y": 5439,
+        "w": 49,
+        "h": 32
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5088,
+        "w": 744,
+        "h": 31
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5373,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5504,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5650,
+        "w": 503,
+        "h": 18
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5566,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5437,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5300,
+        "w": 378,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5167,
+        "w": 378,
+        "h": 63
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 5236,
+        "w": 581,
+        "h": 62
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 5099,
+        "w": 209,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 5136,
+        "w": 400,
+        "h": 532
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Privacy Policy",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(25, 118, 210)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "57.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 314,
+      "y": 54,
+      "w": 812,
+      "h": 58
+     }
+    },
+    {
+     "t": "text",
+     "text": "Effective Date: 26-01-2026",
+     "html": "<span style=\"font-weight: 700;\"><strong>Effective Date: 26-01-2026</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 152,
+      "w": 812,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion is a brand operated by Kapson, a proprietorship business registered in India (“Kapson”, “Surzion”, “we”, “us”, or “our”).",
+     "html": "surzion is a brand operated by Kapson, a proprietorship business registered in India (“Kapson”, “Surzion”, “we”, “us”, or “our”).",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 191,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "This Privacy Policy explains how we collect, use, store and protect information when you visit or use https://surzion.com (“Website”), place an order, contact us, or otherwise interact with our services.",
+     "html": "This Privacy Policy explains how we collect, use, store and protect information when you visit or use <a href=\"https://surzion.com\">https://surzion.com</a> (“Website”), place an order, contact us, or otherwise interact with our services.",
+     "links": [
+      {
+       "text": "https://surzion.com",
+       "href": "https://surzion.com/"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 278,
+      "w": 812,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "By using our Website, you acknowledge that you have read and understood this Privacy Policy.",
+     "html": "By using our Website, you acknowledge that you have read and understood this Privacy Policy.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 393,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(1).Information We Collect",
+     "html": "(1).Information We Collect",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 452,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We may collect information that you voluntarily provide to us, including:",
+     "html": "We may collect information that you voluntarily provide to us, including:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 512,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Full name",
+     "html": "* Full name",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 571,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Billing and shipping address",
+     "html": "* Billing and shipping address",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 631,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Mobile/telephone number",
+     "html": "* Mobile/telephone number",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 690,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Email address",
+     "html": "* Email address",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 750,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Order and purchase details",
+     "html": "* Order and purchase details",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 809,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Payment-related information required to process your order",
+     "html": "* Payment-related information required to process your order",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 869,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Information provided when you contact our customer support",
+     "html": "* Information provided when you contact our customer support",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 928,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Any other information you voluntarily submit through forms or other communication channels",
+     "html": "* Any other information you voluntarily submit through forms or other communication channels",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 988,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We may also automatically collect certain technical information when you use our Website, such as:",
+     "html": "We may also automatically collect certain technical information when you use our Website, such as:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1047,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "* IP address",
+     "html": "* IP address",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1134,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Browser and device information",
+     "html": "* Browser and device information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1194,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Operating system",
+     "html": "* Operating system",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1253,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Pages visited and interactions with the Website",
+     "html": "* Pages visited and interactions with the Website",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1313,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Date and time of access",
+     "html": "* Date and time of access",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1372,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Cookies and similar technologies",
+     "html": "* Cookies and similar technologies",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1432,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(2).How We Use Your Information",
+     "html": "(2).How We Use Your Information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1491,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We may use collected information to:",
+     "html": "We may use collected information to:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1551,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Process and fulfil your orders",
+     "html": "* Process and fulfil your orders",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1610,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Arrange shipping and delivery",
+     "html": "* Arrange shipping and delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1670,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Process payments",
+     "html": "* Process payments",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1729,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Communicate with you regarding your orders",
+     "html": "* Communicate with you regarding your orders",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1789,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Respond to enquiries and customer-support requests",
+     "html": "* Respond to enquiries and customer-support requests",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1848,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Process returns, replacements and refunds",
+     "html": "* Process returns, replacements and refunds",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1908,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Improve our products, Website and customer experience",
+     "html": "* Improve our products, Website and customer experience",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 1967,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Prevent fraudulent or unauthorized transactions",
+     "html": "* Prevent fraudulent or unauthorized transactions",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2027,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Maintain business, accounting and tax records",
+     "html": "* Maintain business, accounting and tax records",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2087,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Comply with applicable legal and regulatory requirements",
+     "html": "* Comply with applicable legal and regulatory requirements",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2146,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Send service-related communications",
+     "html": "* Send service-related communications",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2206,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Send promotional communications where permitted and where you have provided the required consent",
+     "html": "* Send promotional communications where permitted and where you have provided the required consent",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2265,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(3).Payment Information",
+     "html": "(3).Payment Information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2352,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Payments may be processed through third-party payment service providers.",
+     "html": "Payments may be processed through third-party payment service providers.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2412,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion does not intend to store complete debit-card, credit-card or banking credentials on its own servers. Payment information may be processed directly by the relevant payment service provider according to its own privacy and security practices.",
+     "html": "surzion does not intend to store complete debit-card, credit-card or banking credentials on its own servers. Payment information may be processed directly by the relevant payment service provider according to its own privacy and security practices.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2471,
+      "w": 812,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "(4).Sharing of Information",
+     "html": "(4).Sharing of Information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2586,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We may share information with trusted third parties where reasonably necessary to operate our business, including:",
+     "html": "We may share information with trusted third parties where reasonably necessary to operate our business, including:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2645,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Payment processors",
+     "html": "* Payment processors",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2732,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Courier and logistics providers",
+     "html": "* Courier and logistics providers",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2792,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Website hosting and technology service providers",
+     "html": "* Website hosting and technology service providers",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2851,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Analytics and marketing service providers, where applicable",
+     "html": "* Analytics and marketing service providers, where applicable",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2911,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Professional advisers",
+     "html": "* Professional advisers",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 2970,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "* Government, regulatory or law-enforcement authorities where legally required",
+     "html": "* Government, regulatory or law-enforcement authorities where legally required",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3030,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We do not sell your personal information to third parties for their independent commercial use.",
+     "html": "We do not sell your personal information to third parties for their independent commercial use.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3089,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(5).Cookies",
+     "html": "(5).Cookies",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3149,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Our Website may use cookies and similar technologies to provide functionality, understand Website usage, improve performance and, where applicable, support marketing activities.",
+     "html": "Our Website may use cookies and similar technologies to provide functionality, understand Website usage, improve performance and, where applicable, support marketing activities.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3208,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "You may be able to control or disable cookies through your browser settings. Disabling certain cookies may affect some Website functionality.",
+     "html": "You may be able to control or disable cookies through your browser settings. Disabling certain cookies may affect some Website functionality.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3295,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(6).Data Security",
+     "html": "(6).Data Security",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3382,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We take reasonable technical and organizational measures to protect personal information against unauthorized access, misuse, alteration, disclosure or destruction.",
+     "html": "We take reasonable technical and organizational measures to protect personal information against unauthorized access, misuse, alteration, disclosure or destruction.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3442,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "However, no method of transmission or electronic storage can be guaranteed to be completely secure.",
+     "html": "However, no method of transmission or electronic storage can be guaranteed to be completely secure.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3529,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(7).Data Retention",
+     "html": "(7).Data Retention",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3616,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We retain personal information only for as long as reasonably necessary for the purposes for which it was collected, including order fulfilment, customer service, accounting, taxation, legal compliance, dispute resolution and legitimate business requirements.",
+     "html": "We retain personal information only for as long as reasonably necessary for the purposes for which it was collected, including order fulfilment, customer service, accounting, taxation, legal compliance, dispute resolution and legitimate business requirements.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3676,
+      "w": 812,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "(8).Third-Party Websites",
+     "html": "(8).Third-Party Websites",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3790,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Our Website may contain links to third-party websites or services.",
+     "html": "Our Website may contain links to third-party websites or services.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3850,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We are not responsible for the privacy practices, content or security of third-party websites. We recommend reviewing their respective privacy policies before providing personal information.",
+     "html": "We are not responsible for the privacy practices, content or security of third-party websites. We recommend reviewing their respective privacy policies before providing personal information.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3909,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(9).Children’s Information",
+     "html": "(9).Children’s Information",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 3996,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Our Website is not specifically directed toward children. We do not knowingly seek to collect personal information from children in violation of applicable law.",
+     "html": "Our Website is not specifically directed toward children. We do not knowingly seek to collect personal information from children in violation of applicable law.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4056,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(10).Your Rights and Requests",
+     "html": "(10).Your Rights and Requests",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4143,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Subject to applicable law, you may contact us regarding your personal information, including requests relating to access, correction, deletion or other applicable privacy rights.",
+     "html": "Subject to applicable law, you may contact us regarding your personal information, including requests relating to access, correction, deletion or other applicable privacy rights.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4202,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "You may also contact us regarding withdrawal of consent where processing is based on consent, subject to legal and contractual limitations.",
+     "html": "You may also contact us regarding withdrawal of consent where processing is based on consent, subject to legal and contractual limitations.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4289,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "(11).Changes to This Privacy Policy",
+     "html": "(11).Changes to This Privacy Policy",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4376,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We may update this Privacy Policy from time to time to reflect changes in our business, Website, technology or applicable laws.",
+     "html": "We may update this Privacy Policy from time to time to reflect changes in our business, Website, technology or applicable laws.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4436,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "The updated version will be published on this page with a revised effective date.",
+     "html": "The updated version will be published on this page with a revised effective date.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4523,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "(12).Contact Us",
+     "html": "(12).Contact Us",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4582,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "For privacy-related questions or requests, please contact:",
+     "html": "For privacy-related questions or requests, please contact:",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4642,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "KAPSONS(surzion)",
+     "html": "KAPSONS(surzion)",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4705,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Email: sales@surzion.com",
+     "html": "Email: sales@surzion.com",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4765,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Phone: +917814861010, +918195831010",
+     "html": "Phone: +917814861010, +918195831010                                  ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4824,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Address:",
+     "html": "<span style=\"color: rgb(124, 189, 100); font-weight: 700;\"><strong>Address:</strong></span>                                                        ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4860,
+      "w": 812,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "html": "<span style=\"color: rgb(0, 0, 0); text-transform: none; letter-spacing: normal; font-family: Roboto, sans-serif; font-weight: 700;\"><strong>3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021</strong></span><span style=\"font-weight: 700;\"><strong> </strong></span>                                                                        ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 314,
+      "y": 4918,
+      "w": 812,
+      "h": 55
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path>\n</svg>",
+     "cls": "",
+     "color": "rgba(25, 117, 209, 0.78)",
+     "rect": {
+      "x": 278,
+      "y": 5439,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "text",
+     "text": "We provide premium surgical solutions for precision care",
+     "html": "<span style=\"font-weight: 700;\"><strong>We provide premium surgical solutions for precision care</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "31.2px",
+      "letterSpacing": "0.24px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5088,
+      "w": 744,
+      "h": 31
+     }
+    },
+    {
+     "t": "text",
+     "text": "Contact us",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"_self\" rel=\"\" href=\"/contact\" data-page-id=\"ai-nyDG0\" style=\"text-decoration: none;\">Contact us</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Contact us",
+       "href": "https://surzion.com/contact"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5373,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-7814861010 )",
+     "html": "(+91-7814861010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5504,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "© 2025. All rights reserved.",
+     "html": "© 2025. All rights reserved.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5650,
+      "w": 503,
+      "h": 18
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-8195831010 )",
+     "html": "(+91-8195831010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5566,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Follow us >>>>>>",
+     "html": "<span style=\"font-weight: 700;\"><strong>Follow us    &gt;&gt;&gt;&gt;&gt;&gt;</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5437,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Privacy Policy",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"\" href=\"/privacy-policy\" data-page-id=\"zvwWi_\" style=\"text-decoration: none;\">Privacy Policy</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Privacy Policy",
+       "href": "https://surzion.com/privacy-policy"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 5300,
+      "w": 378,
+      "h": 28
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Return, Refund & Replacement Policy",
+     "href": "https://surzion.com/refund-policy",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 5167,
+      "w": 378,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Terms and Conditions",
+     "href": "https://surzion.com/terms-and-conditions",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 5236,
+      "w": 581,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We'll reply within 12 hours",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 932,
+      "y": 5099,
+      "w": 209,
+      "h": 21
+     }
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "Name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Last name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Your email*",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Message*",
+       "required": false
+      }
+     ],
+     "submit": "Submit your inquiry",
+     "rect": {
+      "x": 932,
+      "y": 5136,
+      "w": 400,
+      "h": 530
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "c29e78e62fcffd2f"
+  }
+ ],
+ "version": 1,
+ "kind": "page_snapshot",
+ "source_url": "https://surzion.com/privacy-policy",
+ "captured_at": "2026-10-08T13:56:39Z",
+ "page_fingerprint": "1a5f4e827573bc99"
+}

@@ -1,0 +1,43 @@
+{
+  "transaction": {
+    "obj_name": "surz_testimonial",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Testimonial",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_TESTIMONIAL",
+          "columns": [
+            {"column": {"name": "testimonial_id", "db_name": "TESTIMONIAL_ID", "col_type": "VARCHAR20", "heading": "Testimonial", "group_name": "Basic", "mandatory": 0, "key": true, "protect": 1, "hidden": 0, "default_value": "auto_generate()"}},
+            {"column": {"name": "author_name", "db_name": "AUTHOR_NAME", "col_type": "VARCHAR120", "heading": "Author", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "author_role", "db_name": "AUTHOR_ROLE", "col_type": "VARCHAR120", "heading": "Role", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "author_image_url", "db_name": "AUTHOR_IMAGE_URL", "col_type": "VARCHAR400", "heading": "Author Image", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "image"}}},
+            {"column": {"name": "quote", "db_name": "QUOTE", "col_type": "TEXT", "heading": "Quote", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}, "display": {"type": "truncate", "truncate": 80}}},
+            {"column": {"name": "rating", "db_name": "RATING", "col_type": "NUMBER", "heading": "Rating (1-5)", "group_name": "Presentation", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "default_value": "5", "display": {"type": "rating", "icon": "star", "max": 5},
+              "validations": [
+                {"type": "builtin", "name": "Rating 1 to 5", "error_code": "RATING_RANGE", "message": "Rating must be between 1 and 5.",
+                 "builtin": {"kind": "value_in_range", "min": {"source": "const", "value": "1"}, "max": {"source": "const", "value": "5"}}}
+              ]}},
+            {"column": {"name": "testimonial_date", "db_name": "TESTIMONIAL_DATE", "col_type": "DATE", "heading": "Date", "group_name": "Presentation", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "default_value": "today()"}},
+            {"column": {"name": "is_active", "db_name": "IS_ACTIVE", "col_type": "VARCHAR1", "heading": "Active", "group_name": "Presentation", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "default_value": "Y", "edit_mask": {"mask": "yes_no"}}},
+            {"column": {"name": "add_date", "db_name": "ADD_DATE", "col_type": "DATETIME", "heading": "Added on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_date"}},
+            {"column": {"name": "add_user", "db_name": "ADD_USER", "col_type": "VARCHAR10", "heading": "Added by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_user"}},
+            {"column": {"name": "chg_date", "db_name": "CHG_DATE", "col_type": "DATETIME", "heading": "Changed on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_date"}},
+            {"column": {"name": "chg_user", "db_name": "CHG_USER", "col_type": "VARCHAR10", "heading": "Changed by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_user"}}
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {"join_predicates": {"joins": [{"table_name": "SURZ_TESTIMONIAL", "main_table": true}]}}
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+ "scores": {
+  "text": 0.772,
+  "headings": 0.632,
+  "images": 0.824,
+  "sections": {
+   "page": 2,
+   "source": 2
+  },
+  "paint": 1.0,
+  "fonts": true
+ },
+ "passed": false,
+ "issues": [
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: the page carries 77% of the source page's words (needs 85%). Restore the source's own text verbatim — do not paraphrase.",
+   "blocking": true
+  },
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: 7 source heading(s) are missing, e.g. 'titanium instruments'; 'wide range'; 'healthcare support'; '→'; 'return, refund & replacement policy'; 'terms and conditions'; \"we'll reply within 12 hours\"",
+   "blocking": true
+  }
+ ],
+ "missing": {
+  "headings": [
+   "titanium instruments",
+   "wide range",
+   "healthcare support",
+   "→",
+   "return, refund & replacement policy",
+   "terms and conditions",
+   "we'll reply within 12 hours"
+  ],
+  "images": [
+   "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0397-cjgC2Y4y2nAKPTxp.jpg",
+   "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0280-8kZ6RYhiXN0Wh9ch.jpg",
+   "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0077-RbWO52pBUUOAj9ht.jpg"
+  ],
+  "paint": []
+ }
+}

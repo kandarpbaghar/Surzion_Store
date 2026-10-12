@@ -1,0 +1,207 @@
+{
+  "transaction": {
+    "obj_name": "surz_stock_move",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Stock movement",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_STOCK_MOVE",
+          "columns": [
+            {
+              "column": {
+                "name": "move_id",
+                "db_name": "MOVE_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Movement",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate()"
+              }
+            },
+            {
+              "column": {
+                "name": "move_date",
+                "db_name": "MOVE_DATE",
+                "col_type": "DATETIME",
+                "heading": "When",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "now()"
+              }
+            },
+            {
+              "column": {
+                "name": "product_code",
+                "db_name": "PRODUCT_CODE",
+                "col_type": "VARCHAR20",
+                "heading": "Instrument",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_PRODUCT(PRODUCT_NAME, PRODUCT_CODE)",
+                "must_exist_in": "SURZ_PRODUCT"
+              }
+            },
+            {
+              "column": {
+                "name": "direction",
+                "db_name": "DIRECTION",
+                "col_type": "VARCHAR4",
+                "heading": "In / out",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "edit_mask": {
+                  "mask": "dropdown",
+                  "values": [
+                    "IN",
+                    "OUT"
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "qty",
+                "db_name": "QTY",
+                "col_type": "NUMBER12_2",
+                "heading": "Qty",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "ref_no",
+                "db_name": "REF_NO",
+                "col_type": "VARCHAR30",
+                "heading": "Reference",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "line_no",
+                "db_name": "LINE_NO",
+                "col_type": "NUMBER",
+                "heading": "Line",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "remarks",
+                "db_name": "REMARKS",
+                "col_type": "VARCHAR200",
+                "heading": "Remarks",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_STOCK_MOVE",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "scores": {
+  "text": 0.838,
+  "headings": 0.909,
+  "images": 1.0,
+  "sections": {
+   "page": 4,
+   "source": 2
+  },
+  "paint": 1.0,
+  "fonts": true
+ },
+ "passed": false,
+ "issues": [
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: the page carries 84% of the source page's words (needs 85%). Restore the source's own text verbatim — do not paraphrase.",
+   "blocking": true
+  }
+ ],
+ "missing": {
+  "headings": [
+   "precision surgical instrument"
+  ],
+  "images": [],
+  "paint": []
+ }
+}

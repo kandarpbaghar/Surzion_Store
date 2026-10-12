@@ -1,0 +1,74 @@
+{
+  "transaction": {
+    "obj_name": "surz_customer_payment_method",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Payment method",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_CUSTOMER_PAYMENT_METHOD",
+          "row_security": {
+            "rules": [
+              {"column": "REGISTRY_ID", "source": "user_id"}
+            ],
+            "exempt_roles": ["admin", "func-admin"]
+          },
+          "columns": [
+            {"column": {"name": "method_id", "db_name": "METHOD_ID", "col_type": "VARCHAR20", "heading": "Method id", "group_name": "Basic", "mandatory": 0, "key": true, "protect": 1, "hidden": 0,
+              "default_value": "auto_generate_prefixed()",
+              "series": {"parts": [{"source": "const", "text": "PM-"}], "separator": "", "width": 5},
+              "validations": [
+                {"type": "builtin", "name": "Method id unique", "error_code": "PM_DUP", "message": "Method id {form.METHOD_ID} already exists.", "builtin": {"kind": "must_be_unique"}}
+              ]}},
+            {"column": {"name": "method_type", "db_name": "METHOD_TYPE", "col_type": "VARCHAR12", "heading": "Method", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "edit_mask": {"mask": "dropdown", "values": ["COD", "UPI", "CARD", "NETBANKING"]}}},
+            {"column": {"name": "label", "db_name": "LABEL", "col_type": "VARCHAR60", "heading": "Label", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "upi_id", "db_name": "UPI_ID", "col_type": "VARCHAR80", "heading": "UPI id", "group_name": "Details", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "card_brand", "db_name": "CARD_BRAND", "col_type": "VARCHAR20", "heading": "Card brand", "group_name": "Details", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "card_last4", "db_name": "CARD_LAST4", "col_type": "VARCHAR4", "heading": "Card last 4 digits", "group_name": "Details", "mandatory": 0, "key": false, "protect": 0, "hidden": 0,
+              "validations": [
+                {"type": "expression", "name": "Last 4 digits only", "error_code": "PM_LAST4", "message": "Enter exactly the last 4 digits of the card (digits only).", "expression": "is_empty({form.card_last4}) or match({form.card_last4}, \"^[0-9]{4}$\")"}
+              ]}},
+            {"column": {"name": "is_default", "db_name": "IS_DEFAULT", "col_type": "VARCHAR1", "heading": "Default method", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "default_value": "N",
+              "edit_mask": {"mask": "dropdown", "values": ["Y", "N"]}}},
+            {"column": {"name": "gateway_token", "db_name": "GATEWAY_TOKEN", "col_type": "VARCHAR200", "heading": "Gateway token", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "registry_id", "db_name": "REGISTRY_ID", "col_type": "VARCHAR120", "heading": "Shop account", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "customer_id", "db_name": "CUSTOMER_ID", "col_type": "VARCHAR20", "heading": "Customer", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1,
+              "lookup": "SURZ_CUSTOMER(CUSTOMER_NAME, CUSTOMER_ID)", "must_exist_in": "SURZ_CUSTOMER"}},
+            {"column": {"name": "add_date", "db_name": "ADD_DATE", "col_type": "DATETIME", "heading": "Added on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_date"}},
+            {"column": {"name": "add_user", "db_name": "ADD_USER", "col_type": "VARCHAR10", "heading": "Added by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_user"}},
+            {"column": {"name": "chg_date", "db_name": "CHG_DATE", "col_type": "DATETIME", "heading": "Changed on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_date"}},
+            {"column": {"name": "chg_user", "db_name": "CHG_USER", "col_type": "VARCHAR10", "heading": "Changed by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_user"}}
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {"table_name": "SURZ_CUSTOMER_PAYMENT_METHOD", "main_table": true}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [
+      {
+        "mode": "business_logic",
+        "business_logic": {
+          "method": "surz_payment_method_default",
+          "language": "python",
+          "description": "Keep exactly one default payment method per customer and clean type-specific fields",
+          "spec": "pre_commit on SURZ_CUSTOMER_PAYMENT_METHOD. Skip on delete. The header row already exists on the save connection; re-read it by METHOD_ID (txn_id). STEP 1 resolve CUSTOMER_ID: when blank set it from SURZ_CUSTOMER where REGISTRY_ID = this row's REGISTRY_ID (lowest CUSTOMER_ID); leave NULL when none (not an error). STEP 2 clean type fields: if METHOD_TYPE <> 'UPI' set UPI_ID = NULL; if METHOD_TYPE <> 'CARD' set CARD_BRAND and CARD_LAST4 = NULL; for METHOD_TYPE 'COD' also NULL the other detail fields; as a safety net, if CARD_LAST4 is longer than 4 characters or not all digits, return {'error': 'Only the last 4 digits of a card may be stored'}. NEVER store or log a full card number, CVV or expiry. GATEWAY_TOKEN is never accepted from the client on add/edit: on 'add' force it NULL, on edit leave the stored value untouched (it is written server side only, by the payment integration). STEP 3 owner group: same CUSTOMER_ID when known, else same REGISTRY_ID (both blank: just this row). If this row is the only method in the group force IS_DEFAULT = 'Y'; else if IS_DEFAULT = 'Y' set every OTHER row of the group to 'N' (refresh CHG_DATE/CHG_USER); a blank/other value is normalised to 'N'; if the group would be left with no default, promote the earliest-added other row to 'Y'. UPDATE the saved row with the cleaned values. Return None on success; on unexpected failure log and return {'error': 'Could not save the payment method'}."
+        }
+      }
+    ],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

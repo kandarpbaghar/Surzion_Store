@@ -1,0 +1,2380 @@
+{
+ "url": "https://surzion.com/about",
+ "title": "Surzion - Leading Surgical Instruments Supplier | Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 4364,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "DM Sans",
+   "size": 16,
+   "color": "rgb(29, 30, 32)"
+  },
+  "h1": null,
+  "h2": null,
+  "h3": {
+   "family": "Poppins",
+   "size": 48,
+   "weight": 400,
+   "color": "rgb(124, 189, 100)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "57.6px",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Poppins",
+   "size": 14,
+   "weight": 500,
+   "color": "rgb(255, 255, 255)",
+   "align": "center",
+   "transform": null,
+   "lineHeight": "24.08px",
+   "letterSpacing": "0.14px"
+  }
+ },
+ "pageBg": "rgba(0, 0, 0, 0)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 60
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(29, 30, 32)",
+  "sticky": false,
+  "logo": {
+   "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+   "alt": "Surzion logo",
+   "h": 60,
+   "w": 237
+  },
+  "buttons": [
+   {
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px"
+    }
+   }
+  ],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 16,
+   "weight": 400,
+   "color": "rgb(13, 20, 26)",
+   "align": "left",
+   "transform": null,
+   "lineHeight": "27.52px",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\ncart\nDownload Catalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+    "alt": "Surzion logo",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://surzion.com/",
+    "rect": {
+     "x": 124,
+     "y": 0,
+     "w": 237,
+     "h": 60
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://surzion.com/",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 372,
+     "y": 16,
+     "w": 51,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://surzion.com/shop",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 444,
+     "y": 16,
+     "w": 43,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://surzion.com/about",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(124, 189, 100)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 508,
+     "y": 16,
+     "w": 50,
+     "h": 28
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://surzion.com/online-catalogue",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(13, 20, 26)",
+     "align": "left",
+     "transform": null,
+     "lineHeight": "27.52px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 579,
+     "y": 16,
+     "w": 139,
+     "h": 28
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+    "cls": "",
+    "color": "rgb(25, 118, 210)",
+    "rect": {
+     "x": 999,
+     "y": 16,
+     "w": 29,
+     "h": 29
+    }
+   },
+   {
+    "t": "button",
+    "text": "cart",
+    "href": null,
+    "style": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(13, 20, 26)",
+     "radius": "0px",
+     "border": null,
+     "size": 16,
+     "weight": 400,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1039,
+     "y": 15,
+     "w": 63,
+     "h": 30
+    }
+   },
+   {
+    "t": "button",
+    "text": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "bg": "rgba(25, 117, 209, 0.6)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "25px",
+     "border": "1px solid rgb(124, 189, 100)",
+     "size": 11,
+     "weight": 700,
+     "family": "Libre Baskerville"
+    },
+    "rect": {
+     "x": 1113,
+     "y": 5,
+     "w": 203,
+     "h": 51
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 4,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 124,
+       "y": 0,
+       "w": 237,
+       "h": 60
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://surzion.com/"
+     },
+     {
+      "rect": {
+       "x": 372,
+       "y": 16,
+       "w": 616,
+       "h": 28
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1039,
+       "y": 15,
+       "w": 63,
+       "h": 30
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1113,
+       "y": 5,
+       "w": 203,
+       "h": 51
+      },
+      "bg": {
+       "color": "rgba(25, 117, 209, 0.6)"
+      },
+      "radius": "25px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [
+  {
+   "text": "",
+   "href": "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+   "rect": {
+    "x": 1356,
+    "y": 812,
+    "w": 64,
+    "h": 64
+   },
+   "edge": "right",
+   "vertical": false,
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(29, 30, 32)",
+   "radius": "100px"
+  }
+ ],
+ "colors": [
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 21
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 9
+  },
+  {
+   "role": "text",
+   "color": "rgb(86, 88, 94)",
+   "n": 7
+  },
+  {
+   "role": "text",
+   "color": "rgb(29, 30, 32)",
+   "n": 5
+  },
+  {
+   "role": "heading",
+   "color": "rgb(255, 255, 255)",
+   "n": 5
+  },
+  {
+   "role": "heading",
+   "color": "rgb(86, 88, 94)",
+   "n": 4
+  },
+  {
+   "role": "link",
+   "color": "rgb(13, 20, 26)",
+   "n": 3
+  },
+  {
+   "role": "button_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(124, 189, 100)",
+   "n": 3
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(76, 145, 215)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgba(25, 117, 209, 0.6)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(13, 20, 26)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(124, 189, 100)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 100
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(76, 145, 215)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 4,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 124,
+        "y": 40,
+        "w": 237,
+        "h": 60
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://surzion.com/"
+      },
+      {
+       "rect": {
+        "x": 372,
+        "y": 56,
+        "w": 616,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1039,
+        "y": 55,
+        "w": 63,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1113,
+        "y": 45,
+        "w": 203,
+        "h": 51
+       },
+       "bg": {
+        "color": "rgba(25, 117, 209, 0.6)"
+       },
+       "radius": "25px",
+       "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+       "border": "1px solid rgb(124, 189, 100)",
+       "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "text",
+     "text": "Exclusive discounts on surgical instruments today!",
+     "html": "<span style=\"font-weight: 700;\"><strong>Exclusive discounts on surgical instruments today!</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "24.08px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 8,
+      "w": 1224,
+      "h": 24
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+     "alt": "Surzion logo",
+     "natural": {
+      "w": 768,
+      "h": 192
+     },
+     "href": "https://surzion.com/",
+     "rect": {
+      "x": 124,
+      "y": 40,
+      "w": 237,
+      "h": 60
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "link",
+     "text": "Home",
+     "href": "https://surzion.com/",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 372,
+      "y": 56,
+      "w": 51,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Shop",
+     "href": "https://surzion.com/shop",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 444,
+      "y": 56,
+      "w": 43,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "About",
+     "href": "https://surzion.com/about",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 508,
+      "y": 56,
+      "w": 50,
+      "h": 28
+     }
+    },
+    {
+     "t": "link",
+     "text": "Online catalogue",
+     "href": "https://surzion.com/online-catalogue",
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 579,
+      "y": 56,
+      "w": 139,
+      "h": 28
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path></svg>",
+     "cls": "",
+     "color": "rgb(25, 118, 210)",
+     "rect": {
+      "x": 999,
+      "y": 56,
+      "w": 29,
+      "h": 29
+     }
+    },
+    {
+     "t": "button",
+     "text": "cart",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(13, 20, 26)",
+      "radius": "0px",
+      "border": null,
+      "size": 16,
+      "weight": 400,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1039,
+      "y": 55,
+      "w": 63,
+      "h": 30
+     }
+    },
+    {
+     "t": "button",
+     "text": "Download Catalogue",
+     "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+     "style": {
+      "bg": "rgba(25, 117, 209, 0.6)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "25px",
+      "border": "1px solid rgb(124, 189, 100)",
+      "size": 11,
+      "weight": 700,
+      "family": "Libre Baskerville"
+     },
+     "rect": {
+      "x": 1113,
+      "y": 45,
+      "w": 203,
+      "h": 51
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "f2c93da64630a5b8"
+  },
+  {
+   "index": 1,
+   "key": "1:about-surzion",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 0,
+    "y": 100,
+    "w": 1440,
+    "h": 4264
+   },
+   "fullBleed": true,
+   "contentBox": {
+    "x": 108,
+    "w": 1224
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(29, 30, 32)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": true,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 6,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 218,
+        "y": 38,
+        "w": 352,
+        "h": 115
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 142,
+        "y": 184,
+        "w": 503,
+        "h": 490
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 723,
+        "y": 136,
+        "w": 548,
+        "h": 544
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 837,
+        "y": 752,
+        "w": 110,
+        "h": 58
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1019,
+        "y": 752,
+        "w": 59,
+        "h": 58
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 1021,
+        "y": 808,
+        "w": 115,
+        "h": 55
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 845,
+        "y": 822,
+        "w": 140,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 798,
+        "y": 704,
+        "w": 377,
+        "h": 206
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 4,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 882,
+        "y": 953,
+        "w": 450,
+        "h": 444
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 201,
+        "y": 1097,
+        "w": 214,
+        "h": 83
+       },
+       "bg": {
+        "color": "rgb(124, 189, 100)"
+       },
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 1189,
+        "w": 454,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 953,
+        "w": 418,
+        "h": 193
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 1389,
+        "w": 1224,
+        "h": 604
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 10,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 528,
+        "y": 2044,
+        "w": 384,
+        "h": 104
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 423,
+        "y": 2162,
+        "w": 594,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 183,
+        "y": 2220,
+        "w": 497,
+        "h": 520
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 204,
+        "y": 2770,
+        "w": 400,
+        "h": 29
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 202,
+        "y": 2809,
+        "w": 400,
+        "h": 55
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 738,
+        "y": 2220,
+        "w": 503,
+        "h": 520
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 761,
+        "y": 2770,
+        "w": 400,
+        "h": 29
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 761,
+        "y": 2809,
+        "w": 400,
+        "h": 55
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 183,
+        "y": 2905,
+        "w": 497,
+        "h": 541
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 739,
+        "y": 3191,
+        "w": 503,
+        "h": 255
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 191,
+        "y": 3471,
+        "w": 400,
+        "h": 29
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 191,
+        "y": 3511,
+        "w": 400,
+        "h": 55
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 759,
+        "y": 3471,
+        "w": 400,
+        "h": 29
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 759,
+        "y": 3511,
+        "w": 400,
+        "h": 55
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 612,
+        "y": 3266,
+        "w": 51,
+        "h": 42
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 738,
+        "y": 2905,
+        "w": 503,
+        "h": 255
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 11,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 278,
+        "y": 3978,
+        "w": 49,
+        "h": 32
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3627,
+        "w": 744,
+        "h": 31
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3912,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4043,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4189,
+        "w": 503,
+        "h": 18
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 4105,
+        "w": 194,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3976,
+        "w": 194,
+        "h": 23
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3839,
+        "w": 378,
+        "h": 28
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3706,
+        "w": 378,
+        "h": 63
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 108,
+        "y": 3775,
+        "w": 581,
+        "h": 62
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 3638,
+        "w": 209,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 932,
+        "y": 3675,
+        "w": 400,
+        "h": 532
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "About surzion",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "57.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 218,
+      "y": 38,
+      "w": 352,
+      "h": 115
+     }
+    },
+    {
+     "t": "text",
+     "text": "Experience builds vision, and vision creates innovation.",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">Experience builds vision, and vision creates innovation.</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 184,
+      "w": 503,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "With over 7 years of experience in medical sales and marketing, our journey led us to establish KAPSONS — a company born from passion and precision.",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">With over 7 years of experience in medical sales and marketing, our journey led us to establish KAPSONS — a company born from passion and precision.</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 244,
+      "w": 503,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "From this journey came SURZION, a brand designed to represent The Surgical Excellence.",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">From this journey came SURZION, a brand designed to represent The Surgical Excellence.</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 358,
+      "w": 503,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "Our instruments, made with 410, 420, and 316-grade stainless steel, as well as tungsten carbide and titanium materials, meet international standards of quality.",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">Our instruments, made with 410, 420, and 316-grade stainless steel, as well as tungsten carbide and titanium materials, meet international standards of quality.</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 445,
+      "w": 503,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "Certified with ISO and CE, we are driven by one mission —",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">Certified with ISO and CE, we are driven by one mission —</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 560,
+      "w": 503,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "to empower surgeons with reliable and innovative instruments that define perfection.",
+     "html": "<span style=\"color: rgb(18, 81, 87); font-weight: 400;\">to empower surgeons with reliable and innovative instruments that define perfection.</span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(29, 30, 32)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 142,
+      "y": 619,
+      "w": 503,
+      "h": 55
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://images.unsplash.com/photo-1643660527090-bea721ad71f8?auto=format&fit=crop&w=1096&h=1088",
+     "alt": "A set of dental instruments is arranged on a fabric with a hexagonal pattern. The tools include a dental mirror, a scaler, forceps, and a pair of tweezers, which are all made of shiny metal.",
+     "natural": {
+      "w": 548,
+      "h": 544
+     },
+     "href": null,
+     "rect": {
+      "x": 723,
+      "y": 136,
+      "w": 548,
+      "h": 544
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "150+",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "57.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 837,
+      "y": 752,
+      "w": 110,
+      "h": 58
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "15",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "57.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 1019,
+      "y": 752,
+      "w": 59,
+      "h": 58
+     }
+    },
+    {
+     "t": "text",
+     "text": "Trusted by professionals",
+     "html": "Trusted by professionals",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 1021,
+      "y": 808,
+      "w": 115,
+      "h": 55
+     }
+    },
+    {
+     "t": "text",
+     "text": "Quality assured",
+     "html": "Quality assured",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 845,
+      "y": 822,
+      "w": 140,
+      "h": 28
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/balfour-retractor-baby-TUGh3Rg84GfCzcfi.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 758
+     },
+     "href": null,
+     "rect": {
+      "x": 882,
+      "y": 953,
+      "w": 450,
+      "h": 444
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Gallery",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 48,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "82.08px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 201,
+      "y": 1097,
+      "w": 214,
+      "h": 83
+     }
+    },
+    {
+     "t": "text",
+     "text": "Explore our range of high-quality surgical instruments.",
+     "html": "Explore our range of high-quality surgical instruments.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 1189,
+      "w": 454,
+      "h": 28
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/kapsons-bussiness-card-aYoJH8AjSFDRhwpJ.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 355
+     },
+     "href": null,
+     "rect": {
+      "x": 108,
+      "y": 953,
+      "w": 418,
+      "h": 193
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/artery-forceps-tc-1-fEKvqutlekNTmMN4.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 108,
+      "y": 1389,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/beckman-eaton-12-7-x-7-2-SGJ3kEM1Uja3kijO.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 418,
+      "y": 1389,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/alexender-biopsy-forceps-11-LvkZdEj4K2wJ0YAA.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 728,
+      "y": 1389,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/adson-periosteal-elevator-3-e0OZMALjlEpWnLzc.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 1038,
+      "y": 1389,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/heath-suture-cutting-scissor-1-Ny2IFFnywYYN7gBV.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 108,
+      "y": 1699,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/volkmann-bone-curette-fibre-handle-3---copy-rGwZf9o0lpqLMP2t.png",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 418,
+      "y": 1699,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/castroviejo-needle-holder-round-t.c-4-k79h4kCOhCGAYeui.png",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 728,
+      "y": 1699,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/adson-dissecting-forceps-toothed-tc-5-EWKGENni3BgIRKDs.jpg",
+     "alt": "",
+     "natural": {
+      "w": 375,
+      "h": 375
+     },
+     "href": null,
+     "rect": {
+      "x": 1038,
+      "y": 1699,
+      "w": 294,
+      "h": 294
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Surgical Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 40,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "52px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 528,
+      "y": 2044,
+      "w": 384,
+      "h": 104
+     }
+    },
+    {
+     "t": "text",
+     "text": "Quality wholesale supplier for healthcare professionals in India.",
+     "html": "Quality wholesale supplier for healthcare professionals in India.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 423,
+      "y": 2162,
+      "w": 594,
+      "h": 23
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260118-wa0000-4FW07wATxMpgJ1L8.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 804
+     },
+     "href": null,
+     "rect": {
+      "x": 183,
+      "y": 2220,
+      "w": 497,
+      "h": 520
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Quality Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 204,
+      "y": 2770,
+      "w": 400,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "Reliable surgical tools for medical institutions and professionals.",
+     "html": "Reliable surgical tools for medical institutions and professionals.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 202,
+      "y": 2809,
+      "w": 400,
+      "h": 55
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20250812-wa0004-Uo6cVsw7Tl8ML7tZ.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 794
+     },
+     "href": null,
+     "rect": {
+      "x": 738,
+      "y": 2220,
+      "w": 503,
+      "h": 520
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Titanium Instruments",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 761,
+      "y": 2770,
+      "w": 400,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "Supporting the medical community with our products.",
+     "html": "Supporting the medical community with our products.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 761,
+      "y": 2809,
+      "w": 400,
+      "h": 55
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0397-cjgC2Y4y2nAKPTxp.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 835
+     },
+     "href": null,
+     "rect": {
+      "x": 183,
+      "y": 2905,
+      "w": 497,
+      "h": 541
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0280-8kZ6RYhiXN0Wh9ch.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 390
+     },
+     "href": null,
+     "rect": {
+      "x": 739,
+      "y": 3191,
+      "w": 503,
+      "h": 255
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Wide Range",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 191,
+      "y": 3471,
+      "w": 400,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "Diverse selection of high-quality medical instruments available.",
+     "html": "Diverse selection of high-quality medical instruments available.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 191,
+      "y": 3511,
+      "w": 400,
+      "h": 55
+     }
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Healthcare Support",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 400,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 759,
+      "y": 3471,
+      "w": 400,
+      "h": 29
+     }
+    },
+    {
+     "t": "text",
+     "text": "Committed to excellence in medical instrument supply.",
+     "html": "Committed to excellence in medical instrument supply.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(86, 88, 94)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 759,
+      "y": 3511,
+      "w": 400,
+      "h": 55
+     }
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "→",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 32,
+      "weight": 400,
+      "color": "rgb(13, 20, 26)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "41.6px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 612,
+      "y": 3266,
+      "w": 51,
+      "h": 42
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://surzion.com/fit=crop/dJoPq545ePc4y7po/img-20260211-wa0077-RbWO52pBUUOAj9ht.jpg",
+     "alt": "",
+     "natural": {
+      "w": 768,
+      "h": 390
+     },
+     "href": null,
+     "rect": {
+      "x": 738,
+      "y": 2905,
+      "w": 503,
+      "h": 255
+     },
+     "radius": "0px"
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z\" fill=\"currentColor\"></path>\n</svg>",
+     "cls": "",
+     "color": "rgba(25, 117, 209, 0.78)",
+     "rect": {
+      "x": 278,
+      "y": 3978,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "t": "text",
+     "text": "We provide premium surgical solutions for precision care",
+     "html": "<span style=\"font-weight: 700;\"><strong>We provide premium surgical solutions for precision care</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 24,
+      "weight": 500,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "31.2px",
+      "letterSpacing": "0.24px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 3627,
+      "w": 744,
+      "h": 31
+     }
+    },
+    {
+     "t": "text",
+     "text": "Contact us",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"_self\" rel=\"\" href=\"/contact\" data-page-id=\"ai-nyDG0\" style=\"text-decoration: none;\">Contact us</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Contact us",
+       "href": "https://surzion.com/contact"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 3912,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-7814861010 )",
+     "html": "(+91-7814861010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 4043,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "© 2025. All rights reserved.",
+     "html": "© 2025. All rights reserved.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "18.2px",
+      "letterSpacing": "0.14px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 4189,
+      "w": 503,
+      "h": 18
+     }
+    },
+    {
+     "t": "text",
+     "text": "(+91-8195831010 )",
+     "html": "(+91-8195831010 )",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 4105,
+      "w": 194,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Follow us >>>>>>",
+     "html": "<span style=\"font-weight: 700;\"><strong>Follow us    &gt;&gt;&gt;&gt;&gt;&gt;</strong></span>",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": "0.18px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 3976,
+      "w": 194,
+      "h": 23
+     }
+    },
+    {
+     "t": "text",
+     "text": "Privacy Policy",
+     "html": "<span style=\"font-weight: 700;\"><strong><u><a target=\"\" href=\"/privacy-policy\" data-page-id=\"zvwWi_\" style=\"text-decoration: none;\">Privacy Policy</a></u></strong></span>",
+     "links": [
+      {
+       "text": "Privacy Policy",
+       "href": "https://surzion.com/privacy-policy"
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 500,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "27.52px",
+      "letterSpacing": "0.16px"
+     },
+     "rect": {
+      "x": 108,
+      "y": 3839,
+      "w": 378,
+      "h": 28
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Return, Refund & Replacement Policy",
+     "href": "https://surzion.com/refund-policy",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 3706,
+      "w": 378,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Terms and Conditions",
+     "href": "https://surzion.com/terms-and-conditions",
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 400,
+      "color": "rgb(255, 255, 255)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "23.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 108,
+      "y": 3775,
+      "w": 581,
+      "h": 23
+     }
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "We'll reply within 12 hours",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(124, 189, 100)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 932,
+      "y": 3638,
+      "w": 209,
+      "h": 21
+     }
+    },
+    {
+     "t": "form",
+     "fields": [
+      {
+       "name": "",
+       "type": "text",
+       "label": "Name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Last name",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Your email*",
+       "required": false
+      },
+      {
+       "name": "",
+       "type": "text",
+       "label": "Message*",
+       "required": false
+      }
+     ],
+     "submit": "Submit your inquiry",
+     "rect": {
+      "x": 932,
+      "y": 3675,
+      "w": 400,
+      "h": 530
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "6de4809ef3bd7aad"
+  }
+ ],
+ "version": 1,
+ "kind": "page_snapshot",
+ "source_url": "https://surzion.com/about",
+ "captured_at": "2026-10-08T13:56:17Z",
+ "page_fingerprint": "ebe13a27525556e0"
+}

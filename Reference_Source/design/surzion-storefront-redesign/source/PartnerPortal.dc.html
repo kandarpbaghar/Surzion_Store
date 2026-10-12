@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My partner account</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F8FE}
+a{color:#2F6BE6}a:hover{color:#14307A}
+.wrap{max-width:1296px;margin:0 auto;padding:0 40px;box-sizing:border-box}
+.nav{display:flex;gap:30px;align-items:center;flex-wrap:wrap}
+.navlink{color:#0B1A3D;text-decoration:none;font:500 15px Poppins,sans-serif;padding:10px 0}
+.layout{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+.side{flex:1 1 240px;max-width:280px}
+.main{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.top{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px}
+.sidelink{display:flex;gap:12px;align-items:center;min-height:44px;padding:0 14px;border-radius:12px;color:#0B1A3D;text-decoration:none;font:500 15px Poppins,sans-serif}
+@media (max-width:900px){.top{grid-template-columns:1fr}.side{max-width:none}.nav{display:none}.wrap{padding:0 16px}}
+</style>
+</helmet>
+<div style="font-family: Poppins, sans-serif; color: #0B1A3D; background: #F5F8FE; font-size: 15px; line-height: 1.6; padding-bottom: 80px">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E4EAF6">
+    <div class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 80px; flex-wrap: wrap">
+      <a href="Main.dc.html" aria-label="Surzion home"><img src="/_blob/369b90ca04eace86353b2b6d187988e7" alt="Surzion" style="height: 44px; width: auto; display: block"></a>
+      <nav class="nav" aria-label="Main">
+        <a class="navlink" href="Main.dc.html">Home</a>
+        <a class="navlink" href="Main.dc.html">Shop</a>
+        <a class="navlink" href="#about">About</a>
+        <a class="navlink" href="#catalogue">Online catalogue</a>
+        <a class="navlink" href="Partner.dc.html">Partners</a>
+      </nav>
+      <span style="display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 14px 0 6px; border: 1px solid #E4EAF6; border-radius: 999px; font-weight: 500; font-size: 14px"><span style="width: 32px; height: 32px; border-radius: 50%; background: #E8EFFD; color: #14307A; display: grid; place-items: center; font-weight: 600; font-size: 13px">RK</span>My account</span>
+    </div>
+  </header>
+
+  <div class="wrap" style="padding-top: 36px">
+    <div style="margin-bottom: 28px">
+      <nav aria-label="Breadcrumb" style="font-size: 13px; color: #5B6B8C"><a href="Main.dc.html" style="color: #5B6B8C; text-decoration: none">Home</a> / <a href="Partner.dc.html" style="color: #5B6B8C; text-decoration: none">Partners</a> / <span style="color: #0B1A3D">My partner account</span></nav>
+      <h1 style="margin: 8px 0 0; font: 600 36px/1.2 Poppins, sans-serif; letter-spacing: -0.01em">My partner account</h1>
+    </div>
+
+    <div class="layout">
+      <aside class="side" style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 18px; padding: 12px; display: flex; flex-direction: column; gap: 2px; box-sizing: border-box">
+        <a class="sidelink" href="#account"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>My account</a>
+        <a class="sidelink" href="#orders"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>My orders</a>
+        <a class="sidelink" href="#wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>Wishlist</a>
+        <a class="sidelink" href="#addresses"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"></path><circle cx="12" cy="9" r="2.5"></circle></svg>Addresses &amp; payment</a>
+        <a class="sidelink" href="PartnerPortal.dc.html" aria-current="page" style="background: #E8EFFD; color: #14307A; font-weight: 600"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path></svg>Partner account</a>
+        <div style="height: 1px; background: #E4EAF6; margin: 8px 6px"></div>
+        <a class="sidelink" href="Register.dc.html" style="color: #5B6B8C"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"></path></svg>Sign out</a>
+      </aside>
+
+      <main class="main">
+        <div class="top">
+          <!-- Status -->
+          <section style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 22px">
+            <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+              <h2 style="margin: 0; font-size: 19px; font-weight: 600">Application status</h2>
+              <span style="font-size: 13px; font-weight: 600; color: #1F9D63; background: #E5F5EE; padding: 5px 12px; border-radius: 999px">Approved</span>
+            </div>
+            <ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0">
+              <li style="display: flex; gap: 14px"><div style="display: flex; flex-direction: column; align-items: center"><span style="width: 28px; height: 28px; border-radius: 50%; background: #1F9D63; color: #fff; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l4.5 4.5L19 7"></path></svg></span><span style="width: 2px; flex: 1; min-height: 22px; background: #1F9D63"></span></div><div style="padding-bottom: 14px"><div style="font-weight: 600">Application received</div><div style="font-size: 13px; color: #5B6B8C">[Applied date]</div></div></li>
+              <li style="display: flex; gap: 14px"><div style="display: flex; flex-direction: column; align-items: center"><span style="width: 28px; height: 28px; border-radius: 50%; background: #1F9D63; color: #fff; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l4.5 4.5L19 7"></path></svg></span><span style="width: 2px; flex: 1; min-height: 22px; background: #1F9D63"></span></div><div style="padding-bottom: 14px"><div style="font-weight: 600">Reviewed by our team</div><div style="font-size: 13px; color: #5B6B8C">Your followers&#39; discount set</div></div></li>
+              <li style="display: flex; gap: 14px"><div><span style="width: 28px; height: 28px; border-radius: 50%; background: #1F9D63; color: #fff; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l4.5 4.5L19 7"></path></svg></span></div><div><div style="font-weight: 600">Partner role granted</div><div style="font-size: 13px; color: #5B6B8C">Code and QR code emailed to you</div></div></li>
+            </ol>
+            <div style="background: #F5F8FE; border-radius: 12px; padding: 12px 14px; font-size: 13px; color: #5B6B8C">Pending applications can still be edited. Once approved or rejected, they are locked.</div>
+          </section>
+
+          <!-- Code -->
+          <section style="background: #0E2358; color: #FFFFFF; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 18px">
+            <div style="font-size: 13px; font-weight: 600; letter-spacing: .1em; color: #9DB8F5">YOUR PARTNER CODE</div>
+            <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap">
+              <svg width="120" height="120" viewBox="0 0 21 21" aria-label="QR code" style="flex: none; background: #FFFFFF; border-radius: 12px; padding: 8px; box-sizing: border-box"><g fill="#0B1A3D"><path d="M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2z"></path><path d="M8 0h1v2H8zM10 1h2v1h-2zM9 3h2v2H9zM12 4h1v3h-1zM8 6h1v2H8zM10 8h3v1h-3zM14 8h2v2h-2zM17 9h3v1h-3zM0 8h2v1H0zM3 9h3v2H3zM8 10h2v3H8zM11 11h2v1h-2zM15 11h1v3h-1zM18 11h3v2h-3zM9 14h3v1H9zM13 13h1v1h-1zM8 16h2v2H8zM11 16h3v1h-3zM16 15h2v2h-2zM19 15h2v1h-2zM12 18h2v3h-2zM15 18h1v3h-1zM17 18h4v1h-4zM18 20h3v1h-3zM9 19h2v2H9z"></path></g></svg>
+              <div style="display: flex; flex-direction: column; gap: 4px">
+                <div style="font-size: 30px; font-weight: 700; letter-spacing: .05em">[CODE]</div>
+                <div style="font-size: 15px; color: #C9D6F2">Followers save [N]% on every item</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap">
+              <button type="button" style="height: 44px; padding: 0 18px; border-radius: 999px; border: 0; background: #FFFFFF; color: #0E2358; font: 600 14px Poppins, sans-serif; cursor: pointer">Copy code</button>
+              <button type="button" style="height: 44px; padding: 0 18px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.4); background: transparent; color: #FFFFFF; font: 600 14px Poppins, sans-serif; cursor: pointer">Download QR</button>
+              <button type="button" style="height: 44px; padding: 0 18px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.4); background: transparent; color: #FFFFFF; font: 600 14px Poppins, sans-serif; cursor: pointer">Share link</button>
+            </div>
+          </section>
+        </div>
+
+        <!-- Orders -->
+        <section style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 18px; overflow: hidden">
+          <div style="padding: 22px 28px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid #E4EAF6">
+            <div>
+              <h2 style="margin: 0; font-size: 19px; font-weight: 600">Orders claimed with my code</h2>
+              <div style="font-size: 13px; color: #5B6B8C">Buyer names are masked. The discount is applied per item, before GST.</div>
+            </div>
+            <div style="display: flex; gap: 8px; align-items: center">
+              <span style="font-size: 12px; font-weight: 600; color: #B07E18; background: #FBF2DF; padding: 4px 10px; border-radius: 999px">Sample rows</span>
+              <label style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #5B6B8C">Status<select style="height: 40px; padding: 0 12px; border: 1px solid #DCE4F3; border-radius: 10px; font: 500 14px Poppins, sans-serif; background: #FFFFFF"><option>All</option><option>Paid</option><option>Pending</option><option>Delivered</option></select></label>
+            </div>
+          </div>
+          <div style="overflow-x: auto">
+            <table style="width: 100%; border-collapse: collapse; font-size: 14px; min-width: 720px">
+              <thead>
+                <tr style="background: #F5F8FE; text-align: left; color: #5B6B8C; font-size: 12px; letter-spacing: .06em">
+                  <th style="padding: 12px 28px; font-weight: 600">ORDER</th><th style="padding: 12px 16px; font-weight: 600">BUYER</th><th style="padding: 12px 16px; font-weight: 600">STATUS</th><th style="padding: 12px 16px; font-weight: 600">PAYMENT</th><th style="padding: 12px 16px; font-weight: 600; text-align: right">DISCOUNT</th><th style="padding: 12px 28px; font-weight: 600; text-align: right">TOTAL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <sc-for list="{{orders}}" as="o" hint-placeholder-count="4">
+                  <tr style="border-top: 1px solid #E4EAF6">
+                    <td style="padding: 16px 28px; font-weight: 600">{{o.no}}<div style="font-weight: 400; font-size: 12px; color: #8494B4">{{o.date}}</div></td>
+                    <td style="padding: 16px">{{o.customer}}</td>
+                    <td style="padding: 16px"><span style="{{o.statusStyle}}">{{o.status}}</span></td>
+                    <td style="padding: 16px; color: #5B6B8C">{{o.pay}}</td>
+                    <td style="padding: 16px; text-align: right; color: #1F9D63; font-weight: 500">{{o.disc}}</td>
+                    <td style="padding: 16px 28px; text-align: right; font-weight: 600">{{o.total}}</td>
+                  </tr>
+                </sc-for>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const chip = (bg, fg) => 'display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; background: ' + bg + '; color: ' + fg;
+    const S = { Delivered: chip('#E5F5EE', '#1F9D63'), Paid: chip('#E8EFFD', '#14307A'), Pending: chip('#FBF2DF', '#8A6212') };
+    const row = (no, date, customer, status, pay, disc, total) => ({ no, date, customer, status, statusStyle: S[status], pay, disc, total });
+    return {
+      orders: [
+        row('[Order no]', '[Date]', '[R•••• K.]', 'Delivered', 'Cash on delivery', '−₹[0]', '₹[0]'),
+        row('[Order no]', '[Date]', '[R•••• K.]', 'Paid', 'Online · Razorpay', '−₹[0]', '₹[0]'),
+        row('[Order no]', '[Date]', '[R•••• K.]', 'Pending', 'Cash on delivery', '−₹[0]', '₹[0]')
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

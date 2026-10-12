@@ -1,0 +1,806 @@
+{
+  "page": {
+    "obj_name": "surz_partner_portal",
+    "title": "My partner account",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [
+      {
+        "name": "order_filter",
+        "label": "Show",
+        "type": "select",
+        "isInput": true,
+        "default": "all",
+        "options": [
+          {
+            "label": "All orders",
+            "value": "all"
+          },
+          {
+            "label": "Paid",
+            "value": "PAID"
+          },
+          {
+            "label": "Awaiting payment",
+            "value": "PENDING"
+          },
+          {
+            "label": "Delivered",
+            "value": "DELIVERED"
+          }
+        ]
+      }
+    ],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 40,
+            "bottom": 8
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Partners",
+                "href": "/partner"
+              },
+              {
+                "id": "bc2",
+                "label": "My partner account",
+                "href": "/partner-portal"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "eyebrow": "Partner programme",
+            "text": "My partner account"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Your application status, discount code, QR code and the orders placed with your code. You see only your own application and your own orders."
+          },
+          {
+            "id": "p_new",
+            "type": "paragraph",
+            "text": "Not a partner yet? Sign in as a customer and apply on the partner programme page. When our team approves your application your account is granted the partner role and your referred orders appear below."
+          }
+        ]
+      },
+      {
+        "id": "sec_account",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 24,
+            "bottom": 40
+          }
+        },
+        "blocks": [
+          {
+            "id": "shell_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 32,
+            "align": "top",
+            "columns": [
+              {
+                "id": "shell_side",
+                "width": "260px",
+                "blocks": [
+                  {
+                    "id": "side_card",
+                    "type": "container",
+                    "padding": 12,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "border": true
+                    },
+                    "children": [
+                      {
+                        "id": "side_b1",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b1b",
+                          "label": "My account",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "user",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/my-account",
+                            "newTab": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b2",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b2b",
+                          "label": "My orders",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "package",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/my-orders",
+                            "newTab": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b3",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b3b",
+                          "label": "Wishlist",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "heart",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/wishlist",
+                            "newTab": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b4",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b4b",
+                          "label": "Addresses & payment",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "map-pin",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/my-account",
+                            "newTab": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b5",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b5b",
+                          "label": "Partner account",
+                          "variant": "secondary",
+                          "size": "md",
+                          "icon": "users",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/partner-portal",
+                            "newTab": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "side_b6",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "side_b6b",
+                          "label": "Sign out",
+                          "variant": "ghost",
+                          "size": "md",
+                          "icon": "log-out",
+                          "on_click": {
+                            "kind": "sign_out",
+                            "redirect": "/"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "shell_main",
+                "blocks": [
+                  {
+                    "id": "acc_cols",
+                    "type": "columns",
+                    "count": 2,
+                    "gap": 24,
+                    "align": "top",
+                    "columns": [
+                      {
+                        "id": "acc_l",
+                        "blocks": [
+                          {
+                            "id": "ah",
+                            "type": "heading",
+                            "level": 2,
+                            "text": "Application status"
+                          },
+                          {
+                            "id": "status_tl",
+                            "type": "timeline",
+                            "layout": "vertical",
+                            "markerStyle": "dot",
+                            "items": [
+                              {
+                                "id": "tl1",
+                                "title": "Application received",
+                                "description": "Pending applications can still be edited. Once approved or rejected, they are locked."
+                              },
+                              {
+                                "id": "tl2",
+                                "title": "Reviewed by our team",
+                                "description": "Your followers' discount is set."
+                              },
+                              {
+                                "id": "tl3",
+                                "title": "Partner role granted",
+                                "description": "Code and QR code emailed to you."
+                              }
+                            ]
+                          },
+                          {
+                            "id": "em_partner",
+                            "type": "embed",
+                            "embed": {
+                              "obj_type": "T",
+                              "obj_name": "surz_partner",
+                              "renderMode": "realtime",
+                              "mode": "list",
+                              "signInPrompt": {
+                                "title": "Sign in to your partner account",
+                                "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
+                                "signInLabel": "Sign in",
+                                "registerLabel": "Create an account"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "acc_r",
+                        "blocks": [
+                          {
+                            "id": "code_card",
+                            "type": "container",
+                            "padding": 28,
+                            "rounded": true,
+                            "visibility": {
+                              "roles": [
+                                "partner"
+                              ]
+                            },
+                            "background": {
+                              "kind": "color",
+                              "color": "var(--pg-primary)"
+                            },
+                            "children": [
+                              {
+                                "id": "cc_e",
+                                "type": "paragraph",
+                                "text": "YOUR PARTNER CODE",
+                                "style": {
+                                  "textColor": "var(--pg-on-primary)",
+                                  "typography": {
+                                    "fontSize": 12,
+                                    "fontWeight": 600,
+                                    "letterSpacing": 0.12
+                                  }
+                                }
+                              },
+                              {
+                                "id": "cc_qr",
+                                "type": "image",
+                                "url": "",
+                                "alt": "Your partner QR code",
+                                "align": "left",
+                                "maxWidth": 140,
+                                "bindings": {
+                                  "url": {
+                                    "source": "data_field",
+                                    "dataSource": "ds_partner",
+                                    "path": "QR_URL"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "cc_code",
+                                "type": "heading",
+                                "level": 2,
+                                "text": "",
+                                "style": {
+                                  "textColor": "var(--pg-on-primary)"
+                                },
+                                "bindings": {
+                                  "text": {
+                                    "source": "data_field",
+                                    "dataSource": "ds_partner",
+                                    "path": "DISCOUNT_CODE"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "cc_pl",
+                                "type": "paragraph",
+                                "text": "Followers save this percentage on every item",
+                                "style": {
+                                  "textColor": "var(--pg-on-primary)"
+                                }
+                              },
+                              {
+                                "id": "cc_pct",
+                                "type": "heading",
+                                "level": 3,
+                                "text": "",
+                                "style": {
+                                  "textColor": "var(--pg-on-primary)"
+                                },
+                                "bindings": {
+                                  "text": {
+                                    "source": "data_field",
+                                    "dataSource": "ds_partner",
+                                    "path": "DISCOUNT_PCT"
+                                  }
+                                }
+                              },
+                              {
+                                "id": "cc_btns",
+                                "type": "button_group",
+                                "align": "left",
+                                "gap": 10,
+                                "buttons": [
+                                  {
+                                    "id": "cc_copy",
+                                    "label": "Copy code",
+                                    "variant": "secondary",
+                                    "size": "md",
+                                    "icon": "check",
+                                    "on_click": {
+                                      "kind": "copy",
+                                      "text": "{{ds_partner.DISCOUNT_CODE}}",
+                                      "confirm": "Code copied"
+                                    }
+                                  },
+                                  {
+                                    "id": "cc_dl",
+                                    "label": "Download QR",
+                                    "variant": "outline",
+                                    "size": "md",
+                                    "icon": "download",
+                                    "on_click": {
+                                      "kind": "external_url",
+                                      "url": "{{ds_partner.QR_URL}}",
+                                      "newTab": true
+                                    }
+                                  },
+                                  {
+                                    "id": "cc_share",
+                                    "label": "Share link",
+                                    "variant": "outline",
+                                    "size": "md",
+                                    "on_click": {
+                                      "kind": "copy",
+                                      "text": "Shop Surzion surgical instruments and use my code {{ds_partner.DISCOUNT_CODE}} at checkout.",
+                                      "confirm": "Share message copied"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "oh",
+                    "anchorId": "orders",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "Orders claimed with my code",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "op",
+                    "type": "paragraph",
+                    "text": "Buyer names are masked. The discount is applied per item, before GST.",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ig_referral",
+                    "type": "custom_code",
+                    "html": "<div class=\"card\" id=\"card\">\n<div class=\"head\"><div><div class=\"eyebrow\">YOUR REFERRAL PERFORMANCE</div><div class=\"sub\">Last 6 months</div></div>\n<div class=\"kpi\"><div class=\"kl\">Total your followers saved</div><div class=\"kn\" id=\"total\">&#8377;0</div></div></div>\n<div id=\"body\"><div class=\"wrap\"><canvas id=\"c\"></canvas></div>\n<div class=\"legend\"><span><i style=\"background:var(--pg-primary)\"></i>Orders claimed</span><span><i style=\"background:var(--pg-accent)\"></i>Discount given</span></div></div>\n<div id=\"empty\" class=\"empty\" hidden><div class=\"et\">No claimed orders yet</div><div class=\"es\">When your followers order with your code, their orders and savings will show up here.</div></div>\n</div>",
+                    "css": "*{box-sizing:border-box}body{margin:0;font-family:'Poppins',var(--pg-font),sans-serif;color:var(--pg-heading)}\n.card{background:var(--pg-surface);border:1px solid var(--pg-border);border-radius:18px;padding:24px 28px;box-shadow:0 6px 24px rgba(14,35,88,.06);opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}\n.card.in{opacity:1;transform:none}\n.head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:12px}\n.eyebrow{font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--pg-accent)}.sub{font-size:13px;color:var(--pg-muted);margin-top:2px}\n.kpi{text-align:right}.kl{font-size:13px;color:var(--pg-muted);font-weight:500}.kn{font-size:40px;font-weight:700;color:var(--pg-primary);line-height:1.1;letter-spacing:-.02em}\n.wrap{position:relative;height:260px}.legend{display:flex;gap:18px;justify-content:center;font-size:13px;color:var(--pg-muted);margin-top:10px}\n.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}\n.empty{text-align:center;padding:28px 12px}.eic{font-size:36px}.et{font-weight:600;font-size:18px;color:var(--pg-primary);margin-top:6px}.es{color:var(--pg-muted);font-size:14px;margin-top:4px}\n[hidden]{display:none!important}",
+                    "js": "(async () => {\n  const money = n => '\\u20B9' + Number(n||0).toLocaleString('en-IN',{maximumFractionDigits:0});\n  const card = document.getElementById('card');\n  try {\n    await twasta.ready;\n    let rows = [];\n    try { rows = (await twasta.data.get('ds_claimed_orders')) || []; } catch (e) { console.error('orders load failed', e); }\n    if (!Array.isArray(rows)) rows = rows.rows || [];\n    const get = (r, k) => r[k] ?? r[k.toLowerCase()];\n    const now = new Date(), months = [];\n    for (let i = 5; i >= 0; i--) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1); months.push({ key: d.getFullYear()+'-'+d.getMonth(), label: d.toLocaleString('en-IN',{month:'short'})+' '+String(d.getFullYear()).slice(2), orders:0, saved:0 }); }\n    const idx = Object.fromEntries(months.map((m,i)=>[m.key,i]));\n    rows.forEach(r => {\n      const dt = new Date(get(r,'ORDER_DATE')); if (isNaN(dt)) return;\n      const i = idx[dt.getFullYear()+'-'+dt.getMonth()]; if (i === undefined) return;\n      months[i].orders += 1; months[i].saved += Number(get(r,'DISCOUNT_AMT')) || 0;\n    });\n    const total = months.reduce((s,m)=>s+m.saved,0), count = months.reduce((s,m)=>s+m.orders,0);\n    requestAnimationFrame(() => card.classList.add('in'));\n    if (!count) { document.getElementById('body').hidden = true; document.getElementById('empty').hidden = false; return; }\n    const el = document.getElementById('total'), t0 = performance.now(), dur = 1400;\n    const tick = t => { const p = Math.min(1,(t-t0)/dur), e = 1-Math.pow(1-p,3); el.textContent = money(total*e); if (p<1) requestAnimationFrame(tick); else el.textContent = money(total); };\n    requestAnimationFrame(tick);\n    const cv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();\n    const cPri = cv('--pg-primary'), cAcc = cv('--pg-accent'), cMut = cv('--pg-muted'), cSoft = cv('--pg-surface-muted');\n    new Chart(document.getElementById('c'), {\n      type: 'bar',\n      data: { labels: months.map(m=>m.label), datasets: [\n        { label: 'Orders claimed', data: months.map(m=>m.orders), backgroundColor: cPri, borderRadius: 6, yAxisID: 'y' },\n        { label: 'Discount given', data: months.map(m=>m.saved), backgroundColor: cAcc, borderRadius: 6, yAxisID: 'y1' } ] },\n      options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false },\n        font: { family: 'Poppins' },\n        plugins: { legend: { display: false }, tooltip: { backgroundColor: cPri, titleFont: { family: 'Poppins' }, bodyFont: { family: 'Poppins' }, padding: 10,\n          callbacks: { label: c => c.datasetIndex === 0 ? ' Orders: ' + c.parsed.y : ' Saved: ' + money(c.parsed.y) } } },\n        scales: { x: { grid: { display: false }, ticks: { color: cMut } },\n          y: { beginAtZero: true, ticks: { precision: 0, color: cMut }, grid: { color: cSoft }, title: { display: true, text: 'Orders', color: cMut } },\n          y1: { beginAtZero: true, position: 'right', grid: { display: false }, ticks: { color: cMut, callback: v => money(v) }, title: { display: true, text: 'Saved', color: cMut } } } }\n    });\n  } catch (err) {\n    console.error('referral infographic failed', err);\n    card.classList.add('in');\n    document.getElementById('body').hidden = true;\n    const e = document.getElementById('empty'); e.hidden = false; e.querySelector('.et').textContent = 'Could not load your performance'; e.querySelector('.es').textContent = 'Please refresh the page to try again.';\n  }\n})();",
+                    "libs": [
+                      "https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"
+                    ],
+                    "bridge": {
+                      "enabled": true,
+                      "data": [
+                        "ds_claimed_orders"
+                      ]
+                    },
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ig_orders",
+                    "type": "input_group",
+                    "layout": "inline",
+                    "inputs": [
+                      "order_filter"
+                    ],
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "em_orders",
+                    "type": "embed",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ],
+                      "condition": "{{order_filter}} == \"all\" || {{order_filter}} == \"\" || {{order_filter}} == null"
+                    },
+                    "embed": {
+                      "obj_type": "T",
+                      "obj_name": "surz_partner_order",
+                      "renderMode": "realtime",
+                      "mode": "list",
+                      "signInPrompt": {
+                        "title": "Sign in to your partner account",
+                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
+                        "signInLabel": "Sign in",
+                        "registerLabel": "Create an account"
+                      }
+                    }
+                  },
+                  {
+                    "id": "em_orders_paid",
+                    "type": "embed",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ],
+                      "condition": "{{order_filter}} == \"PAID\""
+                    },
+                    "embed": {
+                      "obj_type": "T",
+                      "obj_name": "surz_partner_order",
+                      "renderMode": "realtime",
+                      "mode": "list",
+                      "filters": [
+                        {
+                          "id": "f_paid",
+                          "column": "PAY_STATUS",
+                          "op": "eq",
+                          "value": {
+                            "source": "static",
+                            "value": "PAID"
+                          }
+                        }
+                      ],
+                      "signInPrompt": {
+                        "title": "Sign in to your partner account",
+                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
+                        "signInLabel": "Sign in",
+                        "registerLabel": "Create an account"
+                      }
+                    }
+                  },
+                  {
+                    "id": "em_orders_pending",
+                    "type": "embed",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ],
+                      "condition": "{{order_filter}} == \"PENDING\""
+                    },
+                    "embed": {
+                      "obj_type": "T",
+                      "obj_name": "surz_partner_order",
+                      "renderMode": "realtime",
+                      "mode": "list",
+                      "filters": [
+                        {
+                          "id": "f_pending",
+                          "column": "PAY_STATUS",
+                          "op": "eq",
+                          "value": {
+                            "source": "static",
+                            "value": "PENDING"
+                          }
+                        }
+                      ],
+                      "signInPrompt": {
+                        "title": "Sign in to your partner account",
+                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
+                        "signInLabel": "Sign in",
+                        "registerLabel": "Create an account"
+                      }
+                    }
+                  },
+                  {
+                    "id": "em_orders_delivered",
+                    "type": "embed",
+                    "visibility": {
+                      "roles": [
+                        "partner"
+                      ],
+                      "condition": "{{order_filter}} == \"DELIVERED\""
+                    },
+                    "embed": {
+                      "obj_type": "T",
+                      "obj_name": "surz_partner_order",
+                      "renderMode": "realtime",
+                      "mode": "list",
+                      "filters": [
+                        {
+                          "id": "f_delivered",
+                          "column": "ORDER_STATUS",
+                          "op": "eq",
+                          "value": {
+                            "source": "static",
+                            "value": "DELIVERED"
+                          }
+                        }
+                      ],
+                      "signInPrompt": {
+                        "title": "Sign in to your partner account",
+                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
+                        "signInLabel": "Sign in",
+                        "registerLabel": "Create an account"
+                      }
+                    }
+                  },
+                  {
+                    "id": "back_btn",
+                    "type": "button_group",
+                    "align": "left",
+                    "buttons": [
+                      {
+                        "id": "back_partner",
+                        "label": "About the partner programme",
+                        "variant": "outline",
+                        "size": "md",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "/partner",
+                          "newTab": false
+                        }
+                      },
+                      {
+                        "id": "back_shop",
+                        "label": "Shop instruments",
+                        "variant": "primary",
+                        "size": "md",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "/instruments",
+                          "newTab": false
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dataSources": [
+      {
+        "id": "ds_partner",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_partner"
+        },
+        "mode": "record",
+        "bindingTime": "runtime",
+        "columns": [
+          "STATUS",
+          "DISCOUNT_CODE",
+          "DISCOUNT_PCT",
+          "QR_URL",
+          "APPLIED_ON"
+        ]
+      },
+      {
+        "id": "ds_claimed_orders",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_partner_order"
+        },
+        "mode": "list",
+        "bindingTime": "runtime",
+        "columns": [
+          "ORDER_NO",
+          "ORDER_DATE",
+          "DISCOUNT_AMT"
+        ],
+        "sort": [
+          {
+            "column": "ORDER_DATE",
+            "dir": "desc"
+          }
+        ],
+        "limit": 1000
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "My partner account | Surzion",
+      "description": "Your Surzion partner status, discount code and referred orders."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

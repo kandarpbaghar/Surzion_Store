@@ -1,0 +1,557 @@
+{
+  "DATA_SOURCE_MODE": "sqlmodel",
+  "SQLMODEL": {
+    "SQLModel": {
+      "COLUMNS": [
+        {
+          "COLUMN": [
+            {
+              "COLID": 2,
+              "NAME": "SURZ_CATEGORY_CATEGORY_NAME",
+              "DBTABLE": "SURZ_CATEGORY",
+              "DBNAME": "CATEGORY_NAME",
+              "tableName": "SURZ_CATEGORY",
+              "tableDisplayName": "Category",
+              "content": "Category",
+              "name": "Category",
+              "descr": "Catalogue category",
+              "type": "string",
+              "JAVATYPE": "java.lang.String",
+              "COLTYPE": "CHAR",
+              "NATIVETYPE": "AN",
+              "DBSIZE": 80,
+              "EXPRESSIONTYPE": "C",
+              "DEFAULTFUNCTION": "",
+              "FUNCTION": "",
+              "FEILD_TYPE": "TEXTBOX",
+              "ALIGNMENT": 1,
+              "alignment": "",
+              "WIDTH": 160,
+              "FONT": "TIMES NEW ROMAN",
+              "FONTSIZE": 12,
+              "FGCOLOR": "#000000",
+              "BGCOLOR": "",
+              "BOLD": 0,
+              "ITALIC": 0,
+              "UNDERLINE": 0,
+              "HIDDEN": "",
+              "KEY": false,
+              "CAPS": false,
+              "ADV_FORMAT": "",
+              "expression": "",
+              "value": "",
+              "groupName": "Columns",
+              "StandardName": "columns",
+              "checked": true
+            },
+            {
+              "COLID": 3,
+              "NAME": "SURZ_ORDER_LINE_LINE_TOTAL",
+              "DBTABLE": "SURZ_ORDER_LINE",
+              "DBNAME": "LINE_TOTAL",
+              "tableName": "SURZ_ORDER_LINE",
+              "tableDisplayName": "Order Line",
+              "content": "Revenue",
+              "name": "Revenue",
+              "descr": "Line value of captured orders — paid online, or COD once delivered (INR)",
+              "type": "number",
+              "JAVATYPE": "java.math.BigDecimal",
+              "COLTYPE": "NUMBER",
+              "NATIVETYPE": "AN",
+              "DBSIZE": "(14,2)",
+              "EXPRESSIONTYPE": "G",
+              "DEFAULTFUNCTION": "SUM",
+              "FUNCTION": "SUM",
+              "FEILD_TYPE": "TEXTBOX",
+              "ALIGNMENT": 2,
+              "alignment": "",
+              "WIDTH": 140,
+              "FONT": "TIMES NEW ROMAN",
+              "FONTSIZE": 12,
+              "FGCOLOR": "#000000",
+              "BGCOLOR": "",
+              "BOLD": 0,
+              "ITALIC": 0,
+              "UNDERLINE": 0,
+              "HIDDEN": "",
+              "KEY": false,
+              "CAPS": false,
+              "ADV_FORMAT": "",
+              "expression": "",
+              "value": "",
+              "groupName": "Columns",
+              "StandardName": "columns",
+              "checked": true,
+              "display": {
+                "type": "number",
+                "numberStyle": "currency",
+                "currency": "INR",
+                "locale": "en-IN",
+                "decimals": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "CRITERIA": {
+      "query": {
+        "rules": [
+          {
+            "id": "Criteria_1",
+            "field": "SURZ_ORDER.ORDER_DATE",
+            "DBNAME": "ORDER_DATE",
+            "tableName": "SURZ_ORDER",
+            "COLTYPE": "date",
+            "currentFieldType": "date",
+            "operator": ">=",
+            "queryOption": "P",
+            "prevOption": "P",
+            "customValue": "FixedValue",
+            "promptLabel": "From Date",
+            "value": ":calendar_month_start",
+            "chipValue": [],
+            "promptVar": "from_date"
+          },
+          {
+            "id": "Criteria_2",
+            "field": "SURZ_ORDER.ORDER_DATE",
+            "DBNAME": "ORDER_DATE",
+            "tableName": "SURZ_ORDER",
+            "COLTYPE": "date",
+            "currentFieldType": "date",
+            "operator": "<=",
+            "queryOption": "P",
+            "prevOption": "P",
+            "customValue": "FixedValue",
+            "promptLabel": "To Date",
+            "value": ":calendar_today",
+            "chipValue": [],
+            "promptVar": "to_date"
+          },
+          {
+            "condition": "or",
+            "rules": [
+              {
+                "id": "Criteria_3",
+                "field": "SURZ_ORDER.PAY_STATUS",
+                "DBNAME": "PAY_STATUS",
+                "tableName": "SURZ_ORDER",
+                "COLTYPE": "string",
+                "currentFieldType": "string",
+                "operator": "=",
+                "queryOption": "F",
+                "prevOption": "F",
+                "customValue": "FixedValue",
+                "promptLabel": "Payment Status",
+                "value": "PAID",
+                "chipValue": []
+              },
+              {
+                "condition": "and",
+                "rules": [
+                  {
+                    "id": "Criteria_4",
+                    "field": "SURZ_ORDER.PAY_STATUS",
+                    "DBNAME": "PAY_STATUS",
+                    "tableName": "SURZ_ORDER",
+                    "COLTYPE": "string",
+                    "currentFieldType": "string",
+                    "operator": "=",
+                    "queryOption": "F",
+                    "prevOption": "F",
+                    "customValue": "FixedValue",
+                    "promptLabel": "Payment Status",
+                    "value": "COD",
+                    "chipValue": []
+                  },
+                  {
+                    "id": "Criteria_5",
+                    "field": "SURZ_ORDER.ORDER_STATUS",
+                    "DBNAME": "ORDER_STATUS",
+                    "tableName": "SURZ_ORDER",
+                    "COLTYPE": "string",
+                    "currentFieldType": "string",
+                    "operator": "=",
+                    "queryOption": "F",
+                    "prevOption": "F",
+                    "customValue": "FixedValue",
+                    "promptLabel": "Order Status",
+                    "value": "DELIVERED",
+                    "chipValue": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Criteria_6",
+            "field": "SURZ_CATEGORY.CATEGORY_NAME",
+            "DBNAME": "CATEGORY_NAME",
+            "tableName": "SURZ_CATEGORY",
+            "COLTYPE": "string",
+            "currentFieldType": "string",
+            "operator": "like",
+            "queryOption": "P",
+            "prevOption": "P",
+            "customValue": "FixedValue",
+            "promptLabel": "Category",
+            "value": "%",
+            "chipValue": [],
+            "promptVar": "category_name",
+            "lookup": "SURZ_CATEGORY(CATEGORY_NAME, CATEGORY_NAME)",
+            "lookup_title": "Select a category"
+          }
+        ],
+        "condition": "and"
+      }
+    },
+    "VISUAL_NAME": "Pie",
+    "SCHEMA_NAME": "SURZ_SALES_LINE",
+    "SCHEMA_DESCR": "Revenue Mix By Category",
+    "SCHEMA_TYPE": "S",
+    "OUTPUT_TYPE": "JSON",
+    "DATABASE_TYPE": "1",
+    "DATABASE_DETAIL": {
+      "DATABASE_NAME": "PostgreSQL",
+      "TYPE": 1
+    }
+  },
+  "LAYOUT_DATA": {
+    "visualLayout": {
+      "ID": "pie",
+      "VisualName": "Pie",
+      "VisualType": "Standard/UserDefined",
+      "VisualIcon": "Pie.svg",
+      "DisplayOrder": "5",
+      "className": "InsightPieChart",
+      "linkOptions": "",
+      "OutputType": "JSON",
+      "options": [
+        {
+          "optionId": "1",
+          "optionName": "showGrandTotals",
+          "optionHeading": "Show Grand Totals",
+          "dataType": "boolean",
+          "defaultValue": "off",
+          "listOfValues": "off,on",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "2",
+          "optionName": "showTotals",
+          "optionHeading": "Show Totals",
+          "dataType": "boolean",
+          "defaultValue": "off",
+          "listOfValues": "off,on",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "3",
+          "optionName": "showAggregationLabels",
+          "optionHeading": "Show Aggregation Labels",
+          "dataType": "boolean",
+          "defaultValue": "false",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "outer"
+        },
+        {
+          "optionId": "4",
+          "optionName": "sortingColumns",
+          "optionHeading": "Sorting On Columns",
+          "dataType": "string",
+          "defaultValue": "",
+          "listOfValues": "",
+          "allowChange": "true",
+          "optionType": ""
+        },
+        {
+          "optionId": "5",
+          "optionName": "numberFormat",
+          "optionHeading": "Numeric Format",
+          "dataType": "string",
+          "defaultValue": "",
+          "listOfValues": "",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "6",
+          "optionName": "configuratorButton",
+          "optionHeading": "Show Fields",
+          "dataType": "boolean",
+          "defaultValue": "false",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "outer"
+        },
+        {
+          "optionId": "7",
+          "optionName": "showFilter",
+          "optionHeading": "Show Filter",
+          "dataType": "boolean",
+          "defaultValue": "false",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "8",
+          "optionName": "showAxisTitle",
+          "optionHeading": "Show Axis Title",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "9",
+          "optionName": "xAxisLabel",
+          "optionHeading": "Show x-axis Label",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "10",
+          "optionName": "yAxisLabel",
+          "optionHeading": "Show y-axis Label",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "11",
+          "optionName": "showLines",
+          "optionHeading": "Show Lines",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "12",
+          "optionName": "showRange",
+          "optionHeading": "Show Range",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "13",
+          "optionName": "themeColor",
+          "optionHeading": "Theme Color",
+          "dataType": "string",
+          "defaultValue": "Default",
+          "listOfValues": "Blue,Green,Orange,Pink,Purple,Yellow,Default",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "14",
+          "optionName": "toolbar",
+          "optionHeading": "Show Toolbar",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true"
+        },
+        {
+          "optionId": "15",
+          "optionName": "multipleMeasures",
+          "optionHeading": "Multiple Measures",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "16",
+          "optionName": "chartBackgroundColor",
+          "optionHeading": "Chart Background Color",
+          "dataType": "string",
+          "defaultValue": "Transparent",
+          "listOfValues": "White,Transparent",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "17",
+          "optionName": "axisTextColor",
+          "optionHeading": "Axis Text Color",
+          "dataType": "string",
+          "defaultValue": "black",
+          "listOfValues": "Black,White",
+          "allowChange": "true",
+          "optionType": "others"
+        },
+        {
+          "optionId": "18",
+          "optionName": "showMeasures",
+          "optionHeading": "Show Measures",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "19",
+          "optionName": "showDataLabels",
+          "optionHeading": "Show Data In Graph",
+          "dataType": "boolean",
+          "defaultValue": "true",
+          "listOfValues": "true,false",
+          "allowChange": "true",
+          "optionType": "inner"
+        },
+        {
+          "optionId": "20",
+          "optionName": "autoRefreshSeconds",
+          "optionHeading": "Auto refresh (seconds)",
+          "dataType": "number",
+          "defaultValue": "0",
+          "listOfValues": "",
+          "allowChange": "true",
+          "optionType": "outer"
+        }
+      ],
+      "ColumnGroups": [
+        {
+          "GroupID": 1,
+          "GroupName": "Rows",
+          "GroupDescription": "GroupDescription1",
+          "GroupIcon": "Pie.svg",
+          "AllowedColumnTypes": "ANY",
+          "MinColumns": 0,
+          "MaxColumns": 0,
+          "StandardName": "Rows",
+          "COLUMNS": [
+            {
+              "COLID": 2,
+              "NAME": "SURZ_CATEGORY_CATEGORY_NAME",
+              "DBTABLE": "SURZ_CATEGORY",
+              "DBNAME": "CATEGORY_NAME",
+              "tableName": "SURZ_CATEGORY",
+              "tableDisplayName": "Category",
+              "content": "Category",
+              "name": "Category",
+              "descr": "Catalogue category",
+              "type": "string",
+              "JAVATYPE": "java.lang.String",
+              "COLTYPE": "CHAR",
+              "NATIVETYPE": "AN",
+              "DBSIZE": 80,
+              "EXPRESSIONTYPE": "C",
+              "DEFAULTFUNCTION": "",
+              "FUNCTION": "",
+              "FEILD_TYPE": "TEXTBOX",
+              "ALIGNMENT": 1,
+              "alignment": "",
+              "WIDTH": 160,
+              "FONT": "TIMES NEW ROMAN",
+              "FONTSIZE": 12,
+              "FGCOLOR": "#000000",
+              "BGCOLOR": "",
+              "BOLD": 0,
+              "ITALIC": 0,
+              "UNDERLINE": 0,
+              "HIDDEN": "",
+              "KEY": false,
+              "CAPS": false,
+              "ADV_FORMAT": "",
+              "expression": "",
+              "value": "",
+              "groupName": "Rows",
+              "StandardName": "Rows",
+              "checked": true
+            }
+          ]
+        },
+        {
+          "GroupID": 2,
+          "GroupName": "Columns",
+          "GroupDescription": "GroupDescription2",
+          "GroupIcon": "Pie.svg",
+          "AllowedColumnTypes": "ANY",
+          "MinColumns": 0,
+          "MaxColumns": 0,
+          "StandardName": "Columns",
+          "COLUMNS": []
+        },
+        {
+          "GroupID": 3,
+          "GroupName": "Values",
+          "GroupDescription": "GroupDescription3",
+          "GroupIcon": "Pie.svg",
+          "AllowedColumnTypes": "ANY",
+          "MinColumns": 0,
+          "MaxColumns": 0,
+          "StandardName": "Values",
+          "COLUMNS": [
+            {
+              "COLID": 3,
+              "NAME": "SURZ_ORDER_LINE_LINE_TOTAL",
+              "DBTABLE": "SURZ_ORDER_LINE",
+              "DBNAME": "LINE_TOTAL",
+              "tableName": "SURZ_ORDER_LINE",
+              "tableDisplayName": "Order Line",
+              "content": "Revenue",
+              "name": "Revenue",
+              "descr": "Line value of captured orders — paid online, or COD once delivered (INR)",
+              "type": "number",
+              "JAVATYPE": "java.math.BigDecimal",
+              "COLTYPE": "NUMBER",
+              "NATIVETYPE": "AN",
+              "DBSIZE": "(14,2)",
+              "EXPRESSIONTYPE": "G",
+              "DEFAULTFUNCTION": "SUM",
+              "FUNCTION": "SUM",
+              "FEILD_TYPE": "TEXTBOX",
+              "ALIGNMENT": 2,
+              "alignment": "",
+              "WIDTH": 140,
+              "FONT": "TIMES NEW ROMAN",
+              "FONTSIZE": 12,
+              "FGCOLOR": "#000000",
+              "BGCOLOR": "",
+              "BOLD": 0,
+              "ITALIC": 0,
+              "UNDERLINE": 0,
+              "HIDDEN": "",
+              "KEY": false,
+              "CAPS": false,
+              "ADV_FORMAT": "",
+              "expression": "",
+              "value": "",
+              "groupName": "Values",
+              "StandardName": "Values",
+              "checked": true,
+              "display": {
+                "type": "number",
+                "numberStyle": "currency",
+                "currency": "INR",
+                "locale": "en-IN",
+                "decimals": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "layoutdata": {}
+  },
+  "SOURCE_SQL": ""
+}

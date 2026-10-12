@@ -1,0 +1,1155 @@
+{
+ "version": 1,
+ "id": "20261008T135535Z-eb44a6",
+ "kind": "site_resync",
+ "created_at": "2026-10-08T14:01:32Z",
+ "source": "https://surzion.com/",
+ "pages": [
+  {
+   "obj_name": "surz_home",
+   "url": "https://surzion.com/",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_home:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_shop",
+   "url": "https://surzion.com/shop",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_shop:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_about",
+   "url": "https://surzion.com/about",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_about:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_contact",
+   "url": "https://surzion.com/contact",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_contact:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_privacy",
+   "url": "https://surzion.com/privacy-policy",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_privacy:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_terms",
+   "url": "https://surzion.com/terms-and-conditions",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_terms:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_returns",
+   "url": "https://surzion.com/refund-policy",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_returns:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+   "url": "https://surzion.com/adenoid-curette-with-cage-surgical-instruments",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_adenoid_curette_with_cage_surgical_instruments:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_adson_beckman_retractor",
+   "url": "https://surzion.com/adson-beckman-retractor",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_adson_beckman_retractor:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_adson_brown_tissue_forceps",
+   "url": "https://surzion.com/adson-brown-tissue-forceps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_adson_brown_tissue_forceps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_adson_brown_tissue_forceps1",
+   "url": "https://surzion.com/adson-brown-tissue-forceps1",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_adson_brown_tissue_forceps1:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_premium_surgical_instruments_2",
+   "url": "https://surzion.com/premium-surgical-instruments-2",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_premium_surgical_instruments_2:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+   "url": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_allis_tissue_forceps_surgical_tissue_forceps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+   "url": "https://surzion.com/allis-tissue-forceps-autragrip",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_allis_tissue_forceps_autragrip:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_allison_lung_retractor",
+   "url": "https://surzion.com/allison-lung-retractor",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_allison_lung_retractor:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+   "url": "https://surzion.com/anderson-tendon-tunneling-forceps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_anderson_tendon_tunneling_forceps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_artery_forceps_crile",
+   "url": "https://surzion.com/artery-forceps-crile",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_artery_forceps_crile:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_artery_forceps_kocher",
+   "url": "https://surzion.com/artery-forceps-kocher",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_artery_forceps_kocher:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_artery_forceps_ochsner",
+   "url": "https://surzion.com/artery-forceps-ochsner",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_artery_forceps_ochsner:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_artery_forceps_pean",
+   "url": "https://surzion.com/artery-forceps-pean",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_artery_forceps_pean:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+   "url": "https://surzion.com/artery-forceps-robert-hemostatic-forceps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_artery_forceps_robert_hemostatic_forceps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_bp_handle_bayonet_5",
+   "url": "https://surzion.com/bp-handle-bayonet-5",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_bp_handle_bayonet_5:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_babcock_forceps_autogrip",
+   "url": "https://surzion.com/babcock-forceps-autogrip",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_babcock_forceps_autogrip:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_bulldog_clamps",
+   "url": "https://surzion.com/bulldog-clamps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_bulldog_clamps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+   "url": "https://surzion.com/birkett-tonsil-artery-forceps",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_birkett_tonsil_artery_forceps:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_dandy_artery_forceps_55",
+   "url": "https://surzion.com/dandy-artery-forceps-55",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_dandy_artery_forceps_55:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+   "url": "https://surzion.com/bone-reduction-clamp-towel-type",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_bone_reduction_clamp_towel_type:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_bulldog_clamps1",
+   "url": "https://surzion.com/bulldog-clamps1",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_bulldog_clamps1:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+   "url": "https://surzion.com/castpaw-retractor-kilner-retractor",
+   "mode": "repair",
+   "changes": [
+    {
+     "id": "surz_p_castpaw_retractor_kilner_retractor:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the whole page from the live page (its text, pictures, colours and layout); Twasta-owned parts — live data, forms bound to records, sections you added — are kept."
+    }
+   ],
+   "status": "redraft"
+  },
+  {
+   "obj_name": "surz_site_header",
+   "url": "https://surzion.com/",
+   "mode": "chrome",
+   "chrome": "header",
+   "snapshot_of": "surz_home",
+   "status": "redraft",
+   "changes": [
+    {
+     "id": "surz_site_header:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the site header from the live site's header"
+    }
+   ]
+  },
+  {
+   "obj_name": "surz_site_footer",
+   "url": "https://surzion.com/",
+   "mode": "chrome",
+   "chrome": "footer",
+   "snapshot_of": "surz_home",
+   "status": "redraft",
+   "changes": [
+    {
+     "id": "surz_site_footer:redraft",
+     "kind": "redraft",
+     "auto": true,
+     "selected": true,
+     "summary": "Re-draft the site footer from the live site's footer"
+    }
+   ]
+  }
+ ],
+ "new_pages": [],
+ "gone_pages": [],
+ "theme": null,
+ "menu": null,
+ "capture_failed": [],
+ "menu_baseline": [
+  {
+   "label": "Home",
+   "page": "surz_home"
+  },
+  {
+   "label": "Shop",
+   "page": "surz_shop"
+  },
+  {
+   "label": "About",
+   "page": "surz_about"
+  },
+  {
+   "label": "Online catalogue",
+   "href": "/online-catalogue"
+  }
+ ],
+ "collections": [],
+ "counts": {
+  "pages": 31,
+  "pages_changed": 31,
+  "redraft": 31,
+  "auto": 31,
+  "conflicts": 0,
+  "new_pages": 0,
+  "gone_pages": 0,
+  "theme": false,
+  "menu": false
+ },
+ "applied_at": "2026-10-08T14:13:51Z",
+ "result": {
+  "pages": [
+   {
+    "obj_name": "surz_home",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_shop",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_about",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_contact",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_privacy",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_terms",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_returns",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_adson_beckman_retractor",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_adson_brown_tissue_forceps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_adson_brown_tissue_forceps1",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_premium_surgical_instruments_2",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_allison_lung_retractor",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_artery_forceps_crile",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_artery_forceps_kocher",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_artery_forceps_ochsner",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_artery_forceps_pean",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_bp_handle_bayonet_5",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_babcock_forceps_autogrip",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_bulldog_clamps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_dandy_artery_forceps_55",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_bulldog_clamps1",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+    "applied": [
+     "redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_site_header",
+    "applied": [
+     "surz_site_header:redraft"
+    ]
+   },
+   {
+    "obj_name": "surz_site_footer",
+    "applied": [
+     "surz_site_footer:redraft"
+    ]
+   }
+  ],
+  "new_pages": [],
+  "gone_pages": [],
+  "theme": false,
+  "menu": false,
+  "skipped": [],
+  "fidelity": {
+   "surz_home": {
+    "passed": false,
+    "scores": {
+     "text": 0.516,
+     "headings": 0.486,
+     "images": 0.5,
+     "sections": {
+      "page": 3,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_shop": {
+    "passed": true,
+    "scores": {
+     "text": 0.941,
+     "headings": 0.898,
+     "images": 1.0,
+     "sections": {
+      "page": 3,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_about": {
+    "passed": false,
+    "scores": {
+     "text": 0.772,
+     "headings": 0.632,
+     "images": 0.824,
+     "sections": {
+      "page": 2,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_contact": {
+    "passed": false,
+    "scores": {
+     "text": 0.803,
+     "headings": 0.727,
+     "images": 1.0,
+     "sections": {
+      "page": 2,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_privacy": {
+    "passed": false,
+    "scores": {
+     "text": 0.98,
+     "headings": 0.4,
+     "images": 1.0,
+     "sections": {
+      "page": 2,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_terms": {
+    "passed": false,
+    "scores": {
+     "text": 0.987,
+     "headings": 0.5,
+     "images": 1.0,
+     "sections": {
+      "page": 2,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_returns": {
+    "passed": false,
+    "scores": {
+     "text": 0.981,
+     "headings": 0.4,
+     "images": 1.0,
+     "sections": {
+      "page": 2,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_adenoid_curette_with_cage_surgical_instruments": {
+    "passed": false,
+    "scores": {
+     "text": 0.804,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_adson_beckman_retractor": {
+    "passed": false,
+    "scores": {
+     "text": 0.718,
+     "headings": 0.786,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_adson_brown_tissue_forceps": {
+    "passed": false,
+    "scores": {
+     "text": 0.834,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_adson_brown_tissue_forceps1": {
+    "passed": false,
+    "scores": {
+     "text": 0.836,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_premium_surgical_instruments_2": {
+    "passed": false,
+    "scores": {
+     "text": 0.838,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_allis_tissue_forceps_surgical_tissue_forceps": {
+    "passed": false,
+    "scores": {
+     "text": 0.805,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_allis_tissue_forceps_autragrip": {
+    "passed": false,
+    "scores": {
+     "text": 0.838,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_allison_lung_retractor": {
+    "passed": false,
+    "scores": {
+     "text": 0.812,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_anderson_tendon_tunneling_forceps": {
+    "passed": false,
+    "scores": {
+     "text": 0.839,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_artery_forceps_crile": {
+    "passed": false,
+    "scores": {
+     "text": 0.825,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_artery_forceps_kocher": {
+    "passed": false,
+    "scores": {
+     "text": 0.816,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_artery_forceps_ochsner": {
+    "passed": false,
+    "scores": {
+     "text": 0.832,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_artery_forceps_pean": {
+    "passed": false,
+    "scores": {
+     "text": 0.841,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_artery_forceps_robert_hemostatic_forceps": {
+    "passed": false,
+    "scores": {
+     "text": 0.82,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_bp_handle_bayonet_5": {
+    "passed": false,
+    "scores": {
+     "text": 0.829,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_babcock_forceps_autogrip": {
+    "passed": false,
+    "scores": {
+     "text": 0.823,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_bulldog_clamps": {
+    "passed": false,
+    "scores": {
+     "text": 0.833,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_birkett_tonsil_artery_forceps": {
+    "passed": false,
+    "scores": {
+     "text": 0.812,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_dandy_artery_forceps_55": {
+    "passed": false,
+    "scores": {
+     "text": 0.84,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_bone_reduction_clamp_towel_type": {
+    "passed": false,
+    "scores": {
+     "text": 0.713,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_bulldog_clamps1": {
+    "passed": false,
+    "scores": {
+     "text": 0.735,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   },
+   "surz_p_castpaw_retractor_kilner_retractor": {
+    "passed": false,
+    "scores": {
+     "text": 0.7,
+     "headings": 0.909,
+     "images": 1.0,
+     "sections": {
+      "page": 4,
+      "source": 2
+     },
+     "paint": 1.0,
+     "fonts": true
+    }
+   }
+  },
+  "chrome": [
+   "header",
+   "footer"
+  ],
+  "navigation_errors": [
+   {
+    "id": "f_catalogue",
+    "title": "Catalogue",
+    "obj_type": "F",
+    "obj_name": "catalogue",
+    "children": 4,
+    "message": "navigation node 'Catalogue' (id f_catalogue) has 4 child entries but obj_type 'F' — only a folder (\"-\") or an External Website (\"X\") may contain entries. A menu folder is ALWAYS obj_type \"-\" (\"F\" is a Foresight model, not a folder)."
+   },
+   {
+    "id": "f_sales",
+    "title": "Sales",
+    "obj_type": "F",
+    "obj_name": "sales",
+    "children": 8,
+    "message": "navigation node 'Sales' (id f_sales) has 8 child entries but obj_type 'F' — only a folder (\"-\") or an External Website (\"X\") may contain entries. A menu folder is ALWAYS obj_type \"-\" (\"F\" is a Foresight model, not a folder)."
+   },
+   {
+    "id": "f_analytics",
+    "title": "Analytics",
+    "obj_type": "F",
+    "obj_name": "analytics",
+    "children": 10,
+    "message": "navigation node 'Analytics' (id f_analytics) has 10 child entries but obj_type 'F' — only a folder (\"-\") or an External Website (\"X\") may contain entries. A menu folder is ALWAYS obj_type \"-\" (\"F\" is a Foresight model, not a folder)."
+   },
+   {
+    "id": "f_stock",
+    "title": "Stock",
+    "obj_type": "F",
+    "obj_name": "stock",
+    "children": 1,
+    "message": "navigation node 'Stock' (id f_stock) has 1 child entry but obj_type 'F' — only a folder (\"-\") or an External Website (\"X\") may contain entries. A menu folder is ALWAYS obj_type \"-\" (\"F\" is a Foresight model, not a folder)."
+   }
+  ]
+ }
+}

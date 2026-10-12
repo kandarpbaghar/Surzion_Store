@@ -1,0 +1,51 @@
+{
+  "DATA_SOURCE_MODE": "sql",
+  "SQLMODEL": {
+    "SQLModel": {
+      "COLUMNS": [
+        {
+          "COLUMN": [
+            { "COLID": 2, "NAME": "STAGE", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "Stage", "name": "Stage", "descr": "Application stage", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 40, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 200, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true },
+            { "COLID": 3, "NAME": "APPLICATIONS", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "Applications", "name": "Applications", "descr": "Number of partner applications at this stage", "type": "number", "JAVATYPE": "java.lang.Integer", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": 10, "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 120, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Columns", "StandardName": "columns", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } }
+          ]
+        }
+      ]
+    },
+    "CRITERIA": { "query": { "rules": [], "condition": "and" } },
+    "VISUAL_NAME": "Funnel",
+    "SCHEMA_NAME": "SURZ_PARTNER_APPROVAL_FUNNEL",
+    "SCHEMA_DESCR": "Partner Application Approval Funnel",
+    "SCHEMA_TYPE": "S",
+    "OUTPUT_TYPE": "JSON",
+    "DATABASE_TYPE": "1",
+    "DATABASE_DETAIL": { "DATABASE_NAME": "PostgreSQL", "TYPE": 1 }
+  },
+  "LAYOUT_DATA": {
+    "visualLayout": {
+      "ID": "insight_funnel",
+      "VisualName": "Funnel",
+      "VisualType": "Standard/UserDefined",
+      "VisualIcon": "Funnel.svg",
+      "DisplayOrder": "24",
+      "className": "InsightFunnel",
+      "linkOptions": "",
+      "OutputType": "JSON",
+      "options": [
+        { "optionId": "1", "optionName": "showDataLabels", "optionHeading": "Show Data In Graph", "dataType": "boolean", "defaultValue": "true", "listOfValues": "true,false", "allowChange": "true", "optionType": "inner" },
+        { "optionId": "2", "optionName": "chartBackgroundColor", "optionHeading": "Chart Background Color", "dataType": "string", "defaultValue": "Transparent", "listOfValues": "White,Transparent", "allowChange": "true", "optionType": "others" },
+        { "optionId": "3", "optionName": "toolbar", "optionHeading": "Show Toolbar", "dataType": "boolean", "defaultValue": "true", "listOfValues": "true,false", "allowChange": "true" },
+        { "optionId": "4", "optionName": "autoRefreshSeconds", "optionHeading": "Auto refresh (seconds)", "dataType": "number", "defaultValue": "0", "listOfValues": "", "allowChange": "true", "optionType": "outer" }
+      ],
+      "ColumnGroups": [
+        { "GroupID": 1, "GroupName": "Stage", "GroupDescription": "Stage", "GroupIcon": "Funnel.svg", "AllowedColumnTypes": "ANY", "MinColumns": 1, "MaxColumns": 1, "StandardName": "Stage", "COLUMNS": [
+          { "COLID": 2, "NAME": "STAGE", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "Stage", "name": "Stage", "descr": "Application stage", "type": "string", "JAVATYPE": "java.lang.String", "COLTYPE": "CHAR", "NATIVETYPE": "AN", "DBSIZE": 40, "EXPRESSIONTYPE": "C", "DEFAULTFUNCTION": "", "FUNCTION": "", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 1, "alignment": "", "WIDTH": 200, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Stage", "StandardName": "Stage", "checked": true }
+        ] },
+        { "GroupID": 2, "GroupName": "Value", "GroupDescription": "Value", "GroupIcon": "Funnel.svg", "AllowedColumnTypes": "NUMBER", "MinColumns": 1, "MaxColumns": 1, "StandardName": "Value", "COLUMNS": [
+          { "COLID": 3, "NAME": "APPLICATIONS", "DBTABLE": "", "DBNAME": "", "tableName": "", "tableDisplayName": "", "content": "Applications", "name": "Applications", "descr": "Number of partner applications at this stage", "type": "number", "JAVATYPE": "java.lang.Integer", "COLTYPE": "NUMBER", "NATIVETYPE": "AN", "DBSIZE": 10, "EXPRESSIONTYPE": "G", "DEFAULTFUNCTION": "SUM", "FUNCTION": "SUM", "FEILD_TYPE": "TEXTBOX", "ALIGNMENT": 2, "alignment": "", "WIDTH": 120, "KEY": false, "HIDDEN": "", "expression": "", "value": "", "groupName": "Value", "StandardName": "Value", "checked": true, "display": { "type": "number", "numberStyle": "decimal", "locale": "en-IN", "decimals": 0 } }
+        ] }
+      ]
+    },
+    "layoutdata": {}
+  },
+  "SOURCE_SQL": "SELECT STAGE, APPLICATIONS FROM (\n  SELECT 1 AS STAGE_SEQ, 'Applied' AS STAGE, COUNT(*) AS APPLICATIONS FROM SURZ_PARTNER\n  UNION ALL SELECT 2, 'Reviewed (approved or rejected)', COUNT(*) FROM SURZ_PARTNER WHERE STATUS IN ('APPROVED', 'REJECTED')\n  UNION ALL SELECT 3, 'Approved', COUNT(*) FROM SURZ_PARTNER WHERE STATUS = 'APPROVED'\n) f ORDER BY STAGE_SEQ"
+}

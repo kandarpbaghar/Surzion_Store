@@ -1,0 +1,374 @@
+{
+  "page": {
+    "obj_name": "surz_quality",
+    "title": "Quality & standards",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_surzion",
+          "name": "Surzion",
+          "background": "#F5F8FE",
+          "surface": "#FFFFFF",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "primary": "#2F6BE6",
+          "onPrimary": "#FFFFFF",
+          "accent": "#D9A03B",
+          "border": "#E4EAF6"
+        },
+        {
+          "id": "cs_ink",
+          "name": "Surzion ink",
+          "background": "#071A45",
+          "surface": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#A8C0E4",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "accent": "#D9A03B",
+          "border": "rgba(255,255,255,0.14)"
+        },
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ],
+      "defaultColorSchemeId": "cs_surzion"
+    },
+    "inputs": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Quality",
+                "href": "/quality"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "eyebrow": "Quality & standards",
+            "text": "What our certification commits us to."
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Certified with ISO and CE, we are driven by one mission \u2014 to empower surgeons with reliable and innovative instruments that define perfection."
+          },
+          {
+            "id": "b",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "qb",
+                "label": "Request our certificates",
+                "variant": "secondary",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/contact",
+                  "newTab": false
+                }
+              }
+            ]
+          }
+        ],
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          }
+        }
+      },
+      {
+        "id": "sec_commit",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "cg",
+            "type": "feature_grid",
+            "columns": 2,
+            "align": "left",
+            "iconStyle": "square",
+            "animation": {
+              "preset": "fade-up",
+              "on": "scroll",
+              "stagger": 80,
+              "once": true
+            },
+            "items": [
+              {
+                "id": "q1",
+                "icon": "shield",
+                "title": "ISO certified",
+                "description": "Quality system audited against ISO requirements."
+              },
+              {
+                "id": "q2",
+                "icon": "check-circle",
+                "title": "CE marked",
+                "description": "Conformity held for the instrument classes we export."
+              },
+              {
+                "id": "q3",
+                "icon": "award",
+                "title": "1-year servicing",
+                "description": "Any operational fault inside the period is repaired or replaced."
+              },
+              {
+                "id": "q4",
+                "icon": "file-text",
+                "title": "Published specification",
+                "description": "Grade, mechanism, profile, length and finish for every reference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_mat",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "mh",
+            "type": "heading",
+            "level": 2,
+            "text": "The materials we work in"
+          },
+          {
+            "id": "mt",
+            "type": "table",
+            "striped": true,
+            "align": "left",
+            "columns": [
+              {
+                "id": "c1",
+                "label": "Material",
+                "align": "left"
+              },
+              {
+                "id": "c2",
+                "label": "Why we use it",
+                "align": "left"
+              }
+            ],
+            "rows": [
+              [
+                "410 stainless",
+                "Martensitic \u2014 hardenable, holds an edge."
+              ],
+              [
+                "420 stainless",
+                "High-carbon martensitic \u2014 the general theatre workhorse."
+              ],
+              [
+                "316 stainless",
+                "Austenitic \u2014 the most corrosion-resistant of the three."
+              ],
+              [
+                "Tungsten carbide",
+                "Insert jaws and edges, for grip and service life."
+              ],
+              [
+                "Titanium",
+                "Light, non-magnetic, for micro instruments."
+              ]
+            ]
+          }
+        ],
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 56,
+            "bottom": 56
+          }
+        }
+      },
+      {
+        "id": "sec_cta",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "qcta",
+            "type": "cta_banner",
+            "align": "center",
+            "title": "Ask for the certificate pack.",
+            "subtitle": "+91-7814861010 \u00b7 sales@surzion.com",
+            "background": {
+              "kind": "transparent"
+            },
+            "primaryCta": {
+              "id": "qc1",
+              "label": "Message on WhatsApp",
+              "variant": "secondary",
+              "size": "md",
+              "on_click": {
+                "kind": "external_url",
+                "url": "https://wa.me/917814861010",
+                "newTab": true
+              },
+              "icon": "message-circle"
+            },
+            "secondaryCta": {
+              "id": "qc2",
+              "label": "Use the enquiry form",
+              "variant": "outline",
+              "size": "md",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/contact",
+                "newTab": false
+              }
+            }
+          }
+        ],
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          }
+        }
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Quality & standards \u2014 Surzion",
+      "description": "ISO and CE certification, a one-year servicing guarantee, and a published specification for every reference."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    }
+  }
+}

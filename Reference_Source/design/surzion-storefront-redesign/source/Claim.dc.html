@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Checkout creator code</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F8FE}
+a{color:#2F6BE6}a:hover{color:#14307A}
+.wrap{max-width:1296px;margin:0 auto;padding:0 40px;box-sizing:border-box}
+.co{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:32px;align-items:start}
+.fld{height:50px;border:1px solid #DCE4F3;border-radius:12px;padding:0 14px;font:400 15px Poppins,sans-serif;background:#FFFFFF;color:#0B1A3D;box-sizing:border-box;width:100%}
+@media (max-width:900px){.co{grid-template-columns:1fr}.wrap{padding:0 16px}}
+</style>
+</helmet>
+<div style="font-family: Poppins, sans-serif; color: #0B1A3D; background: #F5F8FE; font-size: 15px; line-height: 1.6; padding-bottom: 80px">
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E4EAF6">
+    <div class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 80px; flex-wrap: wrap">
+      <a href="Main.dc.html" aria-label="Surzion home"><img src="/_blob/369b90ca04eace86353b2b6d187988e7" alt="Surzion" style="height: 44px; width: auto; display: block"></a>
+      <ol aria-label="Checkout steps" style="margin: 0; padding: 0; list-style: none; display: flex; gap: 10px; align-items: center; font-size: 14px; font-weight: 500; color: #8494B4; flex-wrap: wrap">
+        <li style="color: #1F9D63">Cart ✓</li><li aria-hidden="true">—</li><li style="color: #0B1A3D; font-weight: 600">Details &amp; code</li><li aria-hidden="true">—</li><li>Payment</li>
+      </ol>
+      <span style="display: flex; gap: 8px; align-items: center; font-size: 13px; color: #5B6B8C"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Secure checkout</span>
+    </div>
+  </header>
+
+  <div class="wrap co" style="padding-top: 40px">
+    <section style="display: flex; flex-direction: column; gap: 20px">
+      <h1 style="margin: 0; font: 600 32px/1.2 Poppins, sans-serif">Checkout</h1>
+      <div style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-size: 18px; font-weight: 600">Contact</h2>
+        <div style="display: flex; justify-content: space-between; align-items: center; background: #F5F8FE; border-radius: 12px; padding: 12px 14px; font-size: 14px; flex-wrap: wrap; gap: 8px"><span>Signed in as <strong style="font-weight: 600">name@hospital.in</strong></span><a href="Register.dc.html" style="font-weight: 600; text-decoration: none">Change</a></div>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+        <div style="display: flex; justify-content: space-between; align-items: center"><h2 style="margin: 0; font-size: 18px; font-weight: 600">Delivery address</h2><a href="#new" style="font-size: 14px; font-weight: 600; text-decoration: none">+ New address</a></div>
+        <label style="display: flex; gap: 14px; align-items: flex-start; border: 1.5px solid #0E2358; border-radius: 14px; padding: 16px; cursor: pointer"><input type="radio" name="addr" checked style="width: 18px; height: 18px; margin-top: 3px; accent-color: #0E2358"><span><strong style="font-weight: 600; display: block">[Name] · Home</strong><span style="color: #5B6B8C; font-size: 14px">[Street, City, State PIN] · [Mobile]</span></span></label>
+      </div>
+      <div style="background: #E8EFFD; border-radius: 18px; padding: 20px 24px; display: flex; gap: 14px; align-items: center">
+        <span style="width: 44px; height: 44px; border-radius: 12px; background: #FFFFFF; color: #2F6BE6; display: grid; place-items: center; flex: none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 7h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z"></path><path d="M14 7v12" stroke-dasharray="2 2"></path></svg></span>
+        <div style="font-size: 14px; color: #14307A">Followed a creator who recommended Surzion? Enter their code in the order summary to save on every item.</div>
+      </div>
+    </section>
+
+    <aside style="background: #FFFFFF; border: 1px solid #E4EAF6; border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 20px 50px rgba(14,35,88,.07)">
+      <h2 style="margin: 0; font-size: 18px; font-weight: 600">Order summary</h2>
+      <sc-for list="{{lines}}" as="l" hint-placeholder-count="2">
+        <div style="display: flex; gap: 14px; align-items: center">
+          <img src="{{l.img}}" alt="" style="width: 60px; height: 60px; object-fit: contain; border-radius: 12px; background: #F5F8FE; border: 1px solid #E4EAF6; mix-blend-mode: multiply">
+          <div style="flex: 1; min-width: 0"><div style="font-weight: 600; font-size: 14px">{{l.name}}</div><div style="font-size: 13px; color: #5B6B8C">Qty {{l.qty}} · {{l.unit}} each</div></div>
+          <div style="text-align: right"><div style="font-weight: 600; font-size: 14px">{{l.amount}}</div><sc-if value="{{applied}}" hint-placeholder-val="{{true}}"><div style="font-size: 12px; color: #1F9D63; font-weight: 600">{{l.disc}}</div></sc-if></div>
+        </div>
+      </sc-for>
+
+      <div style="border-top: 1px solid #E4EAF6; padding-top: 18px; display: flex; flex-direction: column; gap: 10px">
+        <label for="code" style="font-size: 14px; font-weight: 600">Creator or discount code</label>
+        <sc-if value="{{notApplied}}" hint-placeholder-val="{{false}}">
+          <div style="display: flex; gap: 8px">
+            <input id="code" class="fld" type="text" placeholder="e.g. DRSHARMA10" style="text-transform: uppercase; letter-spacing: .04em">
+            <button type="button" onClick="{{apply}}" style="height: 50px; padding: 0 20px; border-radius: 12px; border: 0; background: #0E2358; color: #FFFFFF; font: 600 15px Poppins, sans-serif; cursor: pointer; flex: none">Apply</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{applied}}" hint-placeholder-val="{{true}}">
+          <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; background: #E5F5EE; border: 1px solid #BFE6D2; border-radius: 12px; padding: 12px 14px">
+            <span style="display: flex; gap: 10px; align-items: center; font-size: 14px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F9D63" stroke-width="2.4" stroke-linecap="round"><path d="M5 12l4.5 4.5L19 7"></path></svg><span><strong style="font-weight: 600; letter-spacing: .04em">[CODE]</strong> applied · shared by <strong style="font-weight: 600">@[creator]</strong></span></span>
+            <button type="button" onClick="{{remove}}" style="border: 0; background: transparent; color: #14307A; font: 600 13px Poppins, sans-serif; cursor: pointer; min-height: 44px">Remove</button>
+          </div>
+        </sc-if>
+      </div>
+
+      <dl style="margin: 0; display: grid; grid-template-columns: 1fr auto; row-gap: 8px; font-size: 14px; border-top: 1px solid #E4EAF6; padding-top: 18px">
+        <dt style="color: #5B6B8C">Subtotal</dt><dd style="margin: 0; text-align: right">{{subtotal}}</dd>
+        <sc-if value="{{applied}}" hint-placeholder-val="{{true}}"><dt style="color: #1F9D63">Creator discount ({{pct}}%)</dt></sc-if>
+        <sc-if value="{{applied}}" hint-placeholder-val="{{true}}"><dd style="margin: 0; text-align: right; color: #1F9D63; font-weight: 600">{{discount}}</dd></sc-if>
+        <dt style="color: #5B6B8C">GST (12%)</dt><dd style="margin: 0; text-align: right">{{gst}}</dd>
+        <dt style="color: #5B6B8C">Shipping</dt><dd style="margin: 0; text-align: right; color: #5B6B8C">Next step</dd>
+        <dt style="font-weight: 600; font-size: 17px; padding-top: 8px; border-top: 1px solid #E4EAF6">Total</dt><dd style="margin: 0; text-align: right; font-weight: 700; font-size: 17px; padding-top: 8px; border-top: 1px solid #E4EAF6">{{total}}</dd>
+      </dl>
+      <sc-if value="{{applied}}" hint-placeholder-val="{{true}}"><div style="font-size: 13px; color: #1F9D63; font-weight: 600; text-align: center">You save {{discount2}} with this code</div></sc-if>
+      <button type="button" style="height: 54px; border-radius: 999px; border: 0; background: #0E2358; color: #FFFFFF; font: 600 16px Poppins, sans-serif; cursor: pointer">Continue to payment</button>
+      <div style="font-size: 12px; color: #8494B4; text-align: center">Pay online with Razorpay or choose cash on delivery</div>
+    </aside>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"pct":{"editor":"int","default":10,"min":1,"max":50,"unit":"%"},"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { applied: true }; }
+  renderVals() {
+    const pct = this.props.pct ?? 10;
+    const on = this.state.applied;
+    const inr = (n) => '₹' + Math.round(n).toLocaleString('en-IN');
+    const raw = [
+      { name: 'Adson Brown Tissue Forceps', img: '/_blob/49e391893519b346f4239d852f67428d', qty: 3, price: 650 },
+      { name: 'Artery Forceps Robert', img: '/_blob/4ef9b5691bbbf24291d2652feda4ff01', qty: 1, price: 732 }
+    ];
+    let sub = 0, disc = 0;
+    const lines = raw.map((l) => {
+      const amt = l.qty * l.price, d = amt * pct / 100;
+      sub += amt; disc += d;
+      return { name: l.name, img: l.img, qty: l.qty, unit: inr(l.price), amount: inr(amt), disc: '−' + inr(d) };
+    });
+    const base = sub - (on ? disc : 0), gst = base * 0.12;
+    return {
+      lines, pct, applied: on, notApplied: !on,
+      subtotal: inr(sub), discount: '−' + inr(disc), discount2: inr(disc), gst: inr(gst), total: inr(base + gst),
+      apply: () => this.setState({ applied: true }),
+      remove: () => this.setState({ applied: false })
+    };
+  }
+}
+</script>
+</body>
+</html>

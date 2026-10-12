@@ -1,0 +1,340 @@
+{
+  "page": {
+    "obj_name": "surz_cart_page",
+    "title": "Your cart",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_surzion",
+          "name": "Surzion",
+          "background": "#F5F8FE",
+          "surface": "#FFFFFF",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "primary": "#2F6BE6",
+          "onPrimary": "#FFFFFF",
+          "accent": "#D9A03B",
+          "border": "#E4EAF6"
+        },
+        {
+          "id": "cs_ink",
+          "name": "Surzion ink",
+          "background": "#071A45",
+          "surface": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#A8C0E4",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "accent": "#D9A03B",
+          "border": "rgba(255,255,255,0.14)"
+        },
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ],
+      "defaultColorSchemeId": "cs_surzion"
+    },
+    "inputs": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Cart",
+                "href": "/cart"
+              }
+            ]
+          },
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "Your cart"
+          },
+          {
+            "id": "back",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "bk",
+                "label": "Continue browsing",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/instruments",
+                  "newTab": false
+                }
+              },
+              {
+                "id": "bk_wish",
+                "label": "My wishlist",
+                "variant": "ghost",
+                "size": "md",
+                "icon": "heart",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/wishlist",
+                  "newTab": false
+                }
+              }
+            ]
+          }
+        ],
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 48,
+            "bottom": 40
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        }
+      },
+      {
+        "id": "sec_cart",
+        "tag": "main",
+        "style": {
+          "padding": {
+            "top": 48,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 40,
+            "align": "top",
+            "columns": [
+              {
+                "id": "cl",
+                "blocks": [
+                  {
+                    "id": "lines",
+                    "type": "cart_lines",
+                    "editable": true,
+                    "emptyText": "Your cart is empty \u2014 nothing has been added yet.",
+                    "continueLabel": "Browse the instruments",
+                    "continueHref": "/instruments"
+                  },
+                  {
+                    "id": "note",
+                    "type": "paragraph",
+                    "text": "Delivery is free over \u20b95,000. GST is added at the rate for each instrument's HSN code; the figure confirmed at checkout is the one charged."
+                  }
+                ]
+              },
+              {
+                "id": "cr",
+                "width": "380px",
+                "blocks": [
+                  {
+                    "id": "sum",
+                    "type": "cart_summary",
+                    "heading": "Order summary",
+                    "subtotalLabel": "Subtotal",
+                    "taxPercent": 12,
+                    "taxLabel": "GST at 12%",
+                    "shippingFlat": 250,
+                    "shippingFreeOver": 5000,
+                    "shippingLabel": "Shipping",
+                    "freeLabel": "Free",
+                    "totalLabel": "Total",
+                    "checkoutLabel": "Proceed to checkout",
+                    "checkoutHref": "/checkout",
+                    "note": "Secure checkout \u00b7 Razorpay, cash on delivery or bank transfer"
+                  },
+                  {
+                    "id": "pay_h",
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Payment options"
+                  },
+                  {
+                    "id": "pay",
+                    "type": "bullet_list",
+                    "items": [
+                      {
+                        "id": "po1",
+                        "text": "Razorpay \u2014 UPI, cards, net banking"
+                      },
+                      {
+                        "id": "po2",
+                        "text": "Cash on delivery"
+                      },
+                      {
+                        "id": "po3",
+                        "text": "Bank transfer for tender orders"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "bulk",
+                    "type": "callout",
+                    "variant": "tip",
+                    "icon": "package",
+                    "title": "Bulk order?",
+                    "body": "Tender and distributor pricing applies from 10 units per reference."
+                  },
+                  {
+                    "id": "bulk_b",
+                    "type": "button_group",
+                    "align": "left",
+                    "buttons": [
+                      {
+                        "id": "bq",
+                        "label": "Request a quote",
+                        "variant": "outline",
+                        "size": "md",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "https://wa.me/917814861010",
+                          "newTab": true
+                        },
+                        "icon": "message-circle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Your cart",
+      "description": ""
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    }
+  }
+}

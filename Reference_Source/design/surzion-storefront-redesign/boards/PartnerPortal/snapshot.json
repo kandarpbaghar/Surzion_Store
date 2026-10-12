@@ -1,0 +1,1622 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+ "title": "My partner account",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1113,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 36,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "43.2px",
+   "letterSpacing": "-0.36px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 19,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "30.4px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": null
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": false,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nRK\nMy account",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 514,
+     "y": 19,
+     "w": 45,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 589,
+     "y": 19,
+     "w": 39,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html#about",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 657,
+     "y": 19,
+     "w": 46,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html#catalogue",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 733,
+     "y": 19,
+     "w": 130,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Partners",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 893,
+     "y": 19,
+     "w": 63,
+     "h": 43
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 514,
+       "y": 19,
+       "w": 442,
+       "h": 43
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1181,
+       "y": 17,
+       "w": 147,
+       "h": 46
+      },
+      "bg": null,
+      "radius": "999px",
+      "shadow": null,
+      "border": "1px solid rgb(228, 234, 246)",
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 11
+  },
+  {
+   "role": "text",
+   "color": "rgb(11, 26, 61)",
+   "n": 6
+  },
+  {
+   "role": "button_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 3
+  },
+  {
+   "role": "text",
+   "color": "rgb(132, 148, 180)",
+   "n": 3
+  },
+  {
+   "role": "text",
+   "color": "rgb(31, 157, 99)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 2
+  },
+  {
+   "role": "text",
+   "color": "rgb(157, 184, 245)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(201, 214, 242)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(229, 245, 238)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0:application-status",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 384,
+    "y": 217,
+    "w": 944,
+    "h": 427
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 29,
+    "w": 887
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 29,
+        "y": 29,
+        "w": 177,
+        "h": 30
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 388,
+        "y": 29,
+        "w": 89,
+        "h": 31
+       },
+       "bg": {
+        "color": "rgb(229, 245, 238)"
+       },
+       "radius": "999px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 2,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 558,
+        "y": 301,
+        "w": 112,
+        "h": 44
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "999px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 681,
+        "y": 301,
+        "w": 133,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "999px",
+       "shadow": null,
+       "border": "1px solid rgba(255, 255, 255, 0.4)",
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 558,
+        "y": 355,
+        "w": 108,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "999px",
+       "shadow": null,
+       "border": "1px solid rgba(255, 255, 255, 0.4)",
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Application status",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "30.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 29,
+      "w": 177,
+      "h": 30
+     }
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      {
+       "text": "Application received\n[Applied date]",
+       "icon": {
+        "kind": "svg",
+        "svg": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M5 12l4.5 4.5L19 7\"></path></svg>",
+        "cls": "",
+        "color": "rgb(255, 255, 255)"
+       },
+       "href": null
+      },
+      {
+       "text": "Reviewed by our team\nYour followers' discount set",
+       "icon": {
+        "kind": "svg",
+        "svg": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M5 12l4.5 4.5L19 7\"></path></svg>",
+        "cls": "",
+        "color": "rgb(255, 255, 255)"
+       },
+       "href": null
+      },
+      {
+       "text": "Partner role granted\nCode and QR code emailed to you",
+       "icon": {
+        "kind": "svg",
+        "svg": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M5 12l4.5 4.5L19 7\"></path></svg>",
+        "cls": "",
+        "color": "rgb(255, 255, 255)"
+       },
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 82,
+      "w": 448,
+      "h": 162
+     }
+    },
+    {
+     "t": "text",
+     "text": "Pending applications can still be edited. Once approved or rejected, they are locked.",
+     "html": "Pending applications can still be edited. Once approved or rejected, they are locked.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 266,
+      "w": 448,
+      "h": 66
+     }
+    },
+    {
+     "t": "text",
+     "text": "YOUR PARTNER CODE",
+     "html": "YOUR PARTNER CODE",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 600,
+      "color": "rgb(157, 184, 245)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": "1.3px"
+     },
+     "rect": {
+      "x": 558,
+      "y": 28,
+      "w": 358,
+      "h": 21
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"120\" height=\"120\" viewBox=\"0 0 21 21\" aria-label=\"QR code\" style=\"flex: none; background: #FFFFFF; border-radius: 12px; padding: 8px; box-sizing: border-box\"><g fill=\"#0B1A3D\"><path d=\"M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2z\"></path><path d=\"M8 0h1v2H8zM10 1h2v1h-2zM9 3h2v2H9zM12 4h1v3h-1zM8 6h1v2H8zM10 8h3v1h-3zM14 8h2v2h-2zM17 9h3v1h-3zM0 8h2v1H0zM3 9h3v2H3zM8 10h2v3H8zM11 11h2v1h-2zM15 11h1v3h-1zM18 11h3v2h-3zM9 14h3v1H9zM13 13h1v1h-1zM8 16h2v2H8zM11 16h3v1h-3zM16 15h2v2h-2zM19 15h2v1h-2zM12 18h2v3h-2zM15 18h1v3h-1zM17 18h4v1h-4zM18 20h3v1h-3zM9 19h2v2H9z\"></path></g></svg>",
+     "cls": "",
+     "color": "rgb(255, 255, 255)",
+     "rect": {
+      "x": 558,
+      "y": 67,
+      "w": 120,
+      "h": 120
+     }
+    },
+    {
+     "t": "text",
+     "text": "[CODE]",
+     "html": "[CODE]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 30,
+      "weight": 700,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "48px",
+      "letterSpacing": "1.5px"
+     },
+     "rect": {
+      "x": 558,
+      "y": 207,
+      "w": 254,
+      "h": 48
+     }
+    },
+    {
+     "t": "text",
+     "text": "Followers save [N]% on every item",
+     "html": "Followers save [N]% on every item",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(201, 214, 242)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "24px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 558,
+      "y": 259,
+      "w": 254,
+      "h": 24
+     }
+    },
+    {
+     "t": "button",
+     "text": "Copy code",
+     "href": null,
+     "style": {
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(14, 35, 88)",
+      "radius": "999px",
+      "border": null,
+      "size": 14,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 558,
+      "y": 301,
+      "w": 112,
+      "h": 44
+     }
+    },
+    {
+     "t": "button",
+     "text": "Download QR",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgba(255, 255, 255, 0.4)",
+      "size": 14,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 681,
+      "y": 301,
+      "w": 133,
+      "h": 44
+     }
+    },
+    {
+     "t": "button",
+     "text": "Share link",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": "1px solid rgba(255, 255, 255, 0.4)",
+      "size": 14,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 558,
+      "y": 355,
+      "w": 108,
+      "h": 44
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "dc69f8983a32017f"
+  },
+  {
+   "index": 1,
+   "key": "1:orders-claimed-with-my-code",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 384,
+    "y": 668,
+    "w": 944,
+    "h": 365
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 1,
+    "w": 942
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 29,
+        "y": 23,
+        "w": 460,
+        "h": 51
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 643,
+        "y": 28,
+        "w": 272,
+        "h": 40
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 6,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 1,
+        "y": 97,
+        "w": 182,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 184,
+        "y": 97,
+        "w": 125,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 309,
+        "y": 97,
+        "w": 152,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 460,
+        "y": 97,
+        "w": 211,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 671,
+        "y": 97,
+        "w": 138,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 809,
+        "y": 97,
+        "w": 134,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 6,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 1,
+        "y": 141,
+        "w": 182,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 184,
+        "y": 141,
+        "w": 125,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 309,
+        "y": 141,
+        "w": 152,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 460,
+        "y": 141,
+        "w": 211,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 671,
+        "y": 141,
+        "w": 138,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 809,
+        "y": 141,
+        "w": 134,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 6,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 1,
+        "y": 215,
+        "w": 182,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 184,
+        "y": 215,
+        "w": 125,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 309,
+        "y": 215,
+        "w": 152,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 460,
+        "y": 215,
+        "w": 211,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 671,
+        "y": 215,
+        "w": 138,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 809,
+        "y": 215,
+        "w": 134,
+        "h": 75
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 6,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 1,
+        "y": 290,
+        "w": 182,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 184,
+        "y": 290,
+        "w": 125,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 309,
+        "y": 290,
+        "w": 152,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 460,
+        "y": 290,
+        "w": 211,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 671,
+        "y": 290,
+        "w": 138,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 809,
+        "y": 290,
+        "w": 134,
+        "h": 74
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Orders claimed with my code",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 19,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "30.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 23,
+      "w": 460,
+      "h": 30
+     }
+    },
+    {
+     "t": "text",
+     "text": "Buyer names are masked. The discount is applied per item, before GST.",
+     "html": "Buyer names are masked. The discount is applied per item, before GST.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 53,
+      "w": 460,
+      "h": 21
+     }
+    },
+    {
+     "t": "text",
+     "text": "ORDER",
+     "html": "ORDER",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 1,
+      "y": 97,
+      "w": 182,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "BUYER",
+     "html": "BUYER",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 184,
+      "y": 97,
+      "w": 125,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "STATUS",
+     "html": "STATUS",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 309,
+      "y": 97,
+      "w": 152,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "PAYMENT",
+     "html": "PAYMENT",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "left",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 460,
+      "y": 97,
+      "w": 211,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "DISCOUNT",
+     "html": "DISCOUNT",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 671,
+      "y": 97,
+      "w": 138,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "TOTAL",
+     "html": "TOTAL",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 600,
+      "color": "rgb(91, 107, 140)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": "0.72px"
+     },
+     "rect": {
+      "x": 809,
+      "y": 97,
+      "w": 134,
+      "h": 44
+     }
+    },
+    {
+     "t": "text",
+     "text": "[Date]",
+     "html": "[Date]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "color": "rgb(132, 148, 180)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 180,
+      "w": 126,
+      "h": 19
+     }
+    },
+    {
+     "t": "text",
+     "text": "[R•••• K.]",
+     "html": "[R•••• K.]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 184,
+      "y": 141,
+      "w": 125,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "Cash on delivery",
+     "html": "Cash on delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 460,
+      "y": 141,
+      "w": 211,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "−₹[0]",
+     "html": "−₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(31, 157, 99)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 671,
+      "y": 141,
+      "w": 138,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹[0]",
+     "html": "₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 809,
+      "y": 141,
+      "w": 134,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "[Date]",
+     "html": "[Date]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "color": "rgb(132, 148, 180)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 254,
+      "w": 126,
+      "h": 19
+     }
+    },
+    {
+     "t": "text",
+     "text": "[R•••• K.]",
+     "html": "[R•••• K.]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 184,
+      "y": 215,
+      "w": 125,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "Online · Razorpay",
+     "html": "Online · Razorpay",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 460,
+      "y": 215,
+      "w": 211,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "−₹[0]",
+     "html": "−₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(31, 157, 99)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 671,
+      "y": 215,
+      "w": 138,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹[0]",
+     "html": "₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 809,
+      "y": 215,
+      "w": 134,
+      "h": 75
+     }
+    },
+    {
+     "t": "text",
+     "text": "[Date]",
+     "html": "[Date]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "color": "rgb(132, 148, 180)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 29,
+      "y": 329,
+      "w": 126,
+      "h": 19
+     }
+    },
+    {
+     "t": "text",
+     "text": "[R•••• K.]",
+     "html": "[R•••• K.]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 184,
+      "y": 290,
+      "w": 125,
+      "h": 74
+     }
+    },
+    {
+     "t": "text",
+     "text": "Cash on delivery",
+     "html": "Cash on delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 460,
+      "y": 290,
+      "w": 211,
+      "h": 74
+     }
+    },
+    {
+     "t": "text",
+     "text": "−₹[0]",
+     "html": "−₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(31, 157, 99)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 671,
+      "y": 290,
+      "w": 138,
+      "h": 74
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹[0]",
+     "html": "₹[0]",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 809,
+      "y": 290,
+      "w": 134,
+      "h": 74
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "69e6830213f7dd76"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/PartnerPortal.dc.html",
+ "captured_at": "2026-10-09T13:07:08Z",
+ "page_fingerprint": "e0b39109dec02917",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "PartnerPortal",
+  "state": null,
+  "visible_text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nRK\nMy account\nHome / Partners / My partner account\nMy partner account\nMy account\nMy orders\nWishlist\nAddresses & payment\nPartner account\nSign out\nApplication status\nApproved\nApplication received\n[Applied date]\nReviewed by our team\nYour followers' discount set\nPartner role granted\nCode and QR code emailed to you\nPending applications can still be edited. Once approved or rejected, they are locked.\nYOUR PARTNER CODE\n[CODE]\nFollowers save [N]% on every item\nCopy code\nDownload QR\nShare link\nOrders claimed with my code\nBuyer names are masked. The discount is applied per item, before GST.\nSample rows\nStatus\nAll\nPaid\nPending\nDelivered\nORDER\tBUYER\tSTATUS\tPAYMENT\tDISCOUNT\tTOTAL\n[Order no]\n[Date]\n\t[R•••• K.]\tDelivered\tCash on delivery\t−₹[0]\t₹[0]\n[Order no]\n[Date]\n\t[R•••• K.]\tPaid\tOnline · Razorpay\t−₹[0]\t₹[0]\n[Order no]\n[Date]\n\t[R•••• K.]\tPending\tCash on delivery\t−₹[0]\t₹[0]",
+  "sample_text": [
+   "[Order no][Date] [R•••• K.] Delivered Cash on delivery −₹[0] ₹[0]",
+   "[Order no][Date] [R•••• K.] Paid Online · Razorpay −₹[0] ₹[0]",
+   "[Order no][Date] [R•••• K.] Pending Cash on delivery −₹[0] ₹[0]"
+  ],
+  "sample_images": []
+ }
+}

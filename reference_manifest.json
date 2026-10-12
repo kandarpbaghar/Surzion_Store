@@ -1,0 +1,828 @@
+{
+  "project_name": "Surzion Store",
+  "project_description": "Surgical instrument storefront \u2014 catalogue, cart, orders and online payment.",
+  "generated_at": "2026-10-10T05:42:08.493027+00:00",
+  "owner_user_id": "",
+  "navigation_summary": [
+    {
+      "obj_name": "surz_site",
+      "obj_type": "X",
+      "title": "Surzion storefront",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_site_header",
+      "obj_type": "S",
+      "title": "Site header",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner_register",
+      "obj_type": "S",
+      "title": "Become a partner",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner_portal",
+      "obj_type": "S",
+      "title": "My partner account",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_site_footer",
+      "obj_type": "S",
+      "title": "Site footer",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_home",
+      "obj_type": "S",
+      "title": "Home",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_cart_page",
+      "obj_type": "S",
+      "title": "Cart",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_checkout",
+      "obj_type": "S",
+      "title": "Checkout",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_login",
+      "obj_type": "S",
+      "title": "Sign in",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_my_orders",
+      "obj_type": "S",
+      "title": "My orders",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_wishlist",
+      "obj_type": "S",
+      "title": "Wishlist",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_my_account",
+      "obj_type": "S",
+      "title": "My account",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_cat_orthopaedic",
+      "obj_type": "S",
+      "title": "Orthopaedic Surgical Instruments",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_cat_general",
+      "obj_type": "S",
+      "title": "General Surgical Instruments",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_cat_dissecting",
+      "obj_type": "S",
+      "title": "Dissecting Forceps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_shop",
+      "obj_type": "S",
+      "title": "Instruments",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_quality",
+      "obj_type": "S",
+      "title": "Quality",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_about",
+      "obj_type": "S",
+      "title": "About",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_contact",
+      "obj_type": "S",
+      "title": "Contact",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_online_catalogue",
+      "obj_type": "S",
+      "title": "Online catalogue",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_privacy",
+      "obj_type": "S",
+      "title": "Privacy policy",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_terms",
+      "obj_type": "S",
+      "title": "Terms & conditions",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_shipping",
+      "obj_type": "S",
+      "title": "Shipping policy",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_returns",
+      "obj_type": "S",
+      "title": "Returns & refunds",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+      "obj_type": "S",
+      "title": "Adenoid Curette with Cage",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_adson_beckman_retractor",
+      "obj_type": "S",
+      "title": "Adson Beckman Retractor",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_adson_brown_tissue_forceps",
+      "obj_type": "S",
+      "title": "Adson Brown Tissue Forceps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_adson_brown_tissue_forceps1",
+      "obj_type": "S",
+      "title": "Adson Brown Tissue Forceps (fine)",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_premium_surgical_instruments_2",
+      "obj_type": "S",
+      "title": "Adson Dissecting Forceps Plain",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+      "obj_type": "S",
+      "title": "Allis Tissue Forceps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+      "obj_type": "S",
+      "title": "Allis Tissue Forceps Autagrip",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_allison_lung_retractor",
+      "obj_type": "S",
+      "title": "Allison Lung Retractor",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+      "obj_type": "S",
+      "title": "Anderson Tendon Tunneling Forceps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_crile",
+      "obj_type": "S",
+      "title": "Artery Forceps Crile",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_kocher",
+      "obj_type": "S",
+      "title": "Artery Forceps Kocher",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_ochsner",
+      "obj_type": "S",
+      "title": "Artery Forceps Ochsner",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_pean",
+      "obj_type": "S",
+      "title": "Artery Forceps Pean",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+      "obj_type": "S",
+      "title": "Artery Forceps Robert",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_bp_handle_bayonet_5",
+      "obj_type": "S",
+      "title": "B.P Handle Bayonet",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_babcock_forceps_autogrip",
+      "obj_type": "S",
+      "title": "Babcock Forceps Autogrip",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_bulldog_clamps",
+      "obj_type": "S",
+      "title": "Babcock Forceps TC",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+      "obj_type": "S",
+      "title": "Birkett Tonsil Artery Forceps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_dandy_artery_forceps_55",
+      "obj_type": "S",
+      "title": "Bone Hook",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+      "obj_type": "S",
+      "title": "Bone Reduction Clamp Towel Type",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_bulldog_clamps1",
+      "obj_type": "S",
+      "title": "Bulldog Clamps",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+      "obj_type": "S",
+      "title": "Castpaw Retractor (Kilner Retractor)",
+      "description": ""
+    },
+    {
+      "obj_name": "catalogue",
+      "obj_type": "F",
+      "title": "Catalogue",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_category",
+      "obj_type": "T",
+      "title": "Categories",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_product",
+      "obj_type": "T",
+      "title": "Instruments",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_hsn_gst",
+      "obj_type": "T",
+      "title": "HSN & GST",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_discount",
+      "obj_type": "T",
+      "title": "Discount codes",
+      "description": ""
+    },
+    {
+      "obj_name": "sales",
+      "obj_type": "F",
+      "title": "Sales",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_customer",
+      "obj_type": "T",
+      "title": "Customers",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_cart",
+      "obj_type": "T",
+      "title": "Carts",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_order",
+      "obj_type": "T",
+      "title": "Orders",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_enquiry",
+      "obj_type": "T",
+      "title": "Enquiries",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_tax_invoice",
+      "obj_type": "R",
+      "title": "Tax invoice",
+      "description": ""
+    },
+    {
+      "obj_name": "analytics",
+      "obj_type": "F",
+      "title": "Analytics",
+      "description": ""
+    },
+    {
+      "obj_name": "SURZ_SALES_LINE",
+      "obj_type": "M",
+      "title": "Sales line schema",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_sales_dashboard",
+      "obj_type": "D",
+      "title": "Sales dashboard",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_revenue_trend",
+      "obj_type": "V",
+      "title": "Revenue trend",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_top_instruments",
+      "obj_type": "V",
+      "title": "Top instruments",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_category_mix",
+      "obj_type": "V",
+      "title": "Category mix",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_payment_status",
+      "obj_type": "V",
+      "title": "Payment status",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_stock_cover",
+      "obj_type": "V",
+      "title": "Stock cover",
+      "description": ""
+    },
+    {
+      "obj_name": "SURZ_ORDER_HEADER",
+      "obj_type": "M",
+      "title": "Order header schema",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_net_billed_trend",
+      "obj_type": "V",
+      "title": "Net billed trend",
+      "description": ""
+    },
+    {
+      "obj_name": "stock",
+      "obj_type": "F",
+      "title": "Stock",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_stock_move",
+      "obj_type": "T",
+      "title": "Stock movements",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner",
+      "obj_type": "T",
+      "title": "Partners",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner_order",
+      "obj_type": "T",
+      "title": "My referred orders",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner_dashboard",
+      "obj_type": "D",
+      "title": "Partner sales",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_partner_apply",
+      "obj_type": "T",
+      "title": "Become a partner",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_product_review",
+      "obj_type": "T",
+      "title": "Product reviews",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_customer_address",
+      "obj_type": "T",
+      "title": "Customer addresses",
+      "description": ""
+    },
+    {
+      "obj_name": "surz_customer_payment_method",
+      "obj_type": "T",
+      "title": "Saved payment methods",
+      "description": ""
+    }
+  ],
+  "tables": [
+    {
+      "table_name": "SURZ_CART",
+      "description": "",
+      "key_columns": [
+        "CART_ID VARCHAR"
+      ],
+      "other_columns": [
+        "SESSION_KEY VARCHAR",
+        "CART_STATUS VARCHAR",
+        "ORDER_NO VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_CART_LINE",
+      "description": "",
+      "key_columns": [
+        "CART_ID VARCHAR",
+        "LINE_NO NUMBER"
+      ],
+      "other_columns": [
+        "PRODUCT_CODE VARCHAR",
+        "PRODUCT_NAME VARCHAR",
+        "QTY NUMBER",
+        "UNIT_PRICE NUMBER",
+        "GST_RATE NUMBER",
+        "LINE_TOTAL NUMBER"
+      ]
+    },
+    {
+      "table_name": "SURZ_CATEGORY",
+      "description": "",
+      "key_columns": [
+        "CATEGORY_CODE VARCHAR"
+      ],
+      "other_columns": [
+        "CATEGORY_NAME VARCHAR",
+        "DESCR VARCHAR",
+        "IMAGE_URL VARCHAR",
+        "SORT_ORDER NUMBER",
+        "IS_ACTIVE VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_CUSTOMER",
+      "description": "",
+      "key_columns": [
+        "CUSTOMER_ID VARCHAR"
+      ],
+      "other_columns": [
+        "CUSTOMER_NAME VARCHAR",
+        "ORG_NAME VARCHAR",
+        "EMAIL VARCHAR",
+        "PHONE VARCHAR",
+        "REGISTRY_ID VARCHAR",
+        "GSTIN VARCHAR",
+        "BILL_ADDRESS VARCHAR",
+        "SHIP_ADDRESS VARCHAR",
+        "CITY VARCHAR",
+        "STATE_NAME VARCHAR",
+        "PINCODE VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_CUSTOMER_ADDRESS",
+      "description": "",
+      "key_columns": [
+        "ADDRESS_ID VARCHAR"
+      ],
+      "other_columns": [
+        "REGISTRY_ID VARCHAR",
+        "CUSTOMER_ID VARCHAR",
+        "LABEL VARCHAR",
+        "CONTACT_NAME VARCHAR",
+        "PHONE VARCHAR",
+        "ADDRESS_LINE1 VARCHAR",
+        "ADDRESS_LINE2 VARCHAR",
+        "CITY VARCHAR",
+        "STATE_NAME VARCHAR",
+        "PINCODE VARCHAR",
+        "IS_DEFAULT VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_CUSTOMER_PAYMENT_METHOD",
+      "description": "",
+      "key_columns": [
+        "METHOD_ID VARCHAR"
+      ],
+      "other_columns": [
+        "REGISTRY_ID VARCHAR",
+        "CUSTOMER_ID VARCHAR",
+        "METHOD_TYPE VARCHAR",
+        "LABEL VARCHAR",
+        "UPI_ID VARCHAR",
+        "CARD_BRAND VARCHAR",
+        "CARD_LAST4 VARCHAR",
+        "GATEWAY_TOKEN VARCHAR",
+        "IS_DEFAULT VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_DISCOUNT",
+      "description": "",
+      "key_columns": [
+        "CODE VARCHAR"
+      ],
+      "other_columns": [
+        "DESCR VARCHAR",
+        "PERCENT_OFF NUMBER",
+        "MIN_ORDER NUMBER",
+        "VALID_FROM DATE",
+        "VALID_TO DATE",
+        "IS_ACTIVE VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR",
+        "PARTNER_ID VARCHAR",
+        "PARTNER_NAME VARCHAR",
+        "USAGE_COUNT NUMBER"
+      ]
+    },
+    {
+      "table_name": "SURZ_ENQUIRY",
+      "description": "",
+      "key_columns": [
+        "ENQUIRY_ID VARCHAR"
+      ],
+      "other_columns": [
+        "ENQUIRY_DATE DATETIME",
+        "CONTACT_NAME VARCHAR",
+        "ORG_NAME VARCHAR",
+        "EMAIL VARCHAR",
+        "PHONE VARCHAR",
+        "MESSAGE TEXT",
+        "STATUS VARCHAR",
+        "HANDLED_BY VARCHAR",
+        "NOTES TEXT",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_HSN_GST",
+      "description": "",
+      "key_columns": [
+        "HSN_CODE VARCHAR"
+      ],
+      "other_columns": [
+        "DESCR VARCHAR",
+        "GST_RATE NUMBER",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_ORDER",
+      "description": "",
+      "key_columns": [
+        "ORDER_NO VARCHAR"
+      ],
+      "other_columns": [
+        "ORDER_DATE DATE",
+        "CUSTOMER_ID VARCHAR",
+        "CUSTOMER_NAME VARCHAR",
+        "EMAIL VARCHAR",
+        "PHONE VARCHAR",
+        "REGISTRY_ID VARCHAR",
+        "SHIP_ADDRESS VARCHAR",
+        "COURIER VARCHAR",
+        "TRACKING_NO VARCHAR",
+        "SUBTOTAL NUMBER",
+        "DISCOUNT_CODE VARCHAR",
+        "DISCOUNT_AMT NUMBER",
+        "GST_AMT NUMBER",
+        "SHIPPING_AMT NUMBER",
+        "TOTAL_AMOUNT NUMBER",
+        "PAY_STATUS VARCHAR",
+        "PAY_METHOD VARCHAR",
+        "PAYMENT_REF VARCHAR",
+        "PAID_AMOUNT NUMBER",
+        "PAID_ON DATETIME",
+        "ORDER_STATUS VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR",
+        "PARTNER_ID VARCHAR",
+        "PARTNER_NAME VARCHAR",
+        "PARTNER_REGISTRY_ID VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_ORDER_LINE",
+      "description": "",
+      "key_columns": [
+        "ORDER_NO VARCHAR",
+        "LINE_NO NUMBER"
+      ],
+      "other_columns": [
+        "PRODUCT_CODE VARCHAR",
+        "PRODUCT_NAME VARCHAR",
+        "QTY NUMBER",
+        "UNIT_PRICE NUMBER",
+        "GST_RATE NUMBER",
+        "LINE_TOTAL NUMBER",
+        "DISC_PCT NUMBER",
+        "DISC_AMT NUMBER",
+        "TAXABLE_VALUE NUMBER"
+      ]
+    },
+    {
+      "table_name": "SURZ_PARTNER",
+      "description": "",
+      "key_columns": [
+        "PARTNER_ID VARCHAR"
+      ],
+      "other_columns": [
+        "PARTNER_NAME VARCHAR",
+        "ORG_NAME VARCHAR",
+        "BUSINESS_TYPE VARCHAR",
+        "EMAIL VARCHAR",
+        "PHONE VARCHAR",
+        "GSTIN VARCHAR",
+        "ADDRESS VARCHAR",
+        "CITY VARCHAR",
+        "STATE_NAME VARCHAR",
+        "MESSAGE TEXT",
+        "REGISTRY_ID VARCHAR",
+        "APPLIED_ON DATE",
+        "STATUS VARCHAR",
+        "DISCOUNT_CODE VARCHAR",
+        "DISCOUNT_PCT NUMBER",
+        "QR_URL VARCHAR",
+        "APPROVED_ON DATETIME",
+        "APPROVED_BY VARCHAR",
+        "REJECT_REASON VARCHAR",
+        "WELCOME_QUEUED_ON DATETIME",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR",
+        "HANDLE VARCHAR",
+        "PLATFORM VARCHAR",
+        "PROFILE_URL VARCHAR",
+        "OTHER_CHANNELS TEXT",
+        "FOLLOWER_RANGE VARCHAR",
+        "AUDIENCE VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_PRODUCT",
+      "description": "",
+      "key_columns": [
+        "PRODUCT_CODE VARCHAR"
+      ],
+      "other_columns": [
+        "PRODUCT_NAME VARCHAR",
+        "CATEGORY_CODE VARCHAR",
+        "CATEGORY_NAME VARCHAR",
+        "SUBTITLE VARCHAR",
+        "DESCR TEXT",
+        "GRADE VARCHAR",
+        "FINISH VARCHAR",
+        "LENGTH_MM NUMBER",
+        "PATTERN VARCHAR",
+        "HSN_CODE VARCHAR",
+        "GST_RATE NUMBER",
+        "UNIT_PRICE NUMBER",
+        "MRP NUMBER",
+        "STOCK_QTY NUMBER",
+        "REORDER_LEVEL NUMBER",
+        "SLUG VARCHAR",
+        "IMAGE_URL VARCHAR",
+        "HOVER_IMAGE_URL VARCHAR",
+        "RIBBON VARCHAR",
+        "SORT_ORDER NUMBER",
+        "IS_ACTIVE VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_PRODUCT_IMAGE",
+      "description": "",
+      "key_columns": [
+        "PRODUCT_CODE VARCHAR",
+        "IMG_NO NUMBER"
+      ],
+      "other_columns": [
+        "IMAGE_URL VARCHAR",
+        "CAPTION VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_PRODUCT_REVIEW",
+      "description": "",
+      "key_columns": [
+        "REVIEW_ID VARCHAR"
+      ],
+      "other_columns": [
+        "PRODUCT_CODE VARCHAR",
+        "RATING INTEGER",
+        "TITLE VARCHAR",
+        "REVIEW_TEXT TEXT",
+        "REVIEWER_NAME VARCHAR",
+        "REVIEWER_REGISTRY_ID VARCHAR",
+        "STATUS VARCHAR",
+        "MODERATOR_NOTE VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR",
+        "VERIFIED VARCHAR"
+      ]
+    },
+    {
+      "table_name": "SURZ_STOCK_MOVE",
+      "description": "",
+      "key_columns": [
+        "MOVE_ID VARCHAR"
+      ],
+      "other_columns": [
+        "MOVE_DATE DATETIME",
+        "PRODUCT_CODE VARCHAR",
+        "DIRECTION VARCHAR",
+        "QTY NUMBER",
+        "REF_NO VARCHAR",
+        "LINE_NO NUMBER",
+        "REMARKS VARCHAR",
+        "ADD_DATE DATETIME",
+        "ADD_USER VARCHAR",
+        "CHG_DATE DATETIME",
+        "CHG_USER VARCHAR"
+      ]
+    }
+  ]
+}

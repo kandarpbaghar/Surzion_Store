@@ -1,0 +1,258 @@
+{
+  "table_name": "SURZ_PRODUCT",
+  "description": "Instrument (surz_product)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "PRODUCT_CODE",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Code"
+    },
+    {
+      "column_name": "PRODUCT_NAME",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 2,
+      "key": false,
+      "mandatory": true,
+      "description": "Instrument"
+    },
+    {
+      "column_name": "CATEGORY_CODE",
+      "data_type": "VARCHAR",
+      "size": "12",
+      "sequence": 3,
+      "key": false,
+      "mandatory": true,
+      "description": "Category",
+      "lookup": {
+        "table": "SURZ_CATEGORY",
+        "display_column": "CATEGORY_NAME",
+        "value_column": "CATEGORY_CODE"
+      }
+    },
+    {
+      "column_name": "CATEGORY_NAME",
+      "data_type": "VARCHAR",
+      "size": "60",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Category name"
+    },
+    {
+      "column_name": "SUBTITLE",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 5,
+      "key": false,
+      "mandatory": false,
+      "description": "Subtitle"
+    },
+    {
+      "column_name": "DESCR",
+      "data_type": "TEXT",
+      "size": "",
+      "sequence": 6,
+      "key": false,
+      "mandatory": false,
+      "description": "Description"
+    },
+    {
+      "column_name": "GRADE",
+      "data_type": "VARCHAR",
+      "size": "40",
+      "sequence": 7,
+      "key": false,
+      "mandatory": false,
+      "description": "Steel grade"
+    },
+    {
+      "column_name": "FINISH",
+      "data_type": "VARCHAR",
+      "size": "40",
+      "sequence": 8,
+      "key": false,
+      "mandatory": false,
+      "description": "Finish"
+    },
+    {
+      "column_name": "LENGTH_MM",
+      "data_type": "NUMBER",
+      "size": "8,1",
+      "sequence": 9,
+      "key": false,
+      "mandatory": false,
+      "description": "Length (mm)"
+    },
+    {
+      "column_name": "PATTERN",
+      "data_type": "VARCHAR",
+      "size": "60",
+      "sequence": 10,
+      "key": false,
+      "mandatory": false,
+      "description": "Pattern"
+    },
+    {
+      "column_name": "HSN_CODE",
+      "data_type": "VARCHAR",
+      "size": "12",
+      "sequence": 11,
+      "key": false,
+      "mandatory": false,
+      "description": "HSN",
+      "lookup": {
+        "table": "SURZ_HSN_GST",
+        "display_column": "DESCR",
+        "value_column": "HSN_CODE"
+      }
+    },
+    {
+      "column_name": "GST_RATE",
+      "data_type": "NUMBER",
+      "size": "5,2",
+      "sequence": 12,
+      "key": false,
+      "mandatory": false,
+      "description": "GST %"
+    },
+    {
+      "column_name": "UNIT_PRICE",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 13,
+      "key": false,
+      "mandatory": true,
+      "description": "Price"
+    },
+    {
+      "column_name": "MRP",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 14,
+      "key": false,
+      "mandatory": false,
+      "description": "List price"
+    },
+    {
+      "column_name": "STOCK_QTY",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 15,
+      "key": false,
+      "mandatory": false,
+      "description": "In stock"
+    },
+    {
+      "column_name": "REORDER_LEVEL",
+      "data_type": "NUMBER",
+      "size": "12,2",
+      "sequence": 16,
+      "key": false,
+      "mandatory": false,
+      "description": "Reorder at"
+    },
+    {
+      "column_name": "SLUG",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 17,
+      "key": false,
+      "mandatory": false,
+      "description": "URL slug"
+    },
+    {
+      "column_name": "IMAGE_URL",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 18,
+      "key": false,
+      "mandatory": false,
+      "description": "Main photograph"
+    },
+    {
+      "column_name": "HOVER_IMAGE_URL",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 19,
+      "key": false,
+      "mandatory": false,
+      "description": "Second photograph (shown on mouse-over)"
+    },
+    {
+      "column_name": "RIBBON",
+      "data_type": "VARCHAR",
+      "size": "30",
+      "sequence": 20,
+      "key": false,
+      "mandatory": false,
+      "description": "Ribbon",
+      "allowed_values": [
+        "Best Seller",
+        "New",
+        "Premium Quality",
+        "Surgical Grade",
+        "Top Quality"
+      ]
+    },
+    {
+      "column_name": "SORT_ORDER",
+      "data_type": "NUMBER",
+      "size": "5",
+      "sequence": 21,
+      "key": false,
+      "mandatory": false,
+      "description": "Display order in the shop grid (live site order)"
+    },
+    {
+      "column_name": "IS_ACTIVE",
+      "data_type": "VARCHAR",
+      "size": "1",
+      "sequence": 22,
+      "key": false,
+      "mandatory": false,
+      "description": "Listed in the shop"
+    },
+    {
+      "column_name": "ADD_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 23,
+      "key": false,
+      "mandatory": false,
+      "description": "Added on"
+    },
+    {
+      "column_name": "ADD_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 24,
+      "key": false,
+      "mandatory": false,
+      "description": "Added by"
+    },
+    {
+      "column_name": "CHG_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 25,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed on"
+    },
+    {
+      "column_name": "CHG_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 26,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed by"
+    }
+  ]
+}

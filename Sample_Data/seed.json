@@ -1,0 +1,554 @@
+{
+  "surz_hsn_gst": [
+    {
+      "hsn_code": "90183990",
+      "descr": "Surgical instruments and appliances",
+      "gst_rate": 12.0
+    }
+  ],
+  "surz_category": [
+    {
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "descr": "Artery forceps, clamps, retractors, curettes and scalpel handles for general theatre lists.",
+      "sort_order": 1,
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=be11e5517034c3c6.jpg"
+    },
+    {
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "descr": "Reduction clamps, bone hooks, retractors and tendon instruments for orthopaedic and trauma work.",
+      "sort_order": 2,
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg"
+    },
+    {
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "descr": "Tissue and dissecting forceps, including tungsten carbide Autagrip and Autogrip patterns.",
+      "sort_order": 3,
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=9d2d5ac0893c2d58.jpg"
+    }
+  ],
+  "surz_product": [
+    {
+      "product_name": "Adenoid Curette with Cage",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "A specialised ENT surgical instrument designed for efficient tissue excision, with a cage that retains what it removes.",
+      "unit_price": 2250,
+      "mrp": 2655,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "adenoid-curette-with-cage-surgical-instruments",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=be11e5517034c3c6.jpg"
+    },
+    {
+      "product_name": "Adson Beckman Retractor",
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "subtitle": "Precision Surgical Retractor",
+      "descr": "A premium-grade, self-retaining surgical instrument engineered for deep tissue retraction during spinal, neurosurgical and orthopaedic operations.",
+      "unit_price": 3200,
+      "mrp": 3776,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Top Quality",
+      "slug": "adson-beckman-retractor",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg"
+    },
+    {
+      "product_name": "Adson Brown Tissue Forceps",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision Grip Surgical Instrument",
+      "descr": "Designed with specialised side-grasping and multi-tooth intermeshing jaws for atraumatic handling of delicate tissue.",
+      "unit_price": 650,
+      "mrp": 767,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "adson-brown-tissue-forceps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=9d2d5ac0893c2d58.jpg"
+    },
+    {
+      "product_name": "Adson Brown Tissue Forceps (fine)",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision Surgical Forceps",
+      "descr": "Side-grasping, multi-tooth intermeshing jaws in a finer pattern for plastic and reconstructive work.",
+      "unit_price": 675,
+      "mrp": 796,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "adson-brown-tissue-forceps1",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=6d2f3c130c235d25.jpg"
+    },
+    {
+      "product_name": "Adson Dissecting Forceps Plain",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision Surgical Tool",
+      "descr": "A plain-jaw dissecting forceps for routine theatre use, in the standard Adson pattern.",
+      "unit_price": 182,
+      "mrp": 215,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "premium-surgical-instruments-2",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=a7a42348854acf1a.jpg"
+    },
+    {
+      "product_name": "Allis Tissue Forceps",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision instrument for tissue handling",
+      "descr": "Renowned for their ability to firmly grasp and hold heavy soft tissue without crushing it.",
+      "unit_price": 415,
+      "mrp": 490,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "allis-tissue-forceps-surgical-tissue-forceps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=fe8355ccd64ca756.jpg"
+    },
+    {
+      "product_name": "Allis Tissue Forceps Autagrip",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "High-performance tissue-holding forceps engineered with non-crushing Autagrip jaw serrations.",
+      "unit_price": 1463,
+      "mrp": 1726,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "allis-tissue-forceps-autragrip",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=cbfb2abc243eb3b1.jpg"
+    },
+    {
+      "product_name": "Allison Lung Retractor",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Lung Retractor",
+      "descr": "A thoracic retractor with a broad fenestrated blade for holding lung tissue clear of the operative field.",
+      "unit_price": 2010,
+      "mrp": 2372,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "allison-lung-retractor",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=0db52f017b4e6ac5.jpg"
+    },
+    {
+      "product_name": "Anderson Tendon Tunneling Forceps",
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "subtitle": "Precision Instrument for Tendon Procedures",
+      "descr": "Specialised orthopaedic and hand-surgery instruments engineered for passing a tendon through a prepared tunnel.",
+      "unit_price": 3900,
+      "mrp": 4602,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "anderson-tendon-tunneling-forceps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8f790f5cbbd5c711.jpg"
+    },
+    {
+      "product_name": "Artery Forceps Crile",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Curved Surgical Instrument",
+      "descr": "Essential haemostatic forceps designed for occluding medium-sized blood vessels.",
+      "unit_price": 390,
+      "mrp": 460,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "artery-forceps-crile",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=02313cf3d7244bfd.jpg"
+    },
+    {
+      "product_name": "Artery Forceps Kocher",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "Heavy-duty haemostatic forceps engineered for clamping large, tough tissue with a 1x2 toothed tip.",
+      "unit_price": 390,
+      "mrp": 460,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "artery-forceps-kocher",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=b42d41f5b4adb211.jpg"
+    },
+    {
+      "product_name": "Artery Forceps Ochsner",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "Robust, aggressive haemostatic forceps designed for grasping tough tissue and clamping vessels.",
+      "unit_price": 404,
+      "mrp": 477,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "artery-forceps-ochsner",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=f3cda876c5cd637b.jpg"
+    },
+    {
+      "product_name": "Artery Forceps Pean",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "High-Quality Surgical Instrument",
+      "descr": "Heavy-duty, non-toothed haemostatic forceps designed for clamping larger blood vessels.",
+      "unit_price": 426,
+      "mrp": 503,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Premium Quality",
+      "slug": "artery-forceps-pean",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=c197b65a4783767a.jpg"
+    },
+    {
+      "product_name": "Artery Forceps Robert",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "Long, curved haemostatic forceps ideal for grasping and occluding vessels deep in the field.",
+      "unit_price": 732,
+      "mrp": 864,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "artery-forceps-robert-hemostatic-forceps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=d0d92b08b19a71f8.jpg"
+    },
+    {
+      "product_name": "B.P Handle Bayonet",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "A bayonet-offset scalpel handle that keeps the surgeon's hand out of the line of sight.",
+      "unit_price": 634,
+      "mrp": 748,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "bp-handle-bayonet-5",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=5e92621741f314a0.jpg"
+    },
+    {
+      "product_name": "Babcock Forceps Autogrip",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "Non-crushing atraumatic jaw serrations for holding bowel and other delicate structures.",
+      "unit_price": 1463,
+      "mrp": 1726,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "New",
+      "slug": "babcock-forceps-autogrip",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=522ff00ac6f46b18.jpg"
+    },
+    {
+      "product_name": "Babcock Forceps TC",
+      "category_code": "DIS",
+      "category_name": "Dissecting Forceps",
+      "subtitle": "Premium Surgical Instrument",
+      "descr": "High-performance tissue forceps enhanced with tungsten carbide inserts for grip and service life.",
+      "unit_price": 1950,
+      "mrp": 2301,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Premium Quality",
+      "slug": "bulldog-clamps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=263d6a4963a0b57f.jpg"
+    },
+    {
+      "product_name": "Birkett Tonsil Artery Forceps",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "Specialised ENT haemostatic forceps designed for the tonsillar fossa.",
+      "unit_price": 585,
+      "mrp": 690,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Premium Quality",
+      "slug": "birkett-tonsil-artery-forceps",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=e23bdd1c90f4eab7.jpg"
+    },
+    {
+      "product_name": "Bone Hook",
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "A heavy-duty orthopaedic instrument engineered for manipulating, elevating and reducing bone.",
+      "unit_price": 445,
+      "mrp": 525,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Top Quality",
+      "slug": "dandy-artery-forceps-55",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=f5d65ee6fad4b147.jpg"
+    },
+    {
+      "product_name": "Bone Reduction Clamp Towel Type",
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "subtitle": "Precision Instrument for Orthopaedic Procedures",
+      "descr": "A critical orthopaedic instrument engineered for the precise alignment and holding of a fracture during fixation.",
+      "unit_price": 1800,
+      "mrp": 2124,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "bone-reduction-clamp-towel-type",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=deaefc88052a8d62.jpg"
+    },
+    {
+      "product_name": "Bulldog Clamps",
+      "category_code": "GEN",
+      "category_name": "Surgical Instruments",
+      "subtitle": "Precision Surgical Vessel Clamp",
+      "descr": "Spring vessel clamps for temporary occlusion of small to medium vessels.",
+      "unit_price": 439,
+      "mrp": 518,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Best Seller",
+      "slug": "bulldog-clamps1",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=83871c5bcbd6f36e.jpg"
+    },
+    {
+      "product_name": "Castpaw Retractor (Kilner Retractor)",
+      "category_code": "ORT",
+      "category_name": "Orthopaedic",
+      "subtitle": "Precision Surgical Instrument",
+      "descr": "A premium-grade, double-ended retractor with a 'cat's paw' hook at one end and a blunt blade at the other.",
+      "unit_price": 350,
+      "mrp": 413,
+      "hsn_code": "90183990",
+      "gst_rate": 12.0,
+      "stock_qty": 25,
+      "reorder_level": 5,
+      "ribbon": "Surgical Grade",
+      "slug": "castpaw-retractor-kilner-retractor",
+      "is_active": "Y",
+      "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8096860f34cc1025.jpg"
+    }
+  ],
+  "surz_discount": [
+    {
+      "code": "TENDER10",
+      "descr": "Tender and distributor pricing",
+      "percent_off": 10,
+      "min_order": 20000,
+      "is_active": "Y"
+    }
+  ],
+  "surz_product_image": {
+    "Adenoid Curette with Cage": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=be11e5517034c3c6.jpg",
+        "caption": "Adenoid Curette with Cage"
+      }
+    ],
+    "Adson Beckman Retractor": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg",
+        "caption": "Adson Beckman Retractor"
+      }
+    ],
+    "Adson Brown Tissue Forceps": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=9d2d5ac0893c2d58.jpg",
+        "caption": "Adson Brown Tissue Forceps"
+      }
+    ],
+    "Adson Brown Tissue Forceps (fine)": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=6d2f3c130c235d25.jpg",
+        "caption": "Adson Brown Tissue Forceps (fine)"
+      }
+    ],
+    "Adson Dissecting Forceps Plain": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=a7a42348854acf1a.jpg",
+        "caption": "Adson Dissecting Forceps Plain"
+      }
+    ],
+    "Allis Tissue Forceps": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=fe8355ccd64ca756.jpg",
+        "caption": "Allis Tissue Forceps"
+      }
+    ],
+    "Allis Tissue Forceps Autagrip": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=cbfb2abc243eb3b1.jpg",
+        "caption": "Allis Tissue Forceps Autagrip"
+      }
+    ],
+    "Allison Lung Retractor": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=0db52f017b4e6ac5.jpg",
+        "caption": "Allison Lung Retractor"
+      }
+    ],
+    "Anderson Tendon Tunneling Forceps": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8f790f5cbbd5c711.jpg",
+        "caption": "Anderson Tendon Tunneling Forceps"
+      }
+    ],
+    "Artery Forceps Crile": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=02313cf3d7244bfd.jpg",
+        "caption": "Artery Forceps Crile"
+      }
+    ],
+    "Artery Forceps Kocher": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=b42d41f5b4adb211.jpg",
+        "caption": "Artery Forceps Kocher"
+      }
+    ],
+    "Artery Forceps Ochsner": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=f3cda876c5cd637b.jpg",
+        "caption": "Artery Forceps Ochsner"
+      }
+    ],
+    "Artery Forceps Pean": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=c197b65a4783767a.jpg",
+        "caption": "Artery Forceps Pean"
+      }
+    ],
+    "Artery Forceps Robert": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=d0d92b08b19a71f8.jpg",
+        "caption": "Artery Forceps Robert"
+      }
+    ],
+    "B.P Handle Bayonet": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=5e92621741f314a0.jpg",
+        "caption": "B.P Handle Bayonet"
+      }
+    ],
+    "Babcock Forceps Autogrip": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=522ff00ac6f46b18.jpg",
+        "caption": "Babcock Forceps Autogrip"
+      }
+    ],
+    "Babcock Forceps TC": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=263d6a4963a0b57f.jpg",
+        "caption": "Babcock Forceps TC"
+      }
+    ],
+    "Birkett Tonsil Artery Forceps": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=e23bdd1c90f4eab7.jpg",
+        "caption": "Birkett Tonsil Artery Forceps"
+      }
+    ],
+    "Bone Hook": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=f5d65ee6fad4b147.jpg",
+        "caption": "Bone Hook"
+      }
+    ],
+    "Bone Reduction Clamp Towel Type": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=deaefc88052a8d62.jpg",
+        "caption": "Bone Reduction Clamp Towel Type"
+      }
+    ],
+    "Bulldog Clamps": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=83871c5bcbd6f36e.jpg",
+        "caption": "Bulldog Clamps"
+      }
+    ],
+    "Castpaw Retractor (Kilner Retractor)": [
+      {
+        "image_url": "/api/designers/assets/raw?project=Surzion_Store&file=8096860f34cc1025.jpg",
+        "caption": "Castpaw Retractor (Kilner Retractor)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "scores": {
+  "text": 0.941,
+  "headings": 0.898,
+  "images": 1.0,
+  "sections": {
+   "page": 3,
+   "source": 2
+  },
+  "paint": 1.0,
+  "fonts": true
+ },
+ "passed": true,
+ "issues": [],
+ "missing": {
+  "headings": [
+   "return, refund & replacement policy",
+   "terms and conditions",
+   "we'll reply within 12 hours"
+  ],
+  "images": [],
+  "paint": []
+ }
+}

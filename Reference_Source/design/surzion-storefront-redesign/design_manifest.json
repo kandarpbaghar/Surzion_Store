@@ -1,0 +1,1515 @@
+{
+ "version": 1,
+ "kind": "claude_design",
+ "slug": "surzion-storefront-redesign",
+ "title": "Surzion Storefront Redesign",
+ "source_url": null,
+ "imported_at": "2026-10-09T13:08:32Z",
+ "notes_on_canvas": [
+  "Surzion storefront — Twasta theme (Modern Light, Surzion navy)",
+  "Store pages from surzion.com — shop, product, about, catalogue, contact, policies"
+ ],
+ "boards": [
+  {
+   "board": "Main",
+   "file": "Main.dc.html",
+   "title": "Home — redesigned",
+   "frame": {
+    "w": 1440,
+    "h": 4300
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Main.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Main"
+    },
+    {
+     "state": "prev",
+     "dir": "boards/Main@prev"
+    },
+    {
+     "state": "next",
+     "dir": "boards/Main@next"
+    }
+   ],
+   "headings": [
+    "Quality Surgical Instruments Supplier in India",
+    "Product categories",
+    "TC Surgical Instruments",
+    "General Surgical Instruments",
+    "Orthopaedic Surgical Instruments",
+    "Best sellers & new arrivals",
+    "Share Surzion with your followers"
+   ],
+   "sections": 7,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Product",
+    "PartnerPortal",
+    "Policies",
+    "Contact"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [
+    "#wishlist",
+    "#shop"
+   ],
+   "inputs": [
+    {
+     "type": "select",
+     "label": "Sort by Default Price: low to high Price: high to low Most recent",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": "sort"
+    },
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "−",
+    "+",
+    "Add to bag",
+    "Submit your inquiry"
+   ],
+   "placeholders": [
+    "[CODE]",
+    "[N]"
+   ],
+   "repeats": 3,
+   "conditionals": 7
+  },
+  {
+   "board": "Register",
+   "file": "Register.dc.html",
+   "title": "Customer sign in & registration",
+   "frame": {
+    "w": 1440,
+    "h": 1060
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Register.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Register"
+    },
+    {
+     "state": "toRegister",
+     "dir": "boards/Register@toRegister"
+    },
+    {
+     "state": "toPassword",
+     "dir": "boards/Register@toPassword"
+    }
+   ],
+   "headings": [
+    "Welcome back"
+   ],
+   "sections": 3,
+   "has_header": false,
+   "has_footer": false,
+   "sample_rows": false,
+   "links_to_boards": [
+    "Main",
+    "ForgotPassword",
+    "Orders",
+    "Policies",
+    "Partner"
+   ],
+   "external_links": [],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Email or mobile number",
+     "placeholder": "name@hospital.in or 98765 43210",
+     "autocomplete": "username",
+     "name": null
+    },
+    {
+     "type": "password",
+     "label": "Password Forgot password?",
+     "placeholder": null,
+     "autocomplete": "current-password",
+     "name": null
+    },
+    {
+     "type": "checkbox",
+     "label": "Keep me signed in on this device",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "First name",
+     "placeholder": null,
+     "autocomplete": "given-name",
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": null,
+     "autocomplete": "family-name",
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Email",
+     "placeholder": "name@hospital.in",
+     "autocomplete": "email",
+     "name": null
+    },
+    {
+     "type": "tel",
+     "label": "Mobile number +91",
+     "placeholder": "98765 43210",
+     "autocomplete": "tel-national",
+     "name": null
+    },
+    {
+     "type": "password",
+     "label": "Password At least 8 characters with a number.",
+     "placeholder": null,
+     "autocomplete": "new-password",
+     "name": null
+    },
+    {
+     "type": "checkbox",
+     "label": "I agree to the Terms and Privacy policy .",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Sign in",
+    "Create account",
+    "Continue",
+    "Change"
+   ],
+   "placeholders": [],
+   "repeats": 0,
+   "conditionals": 3
+  },
+  {
+   "board": "Partner",
+   "file": "Partner.dc.html",
+   "title": "Become a partner — application",
+   "frame": {
+    "w": 1440,
+    "h": 3200
+   },
+   "page": true,
+   "interactive": false,
+   "source": "source/Partner.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Partner"
+    }
+   ],
+   "headings": [
+    "Share Surzion. Your followers save.",
+    "What you get",
+    "Your own discount code",
+    "Your followers save on every item",
+    "Order tracking",
+    "How it works",
+    "Partner application"
+   ],
+   "sections": 5,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Main",
+    "Partner",
+    "PartnerPortal",
+    "Register"
+   ],
+   "external_links": [],
+   "anchors": [
+    "#about",
+    "#catalogue",
+    "#cart",
+    "#apply",
+    "#privacy",
+    "#terms",
+    "#shipping",
+    "#returns"
+   ],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Contact name *",
+     "placeholder": null,
+     "autocomplete": "name",
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Creator or channel name",
+     "placeholder": "@yourhandle",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Email *",
+     "placeholder": null,
+     "autocomplete": "email",
+     "name": null
+    },
+    {
+     "type": "tel",
+     "label": "Phone *",
+     "placeholder": "+91",
+     "autocomplete": "tel",
+     "name": null
+    },
+    {
+     "type": "url",
+     "label": "Profile link *",
+     "placeholder": "https://instagram.com/yourhandle",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Other channels Optional, one link per line",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "select",
+     "label": "Followers Select range Under 5,000 5,000 – 50,000 50,000 – 2,50,000 Over 2,50,00",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "select",
+     "label": "Your audience Select audience Surgeons Doctors (general) Medical students Nurses",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "City",
+     "placeholder": null,
+     "autocomplete": "address-level2",
+     "name": null
+    },
+    {
+     "type": "select",
+     "label": "State Select state Punjab Delhi Maharashtra Karnataka Tamil Nadu",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "What do you post, and how would you feature Surzion?",
+     "placeholder": "e.g. I review surgical kits for residents in weekly reels…",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Submit application"
+   ],
+   "placeholders": [
+    "[N]"
+   ],
+   "repeats": 1,
+   "conditionals": 0
+  },
+  {
+   "board": "PartnerPortal",
+   "file": "PartnerPortal.dc.html",
+   "title": "My partner account",
+   "frame": {
+    "w": 1440,
+    "h": 1800
+   },
+   "page": true,
+   "interactive": false,
+   "source": "source/PartnerPortal.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/PartnerPortal"
+    }
+   ],
+   "headings": [
+    "Application status",
+    "Orders claimed with my code"
+   ],
+   "sections": 2,
+   "has_header": true,
+   "has_footer": false,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Main",
+    "Partner",
+    "PartnerPortal",
+    "Register"
+   ],
+   "external_links": [],
+   "anchors": [
+    "#about",
+    "#catalogue",
+    "#account",
+    "#orders",
+    "#wishlist",
+    "#addresses"
+   ],
+   "inputs": [
+    {
+     "type": "select",
+     "label": "Status All Paid Pending Delivered",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Copy code",
+    "Download QR",
+    "Share link"
+   ],
+   "placeholders": [
+    "[Applied date]",
+    "[CODE]",
+    "[N]"
+   ],
+   "repeats": 1,
+   "conditionals": 0
+  },
+  {
+   "board": "Claim",
+   "file": "Claim.dc.html",
+   "title": "Checkout — buyer claims a creator code",
+   "frame": {
+    "w": 1440,
+    "h": 1000
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Claim.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Claim"
+    },
+    {
+     "state": "remove",
+     "dir": "boards/Claim@remove"
+    }
+   ],
+   "headings": [
+    "Checkout",
+    "Contact",
+    "Delivery address",
+    "Order summary"
+   ],
+   "sections": 2,
+   "has_header": true,
+   "has_footer": false,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Main",
+    "Register"
+   ],
+   "external_links": [],
+   "anchors": [
+    "#new"
+   ],
+   "inputs": [
+    {
+     "type": "radio",
+     "label": "[Name] · Home [Street, City, State PIN] · [Mobile]",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": "addr"
+    },
+    {
+     "type": "text",
+     "label": "",
+     "placeholder": "e.g. DRSHARMA10",
+     "autocomplete": null,
+     "name": "code"
+    }
+   ],
+   "buttons": [
+    "Apply",
+    "Remove",
+    "Continue to payment"
+   ],
+   "placeholders": [
+    "[CODE]",
+    "[Mobile]",
+    "[Name]",
+    "[Street, City, State PIN]"
+   ],
+   "repeats": 1,
+   "conditionals": 6
+  },
+  {
+   "board": "Shop",
+   "file": "Shop.dc.html",
+   "title": "Shop — all instruments",
+   "frame": {
+    "w": 1440,
+    "h": 3700
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Shop.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Shop"
+    }
+   ],
+   "headings": [
+    "Shop surgical instruments"
+   ],
+   "sections": 3,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Product",
+    "Contact",
+    "Policies"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "search",
+     "label": "",
+     "placeholder": "Search instruments",
+     "autocomplete": null,
+     "name": "q"
+    },
+    {
+     "type": "select",
+     "label": "Sort by Default Price: low to high Price: high to low Name: A to Z",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": "sort"
+    },
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Add to bag",
+    "Clear filters",
+    "Submit your inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 2,
+   "conditionals": 3
+  },
+  {
+   "board": "Product",
+   "file": "Product.dc.html",
+   "title": "Product — Artery Forceps Robert, with ratings & reviews",
+   "frame": {
+    "w": 1440,
+    "h": 3600
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Product.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Product"
+    },
+    {
+     "state": "inc",
+     "dir": "boards/Product@inc"
+    },
+    {
+     "state": "add",
+     "dir": "boards/Product@add"
+    },
+    {
+     "state": "writeReview",
+     "dir": "boards/Product@writeReview"
+    }
+   ],
+   "headings": [],
+   "sections": 2,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Product",
+    "Policies",
+    "Contact"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [
+    "#reviews"
+   ],
+   "inputs": [
+    {
+     "type": "select",
+     "label": "Sort by Most recent Highest rated Lowest rated Most helpful",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": "rsort"
+    },
+    {
+     "type": "text",
+     "label": "Review title",
+     "placeholder": "Sum it up in a few words",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Your review",
+     "placeholder": "How was the grip, finish and sharpness? How did it hold up to sterilisation?",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "file",
+     "label": "Add photos · optional, up to 4",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "−",
+    "+",
+    "Add to bag",
+    "Write a review",
+    "Submit review",
+    "Choose a rating to continue",
+    "Done",
+    "Submit your inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 7,
+   "conditionals": 15
+  },
+  {
+   "board": "About",
+   "file": "About.dc.html",
+   "title": "About Surzion",
+   "frame": {
+    "w": 1440,
+    "h": 4200
+   },
+   "page": true,
+   "interactive": false,
+   "source": "source/About.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/About"
+    }
+   ],
+   "headings": [
+    "Experience builds vision, and vision creates innovation.",
+    "Quality wholesale supplier for healthcare professionals in India.",
+    "Quality Instruments",
+    "Titanium Instruments",
+    "Wide Range",
+    "Healthcare Support",
+    "Explore our range of high-quality surgical instruments."
+   ],
+   "sections": 6,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": false,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Policies",
+    "Contact"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Submit your inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 0,
+   "conditionals": 0
+  },
+  {
+   "board": "Catalogue",
+   "file": "Catalogue.dc.html",
+   "title": "Online catalogue",
+   "frame": {
+    "w": 1440,
+    "h": 2600
+   },
+   "page": true,
+   "interactive": false,
+   "source": "source/Catalogue.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Catalogue"
+    }
+   ],
+   "headings": [
+    "The complete Kapsons range in one catalogue",
+    "Kapsons catalogue (PDF)",
+    "Buying in bulk?",
+    "Product Categories",
+    "TC Surgical Instruments",
+    "General Surgical Instruments",
+    "Orthopaedic Surgical Instruments"
+   ],
+   "sections": 4,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": false,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Contact",
+    "Policies"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://wa.me/917814861010?text=Hi%20I%20am%20interested%20in%20surzion%20surgical%20instruments%20could%20you%20please%20share%20more%20details",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Submit your inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 0,
+   "conditionals": 0
+  },
+  {
+   "board": "Contact",
+   "file": "Contact.dc.html",
+   "title": "Contact us",
+   "frame": {
+    "w": 1440,
+    "h": 1900
+   },
+   "page": true,
+   "interactive": false,
+   "source": "source/Contact.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Contact"
+    }
+   ],
+   "headings": [
+    "Contact Us",
+    "Find us"
+   ],
+   "sections": 3,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": false,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Policies"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://www.google.com/maps/search/?api=1&query=3%2C%20Kapurthala%20Road%2C%20Jalandhar%20Vihar%2C%20Prime%20Enclave%20Ext%20Chopra%20Township%2C%20Jalandhar%2C%20Punjab%2C%20India%2C%20144021",
+    "https://www.facebook.com/profile.php?id=61593815422631"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Your First Name",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your Email Address*",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Your Message*",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Submit Your Inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 0,
+   "conditionals": 0
+  },
+  {
+   "board": "Policies",
+   "file": "Policies.dc.html",
+   "title": "Policies — terms, returns, privacy",
+   "frame": {
+    "w": 1440,
+    "h": 4400
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Policies.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Policies"
+    }
+   ],
+   "headings": [
+    "1. Business Information",
+    "2. Use of the Website",
+    "3. Products",
+    "4. Prices",
+    "5. Orders",
+    "6. Payment",
+    "7. Shipping and Delivery",
+    "8. Cancellation",
+    "9. Returns, Refunds and Replacements",
+    "10. One-Year Replacement Warranty",
+    "11. Intellectual Property",
+    "12. Third-Party Services",
+    "13. Limitation of Liability",
+    "14. Force Majeure",
+    "15. Governing Law",
+    "16. Changes to These Terms",
+    "17. Contact"
+   ],
+   "sections": 18,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Policies",
+    "Contact"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "mailto:sales@surzion.com",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Submit your inquiry"
+   ],
+   "placeholders": [],
+   "repeats": 4,
+   "conditionals": 5
+  },
+  {
+   "board": "ForgotPassword",
+   "file": "ForgotPassword.dc.html",
+   "title": "Forgot password — reset flow",
+   "frame": {
+    "w": 1440,
+    "h": 1000
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/ForgotPassword.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/ForgotPassword"
+    },
+    {
+     "state": "send",
+     "dir": "boards/ForgotPassword@send"
+    },
+    {
+     "state": "openLink",
+     "dir": "boards/ForgotPassword@openLink"
+    }
+   ],
+   "headings": [
+    "Forgot your password?"
+   ],
+   "sections": 1,
+   "has_header": false,
+   "has_footer": false,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Main",
+    "Register",
+    "Orders",
+    "Shop"
+   ],
+   "external_links": [
+    "tel:+917814861010",
+    "mailto:sales@surzion.com"
+   ],
+   "anchors": [],
+   "inputs": [
+    {
+     "type": "text",
+     "label": "Email or mobile number",
+     "placeholder": "name@hospital.in or 98765 43210",
+     "autocomplete": "username",
+     "name": null
+    },
+    {
+     "type": "{{pwType}}",
+     "label": "New password {{pwToggleLabel}}",
+     "placeholder": null,
+     "autocomplete": "new-password",
+     "name": null
+    },
+    {
+     "type": "{{pwType}}",
+     "label": "Confirm new password",
+     "placeholder": null,
+     "autocomplete": "new-password",
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Send reset link",
+    "Open the link (prototype)",
+    "Resend link",
+    "Use a different email or number",
+    "Save new password"
+   ],
+   "placeholders": [],
+   "repeats": 3,
+   "conditionals": 16
+  },
+  {
+   "board": "Orders",
+   "file": "Orders.dc.html",
+   "title": "My account — order history & reviews",
+   "frame": {
+    "w": 1440,
+    "h": 3300
+   },
+   "page": true,
+   "interactive": true,
+   "source": "source/Orders.dc.html",
+   "states": [
+    {
+     "state": "default",
+     "dir": "boards/Orders"
+    },
+    {
+     "state": "toReview",
+     "dir": "boards/Orders@toReview"
+    }
+   ],
+   "headings": [],
+   "sections": 2,
+   "has_header": true,
+   "has_footer": true,
+   "sample_rows": true,
+   "links_to_boards": [
+    "Partner",
+    "Main",
+    "Shop",
+    "About",
+    "Catalogue",
+    "Register",
+    "Claim",
+    "Orders",
+    "ForgotPassword",
+    "PartnerPortal",
+    "Product",
+    "Policies",
+    "Contact"
+   ],
+   "external_links": [
+    "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "https://www.facebook.com/profile.php?id=61593815422631",
+    "tel:+917814861010",
+    "tel:+918195831010"
+   ],
+   "anchors": [
+    "#addresses",
+    "#invoice",
+    "#track"
+   ],
+   "inputs": [
+    {
+     "type": "search",
+     "label": "",
+     "placeholder": "Order number or product",
+     "autocomplete": null,
+     "name": "oq"
+    },
+    {
+     "type": "text",
+     "label": "Review title",
+     "placeholder": "Sum it up in a few words",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Your review",
+     "placeholder": "How was the grip, finish and sharpness? How did it hold up to sterilisation?",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "file",
+     "label": "Add photos · optional, up to 4",
+     "placeholder": null,
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Name",
+     "placeholder": "Your name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "text",
+     "label": "Last name",
+     "placeholder": "Your last name",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "email",
+     "label": "Your email*",
+     "placeholder": "Your email address",
+     "autocomplete": null,
+     "name": null
+    },
+    {
+     "type": "textarea",
+     "label": "Message*",
+     "placeholder": "Enter your message",
+     "autocomplete": null,
+     "name": null
+    }
+   ],
+   "buttons": [
+    "Rate & review",
+    "Buy again",
+    "Cancel order",
+    "Submit review",
+    "Choose a rating to continue",
+    "Done",
+    "Submit your inquiry"
+   ],
+   "placeholders": [
+    "[City]",
+    "[Hospital or clinic name]",
+    "[PIN]",
+    "[Street address]",
+    "[Your name]"
+   ],
+   "repeats": 6,
+   "conditionals": 27
+  }
+ ],
+ "tokens": {
+  "fonts": {
+   "body": "Poppins",
+   "heading": "Poppins",
+   "base_size": 16,
+   "h_sizes": {
+    "h1": 54,
+    "h2": 20,
+    "h3": 19
+   },
+   "heading_weight": 600
+  },
+  "colors": {
+   "primary": "#0e2358",
+   "accent": "#edf1fa",
+   "heading": "#0b1a3d",
+   "text": "#5b6b8c",
+   "link": "#0b1a3d",
+   "background": "#f5f8fe",
+   "surface": "#ffffff",
+   "surface_alt": "#ffffff",
+   "on_primary": "#ffffff",
+   "votes": {
+    "button_bg": {
+     "#0e2358": 102,
+     "#ffffff": 27,
+     "rgba(255, 255, 255, 0.9)": 24,
+     "rgba(8, 20, 52, 0.35)": 9,
+     "#edf1fa": 3
+    },
+    "card_bg": {
+     "#ffffff": 74,
+     "rgba(8, 20, 52, 0.35)": 3,
+     "#e5f5ee": 3,
+     "rgba(255, 255, 255, 0.08)": 2,
+     "#eef0f2": 1,
+     "#0e2358": 1
+    },
+    "text": {
+     "#5b6b8c": 53,
+     "#33415f": 53,
+     "#0b1a3d": 51,
+     "#1f9d63": 8,
+     "#2f6be6": 7,
+     "#ffffff": 7,
+     "#c9d6f2": 6,
+     "#9db8f5": 6
+    },
+    "link": {
+     "#0b1a3d": 34,
+     "#0e2358": 5,
+     "#ffffff": 5,
+     "#2f6be6": 5,
+     "#146c45": 1
+    },
+    "section_bg": {
+     "#ffffff": 38,
+     "#0e2358": 11,
+     "#edf1fa": 1,
+     "#f7f9fe": 1
+    },
+    "heading": {
+     "#0b1a3d": 51,
+     "#ffffff": 5
+    }
+   }
+  },
+  "layout": {
+   "max_width": 1220
+  },
+  "buttons": {
+   "radius": 999.0,
+   "pill": true
+  }
+ },
+ "markup": {
+  "colors": [
+   {
+    "hex": "#ffffff",
+    "uses": 296
+   },
+   {
+    "hex": "#0b1a3d",
+    "uses": 125
+   },
+   {
+    "hex": "#5b6b8c",
+    "uses": 120
+   },
+   {
+    "hex": "#e4eaf6",
+    "uses": 109
+   },
+   {
+    "hex": "#0e2358",
+    "uses": 101
+   },
+   {
+    "hex": "#2f6be6",
+    "uses": 85
+   },
+   {
+    "hex": "#dce4f3",
+    "uses": 57
+   },
+   {
+    "hex": "#7cbd64",
+    "uses": 49
+   },
+   {
+    "hex": "#f5f8fe",
+    "uses": 35
+   },
+   {
+    "hex": "#1f9d63",
+    "uses": 28
+   },
+   {
+    "hex": "#f1f1f1",
+    "uses": 28
+   },
+   {
+    "hex": "#0046a8",
+    "uses": 28
+   },
+   {
+    "hex": "#14307a",
+    "uses": 21
+   },
+   {
+    "hex": "#e8effd",
+    "uses": 18
+   },
+   {
+    "hex": "#c9d6f2",
+    "uses": 17
+   },
+   {
+    "hex": "#9db8f5",
+    "uses": 14
+   }
+  ],
+  "font_families": [
+   "Libre Baskerville",
+   "Poppins"
+  ]
+ },
+ "chrome": {
+  "header": {
+   "board": "Main",
+   "background": "rgb(255, 255, 255)",
+   "sticky": true,
+   "written": {
+    "bar_text": [
+     "Exclusive discounts on surgical instruments today!",
+     "NEW",
+     "Creators & influencers: get your own Surzion discount code →"
+    ],
+    "header_text": [
+     "[Surzion home]",
+     "[image: Surzion — The Surgical Excellence]",
+     "[Main]",
+     "Home",
+     "Shop",
+     "About",
+     "Online catalogue",
+     "Partners",
+     "[Search]",
+     "[Sign in]",
+     "Sign in",
+     "[Wishlist, 2 items]",
+     "2",
+     "[Cart, 3 items]",
+     "3",
+     "Catalogue"
+    ]
+   },
+   "height": 81,
+   "shows": [
+    "image (logo)",
+    "link: Home",
+    "link: Shop",
+    "link: About",
+    "link: Online catalogue",
+    "link: Partners",
+    "link: Sign in",
+    "link: Catalogue"
+   ],
+   "bar_above": [
+    {
+     "text": "",
+     "background": "rgb(14, 35, 88)"
+    }
+   ]
+  },
+  "footer": {
+   "board": "Main",
+   "background": "rgb(16, 32, 39)",
+   "shows": [
+    "text: We provide premium surgical solutions for precision care",
+    "link: Return, Refund & Replacement Policy",
+    "link: Terms and Conditions",
+    "link: Privacy Policy",
+    "link: Contact us",
+    "link: (+91-7814861010)",
+    "link: (+91-8195831010)",
+    "text: © 2025. All rights reserved.",
+    "heading: We'll reply within 12 hours"
+   ]
+  },
+  "boards_with_header": [
+   "About",
+   "Catalogue",
+   "Claim",
+   "Contact",
+   "Main",
+   "Orders",
+   "Partner",
+   "PartnerPortal",
+   "Policies",
+   "Product",
+   "Shop"
+  ],
+  "project_sites": [
+   {
+    "site": "surz_site",
+    "title": "Surzion storefront",
+    "header_page": "surz_site_header",
+    "footer_page": "surz_site_footer"
+   }
+  ]
+ },
+ "assets": {
+  "included": 58,
+  "uploaded": 58,
+  "missing": [],
+  "failed": []
+ },
+ "capture_failed": [],
+ "import_notes": []
+}

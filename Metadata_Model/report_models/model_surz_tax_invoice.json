@@ -1,0 +1,54 @@
+{
+  "OBJ_NAME": "SURZ_TAX_INVOICE",
+  "OBJ_TYPE": "R",
+  "TITLE": "Tax invoice",
+  "REPORT": {
+    "MAIN_JRXML": "report.jrxml",
+    "JRXML_FILES": [
+      "report.jrxml"
+    ],
+    "DEFAULT_OUTPUT_FORMAT": "pdf",
+    "OUTPUT_FORMATS": [
+      "pdf",
+      "html",
+      "excel"
+    ],
+    "PARAMETERS": [
+      {
+        "name": "ORDER_NO",
+        "java_class": "java.lang.String"
+      }
+    ]
+  },
+  "SQLMODEL": {
+    "DATABASE_DETAIL": {
+      "CONNECTION_ID": ""
+    },
+    "CRITERIA": {
+      "query": {
+        "condition": "and",
+        "rules": [
+          {
+            "id": "Criteria_1",
+            "field": "ORDER_NO",
+            "COLTYPE": "string",
+            "currentFieldType": "string",
+            "operator": "=",
+            "queryOption": "P",
+            "prevOption": "P",
+            "promptLabel": "Order no",
+            "value": "",
+            "chipValue": [],
+            "JASPER_PARAM": "ORDER_NO",
+            "lookup": "",
+            "lookup_sql": "SELECT ORDER_NO, CUSTOMER_NAME, TOTAL_AMOUNT FROM SURZ_ORDER ORDER BY ORDER_DATE DESC",
+            "lookup_sql_data_col": "ORDER_NO",
+            "lookup_title": "Orders",
+            "options": [],
+            "item_change": null
+          }
+        ]
+      }
+    }
+  }
+}

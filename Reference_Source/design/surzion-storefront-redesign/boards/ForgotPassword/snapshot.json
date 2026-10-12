@@ -1,0 +1,220 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html",
+ "title": "Reset your password — Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1000,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 42,
+   "weight": 600,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "48.3px",
+   "letterSpacing": "-0.84px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 26,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.5px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(201, 214, 242)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": null,
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgb(14, 35, 88)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(47, 107, 230)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0:forgot-your-password",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 354,
+    "w": 398,
+    "h": 305
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 398
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Forgot your password?",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 26,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 398,
+      "h": 33
+     }
+    },
+    {
+     "t": "text",
+     "text": "Enter the email or mobile number on your account and we'll send you a reset link.",
+     "html": "Enter the email or mobile number on your account and we'll send you a reset link.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 38,
+      "w": 398,
+      "h": 51
+     }
+    },
+    {
+     "t": "button",
+     "text": "Send reset link",
+     "href": null,
+     "style": {
+      "bg": "rgb(14, 35, 88)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": null,
+      "size": 16,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 0,
+      "y": 209,
+      "w": 398,
+      "h": 52
+     }
+    },
+    {
+     "t": "link",
+     "text": "Remembered it? Sign in",
+     "href": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(47, 107, 230)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "23.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 281,
+      "w": 398,
+      "h": 24
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "33efdcc9a5647603"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html",
+ "captured_at": "2026-10-09T13:08:15Z",
+ "page_fingerprint": "e529894c9cfa2953",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "ForgotPassword",
+  "state": null,
+  "visible_text": "← Back to sign in\nLocked out? It happens.\n\nWe'll send a secure link to your email or mobile number. Setting a new password signs you out of every other device.\n\nNeed help? Call +91-7814861010 or write to sales@surzion.com\nRequest link\nCheck inbox\nNew password\nForgot your password?\n\nEnter the email or mobile number on your account and we'll send you a reset link.\n\nEmail or mobile number\nSend reset link\nRemembered it? Sign in\nReset links are single-use · Your details stay with Surzion",
+  "sample_text": [
+   "Request link",
+   "Check inbox",
+   "New password"
+  ],
+  "sample_images": []
+ }
+}

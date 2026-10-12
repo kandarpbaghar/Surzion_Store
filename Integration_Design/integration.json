@@ -1,0 +1,346 @@
+{
+  "version": 2,
+  "events": [
+    {
+      "event_name": "surz_order_confirmed",
+      "display_name": "Surzion order confirmed",
+      "description": "Emitted once by the surz_order post_commit BL when an order is first placed. The flow should email the customer (email) the order confirmation, using subject and body, or render its own template from the order, lines and amounts. Money values are exact 2-decimal strings.",
+      "source": {
+        "type": "custom"
+      },
+      "params": [],
+      "arguments": [
+        {
+          "name": "order_no",
+          "type": "string",
+          "description": "Order number",
+          "required": true
+        },
+        {
+          "name": "order_date",
+          "type": "string",
+          "description": "Order date, YYYY-MM-DD or YYYY-MM-DD HH:MM",
+          "required": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "description": "Customer e-mail address (recipient)",
+          "required": true
+        },
+        {
+          "name": "customer_name",
+          "type": "string",
+          "description": "Customer name",
+          "required": false
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "description": "Customer phone",
+          "required": false
+        },
+        {
+          "name": "ship_address",
+          "type": "string",
+          "description": "Shipping address",
+          "required": false
+        },
+        {
+          "name": "subtotal",
+          "type": "string",
+          "description": "Subtotal, 2dp string",
+          "required": false
+        },
+        {
+          "name": "discount_amt",
+          "type": "string",
+          "description": "Discount amount, 2dp string",
+          "required": false
+        },
+        {
+          "name": "gst_amt",
+          "type": "string",
+          "description": "GST amount, 2dp string",
+          "required": false
+        },
+        {
+          "name": "shipping_amt",
+          "type": "string",
+          "description": "Shipping amount, 2dp string",
+          "required": false
+        },
+        {
+          "name": "total_amount",
+          "type": "string",
+          "description": "Order total, 2dp string",
+          "required": true
+        },
+        {
+          "name": "paid_amount",
+          "type": "string",
+          "description": "Amount paid so far, 2dp string",
+          "required": false
+        },
+        {
+          "name": "amount_due",
+          "type": "string",
+          "description": "Outstanding amount, 2dp string",
+          "required": false
+        },
+        {
+          "name": "payment_due",
+          "type": "boolean",
+          "description": "True when an amount is still outstanding",
+          "required": false
+        },
+        {
+          "name": "pay_status",
+          "type": "string",
+          "description": "Payment status (upper case)",
+          "required": false
+        },
+        {
+          "name": "pay_method",
+          "type": "string",
+          "description": "Payment method",
+          "required": false
+        },
+        {
+          "name": "lines",
+          "type": "object",
+          "description": "List of order lines, each with line_no, product_code, product_name, qty, unit_price, line_total (all strings)",
+          "required": false
+        },
+        {
+          "name": "subject",
+          "type": "string",
+          "description": "Ready-made e-mail subject",
+          "required": false
+        },
+        {
+          "name": "body",
+          "type": "string",
+          "description": "Ready-made plain-text e-mail body",
+          "required": false
+        }
+      ],
+      "active": true
+    },
+    {
+      "event_name": "surz_partner_registered",
+      "display_name": "Surzion partner registered",
+      "description": "Emitted when a partner application is submitted. The flow should email an acknowledgement to the applicant (email) and send a notice of the new application to the admin.",
+      "source": {
+        "type": "custom"
+      },
+      "params": [],
+      "arguments": [
+        {
+          "name": "partner_id",
+          "type": "string",
+          "description": "Partner ID",
+          "required": true
+        },
+        {
+          "name": "partner_name",
+          "type": "string",
+          "description": "Partner contact name",
+          "required": true
+        },
+        {
+          "name": "org_name",
+          "type": "string",
+          "description": "Partner organisation name",
+          "required": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "description": "Applicant e-mail address (recipient of the acknowledgement)",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "description": "Applicant phone",
+          "required": false
+        },
+        {
+          "name": "handle",
+          "type": "string",
+          "description": "Social handle",
+          "required": false
+        },
+        {
+          "name": "platform",
+          "type": "string",
+          "description": "Main platform",
+          "required": false
+        },
+        {
+          "name": "profile_url",
+          "type": "string",
+          "description": "Profile URL",
+          "required": false
+        },
+        {
+          "name": "follower_range",
+          "type": "string",
+          "description": "Follower range",
+          "required": false
+        },
+        {
+          "name": "audience",
+          "type": "string",
+          "description": "Audience description",
+          "required": false
+        }
+      ],
+      "active": true
+    },
+    {
+      "event_name": "surz_partner_approved",
+      "display_name": "Surzion partner approved",
+      "description": "Emitted when a partner is approved. The flow should email a welcome message to the partner (email) with the QR image (qr_url) and the discount code and percentage in the text, plus the portal link. Optionally copy admin_email.",
+      "source": {
+        "type": "custom"
+      },
+      "params": [],
+      "arguments": [
+        {
+          "name": "partner_id",
+          "type": "string",
+          "description": "Partner ID",
+          "required": true
+        },
+        {
+          "name": "partner_name",
+          "type": "string",
+          "description": "Partner name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "description": "Partner e-mail address (recipient)",
+          "required": true
+        },
+        {
+          "name": "discount_code",
+          "type": "string",
+          "description": "Partner discount code",
+          "required": true
+        },
+        {
+          "name": "discount_pct",
+          "type": "string",
+          "description": "Discount percentage, exact 2-decimal string",
+          "required": true
+        },
+        {
+          "name": "qr_url",
+          "type": "string",
+          "description": "URL of the partner QR image",
+          "required": true
+        },
+        {
+          "name": "portal_url",
+          "type": "string",
+          "description": "Link to the partner portal",
+          "required": true
+        },
+        {
+          "name": "admin_email",
+          "type": "string",
+          "description": "Admin e-mail address to copy, if any",
+          "required": false
+        }
+      ],
+      "active": true
+    },
+    {
+      "event_name": "surz_partner_rejected",
+      "display_name": "Surzion partner rejected",
+      "description": "Emitted when a partner application is rejected. The flow should email the applicant (email) a polite rejection stating the reason.",
+      "source": {
+        "type": "custom"
+      },
+      "params": [],
+      "arguments": [
+        {
+          "name": "partner_id",
+          "type": "string",
+          "description": "Partner ID",
+          "required": true
+        },
+        {
+          "name": "partner_name",
+          "type": "string",
+          "description": "Partner name",
+          "required": true
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "description": "Applicant e-mail address (recipient)",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": "string",
+          "description": "Rejection reason",
+          "required": false
+        }
+      ],
+      "active": true
+    },
+    {
+      "event_name": "notification.created",
+      "display_name": "Notification raised",
+      "description": "Somebody was told something in the app \u2014 work assigned, an approval decided, a job finished. Twasta always writes the in-app row itself; a flow on this event is how it also reaches email, WhatsApp, Slack or Telegram, so there is ONE delivery implementation rather than one per producer.",
+      "source": {
+        "type": "custom"
+      },
+      "arguments": [
+        {
+          "name": "kind",
+          "type": "string",
+          "required": true,
+          "description": "task_assigned | task_opened | task_closed | approval | job | alert | info"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true,
+          "description": "The one line the recipient reads."
+        },
+        {
+          "name": "body",
+          "type": "string",
+          "description": "Optional detail under the title."
+        },
+        {
+          "name": "users",
+          "type": "array",
+          "required": true,
+          "description": "The user ids told, roles already expanded to members."
+        },
+        {
+          "name": "source_ref",
+          "type": "string",
+          "description": "What it is about (a task key, an approval instance)."
+        },
+        {
+          "name": "actor",
+          "type": "string",
+          "description": "Who caused it (excluded from the recipients)."
+        }
+      ],
+      "active": true,
+      "managed": true
+    }
+  ],
+  "apis": [],
+  "ioflow": {}
+}

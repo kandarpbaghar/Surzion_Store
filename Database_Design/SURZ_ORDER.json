@@ -1,0 +1,293 @@
+{
+  "table_name": "SURZ_ORDER",
+  "description": "Order (surz_order)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "ORDER_NO",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Order no"
+    },
+    {
+      "column_name": "ORDER_DATE",
+      "data_type": "DATE",
+      "size": "",
+      "sequence": 2,
+      "key": false,
+      "mandatory": true,
+      "description": "Ordered on"
+    },
+    {
+      "column_name": "CUSTOMER_ID",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 3,
+      "key": false,
+      "mandatory": false,
+      "description": "Customer",
+      "lookup": {
+        "table": "SURZ_CUSTOMER",
+        "display_column": "CUSTOMER_NAME",
+        "value_column": "CUSTOMER_ID"
+      }
+    },
+    {
+      "column_name": "CUSTOMER_NAME",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Name"
+    },
+    {
+      "column_name": "EMAIL",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 5,
+      "key": false,
+      "mandatory": false,
+      "description": "Email"
+    },
+    {
+      "column_name": "PHONE",
+      "data_type": "VARCHAR",
+      "size": "30",
+      "sequence": 6,
+      "key": false,
+      "mandatory": false,
+      "description": "Phone"
+    },
+    {
+      "column_name": "REGISTRY_ID",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 7,
+      "key": false,
+      "mandatory": false,
+      "description": "Shop account"
+    },
+    {
+      "column_name": "SHIP_ADDRESS",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 8,
+      "key": false,
+      "mandatory": false,
+      "description": "Deliver to"
+    },
+    {
+      "column_name": "COURIER",
+      "data_type": "VARCHAR",
+      "size": "80",
+      "sequence": 9,
+      "key": false,
+      "mandatory": false,
+      "description": "Courier"
+    },
+    {
+      "column_name": "TRACKING_NO",
+      "data_type": "VARCHAR",
+      "size": "60",
+      "sequence": 10,
+      "key": false,
+      "mandatory": false,
+      "description": "Tracking"
+    },
+    {
+      "column_name": "SUBTOTAL",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 11,
+      "key": false,
+      "mandatory": false,
+      "description": "Subtotal"
+    },
+    {
+      "column_name": "DISCOUNT_CODE",
+      "data_type": "VARCHAR",
+      "size": "24",
+      "sequence": 12,
+      "key": false,
+      "mandatory": false,
+      "description": "Discount code",
+      "lookup": {
+        "table": "SURZ_DISCOUNT",
+        "display_column": "DESCR",
+        "value_column": "CODE"
+      }
+    },
+    {
+      "column_name": "DISCOUNT_AMT",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 13,
+      "key": false,
+      "mandatory": false,
+      "description": "Discount"
+    },
+    {
+      "column_name": "GST_AMT",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 14,
+      "key": false,
+      "mandatory": false,
+      "description": "GST"
+    },
+    {
+      "column_name": "SHIPPING_AMT",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 15,
+      "key": false,
+      "mandatory": false,
+      "description": "Shipping"
+    },
+    {
+      "column_name": "TOTAL_AMOUNT",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 16,
+      "key": false,
+      "mandatory": false,
+      "description": "Total"
+    },
+    {
+      "column_name": "PAY_STATUS",
+      "data_type": "VARCHAR",
+      "size": "12",
+      "sequence": 17,
+      "key": false,
+      "mandatory": false,
+      "description": "Payment",
+      "allowed_values": [
+        "PENDING",
+        "PAID",
+        "COD",
+        "REFUNDED",
+        "FAILED"
+      ]
+    },
+    {
+      "column_name": "PAY_METHOD",
+      "data_type": "VARCHAR",
+      "size": "40",
+      "sequence": 18,
+      "key": false,
+      "mandatory": false,
+      "description": "Paid by"
+    },
+    {
+      "column_name": "PAYMENT_REF",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 19,
+      "key": false,
+      "mandatory": false,
+      "description": "Gateway reference"
+    },
+    {
+      "column_name": "PAID_AMOUNT",
+      "data_type": "NUMBER",
+      "size": "14,2",
+      "sequence": 20,
+      "key": false,
+      "mandatory": false,
+      "description": "Amount paid"
+    },
+    {
+      "column_name": "PAID_ON",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 21,
+      "key": false,
+      "mandatory": false,
+      "description": "Paid on"
+    },
+    {
+      "column_name": "ORDER_STATUS",
+      "data_type": "VARCHAR",
+      "size": "16",
+      "sequence": 22,
+      "key": false,
+      "mandatory": false,
+      "description": "Status",
+      "allowed_values": [
+        "NEW",
+        "CONFIRMED",
+        "PACKED",
+        "SHIPPED",
+        "DELIVERED",
+        "CANCELLED"
+      ]
+    },
+    {
+      "column_name": "ADD_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 23,
+      "key": false,
+      "mandatory": false,
+      "description": "Added on"
+    },
+    {
+      "column_name": "ADD_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 24,
+      "key": false,
+      "mandatory": false,
+      "description": "Added by"
+    },
+    {
+      "column_name": "CHG_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 25,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed on"
+    },
+    {
+      "column_name": "CHG_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 26,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed by"
+    },
+    {
+      "column_name": "PARTNER_ID",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 27,
+      "key": false,
+      "mandatory": false,
+      "description": "Partner"
+    },
+    {
+      "column_name": "PARTNER_NAME",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 28,
+      "key": false,
+      "mandatory": false,
+      "description": "Partner name"
+    },
+    {
+      "column_name": "PARTNER_REGISTRY_ID",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 29,
+      "key": false,
+      "mandatory": false,
+      "description": "Partner shop account"
+    }
+  ]
+}

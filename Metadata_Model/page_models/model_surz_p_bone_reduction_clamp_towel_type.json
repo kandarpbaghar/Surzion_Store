@@ -1,0 +1,682 @@
+{
+  "page": {
+    "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+    "title": "Bone Reduction Clamp Towel Type",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_surzion",
+          "name": "Surzion",
+          "background": "#F5F8FE",
+          "surface": "#FFFFFF",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "primary": "#2F6BE6",
+          "onPrimary": "#FFFFFF",
+          "accent": "#D9A03B",
+          "border": "#E4EAF6"
+        },
+        {
+          "id": "cs_ink",
+          "name": "Surzion ink",
+          "background": "#071A45",
+          "surface": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#A8C0E4",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "accent": "#D9A03B",
+          "border": "rgba(255,255,255,0.14)"
+        },
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ],
+      "defaultColorSchemeId": "cs_surzion"
+    },
+    "inputs": [],
+    "sections": [
+      {
+        "id": "sec_top",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "align": "left",
+            "separator": "/",
+            "structuredData": true,
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Instruments",
+                "href": "/instruments"
+              },
+              {
+                "id": "bc2",
+                "label": "Orthopaedic",
+                "href": "/instruments"
+              },
+              {
+                "id": "bc3",
+                "label": "Bone Reduction Clamp Towel Type",
+                "href": "/bone-reduction-clamp-towel-type"
+              }
+            ]
+          },
+          {
+            "id": "pcols",
+            "type": "columns",
+            "count": 2,
+            "gap": 44,
+            "align": "top",
+            "columns": [
+              {
+                "id": "pc_img",
+                "blocks": [
+                  {
+                    "id": "pimg",
+                    "type": "card",
+                    "fill": true,
+                    "cardStyle": {
+                      "radius": 24,
+                      "padding": 16,
+                      "border": true,
+                      "shadow": "none",
+                      "imageFit": "contain",
+                      "imageAspect": "1/1"
+                    },
+                    "card": {
+                      "id": "pimg_c",
+                      "imageFit": "contain",
+                      "imageAspect": "1/1"
+                    },
+                    "url": "/api/designers/assets/raw?project=Surzion_Store&file=deaefc88052a8d62.jpg",
+                    "alt": "Bone Reduction Clamp Towel Type",
+                    "rounded": true,
+                    "aspect": "1:1",
+                    "objectFit": "contain",
+                    "priority": true,
+                    "bindings": {
+                      "card.imageUrl": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "IMAGE_URL"
+                      },
+                      "card.imageAlt": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_NAME"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "pc_txt",
+                "blocks": [
+                  {
+                    "id": "ph",
+                    "type": "heading",
+                    "level": 1,
+                    "eyebrow": "Orthopaedic \u00b7 Best Seller \u00b7 In stock",
+                    "text": "Bone Reduction Clamp Towel Type",
+                    "bindings": {
+                      "text": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_NAME"
+                      }
+                    }
+                  },
+                  {
+                    "id": "psub",
+                    "type": "paragraph",
+                    "text": "Precision Instrument for Orthopaedic Procedures",
+                    "bindings": {
+                      "text": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "SUBTITLE"
+                      }
+                    }
+                  },
+                  {
+                    "id": "pdesc",
+                    "type": "paragraph",
+                    "text": "A critical orthopaedic instrument engineered for the precise alignment and holding of a fracture during fixation.",
+                    "bindings": {
+                      "text": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "DESCR"
+                      }
+                    }
+                  },
+                  {
+                    "id": "pprice",
+                    "type": "heading",
+                    "level": 2,
+                    "text": "\u20b91,800 per unit"
+                  },
+                  {
+                    "id": "pbtns",
+                    "type": "button_group",
+                    "align": "left",
+                    "gap": 10,
+                    "bindings": {
+                      "buttons.0.on_click.sku": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_CODE"
+                      }
+                    },
+                    "buttons": [
+                      {
+                        "id": "pb1",
+                        "label": "Add to cart",
+                        "variant": "primary",
+                        "size": "lg",
+                        "icon": "shopping-cart",
+                        "on_click": {
+                          "kind": "add_to_cart",
+                          "sku": "SURZ-0020",
+                          "name": "Bone Reduction Clamp Towel Type",
+                          "price": "\u20b91,800",
+                          "image": "/api/designers/assets/raw?project=Surzion_Store&file=deaefc88052a8d62.jpg",
+                          "href": "/bone-reduction-clamp-towel-type",
+                          "meta": "Orthopaedic",
+                          "addedLabel": "Added",
+                          "inCartLabel": "In cart \u00b7 {n}",
+                          "inCartStepper": true,
+                          "toast": true,
+                          "toastLabel": "Added to cart",
+                          "toastLinkLabel": "View cart",
+                          "cartHref": "/cart",
+                          "qtyPicker": true,
+                          "maxQty": 50
+                        }
+                      },
+                      {
+                        "id": "pb2",
+                        "label": "Chat on WhatsApp",
+                        "variant": "outline",
+                        "size": "lg",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "https://wa.me/917814861010",
+                          "newTab": true
+                        },
+                        "icon": "message-circle"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pperks",
+                    "type": "feature_grid",
+                    "columns": 1,
+                    "align": "left",
+                    "iconStyle": "square",
+                    "items": [
+                      {
+                        "id": "pk1",
+                        "icon": "truck",
+                        "title": "Dispatched in 2\u20133 working days",
+                        "description": "Delivery in about 7\u201310 working days"
+                      },
+                      {
+                        "id": "pk2",
+                        "icon": "package",
+                        "title": "7-day returns",
+                        "description": "On unused products in original condition"
+                      },
+                      {
+                        "id": "pk3",
+                        "icon": "shield-check",
+                        "title": "One-year replacement warranty",
+                        "description": "Against manufacturing defects"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pwish",
+                    "type": "wishlist_button",
+                    "sku": "SURZ-0020",
+                    "name": "Bone Reduction Clamp Towel Type",
+                    "price": "\u20b91,800",
+                    "href": "/bone-reduction-clamp-towel-type",
+                    "meta": "Surgical Instruments",
+                    "addLabel": "Save to wishlist",
+                    "removeLabel": "Saved to wishlist",
+                    "display": "button",
+                    "variant": "outline",
+                    "buttonSize": "md",
+                    "bindings": {
+                      "sku": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_CODE"
+                      },
+                      "name": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_NAME"
+                      },
+                      "price": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "UNIT_PRICE"
+                      },
+                      "image": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "IMAGE_URL"
+                      }
+                    }
+                  },
+                  {
+                    "id": "pwar",
+                    "type": "callout",
+                    "variant": "info",
+                    "icon": "shield",
+                    "iconPosition": "left",
+                    "title": "1-year servicing guarantee",
+                    "body": "Any operational issue inside the warranty period is repaired or replaced. Returns are accepted for manufacturing defects."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 32,
+            "bottom": 56
+          }
+        }
+      },
+      {
+        "id": "sec_reviews",
+        "tag": "main",
+        "anchorId": "reviews",
+        "width": "full",
+        "colorSchemeId": "cs_tint",
+        "style": {
+          "padding": {
+            "top": 56,
+            "bottom": 64
+          }
+        },
+        "blocks": [
+          {
+            "id": "rv1",
+            "type": "reviews",
+            "object": "surz_product_review",
+            "record": "SURZ-0020",
+            "columns": {
+              "record": "PRODUCT_CODE",
+              "rating": "RATING",
+              "body": "REVIEW_TEXT",
+              "status": "STATUS",
+              "title": "TITLE",
+              "authorName": "REVIEWER_NAME",
+              "authorId": "REVIEWER_REGISTRY_ID",
+              "date": "ADD_DATE",
+              "verified": "VERIFIED"
+            },
+            "verifiedValue": "Y",
+            "approvedValue": "APPROVED",
+            "pendingValue": "PENDING",
+            "submit": "signed_in",
+            "onePerAccount": true,
+            "purchaseCheck": {
+              "object": "surz_order",
+              "detailFormNo": "2",
+              "recordColumn": "PRODUCT_CODE"
+            },
+            "recordCheck": {
+              "object": "surz_product",
+              "column": "PRODUCT_CODE"
+            },
+            "heading": "Customer reviews",
+            "emptyText": "No reviews yet. Customers who bought this instrument can be the first to review it."
+          }
+        ]
+      },
+      {
+        "id": "sec_rel",
+        "tag": "main",
+        "blocks": [
+          {
+            "id": "rh",
+            "type": "heading",
+            "level": 2,
+            "text": "Often ordered with"
+          },
+          {
+            "id": "rg",
+            "type": "card",
+            "style": {
+              "hover": {
+                "translateY": -4,
+                "shadow": "lg"
+              },
+              "hoverScope": "items",
+              "transition": 200
+            },
+            "repeat": {
+              "source": "ds_rel",
+              "as": "p",
+              "designCount": 3,
+              "layout": {
+                "mode": "grid",
+                "columns": 3,
+                "gap": 20
+              }
+            },
+            "bindings": {
+              "card.title": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageAlt": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.eyebrow": {
+                "source": "item_field",
+                "path": "CATEGORY_NAME"
+              },
+              "card.imageUrl": {
+                "source": "item_field",
+                "path": "IMAGE_URL"
+              },
+              "card.badge": {
+                "source": "item_field",
+                "path": "RIBBON"
+              },
+              "card.price": {
+                "source": "item_field",
+                "path": "UNIT_PRICE"
+              },
+              "card.compareAtPrice": {
+                "source": "item_field",
+                "path": "MRP"
+              },
+              "card.hoverImageUrl": {
+                "source": "item_field",
+                "path": "HOVER_IMAGE_URL"
+              }
+            },
+            "cardStyle": {
+              "radius": 14,
+              "padding": 16,
+              "titleSize": 18,
+              "bodySize": 15,
+              "border": true,
+              "shadow": "md",
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "card": {
+              "id": "rg_c",
+              "title": "Instrument",
+              "eyebrow": "Specialty",
+              "badge": "",
+              "price": "0",
+              "priceFormat": "currency",
+              "priceCurrency": "INR",
+              "showSavings": true,
+              "wishlist": true,
+              "secondaryCta": {
+                "id": "rg_a",
+                "label": "Add to cart",
+                "variant": "primary",
+                "size": "sm",
+                "icon": "shopping-cart",
+                "on_click": {
+                  "kind": "add_to_cart",
+                  "sku": "{{p.PRODUCT_CODE}}",
+                  "name": "{{p.PRODUCT_NAME}}",
+                  "price": "\u20b9{{p.UNIT_PRICE}}",
+                  "image": "{{p.IMAGE_URL}}",
+                  "href": "/{{p.SLUG}}",
+                  "meta": "{{p.CATEGORY_NAME}}",
+                  "addedLabel": "Added",
+                  "inCartLabel": "In cart \u00b7 {n}",
+                  "inCartStepper": true,
+                  "toast": true,
+                  "toastLabel": "Added to cart",
+                  "toastLinkLabel": "View cart",
+                  "cartHref": "/cart"
+                }
+              },
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "on_click": {
+              "kind": "external_url",
+              "url": "/{{p.SLUG}}",
+              "newTab": false
+            }
+          },
+          {
+            "id": "rb",
+            "type": "button_group",
+            "align": "left",
+            "buttons": [
+              {
+                "id": "rall",
+                "label": "All Orthopaedic",
+                "variant": "outline",
+                "size": "md",
+                "on_click": {
+                  "kind": "external_url",
+                  "url": "/instruments",
+                  "newTab": false
+                },
+                "icon": "arrow-right"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Bone Reduction Clamp Towel Type \u2014 Surzion",
+      "description": "A critical orthopaedic instrument engineered for the precise alignment and holding of a fracture during fixation."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "dataSources": [
+      {
+        "id": "ds_self",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "record",
+        "bindingTime": "deployment",
+        "record": {
+          "by": "first"
+        },
+        "filters": [
+          {
+            "id": "ds_self_f",
+            "column": "SLUG",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "bone-reduction-clamp-towel-type"
+            }
+          }
+        ],
+        "columns": [
+          "PRODUCT_NAME",
+          "SUBTITLE",
+          "DESCR",
+          "IMAGE_URL",
+          "PRODUCT_CODE",
+          "UNIT_PRICE"
+        ]
+      },
+      {
+        "id": "ds_rel",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 3,
+        "filters": [
+          {
+            "id": "ds_rel_f",
+            "column": "PRODUCT_CODE",
+            "op": "in",
+            "value": {
+              "source": "static",
+              "value": "SURZ-0002, SURZ-0009, SURZ-0019"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "PRODUCT_CODE",
+            "dir": "asc"
+          }
+        ],
+        "columns": [
+          "PRODUCT_CODE",
+          "PRODUCT_NAME",
+          "CATEGORY_NAME",
+          "UNIT_PRICE",
+          "MRP",
+          "SLUG",
+          "IMAGE_URL",
+          "HOVER_IMAGE_URL",
+          "RIBBON"
+        ]
+      }
+    ]
+  }
+}

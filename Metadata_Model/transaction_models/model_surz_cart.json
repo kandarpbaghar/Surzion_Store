@@ -1,0 +1,355 @@
+{
+  "transaction": {
+    "obj_name": "surz_cart",
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Cart",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_CART",
+          "columns": [
+            {
+              "column": {
+                "name": "cart_id",
+                "db_name": "CART_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Cart",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate()"
+              }
+            },
+            {
+              "column": {
+                "name": "session_key",
+                "db_name": "SESSION_KEY",
+                "col_type": "VARCHAR120",
+                "heading": "Shop account or session",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "cart_status",
+                "db_name": "CART_STATUS",
+                "col_type": "VARCHAR12",
+                "heading": "Status",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "OPEN",
+                "edit_mask": {
+                  "mask": "dropdown",
+                  "values": [
+                    "OPEN",
+                    "ORDERED",
+                    "ABANDONED"
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "order_no",
+                "db_name": "ORDER_NO",
+                "col_type": "VARCHAR20",
+                "heading": "Became order",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "add_date",
+                "db_name": "ADD_DATE",
+                "col_type": "DATETIME",
+                "heading": "Added on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_date"
+              }
+            },
+            {
+              "column": {
+                "name": "add_user",
+                "db_name": "ADD_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Added by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_add_user"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_date",
+                "db_name": "CHG_DATE",
+                "col_type": "DATETIME",
+                "heading": "Changed on",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_date"
+              }
+            },
+            {
+              "column": {
+                "name": "chg_user",
+                "db_name": "CHG_USER",
+                "col_type": "VARCHAR10",
+                "heading": "Changed by",
+                "group_name": "Others",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 1,
+                "default_value": ":audit_chg_user"
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_CART",
+                  "main_table": true
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "sql_model": {
+          "form_title": "Lines",
+          "form_descr": "",
+          "form_no": "2",
+          "main_table": "SURZ_CART_LINE",
+          "columns": [
+            {
+              "column": {
+                "name": "cart_id",
+                "db_name": "CART_ID",
+                "col_type": "VARCHAR20",
+                "heading": "Cart",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": true,
+                "protect": 0,
+                "hidden": 1
+              }
+            },
+            {
+              "column": {
+                "name": "line_no",
+                "db_name": "LINE_NO",
+                "col_type": "NUMBER",
+                "heading": "Line",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": true,
+                "protect": 1,
+                "hidden": 0,
+                "default_value": "auto_generate_line_no()"
+              }
+            },
+            {
+              "column": {
+                "name": "product_code",
+                "db_name": "PRODUCT_CODE",
+                "col_type": "VARCHAR20",
+                "heading": "Instrument",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "lookup": "SURZ_PRODUCT(PRODUCT_NAME, PRODUCT_CODE)",
+                "must_exist_in": "SURZ_PRODUCT",
+                "item_change": {
+                  "mode": "rule",
+                  "source_table": "SURZ_PRODUCT",
+                  "match_table_col": "PRODUCT_CODE",
+                  "fill": [
+                    {
+                      "form_col": "product_name",
+                      "table_col": "PRODUCT_NAME"
+                    },
+                    {
+                      "form_col": "unit_price",
+                      "table_col": "UNIT_PRICE"
+                    },
+                    {
+                      "form_col": "gst_rate",
+                      "table_col": "GST_RATE"
+                    },
+                    {
+                      "form_col": "line_total",
+                      "expr": "round({form.QTY} * {form.UNIT_PRICE}, 2)"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "product_name",
+                "db_name": "PRODUCT_NAME",
+                "col_type": "VARCHAR160",
+                "heading": "Name",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "qty",
+                "db_name": "QTY",
+                "col_type": "NUMBER12_2",
+                "heading": "Qty",
+                "group_name": "Basic",
+                "mandatory": 1,
+                "key": false,
+                "protect": 0,
+                "hidden": 0,
+                "default_value": "1",
+                "validations": [
+                  {
+                    "name": "qty_min",
+                    "type": "builtin",
+                    "builtin": {
+                      "kind": "value_in_range",
+                      "min": 1
+                    },
+                    "message": "Quantity must be at least 1."
+                  }
+                ],
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_cart_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it \u2014 an item_change error is a best-effort cascade the client does not stop on."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "unit_price",
+                "db_name": "UNIT_PRICE",
+                "col_type": "NUMBER12_2",
+                "heading": "Unit price",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                },
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_cart_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it \u2014 an item_change error is a best-effort cascade the client does not stop on."
+                  }
+                }
+              }
+            },
+            {
+              "column": {
+                "name": "gst_rate",
+                "db_name": "GST_RATE",
+                "col_type": "NUMBER5_2",
+                "heading": "GST %",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0
+              }
+            },
+            {
+              "column": {
+                "name": "line_total",
+                "db_name": "LINE_TOTAL",
+                "col_type": "NUMBER14_2",
+                "heading": "Line total",
+                "group_name": "Basic",
+                "mandatory": 0,
+                "key": false,
+                "protect": 1,
+                "hidden": 0,
+                "display": {
+                  "format": "currency_inr"
+                },
+                "item_change": {
+                  "mode": "business_logic",
+                  "business_logic": {
+                    "method": "surz_cart_line_total",
+                    "description": "Recompute the line total",
+                    "spec": "On a change of QTY or UNIT_PRICE set LINE_TOTAL = round(QTY * UNIT_PRICE, 2), computed in Decimal so the printed rupee figure is exact. Refuse QTY < 1 with a field error on QTY. The refusal carries NO column updates: a structured `errors` return is answered by _apply_entries, which returns `updates: {}` and never reaches the branch that honours updates beside an error, so a returned LINE_TOTAL would be silently dropped rather than clearing anything. Bound to QTY, UNIT_PRICE and LINE_TOTAL: an item_change fires only for the column that was edited, and LINE_TOTAL is protected. The blocking refusal is the qty_min VALIDATION beside it \u2014 an item_change error is a best-effort cascade the client does not stop on."
+                  }
+                }
+              }
+            }
+          ],
+          "actions": [],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {
+                  "table_name": "SURZ_CART_LINE",
+                  "main_table": true
+                },
+                {
+                  "table_name": "SURZ_PRODUCT",
+                  "condition": "SURZ_CART_LINE.PRODUCT_CODE = SURZ_PRODUCT.PRODUCT_CODE"
+                }
+              ]
+            }
+          },
+          "parent_form_no": "1",
+          "parent_key_col": "CART_ID"
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

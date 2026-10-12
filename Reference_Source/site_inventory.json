@@ -1,0 +1,2572 @@
+{
+ "version": 1,
+ "kind": "site_inventory",
+ "read_at": "2026-10-08T13:54:47Z",
+ "source": {
+  "url": "https://surzion.com",
+  "final_url": "https://surzion.com",
+  "host": "surzion.com",
+  "title": "Trusted Wholesale Supplier of Surgical Instruments | Surzion",
+  "site_name": "Surzion",
+  "lang": "en",
+  "platform": [],
+  "generator": "Hostinger AI Builder",
+  "spa_shell": false,
+  "discovered_by": "sitemap",
+  "crawl_delay": 0.0,
+  "feed": ""
+ },
+ "wordpress": {},
+ "chrome": {
+  "logo": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/dJoPq545ePc4y7po/untitled-design-10945yvL7QuwttpQ.png",
+  "icons": [
+   "data:;base64,iVBORw0KGgo=",
+   "data:;base64,iVBORw0KGgo=",
+   "data:;base64,iVBORw0KGgo="
+  ],
+  "theme_color": "",
+  "og_image": "",
+  "twitter": "",
+  "header_menu": [
+   {
+    "label": "Home",
+    "href": "/"
+   },
+   {
+    "label": "Shop",
+    "href": "/shop"
+   },
+   {
+    "label": "About",
+    "href": "/about"
+   },
+   {
+    "label": "Online catalogue",
+    "href": "/online-catalogue"
+   }
+  ],
+  "header_links": [
+   {
+    "label": "Home",
+    "href": "/"
+   },
+   {
+    "label": "Shop",
+    "href": "/shop"
+   },
+   {
+    "label": "About",
+    "href": "/about"
+   },
+   {
+    "label": "Online catalogue",
+    "href": "/online-catalogue"
+   },
+   {
+    "label": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+   },
+   {
+    "label": "Home",
+    "href": "/"
+   },
+   {
+    "label": "Shop",
+    "href": "/shop"
+   },
+   {
+    "label": "About",
+    "href": "/about"
+   },
+   {
+    "label": "Online catalogue",
+    "href": "/online-catalogue"
+   },
+   {
+    "label": "Download Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf"
+   }
+  ],
+  "footer_columns": [],
+  "footer_links": []
+ },
+ "summary": {
+  "addresses": 30,
+  "pages_read": 30,
+  "groups": 1,
+  "forms": 2,
+  "unread": 0,
+  "seconds": 97.7
+ },
+ "groups": [
+  {
+   "key": "page",
+   "count": 30,
+   "kind_hint": "pages",
+   "sample_urls": [
+    "/",
+    "/shop",
+    "/about",
+    "/contact",
+    "/refund-policy",
+    "/bulldog-clamps",
+    "/privacy-policy",
+    "/bulldog-clamps1"
+   ],
+   "paths": [
+    "/",
+    "/shop",
+    "/about",
+    "/contact",
+    "/refund-policy",
+    "/bulldog-clamps",
+    "/privacy-policy",
+    "/bulldog-clamps1",
+    "/online-catalogue",
+    "/artery-forceps-pean",
+    "/bp-handle-bayonet-5",
+    "/artery-forceps-crile",
+    "/terms-and-conditions",
+    "/artery-forceps-kocher",
+    "/allison-lung-retractor",
+    "/artery-forceps-ochsner",
+    "/adson-beckman-retractor",
+    "/dandy-artery-forceps-55",
+    "/babcock-forceps-autogrip",
+    "/adson-brown-tissue-forceps",
+    "/adson-brown-tissue-forceps1",
+    "/birkett-tonsil-artery-forceps",
+    "/allis-tissue-forceps-autragrip",
+    "/premium-surgical-instruments-2",
+    "/bone-reduction-clamp-towel-type",
+    "/anderson-tendon-tunneling-forceps",
+    "/castpaw-retractor-kilner-retractor",
+    "/artery-forceps-robert-hemostatic-forceps",
+    "/allis-tissue-forceps-surgical-tissue-forceps",
+    "/adenoid-curette-with-cage-surgical-instruments"
+   ],
+   "fetched": 30
+  }
+ ],
+ "pages": [
+  {
+   "url": "https://surzion.com/",
+   "path": "/",
+   "title": "Trusted Wholesale Supplier of Surgical Instruments | Surzion",
+   "description": "Surzion is your trusted wholesale supplier of high-quality surgical instruments in India. We provide healthcare professionals with a diverse range of reliable medical instruments, ensuring exceptional service and support for the medical community.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Product Categories",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 108,
+   "images": 10,
+   "image_samples": [
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=530,fit=crop/dJoPq545ePc4y7po/untitled-design-1-2fOKm0tY1M4A7Tcy.png",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=139,fit=crop/dJoPq545ePc4y7po/untitled-design-1-2fOKm0tY1M4A7Tcy.png",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=169,fit=crop/dJoPq545ePc4y7po/untitled-design-3-wPHYU0kKxks4USI9.png",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=83,fit=crop/dJoPq545ePc4y7po/untitled-design-3-wPHYU0kKxks4USI9.png",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=826,fit=crop/dJoPq545ePc4y7po/adson-periosteal-elevator-3-e0OZMALjlEpWnLzc.jpg",
+     "alt": ""
+    }
+   ],
+   "links": {
+    "internal": 19,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebSite"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/shop",
+   "path": "/shop",
+   "title": "High-Quality Surgical Instruments Supplier in India | Surzion",
+   "description": "Surzion is your trusted wholesale supplier of high-quality surgical instruments. We cater to healthcare professionals and institutions, ensuring exceptional service and a wide range of reliable medical products to support the medical community.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 82,
+   "images": 2,
+   "image_samples": [
+    {
+     "src": "https://images.unsplash.com/photo-1580281780460-82d277b0e3f8?auto=format&fit=crop&w=48&h=48",
+     "alt": "Medical professionals wearing surgical gowns and masks are engaged in a surgical"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1580281780460-82d277b0e3f8?auto=format&fit=crop&w=54&h=53",
+     "alt": "Medical professionals wearing surgical gowns and masks are engaged in a surgical"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/about",
+   "path": "/about",
+   "title": "Surzion - Leading Surgical Instruments Supplier | Surzion",
+   "description": "Surzion is a premier wholesale supplier of high-quality surgical instruments in India, dedicated to supporting healthcare professionals with exceptional service and a diverse range of reliable Surgical Instruments.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: About surzion",
+    "h3: 150+",
+    "h3: 15",
+    "h3: Gallery",
+    "h3: Surgical Instruments",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 217,
+   "images": 24,
+   "image_samples": [
+    {
+     "src": "https://images.unsplash.com/photo-1643660527090-bea721ad71f8?auto=format&fit=crop&w=548&h=544",
+     "alt": "A set of dental instruments is arranged on a fabric with a hexagonal pattern. Th"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1643660527090-bea721ad71f8?auto=format&fit=crop&w=328&h=301",
+     "alt": "A set of dental instruments is arranged on a fabric with a hexagonal pattern. Th"
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=758,fit=crop/dJoPq545ePc4y7po/balfour-retractor-baby-TUGh3Rg84GfCzcfi.jpg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/dJoPq545ePc4y7po/balfour-retractor-baby-TUGh3Rg84GfCzcfi.jpg",
+     "alt": ""
+    },
+    {
+     "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=355,fit=crop/dJoPq545ePc4y7po/kapsons-bussiness-card-aYoJH8AjSFDRhwpJ.jpg",
+     "alt": ""
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/contact",
+   "path": "/contact",
+   "title": "Trusted Surgical Instruments Supplier in India | Surzion",
+   "description": "Contact Surzion, your reliable wholesale supplier of surgical instruments in India. We offer high-quality medical instruments and exceptional service to healthcare professionals and institutions.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Contact Us"
+   ],
+   "headings": [
+    "h1: Contact Us",
+    "h3: Contact Us",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 107,
+   "images": 2,
+   "image_samples": [
+    {
+     "src": "https://images.unsplash.com/photo-1588952936947-178e476f4442?auto=format&fit=crop&w=577&h=495",
+     "alt": "Two medical professionals are performing surgery in an operating room. They are "
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1588952936947-178e476f4442?auto=format&fit=crop&w=328&h=215",
+     "alt": "Two medical professionals are performing surgery in an operating room. They are "
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit Your Inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Enter your first name",
+       "label": "Your First Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your email address",
+       "label": "Your Email Address*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Write your message here",
+       "label": "Your Message*"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/refund-policy",
+   "path": "/refund-policy",
+   "title": "Refund policy | Surzion",
+   "description": "",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Returns & Refunds policy",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 844,
+   "images": 0,
+   "image_samples": [],
+   "links": {
+    "internal": 14,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/bulldog-clamps",
+   "path": "/bulldog-clamps",
+   "title": "Babcock Forceps TC | Surzion",
+   "description": "The Surzion Babcock Forceps TC are high-performance tissue forceps enhanced with Tungsten Carbide (TC) inserts for superior durability, grip precision, and prolonged wear resistance. Designed with fenestrated triangular jaws, they gently grasp delicate tubular organs—such as intestines, appendix,...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Babcock Forceps TC"
+   ],
+   "headings": [
+    "h1: Babcock Forceps TC",
+    "h2: Premium Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 195,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7b93a326-b2f8-4392-9a4c-b002fb4026dd.jpg",
+     "alt": "Babcock Forceps TC"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7b93a326-b2f8-4392-9a4c-b002fb4026dd.jpg",
+     "alt": "Babcock Forceps TC"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/5b3c3cc4-1891-401c-aaf0-d2644134c57f.jpg",
+     "alt": "Babcock Forceps TC"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/aa581a48-7b08-4cd7-b653-b7992afabc0c.jpg",
+     "alt": "Babcock Forceps TC"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7abb8d7b-0991-4441-9376-aa3d858d1136.jpg",
+     "alt": "Babcock Forceps TC"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/privacy-policy",
+   "path": "/privacy-policy",
+   "title": "Privacy policy | Surzion",
+   "description": "",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Privacy Policy",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 739,
+   "images": 0,
+   "image_samples": [],
+   "links": {
+    "internal": 15,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/bulldog-clamps1",
+   "path": "/bulldog-clamps1",
+   "title": "Artery Forceps Dandy | Surzion",
+   "description": "The Surzion Artery Forceps Dandy are specialized curved hemostatic forceps designed for clamping small to medium blood vessels and controlling bleeding in deep or narrow surgical fields, particularly in neurosurgery and delicate trauma procedures.Key Features & Specifications:Material: Surgical-G...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Dandy"
+   ],
+   "headings": [
+    "h1: Artery Forceps Dandy",
+    "h2: General Surgical Instruments",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 165,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7318ecff-6d51-493e-9dfa-c0462a2c9cc2.jpg",
+     "alt": "Artery Forceps Dandy"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7318ecff-6d51-493e-9dfa-c0462a2c9cc2.jpg",
+     "alt": "Artery Forceps Dandy"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/0491d501-05dd-4faa-8521-e7f41b58a501.jpg",
+     "alt": "Artery Forceps Dandy"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/8c499b0c-6146-4f8a-b409-eebbf519a999.jpg",
+     "alt": "Artery Forceps Dandy"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/965dbd30-2d4a-484d-81cd-2d35b928f795.jpg",
+     "alt": "Artery Forceps Dandy"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/online-catalogue",
+   "path": "/online-catalogue",
+   "title": "Online catalogue | Surzion",
+   "description": "",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 56,
+   "images": 0,
+   "image_samples": [],
+   "links": {
+    "internal": 14,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/artery-forceps-pean",
+   "path": "/artery-forceps-pean",
+   "title": "Artery Forceps Pean | Surzion",
+   "description": "The Surzion Artery Forceps Pean are heavy-duty, non-toothed hemostatic forceps designed for clamping larger blood vessels and securing heavy tissues during general, abdominal, and vascular surgical procedures. Featuring full transverse jaw serrations and a reliable ratchet locking mechanism, they...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Pean"
+   ],
+   "headings": [
+    "h1: Artery Forceps Pean",
+    "h2: High-Quality Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 191,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e2974baa-a52b-423b-a979-9ea20fab8338.jpg",
+     "alt": "Artery Forceps Pean"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e2974baa-a52b-423b-a979-9ea20fab8338.jpg",
+     "alt": "Artery Forceps Pean"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/f80fdd66-7e7b-4779-9d13-ef45acf86611.jpg",
+     "alt": "Artery Forceps Pean"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/452d8488-f5f8-422b-9508-83a0289fd684.jpg",
+     "alt": "Artery Forceps Pean"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/395288f5-9fd9-495c-9781-78249e27342c.jpg",
+     "alt": "Artery Forceps Pean"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/bp-handle-bayonet-5",
+   "path": "/bp-handle-bayonet-5",
+   "title": "B.P Handle Bayonet | Surzion",
+   "description": "Experience precision and control in every surgical procedure with the Surzion B.P Handle Bayonet. Crafted from high-quality stainless steel, this ergonomic handle is designed for excellent grip and durability, making it a must-have tool for surgeons and medical professionals. Trust in surgical ex...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "B.P Handle Bayonet"
+   ],
+   "headings": [
+    "h1: B.P Handle Bayonet",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 187,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD%2Fassets%2F6a1f7e03-1434-4ce7-9485-97813801c2e6.jpg",
+     "alt": "B.P Handle Bayonet"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD%2Fassets%2F6a1f7e03-1434-4ce7-9485-97813801c2e6.jpg",
+     "alt": "B.P Handle Bayonet"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/28f25d26-59d9-4bd1-b3d5-aaa79fd5f245.jpg",
+     "alt": "B.P Handle Bayonet"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/17c9c960-46b7-4525-b757-34ab02d3f9f1.jpg",
+     "alt": "B.P Handle Bayonet"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/4356832f-8bbb-41f1-b248-b7b34ca743aa.jpg",
+     "alt": "B.P Handle Bayonet"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/artery-forceps-crile",
+   "path": "/artery-forceps-crile",
+   "title": "Artery Forceps Crile | Surzion",
+   "description": "The Surzion Artery Forceps Crile are essential hemostatic forceps designed for occluding medium-sized blood vessels, controlling bleeding, and holding delicate tissue structures during general and specialized surgical procedures. Featuring full transverse jaw serrations, they offer a firm, reliab...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Crile"
+   ],
+   "headings": [
+    "h1: Artery Forceps Crile",
+    "h2: Precision Curved Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 181,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/05e85cdf-a6c8-4bfc-8f44-68f8b11e1f37.jpg",
+     "alt": "Artery Forceps Crile"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/05e85cdf-a6c8-4bfc-8f44-68f8b11e1f37.jpg",
+     "alt": "Artery Forceps Crile"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/80ee8db5-be34-421e-a258-4a61188301e9.jpg",
+     "alt": "Artery Forceps Crile"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/ad08f480-c07f-4b4a-8f4c-c0439c5bcd23.jpg",
+     "alt": "Artery Forceps Crile"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/5de696c0-12e4-4aa1-822f-6d6ddd39efec.jpg",
+     "alt": "Artery Forceps Crile"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/terms-and-conditions",
+   "path": "/terms-and-conditions",
+   "title": "Terms and conditions | Surzion",
+   "description": "",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [],
+   "headings": [
+    "h3: Terms and Conditions",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 1016,
+   "images": 0,
+   "image_samples": [],
+   "links": {
+    "internal": 15,
+    "external": 5
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "WebPage"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/artery-forceps-kocher",
+   "path": "/artery-forceps-kocher",
+   "title": "Artery Forceps Kocher | Surzion",
+   "description": "The Surzion Artery Forceps Kocher are heavy-duty hemostatic surgical forceps engineered for clamping large, tough blood vessels and firmly gripping dense tissues during major surgical operations. Featuring interlocking 1x2 toothed tips and deep transverse serrations, they ensure a aggressive, non...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Kocher"
+   ],
+   "headings": [
+    "h1: Artery Forceps Kocher",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 194,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/0a3dfb54-f76d-4049-b7f3-ebf28b616794.jpg",
+     "alt": "Artery Forceps Kocher"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/0a3dfb54-f76d-4049-b7f3-ebf28b616794.jpg",
+     "alt": "Artery Forceps Kocher"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9e9cf8e2-2a50-4de2-aa74-8be5e328ee5d.jpg",
+     "alt": "Artery Forceps Kocher"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/564926d8-063a-4296-bb02-3d57d6e31bfb.jpg",
+     "alt": "Artery Forceps Kocher"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/11ab7311-3220-40ec-abbb-ac0f0e1b6ccb.jpg",
+     "alt": "Artery Forceps Kocher"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/allison-lung-retractor",
+   "path": "/allison-lung-retractor",
+   "title": "Allison Lung Retractor | Surzion",
+   "description": "The Surzion Artery Forceps Robert are long, curved haemostatic forceps designed for grasping, clamping, and occluding deeply situated blood vessels during thoracic, abdominal, and general surgical procedures. Featuring long shaft shanks and fine transverse-serrated jaws, they provide surgeons wit...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Allison Lung Retractor"
+   ],
+   "headings": [
+    "h1: Allison Lung Retractor",
+    "h2: Precision Surgical Lung Retractor",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 194,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/01d1cec1-ef48-495a-a447-a1398287d099.jpg",
+     "alt": "Allison Lung Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/01d1cec1-ef48-495a-a447-a1398287d099.jpg",
+     "alt": "Allison Lung Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/23bc74c5-d480-43f2-af2d-450e74577681.jpg",
+     "alt": "Allison Lung Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/75e1c753-0ba3-47f7-8d7b-5f657d257299.jpg",
+     "alt": "Allison Lung Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/62d8b8bf-3484-4174-8a6d-88c22feb4668.jpg",
+     "alt": "Allison Lung Retractor"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/artery-forceps-ochsner",
+   "path": "/artery-forceps-ochsner",
+   "title": "Artery Forceps Ochsner | Surzion",
+   "description": "The Surzion Artery Forceps Oschner are robust, aggressive hemostatic forceps designed for grasping tough tissues and occluding heavy blood vessels during abdominal, thoracic, and orthopedic surgeries. Equipped with full transverse jaw serrations and sharp 1x2 interlocking teeth at the tips, they ...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Ochsner"
+   ],
+   "headings": [
+    "h1: Artery Forceps Ochsner",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 182,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9c06aa3f-04f0-4575-83fa-32197f669f19.jpg",
+     "alt": "Artery Forceps Ochsner"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9c06aa3f-04f0-4575-83fa-32197f669f19.jpg",
+     "alt": "Artery Forceps Ochsner"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/015622a6-7b1e-4520-870a-852e51b2152d.jpg",
+     "alt": "Artery Forceps Ochsner"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/97a4596f-2c3b-46d2-9d5d-55e0f1ffbb8e.jpg",
+     "alt": "Artery Forceps Ochsner"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6454c967-5dd0-4153-919d-054a33aec2dd.jpg",
+     "alt": "Artery Forceps Ochsner"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/adson-beckman-retractor",
+   "path": "/adson-beckman-retractor",
+   "title": "Adson Beckman Retractor | Surzion",
+   "description": "Product Title: Adson Beckman Retractor (Self-Retaining, Hinged Shanks)Product Description:The Adson Beckman Retractor is a premium-grade, self-retaining surgical instrument engineered for deep tissue retraction during spinal, neurosurgical, and orthopedic operations. Built with dual-hinged shanks...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Adson Beckman Retractor"
+   ],
+   "headings": [
+    "h1: Adson Beckman Retractor",
+    "h2: Precision Surgical Retractor",
+    "h3: Adson Beckman Retractor (Self-Retaining, Hinged Shanks)",
+    "h3: The Adson Beckman Retractor is a premium-grade, self-retaining surgical instrument enginee",
+    "h2: Warranty and Return Policy",
+    "h3: We provide a 1-year servicing guarantee covering any operational issues during the warrant",
+    "h2: Specifications",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 211,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/2253fc3d-312a-4db2-a37e-04a65f5c441b.jpg",
+     "alt": "Adson Beckman Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/2253fc3d-312a-4db2-a37e-04a65f5c441b.jpg",
+     "alt": "Adson Beckman Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e76610bf-465a-4b49-a7cd-996e7a426a2b.jpg",
+     "alt": "Adson Beckman Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/03e135da-cd92-4115-a17f-dacdd08eac2b.jpg",
+     "alt": "Adson Beckman Retractor"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/d05ce1fd-57d3-4371-b027-a1c38108153a.jpg",
+     "alt": "Adson Beckman Retractor"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/dandy-artery-forceps-55",
+   "path": "/dandy-artery-forceps-55",
+   "title": "Bone Hook | Surzion",
+   "description": "The Surzion Bone Hook is a heavy-duty orthopedic surgical instrument engineered for manipulating, elevating, and retracting large bone structures during orthopedic procedures, fracture reduction, and joint reconstruction. Designed with a curved, sharp or blunt hook tip and a heavy-duty ring or T-...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Bone Hook"
+   ],
+   "headings": [
+    "h1: Bone Hook",
+    "h2: Precision Surgical Instrument by Surzion",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 196,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/1b5ae771-9791-4b4c-a948-1a9679979b21.jpg",
+     "alt": "Bone Hook"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/1b5ae771-9791-4b4c-a948-1a9679979b21.jpg",
+     "alt": "Bone Hook"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/79aa78ae-9bd2-47be-a326-a9873f2bfd5f.jpg",
+     "alt": "Bone Hook"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/49efc71d-a471-48e9-927a-d7c9a18e2011.jpg",
+     "alt": "Bone Hook"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/2b860dbd-287f-4778-b828-0e04ebd615cf.jpg",
+     "alt": "Bone Hook"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/babcock-forceps-autogrip",
+   "path": "/babcock-forceps-autogrip",
+   "title": "Babcock Forceps with Atraumatic Jaw Serrations | Surzion",
+   "description": "Discover the Surzion Babcock Forceps Autragrip, expertly designed with non-crushing atraumatic jaw serrations for safe handling of delicate tubular structures. Ideal for securely gripping organs while preventing compression or mechanical injury.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Babcock Forceps Autogrip"
+   ],
+   "headings": [
+    "h1: Babcock Forceps Autogrip",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 196,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/8bbb7310-8df4-4f0b-9ec9-aff9ebc3d3fb.jpg",
+     "alt": "Babcock Forceps Autogrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/8bbb7310-8df4-4f0b-9ec9-aff9ebc3d3fb.jpg",
+     "alt": "Babcock Forceps Autogrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/73cac6ad-c85f-4d0b-9b06-f4c13f7e9383.jpg",
+     "alt": "Babcock Forceps Autogrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/ee44c7fc-fc1f-4bea-9900-0b52104d06fe.jpg",
+     "alt": "Babcock Forceps Autogrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a7b2a3f-b71e-4217-ba4d-3626e928328f.jpg",
+     "alt": "Babcock Forceps Autogrip"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/adson-brown-tissue-forceps",
+   "path": "/adson-brown-tissue-forceps",
+   "title": "Surzion Adson Tissue Forceps - Precision & Stability | Surzion",
+   "description": "Discover the Surzion Adson Brown Tissue Forceps, designed with specialized side-grasping and multi-tooth intermeshing jaws for secure handling of dense tissues. Ideal for medical professionals seeking precision and stability without damaging delicate tissues.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Adson Brown Tissue Forceps"
+   ],
+   "headings": [
+    "h1: Adson Brown Tissue Forceps",
+    "h2: Precision Grip Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 189,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/23d53473-f4d2-424a-9f2f-ebcfacd05fe2.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/23d53473-f4d2-424a-9f2f-ebcfacd05fe2.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/aa3a46bd-5fab-4976-ac68-7558890cf489.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/0e521063-c14a-4bf4-a5d8-964718c50d4b.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/2235c413-fe40-460c-a964-86bdf301d108.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/adson-brown-tissue-forceps1",
+   "path": "/adson-brown-tissue-forceps1",
+   "title": "Adson Brown Tissue Forceps | Surzion",
+   "description": "The Surzion Adson Brown Tissue Forceps feature specialized side-grasping, multi-tooth intermeshing jaws designed to securely hold dense, thick, or slippery tissues without causing significant puncture or tearing. The fine, multiple micro-teeth provide superior tissue distribution and stability du...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Adson Brown Tissue Forceps"
+   ],
+   "headings": [
+    "h1: Adson Brown Tissue Forceps",
+    "h2: Precision Surgical Forceps",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 184,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6c70a453-0aca-489a-826f-97d78aba38bd.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6c70a453-0aca-489a-826f-97d78aba38bd.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/806e73df-ecd4-4aae-91ae-31602efcb4ef.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/642d7b96-5f13-4483-aca6-b67baf0bc18b.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e09933e5-3a0c-43e3-bd80-6ca5cf6afecf.jpg",
+     "alt": "Adson Brown Tissue Forceps"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/birkett-tonsil-artery-forceps",
+   "path": "/birkett-tonsil-artery-forceps",
+   "title": "Birkett Tonsil Artery Forceps | Surzion",
+   "description": "The Surzion Birkett Tonsil Artery Forceps are specialized ENT and surgical hemostatic forceps designed specifically for grasping, holding, and occluding tonsillar blood vessels during tonsillectomies and ENT procedures. Built with slightly curved, transverse-serrated jaws, they ensure a secure, n...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Birkett Tonsil Artery Forceps"
+   ],
+   "headings": [
+    "h1: Birkett Tonsil Artery Forceps",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 202,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/85593d49-ecc3-4fcb-92f5-2889944c79b7.jpg",
+     "alt": "Birkett Tonsil Artery Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/85593d49-ecc3-4fcb-92f5-2889944c79b7.jpg",
+     "alt": "Birkett Tonsil Artery Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/ddf2837f-5156-42be-a9da-2a106675625e.jpg",
+     "alt": "Birkett Tonsil Artery Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/4c890004-265f-4c86-9b40-c883332bdfbe.jpg",
+     "alt": "Birkett Tonsil Artery Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/76784ffc-658c-42f9-8e1b-84a9bb6339f9.jpg",
+     "alt": "Birkett Tonsil Artery Forceps"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/allis-tissue-forceps-autragrip",
+   "path": "/allis-tissue-forceps-autragrip",
+   "title": "Allis Tissue Forceps Autagrip | Surzion",
+   "description": "The Surzion Allis Tissue Forceps Autragrip are high-performance tissue-holding forceps engineered with non-crushing atraumatic interlocking teeth. They provide a firm, non-slip grip on tough or slippery soft tissues, fascia, and organ structures while minimizing tissue trauma during retraction an...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Allis Tissue Forceps Autagrip"
+   ],
+   "headings": [
+    "h1: Allis Tissue Forceps Autagrip",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 175,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a0b9829c-0343-4d4e-9679-b92caffdb7f4.jpg",
+     "alt": "Allis Tissue Forceps Autagrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a0b9829c-0343-4d4e-9679-b92caffdb7f4.jpg",
+     "alt": "Allis Tissue Forceps Autagrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/3268f467-6a63-470e-a37d-596f8650e6a7.jpg",
+     "alt": "Allis Tissue Forceps Autagrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/4d2504ba-dcc8-4ba6-ae2a-55d953b3803e.jpg",
+     "alt": "Allis Tissue Forceps Autagrip"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/539fe914-2c2a-420b-8aef-7aeb7d14ba0c.jpg",
+     "alt": "Allis Tissue Forceps Autagrip"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/premium-surgical-instruments-2",
+   "path": "/premium-surgical-instruments-2",
+   "title": "High-Quality Surgical Instruments for Professionals | Surzion",
+   "description": "Surzion provides a diverse selection of reliable surgical instruments designed for healthcare professionals. Our high-quality surgical tools ensure precision and meet the rigorous demands of the medical community, making us your trusted partner in healthcare.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Adson Dissecting Forceps Plain"
+   ],
+   "headings": [
+    "h1: Adson Dissecting Forceps Plain",
+    "h2: Precision Surgical Tool",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 206,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/40808837-9e3e-4dfb-a883-278b33d5624d.jpg",
+     "alt": "Adson Dissecting Forceps Plain"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/40808837-9e3e-4dfb-a883-278b33d5624d.jpg",
+     "alt": "Adson Dissecting Forceps Plain"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/088c8f70-d415-4b84-b8fe-03b642bea45a.jpg",
+     "alt": "Adson Dissecting Forceps Plain"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/270fcc04-9783-414d-a360-40d24755165d.jpg",
+     "alt": "Adson Dissecting Forceps Plain"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/01ac8513-6b92-454f-91e5-1a45556f989c.jpg",
+     "alt": "Adson Dissecting Forceps Plain"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/bone-reduction-clamp-towel-type",
+   "path": "/bone-reduction-clamp-towel-type",
+   "title": "Bone Reduction Clamp Towel Type | Surzion",
+   "description": "The Surzion Bone Reduction Clamp is a critical orthopedic surgical instrument engineered for the precise alignment, temporary stabilization, and secure grasping of bone fragments during fracture reduction and internal fixation procedures. Featuring a ratcheted locking mechanism, it allows surgeon...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Bone Reduction Clamp Towel Type"
+   ],
+   "headings": [
+    "h1: Bone Reduction Clamp Towel Type",
+    "h2: Precision Surgical Instrument for Orthopedic Procedures",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 268,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a659f76-e2cd-4eb9-8ecc-f40b64eb30a1.png",
+     "alt": "Bone Reduction Clamp Towel Type"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a659f76-e2cd-4eb9-8ecc-f40b64eb30a1.png",
+     "alt": "Bone Reduction Clamp Towel Type"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/402a1264-e4b5-4d93-aa32-01c63af565dd.png",
+     "alt": "Bone Reduction Clamp Towel Type"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/b93b07b4-a820-485d-96b3-ceba102f3ded.png",
+     "alt": "Bone Reduction Clamp Towel Type"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/c88bf22d-2796-4b8f-a9bc-ecd61d72bf59.png",
+     "alt": "Bone Reduction Clamp Towel Type"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/anderson-tendon-tunneling-forceps",
+   "path": "/anderson-tendon-tunneling-forceps",
+   "title": "Anderson Tendon Tunneling Forceps | Surzion",
+   "description": "The Surzion Anderson Tendon Tunnelling Forceps are specialized orthopaedic and hand surgery instruments engineered for passing, routing, and tunnelling tendon grafts through narrow anatomical pathways during tendon repair and reconstructive procedures. Designed with slender, gently curved shafts ...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Anderson Tendon Tunneling Forceps"
+   ],
+   "headings": [
+    "h1: Anderson Tendon Tunneling Forceps",
+    "h2: Precision Surgical Instrument for Tendon Procedures",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 191,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/b327c5e3-c84b-4591-91e6-a7e79050b590.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/b327c5e3-c84b-4591-91e6-a7e79050b590.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/017aa624-a84e-4897-b200-c63923507d3f.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/03011691-c147-49f8-820b-72b3163123bd.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7da6e1e0-27d5-4dcd-8f28-40955b08e230.jpg",
+     "alt": "Anderson Tendon Tunneling Forceps"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/castpaw-retractor-kilner-retractor",
+   "path": "/castpaw-retractor-kilner-retractor",
+   "title": "Castpaw Retractor (Kilner Retractor) | Surzion",
+   "description": "The Surzion Kilner 'Catspaw' Retractor is a premium-grade, double-ended surgical instrument expertly designed for delicate tissue retraction. Widely utilized in plastic, reconstructive, ENT, and general surgical procedures, it allows surgeons to safely retract and hold back shallow wound edges wh...",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Castpaw Retractor (Kilner Retractor)"
+   ],
+   "headings": [
+    "h1: Castpaw Retractor (Kilner Retractor)",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 238,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e34f605a-e6ab-4ba1-b17a-dabace0315fe.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e34f605a-e6ab-4ba1-b17a-dabace0315fe.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/14f8cd60-5b9c-4a97-91ae-0bcbde847c6e.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9e8a908e-309e-4d5c-b85d-340c07c7eaba.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/97475dc5-1271-4efb-8327-de583d72b350.png",
+     "alt": "Castpaw Retractor (Kilner Retractor)"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/artery-forceps-robert-hemostatic-forceps",
+   "path": "/artery-forceps-robert-hemostatic-forceps",
+   "title": "Surgeon Tools: Hemostatic Forceps Overview | Surzion",
+   "description": "Discover the Surzion artery forceps Robert, specialized long, curved hemostatic forceps ideal for grasping and occluding blood vessels in thoracic, abdominal, and general surgical procedures. Learn about their design and features that support surgeons in critical operations.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Artery Forceps Robert"
+   ],
+   "headings": [
+    "h1: Artery Forceps Robert",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 195,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/cf9502bc-2b78-401b-a37c-555eb2059f0f.jpg",
+     "alt": "Artery Forceps Robert"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/cf9502bc-2b78-401b-a37c-555eb2059f0f.jpg",
+     "alt": "Artery Forceps Robert"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/93e15579-4ae7-4093-95bf-2dad2b035773.jpg",
+     "alt": "Artery Forceps Robert"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/edf25939-eeac-4996-94c2-0123159a24d1.jpg",
+     "alt": "Artery Forceps Robert"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/4f4b55fa-1d19-4fdb-b7d8-3a6ca2455b11.jpg",
+     "alt": "Artery Forceps Robert"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps",
+   "path": "/allis-tissue-forceps-surgical-tissue-forceps",
+   "title": "Surzion Allis Tissue Forceps - \"surgical tissue forceps\" | Surzion",
+   "description": "Discover the Surzion Allis \"surgical tissue forceps\" renowned for their ability to firmly grasp and hold heavy soft tissues. With interlocking multi-toothed tips and a reliable ratchet locking mechanism, these surgical tissue-holding forceps ensure precision and control during procedures.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Allis Tissue Forceps"
+   ],
+   "headings": [
+    "h1: Allis Tissue Forceps",
+    "h2: Precision surgical instrument for tissue handling",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 203,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/473a67fe-b16e-4bca-bcd9-49a97b7c633a.jpg",
+     "alt": "Allis Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/473a67fe-b16e-4bca-bcd9-49a97b7c633a.jpg",
+     "alt": "Allis Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/50f2b62e-078e-483e-97dd-1dc911370e01.jpg",
+     "alt": "Allis Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a799fcee-9e73-4854-8c37-2442d0e58fe0.jpg",
+     "alt": "Allis Tissue Forceps"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7bd24f43-f5aa-4681-8e75-1a46eda42fb1.jpg",
+     "alt": "Allis Tissue Forceps"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  },
+  {
+   "url": "https://surzion.com/adenoid-curette-with-cage-surgical-instruments",
+   "path": "/adenoid-curette-with-cage-surgical-instruments",
+   "title": "Surzion Adenoid Curette for Safe Adenoidectomy | Surzion",
+   "description": "Discover the Surzion adenoid curette, a specialized ENT surgical instrument designed for efficient tissue excision during adenoidectomy procedures. Its innovative protective cage ensures safety and precision. Learn more about this essential tool for ENT professionals.",
+   "og_type": "website",
+   "lang": "en",
+   "h1": [
+    "Adenoid Curette with Cage"
+   ],
+   "headings": [
+    "h1: Adenoid Curette with Cage",
+    "h2: Precision Surgical Instrument",
+    "h3: Return, Refund & Replacement Policy",
+    "h3: Terms and Conditions",
+    "h3: We'll reply within 12 hours"
+   ],
+   "words": 206,
+   "images": 5,
+   "image_samples": [
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/aca01bda-e426-45a3-86c7-95b9161f9639.jpg",
+     "alt": "Adenoid Curette with Cage"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/aca01bda-e426-45a3-86c7-95b9161f9639.jpg",
+     "alt": "Adenoid Curette with Cage"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/41132f2a-f230-4f3f-bb58-2909f3bdf95e.jpg",
+     "alt": "Adenoid Curette with Cage"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/152e7fb3-2968-4546-b9b9-01043cac8e45.jpg",
+     "alt": "Adenoid Curette with Cage"
+    },
+    {
+     "src": "https://cdn.zyrosite.com/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/746e2480-daf8-4d92-a599-1c48dcefdbc8.jpg",
+     "alt": "Adenoid Curette with Cage"
+    }
+   ],
+   "links": {
+    "internal": 14,
+    "external": 6
+   },
+   "forms": [
+    {
+     "kind": "contact",
+     "region": "main",
+     "submit": "Submit your inquiry",
+     "fields": [
+      {
+       "type": "text",
+       "placeholder": "Your name",
+       "label": "Name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your last name",
+       "label": "Last name"
+      },
+      {
+       "type": "text",
+       "placeholder": "Your email address",
+       "label": "Your email*"
+      },
+      {
+       "type": "text",
+       "placeholder": "Enter your message",
+       "label": "Message*"
+      }
+     ]
+    }
+   ],
+   "jsonld": [
+    "Product",
+    "Offer"
+   ],
+   "body": [],
+   "flags": [],
+   "group": "page"
+  }
+ ],
+ "forms": [
+  {
+   "kind": "contact",
+   "submit": "Submit your inquiry",
+   "fields": [
+    {
+     "type": "text",
+     "placeholder": "Your name",
+     "label": "Name"
+    },
+    {
+     "type": "text",
+     "placeholder": "Your last name",
+     "label": "Last name"
+    },
+    {
+     "type": "text",
+     "placeholder": "Your email address",
+     "label": "Your email*"
+    },
+    {
+     "type": "text",
+     "placeholder": "Enter your message",
+     "label": "Message*"
+    }
+   ],
+   "pages": [
+    "/",
+    "/shop",
+    "/about",
+    "/contact",
+    "/refund-policy",
+    "/bulldog-clamps",
+    "…and 24 more pages"
+   ],
+   "in_chrome": false,
+   "id": "form_1"
+  },
+  {
+   "kind": "contact",
+   "submit": "Submit Your Inquiry",
+   "fields": [
+    {
+     "type": "text",
+     "placeholder": "Enter your first name",
+     "label": "Your First Name"
+    },
+    {
+     "type": "text",
+     "placeholder": "Enter your email address",
+     "label": "Your Email Address*"
+    },
+    {
+     "type": "text",
+     "placeholder": "Write your message here",
+     "label": "Your Message*"
+    }
+   ],
+   "pages": [
+    "/contact"
+   ],
+   "in_chrome": false,
+   "id": "form_2"
+  }
+ ],
+ "unread": [],
+ "not_fetched_budget": []
+}

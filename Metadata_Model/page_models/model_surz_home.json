@@ -1,0 +1,1119 @@
+{
+  "page": {
+    "obj_name": "surz_home",
+    "title": "Surzion — instruments that define perfection",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_surzion",
+          "name": "Surzion",
+          "background": "#F5F8FE",
+          "surface": "#FFFFFF",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "primary": "#0E2358",
+          "onPrimary": "#FFFFFF",
+          "accent": "#2F6BE6",
+          "border": "#E4EAF6"
+        },
+        {
+          "id": "cs_ink",
+          "name": "Surzion ink",
+          "background": "#0E2358",
+          "surface": "#14307A",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "accent": "#9DB8F5",
+          "border": "rgba(255,255,255,0.14)"
+        },
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ],
+      "defaultColorSchemeId": "cs_surzion"
+    },
+    "chrome": {
+      "smoothScroll": true
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_hero",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_navy",
+        "style": {
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        "blocks": [
+          {
+            "id": "hero_pill_row",
+            "type": "columns",
+            "count": 2,
+            "gap": 0,
+            "align": "top",
+            "style": {
+              "margin": {
+                "top": 28,
+                "left": 44,
+                "bottom": -120
+              },
+              "zIndex": 5
+            },
+            "columns": [
+              {
+                "id": "hero_pill_c",
+                "width": "auto",
+                "blocks": [
+                  {
+                    "id": "hero_pill",
+                    "type": "container",
+                    "padding": 12,
+                    "rounded": true,
+                    "align": "left",
+                    "background": {
+                      "kind": "color",
+                      "color": "#FFFFFF"
+                    },
+                    "style": {
+                      "shadow": "md"
+                    },
+                    "children": [
+                      {
+                        "id": "brand_row",
+                        "type": "columns",
+                        "count": 5,
+                        "gap": 14,
+                        "align": "center",
+                        "columns": [
+                          {
+                            "id": "brand_l",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "hero_logo",
+                                "type": "image",
+                                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                                "alt": "Surzion - The Surgical Excellence",
+                                "align": "left",
+                                "maxWidth": 150,
+                                "priority": true
+                              }
+                            ]
+                          },
+                          {
+                            "id": "brand_div1",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "hero_div1_txt",
+                                "type": "paragraph",
+                                "text": "|",
+                                "style": {
+                                  "textColor": "var(--pg-border-strong, var(--pg-border))"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "brand_by",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "hero_by_txt",
+                                "type": "paragraph",
+                                "text": "BY",
+                                "style": {
+                                  "textColor": "var(--pg-muted)",
+                                  "typography": {
+                                    "fontSize": 11,
+                                    "fontWeight": 600,
+                                    "letterSpacing": 0.12
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "brand_div2",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "hero_div2_txt",
+                                "type": "paragraph",
+                                "text": "|",
+                                "style": {
+                                  "textColor": "var(--pg-border-strong, var(--pg-border))"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "brand_r",
+                            "width": "auto",
+                            "blocks": [
+                              {
+                                "id": "hero_by_kapsons",
+                                "type": "image",
+                                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a7d69abbe446cb09.png",
+                                "alt": "By Kapsons",
+                                "align": "left",
+                                "maxWidth": 100
+                              }
+                            ]
+                          }
+                        ],
+                        "mobileLayout": "wrap"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "hero_pill_sp",
+                "blocks": [
+                  {
+                    "id": "hero_pill_spc",
+                    "type": "spacer",
+                    "height": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hero",
+            "type": "hero",
+            "style": {
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "bleed": true
+            },
+            "align": "left",
+            "title": "Quality Surgical Instruments Supplier in India",
+            "background": {
+              "kind": "transparent"
+            },
+            "height": "tall",
+            "imageSide": "none",
+            "slides": [
+              {
+                "id": "hs1",
+                "type": "image",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/baa414ead3ab3968.jpg"
+              },
+              {
+                "id": "hs2",
+                "type": "image",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/3e5d6edfb362593c.jpg"
+              },
+              {
+                "id": "hs3",
+                "type": "image",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0af6c4c32c57c4a4.jpg"
+              },
+              {
+                "id": "hs4",
+                "type": "image",
+                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/51dcbaea45e73b3d.jpg"
+              }
+            ],
+            "autoplay": true,
+            "autoplayInterval": 6000,
+            "showDots": true,
+            "showArrows": true,
+            "contentPosition": {
+              "x": "left",
+              "y": "bottom"
+            },
+            "scrim": "rgba(8,20,52,0.58)",
+            "primaryCta": {
+              "id": "h1",
+              "label": "Shop Now",
+              "variant": "primary",
+              "size": "lg",
+              "icon": "arrow-right",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/instruments",
+                "newTab": false
+              }
+            },
+            "secondaryCta": {
+              "id": "h2",
+              "label": "Explore Products",
+              "variant": "outline",
+              "size": "lg",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/online-catalogue",
+                "newTab": false
+              }
+            },
+            "titleSize": 60,
+            "titleWeight": 600
+          }
+        ]
+      },
+      {
+        "id": "sec_trust",
+        "tag": "main",
+        "width": "full",
+        "colorSchemeId": "cs_tint",
+        "style": {
+          "padding": {
+            "top": 28,
+            "bottom": 28
+          }
+        },
+        "blocks": [
+          {
+            "id": "trust",
+            "type": "feature_grid",
+            "columns": 4,
+            "iconStyle": "square",
+            "items": [
+              {
+                "id": "tr1",
+                "icon": "shield",
+                "title": "Surgical-grade steel",
+                "description": "Inspected before dispatch"
+              },
+              {
+                "id": "tr2",
+                "icon": "truck",
+                "title": "Free shipping over ₹5,000",
+                "description": "Across India"
+              },
+              {
+                "id": "tr3",
+                "icon": "file-text",
+                "title": "GST tax invoice",
+                "description": "On every order"
+              },
+              {
+                "id": "tr4",
+                "icon": "credit-card",
+                "title": "Pay online or COD",
+                "description": "Razorpay or cash on delivery"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_categories",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "categories",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cat_h",
+            "type": "heading",
+            "level": 2,
+            "text": "Product categories",
+            "eyebrow": "Shop by category"
+          },
+          {
+            "id": "cat_grid",
+            "type": "card_grid",
+            "columns": 3,
+            "gap": 24,
+            "cardStyle": {
+              "radius": 20,
+              "padding": 20,
+              "titleSize": 18,
+              "bodySize": 14,
+              "border": true,
+              "shadow": "md",
+              "imageFit": "contain",
+              "imageAspect": "4/3"
+            },
+            "style": {
+              "hover": {
+                "translateY": -4,
+                "shadow": "lg"
+              },
+              "hoverScope": "items",
+              "transition": 200
+            },
+            "animation": {
+              "preset": "fade-up",
+              "on": "scroll",
+              "stagger": 90,
+              "once": true
+            },
+            "cards": [
+              {
+                "id": "cat_tc",
+                "title": "TC Surgical Instruments",
+                "body": "Tungsten-carbide Autagrip and Autagrip patterns for a sure grip.",
+                "imageUrl": "/api/designers/assets/raw?project=Surzion_Store&file=9d2d5ac0893c2d58.jpg",
+                "background": "var(--pg-surface)",
+                "cta": {
+                  "id": "cat_tc_c",
+                  "label": "Explore collection",
+                  "variant": "link",
+                  "size": "md",
+                  "icon": "arrow-right",
+                  "on_click": {
+                    "kind": "external_url",
+                    "url": "/instruments",
+                    "newTab": false
+                  }
+                }
+              },
+              {
+                "id": "cat_gen",
+                "title": "General Surgical Instruments",
+                "body": "Artery forceps, clamps, retractors, curettes and scalpel handles.",
+                "imageUrl": "/api/designers/assets/raw?project=Surzion_Store&file=be11e5517034c3c6.jpg",
+                "background": "var(--pg-surface)",
+                "cta": {
+                  "id": "cat_gen_c",
+                  "label": "Explore collection",
+                  "variant": "link",
+                  "size": "md",
+                  "icon": "arrow-right",
+                  "on_click": {
+                    "kind": "external_url",
+                    "url": "/surgical-instruments",
+                    "newTab": false
+                  }
+                }
+              },
+              {
+                "id": "cat_ort",
+                "title": "Orthopaedic Surgical Instruments",
+                "body": "Reduction clamps, bone hooks and tendon instruments for trauma work.",
+                "imageUrl": "/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg",
+                "background": "var(--pg-surface)",
+                "cta": {
+                  "id": "cat_ort_c",
+                  "label": "Explore collection",
+                  "variant": "link",
+                  "size": "md",
+                  "icon": "arrow-right",
+                  "on_click": {
+                    "kind": "external_url",
+                    "url": "/orthopaedic",
+                    "newTab": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_featured",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "products",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "feat_h",
+            "type": "heading",
+            "level": 2,
+            "text": "Best sellers & new arrivals",
+            "eyebrow": "Instruments"
+          },
+          {
+            "id": "feat_filter",
+            "type": "filter_bar",
+            "target": "f_grid",
+            "layout": "inline",
+            "sort": [
+              {
+                "id": "s_def",
+                "label": "Default",
+                "by": "none",
+                "dir": "asc"
+              },
+              {
+                "id": "s_lo",
+                "label": "Price: low to high",
+                "by": "price",
+                "dir": "asc"
+              },
+              {
+                "id": "s_hi",
+                "label": "Price: high to low",
+                "by": "price",
+                "dir": "desc"
+              }
+            ],
+            "resultLabel": "{n} products"
+          },
+          {
+            "id": "f_grid",
+            "type": "card",
+            "cardStyle": {
+              "radius": 16,
+              "padding": 14,
+              "titleSize": 15,
+              "bodySize": 14,
+              "border": true,
+              "shadow": "md",
+              "imageFit": "contain",
+              "imageAspect": "1/1"
+            },
+            "style": {
+              "hover": {
+                "translateY": -4,
+                "shadow": "lg"
+              },
+              "hoverScope": "items",
+              "transition": 200
+            },
+            "repeat": {
+              "source": "ds_products",
+              "as": "p",
+              "max": 8,
+              "designCount": 4,
+              "layout": {
+                "mode": "grid",
+                "columns": 4,
+                "gap": 20
+              }
+            },
+            "bindings": {
+              "card.title": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageAlt": {
+                "source": "item_field",
+                "path": "PRODUCT_NAME"
+              },
+              "card.imageUrl": {
+                "source": "item_field",
+                "path": "IMAGE_URL"
+              },
+              "card.badge": {
+                "source": "item_field",
+                "path": "RIBBON"
+              },
+              "card.price": {
+                "source": "item_field",
+                "path": "UNIT_PRICE"
+              },
+              "card.compareAtPrice": {
+                "source": "item_field",
+                "path": "MRP"
+              },
+              "card.hoverImageUrl": {
+                "source": "item_field",
+                "path": "HOVER_IMAGE_URL"
+              }
+            },
+            "card": {
+              "id": "f_grid_c",
+              "title": "Instrument",
+              "badge": "",
+              "price": "0",
+              "priceFormat": "currency",
+              "priceCurrency": "INR",
+              "showSavings": true,
+              "wishlist": true,
+              "imageFit": "contain",
+              "imageAspect": "1/1",
+              "secondaryCta": {
+                "id": "f_grid_a",
+                "label": "Add to bag",
+                "variant": "primary",
+                "size": "lg",
+                "icon": "shopping-cart",
+                "on_click": {
+                  "kind": "add_to_cart",
+                  "sku": "{{p.PRODUCT_CODE}}",
+                  "name": "{{p.PRODUCT_NAME}}",
+                  "price": "₹{{p.UNIT_PRICE}}",
+                  "image": "{{p.IMAGE_URL}}",
+                  "href": "/{{p.SLUG}}",
+                  "meta": "{{p.CATEGORY_NAME}}",
+                  "addedLabel": "Added",
+                  "inCartLabel": "In cart · {n}",
+                  "inCartStepper": true,
+                  "toast": true,
+                  "toastLabel": "Added to bag",
+                  "toastLinkLabel": "View cart",
+                  "cartHref": "/cart"
+                }
+              }
+            },
+            "on_click": {
+              "kind": "external_url",
+              "url": "/{{p.SLUG}}",
+              "newTab": false
+            }
+          },
+          {
+            "id": "feat_more",
+            "type": "button",
+            "align": "center",
+            "button": {
+              "id": "feat_more_b",
+              "label": "View all instruments",
+              "variant": "outline",
+              "size": "lg",
+              "on_click": {
+                "kind": "external_url",
+                "url": "/instruments",
+                "newTab": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_partner",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "creators",
+        "colorSchemeId": "cs_navy",
+        "dividerTop": {
+          "kind": "curve",
+          "height": 40,
+          "color": "var(--pg-primary)"
+        },
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 72
+          }
+        },
+        "blocks": [
+          {
+            "id": "pt_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 64,
+            "align": "center",
+            "columns": [
+              {
+                "id": "pt_l",
+                "blocks": [
+                  {
+                    "id": "pt_h",
+                    "type": "heading",
+                    "level": 2,
+                    "eyebrow": "Creator partner programme",
+                    "text": "Share Surzion with your followers"
+                  },
+                  {
+                    "id": "pt_p",
+                    "type": "paragraph",
+                    "text": "Medical creators on Instagram, YouTube, Facebook and LinkedIn get their own discount code. Your followers claim it at checkout, and you see every order it brings in."
+                  },
+                  {
+                    "id": "pt_list",
+                    "type": "bullet_list",
+                    "items": [
+                      {
+                        "id": "pl1",
+                        "text": "A personal code your followers can claim"
+                      },
+                      {
+                        "id": "pl2",
+                        "text": "A QR code for posts, reels and stories"
+                      },
+                      {
+                        "id": "pl3",
+                        "text": "Track every order claimed with your code"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pt_btns",
+                    "type": "button_group",
+                    "align": "left",
+                    "gap": 12,
+                    "buttons": [
+                      {
+                        "id": "pt_b1",
+                        "label": "Become a creator partner",
+                        "variant": "secondary",
+                        "size": "md",
+                        "icon": "arrow-right",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "/partner",
+                          "newTab": false
+                        }
+                      },
+                      {
+                        "id": "pt_b2",
+                        "label": "Partner sign in",
+                        "variant": "outline",
+                        "size": "md",
+                        "on_click": {
+                          "kind": "external_url",
+                          "url": "/login",
+                          "newTab": false
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "pt_r",
+                "blocks": [
+                  {
+                    "id": "pt_card",
+                    "type": "container",
+                    "padding": 28,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "style": {
+                      "shadow": "lg"
+                    },
+                    "children": [
+                      {
+                        "id": "pt_card_cc",
+                        "type": "custom_code",
+                        "sandbox": true,
+                        "html": "<div class='top'><span class='lbl'>YOUR PARTNER CODE</span><span class='ok'>Approved</span></div><div class='mid'><svg width='112' height='112' viewBox='0 0 21 21' aria-label='QR code'><g fill='currentColor'><path d='M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zm1 1v5h5V1zm1 1h3v3h-3zM0 14h7v7H0zm1 1v5h5v-5zm1 1h3v3H2z'></path><path d='M8 0h1v2H8zM10 1h2v1h-2zM9 3h2v2H9zM12 4h1v3h-1zM8 6h1v2H8zM10 8h3v1h-3zM14 8h2v2h-2zM17 9h3v1h-3zM0 8h2v1H0zM3 9h3v2H3zM8 10h2v3H8zM11 11h2v1h-2zM15 11h1v3h-1zM18 11h3v2h-3zM9 14h3v1H9zM13 13h1v1h-1zM8 16h2v2H8zM11 16h3v1h-3zM16 15h2v2h-2zM19 15h2v1h-2zM12 18h2v3h-2zM15 18h1v3h-1zM17 18h4v1h-4zM18 20h3v1h-3zM9 19h2v2H9z'></path></g></svg><div class='txt'><div class='t1'>Your own code, your own QR</div><div class='t2'>Followers save on every item</div></div></div><div class='foot'>Share it in your posts. Buyers enter it at checkout.</div>",
+                        "css": "body{margin:0}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.lbl{font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--pg-muted)}.ok{font-size:12px;font-weight:600;color:var(--pg-success);background:var(--pg-success-bg,#E5F5EE);padding:4px 10px;border-radius:999px}.mid{display:flex;gap:20px;align-items:center}svg{flex:none;color:var(--pg-heading);border:1px solid var(--pg-border);border-radius:10px;padding:6px;box-sizing:border-box}.t1{font-size:18px;font-weight:700;color:var(--pg-primary);margin-bottom:4px}.t2{font-size:15px;color:var(--pg-muted)}.foot{margin-top:16px;border-top:1px dashed var(--pg-border);padding-top:14px;font-size:13px;font-weight:500;color:var(--pg-muted)}",
+                        "height": 230
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sec_testimonials",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "testimonials",
+        "style": {
+          "padding": {
+            "top": 64,
+            "bottom": 64
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "tm",
+            "type": "testimonial",
+            "mode": "single",
+            "align": "center",
+            "quote": "Surzion provides top-notch surgical instruments.",
+            "authorName": "Dr. Sharma",
+            "authorRole": "Surgeon",
+            "rating": 5,
+            "repeat": {
+              "source": "ds_testimonials",
+              "as": "t",
+              "max": 10,
+              "designCount": 3,
+              "layout": {
+                "mode": "grid",
+                "columns": 3,
+                "gap": 24
+              }
+            },
+            "bindings": {
+              "quote": {
+                "source": "item_field",
+                "path": "QUOTE"
+              },
+              "authorName": {
+                "source": "item_field",
+                "path": "AUTHOR_NAME"
+              },
+              "authorRole": {
+                "source": "item_field",
+                "path": "AUTHOR_ROLE"
+              },
+              "rating": {
+                "source": "item_field",
+                "path": "RATING"
+              },
+              "authorAvatarUrl": {
+                "source": "item_field",
+                "path": "AUTHOR_IMAGE_URL"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_contact",
+        "tag": "main",
+        "width": "full",
+        "anchorId": "enquiry",
+        "style": {
+          "padding": {
+            "top": 72,
+            "bottom": 80
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "ct_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 56,
+            "align": "top",
+            "columns": [
+              {
+                "id": "ct_l",
+                "blocks": [
+                  {
+                    "id": "ct_h",
+                    "type": "heading",
+                    "level": 2,
+                    "eyebrow": "Contact us",
+                    "text": "We provide premium surgical solutions for precision care"
+                  },
+                  {
+                    "id": "ct_p",
+                    "type": "paragraph",
+                    "text": "Bulk order, custom instrument or a question about a product? Send us a message — we'll reply within 12 hours."
+                  },
+                  {
+                    "id": "ct_ph",
+                    "type": "paragraph",
+                    "text": "+91 78148 61010 · +91 81958 31010",
+                    "style": {
+                      "textColor": "var(--pg-heading)",
+                      "typography": {
+                        "fontWeight": 500
+                      }
+                    }
+                  },
+                  {
+                    "id": "ct_em",
+                    "type": "paragraph",
+                    "text": "sales@surzion.com",
+                    "style": {
+                      "textColor": "var(--pg-heading)",
+                      "typography": {
+                        "fontWeight": 500
+                      }
+                    }
+                  },
+                  {
+                    "id": "ct_ad",
+                    "type": "paragraph",
+                    "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext, Chopra Township, Jalandhar, Punjab 144021"
+                  }
+                ]
+              },
+              {
+                "id": "ct_r",
+                "blocks": [
+                  {
+                    "id": "enquiry_form",
+                    "type": "form",
+                    "submitLabel": "Send enquiry",
+                    "layout": "grid",
+                    "destination": "submissions",
+                    "spam": {
+                      "honeypot": true,
+                      "minSeconds": 2
+                    },
+                    "success": {
+                      "title": "Thank you",
+                      "message": "We have your enquiry and will reply shortly."
+                    },
+                    "style": {
+                      "background": {
+                        "kind": "color",
+                        "color": "var(--pg-background)"
+                      },
+                      "padding": {
+                        "top": 28,
+                        "bottom": 28,
+                        "left": 28,
+                        "right": 28
+                      },
+                      "radius": 20,
+                      "border": true
+                    },
+                    "fields": [
+                      {
+                        "id": "n",
+                        "name": "contact_name",
+                        "label": "Name",
+                        "type": "text",
+                        "required": true
+                      },
+                      {
+                        "id": "ln",
+                        "name": "last_name",
+                        "label": "Last name",
+                        "type": "text"
+                      },
+                      {
+                        "id": "e",
+                        "name": "email",
+                        "label": "Your email",
+                        "type": "email",
+                        "required": true
+                      },
+                      {
+                        "id": "m",
+                        "name": "message",
+                        "label": "Message",
+                        "type": "textarea",
+                        "required": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Trusted Wholesale Supplier of Surgical Instruments | Surzion",
+      "description": "ISO and CE certified surgical, orthopaedic and dissecting instruments in 410, 420 and 316-grade stainless steel, tungsten carbide and titanium."
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "dataSources": [
+      {
+        "id": "ds_products",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_product"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 200,
+        "filters": [
+          {
+            "id": "f_listed",
+            "column": "IS_ACTIVE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "Y"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "SORT_ORDER",
+            "dir": "asc"
+          },
+          {
+            "column": "PRODUCT_NAME",
+            "dir": "asc"
+          }
+        ],
+        "columns": [
+          "PRODUCT_CODE",
+          "PRODUCT_NAME",
+          "CATEGORY_NAME",
+          "CATEGORY_CODE",
+          "SUBTITLE",
+          "DESCR",
+          "UNIT_PRICE",
+          "MRP",
+          "SLUG",
+          "IMAGE_URL",
+          "HOVER_IMAGE_URL",
+          "RIBBON",
+          "STOCK_QTY",
+          "SORT_ORDER"
+        ]
+      },
+      {
+        "id": "ds_testimonials",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_testimonial"
+        },
+        "mode": "list",
+        "bindingTime": "deployment",
+        "limit": 10,
+        "filters": [
+          {
+            "id": "f_active",
+            "column": "IS_ACTIVE",
+            "op": "eq",
+            "value": {
+              "source": "static",
+              "value": "Y"
+            }
+          }
+        ],
+        "sort": [
+          {
+            "column": "TESTIMONIAL_DATE",
+            "dir": "desc"
+          }
+        ],
+        "columns": [
+          "AUTHOR_NAME",
+          "AUTHOR_ROLE",
+          "AUTHOR_IMAGE_URL",
+          "QUOTE",
+          "RATING"
+        ]
+      }
+    ]
+  }
+}

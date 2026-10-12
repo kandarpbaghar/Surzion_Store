@@ -1,0 +1,736 @@
+{
+  "version": 2,
+  "id": "d455458c-9b9a-4142-b2a7-39bd60d1cef5",
+  "project": "Surzion_Store",
+  "description": "",
+  "active_plan_id": "fcfb9b83-bbee-4069-927d-e5d62374beda",
+  "plans": [
+    {
+      "id": "fcfb9b83-bbee-4069-927d-e5d62374beda",
+      "title": "Build application",
+      "kind": "build",
+      "status": "awaiting_review",
+      "description": "",
+      "todos": [
+        {
+          "id": "frs",
+          "step": "frs",
+          "label": "Generate Functional Requirements",
+          "status": "pending",
+          "error": null,
+          "obj_name": null,
+          "obj_type": null,
+          "phase_id": null
+        },
+        {
+          "id": "app_json",
+          "step": "app_json",
+          "label": "Generate Application Structure",
+          "status": "completed",
+          "error": null,
+          "obj_name": null,
+          "obj_type": null,
+          "phase_id": null
+        },
+        {
+          "id": "analyze_deps",
+          "step": "analyze_deps",
+          "label": "Analyze Object Dependencies",
+          "status": "completed",
+          "error": null,
+          "obj_name": null,
+          "obj_type": null,
+          "phase_id": null
+        },
+        {
+          "id": "obj_surz_category",
+          "step": "object",
+          "label": "Build & verify: Categories",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_category",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_hsn_gst",
+          "step": "object",
+          "label": "Build & verify: HSN & GST",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_hsn_gst",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_discount",
+          "step": "object",
+          "label": "Build & verify: Discount codes",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_discount",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_customer",
+          "step": "object",
+          "label": "Build & verify: Customers",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_customer",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_partner",
+          "step": "object",
+          "label": "Build & verify: Partners",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_partner",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_product",
+          "step": "object",
+          "label": "Build & verify: Instruments",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_product",
+          "obj_type": "T",
+          "phase_id": "phase_1"
+        },
+        {
+          "id": "obj_surz_cart",
+          "step": "object",
+          "label": "Build & verify: Carts",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_cart",
+          "obj_type": "T",
+          "phase_id": "phase_2"
+        },
+        {
+          "id": "obj_surz_order",
+          "step": "object",
+          "label": "Build & verify: Orders",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_order",
+          "obj_type": "T",
+          "phase_id": "phase_2"
+        },
+        {
+          "id": "obj_surz_stock_move",
+          "step": "object",
+          "label": "Build & verify: Stock movements",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_stock_move",
+          "obj_type": "T",
+          "phase_id": "phase_2"
+        },
+        {
+          "id": "obj_surz_enquiry",
+          "step": "object",
+          "label": "Build & verify: Enquiries",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_enquiry",
+          "obj_type": "T",
+          "phase_id": "phase_2"
+        },
+        {
+          "id": "obj_surz_partner_order",
+          "step": "object",
+          "label": "Build & verify: My referred orders",
+          "status": "pending",
+          "error": null,
+          "obj_name": "surz_partner_order",
+          "obj_type": "T",
+          "phase_id": "phase_2"
+        },
+        {
+          "id": "obj_SURZ_SALES_LINE",
+          "step": "object",
+          "label": "Build & verify: Sales line schema",
+          "status": "completed",
+          "error": null,
+          "obj_name": "SURZ_SALES_LINE",
+          "obj_type": "M",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_SURZ_ORDER_HEADER",
+          "step": "object",
+          "label": "Build & verify: Order header schema",
+          "status": "completed",
+          "error": null,
+          "obj_name": "SURZ_ORDER_HEADER",
+          "obj_type": "M",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_revenue_trend",
+          "step": "object",
+          "label": "Build & verify: Revenue trend",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_revenue_trend",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_top_instruments",
+          "step": "object",
+          "label": "Build & verify: Top instruments",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_top_instruments",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_category_mix",
+          "step": "object",
+          "label": "Build & verify: Category mix",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_category_mix",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_payment_status",
+          "step": "object",
+          "label": "Build & verify: Payment status",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_payment_status",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_stock_cover",
+          "step": "object",
+          "label": "Build & verify: Stock cover",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_stock_cover",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_net_billed_trend",
+          "step": "object",
+          "label": "Build & verify: Net billed trend",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_net_billed_trend",
+          "obj_type": "V",
+          "phase_id": "phase_3"
+        },
+        {
+          "id": "obj_surz_sales_dashboard",
+          "step": "object",
+          "label": "Build & verify: Sales dashboard",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_sales_dashboard",
+          "obj_type": "D",
+          "phase_id": "phase_4"
+        },
+        {
+          "id": "obj_surz_partner_dashboard",
+          "step": "object",
+          "label": "Build & verify: Partner sales",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_partner_dashboard",
+          "obj_type": "D",
+          "phase_id": "phase_4"
+        },
+        {
+          "id": "obj_surz_site_header",
+          "step": "object",
+          "label": "Build & verify: Site header",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_site_header",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_site_footer",
+          "step": "object",
+          "label": "Build & verify: Site footer",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_site_footer",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_home",
+          "step": "object",
+          "label": "Build & verify: Home",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_home",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_shop",
+          "step": "object",
+          "label": "Build & verify: Instruments",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_shop",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_cart_page",
+          "step": "object",
+          "label": "Build & verify: Cart",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_cart_page",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_checkout",
+          "step": "object",
+          "label": "Build & verify: Checkout",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_checkout",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_contact",
+          "step": "object",
+          "label": "Build & verify: Contact",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_contact",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_partner_register",
+          "step": "object",
+          "label": "Build & verify: Become a partner",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_partner_register",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_partner_portal",
+          "step": "object",
+          "label": "Build & verify: My partner account",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_partner_portal",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_quality",
+          "step": "object",
+          "label": "Build & verify: Quality",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_quality",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_about",
+          "step": "object",
+          "label": "Build & verify: About",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_about",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_privacy",
+          "step": "object",
+          "label": "Build & verify: Privacy policy",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_privacy",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_terms",
+          "step": "object",
+          "label": "Build & verify: Terms & conditions",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_terms",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_shipping",
+          "step": "object",
+          "label": "Build & verify: Shipping policy",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_shipping",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_returns",
+          "step": "object",
+          "label": "Build & verify: Returns & refunds",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_returns",
+          "obj_type": "S",
+          "phase_id": "phase_5"
+        },
+        {
+          "id": "obj_surz_p_adenoid_curette_with_cage_surgical_instruments",
+          "step": "object",
+          "label": "Build & verify: Adenoid Curette with Cage",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_adson_beckman_retractor",
+          "step": "object",
+          "label": "Build & verify: Adson Beckman Retractor",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_adson_beckman_retractor",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_adson_brown_tissue_forceps",
+          "step": "object",
+          "label": "Build & verify: Adson Brown Tissue Forceps",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_adson_brown_tissue_forceps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_adson_brown_tissue_forceps1",
+          "step": "object",
+          "label": "Build & verify: Adson Brown Tissue Forceps (fine)",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_adson_brown_tissue_forceps1",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_premium_surgical_instruments_2",
+          "step": "object",
+          "label": "Build & verify: Adson Dissecting Forceps Plain",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_premium_surgical_instruments_2",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+          "step": "object",
+          "label": "Build & verify: Allis Tissue Forceps",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_allis_tissue_forceps_autragrip",
+          "step": "object",
+          "label": "Build & verify: Allis Tissue Forceps Autagrip",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_allison_lung_retractor",
+          "step": "object",
+          "label": "Build & verify: Allison Lung Retractor",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_allison_lung_retractor",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_anderson_tendon_tunneling_forceps",
+          "step": "object",
+          "label": "Build & verify: Anderson Tendon Tunneling Forceps",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_artery_forceps_crile",
+          "step": "object",
+          "label": "Build & verify: Artery Forceps Crile",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_artery_forceps_crile",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_artery_forceps_kocher",
+          "step": "object",
+          "label": "Build & verify: Artery Forceps Kocher",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_artery_forceps_kocher",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_artery_forceps_ochsner",
+          "step": "object",
+          "label": "Build & verify: Artery Forceps Ochsner",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_artery_forceps_ochsner",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_artery_forceps_pean",
+          "step": "object",
+          "label": "Build & verify: Artery Forceps Pean",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_artery_forceps_pean",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_artery_forceps_robert_hemostatic_forceps",
+          "step": "object",
+          "label": "Build & verify: Artery Forceps Robert",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_bp_handle_bayonet_5",
+          "step": "object",
+          "label": "Build & verify: B.P Handle Bayonet",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_bp_handle_bayonet_5",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_babcock_forceps_autogrip",
+          "step": "object",
+          "label": "Build & verify: Babcock Forceps Autogrip",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_babcock_forceps_autogrip",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_bulldog_clamps",
+          "step": "object",
+          "label": "Build & verify: Babcock Forceps TC",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_bulldog_clamps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_birkett_tonsil_artery_forceps",
+          "step": "object",
+          "label": "Build & verify: Birkett Tonsil Artery Forceps",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_dandy_artery_forceps_55",
+          "step": "object",
+          "label": "Build & verify: Bone Hook",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_dandy_artery_forceps_55",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_bone_reduction_clamp_towel_type",
+          "step": "object",
+          "label": "Build & verify: Bone Reduction Clamp Towel Type",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_bulldog_clamps1",
+          "step": "object",
+          "label": "Build & verify: Bulldog Clamps",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_bulldog_clamps1",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        },
+        {
+          "id": "obj_surz_p_castpaw_retractor_kilner_retractor",
+          "step": "object",
+          "label": "Build & verify: Castpaw Retractor (Kilner Retractor)",
+          "status": "completed",
+          "error": null,
+          "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+          "obj_type": "S",
+          "phase_id": "phase_6"
+        }
+      ],
+      "phases": [
+        {
+          "id": "phase_1",
+          "title": "Master & lookup data",
+          "rationale": "Reference masters (categories, tax codes, discounts, customers, partners) that every transaction looks up.",
+          "objects": [
+            "surz_category",
+            "surz_hsn_gst",
+            "surz_discount",
+            "surz_customer",
+            "surz_partner",
+            "surz_product"
+          ]
+        },
+        {
+          "id": "phase_2",
+          "title": "Core transactions",
+          "rationale": "Transactions that reference products, customers and partners: cart, orders, stock moves, enquiries, partner orders.",
+          "objects": [
+            "surz_cart",
+            "surz_order",
+            "surz_stock_move",
+            "surz_enquiry",
+            "surz_partner_order"
+          ]
+        },
+        {
+          "id": "phase_3",
+          "title": "Schemas & visuals",
+          "rationale": "Datasets over order and sales data, then the charts that read from them.",
+          "objects": [
+            "SURZ_SALES_LINE",
+            "SURZ_ORDER_HEADER",
+            "surz_revenue_trend",
+            "surz_top_instruments",
+            "surz_category_mix",
+            "surz_payment_status",
+            "surz_stock_cover",
+            "surz_net_billed_trend"
+          ]
+        },
+        {
+          "id": "phase_4",
+          "title": "Dashboards",
+          "rationale": "Sales and partner dashboards that embed the visuals built in the previous phase.",
+          "objects": [
+            "surz_sales_dashboard",
+            "surz_partner_dashboard"
+          ]
+        },
+        {
+          "id": "phase_5",
+          "title": "Site chrome & core store pages",
+          "rationale": "Header, footer and the commerce pages that embed cart, order, enquiry and partner transactions and dashboards.",
+          "objects": [
+            "surz_site_header",
+            "surz_site_footer",
+            "surz_home",
+            "surz_shop",
+            "surz_cart_page",
+            "surz_checkout",
+            "surz_contact",
+            "surz_partner_register",
+            "surz_partner_portal",
+            "surz_quality",
+            "surz_about",
+            "surz_privacy",
+            "surz_terms",
+            "surz_shipping",
+            "surz_returns"
+          ]
+        },
+        {
+          "id": "phase_6",
+          "title": "Product detail pages",
+          "rationale": "Per-product pages built on the product master and the shared header and footer.",
+          "objects": [
+            "surz_p_adenoid_curette_with_cage_surgical_instruments",
+            "surz_p_adson_beckman_retractor",
+            "surz_p_adson_brown_tissue_forceps",
+            "surz_p_adson_brown_tissue_forceps1",
+            "surz_p_premium_surgical_instruments_2",
+            "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+            "surz_p_allis_tissue_forceps_autragrip",
+            "surz_p_allison_lung_retractor",
+            "surz_p_anderson_tendon_tunneling_forceps",
+            "surz_p_artery_forceps_crile",
+            "surz_p_artery_forceps_kocher",
+            "surz_p_artery_forceps_ochsner",
+            "surz_p_artery_forceps_pean",
+            "surz_p_artery_forceps_robert_hemostatic_forceps",
+            "surz_p_bp_handle_bayonet_5",
+            "surz_p_babcock_forceps_autogrip",
+            "surz_p_bulldog_clamps",
+            "surz_p_birkett_tonsil_artery_forceps",
+            "surz_p_dandy_artery_forceps_55",
+            "surz_p_bone_reduction_clamp_towel_type",
+            "surz_p_bulldog_clamps1",
+            "surz_p_castpaw_retractor_kilner_retractor"
+          ]
+        }
+      ],
+      "profile_id": null,
+      "created_at": 1791458604.025839,
+      "updated_at": 1791458614.703555,
+      "depends_on": [],
+      "dependency_spec": null,
+      "run_scope": null
+    }
+  ]
+}

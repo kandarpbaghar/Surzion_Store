@@ -1,0 +1,84 @@
+{
+  "table_name": "SURZ_CART",
+  "description": "Cart (surz_cart)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "CART_ID",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Cart"
+    },
+    {
+      "column_name": "SESSION_KEY",
+      "data_type": "VARCHAR",
+      "size": "120",
+      "sequence": 2,
+      "key": false,
+      "mandatory": true,
+      "description": "Shop account or session"
+    },
+    {
+      "column_name": "CART_STATUS",
+      "data_type": "VARCHAR",
+      "size": "12",
+      "sequence": 3,
+      "key": false,
+      "mandatory": false,
+      "description": "Status",
+      "allowed_values": [
+        "OPEN",
+        "ORDERED",
+        "ABANDONED"
+      ]
+    },
+    {
+      "column_name": "ORDER_NO",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Became order"
+    },
+    {
+      "column_name": "ADD_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 5,
+      "key": false,
+      "mandatory": false,
+      "description": "Added on"
+    },
+    {
+      "column_name": "ADD_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 6,
+      "key": false,
+      "mandatory": false,
+      "description": "Added by"
+    },
+    {
+      "column_name": "CHG_DATE",
+      "data_type": "DATETIME",
+      "size": "",
+      "sequence": 7,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed on"
+    },
+    {
+      "column_name": "CHG_USER",
+      "data_type": "VARCHAR",
+      "size": "10",
+      "sequence": 8,
+      "key": false,
+      "mandatory": false,
+      "description": "Changed by"
+    }
+  ]
+}

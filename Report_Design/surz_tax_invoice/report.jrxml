@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Surzion tax invoice.
+
+     Printed for ONE order, named by $P{ORDER_NO} — the mandatory prompt the
+     runtime collects before rendering. The document is the thing the buyer
+     files and the auditor asks for, so it carries the seller's identity, the
+     buyer's, the HSN and GST per line, and what was actually PAID (the
+     payment rail's write-back columns), not merely what was billed.
+
+     One page band per part: title, seller/buyer, column headings, one
+     detail band per order line, then the totals. Amounts right-align on a
+     fixed grid so the column of figures reads straight down. -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="surz_tax_invoice" pageWidth="595" pageHeight="842"
+              columnWidth="535" leftMargin="30" rightMargin="30"
+              topMargin="30" bottomMargin="30" whenNoDataType="AllSectionsNoDetail">
+
+  <parameter name="ORDER_NO" class="java.lang.String"/>
+
+  <queryString>
+    <![CDATA[
+      SELECT o.ORDER_NO,
+             o.ORDER_DATE,
+             o.CUSTOMER_NAME,
+             o.EMAIL,
+             o.PHONE,
+             o.SHIP_ADDRESS,
+             o.SUBTOTAL,
+             o.DISCOUNT_AMT,
+             o.GST_AMT,
+             o.SHIPPING_AMT,
+             o.TOTAL_AMOUNT,
+             o.PAY_STATUS,
+             o.PAY_METHOD,
+             o.PAYMENT_REF,
+             o.PAID_AMOUNT,
+             c.ORG_NAME,
+             c.GSTIN,
+             c.CITY,
+             c.STATE_NAME,
+             c.PINCODE,
+             l.LINE_NO,
+             l.PRODUCT_CODE,
+             l.PRODUCT_NAME,
+             l.QTY,
+             l.UNIT_PRICE,
+             l.GST_RATE,
+             l.LINE_TOTAL,
+             p.HSN_CODE
+        FROM SURZ_ORDER o
+        JOIN SURZ_ORDER_LINE l ON l.ORDER_NO = o.ORDER_NO
+        LEFT JOIN SURZ_CUSTOMER c ON c.CUSTOMER_ID = o.CUSTOMER_ID
+        LEFT JOIN SURZ_PRODUCT p ON p.PRODUCT_CODE = l.PRODUCT_CODE
+       WHERE o.ORDER_NO = $P{ORDER_NO}
+       ORDER BY l.LINE_NO
+    ]]>
+  </queryString>
+
+  <field name="ORDER_NO" class="java.lang.String"/>
+  <field name="ORDER_DATE" class="java.sql.Date"/>
+  <field name="CUSTOMER_NAME" class="java.lang.String"/>
+  <field name="EMAIL" class="java.lang.String"/>
+  <field name="PHONE" class="java.lang.String"/>
+  <field name="SHIP_ADDRESS" class="java.lang.String"/>
+  <field name="SUBTOTAL" class="java.math.BigDecimal"/>
+  <field name="DISCOUNT_AMT" class="java.math.BigDecimal"/>
+  <field name="GST_AMT" class="java.math.BigDecimal"/>
+  <field name="SHIPPING_AMT" class="java.math.BigDecimal"/>
+  <field name="TOTAL_AMOUNT" class="java.math.BigDecimal"/>
+  <field name="PAY_STATUS" class="java.lang.String"/>
+  <field name="PAY_METHOD" class="java.lang.String"/>
+  <field name="PAYMENT_REF" class="java.lang.String"/>
+  <field name="PAID_AMOUNT" class="java.math.BigDecimal"/>
+  <field name="ORG_NAME" class="java.lang.String"/>
+  <field name="GSTIN" class="java.lang.String"/>
+  <field name="CITY" class="java.lang.String"/>
+  <field name="STATE_NAME" class="java.lang.String"/>
+  <field name="PINCODE" class="java.lang.String"/>
+  <field name="LINE_NO" class="java.lang.Integer"/>
+  <field name="PRODUCT_CODE" class="java.lang.String"/>
+  <field name="PRODUCT_NAME" class="java.lang.String"/>
+  <field name="QTY" class="java.math.BigDecimal"/>
+  <field name="UNIT_PRICE" class="java.math.BigDecimal"/>
+  <field name="GST_RATE" class="java.math.BigDecimal"/>
+  <field name="LINE_TOTAL" class="java.math.BigDecimal"/>
+  <field name="HSN_CODE" class="java.lang.String"/>
+
+  <title>
+    <band height="118">
+      <staticText>
+        <reportElement x="0" y="0" width="330" height="26"/>
+        <textElement><font size="18" isBold="true"/></textElement>
+        <text><![CDATA[SURZION]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="0" y="26" width="330" height="40"/>
+        <textElement><font size="8"/></textElement>
+        <text><![CDATA[3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext,
+Chopra Township, Jalandhar, Punjab 144021, India
++91-7814861010  ·  sales@surzion.com]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="380" y="0" width="155" height="22"/>
+        <textElement textAlignment="Right"><font size="15" isBold="true"/></textElement>
+        <text><![CDATA[TAX INVOICE]]></text>
+      </staticText>
+      <textField>
+        <reportElement x="330" y="26" width="205" height="14"/>
+        <textElement textAlignment="Right"><font size="9" isBold="true"/></textElement>
+        <textFieldExpression><![CDATA["Invoice / Order: " + $F{ORDER_NO}]]></textFieldExpression>
+      </textField>
+      <textField pattern="dd MMM yyyy">
+        <reportElement x="330" y="40" width="205" height="14"/>
+        <textElement textAlignment="Right"><font size="9"/></textElement>
+        <textFieldExpression><![CDATA[$F{ORDER_DATE}]]></textFieldExpression>
+      </textField>
+      <!-- Billed-to block. ORG_NAME is optional: a hospital buys as an
+           organisation, an individual surgeon does not. -->
+      <staticText>
+        <reportElement x="0" y="76" width="260" height="12"/>
+        <textElement><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[BILLED TO]]></text>
+      </staticText>
+      <textField isBlankWhenNull="true">
+        <reportElement x="0" y="88" width="300" height="28"/>
+        <textElement><font size="9"/></textElement>
+        <textFieldExpression><![CDATA[$F{CUSTOMER_NAME}
+          + ($F{ORG_NAME} == null ? "" : "\n" + $F{ORG_NAME})
+          + ($F{GSTIN} == null ? "" : "\nGSTIN " + $F{GSTIN})]]></textFieldExpression>
+      </textField>
+      <staticText>
+        <reportElement x="330" y="76" width="205" height="12"/>
+        <textElement textAlignment="Right"><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[DELIVER TO]]></text>
+      </staticText>
+      <textField isBlankWhenNull="true">
+        <reportElement x="300" y="88" width="235" height="28"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{SHIP_ADDRESS}]]></textFieldExpression>
+      </textField>
+    </band>
+  </title>
+
+  <columnHeader>
+    <band height="18">
+      <staticText>
+        <reportElement x="0" y="2" width="24" height="12"/>
+        <textElement><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[#]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="24" y="2" width="216" height="12"/>
+        <textElement><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[Instrument]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="240" y="2" width="62" height="12"/>
+        <textElement><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[HSN]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="302" y="2" width="45" height="12"/>
+        <textElement textAlignment="Right"><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[Qty]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="347" y="2" width="70" height="12"/>
+        <textElement textAlignment="Right"><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[Rate]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="417" y="2" width="43" height="12"/>
+        <textElement textAlignment="Right"><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[GST %]]></text>
+      </staticText>
+      <staticText>
+        <reportElement x="460" y="2" width="75" height="12"/>
+        <textElement textAlignment="Right"><font size="8" isBold="true"/></textElement>
+        <text><![CDATA[Amount]]></text>
+      </staticText>
+      <line>
+        <reportElement x="0" y="16" width="535" height="1"/>
+      </line>
+    </band>
+  </columnHeader>
+
+  <detail>
+    <band height="16">
+      <textField>
+        <reportElement x="0" y="2" width="24" height="12"/>
+        <textElement><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{LINE_NO}]]></textFieldExpression>
+      </textField>
+      <textField isBlankWhenNull="true">
+        <reportElement x="24" y="2" width="216" height="12"/>
+        <textElement><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{PRODUCT_NAME}]]></textFieldExpression>
+      </textField>
+      <textField isBlankWhenNull="true">
+        <reportElement x="240" y="2" width="62" height="12"/>
+        <textElement><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{HSN_CODE}]]></textFieldExpression>
+      </textField>
+      <textField pattern="#,##0.##">
+        <reportElement x="302" y="2" width="45" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{QTY}]]></textFieldExpression>
+      </textField>
+      <textField pattern="#,##0.00">
+        <reportElement x="347" y="2" width="70" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{UNIT_PRICE}]]></textFieldExpression>
+      </textField>
+      <textField pattern="#,##0.##">
+        <reportElement x="417" y="2" width="43" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{GST_RATE}]]></textFieldExpression>
+      </textField>
+      <textField pattern="#,##0.00">
+        <reportElement x="460" y="2" width="75" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{LINE_TOTAL}]]></textFieldExpression>
+      </textField>
+    </band>
+  </detail>
+
+  <summary>
+    <band height="150">
+      <line>
+        <reportElement x="300" y="2" width="235" height="1"/>
+      </line>
+      <staticText>
+        <reportElement x="300" y="8" width="130" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <text><![CDATA[Subtotal]]></text>
+      </staticText>
+      <textField pattern="#,##0.00">
+        <reportElement x="430" y="8" width="105" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{SUBTOTAL}]]></textFieldExpression>
+      </textField>
+      <staticText>
+        <reportElement x="300" y="22" width="130" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <text><![CDATA[Discount]]></text>
+      </staticText>
+      <textField pattern="#,##0.00">
+        <reportElement x="430" y="22" width="105" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{DISCOUNT_AMT}]]></textFieldExpression>
+      </textField>
+      <staticText>
+        <reportElement x="300" y="36" width="130" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <text><![CDATA[GST]]></text>
+      </staticText>
+      <textField pattern="#,##0.00">
+        <reportElement x="430" y="36" width="105" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{GST_AMT}]]></textFieldExpression>
+      </textField>
+      <staticText>
+        <reportElement x="300" y="50" width="130" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <text><![CDATA[Shipping]]></text>
+      </staticText>
+      <textField pattern="#,##0.00">
+        <reportElement x="430" y="50" width="105" height="12"/>
+        <textElement textAlignment="Right"><font size="8"/></textElement>
+        <textFieldExpression><![CDATA[$F{SHIPPING_AMT}]]></textFieldExpression>
+      </textField>
+      <line>
+        <reportElement x="300" y="66" width="235" height="1"/>
+      </line>
+      <staticText>
+        <reportElement x="300" y="70" width="130" height="16"/>
+        <textElement textAlignment="Right"><font size="10" isBold="true"/></textElement>
+        <text><![CDATA[Total]]></text>
+      </staticText>
+      <textField pattern="#,##0.00">
+        <reportElement x="430" y="70" width="105" height="16"/>
+        <textElement textAlignment="Right"><font size="10" isBold="true"/></textElement>
+        <textFieldExpression><![CDATA[$F{TOTAL_AMOUNT}]]></textFieldExpression>
+      </textField>
+      <!-- What was actually PAID, and how. An invoice that shows only what
+           was billed leaves the buyer and the accounts clerk to work out
+           whether it is still owed. -->
+      <textField isBlankWhenNull="true">
+        <reportElement x="0" y="70" width="290" height="30"/>
+        <textElement><font size="8"/></textElement>
+        <textFieldExpression><![CDATA["Payment: " + ($F{PAY_STATUS} == null ? "" : $F{PAY_STATUS})
+          + ($F{PAY_METHOD} == null ? "" : " via " + $F{PAY_METHOD})
+          + ($F{PAYMENT_REF} == null ? "" : "\nReference " + $F{PAYMENT_REF})]]></textFieldExpression>
+      </textField>
+      <staticText>
+        <reportElement x="0" y="112" width="535" height="28"/>
+        <textElement><font size="7"/></textElement>
+        <text><![CDATA[Goods once sold are covered by the one-year warranty against material and workmanship defects. This is a computer-generated invoice and needs no signature.]]></text>
+      </staticText>
+    </band>
+  </summary>
+</jasperReport>

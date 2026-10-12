@@ -1,0 +1,158 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-09T08:00:00Z"
+ },
+ "title": "Surzion Storefront Redesign",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 4300,
+   "title": "Home — redesigned",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Register.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 1440,
+   "h": 1060,
+   "title": "Customer sign in & registration",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Partner.dc.html": {
+   "x": 3040,
+   "y": 0,
+   "w": 1440,
+   "h": 3200,
+   "title": "Become a partner — application",
+   "expand": "fill"
+  },
+  "PartnerPortal.dc.html": {
+   "x": 4560,
+   "y": 0,
+   "w": 1440,
+   "h": 1800,
+   "title": "My partner account",
+   "expand": "fill"
+  },
+  "Claim.dc.html": {
+   "x": 6080,
+   "y": 0,
+   "w": 1440,
+   "h": 1000,
+   "title": "Checkout — buyer claims a creator code",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Shop.dc.html": {
+   "x": 0,
+   "y": 4720,
+   "w": 1440,
+   "h": 3700,
+   "title": "Shop — all instruments",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Product.dc.html": {
+   "x": 1520,
+   "y": 4720,
+   "w": 1440,
+   "h": 3600,
+   "title": "Product — Artery Forceps Robert, with ratings & reviews",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "About.dc.html": {
+   "x": 3040,
+   "y": 4720,
+   "w": 1440,
+   "h": 4200,
+   "title": "About Surzion",
+   "expand": "fill"
+  },
+  "Catalogue.dc.html": {
+   "x": 4560,
+   "y": 4720,
+   "w": 1440,
+   "h": 2600,
+   "title": "Online catalogue",
+   "expand": "fill"
+  },
+  "Contact.dc.html": {
+   "x": 6080,
+   "y": 4720,
+   "w": 1440,
+   "h": 1900,
+   "title": "Contact us",
+   "expand": "fill"
+  },
+  "Policies.dc.html": {
+   "x": 7600,
+   "y": 4720,
+   "w": 1440,
+   "h": 4400,
+   "title": "Policies — terms, returns, privacy",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "ForgotPassword.dc.html": {
+   "x": 7600,
+   "y": 0,
+   "w": 1440,
+   "h": 1000,
+   "title": "Forgot password — reset flow",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Orders.dc.html": {
+   "x": 9120,
+   "y": 0,
+   "w": 1440,
+   "h": 3300,
+   "title": "My account — order history & reviews",
+   "expand": "fill",
+   "is_interactive": true
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Register.dc.html",
+  "Partner.dc.html",
+  "PartnerPortal.dc.html",
+  "Claim.dc.html",
+  "Shop.dc.html",
+  "Product.dc.html",
+  "About.dc.html",
+  "Catalogue.dc.html",
+  "Contact.dc.html",
+  "Policies.dc.html",
+  "ForgotPassword.dc.html",
+  "Orders.dc.html"
+ ],
+ "notes": {
+  "row_title": {
+   "x": 0,
+   "y": -300,
+   "text": "Surzion storefront — Twasta theme (Modern Light, Surzion navy)",
+   "kind": "title1",
+   "maxW": 10560
+  },
+  "row2_title": {
+   "x": 0,
+   "y": 4420,
+   "text": "Store pages from surzion.com — shop, product, about, catalogue, contact, policies",
+   "kind": "title1",
+   "maxW": 9040
+  }
+ },
+ "designSystems": []
+}

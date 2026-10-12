@@ -1,0 +1,681 @@
+{
+  "page": {
+    "obj_name": "surz_privacy",
+    "title": "Privacy policy",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "inputs": [],
+    "actions": [],
+    "blocks": [],
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "seo": {
+      "title": "Privacy policy",
+      "description": ""
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 28,
+            "bottom": 36
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "bc",
+            "type": "breadcrumb",
+            "separator": "/",
+            "items": [
+              {
+                "id": "bc0",
+                "label": "Home",
+                "href": "/"
+              },
+              {
+                "id": "bc1",
+                "label": "Policies",
+                "href": "/privacy"
+              }
+            ]
+          },
+          {
+            "id": "h1",
+            "type": "heading",
+            "level": 1,
+            "text": "Policies"
+          },
+          {
+            "id": "sub",
+            "type": "paragraph",
+            "text": "Surzion is a brand operated by Kapson. Questions? Write to sales@surzion.com.",
+            "html": "Surzion is a brand operated by Kapson. Questions? Write to <a href=\"mailto:sales@surzion.com\">sales@surzion.com</a>.",
+            "style": {
+              "textColor": "var(--pg-muted)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sec_body",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "padding": {
+            "top": 48,
+            "bottom": 88
+          },
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          }
+        },
+        "blocks": [
+          {
+            "id": "cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 40,
+            "align": "top",
+            "columns": [
+              {
+                "id": "c_nav",
+                "width": "260px",
+                "blocks": [
+                  {
+                    "id": "side",
+                    "type": "container",
+                    "padding": 10,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "children": [
+                      {
+                        "id": "n1",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n1b",
+                          "label": "Terms and Conditions",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/terms"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n2",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n2b",
+                          "label": "Return, Refund & Replacement Policy",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/returns"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n3",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n3b",
+                          "label": "Privacy Policy",
+                          "variant": "primary",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/privacy"
+                          }
+                        }
+                      },
+                      {
+                        "id": "n4",
+                        "type": "button",
+                        "align": "left",
+                        "button": {
+                          "id": "n4b",
+                          "label": "Shipping policy",
+                          "variant": "ghost",
+                          "size": "md",
+                          "on_click": {
+                            "kind": "external_url",
+                            "url": "/shipping"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "c_doc",
+                "blocks": [
+                  {
+                    "id": "card",
+                    "type": "container",
+                    "padding": 44,
+                    "rounded": true,
+                    "background": {
+                      "kind": "color",
+                      "color": "var(--pg-surface)"
+                    },
+                    "children": [
+                      {
+                        "id": "t",
+                        "type": "heading",
+                        "level": 2,
+                        "text": "Privacy Policy"
+                      },
+                      {
+                        "id": "eff",
+                        "type": "paragraph",
+                        "text": "Effective Date: 26-01-2026",
+                        "style": {
+                          "textColor": "var(--pg-muted)"
+                        }
+                      },
+                      {
+                        "id": "i1",
+                        "type": "paragraph",
+                        "text": "surzion is a brand operated by Kapson, a proprietorship business registered in India (\u201cKapson\u201d, \u201cSurzion\u201d, \u201cwe\u201d, \u201cus\u201d, or \u201cour\u201d)."
+                      },
+                      {
+                        "id": "i2",
+                        "type": "paragraph",
+                        "text": "This Privacy Policy explains how we collect, use, store and protect information when you visit or use https://surzion.com (\u201cWebsite\u201d), place an order, contact us, or otherwise interact with our services."
+                      },
+                      {
+                        "id": "i3",
+                        "type": "paragraph",
+                        "text": "By using our Website, you acknowledge that you have read and understood this Privacy Policy."
+                      },
+                      {
+                        "id": "s1h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "1. Information We Collect"
+                      },
+                      {
+                        "id": "s1p1",
+                        "type": "paragraph",
+                        "text": "We may collect information that you voluntarily provide to us, including:"
+                      },
+                      {
+                        "id": "s1l1",
+                        "type": "bullet_list",
+                        "items": [
+                          {
+                            "id": "s1l1a",
+                            "text": "Full name"
+                          },
+                          {
+                            "id": "s1l1b",
+                            "text": "Billing and shipping address"
+                          },
+                          {
+                            "id": "s1l1c",
+                            "text": "Mobile/telephone number"
+                          },
+                          {
+                            "id": "s1l1d",
+                            "text": "Email address"
+                          },
+                          {
+                            "id": "s1l1e",
+                            "text": "Order and purchase details"
+                          },
+                          {
+                            "id": "s1l1f",
+                            "text": "Payment-related information required to process your order"
+                          },
+                          {
+                            "id": "s1l1g",
+                            "text": "Information provided when you contact our customer support"
+                          },
+                          {
+                            "id": "s1l1h",
+                            "text": "Any other information you voluntarily submit through forms or other communication channels"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s1p2",
+                        "type": "paragraph",
+                        "text": "We may also automatically collect certain technical information when you use our Website, such as:"
+                      },
+                      {
+                        "id": "s1l2",
+                        "type": "bullet_list",
+                        "items": [
+                          {
+                            "id": "s1l2a",
+                            "text": "IP address"
+                          },
+                          {
+                            "id": "s1l2b",
+                            "text": "Browser and device information"
+                          },
+                          {
+                            "id": "s1l2c",
+                            "text": "Operating system"
+                          },
+                          {
+                            "id": "s1l2d",
+                            "text": "Pages visited and interactions with the Website"
+                          },
+                          {
+                            "id": "s1l2e",
+                            "text": "Date and time of access"
+                          },
+                          {
+                            "id": "s1l2f",
+                            "text": "Cookies and similar technologies"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s2h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "2. How We Use Your Information"
+                      },
+                      {
+                        "id": "s2p1",
+                        "type": "paragraph",
+                        "text": "We may use collected information to:"
+                      },
+                      {
+                        "id": "s2l1",
+                        "type": "bullet_list",
+                        "items": [
+                          {
+                            "id": "s2l1a",
+                            "text": "Process and fulfil your orders"
+                          },
+                          {
+                            "id": "s2l1b",
+                            "text": "Arrange shipping and delivery"
+                          },
+                          {
+                            "id": "s2l1c",
+                            "text": "Process payments"
+                          },
+                          {
+                            "id": "s2l1d",
+                            "text": "Communicate with you regarding your orders"
+                          },
+                          {
+                            "id": "s2l1e",
+                            "text": "Respond to enquiries and customer-support requests"
+                          },
+                          {
+                            "id": "s2l1f",
+                            "text": "Process returns, replacements and refunds"
+                          },
+                          {
+                            "id": "s2l1g",
+                            "text": "Improve our products, Website and customer experience"
+                          },
+                          {
+                            "id": "s2l1h",
+                            "text": "Prevent fraudulent or unauthorized transactions"
+                          },
+                          {
+                            "id": "s2l1i",
+                            "text": "Maintain business, accounting and tax records"
+                          },
+                          {
+                            "id": "s2l1j",
+                            "text": "Comply with applicable legal and regulatory requirements"
+                          },
+                          {
+                            "id": "s2l1k",
+                            "text": "Send service-related communications"
+                          },
+                          {
+                            "id": "s2l1l",
+                            "text": "Send promotional communications where permitted and where you have provided the required consent"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s3h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "3. Payment Information"
+                      },
+                      {
+                        "id": "s3p1",
+                        "type": "paragraph",
+                        "text": "Payments may be processed through third-party payment service providers."
+                      },
+                      {
+                        "id": "s3p2",
+                        "type": "paragraph",
+                        "text": "surzion does not intend to store complete debit-card, credit-card or banking credentials on its own servers. Payment information may be processed directly by the relevant payment service provider according to its own privacy and security practices."
+                      },
+                      {
+                        "id": "s4h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "4. Sharing of Information"
+                      },
+                      {
+                        "id": "s4p1",
+                        "type": "paragraph",
+                        "text": "We may share information with trusted third parties where reasonably necessary to operate our business, including:"
+                      },
+                      {
+                        "id": "s4l1",
+                        "type": "bullet_list",
+                        "items": [
+                          {
+                            "id": "s4l1a",
+                            "text": "Payment processors"
+                          },
+                          {
+                            "id": "s4l1b",
+                            "text": "Courier and logistics providers"
+                          },
+                          {
+                            "id": "s4l1c",
+                            "text": "Website hosting and technology service providers"
+                          },
+                          {
+                            "id": "s4l1d",
+                            "text": "Analytics and marketing service providers, where applicable"
+                          },
+                          {
+                            "id": "s4l1e",
+                            "text": "Professional advisers"
+                          },
+                          {
+                            "id": "s4l1f",
+                            "text": "Government, regulatory or law-enforcement authorities where legally required"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s4p2",
+                        "type": "paragraph",
+                        "text": "We do not sell your personal information to third parties for their independent commercial use."
+                      },
+                      {
+                        "id": "s5h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "5. Cookies"
+                      },
+                      {
+                        "id": "s5p1",
+                        "type": "paragraph",
+                        "text": "Our Website may use cookies and similar technologies to provide functionality, understand Website usage, improve performance and, where applicable, support marketing activities."
+                      },
+                      {
+                        "id": "s5p2",
+                        "type": "paragraph",
+                        "text": "You may be able to control or disable cookies through your browser settings. Disabling certain cookies may affect some Website functionality."
+                      },
+                      {
+                        "id": "s6h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "6. Data Security"
+                      },
+                      {
+                        "id": "s6p1",
+                        "type": "paragraph",
+                        "text": "We take reasonable technical and organizational measures to protect personal information against unauthorized access, misuse, alteration, disclosure or destruction."
+                      },
+                      {
+                        "id": "s6p2",
+                        "type": "paragraph",
+                        "text": "However, no method of transmission or electronic storage can be guaranteed to be completely secure."
+                      },
+                      {
+                        "id": "s7h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "7. Data Retention"
+                      },
+                      {
+                        "id": "s7p1",
+                        "type": "paragraph",
+                        "text": "We retain personal information only for as long as reasonably necessary for the purposes for which it was collected, including order fulfilment, customer service, accounting, taxation, legal compliance, dispute resolution and legitimate business requirements."
+                      },
+                      {
+                        "id": "s8h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "8. Third-Party Websites"
+                      },
+                      {
+                        "id": "s8p1",
+                        "type": "paragraph",
+                        "text": "Our Website may contain links to third-party websites or services."
+                      },
+                      {
+                        "id": "s8p2",
+                        "type": "paragraph",
+                        "text": "We are not responsible for the privacy practices, content or security of third-party websites. We recommend reviewing their respective privacy policies before providing personal information."
+                      },
+                      {
+                        "id": "s9h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "9. Children\u2019s Information"
+                      },
+                      {
+                        "id": "s9p1",
+                        "type": "paragraph",
+                        "text": "Our Website is not specifically directed toward children. We do not knowingly seek to collect personal information from children in violation of applicable law."
+                      },
+                      {
+                        "id": "s10h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "10. Your Rights and Requests"
+                      },
+                      {
+                        "id": "s10p1",
+                        "type": "paragraph",
+                        "text": "Subject to applicable law, you may contact us regarding your personal information, including requests relating to access, correction, deletion or other applicable privacy rights."
+                      },
+                      {
+                        "id": "s10p2",
+                        "type": "paragraph",
+                        "text": "You may also contact us regarding withdrawal of consent where processing is based on consent, subject to legal and contractual limitations."
+                      },
+                      {
+                        "id": "s11h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "11. Changes to This Privacy Policy"
+                      },
+                      {
+                        "id": "s11p1",
+                        "type": "paragraph",
+                        "text": "We may update this Privacy Policy from time to time to reflect changes in our business, Website, technology or applicable laws."
+                      },
+                      {
+                        "id": "s11p2",
+                        "type": "paragraph",
+                        "text": "The updated version will be published on this page with a revised effective date."
+                      },
+                      {
+                        "id": "s12h",
+                        "type": "heading",
+                        "level": 3,
+                        "text": "12. Contact Us"
+                      },
+                      {
+                        "id": "s12p1",
+                        "type": "paragraph",
+                        "text": "For privacy-related questions or requests, please contact:"
+                      },
+                      {
+                        "id": "s12p2",
+                        "type": "paragraph",
+                        "text": "KAPSONS(surzion)"
+                      },
+                      {
+                        "id": "s12p3",
+                        "type": "paragraph",
+                        "text": "Email: sales@surzion.com"
+                      },
+                      {
+                        "id": "s12p4",
+                        "type": "paragraph",
+                        "text": "Phone: +917814861010, +918195831010"
+                      },
+                      {
+                        "id": "s12p5",
+                        "type": "paragraph",
+                        "text": "Address:",
+                        "html": "<strong>Address:</strong>"
+                      },
+                      {
+                        "id": "s12p6",
+                        "type": "paragraph",
+                        "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

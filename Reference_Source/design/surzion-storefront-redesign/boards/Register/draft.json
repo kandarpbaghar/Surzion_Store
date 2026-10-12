@@ -1,0 +1,199 @@
+{
+ "page": {
+  "obj_name": "Register",
+  "title": "Surzion sign in and registration",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Surzion sign in and registration"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0",
+    "name": "Section 1",
+    "blocks": [
+     {
+      "id": "btns_1c791b_1",
+      "type": "button_group",
+      "buttons": [
+       {
+        "id": "btn_1c791b_2",
+        "label": "Sign in",
+        "variant": "secondary",
+        "size": "md"
+       },
+       {
+        "id": "btn_1c791b_3",
+        "label": "Create account",
+        "variant": "link",
+        "size": "md"
+       }
+      ],
+      "align": "left",
+      "gap": 10
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#edf1fa"
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+     "key": "0",
+     "fingerprint": "22ebd16b09aac623",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_1welcomeback",
+    "name": "Welcome back",
+    "blocks": [
+     {
+      "id": "h_a69f9a_1",
+      "type": "heading",
+      "level": 2,
+      "text": "Welcome back",
+      "style": {
+       "typography": {
+        "fontSize": 26
+       }
+      }
+     },
+     {
+      "id": "p_a69f9a_2",
+      "type": "paragraph",
+      "text": "Enter your email or mobile number to continue."
+     },
+     {
+      "id": "btn_a69f9a_3",
+      "type": "button",
+      "button": {
+       "id": "btn_a69f9a_4",
+       "label": "Continue",
+       "variant": "primary",
+       "size": "md"
+      },
+      "align": "left"
+     },
+     {
+      "id": "p_a69f9a_5",
+      "type": "paragraph",
+      "text": "New customer? Continue anyway — we'll create your account and send a set-password link.",
+      "style": {
+       "align": "center",
+       "typography": {
+        "fontSize": 13
+       }
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+     "key": "1:welcome-back",
+     "fingerprint": "6e8f341bebad7b91",
+     "crop": "sections/s01.jpg"
+    }
+   },
+   {
+    "id": "sec_2",
+    "name": "Section 3",
+    "blocks": [
+     {
+      "id": "ico_413388_1",
+      "type": "image",
+      "url": "svg:95e8452e74e443540952",
+      "alt": "",
+      "maxWidth": 14,
+      "align": "left"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 18,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+     "key": "2",
+     "fingerprint": "8e26fe8f00c9f2b5",
+     "crop": "sections/s02.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+   "captured_at": "2026-10-09T13:06:54Z",
+   "page_fingerprint": "733610486a969915",
+   "draft_version": 1
+  }
+ }
+}

@@ -1,0 +1,881 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Product.dc.html",
+ "title": "Artery Forceps Robert — Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 3810,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 42,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "48.3px",
+   "letterSpacing": "-0.84px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 28,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "35px",
+   "letterSpacing": null
+  },
+  "h3": {
+   "family": "Poppins",
+   "size": 18,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(51, 65, 95)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": true,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion — The Surgical Excellence",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion — The Surgical Excellence",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 412,
+     "y": 19,
+     "w": 45,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Shop.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(47, 107, 230)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 487,
+     "y": 19,
+     "w": 39,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/About.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 555,
+     "y": 19,
+     "w": 46,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/Catalogue.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 631,
+     "y": 19,
+     "w": 130,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Partners",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 791,
+     "y": 19,
+     "w": 63,
+     "h": 43
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"M20 20l-3.5-3.5\"></path></svg>",
+    "cls": "",
+    "color": "rgb(11, 26, 61)",
+    "rect": {
+     "x": 989,
+     "y": 30,
+     "w": 20,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Sign in",
+    "href": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1027,
+     "y": 18,
+     "w": 99,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 600,
+     "color": "rgb(14, 35, 88)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1191,
+     "y": 17,
+     "w": 137,
+     "h": 46
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 412,
+       "y": 19,
+       "w": 442,
+       "h": 43
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 977,
+       "y": 17,
+       "w": 351,
+       "h": 46
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": {
+  "rect": {
+   "x": 0,
+   "y": 3174,
+   "w": 1440,
+   "h": 636
+  },
+  "bg": {
+   "color": "rgb(16, 32, 39)"
+  },
+  "color": "rgb(255, 255, 255)",
+  "sticky": false,
+  "logo": null,
+  "buttons": [],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 18,
+   "weight": 700,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "30.6px",
+   "letterSpacing": null
+  },
+  "text": "We provide premium surgical solutions for precision care\nReturn, Refund & Replacement Policy\nTerms and Conditions\nPrivacy Policy\nContact us\nFollow us >>>>>>\n(+91-7814861010)\n(+91-8195831010)\n© 2025. All rights reserved.\nWe'll reply within 12 hours\nName\nLast name\nYour email*\nMessage*\nSubmit your inquiry",
+  "items": [
+   {
+    "t": "text",
+    "text": "We provide premium surgical solutions for precision care",
+    "html": "We provide premium surgical solutions for precision care",
+    "links": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 24,
+     "weight": 700,
+     "color": "rgb(124, 189, 100)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "31.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 56,
+     "w": 672,
+     "h": 62
+    }
+   },
+   {
+    "t": "link",
+    "text": "Return, Refund & Replacement Policy",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 140,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Terms and Conditions",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 185,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Privacy Policy",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 230,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Contact us",
+    "href": "https://design.local/surzion-storefront-redesign/Contact.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 274,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M24 12.07C24 5.44 18.63.07 12 .07S0 5.44 0 12.07c0 5.99 4.39 10.96 10.13 11.86v-8.39H7.08v-3.47h3.05V9.43c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.69.23 2.69.23v2.95h-1.51c-1.49 0-1.96.93-1.96 1.88v2.25h3.33l-.53 3.47h-2.8v8.39C19.61 23.03 24 18.06 24 12.07z\"></path></svg>",
+    "cls": "",
+    "color": "rgb(76, 145, 215)",
+    "rect": {
+     "x": 292,
+     "y": 333,
+     "w": 32,
+     "h": 32
+    }
+   },
+   {
+    "t": "link",
+    "text": "(+91-7814861010)",
+    "href": "tel:+917814861010",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "27.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 393,
+     "w": 672,
+     "h": 27
+    }
+   },
+   {
+    "t": "link",
+    "text": "(+91-8195831010)",
+    "href": "tel:+918195831010",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "27.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 428,
+     "w": 672,
+     "h": 27
+    }
+   },
+   {
+    "t": "text",
+    "text": "© 2025. All rights reserved.",
+    "html": "© 2025. All rights reserved.",
+    "links": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 14,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "23.8px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 501,
+     "w": 672,
+     "h": 24
+    }
+   },
+   {
+    "t": "heading",
+    "level": 3,
+    "text": "We'll reply within 12 hours",
+    "href": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 700,
+     "color": "rgb(124, 189, 100)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "20.8px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 848,
+     "y": 56,
+     "w": 440,
+     "h": 21
+    }
+   },
+   {
+    "t": "form",
+    "fields": [
+     {
+      "name": "",
+      "type": "text",
+      "label": "Your name",
+      "required": false
+     },
+     {
+      "name": "",
+      "type": "text",
+      "label": "Your last name",
+      "required": false
+     },
+     {
+      "name": "",
+      "type": "email",
+      "label": "Your email address",
+      "required": true
+     },
+     {
+      "name": "",
+      "type": "textarea",
+      "label": "Enter your message",
+      "required": true
+     }
+    ],
+    "submit": "",
+    "rect": {
+     "x": 848,
+     "y": 93,
+     "w": 440,
+     "h": 487
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 2,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 56,
+       "w": 672,
+       "h": 469
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 848,
+       "y": 56,
+       "w": 440,
+       "h": 524
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "floating": [],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 3
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(229, 245, 238)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 580,
+    "y": 1785,
+    "w": 723,
+    "h": 20
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 98
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1.6\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z\"></path></svg>",
+     "cls": "",
+     "color": "rgb(224, 165, 38)",
+     "rect": {
+      "x": 0,
+      "y": 1,
+      "w": 18,
+      "h": 18
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1.6\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z\"></path></svg>",
+     "cls": "",
+     "color": "rgb(224, 165, 38)",
+     "rect": {
+      "x": 20,
+      "y": 1,
+      "w": 18,
+      "h": 18
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1.6\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z\"></path></svg>",
+     "cls": "",
+     "color": "rgb(224, 165, 38)",
+     "rect": {
+      "x": 40,
+      "y": 1,
+      "w": 18,
+      "h": 18
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1.6\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z\"></path></svg>",
+     "cls": "",
+     "color": "rgb(224, 165, 38)",
+     "rect": {
+      "x": 60,
+      "y": 1,
+      "w": 18,
+      "h": 18
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"none\" stroke-width=\"1.6\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z\"></path></svg>",
+     "cls": "",
+     "color": "rgb(224, 165, 38)",
+     "rect": {
+      "x": 80,
+      "y": 1,
+      "w": 18,
+      "h": 18
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "8e26fe8f00c9f2b5"
+  },
+  {
+   "index": 3,
+   "key": "3",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 580,
+    "y": 1915,
+    "w": 723,
+    "h": 44
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 623,
+    "w": 100
+   },
+   "bg": null,
+   "color": "rgb(91, 107, 140)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 0,
+        "y": 12,
+        "w": 115,
+        "h": 20
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 246,
+        "y": 10,
+        "w": 137,
+        "h": 24
+       },
+       "bg": {
+        "color": "rgb(229, 245, 238)"
+       },
+       "radius": "999px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "button",
+     "text": "Helpful (6)",
+     "href": null,
+     "style": {
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(11, 26, 61)",
+      "radius": "999px",
+      "border": "1px solid rgb(220, 228, 243)",
+      "size": 13,
+      "weight": 500,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 623,
+      "y": 0,
+      "w": 100,
+      "h": 44
+     }
+    }
+   ],
+   "crop": "sections/s03.jpg",
+   "fingerprint": "b33fbd0aa5fae7ab"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Product.dc.html",
+ "captured_at": "2026-10-09T13:07:39Z",
+ "page_fingerprint": "a36e1ec6f73930b3",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Product",
+  "state": null,
+  "visible_text": "Exclusive discounts on surgical instruments today!\nNEW\nCreators & influencers: get your own Surzion discount code →\nHome\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue\nHome / Shop / Artery Forceps Robert\nPRECISION SURGICAL INSTRUMENT\nArtery Forceps Robert\n4.7 · 3 reviews\n₹732.00\n\nThe Surzion Artery Forceps Robert are long, curved hemostatic forceps designed for grasping, clamping, and occluding deeply situated blood vessels during thoracic, abdominal, and general surgical procedures.\n\n−\n1\n+\nAdd to bag\nChat on WhatsApp\nDispatched in 2–3 working days\nDelivery in about 7–10 working days\n7-day returns\nOn unused products in original condition\nOne-year replacement warranty\nAgainst manufacturing defects\nAbout this instrument\n\nThe Surzion Artery Forceps Robert are long, curved hemostatic forceps designed for grasping, clamping, and occluding deeply situated blood vessels during thoracic, abdominal, and general surgical procedures. Featuring long shaft shanks and fine transverse-serrated jaws, they provide surgeons with extended reach and reliable hemostatic control in deep surgical cavities.\n\nUsage & Applications\n\nEssential for general, thoracic, and vascular surgeons operating in deep or hard-to-reach anatomical fields where extended reach is required.\n\nKey Features & Specifications\nMaterial\nMedical-Grade Stainless Steel (Corrosion-Resistant & Autoclavable)\nApplication\nDeep Vessel Clamping, Hemostasis & Abdominal / Thoracic Surgery\nDesign\nExtended shanks with gently curved, transverse-serrated jaws and a secure ratchet lock\nFinish\nAnti-reflective satin finish for enhanced visibility under operating lights\nMaintenance\nReusable and standard sterilization compatible\nCUSTOMER REVIEWS\nRatings & reviews\nPROTOTYPE · SAMPLE REVIEWS\n4.7\n3 reviews\n5 star\n2\n4 star\n1\n3 star\n0\n2 star\n0\n1 star\n0\nBought this instrument?\nShare how it performed. Only customers who ordered it can review it.\nWrite a review\nShowing 3 reviews\nSort by\nMost recent\nHighest rated\nLowest rated\nMost helpful\n28 Sep 2026\nGood reach in deep cavities\n\n[Sample review] The curve and length make deep vessel clamping comfortable, and the ratchet locks firmly.\n\n[Reviewer name]\n· General surgeon\nVerified purchase\nHelpful (6)\n19 Sep 2026\nFinish holds up after autoclaving\n\n[Sample review] No marks after repeated sterilisation cycles. The satin finish keeps glare down under the lights.\n\n[Reviewer name]\n· OT nurse\nVerified purchase\nHelpful (4)\n02 Sep 2026\nConsistent quality across a bulk order\n\n[Sample review] Every piece matched the sample we approved. Delivery took about a week.\n\n[Reviewer name]\n· Hospital purchase team\nVerified purchase\nHelpful (2)\nMore artery forceps\nView all instruments →\nArtery Forceps Pean\n₹426.00\nAdd to bag\nArtery Forceps Ochsner\n₹404.00\nAdd to bag\nArtery Forceps Kocher\n₹390.00\nAdd to bag\nArtery Forceps Crile\n₹390.00\nAdd to bag\n\nWe provide premium surgical solutions for precision care\n\nReturn, Refund & Replacement Policy\nTerms and Conditions\nPrivacy Policy\nContact us\nFollow us >>>>>>\n(+91-7814861010)\n(+91-8195831010)\n© 2025. All rights reserved.\nWe'll reply within 12 hours\nName\nLast name\nYour email*\nMessage*\nSubmit your inquiry",
+  "sample_text": [
+   "5 star 2",
+   "4 star 1",
+   "3 star 0",
+   "2 star 0",
+   "1 star 0",
+   "28 Sep 2026 Good reach in deep cavities [Sample review] The curve and length make deep vessel clamping comfortable, and the ratchet locks firmly. [Reviewer name] · General surgeon Verified purchase Helpful (6)",
+   "19 Sep 2026 Finish holds up after autoclaving [Sample review] No marks after repeated sterilisation cycles. The satin finish keeps glare down under the lights. [Reviewer name] · OT nurse Verified purchase Helpful (4)",
+   "02 Sep 2026 Consistent quality across a bulk order [Sample review] Every piece matched the sample we approved. Delivery took about a week. [Reviewer name] · Hospital purchase team Verified purchase Helpful (2)",
+   "Artery Forceps Pean ₹426.00 Add to bag",
+   "Artery Forceps Ochsner ₹404.00 Add to bag",
+   "Artery Forceps Kocher ₹390.00 Add to bag",
+   "Artery Forceps Crile ₹390.00 Add to bag"
+  ],
+  "sample_images": [
+   "21f2f925f9640153dd0ed00b65338654.jpg",
+   "3431e82dced6d4f5fdd49dc4a2dda7e8.jpg",
+   "7caffaf620276e805a1e806d9af75eb6.jpg",
+   "bd2ac92eb86ece4dab8acbd22daffcbb.jpg"
+  ]
+ }
+}

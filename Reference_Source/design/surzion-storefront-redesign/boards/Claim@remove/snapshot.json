@@ -1,0 +1,1170 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Claim.dc.html?dcstate=remove",
+ "title": "Checkout creator code",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 900,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 32,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "38.4px",
+   "letterSpacing": null
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 18,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.8px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": null
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": false,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": null,
+  "text": "Cart ✓\n—\nDetails & code\n—\nPayment\nSecure checkout",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "list",
+    "ordered": true,
+    "items": [
+     {
+      "text": "Cart ✓",
+      "icon": null,
+      "href": null
+     },
+     {
+      "text": "—",
+      "icon": null,
+      "href": null
+     },
+     {
+      "text": "Details & code",
+      "icon": null,
+      "href": null
+     },
+     {
+      "text": "—",
+      "icon": null,
+      "href": null
+     },
+     {
+      "text": "Payment",
+      "icon": null,
+      "href": null
+     }
+    ],
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 500,
+     "color": "rgb(31, 157, 99)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "22.4px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 603,
+     "y": 29,
+     "w": 277,
+     "h": 22
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"></rect><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"></path></svg>",
+    "cls": "",
+    "color": "rgb(91, 107, 140)",
+    "rect": {
+     "x": 1195,
+     "y": 32,
+     "w": 16,
+     "h": 16
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 603,
+       "y": 29,
+       "w": 277,
+       "h": 22
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 1195,
+       "y": 30,
+       "w": 133,
+       "h": 21
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "text",
+   "color": "rgb(11, 26, 61)",
+   "n": 8
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 6
+  },
+  {
+   "role": "button_bg",
+   "color": "rgb(14, 35, 88)",
+   "n": 6
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 4
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 3
+  },
+  {
+   "role": "link",
+   "color": "rgb(47, 107, 230)",
+   "n": 2
+  },
+  {
+   "role": "text",
+   "color": "rgb(20, 48, 122)",
+   "n": 1
+  },
+  {
+   "role": "card_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(132, 148, 180)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0:checkout",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 112,
+    "y": 121,
+    "w": 710,
+    "h": 497
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 710
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 24,
+        "y": 433,
+        "w": 44,
+        "h": 44
+       },
+       "bg": {
+        "color": "rgb(255, 255, 255)"
+       },
+       "radius": "12px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 82,
+        "y": 432,
+        "w": 604,
+        "h": 45
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 39,
+        "y": 138,
+        "w": 220,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 615,
+        "y": 138,
+        "w": 57,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://design.local/surzion-storefront-redesign/Register.dc.html"
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 25,
+        "y": 243,
+        "w": 153,
+        "h": 29
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 581,
+        "y": 246,
+        "w": 105,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://design.local/surzion-storefront-redesign/Claim.dc.html?dcstate=remove#new"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Checkout",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 32,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "38.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 710,
+      "h": 38
+     }
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Contact",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 25,
+      "y": 83,
+      "w": 660,
+      "h": 29
+     }
+    },
+    {
+     "t": "link",
+     "text": "Change",
+     "href": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 615,
+      "y": 138,
+      "w": 57,
+      "h": 22
+     }
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Delivery address",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 25,
+      "y": 243,
+      "w": 153,
+      "h": 29
+     }
+    },
+    {
+     "t": "link",
+     "text": "+ New address",
+     "href": "https://design.local/surzion-storefront-redesign/Claim.dc.html?dcstate=remove#new",
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 581,
+      "y": 246,
+      "w": 105,
+      "h": 22
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M3 7h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z\"></path><path d=\"M14 7v12\" stroke-dasharray=\"2 2\"></path></svg>",
+     "cls": "",
+     "color": "rgb(47, 107, 230)",
+     "rect": {
+      "x": 35,
+      "y": 444,
+      "w": 22,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Followed a creator who recommended Surzion? Enter their code in the order summary to save on every item.",
+     "html": "Followed a creator who recommended Surzion? Enter their code in the order summary to save on every item.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(20, 48, 122)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 82,
+      "y": 432,
+      "w": 604,
+      "h": 45
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "8c6a2ee377b9c035"
+  },
+  {
+   "index": 1,
+   "key": "1:order-summary",
+   "anchor": null,
+   "tag": "aside",
+   "rect": {
+    "x": 854,
+    "y": 121,
+    "w": 474,
+    "h": 636
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 27,
+    "w": 420
+   },
+   "bg": {
+    "color": "rgb(255, 255, 255)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 26,
+    "bottom": 26,
+    "left": 26,
+    "right": 26
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 103,
+        "y": 83,
+        "w": 286,
+        "h": 43
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 403,
+        "y": 94,
+        "w": 44,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 4,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 27,
+        "y": 372,
+        "w": 355,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 382,
+        "y": 372,
+        "w": 65,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 27,
+        "y": 403,
+        "w": 355,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 382,
+        "y": 403,
+        "w": 65,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 27,
+        "y": 433,
+        "w": 355,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 382,
+        "y": 433,
+        "w": 65,
+        "h": 22
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 27,
+        "y": 463,
+        "w": 355,
+        "h": 36
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 382,
+        "y": 463,
+        "w": 65,
+        "h": 36
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": "1px solid rgb(228, 234, 246)",
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Order summary",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 18,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 27,
+      "w": 420,
+      "h": 29
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://design.local/surzion-storefront-redesign/assets/49e391893519b346f4239d852f67428d.jpg",
+     "alt": "",
+     "natural": {
+      "w": 900,
+      "h": 900
+     },
+     "href": null,
+     "rect": {
+      "x": 27,
+      "y": 74,
+      "w": 62,
+      "h": 62
+     },
+     "radius": "12px"
+    },
+    {
+     "t": "text",
+     "text": "Adson Brown Tissue Forceps",
+     "html": "Adson Brown Tissue Forceps",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 103,
+      "y": 83,
+      "w": 286,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Qty 3 · ₹650 each",
+     "html": "Qty 3 · ₹650 each",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 103,
+      "y": 106,
+      "w": 286,
+      "h": 21
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹1,950",
+     "html": "₹1,950",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 403,
+      "y": 94,
+      "w": 44,
+      "h": 22
+     }
+    },
+    {
+     "t": "image",
+     "src": "https://design.local/surzion-storefront-redesign/assets/4ef9b5691bbbf24291d2652feda4ff01.jpg",
+     "alt": "",
+     "natural": {
+      "w": 900,
+      "h": 900
+     },
+     "href": null,
+     "rect": {
+      "x": 27,
+      "y": 154,
+      "w": 62,
+      "h": 62
+     },
+     "radius": "12px"
+    },
+    {
+     "t": "text",
+     "text": "Artery Forceps Robert",
+     "html": "Artery Forceps Robert",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 103,
+      "y": 163,
+      "w": 297,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Qty 1 · ₹732 each",
+     "html": "Qty 1 · ₹732 each",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "20.8px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 103,
+      "y": 186,
+      "w": 297,
+      "h": 21
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹732",
+     "html": "₹732",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 414,
+      "y": 174,
+      "w": 33,
+      "h": 22
+     }
+    },
+    {
+     "t": "button",
+     "text": "Apply",
+     "href": null,
+     "style": {
+      "bg": "rgb(14, 35, 88)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "12px",
+      "border": null,
+      "size": 15,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 363,
+      "y": 285,
+      "w": 84,
+      "h": 50
+     }
+    },
+    {
+     "t": "text",
+     "text": "Subtotal",
+     "html": "Subtotal",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 372,
+      "w": 355,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹2,682",
+     "html": "₹2,682",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 382,
+      "y": 372,
+      "w": 65,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "GST (12%)",
+     "html": "GST (12%)",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 403,
+      "w": 355,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹322",
+     "html": "₹322",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 382,
+      "y": 403,
+      "w": 65,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Shipping",
+     "html": "Shipping",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 433,
+      "w": 355,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Next step",
+     "html": "Next step",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "22.4px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 382,
+      "y": 433,
+      "w": 65,
+      "h": 22
+     }
+    },
+    {
+     "t": "text",
+     "text": "Total",
+     "html": "Total",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 17,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 463,
+      "w": 355,
+      "h": 36
+     }
+    },
+    {
+     "t": "text",
+     "text": "₹3,004",
+     "html": "₹3,004",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 17,
+      "weight": 700,
+      "color": "rgb(11, 26, 61)",
+      "align": "right",
+      "transform": null,
+      "lineHeight": "27.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 382,
+      "y": 463,
+      "w": 65,
+      "h": 36
+     }
+    },
+    {
+     "t": "button",
+     "text": "Continue to payment",
+     "href": null,
+     "style": {
+      "bg": "rgb(14, 35, 88)",
+      "color": "rgb(255, 255, 255)",
+      "radius": "999px",
+      "border": null,
+      "size": 16,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 27,
+      "y": 518,
+      "w": 420,
+      "h": 54
+     }
+    },
+    {
+     "t": "text",
+     "text": "Pay online with Razorpay or choose cash on delivery",
+     "html": "Pay online with Razorpay or choose cash on delivery",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 12,
+      "weight": 400,
+      "color": "rgb(132, 148, 180)",
+      "align": "center",
+      "transform": null,
+      "lineHeight": "19.2px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 27,
+      "y": 590,
+      "w": 420,
+      "h": 19
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "cc815ef877e68b1b"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Claim.dc.html?dcstate=remove",
+ "captured_at": "2026-10-09T13:07:17Z",
+ "page_fingerprint": "d8fa2b84305495e8",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Claim",
+  "state": "remove",
+  "visible_text": "Cart ✓\n—\nDetails & code\n—\nPayment\nSecure checkout\nCheckout\nContact\nSigned in as name@hospital.in\nChange\nDelivery address\n+ New address\n[Name] · Home\n[Street, City, State PIN] · [Mobile]\nFollowed a creator who recommended Surzion? Enter their code in the order summary to save on every item.\nOrder summary\nAdson Brown Tissue Forceps\nQty 3 · ₹650 each\n₹1,950\nArtery Forceps Robert\nQty 1 · ₹732 each\n₹732\nCreator or discount code\nApply\nSubtotal\n₹2,682\nGST (12%)\n₹322\nShipping\nNext step\nTotal\n₹3,004\nContinue to payment\nPay online with Razorpay or choose cash on delivery",
+  "sample_text": [
+   "Adson Brown Tissue ForcepsQty 3 · ₹650 each ₹1,950",
+   "Artery Forceps RobertQty 1 · ₹732 each ₹732"
+  ],
+  "sample_images": [
+   "49e391893519b346f4239d852f67428d.jpg",
+   "4ef9b5691bbbf24291d2652feda4ff01.jpg"
+  ]
+ }
+}

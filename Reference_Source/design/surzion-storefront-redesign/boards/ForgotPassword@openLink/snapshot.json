@@ -1,0 +1,254 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html?dcstate=openLink",
+ "title": "Reset your password — Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1000,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 42,
+   "weight": 600,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "48.3px",
+   "letterSpacing": "-0.84px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 26,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.5px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(201, 214, 242)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": null,
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgb(220, 228, 243)",
+   "n": 3
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0:set-a-new-password",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 289,
+    "w": 398,
+    "h": 435
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 398
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Set a new password",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 26,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 398,
+      "h": 33
+     }
+    },
+    {
+     "t": "text",
+     "text": "For",
+     "html": "For ",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "25.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 38,
+      "w": 398,
+      "h": 26
+     }
+    },
+    {
+     "t": "button",
+     "text": "Show",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 107, 230)",
+      "radius": "0px",
+      "border": null,
+      "size": 13,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 334,
+      "y": 115,
+      "w": 60,
+      "h": 44
+     }
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "At least 8 characters",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Contains a number",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Contains a letter",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "22.1px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 193,
+      "w": 398,
+      "h": 74
+     }
+    },
+    {
+     "t": "button",
+     "text": "Save new password",
+     "href": null,
+     "style": {
+      "bg": "rgb(220, 228, 243)",
+      "color": "rgb(91, 107, 140)",
+      "radius": "999px",
+      "border": null,
+      "size": 16,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 0,
+      "y": 383,
+      "w": 398,
+      "h": 52
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "08984f861019c8e0"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html?dcstate=openLink",
+ "captured_at": "2026-10-09T13:08:20Z",
+ "page_fingerprint": "2a2dfee9b79d79d0",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "ForgotPassword",
+  "state": "openLink",
+  "visible_text": "← Back to sign in\nLocked out? It happens.\n\nWe'll send a secure link to your email or mobile number. Setting a new password signs you out of every other device.\n\nNeed help? Call +91-7814861010 or write to sales@surzion.com\nRequest link\nCheck inbox\nNew password\nSet a new password\n\nFor\n\nNew password\nShow\nAt least 8 characters\nContains a number\nContains a letter\nConfirm new password\nSave new password\nReset links are single-use · Your details stay with Surzion",
+  "sample_text": [
+   "Request link",
+   "Check inbox",
+   "New password",
+   "At least 8 characters",
+   "Contains a number",
+   "Contains a letter"
+  ],
+  "sample_images": []
+ }
+}

@@ -1,0 +1,105 @@
+{
+  "transaction": {
+    "obj_name": "surz_product_review",
+    "unit_test": {
+      "sample": {"product_code": "@lookup", "rating": 5, "review_text": "Well made and reliable instrument."},
+      "note": "PRODUCT_CODE must be a real SURZ_PRODUCT row; RATING must be 1..5."
+    },
+    "sql_models": [
+      {
+        "sql_model": {
+          "form_title": "Review",
+          "form_descr": "",
+          "form_no": "1",
+          "main_table": "SURZ_PRODUCT_REVIEW",
+          "list_view": {
+            "columns": ["review_id", "status", "product_code", "rating", "title", "reviewer_name", "add_date"]
+          },
+          "columns": [
+            {"column": {"name": "review_id", "db_name": "REVIEW_ID", "col_type": "VARCHAR20", "heading": "Review id", "group_name": "Basic", "mandatory": 0, "key": true, "protect": 1, "hidden": 0,
+              "default_value": "auto_generate_prefixed()",
+              "series": {"parts": [{"source": "const", "text": "RV-"}], "separator": "", "width": 5},
+              "validations": [
+                {"type": "builtin", "name": "Review id unique", "error_code": "RV_DUP", "message": "Review id {form.REVIEW_ID} already exists.", "builtin": {"kind": "must_be_unique"}}
+              ]}},
+            {"column": {"name": "status", "db_name": "STATUS", "col_type": "VARCHAR16", "heading": "Status", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "default_value": "PENDING",
+              "edit_mask": {"mask": "dropdown", "values": ["PENDING", "APPROVED", "REJECTED"]},
+              "display": {"type": "status_tag", "map": [
+                {"when": "APPROVED", "color": "green"},
+                {"when": "REJECTED", "color": "red"},
+                {"when": "PENDING", "color": "yellow"}
+              ], "defaultColor": "grey"}}},
+            {"column": {"name": "product_code", "db_name": "PRODUCT_CODE", "col_type": "VARCHAR20", "heading": "Instrument", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "lookup": "SURZ_PRODUCT(PRODUCT_NAME, PRODUCT_CODE)", "must_exist_in": "SURZ_PRODUCT"}},
+            {"column": {"name": "rating", "db_name": "RATING", "col_type": "INTEGER", "heading": "Rating (1-5)", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0,
+              "validations": [
+                {"type": "builtin", "name": "Rating 1-5", "error_code": "RV_RATING", "message": "Rating must be between 1 and 5.",
+                 "builtin": {"kind": "value_in_range", "min": {"source": "const", "value": "1"}, "max": {"source": "const", "value": "5"}}}
+              ]}},
+            {"column": {"name": "title", "db_name": "TITLE", "col_type": "VARCHAR160", "heading": "Title", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "review_text", "db_name": "REVIEW_TEXT", "col_type": "TEXT", "heading": "Your review", "group_name": "Basic", "mandatory": 1, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "reviewer_name", "db_name": "REVIEWER_NAME", "col_type": "VARCHAR120", "heading": "Your name", "group_name": "Basic", "mandatory": 0, "key": false, "protect": 0, "hidden": 0}},
+            {"column": {"name": "reviewer_registry_id", "db_name": "REVIEWER_REGISTRY_ID", "col_type": "VARCHAR120", "heading": "Reviewer account", "group_name": "Moderation", "mandatory": 0, "key": false, "protect": 1, "hidden": 1}},
+            {"column": {"name": "moderator_note", "db_name": "MODERATOR_NOTE", "col_type": "VARCHAR400", "heading": "Moderator note (save before Reject)", "group_name": "Moderation", "mandatory": 0, "key": false, "protect": 0, "hidden": 0, "edit_mask": {"mask": "textarea"}}},
+            {"column": {"name": "verified", "db_name": "VERIFIED", "col_type": "VARCHAR1", "heading": "Verified purchase", "group_name": "Moderation", "mandatory": 0, "key": false, "protect": 1, "hidden": 0, "default_value": "N",
+              "edit_mask": {"mask": "ddlb", "values": [{"data": "Y", "display": "Yes"}, {"data": "N", "display": "No"}]}}},
+            {"column": {"name": "add_date", "db_name": "ADD_DATE", "col_type": "DATETIME", "heading": "Added on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_date"}},
+            {"column": {"name": "add_user", "db_name": "ADD_USER", "col_type": "VARCHAR10", "heading": "Added by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_add_user"}},
+            {"column": {"name": "chg_date", "db_name": "CHG_DATE", "col_type": "DATETIME", "heading": "Changed on", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_date"}},
+            {"column": {"name": "chg_user", "db_name": "CHG_USER", "col_type": "VARCHAR10", "heading": "Changed by", "group_name": "Others", "mandatory": 0, "key": false, "protect": 1, "hidden": 1, "default_value": ":audit_chg_user"}}
+          ],
+          "actions": [
+            {
+              "name": "Approve",
+              "handler": "message",
+              "scope": "row",
+              "visible_when": "{form.status} != \"APPROVED\"",
+              "confirmation": {"mode": "reconfirm", "message": "Approve this review of {form.product_code}?"},
+              "business_logic": {
+                "method": "surz_review_approve",
+                "language": "python",
+                "description": "Approve a product review",
+                "spec": "Row action on SURZ_PRODUCT_REVIEW (payload = the clicked row, flat; key REVIEW_ID). ADMIN ONLY: refuse with an error unless the caller holds the admin or func-admin role (same rule as surz_partner_approve; if the runtime exposes no caller identity, rely on the object edit right being granted only to those roles). Re-read the stored row; never trust the payload. Refuse with {'error': 'Only a pending or rejected review can be approved.'} unless stored STATUS is 'PENDING' or 'REJECTED'. UPDATE SURZ_PRODUCT_REVIEW SET STATUS = 'APPROVED', CHG_DATE = now, CHG_USER = caller short id (or 'SYSTEM'); clear no other column (MODERATOR_NOTE is kept). Return {'message': 'Review approved.'}. Any failure returns {'error': '...'} and writes nothing."
+              },
+              "validations": [
+                {"type": "expression", "name": "Only pending or rejected", "error_code": "RV_NOT_APPROVABLE", "message": "Only a pending or rejected review can be approved.", "expression": "{form.status} == \"PENDING\" or {form.status} == \"REJECTED\""}
+              ]
+            },
+            {
+              "name": "Reject",
+              "handler": "message",
+              "scope": "row",
+              "visible_when": "{form.status} != \"REJECTED\"",
+              "confirmation": {"mode": "reconfirm", "message": "Reject this review of {form.product_code}?"},
+              "business_logic": {
+                "method": "surz_review_reject",
+                "language": "python",
+                "description": "Reject a product review",
+                "spec": "Row action on SURZ_PRODUCT_REVIEW (payload = the clicked row; key REVIEW_ID). ADMIN ONLY: same rule as surz_review_approve. Re-read the stored row; refuse with {'error': 'Only a pending or approved review can be rejected.'} unless stored STATUS is 'PENDING' or 'APPROVED'. The stored MODERATOR_NOTE (the admin saves it on the form first, then clicks Reject) must be non-blank after trimming, else return {'error': 'Enter a moderator note before rejecting'}. UPDATE SURZ_PRODUCT_REVIEW SET STATUS = 'REJECTED', CHG_DATE = now, CHG_USER = caller short id (or 'SYSTEM'). Return {'message': 'Review rejected.'}. Any failure returns {'error': '...'} and writes nothing."
+              },
+              "validations": [
+                {"type": "expression", "name": "Only pending or approved", "error_code": "RV_NOT_REJECTABLE", "message": "Only a pending or approved review can be rejected.", "expression": "{form.status} == \"PENDING\" or {form.status} == \"APPROVED\""},
+                {"type": "expression", "name": "Note required", "error_code": "RV_NO_NOTE", "message": "Enter a moderator note before rejecting", "expression": "not_empty({form.moderator_note})"}
+              ]
+            }
+          ],
+          "validations": [],
+          "cross_updates": [],
+          "joins": {
+            "join_predicates": {
+              "joins": [
+                {"table_name": "SURZ_PRODUCT_REVIEW", "main_table": true}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "actions": [],
+    "cross_updates": [],
+    "pre_commit": [],
+    "post_commit": [],
+    "follow_up_actions": [],
+    "attach_docs": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "DASHBOARD": {
+    "DASHBOARD_ID": "SURZ_PARTNER_DASHBOARD",
+    "DASHBOARD_TYPE": "S",
+    "DASHBOARD_NAME": "Partner sales",
+    "DASHBOARD_DESCR": "Partner-wise sales for functional admins: orders, gross and net sales, discount given, active partners, monthly trend, top instruments sold through partner codes, the partner leaderboard and the application approval funnel. Orders without a partner are excluded; cancelled orders are excluded.",
+    "CREATED_BY": "admin",
+    "CREATED_DATE": "2026-10-08",
+    "REFRESH_INTERVAL_SECONDS": 0,
+    "GLOBAL_CRITERIA": [
+      {
+        "PARAM_NAME": "FROM_DATE",
+        "PROMPT_LABEL": "From Date",
+        "DEFAULT_VALUE": ":calendar_month_start",
+        "DATA_TYPE": "date",
+        "OPERATOR": ">=",
+        "BROADCAST_TO": ["VIS_KPIS", "VIS_SALES_BY_PARTNER", "VIS_DISCOUNT_BY_PARTNER", "VIS_TREND", "VIS_TOP_INSTRUMENTS", "VIS_LEADERBOARD"]
+      },
+      {
+        "PARAM_NAME": "TO_DATE",
+        "PROMPT_LABEL": "To Date",
+        "DEFAULT_VALUE": ":calendar_today",
+        "DATA_TYPE": "date",
+        "OPERATOR": "<=",
+        "BROADCAST_TO": ["VIS_KPIS", "VIS_SALES_BY_PARTNER", "VIS_DISCOUNT_BY_PARTNER", "VIS_TREND", "VIS_TOP_INSTRUMENTS", "VIS_LEADERBOARD"]
+      },
+      {
+        "PARAM_NAME": "PARTNER_NAME",
+        "PROMPT_LABEL": "Partner",
+        "DEFAULT_VALUE": "%",
+        "DATA_TYPE": "string",
+        "OPERATOR": "like",
+        "BROADCAST_TO": ["VIS_KPIS", "VIS_SALES_BY_PARTNER", "VIS_DISCOUNT_BY_PARTNER", "VIS_TREND", "VIS_TOP_INSTRUMENTS", "VIS_LEADERBOARD"],
+        "lookup": "SURZ_PARTNER(PARTNER_NAME, PARTNER_NAME)"
+      }
+    ],
+    "VISUALS": [
+      {
+        "VISUAL_ID": "VIS_KPIS",
+        "VISUAL_NAME": "Partner KPIs",
+        "POSITION": { "X": 0, "Y": 0, "WIDTH": 12, "HEIGHT": 2 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_kpis.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "FROM_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_SALES_BY_PARTNER",
+        "VISUAL_NAME": "Gross sales by partner",
+        "POSITION": { "X": 0, "Y": 2, "WIDTH": 6, "HEIGHT": 4 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_sales.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "SURZ_ORDER.PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_DISCOUNT_BY_PARTNER",
+        "VISUAL_NAME": "Discount given by partner",
+        "POSITION": { "X": 6, "Y": 2, "WIDTH": 6, "HEIGHT": 4 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_discount.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "SURZ_ORDER.PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_TREND",
+        "VISUAL_NAME": "Monthly partner sales trend",
+        "POSITION": { "X": 0, "Y": 6, "WIDTH": 6, "HEIGHT": 4 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_trend.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "FROM_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_TOP_INSTRUMENTS",
+        "VISUAL_NAME": "Top instruments via partner codes",
+        "POSITION": { "X": 6, "Y": 6, "WIDTH": 6, "HEIGHT": 4 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_top_instruments.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "SURZ_ORDER.ORDER_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "SURZ_ORDER.PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" },
+          { "VISUAL_PARAM": "TOP_N", "BIND_TYPE": "unbound" }
+        ]
+      },
+      {
+        "VISUAL_ID": "VIS_APPROVAL_FUNNEL",
+        "VISUAL_NAME": "Partner approval funnel",
+        "POSITION": { "X": 0, "Y": 10, "WIDTH": 4, "HEIGHT": 5 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_approval_funnel.json",
+        "CRITERIA_BINDINGS": []
+      },
+      {
+        "VISUAL_ID": "VIS_LEADERBOARD",
+        "VISUAL_NAME": "Partner leaderboard (top 10 by net sales)",
+        "POSITION": { "X": 4, "Y": 10, "WIDTH": 8, "HEIGHT": 5 },
+        "VISUAL_CONFIG_REF": "model_surz_partner_leaderboard.json",
+        "CRITERIA_BINDINGS": [
+          { "VISUAL_PARAM": "FROM_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "FROM_DATE" },
+          { "VISUAL_PARAM": "TO_DATE", "BIND_TYPE": "global", "GLOBAL_PARAM": "TO_DATE" },
+          { "VISUAL_PARAM": "PARTNER_NAME", "BIND_TYPE": "global", "GLOBAL_PARAM": "PARTNER_NAME" }
+        ]
+      }
+    ],
+    "DRILL_THROUGH": [
+      { "SOURCE_VISUAL_ID": "VIS_SALES_BY_PARTNER", "TARGET_TYPE": "self", "PARAM_MAPPING": { "SURZ_ORDER_PARTNER_NAME": "PARTNER_NAME" } },
+      { "SOURCE_VISUAL_ID": "VIS_DISCOUNT_BY_PARTNER", "TARGET_TYPE": "self", "PARAM_MAPPING": { "SURZ_ORDER_PARTNER_NAME": "PARTNER_NAME" } },
+      { "SOURCE_VISUAL_ID": "VIS_LEADERBOARD", "TARGET_TYPE": "self", "PARAM_MAPPING": { "PARTNER_NAME": "PARTNER_NAME" } }
+    ]
+  }
+}

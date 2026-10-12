@@ -1,0 +1,65 @@
+{
+ "scores": {
+  "text": 0.516,
+  "headings": 0.486,
+  "images": 0.5,
+  "sections": {
+   "page": 3,
+   "source": 2
+  },
+  "paint": 1.0,
+  "fonts": true
+ },
+ "passed": false,
+ "issues": [
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: the page carries 52% of the source page's words (needs 85%). Restore the source's own text verbatim — do not paraphrase.",
+   "blocking": true
+  },
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: 15 source heading(s) are missing, e.g. 'artery forceps ochsner'; 'artery forceps pean'; 'babcock forceps tc'; 'bone reduction clamp towel type'; 'adson brown tissue forceps'; 'castpaw retractor (kilner retractor)'; 'allis tissue forceps autagrip'; 'artery forceps robert'",
+   "blocking": true
+  },
+  {
+   "stage": "clone_fidelity",
+   "message": "Clone fidelity: 12 of 24 source picture(s) are not on the page. Use these (their imported copies are in Reference_Source/asset_map.json): https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9c06aa3f-04f0-4575-83fa-32197f669f19.jpg, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e2974baa-a52b-423b-a979-9ea20fab8338.jpg, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7b93a326-b2f8-4392-9a4c-b002fb4026dd.jpg, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a659f76-e2cd-4eb9-8ecc-f40b64eb30a1.png, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6c70a453-0aca-489a-826f-97d78aba38bd.jpg, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e34f605a-e6ab-4ba1-b17a-dabace0315fe.png, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a0b9829c-0343-4d4e-9679-b92caffdb7f4.jpg, https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/cf9502bc-2b78-401b-a37c-555eb2059f0f.jpg",
+   "blocking": true
+  }
+ ],
+ "missing": {
+  "headings": [
+   "artery forceps ochsner",
+   "artery forceps pean",
+   "babcock forceps tc",
+   "bone reduction clamp towel type",
+   "adson brown tissue forceps",
+   "castpaw retractor (kilner retractor)",
+   "allis tissue forceps autagrip",
+   "artery forceps robert",
+   "allison lung retractor",
+   "anderson tendon tunneling forceps",
+   "b.p handle bayonet",
+   "allis tissue forceps",
+   "return, refund & replacement policy",
+   "terms and conditions",
+   "we'll reply within 12 hours"
+  ],
+  "images": [
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/9c06aa3f-04f0-4575-83fa-32197f669f19.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e2974baa-a52b-423b-a979-9ea20fab8338.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7b93a326-b2f8-4392-9a4c-b002fb4026dd.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/7a659f76-e2cd-4eb9-8ecc-f40b64eb30a1.png",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/6c70a453-0aca-489a-826f-97d78aba38bd.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/e34f605a-e6ab-4ba1-b17a-dabace0315fe.png",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/a0b9829c-0343-4d4e-9679-b92caffdb7f4.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/cf9502bc-2b78-401b-a37c-555eb2059f0f.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/01d1cec1-ef48-495a-a447-a1398287d099.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/b327c5e3-c84b-4591-91e6-a7e79050b590.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD%2Fassets%2F6a1f7e03-1434-4ce7-9485-97813801c2e6.jpg",
+   "https://surzion.com/q=100/cdn-ecommerce/store_01K43H8DPNXKHQ0V96Z6XSSSMD/assets/473a67fe-b16e-4bca-bcd9-49a97b7c633a.jpg"
+  ],
+  "paint": []
+ }
+}

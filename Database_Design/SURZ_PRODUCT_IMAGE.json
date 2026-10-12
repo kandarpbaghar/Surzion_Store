@@ -1,0 +1,43 @@
+{
+  "table_name": "SURZ_PRODUCT_IMAGE",
+  "description": "Gallery (surz_product)",
+  "managed": true,
+  "columns": [
+    {
+      "column_name": "PRODUCT_CODE",
+      "data_type": "VARCHAR",
+      "size": "20",
+      "sequence": 1,
+      "key": true,
+      "mandatory": true,
+      "description": "Product"
+    },
+    {
+      "column_name": "IMG_NO",
+      "data_type": "NUMBER",
+      "size": "",
+      "sequence": 2,
+      "key": true,
+      "mandatory": true,
+      "description": "No"
+    },
+    {
+      "column_name": "IMAGE_URL",
+      "data_type": "VARCHAR",
+      "size": "400",
+      "sequence": 3,
+      "key": false,
+      "mandatory": true,
+      "description": "Photograph"
+    },
+    {
+      "column_name": "CAPTION",
+      "data_type": "VARCHAR",
+      "size": "160",
+      "sequence": 4,
+      "key": false,
+      "mandatory": false,
+      "description": "Caption"
+    }
+  ]
+}

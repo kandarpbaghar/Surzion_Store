@@ -1,0 +1,3234 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+ "title": "Policies — Surzion",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 6042,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 44,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "50.6px",
+   "letterSpacing": "-0.88px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 32,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "38.4px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(91, 107, 140)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": {
+  "rect": {
+   "x": 0,
+   "y": 40,
+   "w": 1440,
+   "h": 81
+  },
+  "bg": {
+   "color": "rgb(255, 255, 255)"
+  },
+  "color": "rgb(11, 26, 61)",
+  "sticky": true,
+  "logo": {
+   "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+   "alt": "Surzion — The Surgical Excellence",
+   "h": 44,
+   "w": 176
+  },
+  "buttons": [],
+  "navStyle": {
+   "family": "Poppins",
+   "size": 15,
+   "weight": 500,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "normal",
+   "letterSpacing": null
+  },
+  "text": "Home\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue",
+  "items": [
+   {
+    "t": "image",
+    "src": "https://design.local/surzion-storefront-redesign/assets/369b90ca04eace86353b2b6d187988e7.jpg",
+    "alt": "Surzion — The Surgical Excellence",
+    "natural": {
+     "w": 768,
+     "h": 192
+    },
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "rect": {
+     "x": 112,
+     "y": 18,
+     "w": 176,
+     "h": 44
+    },
+    "radius": "0px"
+   },
+   {
+    "t": "link",
+    "text": "Home",
+    "href": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 412,
+     "y": 19,
+     "w": 45,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Shop",
+    "href": "https://design.local/surzion-storefront-redesign/Shop.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 487,
+     "y": 19,
+     "w": 39,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "About",
+    "href": "https://design.local/surzion-storefront-redesign/About.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 555,
+     "y": 19,
+     "w": 46,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Online catalogue",
+    "href": "https://design.local/surzion-storefront-redesign/Catalogue.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 631,
+     "y": 19,
+     "w": 130,
+     "h": 43
+    }
+   },
+   {
+    "t": "link",
+    "text": "Partners",
+    "href": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 15,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 791,
+     "y": 19,
+     "w": 63,
+     "h": 43
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"M20 20l-3.5-3.5\"></path></svg>",
+    "cls": "",
+    "color": "rgb(11, 26, 61)",
+    "rect": {
+     "x": 989,
+     "y": 30,
+     "w": 20,
+     "h": 20
+    }
+   },
+   {
+    "t": "link",
+    "text": "Sign in",
+    "href": "https://design.local/surzion-storefront-redesign/Register.dc.html",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 500,
+     "color": "rgb(11, 26, 61)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1027,
+     "y": 18,
+     "w": 99,
+     "h": 44
+    }
+   },
+   {
+    "t": "link",
+    "text": "Catalogue",
+    "href": "https://assets.zyrosite.com/dJoPq545ePc4y7po/kapsons_catalouge_pdfb1_compressed-dkwjDNPz0qS7AZZb.pdf",
+    "style": {
+     "family": "Poppins",
+     "size": 14,
+     "weight": 600,
+     "color": "rgb(14, 35, 88)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "normal",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 1191,
+     "y": 17,
+     "w": 137,
+     "h": 46
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 3,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 18,
+       "w": 176,
+       "h": 44
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": "https://design.local/surzion-storefront-redesign/Main.dc.html"
+     },
+     {
+      "rect": {
+       "x": 412,
+       "y": 19,
+       "w": 442,
+       "h": 43
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 977,
+       "y": 17,
+       "w": 351,
+       "h": 46
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "footer": {
+  "rect": {
+   "x": 0,
+   "y": 5406,
+   "w": 1440,
+   "h": 636
+  },
+  "bg": {
+   "color": "rgb(16, 32, 39)"
+  },
+  "color": "rgb(255, 255, 255)",
+  "sticky": false,
+  "logo": null,
+  "buttons": [],
+  "navStyle": {
+   "family": "Libre Baskerville",
+   "size": 18,
+   "weight": 700,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "30.6px",
+   "letterSpacing": null
+  },
+  "text": "We provide premium surgical solutions for precision care\nReturn, Refund & Replacement Policy\nTerms and Conditions\nPrivacy Policy\nContact us\nFollow us >>>>>>\n(+91-7814861010)\n(+91-8195831010)\n© 2025. All rights reserved.\nWe'll reply within 12 hours\nName\nLast name\nYour email*\nMessage*\nSubmit your inquiry",
+  "items": [
+   {
+    "t": "text",
+    "text": "We provide premium surgical solutions for precision care",
+    "html": "We provide premium surgical solutions for precision care",
+    "links": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 24,
+     "weight": 700,
+     "color": "rgb(124, 189, 100)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "31.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 56,
+     "w": 672,
+     "h": 62
+    }
+   },
+   {
+    "t": "link",
+    "text": "Return, Refund & Replacement Policy",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 140,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Terms and Conditions",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 185,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Privacy Policy",
+    "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 229,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "link",
+    "text": "Contact us",
+    "href": "https://design.local/surzion-storefront-redesign/Contact.dc.html",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 18,
+     "weight": 700,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "30.6px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 274,
+     "w": 672,
+     "h": 31
+    }
+   },
+   {
+    "t": "icon",
+    "kind": "svg",
+    "svg": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M24 12.07C24 5.44 18.63.07 12 .07S0 5.44 0 12.07c0 5.99 4.39 10.96 10.13 11.86v-8.39H7.08v-3.47h3.05V9.43c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.69.23 2.69.23v2.95h-1.51c-1.49 0-1.96.93-1.96 1.88v2.25h3.33l-.53 3.47h-2.8v8.39C19.61 23.03 24 18.06 24 12.07z\"></path></svg>",
+    "cls": "",
+    "color": "rgb(76, 145, 215)",
+    "rect": {
+     "x": 292,
+     "y": 333,
+     "w": 32,
+     "h": 32
+    }
+   },
+   {
+    "t": "link",
+    "text": "(+91-7814861010)",
+    "href": "tel:+917814861010",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "27.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 393,
+     "w": 672,
+     "h": 27
+    }
+   },
+   {
+    "t": "link",
+    "text": "(+91-8195831010)",
+    "href": "tel:+918195831010",
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "27.2px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 428,
+     "w": 672,
+     "h": 27
+    }
+   },
+   {
+    "t": "text",
+    "text": "© 2025. All rights reserved.",
+    "html": "© 2025. All rights reserved.",
+    "links": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 14,
+     "weight": 400,
+     "color": "rgb(255, 255, 255)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "23.8px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 112,
+     "y": 501,
+     "w": 672,
+     "h": 24
+    }
+   },
+   {
+    "t": "heading",
+    "level": 3,
+    "text": "We'll reply within 12 hours",
+    "href": null,
+    "style": {
+     "family": "Libre Baskerville",
+     "size": 16,
+     "weight": 700,
+     "color": "rgb(124, 189, 100)",
+     "align": "start",
+     "transform": null,
+     "lineHeight": "20.8px",
+     "letterSpacing": null
+    },
+    "rect": {
+     "x": 848,
+     "y": 56,
+     "w": 440,
+     "h": 21
+    }
+   },
+   {
+    "t": "form",
+    "fields": [
+     {
+      "name": "",
+      "type": "text",
+      "label": "Your name",
+      "required": false
+     },
+     {
+      "name": "",
+      "type": "text",
+      "label": "Your last name",
+      "required": false
+     },
+     {
+      "name": "",
+      "type": "email",
+      "label": "Your email address",
+      "required": true
+     },
+     {
+      "name": "",
+      "type": "textarea",
+      "label": "Enter your message",
+      "required": true
+     }
+    ],
+    "submit": "",
+    "rect": {
+     "x": 848,
+     "y": 93,
+     "w": 440,
+     "h": 487
+    }
+   }
+  ],
+  "groups": [
+   {
+    "kind": "columns",
+    "columns": 2,
+    "rows": 1,
+    "imageSide": null,
+    "children": [
+     {
+      "rect": {
+       "x": 112,
+       "y": 56,
+       "w": 672,
+       "h": 469
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     },
+     {
+      "rect": {
+       "x": 848,
+       "y": 56,
+       "w": 440,
+       "h": 524
+      },
+      "bg": null,
+      "radius": "0px",
+      "shadow": null,
+      "border": null,
+      "href": null
+     }
+    ]
+   }
+  ],
+  "padding": {
+   "top": 0,
+   "bottom": 0
+  }
+ },
+ "floating": [],
+ "colors": [
+  {
+   "role": "text",
+   "color": "rgb(51, 65, 95)",
+   "n": 52
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 17
+  }
+ ],
+ "sections": [
+  {
+   "index": 2,
+   "key": "2",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 490,
+    "w": 800,
+    "h": 132
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "text",
+     "text": "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India.",
+     "html": "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "These Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website.",
+     "html": "These Terms &amp; Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 38,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "By accessing the Website or placing an order, you agree to be bound by these Terms.",
+     "html": "By accessing the Website or placing an order, you agree to be bound by these Terms.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 104,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s02.jpg",
+   "fingerprint": "cb685ccf867a989a"
+  },
+  {
+   "index": 3,
+   "key": "3:1-business-information",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 658,
+    "w": 800,
+    "h": 179
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "1. Business Information",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Brand: Surzion",
+     "html": "Brand: Surzion",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Legal/Business Name: Kapson",
+     "html": "Legal/Business Name: Kapson",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Business Structure: Proprietorship",
+     "html": "Business Structure: Proprietorship",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 113,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Country of Operation: India",
+     "html": "Country of Operation: India",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 151,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s03.jpg",
+   "fingerprint": "74c6440bc03254f1"
+  },
+  {
+   "index": 4,
+   "key": "4:2-use-of-the-website",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 873,
+    "w": 800,
+    "h": 269
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "2. Use of the Website",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "You agree to use the Website only for lawful purposes and in accordance with these Terms.",
+     "html": "You agree to use the Website only for lawful purposes and in accordance with these Terms.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "You must not:",
+     "html": "You must not:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Use the Website for fraudulent or unlawful purposes",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Attempt to gain unauthorized access to the Website or its systems",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Interfere with the security or operation of the Website",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Copy, reproduce or misuse Website content without permission",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Submit false, misleading or fraudulent information",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 113,
+      "w": 800,
+      "h": 156
+     }
+    }
+   ],
+   "crop": "sections/s04.jpg",
+   "fingerprint": "e021573f1ad42aa3"
+  },
+  {
+   "index": 5,
+   "key": "5:3-products",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 1178,
+    "w": 800,
+    "h": 263
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "3. Products",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion offers surgical and related instruments and products.",
+     "html": "surzion offers surgical and related instruments and products.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate.",
+     "html": "We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable.",
+     "html": "However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 141,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Product images may be for representation purposes and should be read together with the product specifications and description.",
+     "html": "Product images may be for representation purposes and should be read together with the product specifications and description.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 207,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s05.jpg",
+   "fingerprint": "729771e75dd4edc7"
+  },
+  {
+   "index": 6,
+   "key": "6:4-prices",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 1477,
+    "w": 800,
+    "h": 235
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "4. Prices",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "All product prices displayed on the Website are subject to change without prior notice.",
+     "html": "All product prices displayed on the Website are subject to change without prior notice.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order.",
+     "html": "Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "We reserve the right to correct pricing, product-description or other inadvertent errors.",
+     "html": "We reserve the right to correct pricing, product-description or other inadvertent errors.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 141,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.",
+     "html": "If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 179,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s06.jpg",
+   "fingerprint": "bda9525cdcde5072"
+  },
+  {
+   "index": 7,
+   "key": "7:5-orders",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 1748,
+    "w": 800,
+    "h": 437
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "5. Orders",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Placing an order constitutes a request to purchase the selected product.",
+     "html": "Placing an order constitutes a request to purchase the selected product.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "An order may be subject to verification and acceptance by Surzion.",
+     "html": "An order may be subject to verification and acceptance by Surzion.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:",
+     "html": "We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 113,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Product unavailability",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Pricing or listing errors",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Suspected fraudulent transactions",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Incorrect customer information",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Shipping restrictions",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Circumstances beyond our reasonable control",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 179,
+      "w": 800,
+      "h": 188
+     }
+    },
+    {
+     "t": "text",
+     "text": "If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.",
+     "html": "If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 381,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s07.jpg",
+   "fingerprint": "3490d3edde3931e2"
+  },
+  {
+   "index": 8,
+   "key": "8:6-payment",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 2221,
+    "w": 800,
+    "h": 131
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "6. Payment",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods.",
+     "html": "surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Payment processing may be handled by third-party payment service providers.",
+     "html": "Payment processing may be handled by third-party payment service providers.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 103,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s08.jpg",
+   "fingerprint": "ac913085833d5825"
+  },
+  {
+   "index": 9,
+   "key": "9:7-shipping-and-delivery",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 2388,
+    "w": 800,
+    "h": 525
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "7. Shipping and Delivery",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability.",
+     "html": "Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service.",
+     "html": "After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 103,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery.",
+     "html": "Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 169,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Delivery timelines are estimates and may be affected by:",
+     "html": "Delivery timelines are estimates and may be affected by:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 235,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Public holidays",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Weather conditions",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Courier delays",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Incorrect or incomplete addresses",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Remote-area delivery",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Natural disasters",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Government restrictions",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Other circumstances beyond our reasonable control",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 273,
+      "w": 800,
+      "h": 252
+     }
+    }
+   ],
+   "crop": "sections/s09.jpg",
+   "fingerprint": "a28620e886b6198c"
+  },
+  {
+   "index": 10,
+   "key": "10:8-cancellation",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 2949,
+    "w": 800,
+    "h": 197
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "8. Cancellation",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Customers may request cancellation of an order before the order has been dispatched.",
+     "html": "Customers may request cancellation of an order before the order has been dispatched.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy.",
+     "html": "Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.",
+     "html": "If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 141,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s10.jpg",
+   "fingerprint": "a66ebb8075337fb9"
+  },
+  {
+   "index": 11,
+   "key": "11:9-returns-refunds-and-replacements",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 3182,
+    "w": 800,
+    "h": 131
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "9. Returns, Refunds and Replacements",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Returns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website.",
+     "html": "Returns, refunds and replacements are governed by our separate Return &amp; Refund Policy, available on the Website.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Customers are advised to review that policy before placing an order.",
+     "html": "Customers are advised to review that policy before placing an order.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 103,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s11.jpg",
+   "fingerprint": "ace547c7b0d41cd7"
+  },
+  {
+   "index": 12,
+   "key": "12:10-one-year-replacement-warranty",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 3349,
+    "w": 800,
+    "h": 435
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "10. One-Year Replacement Warranty",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions.",
+     "html": "Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "The warranty does not generally cover damage resulting from:",
+     "html": "The warranty does not generally cover damage resulting from:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 103,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Improper use",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Accidental damage",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Negligence",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Unauthorized modification or repair",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Improper cleaning or maintenance",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Normal wear and tear",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Corrosion or damage caused by improper storage or care",
+       "icon": null,
+       "href": null
+      },
+      {
+       "text": "Damage resulting from use contrary to the product’s intended purpose",
+       "icon": null,
+       "href": null
+      }
+     ],
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 141,
+      "w": 800,
+      "h": 252
+     }
+    },
+    {
+     "t": "text",
+     "text": "Warranty eligibility will be determined after inspection of the returned product.",
+     "html": "Warranty eligibility will be determined after inspection of the returned product.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 407,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s12.jpg",
+   "fingerprint": "14776c08a9ca26b5"
+  },
+  {
+   "index": 13,
+   "key": "13:11-intellectual-property",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 3820,
+    "w": 800,
+    "h": 187
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "11. Intellectual Property",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated.",
+     "html": "All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 84
+     }
+    },
+    {
+     "t": "text",
+     "text": "You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.",
+     "html": "You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 131,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s13.jpg",
+   "fingerprint": "5dc9e74955599a31"
+  },
+  {
+   "index": 14,
+   "key": "14:12-third-party-services",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4043,
+    "w": 800,
+    "h": 131
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "12. Third-Party Services",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers.",
+     "html": "The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 56
+     }
+    },
+    {
+     "t": "text",
+     "text": "Your use of such services may also be subject to the terms and policies of those third parties.",
+     "html": "Your use of such services may also be subject to the terms and policies of those third parties.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 103,
+      "w": 800,
+      "h": 28
+     }
+    }
+   ],
+   "crop": "sections/s14.jpg",
+   "fingerprint": "f3035fee0401455c"
+  },
+  {
+   "index": 15,
+   "key": "15:13-limitation-of-liability",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4210,
+    "w": 800,
+    "h": 187
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "13. Limitation of Liability",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control.",
+     "html": "To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 84
+     }
+    },
+    {
+     "t": "text",
+     "text": "Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.",
+     "html": "Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 131,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s15.jpg",
+   "fingerprint": "f5a5053bdd5b896c"
+  },
+  {
+   "index": 16,
+   "key": "16:14-force-majeure",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4433,
+    "w": 800,
+    "h": 149
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "14. Force Majeure",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.",
+     "html": "surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 112
+     }
+    }
+   ],
+   "crop": "sections/s16.jpg",
+   "fingerprint": "814a7b33f234191a"
+  },
+  {
+   "index": 17,
+   "key": "17:15-governing-law",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4618,
+    "w": 800,
+    "h": 159
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "15. Governing Law",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "These Terms shall be governed by the laws applicable in India.",
+     "html": "These Terms shall be governed by the laws applicable in India.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.",
+     "html": "Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 84
+     }
+    }
+   ],
+   "crop": "sections/s17.jpg",
+   "fingerprint": "861838dd04eb55af"
+  },
+  {
+   "index": 18,
+   "key": "18:16-changes-to-these-terms",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4813,
+    "w": 800,
+    "h": 131
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "16. Changes to These Terms",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "surzion may update these Terms from time to time.",
+     "html": "surzion may update these Terms from time to time.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "The revised Terms will be published on the Website and will become effective from the date specified in the updated version.",
+     "html": "The revised Terms will be published on the Website and will become effective from the date specified in the updated version.",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s18.jpg",
+   "fingerprint": "1f871b70eb5e55c0"
+  },
+  {
+   "index": 19,
+   "key": "19:17-contact",
+   "anchor": null,
+   "tag": "section",
+   "rect": {
+    "x": 475,
+    "y": 4980,
+    "w": 800,
+    "h": 283
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 800
+   },
+   "bg": null,
+   "color": "rgb(51, 65, 95)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": 0,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "17. Contact",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 20,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "27px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 800,
+      "h": 27
+     }
+    },
+    {
+     "t": "text",
+     "text": "For questions regarding these Terms, orders or products:",
+     "html": "For questions regarding these Terms, orders or products:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 37,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "KAPSON ( surzion )",
+     "html": "KAPSON ( surzion )",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 75,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Email: sales@surzion.com",
+     "html": "Email: sales@surzion.com",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 113,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Phone: +917814861010, +918195831010",
+     "html": "Phone: +917814861010, +918195831010",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 151,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "Address:",
+     "html": "Address:",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 189,
+      "w": 800,
+      "h": 28
+     }
+    },
+    {
+     "t": "text",
+     "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "html": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+     "links": null,
+     "style": {
+      "family": "Libre Baskerville",
+      "size": 16,
+      "weight": 400,
+      "color": "rgb(51, 65, 95)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "28px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 227,
+      "w": 800,
+      "h": 56
+     }
+    }
+   ],
+   "crop": "sections/s19.jpg",
+   "fingerprint": "bd9e3eb1198b7abb"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+ "captured_at": "2026-10-09T13:08:09Z",
+ "page_fingerprint": "07b7d92cf7c85370",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Policies",
+  "state": null,
+  "visible_text": "Exclusive discounts on surgical instruments today!\nNEW\nCreators & influencers: get your own Surzion discount code →\nHome\nShop\nAbout\nOnline catalogue\nPartners\nSign in\n3\nCatalogue\nHome / Policies\nPolicies\n\nSurzion is a brand operated by Kapson. Questions? Write to sales@surzion.com.\n\nTerms and Conditions\nReturn, Refund & Replacement Policy\nPrivacy Policy\nTerms and Conditions\nEffective Date: 26-01-2026\n\nWelcome to surzion, a brand operated by Kapson, a proprietorship business in India.\n\nThese Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website.\n\nBy accessing the Website or placing an order, you agree to be bound by these Terms.\n\n1. Business Information\n\nBrand: Surzion\n\nLegal/Business Name: Kapson\n\nBusiness Structure: Proprietorship\n\nCountry of Operation: India\n\n2. Use of the Website\n\nYou agree to use the Website only for lawful purposes and in accordance with these Terms.\n\nYou must not:\n\nUse the Website for fraudulent or unlawful purposes\nAttempt to gain unauthorized access to the Website or its systems\nInterfere with the security or operation of the Website\nCopy, reproduce or misuse Website content without permission\nSubmit false, misleading or fraudulent information\n3. Products\n\nsurzion offers surgical and related instruments and products.\n\nWe make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate.\n\nHowever, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable.\n\nProduct images may be for representation purposes and should be read together with the product specifications and description.\n\n4. Prices\n\nAll product prices displayed on the Website are subject to change without prior notice.\n\nApplicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order.\n\nWe reserve the right to correct pricing, product-description or other inadvertent errors.\n\nIf an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.\n\n5. Orders\n\nPlacing an order constitutes a request to purchase the selected product.\n\nAn order may be subject to verification and acceptance by Surzion.\n\nWe reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:\n\nProduct unavailability\nPricing or listing errors\nSuspected fraudulent transactions\nIncorrect customer information\nShipping restrictions\nCircumstances beyond our reasonable control\n\nIf payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.\n\n6. Payment\n\nsurzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods.\n\nPayment processing may be handled by third-party payment service providers.\n\n7. Shipping and Delivery\n\nOrders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability.\n\nAfter dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service.\n\nAccordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery.\n\nDelivery timelines are estimates and may be affected by:\n\nPublic holidays\nWeather conditions\nCourier delays\nIncorrect or incomplete addresses\nRemote-area delivery\nNatural disasters\nGovernment restrictions\nOther circumstances beyond our reasonable control\n8. Cancellation\n\nCustomers may request cancellation of an order before the order has been dispatched.\n\nOnce an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy.\n\nIf an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.\n\n9. Returns, Refunds and Replacements\n\nReturns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website.\n\nCustomers are advised to review that policy before placing an order.\n\n10. One-Year Replacement Warranty\n\nCertain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions.\n\nThe warranty does not generally cover damage resulting from:\n\nImproper use\nAccidental damage\nNegligence\nUnauthorized modification or repair\nImproper cleaning or maintenance\nNormal wear and tear\nCorrosion or damage caused by improper storage or care\nDamage resulting from use contrary to the product’s intended purpose\n\nWarranty eligibility will be determined after inspection of the returned product.\n\n11. Intellectual Property\n\nAll content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated.\n\nYou may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.\n\n12. Third-Party Services\n\nThe Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers.\n\nYour use of such services may also be subject to the terms and policies of those third parties.\n\n13. Limitation of Liability\n\nTo the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control.\n\nNothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.\n\n14. Force Majeure\n\nsurzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.\n\n15. Governing Law\n\nThese Terms shall be governed by the laws applicable in India.\n\nAny dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.\n\n16. Changes to These Terms\n\nsurzion may update these Terms from time to time.\n\nThe revised Terms will be published on the Website and will become effective from the date specified in the updated version.\n\n17. Contact\n\nFor questions regarding these Terms, orders or products:\n\nKAPSON ( surzion )\n\nEmail: sales@surzion.com\n\nPhone: +917814861010, +918195831010\n\nAddress:\n\n3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021\n\nWe provide premium surgical solutions for precision care\n\nReturn, Refund & Replacement Policy\nTerms and Conditions\nPrivacy Policy\nContact us\nFollow us >>>>>>\n(+91-7814861010)\n(+91-8195831010)\n© 2025. All rights reserved.\nWe'll reply within 12 hours\nName\nLast name\nYour email*\nMessage*\nSubmit your inquiry",
+  "sample_text": [
+   "Terms and Conditions",
+   "Return, Refund & Replacement Policy",
+   "Privacy Policy",
+   "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India.",
+   "These Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website.",
+   "By accessing the Website or placing an order, you agree to be bound by these Terms.",
+   "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India. These Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website. By accessing the Website or placing an order, you agree to be bound by these Terms.",
+   "Brand: Surzion",
+   "Legal/Business Name: Kapson",
+   "Business Structure: Proprietorship",
+   "Country of Operation: India",
+   "1. Business Information Brand: Surzion Legal/Business Name: Kapson Business Structure: Proprietorship Country of Operation: India",
+   "You agree to use the Website only for lawful purposes and in accordance with these Terms.",
+   "You must not:",
+   "Use the Website for fraudulent or unlawful purposes",
+   "Attempt to gain unauthorized access to the Website or its systems",
+   "Interfere with the security or operation of the Website",
+   "Copy, reproduce or misuse Website content without permission",
+   "Submit false, misleading or fraudulent information",
+   "Use the Website for fraudulent or unlawful purposesAttempt to gain unauthorized access to the Website or its systemsInterfere with the security or operation of the WebsiteCopy, reproduce or misuse Website content without permissionSubmit false, misleading or fraudulent information",
+   "2. Use of the Website You agree to use the Website only for lawful purposes and in accordance with these Terms. You must not: Use the Website for fraudulent or unlawful purposesAttempt to gain unauthorized access to the Website or its systemsInterfere with the security or operation of the WebsiteCopy, reproduce or misuse Website content without permissionSubmit false, misleading or fraudulent information",
+   "surzion offers surgical and related instruments and products.",
+   "We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate.",
+   "However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable.",
+   "Product images may be for representation purposes and should be read together with the product specifications and description.",
+   "3. Products surzion offers surgical and related instruments and products. We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate. However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable. Product images may be for representation purposes and should be read together with the product specifications and description.",
+   "All product prices displayed on the Website are subject to change without prior notice.",
+   "Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order.",
+   "We reserve the right to correct pricing, product-description or other inadvertent errors.",
+   "If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.",
+   "4. Prices All product prices displayed on the Website are subject to change without prior notice. Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order. We reserve the right to correct pricing, product-description or other inadvertent errors. If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order.",
+   "Placing an order constitutes a request to purchase the selected product.",
+   "An order may be subject to verification and acceptance by Surzion.",
+   "We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:",
+   "Product unavailability",
+   "Pricing or listing errors",
+   "Suspected fraudulent transactions",
+   "Incorrect customer information",
+   "Shipping restrictions",
+   "Circumstances beyond our reasonable control",
+   "Product unavailabilityPricing or listing errorsSuspected fraudulent transactionsIncorrect customer informationShipping restrictionsCircumstances beyond our reasonable control",
+   "If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.",
+   "5. Orders Placing an order constitutes a request to purchase the selected product. An order may be subject to verification and acceptance by Surzion. We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving: Product unavailabilityPricing or listing errorsSuspected fraudulent transactionsIncorrect customer informationShipping restrictionsCircumstances beyond our reasonable control If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law.",
+   "surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods.",
+   "Payment processing may be handled by third-party payment service providers.",
+   "6. Payment surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods. Payment processing may be handled by third-party payment service providers.",
+   "Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability.",
+   "After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service.",
+   "Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery.",
+   "Delivery timelines are estimates and may be affected by:",
+   "Public holidays",
+   "Weather conditions",
+   "Courier delays",
+   "Incorrect or incomplete addresses",
+   "Remote-area delivery",
+   "Natural disasters",
+   "Government restrictions",
+   "Other circumstances beyond our reasonable control",
+   "Public holidaysWeather conditionsCourier delaysIncorrect or incomplete addressesRemote-area deliveryNatural disastersGovernment restrictionsOther circumstances beyond our reasonable control",
+   "7. Shipping and Delivery Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability. After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service. Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery. Delivery timelines are estimates and may be affected by: Public holidaysWeather conditionsCourier delaysIncorrect or incomplete addressesRemote-area deliveryNatural disastersGovernment restrictionsOther circumstances beyond our reasonable control",
+   "Customers may request cancellation of an order before the order has been dispatched.",
+   "Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy.",
+   "If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.",
+   "8. Cancellation Customers may request cancellation of an order before the order has been dispatched. Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy. If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure.",
+   "Returns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website.",
+   "Customers are advised to review that policy before placing an order.",
+   "9. Returns, Refunds and Replacements Returns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website. Customers are advised to review that policy before placing an order.",
+   "Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions.",
+   "The warranty does not generally cover damage resulting from:",
+   "Improper use",
+   "Accidental damage",
+   "Negligence",
+   "Unauthorized modification or repair",
+   "Improper cleaning or maintenance",
+   "Normal wear and tear",
+   "Corrosion or damage caused by improper storage or care",
+   "Damage resulting from use contrary to the product’s intended purpose",
+   "Improper useAccidental damageNegligenceUnauthorized modification or repairImproper cleaning or maintenanceNormal wear and tearCorrosion or damage caused by improper storage or careDamage resulting from use contrary to the product’s intended purpose",
+   "Warranty eligibility will be determined after inspection of the returned product.",
+   "10. One-Year Replacement Warranty Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions. The warranty does not generally cover damage resulting from: Improper useAccidental damageNegligenceUnauthorized modification or repairImproper cleaning or maintenanceNormal wear and tearCorrosion or damage caused by improper storage or careDamage resulting from use contrary to the product’s intended purpose Warranty eligibility will be determined after inspection of the returned product.",
+   "All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated.",
+   "You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.",
+   "11. Intellectual Property All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated. You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission.",
+   "The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers.",
+   "Your use of such services may also be subject to the terms and policies of those third parties.",
+   "12. Third-Party Services The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers. Your use of such services may also be subject to the terms and policies of those third parties.",
+   "To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control.",
+   "Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.",
+   "13. Limitation of Liability To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control. Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded.",
+   "surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.",
+   "14. Force Majeure surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions.",
+   "These Terms shall be governed by the laws applicable in India.",
+   "Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.",
+   "15. Governing Law These Terms shall be governed by the laws applicable in India. Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements.",
+   "surzion may update these Terms from time to time.",
+   "The revised Terms will be published on the Website and will become effective from the date specified in the updated version.",
+   "16. Changes to These Terms surzion may update these Terms from time to time. The revised Terms will be published on the Website and will become effective from the date specified in the updated version.",
+   "For questions regarding these Terms, orders or products:",
+   "KAPSON ( surzion )",
+   "Email: sales@surzion.com",
+   "Phone: +917814861010, +918195831010",
+   "Address:",
+   "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021",
+   "17. Contact For questions regarding these Terms, orders or products: KAPSON ( surzion ) Email: sales@surzion.com Phone: +917814861010, +918195831010 Address: 3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021"
+  ],
+  "sample_images": []
+ }
+}

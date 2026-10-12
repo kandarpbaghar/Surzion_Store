@@ -1,0 +1,533 @@
+{
+ "page": {
+  "obj_name": "About",
+  "title": "About Surzion",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "About Surzion"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0",
+    "name": "Section 1",
+    "blocks": [],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#0e2358"
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "0",
+     "fingerprint": "118aff71ba2df660",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_1experienceb",
+    "name": "Experience builds vision, and vision creates innovation.",
+    "blocks": [
+     {
+      "id": "p_7908c7_1",
+      "type": "paragraph",
+      "text": "ABOUT SURZION",
+      "style": {
+       "textColor": "#9db8f5",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_7908c7_2",
+      "type": "heading",
+      "level": 1,
+      "text": "Experience builds vision, and vision creates innovation.",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 54
+       }
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "image",
+      "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/5fdc4a4d4f71350a.jpg",
+      "parallax": true
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "1:experience-builds-vision-and-vision-crea",
+     "fingerprint": "3202e4640c05b972",
+     "crop": "sections/s01.jpg"
+    }
+   },
+   {
+    "id": "sec_2",
+    "name": "Section 3",
+    "blocks": [
+     {
+      "id": "img_8e40bf_1",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+      "alt": "Surzion",
+      "align": "left",
+      "maxWidth": 224,
+      "naturalWidth": 768,
+      "naturalHeight": 192
+     },
+     {
+      "id": "img_8e40bf_2",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a7d69abbe446cb09.png",
+      "alt": "Kapsons",
+      "align": "left",
+      "maxWidth": 120,
+      "naturalWidth": 800,
+      "naturalHeight": 200
+     },
+     {
+      "id": "p_8e40bf_3",
+      "type": "paragraph",
+      "text": "With over 7 years of experience in medical sales and marketing, our journey led us to establish KAPSONS — a company born from passion and precision.",
+      "style": {
+       "textColor": "#0b1a3d"
+      }
+     },
+     {
+      "id": "p_8e40bf_4",
+      "type": "paragraph",
+      "text": "From this journey came SURZION, a brand designed to represent The Surgical Excellence.",
+      "style": {
+       "textColor": "#0b1a3d"
+      }
+     },
+     {
+      "id": "p_8e40bf_5",
+      "type": "paragraph",
+      "text": "Our instruments, made with 410, 420, and 316-grade stainless steel, as well as tungsten carbide and titanium materials, meet international standards of quality.",
+      "style": {
+       "textColor": "#0b1a3d"
+      }
+     },
+     {
+      "id": "img_8e40bf_6",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/385fbe2a794affa6.jpg",
+      "alt": "A Surzion instrument case with fine forceps and scissors laid out beside it",
+      "align": "right",
+      "maxWidth": 580,
+      "naturalWidth": 900,
+      "naturalHeight": 1200,
+      "rounded": true
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 80,
+      "bottom": 80
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "2",
+     "fingerprint": "9f07fbb119a9b2ec",
+     "crop": "sections/s02.jpg"
+    }
+   },
+   {
+    "id": "sec_3",
+    "name": "Section 4",
+    "blocks": [
+     {
+      "id": "p_421714_1",
+      "type": "paragraph",
+      "text": "OUR MISSION",
+      "style": {
+       "textColor": "#9db8f5",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "p_421714_2",
+      "type": "paragraph",
+      "text": "Certified with ISO and CE, we are driven by one mission — to empower surgeons with reliable and innovative instruments that define perfection.",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 26
+       }
+      }
+     },
+     {
+      "id": "cols_421714_9",
+      "type": "columns",
+      "count": 2,
+      "columns": [
+       {
+        "id": "col_421714_5",
+        "blocks": [
+         {
+          "id": "p_421714_3",
+          "type": "paragraph",
+          "text": "150+",
+          "style": {
+           "textColor": "#ffffff",
+           "typography": {
+            "fontSize": 52,
+            "fontWeight": 700
+           }
+          }
+         },
+         {
+          "id": "p_421714_4",
+          "type": "paragraph",
+          "text": "Trusted by professionals",
+          "style": {
+           "textColor": "#c9d6f2"
+          }
+         }
+        ],
+        "width": "50fr"
+       },
+       {
+        "id": "col_421714_8",
+        "blocks": [
+         {
+          "id": "p_421714_6",
+          "type": "paragraph",
+          "text": "15",
+          "style": {
+           "textColor": "#ffffff",
+           "typography": {
+            "fontSize": 52,
+            "fontWeight": 700
+           }
+          }
+         },
+         {
+          "id": "p_421714_7",
+          "type": "paragraph",
+          "text": "Quality assured",
+          "style": {
+           "textColor": "#c9d6f2"
+          }
+         }
+        ],
+        "width": "50fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 72,
+      "bottom": 72
+     },
+     "background": {
+      "kind": "color",
+      "color": "#0e2358"
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "3",
+     "fingerprint": "79ae572c47ccd8d4",
+     "crop": "sections/s03.jpg"
+    }
+   },
+   {
+    "id": "sec_4qualitywhol",
+    "name": "Quality wholesale supplier for healthcare professionals in I",
+    "blocks": [
+     {
+      "id": "p_e66f21_1",
+      "type": "paragraph",
+      "text": "SURGICAL INSTRUMENTS",
+      "style": {
+       "textColor": "#2f6be6",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_e66f21_2",
+      "type": "heading",
+      "level": 2,
+      "text": "Quality wholesale supplier for healthcare professionals in India.",
+      "style": {
+       "typography": {
+        "fontSize": 34
+       }
+      }
+     },
+     {
+      "id": "cards_e66f21_7",
+      "type": "card_grid",
+      "columns": 4,
+      "cards": [
+       {
+        "id": "card_e66f21_3",
+        "title": "Quality Instruments",
+        "body": "Reliable surgical tools for medical institutions and professionals.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/385fbe2a794affa6.jpg",
+        "imageAlt": "Quality Instruments",
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_e66f21_4",
+        "title": "Titanium Instruments",
+        "body": "Supporting the medical community with our products.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/4a480727d5da71d0.jpg",
+        "imageAlt": "Titanium Instruments",
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_e66f21_5",
+        "title": "Wide Range",
+        "body": "Diverse selection of high-quality medical instruments available.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/4ba420344246256e.jpg",
+        "imageAlt": "Wide Range",
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_e66f21_6",
+        "title": "Healthcare Support",
+        "body": "Committed to excellence in medical instrument supply.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e8a09cd9b9729310.jpg",
+        "imageAlt": "Healthcare Support",
+        "background": "#ffffff"
+       }
+      ],
+      "gap": 24,
+      "cardStyle": {
+       "radius": 18,
+       "padding": 1,
+       "titleSize": 18,
+       "bodySize": 15
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 80,
+      "bottom": 80
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "4:quality-wholesale-supplier-for-healthcar",
+     "fingerprint": "3df0255205a24b5c",
+     "crop": "sections/s04.jpg"
+    }
+   },
+   {
+    "id": "sec_5exploreourr",
+    "name": "Explore our range of high-quality surgical instruments.",
+    "blocks": [
+     {
+      "id": "p_fb2641_1",
+      "type": "paragraph",
+      "text": "GALLERY",
+      "style": {
+       "textColor": "#2f6be6",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_fb2641_2",
+      "type": "heading",
+      "level": 2,
+      "text": "Explore our range of high-quality surgical instruments.",
+      "style": {
+       "typography": {
+        "fontSize": 34
+       }
+      }
+     },
+     {
+      "id": "btn_fb2641_4",
+      "type": "button",
+      "button": {
+       "id": "btn_fb2641_3",
+       "label": "Shop instruments →",
+       "variant": "link",
+       "size": "md",
+       "on_click": {
+        "kind": "external_url",
+        "url": "/surzion-storefront-redesign/Shop.dc.html",
+        "newTab": false
+       }
+      },
+      "align": "right"
+     },
+     {
+      "id": "logos_fb2641_5",
+      "type": "logo_cloud",
+      "items": [
+       {
+        "id": "logo_fb2641_6",
+        "name": "Artery forceps, tungsten carbide",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/762feeb14651e1a0.jpg"
+       },
+       {
+        "id": "logo_fb2641_7",
+        "name": "Beckman-Eaton retractor",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/45131485c3984416.jpg"
+       },
+       {
+        "id": "logo_fb2641_8",
+        "name": "Alexander biopsy forceps",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7b18aa0467087f2f.jpg"
+       },
+       {
+        "id": "logo_fb2641_9",
+        "name": "Adson periosteal elevator",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ab8bab29c6d83353.jpg"
+       },
+       {
+        "id": "logo_fb2641_10",
+        "name": "Heath suture cutting scissors",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7a0a7849e8d64ef9.jpg"
+       },
+       {
+        "id": "logo_fb2641_11",
+        "name": "Volkmann bone curette",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a3074e6a97ce5b63.jpg"
+       },
+       {
+        "id": "logo_fb2641_12",
+        "name": "Castroviejo needle holder",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/64d2050448a70652.jpg"
+       },
+       {
+        "id": "logo_fb2641_13",
+        "name": "Adson dissecting forceps, toothed",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/74f7f643ce6c9398.jpg"
+       },
+       {
+        "id": "logo_fb2641_14",
+        "name": "Balfour retractor, baby",
+        "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c14ecf8dc9008604.jpg"
+       }
+      ],
+      "mode": "row",
+      "logoHeight": 96
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 80,
+      "bottom": 80
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+     "key": "5:explore-our-range-of-high-quality-surgic",
+     "fingerprint": "b25a39fc7ea9ceaf",
+     "crop": "sections/s05.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/About.dc.html",
+   "captured_at": "2026-10-09T13:07:53Z",
+   "page_fingerprint": "37e8f44d135270f8",
+   "draft_version": 1
+  }
+ }
+}

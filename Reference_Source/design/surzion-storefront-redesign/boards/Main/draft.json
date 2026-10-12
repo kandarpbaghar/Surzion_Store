@@ -1,0 +1,1092 @@
+{
+ "page": {
+  "obj_name": "Main",
+  "title": "Surzion home",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Surzion home"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0",
+    "name": "Section 1",
+    "blocks": [],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#0e2358"
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "0",
+     "fingerprint": "118aff71ba2df660",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_1qualitysurg",
+    "name": "Quality Surgical Instruments Supplier in India",
+    "blocks": [
+     {
+      "id": "img_925c57_1",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/baa414ead3ab3968.jpg",
+      "alt": "",
+      "align": "left",
+      "maxWidth": 1440
+     },
+     {
+      "id": "img_925c57_2",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+      "alt": "Surzion",
+      "align": "left",
+      "maxWidth": 208,
+      "naturalWidth": 768,
+      "naturalHeight": 192
+     },
+     {
+      "id": "img_925c57_3",
+      "type": "image",
+      "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a7d69abbe446cb09.png",
+      "alt": "Kapsons",
+      "align": "left",
+      "maxWidth": 120,
+      "naturalWidth": 800,
+      "naturalHeight": 200
+     },
+     {
+      "id": "h_925c57_4",
+      "type": "heading",
+      "level": 1,
+      "text": "Quality Surgical Instruments Supplier in India",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 60
+       }
+      }
+     },
+     {
+      "id": "cols_925c57_11",
+      "type": "columns",
+      "count": 2,
+      "columns": [
+       {
+        "id": "col_925c57_7",
+        "blocks": [
+         {
+          "id": "btn_925c57_6",
+          "type": "button",
+          "button": {
+           "id": "btn_925c57_5",
+           "label": "Shop Now",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/#shop",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         }
+        ],
+        "width": "47fr"
+       },
+       {
+        "id": "col_925c57_10",
+        "blocks": [
+         {
+          "id": "btn_925c57_9",
+          "type": "button",
+          "button": {
+           "id": "btn_925c57_8",
+           "label": "Explore Products",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/surzion-storefront-redesign/Catalogue.dc.html",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         }
+        ],
+        "width": "53fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "cards_925c57_18",
+      "type": "card_grid",
+      "columns": 3,
+      "cards": [
+       {
+        "id": "card_925c57_12",
+        "title": "",
+        "cta": {
+         "id": "btn_925c57_13",
+         "label": "Learn more",
+         "variant": "outline",
+         "size": "sm"
+        },
+        "background": "rgba(8, 20, 52, 0.35)"
+       },
+       {
+        "id": "card_925c57_14",
+        "title": "",
+        "cta": {
+         "id": "btn_925c57_15",
+         "label": "Learn more",
+         "variant": "outline",
+         "size": "sm"
+        },
+        "background": "rgba(8, 20, 52, 0.35)"
+       },
+       {
+        "id": "card_925c57_16",
+        "title": "",
+        "cta": {
+         "id": "btn_925c57_17",
+         "label": "Learn more",
+         "variant": "outline",
+         "size": "sm"
+        },
+        "background": "rgba(8, 20, 52, 0.35)"
+       }
+      ],
+      "gap": 64
+     },
+     {
+      "id": "btns_925c57_19",
+      "type": "button_group",
+      "buttons": [
+       {
+        "id": "btn_925c57_20",
+        "label": "Learn more",
+        "variant": "link",
+        "size": "sm"
+       },
+       {
+        "id": "btn_925c57_21",
+        "label": "Learn more",
+        "variant": "link",
+        "size": "sm"
+       },
+       {
+        "id": "btn_925c57_22",
+        "label": "Learn more",
+        "variant": "link",
+        "size": "sm"
+       },
+       {
+        "id": "btn_925c57_23",
+        "label": "Learn more",
+        "variant": "link",
+        "size": "sm"
+       }
+      ],
+      "align": "left",
+      "gap": 10
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#0e2358"
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "1:quality-surgical-instruments-supplier-in",
+     "fingerprint": "5297df823200e409",
+     "crop": "sections/s01.jpg"
+    }
+   },
+   {
+    "id": "sec_2",
+    "name": "Section 3",
+    "blocks": [
+     {
+      "id": "cols_d77b33_17",
+      "type": "columns",
+      "count": 4,
+      "columns": [
+       {
+        "id": "col_d77b33_4",
+        "blocks": [
+         {
+          "id": "ico_d77b33_1",
+          "type": "image",
+          "url": "svg:3de73ed4ef5cfc898854",
+          "alt": "",
+          "maxWidth": 22,
+          "align": "left"
+         },
+         {
+          "id": "p_d77b33_2",
+          "type": "paragraph",
+          "text": "Surgical-grade steel",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_d77b33_3",
+          "type": "paragraph",
+          "text": "Inspected before dispatch",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         }
+        ],
+        "width": "25fr"
+       },
+       {
+        "id": "col_d77b33_8",
+        "blocks": [
+         {
+          "id": "ico_d77b33_5",
+          "type": "image",
+          "url": "svg:109299bb1477c24b9197",
+          "alt": "",
+          "maxWidth": 22,
+          "align": "left"
+         },
+         {
+          "id": "p_d77b33_6",
+          "type": "paragraph",
+          "text": "Free shipping over ₹5,000",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_d77b33_7",
+          "type": "paragraph",
+          "text": "Across India",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         }
+        ],
+        "width": "25fr"
+       },
+       {
+        "id": "col_d77b33_12",
+        "blocks": [
+         {
+          "id": "ico_d77b33_9",
+          "type": "image",
+          "url": "svg:9e016774b78632dd3f27",
+          "alt": "",
+          "maxWidth": 22,
+          "align": "left"
+         },
+         {
+          "id": "p_d77b33_10",
+          "type": "paragraph",
+          "text": "GST tax invoice",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_d77b33_11",
+          "type": "paragraph",
+          "text": "On every order",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         }
+        ],
+        "width": "25fr"
+       },
+       {
+        "id": "col_d77b33_16",
+        "blocks": [
+         {
+          "id": "ico_d77b33_13",
+          "type": "image",
+          "url": "svg:f29a64a51e3f61b124a0",
+          "alt": "",
+          "maxWidth": 22,
+          "align": "left"
+         },
+         {
+          "id": "p_d77b33_14",
+          "type": "paragraph",
+          "text": "Pay online or COD",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_d77b33_15",
+          "type": "paragraph",
+          "text": "Razorpay or cash on delivery",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         }
+        ],
+        "width": "25fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 24
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "2",
+     "fingerprint": "26e0cbdc8ff9d104",
+     "crop": "sections/s02.jpg"
+    }
+   },
+   {
+    "id": "sec_3productcate",
+    "name": "Product categories",
+    "blocks": [
+     {
+      "id": "p_b5d14a_1",
+      "type": "paragraph",
+      "text": "SHOP BY CATEGORY",
+      "style": {
+       "textColor": "#2f6be6",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_b5d14a_2",
+      "type": "heading",
+      "level": 2,
+      "text": "Product categories",
+      "style": {
+       "typography": {
+        "fontSize": 36
+       }
+      }
+     },
+     {
+      "id": "btn_b5d14a_4",
+      "type": "button",
+      "button": {
+       "id": "btn_b5d14a_3",
+       "label": "View all instruments →",
+       "variant": "link",
+       "size": "md",
+       "on_click": {
+        "kind": "external_url",
+        "url": "/surzion-storefront-redesign/Shop.dc.html",
+        "newTab": false
+       }
+      },
+      "align": "right"
+     },
+     {
+      "id": "cards_b5d14a_11",
+      "type": "card_grid",
+      "columns": 3,
+      "cards": [
+       {
+        "id": "card_b5d14a_5",
+        "title": "TC Surgical Instruments",
+        "body": "Tungsten-carbide Autagrip and Autogrip patterns for a sure grip.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ce5cee950a9a290e.jpg",
+        "imageAlt": "TC Surgical Instruments",
+        "cta": {
+         "id": "btn_b5d14a_6",
+         "label": "Learn more",
+         "variant": "link",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Shop.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_b5d14a_7",
+        "title": "General Surgical Instruments",
+        "body": "Artery forceps, clamps, retractors, curettes and scalpel handles.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7ee286a39bc1a741.jpg",
+        "imageAlt": "General Surgical Instruments",
+        "cta": {
+         "id": "btn_b5d14a_8",
+         "label": "Learn more",
+         "variant": "link",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Shop.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_b5d14a_9",
+        "title": "Orthopaedic Surgical Instruments",
+        "body": "Reduction clamps, bone hooks and tendon instruments for trauma work.",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c0d483559c0ef757.jpg",
+        "imageAlt": "Orthopaedic Surgical Instruments",
+        "cta": {
+         "id": "btn_b5d14a_10",
+         "label": "Learn more",
+         "variant": "link",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Shop.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       }
+      ],
+      "gap": 25,
+      "cardStyle": {
+       "radius": 18,
+       "padding": 21,
+       "titleSize": 20,
+       "bodySize": 15,
+       "shadow": "md"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 56,
+      "bottom": 72
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "3:product-categories",
+     "fingerprint": "23160fa4757db977",
+     "crop": "sections/s03.jpg"
+    }
+   },
+   {
+    "id": "sec_shop",
+    "name": "Best sellers & new arrivals",
+    "blocks": [
+     {
+      "id": "p_8b3eeb_1",
+      "type": "paragraph",
+      "text": "INSTRUMENTS",
+      "style": {
+       "textColor": "#2f6be6",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_8b3eeb_2",
+      "type": "heading",
+      "level": 2,
+      "text": "Best sellers & new arrivals",
+      "style": {
+       "typography": {
+        "fontSize": 36
+       }
+      }
+     },
+     {
+      "id": "cards_8b3eeb_27",
+      "type": "card_grid",
+      "columns": 4,
+      "cards": [
+       {
+        "id": "card_8b3eeb_3",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7ee286a39bc1a741.jpg",
+        "imageAlt": "Artery Forceps Robert",
+        "cta": {
+         "id": "btn_8b3eeb_4",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_5",
+         "label": "Artery Forceps Robert",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_6",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ce5cee950a9a290e.jpg",
+        "imageAlt": "Babcock Forceps TC",
+        "cta": {
+         "id": "btn_8b3eeb_7",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_8",
+         "label": "Babcock Forceps TC",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_9",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/4cb1c45da360925b.jpg",
+        "imageAlt": "Adson Brown Tissue Forceps",
+        "cta": {
+         "id": "btn_8b3eeb_10",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_11",
+         "label": "Adson Brown Tissue Forceps",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_12",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c0d483559c0ef757.jpg",
+        "imageAlt": "Bone Reduction Clamp Towel Type",
+        "cta": {
+         "id": "btn_8b3eeb_13",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_14",
+         "label": "Bone Reduction Clamp Towel Type",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_15",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/78c0104b695e0b07.jpg",
+        "imageAlt": "Anderson Tendon Tunneling Forceps",
+        "cta": {
+         "id": "btn_8b3eeb_16",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_17",
+         "label": "Anderson Tendon Tunneling Forceps",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_18",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/4a1c6202bdc620bc.jpg",
+        "imageAlt": "Babcock Forceps Autogrip",
+        "cta": {
+         "id": "btn_8b3eeb_19",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_20",
+         "label": "Babcock Forceps Autogrip",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_21",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c993ba7c14b10611.jpg",
+        "imageAlt": "Bone Hook",
+        "cta": {
+         "id": "btn_8b3eeb_22",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_23",
+         "label": "Bone Hook",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_8b3eeb_24",
+        "title": "",
+        "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/596308329f93513b.jpg",
+        "imageAlt": "Castpaw Retractor (Kilner)",
+        "cta": {
+         "id": "btn_8b3eeb_25",
+         "label": "Learn more",
+         "variant": "secondary",
+         "size": "sm"
+        },
+        "secondaryCta": {
+         "id": "btn_8b3eeb_26",
+         "label": "Castpaw Retractor (Kilner)",
+         "variant": "link",
+         "size": "md",
+         "on_click": {
+          "kind": "external_url",
+          "url": "/surzion-storefront-redesign/Product.dc.html",
+          "newTab": false
+         }
+        },
+        "background": "#ffffff"
+       }
+      ],
+      "gap": 24,
+      "cardStyle": {
+       "radius": 18,
+       "padding": 1
+      }
+     },
+     {
+      "id": "btn_8b3eeb_29",
+      "type": "button",
+      "button": {
+       "id": "btn_8b3eeb_28",
+       "label": "View all 22 instruments",
+       "variant": "link",
+       "size": "md",
+       "on_click": {
+        "kind": "external_url",
+        "url": "/surzion-storefront-redesign/Shop.dc.html",
+        "newTab": false
+       }
+      },
+      "align": "center"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 72,
+      "bottom": 72
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "shop",
+     "fingerprint": "5bc6e648621a7875",
+     "crop": "sections/s04.jpg"
+    },
+    "anchorId": "shop"
+   },
+   {
+    "id": "sec_5sharesurzio",
+    "name": "Share Surzion with your followers",
+    "blocks": [
+     {
+      "id": "p_a24ef9_1",
+      "type": "paragraph",
+      "text": "CREATOR PARTNER PROGRAMME",
+      "style": {
+       "textColor": "#9db8f5",
+       "typography": {
+        "fontSize": 13,
+        "fontWeight": 600
+       }
+      }
+     },
+     {
+      "id": "h_a24ef9_2",
+      "type": "heading",
+      "level": 2,
+      "text": "Share Surzion with your followers",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 38
+       }
+      }
+     },
+     {
+      "id": "p_a24ef9_3",
+      "type": "paragraph",
+      "text": "Medical creators on Instagram, YouTube, Facebook and LinkedIn get their own discount code. Your followers claim it at checkout, and you see every order it brings in.",
+      "style": {
+       "textColor": "#c9d6f2"
+      }
+     },
+     {
+      "id": "ul_a24ef9_7",
+      "type": "bullet_list",
+      "items": [
+       {
+        "id": "li_a24ef9_4",
+        "text": "A personal code your followers can claim",
+        "iconUrl": "svg:6780606d4ac21040df14"
+       },
+       {
+        "id": "li_a24ef9_5",
+        "text": "A QR code for posts, reels and stories",
+        "iconUrl": "svg:6780606d4ac21040df14"
+       },
+       {
+        "id": "li_a24ef9_6",
+        "text": "Track every order claimed with your code",
+        "iconUrl": "svg:6780606d4ac21040df14"
+       }
+      ],
+      "style": {
+       "textColor": "#ffffff"
+      }
+     },
+     {
+      "id": "cols_a24ef9_14",
+      "type": "columns",
+      "count": 2,
+      "columns": [
+       {
+        "id": "col_a24ef9_10",
+        "blocks": [
+         {
+          "id": "btn_a24ef9_9",
+          "type": "button",
+          "button": {
+           "id": "btn_a24ef9_8",
+           "label": "Become a creator partner →",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/surzion-storefront-redesign/Partner.dc.html",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         }
+        ],
+        "width": "63fr"
+       },
+       {
+        "id": "col_a24ef9_13",
+        "blocks": [
+         {
+          "id": "btn_a24ef9_12",
+          "type": "button",
+          "button": {
+           "id": "btn_a24ef9_11",
+           "label": "Partner sign in",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/surzion-storefront-redesign/PartnerPortal.dc.html",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         }
+        ],
+        "width": "37fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     },
+     {
+      "id": "ico_a24ef9_15",
+      "type": "image",
+      "url": "svg:46c96b95ba74f3c06a95",
+      "alt": "",
+      "maxWidth": 112,
+      "align": "left"
+     },
+     {
+      "id": "p_a24ef9_16",
+      "type": "paragraph",
+      "text": "[CODE]",
+      "style": {
+       "textColor": "#0e2358",
+       "typography": {
+        "fontSize": 26,
+        "fontWeight": 700
+       }
+      }
+     },
+     {
+      "id": "p_a24ef9_17",
+      "type": "paragraph",
+      "text": "Followers save [N]% on every item"
+     },
+     {
+      "id": "p_a24ef9_18",
+      "type": "paragraph",
+      "text": "Share it in your posts. Buyers enter it at checkout.",
+      "style": {
+       "typography": {
+        "fontSize": 13
+       }
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 80,
+      "bottom": 80
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "5:share-surzion-with-your-followers",
+     "fingerprint": "a20f18665b11fa8e",
+     "crop": "sections/s05.jpg"
+    }
+   },
+   {
+    "id": "sec_6",
+    "name": "Section 7",
+    "blocks": [
+     {
+      "id": "ico_2a6aac_1",
+      "type": "image",
+      "url": "svg:c2914597c5ee493309f3",
+      "alt": "",
+      "maxWidth": 22,
+      "align": "center"
+     },
+     {
+      "id": "ico_2a6aac_2",
+      "type": "image",
+      "url": "svg:c2914597c5ee493309f3",
+      "alt": "",
+      "maxWidth": 22,
+      "align": "center"
+     },
+     {
+      "id": "ico_2a6aac_3",
+      "type": "image",
+      "url": "svg:c2914597c5ee493309f3",
+      "alt": "",
+      "maxWidth": 22,
+      "align": "center"
+     },
+     {
+      "id": "ico_2a6aac_4",
+      "type": "image",
+      "url": "svg:c2914597c5ee493309f3",
+      "alt": "",
+      "maxWidth": 22,
+      "align": "center"
+     },
+     {
+      "id": "ico_2a6aac_5",
+      "type": "image",
+      "url": "svg:c2914597c5ee493309f3",
+      "alt": "",
+      "maxWidth": 22,
+      "align": "center"
+     },
+     {
+      "id": "q_2a6aac_6",
+      "type": "quote",
+      "text": "“Surzion provides top-notch surgical instruments. Their quality and service are unmatched, making them my go-to supplier for medical needs.”"
+     },
+     {
+      "id": "p_2a6aac_7",
+      "type": "paragraph",
+      "text": "Dr. Sharma",
+      "style": {
+       "textColor": "#c9d6f2",
+       "align": "center",
+       "typography": {
+        "fontWeight": 600
+       }
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "image",
+      "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/729ce1632f41e3c8.jpg",
+      "parallax": true
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+     "key": "6",
+     "fingerprint": "4d3801442ca0117b",
+     "crop": "sections/s06.jpg"
+    }
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/Main.dc.html",
+   "captured_at": "2026-10-09T13:06:41Z",
+   "page_fingerprint": "3a73962f0bded443",
+   "draft_version": 1
+  }
+ }
+}

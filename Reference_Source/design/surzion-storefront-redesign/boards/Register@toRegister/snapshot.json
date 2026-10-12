@@ -1,0 +1,467 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Register.dc.html?dcstate=toRegister",
+ "title": "Surzion sign in and registration",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1057,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 44,
+   "weight": 600,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "50.6px",
+   "letterSpacing": "-0.88px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 26,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.5px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(201, 214, 242)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": null,
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 3
+  },
+  {
+   "role": "link",
+   "color": "rgb(47, 107, 230)",
+   "n": 2
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(237, 241, 250)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "text",
+   "color": "rgb(91, 107, 140)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 89,
+    "w": 398,
+    "h": 52
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 4,
+    "w": 390
+   },
+   "bg": {
+    "color": "rgb(237, 241, 250)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 4,
+    "bottom": 4,
+    "left": 4,
+    "right": 4
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "button",
+     "text": "Sign in",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(91, 107, 140)",
+      "radius": "11px",
+      "border": null,
+      "size": 15,
+      "weight": 500,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 4,
+      "y": 4,
+      "w": 195,
+      "h": 44
+     }
+    },
+    {
+     "t": "button",
+     "text": "Create account",
+     "href": null,
+     "style": {
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(11, 26, 61)",
+      "radius": "11px",
+      "border": null,
+      "size": 15,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 199,
+      "y": 4,
+      "w": 195,
+      "h": 44
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "22ebd16b09aac623"
+  },
+  {
+   "index": 1,
+   "key": "1:create-your-account",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 165,
+    "w": 398,
+    "h": 742
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 398
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 0,
+        "y": 103,
+        "w": 192,
+        "h": 77
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 206,
+        "y": 103,
+        "w": 192,
+        "h": 77
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    },
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 131,
+        "y": 523,
+        "w": 40,
+        "h": 20
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html"
+      },
+      {
+       "rect": {
+        "x": 217,
+        "y": 523,
+        "w": 89,
+        "h": 20
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html"
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Create your account",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 26,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 398,
+      "h": 33
+     }
+    },
+    {
+     "t": "text",
+     "text": "Takes under a minute. Use your email, your mobile number, or both.",
+     "html": "Takes under a minute. Use your email, your mobile number, or both.",
+     "links": null,
+     "style": {
+      "family": "Poppins",
+      "size": 15,
+      "weight": 400,
+      "color": "rgb(91, 107, 140)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 39,
+      "w": 398,
+      "h": 46
+     }
+    },
+    {
+     "t": "link",
+     "text": "Terms",
+     "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "19.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 131,
+      "y": 523,
+      "w": 40,
+      "h": 20
+     }
+    },
+    {
+     "t": "link",
+     "text": "Privacy policy",
+     "href": "https://design.local/surzion-storefront-redesign/Policies.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 13,
+      "weight": 400,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "19.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 217,
+      "y": 523,
+      "w": 89,
+      "h": 20
+     }
+    },
+    {
+     "t": "link",
+     "text": "Create account",
+     "href": "https://design.local/surzion-storefront-redesign/Orders.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 563,
+      "w": 398,
+      "h": 52
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M3 21V8l9-5 9 5v13\"></path><path d=\"M9 21v-6h6v6\"></path></svg>",
+     "cls": "",
+     "color": "rgb(47, 107, 230)",
+     "rect": {
+      "x": 26,
+      "y": 677,
+      "w": 20,
+      "h": 20
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "71389bc48a8f5c85"
+  },
+  {
+   "index": 2,
+   "key": "2",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 931,
+    "w": 398,
+    "h": 37
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 45,
+    "w": 14
+   },
+   "bg": null,
+   "color": "rgb(132, 148, 180)",
+   "padding": {
+    "top": 18,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"></rect><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"></path></svg>",
+     "cls": "",
+     "color": "rgb(132, 148, 180)",
+     "rect": {
+      "x": 45,
+      "y": 21,
+      "w": 14,
+      "h": 14
+     }
+    }
+   ],
+   "crop": "sections/s02.jpg",
+   "fingerprint": "8e26fe8f00c9f2b5"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Register.dc.html?dcstate=toRegister",
+ "captured_at": "2026-10-09T13:06:56Z",
+ "page_fingerprint": "916faced6515915b",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Register",
+  "state": "toRegister",
+  "visible_text": "← Back to the shop\nOne account for every order\n\nSign in with your email or mobile number. New here? We create your account as you go and send a link to set your password.\n\nTrack orders and reorder in one click\nSaved delivery addresses for faster checkout\nGST invoices for every order, any time\nBecome a creator partner from your account\n“Their quality and service are unmatched, making them my go-to supplier for medical needs.”\nDr. Sharma\nSign in\nCreate account\nCreate your account\n\nTakes under a minute. Use your email, your mobile number, or both.\n\nFirst name\nLast name\nEmail\nMobile number\n+91\nPassword\nAt least 8 characters with a number.\nI agree to the\nTerms\nand\nPrivacy policy\n.\nCreate account\nCreate content for doctors or medical students?\nCreate your account, then apply as a creator partner →\nProtected sign-in · Your details stay with Surzion",
+  "sample_text": [],
+  "sample_images": []
+ }
+}

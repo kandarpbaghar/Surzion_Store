@@ -1,0 +1,495 @@
+{
+ "page": {
+  "obj_name": "Partner",
+  "title": "Become a Surzion creator partner",
+  "kind": "external",
+  "pageMode": "web",
+  "pageSchemaVersion": 2,
+  "inputs": [],
+  "actions": [],
+  "blocks": [],
+  "theme": {
+   "preset": "modern-light",
+   "palette": {
+    "primary": "#0e2358",
+    "primaryHover": "#0e2358",
+    "onPrimary": "#ffffff",
+    "accent": "#edf1fa",
+    "accentHover": "#edf1fa",
+    "onAccent": "#111827",
+    "heading": "#0b1a3d",
+    "text": "#5b6b8c",
+    "muted": "#5b6b8c",
+    "link": "#0b1a3d",
+    "linkHover": "#0b1a3d",
+    "inverted": "#ffffff",
+    "background": "#f5f8fe",
+    "surface": "#ffffff",
+    "surfaceAlt": "#ffffff"
+   },
+   "typography": {
+    "fontFamily": "poppins",
+    "headingFamily": "poppins",
+    "customFontFamily": "Poppins",
+    "customHeadingFamily": "Poppins",
+    "baseSize": 16,
+    "scaleRatio": 1.118,
+    "lineHeight": 1.6,
+    "headingWeight": 600,
+    "headingLineHeight": 1.2,
+    "eyebrowTransform": "none"
+   },
+   "layout": {
+    "contentWidth": "wide",
+    "maxWidth": 1220,
+    "paddingX": 24,
+    "paddingY": 0,
+    "background": {
+     "kind": "color",
+     "color": "#f5f8fe"
+    },
+    "align": "left",
+    "blockGap": 16,
+    "borderRadius": 24
+   }
+  },
+  "seo": {
+   "title": "Become a Surzion creator partner"
+  },
+  "navigation": {
+   "showHeader": true,
+   "showFooter": true
+  },
+  "sections": [
+   {
+    "id": "sec_0",
+    "name": "Section 1",
+    "blocks": [
+     {
+      "id": "p_513893_1",
+      "type": "paragraph",
+      "text": "Exclusive discounts on surgical instruments today!",
+      "style": {
+       "textColor": "#ffffff",
+       "typography": {
+        "fontSize": 13
+       }
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#0e2358"
+     },
+     "textColor": "#ffffff"
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+     "key": "0",
+     "fingerprint": "191c856c95c09899",
+     "crop": "sections/s00.jpg"
+    }
+   },
+   {
+    "id": "sec_1sharesurzio",
+    "name": "Share Surzion. Your followers save.",
+    "blocks": [
+     {
+      "id": "cols_c35802_15",
+      "type": "columns",
+      "count": 2,
+      "columns": [
+       {
+        "id": "col_c35802_9",
+        "blocks": [
+         {
+          "id": "p_c35802_1",
+          "type": "paragraph",
+          "text": "Home / Become a partner",
+          "html": "<a href=\"Main.dc.html\">Home</a> / Become a partner",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         },
+         {
+          "id": "p_c35802_2",
+          "type": "paragraph",
+          "text": "CREATOR PARTNER PROGRAMME",
+          "style": {
+           "textColor": "#2f6be6",
+           "typography": {
+            "fontSize": 13,
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "h_c35802_3",
+          "type": "heading",
+          "level": 1,
+          "text": "Share Surzion. Your followers save.",
+          "style": {
+           "typography": {
+            "fontSize": 52
+           }
+          }
+         },
+         {
+          "id": "p_c35802_4",
+          "type": "paragraph",
+          "text": "Medical creators and influencers on Instagram, YouTube, Facebook and LinkedIn get their own discount code and QR code. Your followers claim it at checkout, and you track every order it brings in.",
+          "style": {
+           "typography": {
+            "fontSize": 19
+           }
+          }
+         },
+         {
+          "id": "btn_c35802_6",
+          "type": "button",
+          "button": {
+           "id": "btn_c35802_5",
+           "label": "Apply now",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/#apply",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         },
+         {
+          "id": "btn_c35802_8",
+          "type": "button",
+          "button": {
+           "id": "btn_c35802_7",
+           "label": "My partner account",
+           "variant": "link",
+           "size": "md",
+           "on_click": {
+            "kind": "external_url",
+            "url": "/surzion-storefront-redesign/PartnerPortal.dc.html",
+            "newTab": false
+           }
+          },
+          "align": "left"
+         }
+        ],
+        "width": "55fr"
+       },
+       {
+        "id": "col_c35802_14",
+        "blocks": [
+         {
+          "id": "img_c35802_10",
+          "type": "image",
+          "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/b8629098504ccbb3.jpg",
+          "alt": "Hands setting up a phone on a tripod to record a video",
+          "align": "left",
+          "maxWidth": 522,
+          "naturalWidth": 1920,
+          "naturalHeight": 1282,
+          "rounded": true
+         },
+         {
+          "id": "ico_c35802_11",
+          "type": "image",
+          "url": "svg:ab0dee64ea7a04556d14",
+          "alt": "",
+          "maxWidth": 22,
+          "align": "left"
+         },
+         {
+          "id": "p_c35802_12",
+          "type": "paragraph",
+          "text": "Your followers save",
+          "style": {
+           "typography": {
+            "fontSize": 13
+           }
+          }
+         },
+         {
+          "id": "p_c35802_13",
+          "type": "paragraph",
+          "text": "[N]% on every item",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         }
+        ],
+        "width": "45fr"
+       }
+      ],
+      "gap": 32,
+      "align": "center"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 48,
+      "bottom": 48
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+     "key": "1:share-surzion-your-followers-save",
+     "fingerprint": "9062af79593c7751",
+     "crop": "sections/s01.jpg"
+    }
+   },
+   {
+    "id": "sec_2whatyouget",
+    "name": "What you get",
+    "blocks": [
+     {
+      "id": "h_aaa2dc_1",
+      "type": "heading",
+      "level": 2,
+      "text": "What you get",
+      "style": {
+       "typography": {
+        "fontSize": 34
+       }
+      }
+     },
+     {
+      "id": "cards_aaa2dc_5",
+      "type": "card_grid",
+      "columns": 3,
+      "cards": [
+       {
+        "id": "card_aaa2dc_2",
+        "title": "Your own discount code",
+        "body": "A personal code issued when you are approved, plus a QR code for your posts, reels and stories.",
+        "logoUrl": "svg:3450c6bd9b9337de6428",
+        "logoHeight": 24,
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_aaa2dc_3",
+        "title": "Your followers save on every item",
+        "body": "Buyers enter your code at checkout. The discount applies per item, before GST, and shows on every line of their invoice.",
+        "logoUrl": "svg:5423d671af8b4ef9a1ca",
+        "logoHeight": 24,
+        "background": "#ffffff"
+       },
+       {
+        "id": "card_aaa2dc_4",
+        "title": "Order tracking",
+        "body": "See every order claimed with your code in your partner account: date, status, payment and the discount your followers received.",
+        "logoUrl": "svg:6aec11a458bffc12af7b",
+        "logoHeight": 24,
+        "background": "#ffffff"
+       }
+      ],
+      "gap": 25,
+      "cardStyle": {
+       "radius": 18,
+       "padding": 29,
+       "titleSize": 19,
+       "bodySize": 15
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 72,
+      "bottom": 56
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+     "key": "2:what-you-get",
+     "fingerprint": "58b3e064bd7c93ea",
+     "crop": "sections/s02.jpg"
+    }
+   },
+   {
+    "id": "sec_3howitworks",
+    "name": "How it works",
+    "blocks": [
+     {
+      "id": "h_8788dd_1",
+      "type": "heading",
+      "level": 2,
+      "text": "How it works",
+      "style": {
+       "typography": {
+        "fontSize": 28
+       }
+      }
+     },
+     {
+      "id": "ul_8788dd_6",
+      "type": "numbered_list",
+      "items": [
+       {
+        "id": "li_8788dd_2",
+        "text": "1\nApply\nSign in and tell us about your channels."
+       },
+       {
+        "id": "li_8788dd_3",
+        "text": "2\nProfile review\nOur team reviews your channels and sets the discount your followers get."
+       },
+       {
+        "id": "li_8788dd_4",
+        "text": "3\nWelcome email\nYour discount code and QR code arrive by email."
+       },
+       {
+        "id": "li_8788dd_5",
+        "text": "4\nShare your code\nPost it. Every order claimed with it shows in your partner account."
+       }
+      ],
+      "style": {
+       "textColor": "#0b1a3d"
+      }
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 24,
+      "bottom": 72
+     }
+    },
+    "width": "contained",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+     "key": "3:how-it-works",
+     "fingerprint": "c337170d3a63d85f",
+     "crop": "sections/s03.jpg"
+    }
+   },
+   {
+    "id": "sec_apply",
+    "name": "Partner application",
+    "blocks": [
+     {
+      "id": "cols_6a1433_9",
+      "type": "columns",
+      "count": 2,
+      "columns": [
+       {
+        "id": "col_6a1433_7",
+        "blocks": [
+         {
+          "id": "p_6a1433_1",
+          "type": "paragraph",
+          "text": "APPLY",
+          "style": {
+           "textColor": "#2f6be6",
+           "typography": {
+            "fontSize": 13,
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "h_6a1433_2",
+          "type": "heading",
+          "level": 2,
+          "text": "Partner application",
+          "style": {
+           "typography": {
+            "fontSize": 34
+           }
+          }
+         },
+         {
+          "id": "p_6a1433_3",
+          "type": "paragraph",
+          "text": "Tell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved."
+         },
+         {
+          "id": "p_6a1433_4",
+          "type": "paragraph",
+          "text": "Who can apply",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_6a1433_5",
+          "type": "paragraph",
+          "text": "Need help?",
+          "style": {
+           "textColor": "#0b1a3d",
+           "typography": {
+            "fontWeight": 600
+           }
+          }
+         },
+         {
+          "id": "p_6a1433_6",
+          "type": "paragraph",
+          "text": "sales@surzion.com\n+91 78148 61010",
+          "html": "sales@surzion.com<br>+91 78148 61010",
+          "style": {
+           "typography": {
+            "fontSize": 14
+           }
+          }
+         }
+        ],
+        "width": "31fr"
+       },
+       {
+        "id": "col_6a1433_8",
+        "blocks": [],
+        "width": "69fr"
+       }
+      ],
+      "gap": 32,
+      "align": "top"
+     }
+    ],
+    "style": {
+     "padding": {
+      "top": 72,
+      "bottom": 88
+     },
+     "background": {
+      "kind": "color",
+      "color": "#ffffff"
+     }
+    },
+    "width": "full",
+    "source": {
+     "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+     "key": "apply",
+     "fingerprint": "0d5cec8cf11bd60d",
+     "crop": "sections/s04.jpg"
+    },
+    "anchorId": "apply"
+   }
+  ],
+  "source": {
+   "url": "https://design.local/surzion-storefront-redesign/Partner.dc.html",
+   "captured_at": "2026-10-09T13:07:03Z",
+   "page_fingerprint": "23773552b08dfc41",
+   "draft_version": 1
+  }
+ }
+}

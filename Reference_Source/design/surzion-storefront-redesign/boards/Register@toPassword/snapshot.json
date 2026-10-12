@@ -1,0 +1,405 @@
+{
+ "url": "https://design.local/surzion-storefront-redesign/Register.dc.html?dcstate=toPassword",
+ "title": "Surzion sign in and registration",
+ "lang": "en",
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "docHeight": 1000,
+ "elementor": false,
+ "fonts": {
+  "body": {
+   "family": "Times",
+   "size": 16,
+   "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+   "family": "Poppins",
+   "size": 44,
+   "weight": 600,
+   "color": "rgb(255, 255, 255)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "50.6px",
+   "letterSpacing": "-0.88px"
+  },
+  "h2": {
+   "family": "Poppins",
+   "size": 26,
+   "weight": 600,
+   "color": "rgb(11, 26, 61)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "32.5px",
+   "letterSpacing": null
+  },
+  "h3": null,
+  "p": {
+   "family": "Libre Baskerville",
+   "size": 17,
+   "weight": 400,
+   "color": "rgb(201, 214, 242)",
+   "align": "start",
+   "transform": null,
+   "lineHeight": "28.9px",
+   "letterSpacing": null
+  }
+ },
+ "pageBg": "rgb(245, 248, 254)",
+ "header": null,
+ "footer": null,
+ "floating": [],
+ "colors": [
+  {
+   "role": "button_bg",
+   "color": "rgb(255, 255, 255)",
+   "n": 3
+  },
+  {
+   "role": "section_bg",
+   "color": "rgb(237, 241, 250)",
+   "n": 1
+  },
+  {
+   "role": "heading",
+   "color": "rgb(11, 26, 61)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(47, 107, 230)",
+   "n": 1
+  },
+  {
+   "role": "link",
+   "color": "rgb(255, 255, 255)",
+   "n": 1
+  }
+ ],
+ "sections": [
+  {
+   "index": 0,
+   "key": "0",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 269,
+    "w": 398,
+    "h": 52
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 4,
+    "w": 390
+   },
+   "bg": {
+    "color": "rgb(237, 241, 250)"
+   },
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 4,
+    "bottom": 4,
+    "left": 4,
+    "right": 4
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "button",
+     "text": "Sign in",
+     "href": null,
+     "style": {
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(11, 26, 61)",
+      "radius": "11px",
+      "border": null,
+      "size": 15,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 4,
+      "y": 4,
+      "w": 195,
+      "h": 44
+     }
+    },
+    {
+     "t": "button",
+     "text": "Create account",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(91, 107, 140)",
+      "radius": "11px",
+      "border": null,
+      "size": 15,
+      "weight": 500,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 199,
+      "y": 4,
+      "w": 195,
+      "h": 44
+     }
+    }
+   ],
+   "crop": "sections/s00.jpg",
+   "fingerprint": "22ebd16b09aac623"
+  },
+  {
+   "index": 1,
+   "key": "1:enter-your-password",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 345,
+    "w": 398,
+    "h": 325
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 0,
+    "w": 398
+   },
+   "bg": null,
+   "color": "rgb(11, 26, 61)",
+   "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [
+    {
+     "kind": "columns",
+     "columns": 2,
+     "rows": 1,
+     "imageSide": null,
+     "children": [
+      {
+       "rect": {
+        "x": 15,
+        "y": 65,
+        "w": 155,
+        "h": 21
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      },
+      {
+       "rect": {
+        "x": 314,
+        "y": 54,
+        "w": 69,
+        "h": 44
+       },
+       "bg": null,
+       "radius": "0px",
+       "shadow": null,
+       "border": null,
+       "href": null
+      }
+     ]
+    }
+   ],
+   "items": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Enter your password",
+     "href": null,
+     "style": {
+      "family": "Poppins",
+      "size": 26,
+      "weight": 600,
+      "color": "rgb(11, 26, 61)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "32.5px",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 398,
+      "h": 33
+     }
+    },
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2F6BE6\" stroke-width=\"1.8\"><circle cx=\"12\" cy=\"8\" r=\"4\"></circle><path d=\"M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6\"></path></svg>",
+     "cls": "",
+     "color": "rgb(11, 26, 61)",
+     "rect": {
+      "x": 15,
+      "y": 67,
+      "w": 18,
+      "h": 18
+     }
+    },
+    {
+     "t": "button",
+     "text": "Change",
+     "href": null,
+     "style": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 107, 230)",
+      "radius": "0px",
+      "border": null,
+      "size": 14,
+      "weight": 600,
+      "family": "Poppins"
+     },
+     "rect": {
+      "x": 314,
+      "y": 54,
+      "w": 69,
+      "h": 44
+     }
+    },
+    {
+     "t": "link",
+     "text": "Forgot password?",
+     "href": "https://design.local/surzion-storefront-redesign/ForgotPassword.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 14,
+      "weight": 500,
+      "color": "rgb(47, 107, 230)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 272,
+      "y": 129,
+      "w": 126,
+      "h": 24
+     }
+    },
+    {
+     "t": "link",
+     "text": "Sign in",
+     "href": "https://design.local/surzion-storefront-redesign/Orders.dc.html",
+     "style": {
+      "family": "Poppins",
+      "size": 16,
+      "weight": 600,
+      "color": "rgb(255, 255, 255)",
+      "align": "start",
+      "transform": null,
+      "lineHeight": "normal",
+      "letterSpacing": null
+     },
+     "rect": {
+      "x": 0,
+      "y": 273,
+      "w": 398,
+      "h": 52
+     }
+    }
+   ],
+   "crop": "sections/s01.jpg",
+   "fingerprint": "a3d8993059c6ab32"
+  },
+  {
+   "index": 2,
+   "key": "2",
+   "anchor": null,
+   "tag": "div",
+   "rect": {
+    "x": 881,
+    "y": 694,
+    "w": 398,
+    "h": 37
+   },
+   "fullBleed": false,
+   "contentBox": {
+    "x": 45,
+    "w": 14
+   },
+   "bg": null,
+   "color": "rgb(132, 148, 180)",
+   "padding": {
+    "top": 18,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+   },
+   "minHeight": null,
+   "flags": {
+    "slider": false,
+    "accordion": false,
+    "tabs": false,
+    "testimonial": false,
+    "counter": false,
+    "form": false,
+    "map": false
+   },
+   "qa": [],
+   "groups": [],
+   "items": [
+    {
+     "t": "icon",
+     "kind": "svg",
+     "svg": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"></rect><path d=\"M8 11V8a4 4 0 0 1 8 0v3\"></path></svg>",
+     "cls": "",
+     "color": "rgb(132, 148, 180)",
+     "rect": {
+      "x": 45,
+      "y": 21,
+      "w": 14,
+      "h": 14
+     }
+    }
+   ],
+   "crop": "sections/s02.jpg",
+   "fingerprint": "8e26fe8f00c9f2b5"
+  }
+ ],
+ "version": 1,
+ "kind": "design_board_snapshot",
+ "source_url": "https://design.local/surzion-storefront-redesign/Register.dc.html?dcstate=toPassword",
+ "captured_at": "2026-10-09T13:06:58Z",
+ "page_fingerprint": "a778adf4341e3a4f",
+ "design": {
+  "slug": "surzion-storefront-redesign",
+  "board": "Register",
+  "state": "toPassword",
+  "visible_text": "← Back to the shop\nOne account for every order\n\nSign in with your email or mobile number. New here? We create your account as you go and send a link to set your password.\n\nTrack orders and reorder in one click\nSaved delivery addresses for faster checkout\nGST invoices for every order, any time\nBecome a creator partner from your account\n“Their quality and service are unmatched, making them my go-to supplier for medical needs.”\nDr. Sharma\nSign in\nCreate account\nEnter your password\nname@hospital.in\nChange\nPassword\nForgot password?\nKeep me signed in on this device\nSign in\nProtected sign-in · Your details stay with Surzion",
+  "sample_text": [],
+  "sample_images": []
+ }
+}

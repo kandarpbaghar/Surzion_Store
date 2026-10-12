@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "kind": "website",
+  "source": {
+    "url": "https://surzion.com/",
+    "title": "Trusted Wholesale Supplier of Surgical Instruments | Surzion",
+    "platform": [
+      "Zyro"
+    ]
+  },
+  "site": {
+    "prefix": "surz",
+    "slug": "shop",
+    "title": "Surzion",
+    "lang": "en-IN",
+    "style_notes": "Existing Surzion storefront; scoped re-sync of public pages only"
+  },
+  "header": {
+    "page_obj": "surz_site_header",
+    "notes": "Home, Shop, About, Online catalogue"
+  },
+  "footer": {
+    "page_obj": "surz_site_footer",
+    "notes": "Policy links; no link columns on the live site"
+  },
+  "pages": [
+    {
+      "obj_name": "surz_home",
+      "title": "Home",
+      "url": "https://surzion.com/",
+      "is_home": true,
+      "purpose": "Home page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_shop",
+      "title": "Instruments",
+      "url": "https://surzion.com/shop",
+      "is_home": false,
+      "purpose": "Instruments page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_about",
+      "title": "About",
+      "url": "https://surzion.com/about",
+      "is_home": false,
+      "purpose": "About page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_contact",
+      "title": "Contact",
+      "url": "https://surzion.com/contact",
+      "is_home": false,
+      "purpose": "Contact page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_privacy",
+      "title": "Privacy policy",
+      "url": "https://surzion.com/privacy-policy",
+      "is_home": false,
+      "purpose": "Privacy policy page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_terms",
+      "title": "Terms & conditions",
+      "url": "https://surzion.com/terms-and-conditions",
+      "is_home": false,
+      "purpose": "Terms & conditions page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_returns",
+      "title": "Returns & refunds",
+      "url": "https://surzion.com/refund-policy",
+      "is_home": false,
+      "purpose": "Returns & refunds page of the Surzion storefront",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_adenoid_curette_with_cage_surgical_instruments",
+      "title": "Adenoid Curette with Cage",
+      "url": "https://surzion.com/adenoid-curette-with-cage-surgical-instruments",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_adson_beckman_retractor",
+      "title": "Adson Beckman Retractor",
+      "url": "https://surzion.com/adson-beckman-retractor",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_adson_brown_tissue_forceps",
+      "title": "Adson Brown Tissue Forceps",
+      "url": "https://surzion.com/adson-brown-tissue-forceps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_adson_brown_tissue_forceps1",
+      "title": "Adson Brown Tissue Forceps (fine)",
+      "url": "https://surzion.com/adson-brown-tissue-forceps1",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_premium_surgical_instruments_2",
+      "title": "Adson Dissecting Forceps Plain",
+      "url": "https://surzion.com/premium-surgical-instruments-2",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_allis_tissue_forceps_surgical_tissue_forceps",
+      "title": "Allis Tissue Forceps",
+      "url": "https://surzion.com/allis-tissue-forceps-surgical-tissue-forceps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_allis_tissue_forceps_autragrip",
+      "title": "Allis Tissue Forceps Autagrip",
+      "url": "https://surzion.com/allis-tissue-forceps-autragrip",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_allison_lung_retractor",
+      "title": "Allison Lung Retractor",
+      "url": "https://surzion.com/allison-lung-retractor",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_anderson_tendon_tunneling_forceps",
+      "title": "Anderson Tendon Tunneling Forceps",
+      "url": "https://surzion.com/anderson-tendon-tunneling-forceps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_crile",
+      "title": "Artery Forceps Crile",
+      "url": "https://surzion.com/artery-forceps-crile",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_kocher",
+      "title": "Artery Forceps Kocher",
+      "url": "https://surzion.com/artery-forceps-kocher",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_ochsner",
+      "title": "Artery Forceps Ochsner",
+      "url": "https://surzion.com/artery-forceps-ochsner",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_pean",
+      "title": "Artery Forceps Pean",
+      "url": "https://surzion.com/artery-forceps-pean",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_artery_forceps_robert_hemostatic_forceps",
+      "title": "Artery Forceps Robert",
+      "url": "https://surzion.com/artery-forceps-robert-hemostatic-forceps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_bp_handle_bayonet_5",
+      "title": "B.P Handle Bayonet",
+      "url": "https://surzion.com/bp-handle-bayonet-5",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_babcock_forceps_autogrip",
+      "title": "Babcock Forceps Autogrip",
+      "url": "https://surzion.com/babcock-forceps-autogrip",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_bulldog_clamps",
+      "title": "Babcock Forceps TC",
+      "url": "https://surzion.com/bulldog-clamps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_birkett_tonsil_artery_forceps",
+      "title": "Birkett Tonsil Artery Forceps",
+      "url": "https://surzion.com/birkett-tonsil-artery-forceps",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_dandy_artery_forceps_55",
+      "title": "Bone Hook",
+      "url": "https://surzion.com/dandy-artery-forceps-55",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_bone_reduction_clamp_towel_type",
+      "title": "Bone Reduction Clamp Towel Type",
+      "url": "https://surzion.com/bone-reduction-clamp-towel-type",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_bulldog_clamps1",
+      "title": "Bulldog Clamps",
+      "url": "https://surzion.com/bulldog-clamps1",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    },
+    {
+      "obj_name": "surz_p_castpaw_retractor_kilner_retractor",
+      "title": "Castpaw Retractor (Kilner Retractor)",
+      "url": "https://surzion.com/castpaw-retractor-kilner-retractor",
+      "purpose": "Instrument product page (data-bound to the product master)",
+      "forms": []
+    }
+  ],
+  "collections": [],
+  "forms": [],
+  "app_screens": [],
+  "menus": {
+    "header": [
+      {
+        "page": "surz_home",
+        "label": "Home"
+      },
+      {
+        "page": "surz_shop",
+        "label": "Shop"
+      },
+      {
+        "page": "surz_about",
+        "label": "About"
+      },
+      {
+        "label": "Online catalogue",
+        "href": "/online-catalogue"
+      }
+    ]
+  },
+  "skipped": [
+    {
+      "url": "https://surzion.com/online-catalogue",
+      "reason": "no Twasta page yet; the plan will propose it as a new page"
+    }
+  ],
+  "open_questions": [],
+  "scope_notes": "OUT OF SCOPE (not listed, must not be touched): surz_cart_page, surz_checkout, surz_partner_register, surz_partner_portal, surz_quality, surz_shipping, all transaction forms."
+}
