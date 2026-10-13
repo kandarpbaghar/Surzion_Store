@@ -1,0 +1,32 @@
+{
+  "assistant": {
+    "enabled": true,
+    "display_name": "Assistant",
+    "greeting": "Hi! Ask me about your data.",
+    "ai_profile": "",
+    "engine": "claude_code",
+    "capabilities": {
+      "query": true,
+      "visualize": true,
+      "documents": true,
+      "act": false,
+      "delegate": false,
+      "intents": true
+    },
+    "allow_raw_sql": false,
+    "access": {
+      "mode": "all",
+      "allow_roles": [],
+      "deny_roles": []
+    },
+    "business_areas": [],
+    "business_area_access": {},
+    "suggested_questions": [],
+    "limits": {
+      "max_rows": 1000,
+      "max_upload_mb": 10
+    },
+    "default_business_areas": [],
+    "role_capabilities": []
+  }
+}

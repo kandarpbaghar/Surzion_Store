@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "code": "ORT",
+      "name": "Orthopaedic",
+      "display_name": "Orthopaedic Surgical Instruments"
+    },
+    {
+      "code": "GEN",
+      "name": "General",
+      "display_name": "General Surgical Instruments"
+    },
+    {
+      "code": "DIS",
+      "name": "Dissecting",
+      "display_name": "Dissecting Forceps"
+    }
+  ],
+  "products": []
+}

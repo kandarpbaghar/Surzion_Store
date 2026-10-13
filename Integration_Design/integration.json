@@ -342,5 +342,38 @@
     }
   ],
   "apis": [],
-  "ioflow": {}
+  "ioflow": {
+    "app_id": "3d02bd26-5bbc-4c32-b677-54a30bf19da0",
+    "url": "https://ioflow.twasta.ai",
+    "last_synced_at": "2026-10-13T10:14:00+00:00",
+    "event_ids": {
+      "surz_order_confirmed": "74fc8ce9-de05-4c11-907f-6db9caf18f09",
+      "surz_partner_registered": "2c7b768e-434e-415d-8b07-f04c45965fd2",
+      "surz_partner_approved": "04fcc8c7-a5ad-4622-bbd5-fad45686605f",
+      "surz_partner_rejected": "5a704f27-5c83-4f08-8abb-555ac2d6acba",
+      "notification.created": "25eae1e0-d9f0-4624-83e6-378154a9df3c"
+    },
+    "api_event_ids": {},
+    "service_ids": {},
+    "flows": {
+      "twasta_surzion_store_partner_application_received": {
+        "flow_id": "16ab74e4-2ba0-4c69-be32-f6dced46717b",
+        "flow_name": "Twasta · Surzion_Store · Partner Application Received",
+        "event": "surz_partner_registered",
+        "last_saved_at": "2026-10-13T10:14:42+00:00"
+      },
+      "twasta_surzion_store_partner_approved": {
+        "flow_id": "9eb9b7c6-1ad2-4211-a703-1047e45563b0",
+        "flow_name": "Twasta · Surzion_Store · Partner Approved",
+        "event": "surz_partner_approved",
+        "last_saved_at": "2026-10-13T10:15:00+00:00"
+      },
+      "twasta_surzion_store_partner_rejected": {
+        "flow_id": "8c1389c9-4d4a-4e96-9a16-fa01c32b3572",
+        "flow_name": "Twasta · Surzion_Store · Partner Rejected",
+        "event": "surz_partner_rejected",
+        "last_saved_at": "2026-10-13T10:15:30+00:00"
+      }
+    }
+  }
 }

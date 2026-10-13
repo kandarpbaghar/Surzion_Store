@@ -91,7 +91,7 @@
           },
           "background": {
             "kind": "image",
-            "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/5fdc4a4d4f71350a.jpg",
+            "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/5fdc4a4d4f71350a.jpg",
             "overlay": "rgba(8,20,52,0.58)",
             "parallax": true
           }
@@ -184,7 +184,7 @@
                   {
                     "id": "intro_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/bdf4706f1b4dca55.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/bdf4706f1b4dca55.jpg",
                     "alt": "Set of shiny dental and surgical instruments arranged on a hexagon-patterned cloth",
                     "rounded": true,
                     "shadow": true,
@@ -269,42 +269,42 @@
             "items": [
               {
                 "id": "g1",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/99faca9473759223.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/99faca9473759223.jpg",
                 "caption": "Artery forceps (TC)"
               },
               {
                 "id": "g2",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e095d0a13a8b5501.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/e095d0a13a8b5501.jpg",
                 "caption": "Beckman Eaton retractor"
               },
               {
                 "id": "g3",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/6f70e1548749eb5f.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/6f70e1548749eb5f.jpg",
                 "caption": "Alexander biopsy forceps"
               },
               {
                 "id": "g4",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a78f578d321b6e3e.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/a78f578d321b6e3e.jpg",
                 "caption": "Adson periosteal elevator"
               },
               {
                 "id": "g5",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ae08c48cb48e8e85.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/ae08c48cb48e8e85.jpg",
                 "caption": "Heath suture cutting scissor"
               },
               {
                 "id": "g6",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c2bb968abe011ad9.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/c2bb968abe011ad9.jpg",
                 "caption": "Volkmann bone curette, fibre handle"
               },
               {
                 "id": "g7",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/cf42a9457f5518fd.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/cf42a9457f5518fd.jpg",
                 "caption": "Castroviejo needle holder, round T.C."
               },
               {
                 "id": "g8",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/1762fc785c6aab47.jpg",
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/1762fc785c6aab47.jpg",
                 "caption": "Adson dissecting forceps, toothed T.C."
               }
             ]
@@ -312,7 +312,7 @@
           {
             "id": "gal_card",
             "type": "image",
-            "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/e2c1271ed4ecc57d.jpg",
+            "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/e2c1271ed4ecc57d.jpg",
             "alt": "Kapsons business card",
             "rounded": true,
             "shadow": true,
@@ -368,7 +368,7 @@
                   {
                     "id": "b1_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0905b8f4c26b5f13.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/0905b8f4c26b5f13.jpg",
                     "alt": "Baby Balfour retractor, a Surzion surgical instrument",
                     "rounded": true,
                     "shadow": true,
@@ -412,7 +412,7 @@
                   {
                     "id": "b2_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/19b9fc943aee9084.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/19b9fc943aee9084.jpg",
                     "alt": "Surzion surgical tools prepared for medical institutions",
                     "rounded": true,
                     "shadow": true,
@@ -488,7 +488,7 @@
                   {
                     "id": "b3_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/47910bcceb0b2ca1.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/47910bcceb0b2ca1.jpg",
                     "alt": "Titanium surgical instruments from Surzion",
                     "rounded": true,
                     "shadow": true,
@@ -532,7 +532,7 @@
                   {
                     "id": "b4_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/1199326256dbea7d.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/1199326256dbea7d.jpg",
                     "alt": "Wide range of high-quality medical instruments",
                     "rounded": true,
                     "shadow": true,
@@ -560,7 +560,7 @@
                   {
                     "id": "b5_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0b2a67da475b594f.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/0b2a67da475b594f.jpg",
                     "alt": "Surzion team committed to healthcare instrument supply",
                     "rounded": true,
                     "shadow": true,

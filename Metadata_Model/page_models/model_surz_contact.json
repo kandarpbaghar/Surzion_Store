@@ -115,7 +115,7 @@
           },
           "background": {
             "kind": "image",
-            "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/8c5cd943bb3f629f.jpg",
+            "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/8c5cd943bb3f629f.jpg",
             "overlay": "rgba(8,20,52,0.58)",
             "parallax": true
           }
@@ -171,7 +171,7 @@
                   {
                     "id": "i_img",
                     "type": "image",
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/8d69309d877e0f6a.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/8d69309d877e0f6a.jpg",
                     "alt": "Map showing Surzion, Jalandhar",
                     "rounded": true,
                     "shadow": true,

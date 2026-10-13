@@ -1,0 +1,4 @@
+CATEGORY_CODE,CATEGORY_NAME,DESCR,IMAGE_URL,SORT_ORDER,IS_ACTIVE
+GEN,Surgical Instruments,"Artery forceps, clamps, retractors, curettes and scalpel handles for general theatre lists.",/api/designers/assets/raw?project=Surzion_Store&file=be11e5517034c3c6.jpg,1,Y
+ORT,Orthopaedic,"Reduction clamps, bone hooks, retractors and tendon instruments for orthopaedic and trauma work.",/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg,2,Y
+DIS,Dissecting Forceps,"Tissue and dissecting forceps, including tungsten carbide Autagrip and Autogrip patterns.",/api/designers/assets/raw?project=Surzion_Store&file=9d2d5ac0893c2d58.jpg,3,Y

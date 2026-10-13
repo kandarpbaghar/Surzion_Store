@@ -317,6 +317,42 @@
                             "text": "Application status"
                           },
                           {
+                            "id": "status_pending_notice",
+                            "type": "callout",
+                            "variant": "info",
+                            "title": "Application under review",
+                            "body": "Your application is pending review by our team. We will email you once a decision has been made.",
+                            "icon": "clock",
+                            "iconPosition": "left",
+                            "visibility": {
+                              "condition": "{{ds_partner.STATUS}} == 'PENDING'"
+                            }
+                          },
+                          {
+                            "id": "status_approved_notice",
+                            "type": "callout",
+                            "variant": "success",
+                            "title": "You are a partner!",
+                            "body": "Your application was approved. Your discount code and QR code are shown on the right. Share them with your followers.",
+                            "icon": "check-circle",
+                            "iconPosition": "left",
+                            "visibility": {
+                              "roles": ["partner"]
+                            }
+                          },
+                          {
+                            "id": "status_rejected_notice",
+                            "type": "callout",
+                            "variant": "error",
+                            "title": "Application not approved",
+                            "body": "Your application was not approved. Reason: {{ds_partner.REJECT_REASON}}",
+                            "icon": "x-circle",
+                            "iconPosition": "left",
+                            "visibility": {
+                              "condition": "{{ds_partner.STATUS}} == 'REJECTED'"
+                            }
+                          },
+                          {
                             "id": "status_tl",
                             "type": "timeline",
                             "layout": "vertical",
@@ -325,17 +361,17 @@
                               {
                                 "id": "tl1",
                                 "title": "Application received",
-                                "description": "Pending applications can still be edited. Once approved or rejected, they are locked."
+                                "description": "Pending applications can still be edited. Once a decision is made, they are locked."
                               },
                               {
                                 "id": "tl2",
                                 "title": "Reviewed by our team",
-                                "description": "Your followers' discount is set."
+                                "description": "Our team reviews the application and sets the partner discount."
                               },
                               {
                                 "id": "tl3",
                                 "title": "Partner role granted",
-                                "description": "Code and QR code emailed to you."
+                                "description": "Once approved, your discount code and QR code are issued and emailed to you."
                               }
                             ]
                           },
@@ -719,7 +755,8 @@
           "DISCOUNT_CODE",
           "DISCOUNT_PCT",
           "QR_URL",
-          "APPLIED_ON"
+          "APPLIED_ON",
+          "REJECT_REASON"
         ]
       },
       {

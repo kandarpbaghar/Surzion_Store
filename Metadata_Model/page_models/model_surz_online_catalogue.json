@@ -90,7 +90,7 @@
           },
           "background": {
             "kind": "image",
-            "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/b21a70ac356b9a40.jpg",
+            "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/b21a70ac356b9a40.jpg",
             "overlay": "rgba(8,20,52,0.58)",
             "parallax": true
           }
@@ -173,7 +173,7 @@
                             "rounded": true,
                             "background": {"kind": "color", "color": "var(--pg-primary)"},
                             "children": [
-                              {"id": "cat_pdf_logo", "type": "image", "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg", "alt": "Surzion", "rounded": true},
+                              {"id": "cat_pdf_logo", "type": "image", "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/77fd5cd73669e05e.jpg", "alt": "Surzion", "rounded": true},
                               {"id": "cat_pdf_sp", "type": "spacer", "height": 56},
                               {"id": "cat_pdf_ct", "type": "paragraph", "text": "Product catalogue", "style": {"textColor": "var(--pg-on-primary)", "typography": {"fontSize": 13}}}
                             ]
@@ -326,7 +326,7 @@
                 "id": "cat_tc",
                 "title": "TC Surgical Instruments",
                 "body": "Tungsten-carbide Autagrip and Autogrip patterns for a sure grip.",
-                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/ce5cee950a9a290e.jpg",
+                "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/ce5cee950a9a290e.jpg",
                 "imageAlt": "TC Surgical Instruments",
                 "cta": {"id": "cat_tc_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/instruments", "newTab": false}},
                 "on_click": {"kind": "external_url", "url": "/instruments", "newTab": false}
@@ -335,7 +335,7 @@
                 "id": "cat_gen",
                 "title": "General Surgical Instruments",
                 "body": "Artery forceps, clamps, retractors, curettes and scalpel handles.",
-                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/7ee286a39bc1a741.jpg",
+                "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/7ee286a39bc1a741.jpg",
                 "imageAlt": "General Surgical Instruments",
                 "cta": {"id": "cat_gen_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/surgical-instruments", "newTab": false}},
                 "on_click": {"kind": "external_url", "url": "/surgical-instruments", "newTab": false}
@@ -344,7 +344,7 @@
                 "id": "cat_ort",
                 "title": "Orthopaedic Surgical Instruments",
                 "body": "Reduction clamps, bone hooks and tendon instruments for trauma work.",
-                "imageUrl": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/c0d483559c0ef757.jpg",
+                "imageUrl": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/c0d483559c0ef757.jpg",
                 "imageAlt": "Orthopaedic Surgical Instruments",
                 "cta": {"id": "cat_ort_c", "label": "Browse instruments \u2192", "variant": "link", "on_click": {"kind": "external_url", "url": "/orthopaedic", "newTab": false}},
                 "on_click": {"kind": "external_url", "url": "/orthopaedic", "newTab": false}

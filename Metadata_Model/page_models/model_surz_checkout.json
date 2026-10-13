@@ -106,7 +106,7 @@
                     "type": "image",
                     "align": "left",
                     "maxWidth": 150,
-                    "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                    "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/77fd5cd73669e05e.jpg",
                     "alt": "Surzion",
                     "on_click": {
                       "kind": "external_url",

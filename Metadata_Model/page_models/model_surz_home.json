@@ -207,7 +207,7 @@
                               {
                                 "id": "hero_logo",
                                 "type": "image",
-                                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/77fd5cd73669e05e.jpg",
+                                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/77fd5cd73669e05e.jpg",
                                 "alt": "Surzion - The Surgical Excellence",
                                 "align": "left",
                                 "maxWidth": 150,
@@ -269,7 +269,7 @@
                               {
                                 "id": "hero_by_kapsons",
                                 "type": "image",
-                                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/a7d69abbe446cb09.png",
+                                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/a7d69abbe446cb09.png",
                                 "alt": "By Kapsons",
                                 "align": "left",
                                 "maxWidth": 100
@@ -318,22 +318,22 @@
               {
                 "id": "hs1",
                 "type": "image",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/baa414ead3ab3968.jpg"
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/baa414ead3ab3968.jpg"
               },
               {
                 "id": "hs2",
                 "type": "image",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/3e5d6edfb362593c.jpg"
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/3e5d6edfb362593c.jpg"
               },
               {
                 "id": "hs3",
                 "type": "image",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/0af6c4c32c57c4a4.jpg"
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/0af6c4c32c57c4a4.jpg"
               },
               {
                 "id": "hs4",
                 "type": "image",
-                "url": "/api/website/08254d2c-ef7e-44a5-a5c3-a26004aedc6a/Surzion_Store/asset/51dcbaea45e73b3d.jpg"
+                "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/51dcbaea45e73b3d.jpg"
               }
             ],
             "autoplay": true,

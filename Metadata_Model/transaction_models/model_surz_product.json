@@ -420,7 +420,16 @@
               }
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "name": "Import",
+              "label": "Import",
+              "handler": "import",
+              "import": {
+                "title": "Import"
+              }
+            }
+          ],
           "validations": [],
           "cross_updates": [],
           "joins": {
@@ -526,6 +535,9 @@
     "pre_commit": [],
     "post_commit": [],
     "follow_up_actions": [],
-    "attach_docs": []
+    "attach_docs": [],
+    "import": {
+      "enabled": true
+    }
   }
 }

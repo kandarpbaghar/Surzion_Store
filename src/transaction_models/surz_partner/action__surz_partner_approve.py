@@ -30,7 +30,7 @@
 # the runtime supplies `_user`; this code uses it as soon as it appears.
 
 # The partner portal the welcome e-mail links to.
-_PARTNER_PORTAL_URL = '/partner-portal'
+_PARTNER_PORTAL_URL = 'https://surzion.platform.twasta.ai/partner-portal'
 # Audit stamp used ONLY when the payload does not identify the caller.
 _SYSTEM_USER = 'SYSTEM'
 _EVENT_NAME = 'surz_partner_approved'
