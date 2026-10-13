@@ -1,7 +1,7 @@
 {
   "page": {
     "obj_name": "surz_p_bulldog_clamps1",
-    "title": "Bulldog Clamps",
+    "title": "Artery Forceps Dandy",
     "kind": "external",
     "pageMode": "web",
     "pageSchemaVersion": 2,
@@ -203,7 +203,7 @@
                       "imageAspect": "1/1"
                     },
                     "url": "/api/designers/assets/raw?project=Surzion_Store&file=83871c5bcbd6f36e.jpg",
-                    "alt": "Bulldog Clamps",
+                    "alt": "Artery Forceps Dandy",
                     "rounded": true,
                     "aspect": "1:1",
                     "objectFit": "contain",
@@ -231,7 +231,7 @@
                     "type": "heading",
                     "level": 1,
                     "eyebrow": "Surgical Instruments · In stock",
-                    "text": "Bulldog Clamps",
+                    "text": "Artery Forceps Dandy",
                     "bindings": {
                       "text": {
                         "source": "data_field",
@@ -302,7 +302,7 @@
                         "on_click": {
                           "kind": "add_to_cart",
                           "sku": "SURZ-0021",
-                          "name": "Bulldog Clamps",
+                          "name": "Artery Forceps Dandy",
                           "price": "₹439",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=83871c5bcbd6f36e.jpg",
                           "href": "/bulldog-clamps1",
@@ -363,7 +363,7 @@
                     "id": "pwish",
                     "type": "wishlist_button",
                     "sku": "SURZ-0021",
-                    "name": "Bulldog Clamps",
+                    "name": "Artery Forceps Dandy",
                     "price": "₹439",
                     "href": "/bulldog-clamps1",
                     "meta": "Surgical Instruments",
