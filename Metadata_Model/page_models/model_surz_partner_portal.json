@@ -144,12 +144,7 @@
           {
             "id": "p",
             "type": "paragraph",
-            "text": "Your application status, discount code, QR code and the orders placed with your code. You see only your own application and your own orders."
-          },
-          {
-            "id": "p_new",
-            "type": "paragraph",
-            "text": "Not a partner yet? Sign in as a customer and apply on the partner programme page. When our team approves your application your account is granted the partner role and your referred orders appear below."
+            "text": "Your partnership status, discount code, QR code and the orders placed with your code. You see only your own."
           }
         ]
       },
@@ -314,43 +309,122 @@
                             "id": "ah",
                             "type": "heading",
                             "level": 2,
-                            "text": "Application status"
+                            "text": "Your partnership",
+                            "visibility": {
+                              "condition": "{{me.signedIn}}"
+                            }
                           },
                           {
-                            "id": "status_pending_notice",
+                            "id": "st_signed_out",
                             "type": "callout",
                             "variant": "info",
-                            "title": "Application under review",
-                            "body": "Your application is pending review by our team. We will email you once a decision has been made.",
+                            "icon": "user",
+                            "iconPosition": "left",
+                            "title": "Sign in to see your partner account",
+                            "body": "Your partnership status, discount code and QR code appear here once you sign in.",
+                            "visibility": {
+                              "condition": "{{me.signedOut}}"
+                            }
+                          },
+                          {
+                            "id": "st_signed_out_btns",
+                            "type": "button_group",
+                            "align": "left",
+                            "gap": 10,
+                            "visibility": {
+                              "condition": "{{me.signedOut}}"
+                            },
+                            "buttons": [
+                              {
+                                "id": "so_login",
+                                "label": "Sign in",
+                                "variant": "primary",
+                                "size": "md",
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/login",
+                                  "newTab": false
+                                }
+                              },
+                              {
+                                "id": "so_learn",
+                                "label": "About the partner programme",
+                                "variant": "outline",
+                                "size": "md",
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/partner",
+                                  "newTab": false
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "st_none",
+                            "type": "callout",
+                            "variant": "info",
+                            "icon": "sparkles",
+                            "iconPosition": "left",
+                            "title": "You have not applied yet",
+                            "body": "Apply to the Surzion partner programme and, once approved, you get your own discount code and QR code for your followers.",
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == ''"
+                            }
+                          },
+                          {
+                            "id": "st_none_btns",
+                            "type": "button_group",
+                            "align": "left",
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == ''"
+                            },
+                            "buttons": [
+                              {
+                                "id": "none_apply",
+                                "label": "Apply to become a partner",
+                                "variant": "primary",
+                                "size": "md",
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/partner#apply",
+                                  "newTab": false
+                                },
+                                "icon": "arrow-right"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "st_pending",
+                            "type": "callout",
+                            "variant": "warning",
                             "icon": "clock",
                             "iconPosition": "left",
+                            "title": "Your partnership request is in review",
+                            "body": "Thank you for applying. Our team is reviewing your request and will email you as soon as it has been decided. You can still edit your application on the partner page until then.",
                             "visibility": {
-                              "condition": "{{ds_partner.STATUS}} == 'PENDING'"
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'PENDING'"
                             }
                           },
                           {
-                            "id": "status_approved_notice",
-                            "type": "callout",
-                            "variant": "success",
-                            "title": "You are a partner!",
-                            "body": "Your application was approved. Your discount code and QR code are shown on the right. Share them with your followers.",
-                            "icon": "check-circle",
-                            "iconPosition": "left",
+                            "id": "st_pending_btns",
+                            "type": "button_group",
+                            "align": "left",
                             "visibility": {
-                              "roles": ["partner"]
-                            }
-                          },
-                          {
-                            "id": "status_rejected_notice",
-                            "type": "callout",
-                            "variant": "error",
-                            "title": "Application not approved",
-                            "body": "Your application was not approved. Reason: {{ds_partner.REJECT_REASON}}",
-                            "icon": "x-circle",
-                            "iconPosition": "left",
-                            "visibility": {
-                              "condition": "{{ds_partner.STATUS}} == 'REJECTED'"
-                            }
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'PENDING'"
+                            },
+                            "buttons": [
+                              {
+                                "id": "pending_edit",
+                                "label": "View or edit my application",
+                                "variant": "outline",
+                                "size": "md",
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/partner#apply",
+                                  "newTab": false
+                                }
+                              }
+                            ]
                           },
                           {
                             "id": "status_tl",
@@ -373,22 +447,54 @@
                                 "title": "Partner role granted",
                                 "description": "Once approved, your discount code and QR code are issued and emailed to you."
                               }
+                            ],
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'PENDING'"
+                            }
+                          },
+                          {
+                            "id": "st_rejected",
+                            "type": "callout",
+                            "variant": "error",
+                            "icon": "x-circle",
+                            "iconPosition": "left",
+                            "title": "Your application was not approved",
+                            "body": "Reason: {{ds_partner.REJECT_REASON}}. If you would like to discuss it, contact us.",
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'REJECTED'"
+                            }
+                          },
+                          {
+                            "id": "st_rejected_btns",
+                            "type": "button_group",
+                            "align": "left",
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'REJECTED'"
+                            },
+                            "buttons": [
+                              {
+                                "id": "rej_contact",
+                                "label": "Contact us",
+                                "variant": "outline",
+                                "size": "md",
+                                "on_click": {
+                                  "kind": "external_url",
+                                  "url": "/contact",
+                                  "newTab": false
+                                }
+                              }
                             ]
                           },
                           {
-                            "id": "em_partner",
-                            "type": "embed",
-                            "embed": {
-                              "obj_type": "T",
-                              "obj_name": "surz_partner",
-                              "renderMode": "realtime",
-                              "mode": "list",
-                              "signInPrompt": {
-                                "title": "Sign in to your partner account",
-                                "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
-                                "signInLabel": "Sign in",
-                                "registerLabel": "Create an account"
-                              }
+                            "id": "st_approved",
+                            "type": "callout",
+                            "variant": "success",
+                            "icon": "check-circle",
+                            "iconPosition": "left",
+                            "title": "Congratulations — you are a Surzion partner!",
+                            "body": "Your partnership is active. Share your code or QR code: your followers get {{ds_partner.DISCOUNT_PCT}}% off every item, and every order they place with it shows below.",
+                            "visibility": {
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                             }
                           }
                         ]
@@ -402,9 +508,7 @@
                             "padding": 28,
                             "rounded": true,
                             "visibility": {
-                              "roles": [
-                                "partner"
-                              ]
+                              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                             },
                             "background": {
                               "kind": "color",
@@ -467,16 +571,9 @@
                                 "id": "cc_pct",
                                 "type": "heading",
                                 "level": 3,
-                                "text": "",
+                                "text": "{{ds_partner.DISCOUNT_PCT}}% off",
                                 "style": {
                                   "textColor": "var(--pg-on-primary)"
-                                },
-                                "bindings": {
-                                  "text": {
-                                    "source": "data_field",
-                                    "dataSource": "ds_partner",
-                                    "path": "DISCOUNT_PCT"
-                                  }
                                 }
                               },
                               {
@@ -535,9 +632,7 @@
                     "level": 2,
                     "text": "Orders claimed with my code",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ]
+                      "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                     }
                   },
                   {
@@ -545,9 +640,7 @@
                     "type": "paragraph",
                     "text": "Buyer names are masked. The discount is applied per item, before GST.",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ]
+                      "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                     }
                   },
                   {
@@ -566,9 +659,7 @@
                       ]
                     },
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ]
+                      "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                     }
                   },
                   {
@@ -579,19 +670,14 @@
                       "order_filter"
                     ],
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ]
+                      "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
                     }
                   },
                   {
                     "id": "em_orders",
                     "type": "embed",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ],
-                      "condition": "{{order_filter}} == \"all\" || {{order_filter}} == \"\" || {{order_filter}} == null"
+                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"all\" || {{order_filter}} == \"\" || {{order_filter}} == null)"
                     },
                     "embed": {
                       "obj_type": "T",
@@ -610,10 +696,7 @@
                     "id": "em_orders_paid",
                     "type": "embed",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ],
-                      "condition": "{{order_filter}} == \"PAID\""
+                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"PAID\")"
                     },
                     "embed": {
                       "obj_type": "T",
@@ -643,10 +726,7 @@
                     "id": "em_orders_pending",
                     "type": "embed",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ],
-                      "condition": "{{order_filter}} == \"PENDING\""
+                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"PENDING\")"
                     },
                     "embed": {
                       "obj_type": "T",
@@ -676,10 +756,7 @@
                     "id": "em_orders_delivered",
                     "type": "embed",
                     "visibility": {
-                      "roles": [
-                        "partner"
-                      ],
-                      "condition": "{{order_filter}} == \"DELIVERED\""
+                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"DELIVERED\")"
                     },
                     "embed": {
                       "obj_type": "T",
@@ -756,7 +833,8 @@
           "DISCOUNT_PCT",
           "QR_URL",
           "APPLIED_ON",
-          "REJECT_REASON"
+          "REJECT_REASON",
+          "PARTNER_NAME"
         ]
       },
       {

@@ -1,0 +1,317 @@
+{
+  "page": {
+    "obj_name": "surz_pay_order",
+    "title": "Complete your payment",
+    "kind": "external",
+    "pageMode": "web",
+    "pageSchemaVersion": 2,
+    "theme": {
+      "ref": "surzion",
+      "preset": "corporate",
+      "palette": {
+        "primary": "#0E2358",
+        "primaryHover": "#14307A",
+        "onPrimary": "#FFFFFF",
+        "accent": "#2F6BE6",
+        "accentHover": "#14307A",
+        "onAccent": "#FFFFFF",
+        "heading": "#0B1A3D",
+        "text": "#0B1A3D",
+        "muted": "#5B6B8C",
+        "subtle": "#8494B4",
+        "link": "#2F6BE6",
+        "linkHover": "#14307A",
+        "inverted": "#FFFFFF",
+        "background": "#F5F8FE",
+        "surface": "#FFFFFF",
+        "surfaceAlt": "#FFFFFF",
+        "surfaceMuted": "#EDF1FA",
+        "border": "#E4EAF6",
+        "borderStrong": "#DCE4F3",
+        "info": "#2F6BE6",
+        "infoBg": "#E8EFFD",
+        "success": "#1F9D63",
+        "successBg": "#E5F5EE",
+        "error": "#C2402F"
+      },
+      "typography": {
+        "fontFamily": "poppins",
+        "headingFamily": "poppins",
+        "customFontFamily": "Poppins",
+        "customHeadingFamily": "Poppins",
+        "customFontWeights": [
+          400,
+          500,
+          600,
+          700
+        ],
+        "baseSize": 16,
+        "scaleRatio": 1.25,
+        "lineHeight": 1.6,
+        "headingWeight": 600,
+        "headingLineHeight": 1.2,
+        "eyebrowTransform": "uppercase"
+      },
+      "layout": {
+        "contentWidth": "wide",
+        "maxWidth": 1220,
+        "paddingX": 24,
+        "paddingY": 0,
+        "blockGap": 16,
+        "borderRadius": 24,
+        "buttonRadius": 999,
+        "background": {
+          "kind": "color",
+          "color": "#F5F8FE"
+        }
+      }
+    },
+    "inputs": [],
+    "actions": [],
+    "sections": [
+      {
+        "id": "sec_head",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-surface)"
+          },
+          "padding": {
+            "top": 32,
+            "bottom": 24
+          }
+        },
+        "blocks": [
+          {
+            "id": "h",
+            "type": "heading",
+            "level": 1,
+            "text": "Complete your payment"
+          },
+          {
+            "id": "p",
+            "type": "paragraph",
+            "text": "Your order is saved. Choose how you would like to pay."
+          }
+        ]
+      },
+      {
+        "id": "sec_body",
+        "tag": "main",
+        "width": "full",
+        "style": {
+          "background": {
+            "kind": "color",
+            "color": "var(--pg-background)"
+          },
+          "padding": {
+            "top": 32,
+            "bottom": 80
+          }
+        },
+        "blocks": [
+          {
+            "id": "narrow",
+            "type": "columns",
+            "count": 1,
+            "gap": 24,
+            "align": "top",
+            "columns": [
+              {
+                "id": "c1",
+                "width": "760px",
+                "blocks": [
+                  {
+                    "id": "pay_summary",
+                    "type": "my_records",
+                    "object": "surz_order",
+                    "heading": "",
+                    "columns": {
+                      "reference": "ORDER_NO",
+                      "date": "ORDER_DATE",
+                      "status": "ORDER_STATUS",
+                      "paymentStatus": "PAY_STATUS",
+                      "total": "TOTAL_AMOUNT",
+                      "subtotal": "SUBTOTAL",
+                      "discount": "DISCOUNT_AMT",
+                      "discountCode": "DISCOUNT_CODE",
+                      "tax": "GST_AMT",
+                      "shipping": "SHIPPING_AMT",
+                      "paidAmount": "PAID_AMOUNT",
+                      "paymentMethod": "PAY_METHOD",
+                      "address": "SHIP_ADDRESS"
+                    },
+                    "statusTones": {
+                      "NEW": "info",
+                      "CONFIRMED": "info",
+                      "PACKED": "warning",
+                      "SHIPPED": "warning",
+                      "DELIVERED": "success",
+                      "CANCELLED": "error",
+                      "PAID": "success",
+                      "COD": "info",
+                      "PENDING": "warning",
+                      "REFUNDED": "neutral",
+                      "FAILED": "error"
+                    },
+                    "currencyPrefix": "₹",
+                    "lines": {
+                      "detailFormNo": "2",
+                      "sku": "PRODUCT_CODE",
+                      "name": "PRODUCT_NAME",
+                      "qty": "QTY",
+                      "unitPrice": "UNIT_PRICE",
+                      "amount": "LINE_TOTAL",
+                      "imageFrom": {
+                        "object": "surz_product",
+                        "keyColumn": "PRODUCT_CODE",
+                        "imageColumn": "IMAGE_URL"
+                      }
+                    },
+                    "reorder": false,
+                    "pageSize": 10,
+                    "emptyText": "You have not ordered anything yet.",
+                    "emptyCtaLabel": "See my orders",
+                    "emptyCtaHref": "/my-orders",
+                    "valueLabels": {
+                      "upi": "UPI",
+                      "card": "Card",
+                      "netbanking": "Net banking",
+                      "wallet": "Wallet",
+                      "emi": "EMI",
+                      "COD": "Cash on delivery",
+                      "PAID": "Paid",
+                      "FAILED": "Payment failed",
+                      "PENDING": "Payment pending",
+                      "NEW": "Placed",
+                      "CONFIRMED": "Confirmed",
+                      "PACKED": "Packed",
+                      "SHIPPED": "Shipped",
+                      "DELIVERED": "Delivered",
+                      "CANCELLED": "Cancelled",
+                      "REFUNDED": "Refunded"
+                    },
+                    "continueLabel": "Continue shopping",
+                    "recordFromQuery": "order",
+                    "singleTitle": "",
+                    "singleBody": ""
+                  },
+                  {
+                    "id": "pay_again",
+                    "type": "payment_checkout",
+                    "objName": "surz_order",
+                    "txnIdVar": "orderId",
+                    "amountColumn": "TOTAL_AMOUNT",
+                    "ownerColumn": "REGISTRY_ID",
+                    "referenceColumn": "ORDER_NO",
+                    "payerNameColumn": "CUSTOMER_NAME",
+                    "payerEmailColumn": "EMAIL",
+                    "payerContactColumn": "PHONE",
+                    "writeback": {
+                      "statusColumn": "PAY_STATUS",
+                      "statusValue": "PAID",
+                      "paymentIdColumn": "PAYMENT_REF",
+                      "paidAmountColumn": "PAID_AMOUNT",
+                      "paidAtColumn": "PAID_ON",
+                      "methodColumn": "PAY_METHOD",
+                      "failedValue": "FAILED"
+                    },
+                    "heading": "Pay for this order",
+                    "description": "Pay online by UPI, card or net banking, or choose cash on delivery.",
+                    "buttonLabel": "Pay online",
+                    "successTitle": "Order confirmed",
+                    "successBody": "We have recorded your payment choice and your order is confirmed. Your order number and total are shown above.",
+                    "showCodOption": true,
+                    "codLabel": "Cash on Delivery",
+                    "hideUntilRecord": true,
+                    "onSuccessNavigateTo": "/order?order={{txn}}",
+                    "continueHref": "/instruments",
+                    "continueLabel": "Continue shopping",
+                    "txnIdFromQuery": "order",
+                    "codNote": "Dear Valued Customer, we deeply appreciate your business. To ensure your complete satisfaction and to help us assist you quickly in the rare event of damage or missing items, we kindly request that you record a video while opening the package.\n\nThis unboxing video and a damage report must be submitted within 48 hours of receiving the shipment to process any replacements or refunds smoothly. Thank you for your cooperation and for trusting us with your order!\n\nYou will get a copy of these instructions to your email after placing an order",
+                    "policyLinks": [
+                      {
+                        "label": "Terms and Conditions",
+                        "href": "/terms/"
+                      },
+                      {
+                        "label": "Refund Policy",
+                        "href": "/returns/"
+                      },
+                      {
+                        "label": "Privacy Policy",
+                        "href": "/privacy/"
+                      }
+                    ],
+                    "policyText": "By placing your order you agree to our"
+                  }
+                ]
+              }
+            ],
+            "justify": "center"
+          }
+        ]
+      }
+    ],
+    "blocks": [],
+    "seo": {
+      "title": "Complete your payment | Surzion",
+      "description": "Complete your payment | Surzion"
+    },
+    "navigation": {
+      "showHeader": true,
+      "showFooter": true
+    },
+    "designTokens": {
+      "colorSchemes": [
+        {
+          "id": "cs_footer",
+          "name": "Dark footer band",
+          "background": "#102027",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#102027",
+          "primary": "#9DB8F5",
+          "onPrimary": "#111827",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_navy",
+          "name": "Navy band",
+          "background": "#0E2358",
+          "text": "#FFFFFF",
+          "textSecondary": "#C9D6F2",
+          "accent": "#9DB8F5",
+          "link": "#C9D6F2",
+          "linkHover": "#FFFFFF",
+          "surface": "#0E2358",
+          "primary": "#FFFFFF",
+          "onPrimary": "#0E2358",
+          "border": "rgba(255,255,255,0.14)",
+          "fromTheme": true
+        },
+        {
+          "id": "cs_tint",
+          "name": "Tinted band",
+          "background": "#EDF1FA",
+          "text": "#0B1A3D",
+          "textSecondary": "#5B6B8C",
+          "accent": "#2F6BE6",
+          "link": "#0B1A3D",
+          "linkHover": "#14307A",
+          "surface": "#EDF1FA",
+          "primary": "#2F6BE6",
+          "onPrimary": "#ffffff",
+          "border": "rgba(15,23,42,0.12)",
+          "fromTheme": true
+        }
+      ]
+    }
+  }
+}

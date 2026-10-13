@@ -528,12 +528,158 @@
             "type": "heading",
             "level": 2,
             "eyebrow": "Apply",
-            "text": "Partner application"
+            "text": "Partner application",
+            "visibility": {
+              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED')"
+            }
           },
           {
             "id": "ap",
             "type": "paragraph",
-            "text": "Tell us who you are and where your audience follows you. Our team reviews every application; once you are approved you get your own discount code, your followers' discount and a QR code."
+            "text": "Tell us who you are and where your audience follows you. Our team reviews every application; once you are approved you get your own discount code, your followers' discount and a QR code.",
+            "visibility": {
+              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED')"
+            }
+          },
+          {
+            "id": "pr_ok_h",
+            "type": "heading",
+            "level": 2,
+            "text": "Your Surzion partnership",
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
+            }
+          },
+          {
+            "id": "pr_ok",
+            "type": "callout",
+            "variant": "success",
+            "icon": "check-circle",
+            "iconPosition": "left",
+            "title": "Congratulations — you are a Surzion partner!",
+            "body": "Your partnership is active. Share your code or QR code with your followers: they get {{ds_partner.DISCOUNT_PCT}}% off every item, and every order placed with it counts towards your partnership.",
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
+            }
+          },
+          {
+            "id": "pr_code_card",
+            "type": "container",
+            "padding": 28,
+            "rounded": true,
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
+            },
+            "background": {
+              "kind": "color",
+              "color": "var(--pg-primary)"
+            },
+            "children": [
+              {
+                "id": "pr_cc_e",
+                "type": "paragraph",
+                "text": "YOUR PARTNER CODE",
+                "style": {
+                  "textColor": "var(--pg-on-primary)",
+                  "typography": {
+                    "fontSize": 12,
+                    "fontWeight": 600,
+                    "letterSpacing": 0.12
+                  }
+                }
+              },
+              {
+                "id": "pr_cc_qr",
+                "type": "image",
+                "url": "",
+                "alt": "Your partner QR code",
+                "align": "left",
+                "maxWidth": 140,
+                "bindings": {
+                  "url": {
+                    "source": "data_field",
+                    "dataSource": "ds_partner",
+                    "path": "QR_URL"
+                  }
+                }
+              },
+              {
+                "id": "pr_cc_code",
+                "type": "heading",
+                "level": 2,
+                "text": "",
+                "style": {
+                  "textColor": "var(--pg-on-primary)"
+                },
+                "bindings": {
+                  "text": {
+                    "source": "data_field",
+                    "dataSource": "ds_partner",
+                    "path": "DISCOUNT_CODE"
+                  }
+                }
+              },
+              {
+                "id": "pr_cc_pl",
+                "type": "paragraph",
+                "text": "Followers save this percentage on every item",
+                "style": {
+                  "textColor": "var(--pg-on-primary)"
+                }
+              },
+              {
+                "id": "pr_cc_pct",
+                "type": "heading",
+                "level": 3,
+                "text": "{{ds_partner.DISCOUNT_PCT}}% off",
+                "style": {
+                  "textColor": "var(--pg-on-primary)"
+                }
+              },
+              {
+                "id": "pr_cc_btns",
+                "type": "button_group",
+                "align": "left",
+                "gap": 10,
+                "buttons": [
+                  {
+                    "id": "pr_cc_copy",
+                    "label": "Copy code",
+                    "variant": "secondary",
+                    "size": "md",
+                    "icon": "check",
+                    "on_click": {
+                      "kind": "copy",
+                      "text": "{{ds_partner.DISCOUNT_CODE}}",
+                      "confirm": "Code copied"
+                    }
+                  },
+                  {
+                    "id": "pr_cc_dl",
+                    "label": "Download QR",
+                    "variant": "outline",
+                    "size": "md",
+                    "icon": "download",
+                    "on_click": {
+                      "kind": "external_url",
+                      "url": "{{ds_partner.QR_URL}}",
+                      "newTab": true
+                    }
+                  },
+                  {
+                    "id": "pr_cc_share",
+                    "label": "Share link",
+                    "variant": "outline",
+                    "size": "md",
+                    "on_click": {
+                      "kind": "copy",
+                      "text": "Shop Surzion surgical instruments and use my code {{ds_partner.DISCOUNT_CODE}} at checkout.",
+                      "confirm": "Share message copied"
+                    }
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "me_strip",
@@ -545,7 +691,7 @@
               "color": "var(--pg-surface-muted)"
             },
             "visibility": {
-              "condition": "{{me.signedIn}}"
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == ''"
             },
             "children": [
               {
@@ -580,7 +726,7 @@
             "formTitle": "Your partner application",
             "submitLabel": "Submit application",
             "intro": "Takes about two minutes. Your name, email and mobile come from your account — check them before you submit.",
-            "successText": "Thank you — your application is in. We will email you once our team has reviewed it.",
+            "successText": "Thank you — your partnership request is in review. We will email you once our team has decided.",
             "editableWhen": {
               "key": "status",
               "in": [
@@ -802,7 +948,14 @@
                 "column": "APPLIED_ON",
                 "inForm": false
               }
-            ]
+            ],
+            "startLabel": "Apply to become a partner",
+            "startText": "Your name and email are filled in from your account. Tell us about your channels and our team will review your application.",
+            "statusNotes": {
+              "PENDING": "Your partnership request is in review. Our team will email you as soon as it has been decided — you can still edit it until then.",
+              "APPROVED": "Your partnership is active. Your discount code and QR code are shown below.",
+              "REJECTED": "Your application was not approved this time. Contact us if you would like to discuss it."
+            }
           },
           {
             "id": "after_apply",
@@ -811,7 +964,7 @@
             "buttons": [
               {
                 "id": "after_portal",
-                "label": "Check my application status",
+                "label": "Open my partner account",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {
@@ -820,7 +973,10 @@
                   "newTab": false
                 }
               }
-            ]
+            ],
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} != ''"
+            }
           }
         ]
       }
@@ -833,6 +989,26 @@
     "navigation": {
       "showHeader": true,
       "showFooter": true
-    }
+    },
+    "dataSources": [
+      {
+        "id": "ds_partner",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_partner"
+        },
+        "mode": "record",
+        "bindingTime": "runtime",
+        "columns": [
+          "STATUS",
+          "DISCOUNT_CODE",
+          "DISCOUNT_PCT",
+          "QR_URL",
+          "APPLIED_ON",
+          "REJECT_REASON",
+          "PARTNER_NAME"
+        ]
+      }
+    ]
   }
 }

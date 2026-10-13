@@ -380,7 +380,8 @@
               "paymentIdColumn": "PAYMENT_REF",
               "paidAmountColumn": "PAID_AMOUNT",
               "paidAtColumn": "PAID_ON",
-              "methodColumn": "PAY_METHOD"
+              "methodColumn": "PAY_METHOD",
+              "failedValue": "FAILED"
             },
             "heading": "Pay for your order",
             "description": "Pay online by card, UPI or net banking, or choose Cash on Delivery.",
@@ -389,7 +390,26 @@
             "successBody": "We have recorded your payment choice and your order is confirmed. Your order number and total are shown above.",
             "showCodOption": true,
             "codLabel": "Cash on Delivery",
-            "hideUntilRecord": true
+            "hideUntilRecord": true,
+            "onSuccessNavigateTo": "/order?order={{txn}}",
+            "continueHref": "/instruments",
+            "continueLabel": "Continue shopping",
+            "codNote": "Dear Valued Customer, we deeply appreciate your business. To ensure your complete satisfaction and to help us assist you quickly in the rare event of damage or missing items, we kindly request that you record a video while opening the package.\n\nThis unboxing video and a damage report must be submitted within 48 hours of receiving the shipment to process any replacements or refunds smoothly. Thank you for your cooperation and for trusting us with your order!\n\nYou will get a copy of these instructions to your email after placing an order",
+            "policyLinks": [
+              {
+                "label": "Terms and Conditions",
+                "href": "/terms/"
+              },
+              {
+                "label": "Refund Policy",
+                "href": "/returns/"
+              },
+              {
+                "label": "Privacy Policy",
+                "href": "/privacy/"
+              }
+            ],
+            "policyText": "By placing your order you agree to our"
           },
           {
             "id": "policies",

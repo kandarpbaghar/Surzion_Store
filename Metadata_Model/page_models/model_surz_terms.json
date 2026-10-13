@@ -241,13 +241,13 @@
                     },
                     "children": [
                       {
-                        "id": "t",
+                        "id": "tc1",
                         "type": "heading",
                         "level": 2,
                         "text": "Terms and Conditions"
                       },
                       {
-                        "id": "eff",
+                        "id": "tc2",
                         "type": "paragraph",
                         "text": "Effective Date: 26-01-2026",
                         "style": {
@@ -255,497 +255,496 @@
                         }
                       },
                       {
-                        "id": "i1",
+                        "id": "tc3",
                         "type": "paragraph",
                         "text": "Welcome to surzion, a brand operated by Kapson, a proprietorship business in India."
                       },
                       {
-                        "id": "i2",
+                        "id": "tc4",
                         "type": "paragraph",
-                        "text": "These Terms & Conditions (\u201cTerms\u201d) govern your access to and use of https://surzion.com (\u201cWebsite\u201d) and your purchase of products through the Website."
+                        "text": "These Terms & Conditions (“Terms”) govern your access to and use of https://surzion.com (“Website”) and your purchase of products through the Website."
                       },
                       {
-                        "id": "i3",
+                        "id": "tc5",
                         "type": "paragraph",
                         "text": "By accessing the Website or placing an order, you agree to be bound by these Terms."
                       },
                       {
-                        "id": "s1h",
+                        "id": "tc6",
                         "type": "heading",
                         "level": 3,
                         "text": "1. Business Information"
                       },
                       {
-                        "id": "s1p1",
+                        "id": "tc7",
                         "type": "paragraph",
                         "text": "Brand: Surzion"
                       },
                       {
-                        "id": "s1p2",
+                        "id": "tc8",
                         "type": "paragraph",
                         "text": "Legal/Business Name: Kapson"
                       },
                       {
-                        "id": "s1p3",
+                        "id": "tc9",
                         "type": "paragraph",
                         "text": "Business Structure: Proprietorship"
                       },
                       {
-                        "id": "s1p4",
+                        "id": "tc10",
                         "type": "paragraph",
                         "text": "Country of Operation: India"
                       },
                       {
-                        "id": "s2h",
+                        "id": "tc11",
                         "type": "heading",
                         "level": 3,
                         "text": "2. Use of the Website"
                       },
                       {
-                        "id": "s2p1",
+                        "id": "tc12",
                         "type": "paragraph",
                         "text": "You agree to use the Website only for lawful purposes and in accordance with these Terms."
                       },
                       {
-                        "id": "s2p2",
+                        "id": "tc13",
                         "type": "paragraph",
                         "text": "You must not:"
                       },
                       {
-                        "id": "s2l1",
+                        "id": "tc14",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s2l1a",
+                            "id": "tc15",
                             "text": "Use the Website for fraudulent or unlawful purposes"
                           },
                           {
-                            "id": "s2l1b",
+                            "id": "tc16",
                             "text": "Attempt to gain unauthorized access to the Website or its systems"
                           },
                           {
-                            "id": "s2l1c",
+                            "id": "tc17",
                             "text": "Interfere with the security or operation of the Website"
                           },
                           {
-                            "id": "s2l1d",
+                            "id": "tc18",
                             "text": "Copy, reproduce or misuse Website content without permission"
                           },
                           {
-                            "id": "s2l1e",
+                            "id": "tc19",
                             "text": "Submit false, misleading or fraudulent information"
                           }
                         ]
                       },
                       {
-                        "id": "s3h",
+                        "id": "tc20",
                         "type": "heading",
                         "level": 3,
                         "text": "3. Products"
                       },
                       {
-                        "id": "s3p1",
+                        "id": "tc21",
                         "type": "paragraph",
                         "text": "surzion offers surgical and related instruments and products."
                       },
                       {
-                        "id": "s3p2",
+                        "id": "tc22",
                         "type": "paragraph",
                         "text": "We make reasonable efforts to ensure that product descriptions, specifications, images and other information displayed on the Website are accurate."
                       },
                       {
-                        "id": "s3p3",
+                        "id": "tc23",
                         "type": "paragraph",
                         "text": "However, minor variations in colour, finish, dimensions, packaging or appearance may occur where applicable."
                       },
                       {
-                        "id": "s3p4",
+                        "id": "tc24",
                         "type": "paragraph",
                         "text": "Product images may be for representation purposes and should be read together with the product specifications and description."
                       },
                       {
-                        "id": "s4h",
+                        "id": "tc25",
                         "type": "heading",
                         "level": 3,
                         "text": "4. Prices"
                       },
                       {
-                        "id": "s4p1",
+                        "id": "tc26",
                         "type": "paragraph",
                         "text": "All product prices displayed on the Website are subject to change without prior notice."
                       },
                       {
-                        "id": "s4p2",
+                        "id": "tc27",
                         "type": "paragraph",
                         "text": "Applicable taxes, shipping charges or other charges, where applicable, will be displayed or communicated before completion of the order."
                       },
                       {
-                        "id": "s4p3",
+                        "id": "tc28",
                         "type": "paragraph",
                         "text": "We reserve the right to correct pricing, product-description or other inadvertent errors."
                       },
                       {
-                        "id": "s4p4",
+                        "id": "tc29",
                         "type": "paragraph",
                         "text": "If an order has been placed based on an obvious pricing error, we may contact the customer before processing the order."
                       },
                       {
-                        "id": "s5h",
+                        "id": "tc30",
                         "type": "heading",
                         "level": 3,
                         "text": "5. Orders"
                       },
                       {
-                        "id": "s5p1",
+                        "id": "tc31",
                         "type": "paragraph",
                         "text": "Placing an order constitutes a request to purchase the selected product."
                       },
                       {
-                        "id": "s5p2",
+                        "id": "tc32",
                         "type": "paragraph",
                         "text": "An order may be subject to verification and acceptance by Surzion."
                       },
                       {
-                        "id": "s5p3",
+                        "id": "tc33",
                         "type": "paragraph",
                         "text": "We reserve the right to cancel or decline an order where reasonably necessary, including in cases involving:"
                       },
                       {
-                        "id": "s5l1",
+                        "id": "tc34",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s5l1a",
+                            "id": "tc35",
                             "text": "Product unavailability"
                           },
                           {
-                            "id": "s5l1b",
+                            "id": "tc36",
                             "text": "Pricing or listing errors"
                           },
                           {
-                            "id": "s5l1c",
+                            "id": "tc37",
                             "text": "Suspected fraudulent transactions"
                           },
                           {
-                            "id": "s5l1d",
+                            "id": "tc38",
                             "text": "Incorrect customer information"
                           },
                           {
-                            "id": "s5l1e",
+                            "id": "tc39",
                             "text": "Shipping restrictions"
                           },
                           {
-                            "id": "s5l1f",
+                            "id": "tc40",
                             "text": "Circumstances beyond our reasonable control"
                           }
                         ]
                       },
                       {
-                        "id": "s5p4",
+                        "id": "tc41",
                         "type": "paragraph",
                         "text": "If payment has already been received for an order that surzion cancels, the applicable amount will be refunded through the appropriate payment method, subject to applicable law."
                       },
                       {
-                        "id": "s6h",
+                        "id": "tc42",
                         "type": "heading",
                         "level": 3,
                         "text": "6. Payment"
                       },
                       {
-                        "id": "s6p1",
+                        "id": "tc43",
                         "type": "paragraph",
                         "text": "surzion accepts the payment methods made available at checkout, which may include UPI, debit/credit cards, net banking and other supported payment methods."
                       },
                       {
-                        "id": "s6p2",
+                        "id": "tc44",
                         "type": "paragraph",
                         "text": "Payment processing may be handled by third-party payment service providers."
                       },
                       {
-                        "id": "s7h",
+                        "id": "tc45",
                         "type": "heading",
                         "level": 3,
                         "text": "7. Shipping and Delivery"
                       },
                       {
-                        "id": "s7p1",
+                        "id": "tc46",
                         "type": "paragraph",
-                        "text": "Orders are generally dispatched within 2\u20133 working days after successful order confirmation/payment, subject to product availability."
+                        "text": "Orders are generally dispatched within 2–3 working days after successful order confirmation/payment, subject to product availability."
                       },
                       {
-                        "id": "s7p2",
+                        "id": "tc47",
                         "type": "paragraph",
-                        "text": "After dispatch, delivery generally takes approximately 5\u20137 working days, depending on the destination and courier service."
+                        "text": "After dispatch, delivery generally takes approximately 5–7 working days, depending on the destination and courier service."
                       },
                       {
-                        "id": "s7p3",
+                        "id": "tc48",
                         "type": "paragraph",
-                        "text": "Accordingly, customers should generally allow approximately 7\u201310 working days from order confirmation for delivery."
+                        "text": "Accordingly, customers should generally allow approximately 7–10 working days from order confirmation for delivery."
                       },
                       {
-                        "id": "s7p4",
+                        "id": "tc49",
                         "type": "paragraph",
                         "text": "Delivery timelines are estimates and may be affected by:"
                       },
                       {
-                        "id": "s7l1",
+                        "id": "tc50",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s7l1a",
+                            "id": "tc51",
                             "text": "Public holidays"
                           },
                           {
-                            "id": "s7l1b",
+                            "id": "tc52",
                             "text": "Weather conditions"
                           },
                           {
-                            "id": "s7l1c",
+                            "id": "tc53",
                             "text": "Courier delays"
                           },
                           {
-                            "id": "s7l1d",
+                            "id": "tc54",
                             "text": "Incorrect or incomplete addresses"
                           },
                           {
-                            "id": "s7l1e",
+                            "id": "tc55",
                             "text": "Remote-area delivery"
                           },
                           {
-                            "id": "s7l1f",
+                            "id": "tc56",
                             "text": "Natural disasters"
                           },
                           {
-                            "id": "s7l1g",
+                            "id": "tc57",
                             "text": "Government restrictions"
                           },
                           {
-                            "id": "s7l1h",
+                            "id": "tc58",
                             "text": "Other circumstances beyond our reasonable control"
                           }
                         ]
                       },
                       {
-                        "id": "s8h",
+                        "id": "tc59",
                         "type": "heading",
                         "level": 3,
                         "text": "8. Cancellation"
                       },
                       {
-                        "id": "s8p1",
+                        "id": "tc60",
                         "type": "paragraph",
                         "text": "Customers may request cancellation of an order before the order has been dispatched."
                       },
                       {
-                        "id": "s8p2",
+                        "id": "tc61",
                         "type": "paragraph",
                         "text": "Once an order has been dispatched, it cannot be cancelled and will be governed by our Return/Refund Policy."
                       },
                       {
-                        "id": "s8p3",
+                        "id": "tc62",
                         "type": "paragraph",
                         "text": "If an eligible cancellation is accepted after payment has been received, the applicable refund will be processed according to our refund procedure."
                       },
                       {
-                        "id": "s9h",
+                        "id": "tc63",
                         "type": "heading",
                         "level": 3,
                         "text": "9. Returns, Refunds and Replacements"
                       },
                       {
-                        "id": "s9p1",
+                        "id": "tc64",
                         "type": "paragraph",
                         "text": "Returns, refunds and replacements are governed by our separate Return & Refund Policy, available on the Website."
                       },
                       {
-                        "id": "s9p2",
+                        "id": "tc65",
                         "type": "paragraph",
                         "text": "Customers are advised to review that policy before placing an order."
                       },
                       {
-                        "id": "s10h",
+                        "id": "tc66",
                         "type": "heading",
                         "level": 3,
                         "text": "10. One-Year Replacement Warranty"
                       },
                       {
-                        "id": "s10p1",
+                        "id": "tc67",
                         "type": "paragraph",
                         "text": "Certain products may be covered by a one-year replacement warranty against manufacturing defects, subject to the applicable product and warranty conditions."
                       },
                       {
-                        "id": "s10p2",
+                        "id": "tc68",
                         "type": "paragraph",
                         "text": "The warranty does not generally cover damage resulting from:"
                       },
                       {
-                        "id": "s10l1",
+                        "id": "tc69",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s10l1a",
+                            "id": "tc70",
                             "text": "Improper use"
                           },
                           {
-                            "id": "s10l1b",
+                            "id": "tc71",
                             "text": "Accidental damage"
                           },
                           {
-                            "id": "s10l1c",
+                            "id": "tc72",
                             "text": "Negligence"
                           },
                           {
-                            "id": "s10l1d",
+                            "id": "tc73",
                             "text": "Unauthorized modification or repair"
                           },
                           {
-                            "id": "s10l1e",
+                            "id": "tc74",
                             "text": "Improper cleaning or maintenance"
                           },
                           {
-                            "id": "s10l1f",
+                            "id": "tc75",
                             "text": "Normal wear and tear"
                           },
                           {
-                            "id": "s10l1g",
+                            "id": "tc76",
                             "text": "Corrosion or damage caused by improper storage or care"
                           },
                           {
-                            "id": "s10l1h",
-                            "text": "Damage resulting from use contrary to the product\u2019s intended purpose"
+                            "id": "tc77",
+                            "text": "Damage resulting from use contrary to the product’s intended purpose"
                           }
                         ]
                       },
                       {
-                        "id": "s10p3",
+                        "id": "tc78",
                         "type": "paragraph",
                         "text": "Warranty eligibility will be determined after inspection of the returned product."
                       },
                       {
-                        "id": "s11h",
+                        "id": "tc79",
                         "type": "heading",
                         "level": 3,
                         "text": "11. Intellectual Property"
                       },
                       {
-                        "id": "s11p1",
+                        "id": "tc80",
                         "type": "paragraph",
                         "text": "All content on the Website, including logos, branding, text, graphics, photographs, product descriptions, design elements and other materials, is owned by or licensed to Kapson/surzion unless otherwise stated."
                       },
                       {
-                        "id": "s11p2",
+                        "id": "tc81",
                         "type": "paragraph",
                         "text": "You may not reproduce, distribute, modify, publish or commercially exploit Website content without prior written permission."
                       },
                       {
-                        "id": "s12h",
+                        "id": "tc82",
                         "type": "heading",
                         "level": 3,
                         "text": "12. Third-Party Services"
                       },
                       {
-                        "id": "s12p1",
+                        "id": "tc83",
                         "type": "paragraph",
                         "text": "The Website may use third-party services such as payment gateways, logistics providers, analytics services or other technology providers."
                       },
                       {
-                        "id": "s12p2",
+                        "id": "tc84",
                         "type": "paragraph",
                         "text": "Your use of such services may also be subject to the terms and policies of those third parties."
                       },
                       {
-                        "id": "s13h",
+                        "id": "tc85",
                         "type": "heading",
                         "level": 3,
                         "text": "13. Limitation of Liability"
                       },
                       {
-                        "id": "s13p1",
+                        "id": "tc86",
                         "type": "paragraph",
                         "text": "To the extent permitted by applicable law, surzion shall not be liable for indirect, incidental or consequential losses arising from the use of the Website or delays caused by circumstances beyond our reasonable control."
                       },
                       {
-                        "id": "s13p2",
+                        "id": "tc87",
                         "type": "paragraph",
                         "text": "Nothing in these Terms is intended to exclude or limit any consumer rights or statutory protections that cannot lawfully be excluded."
                       },
                       {
-                        "id": "s14h",
+                        "id": "tc88",
                         "type": "heading",
                         "level": 3,
                         "text": "14. Force Majeure"
                       },
                       {
-                        "id": "s14p1",
+                        "id": "tc89",
                         "type": "paragraph",
                         "text": "surzion shall not be responsible for delays or failure to perform obligations caused by circumstances beyond reasonable control, including natural disasters, strikes, transportation disruptions, government restrictions, war, civil disturbances, pandemics, technical failures or courier disruptions."
                       },
                       {
-                        "id": "s15h",
+                        "id": "tc90",
                         "type": "heading",
                         "level": 3,
                         "text": "15. Governing Law"
                       },
                       {
-                        "id": "s15p1",
+                        "id": "tc91",
                         "type": "paragraph",
                         "text": "These Terms shall be governed by the laws applicable in India."
                       },
                       {
-                        "id": "s15p2",
+                        "id": "tc92",
                         "type": "paragraph",
                         "text": "Any dispute shall be subject to the jurisdiction of the courts having appropriate jurisdiction over the business of Kapson, subject to applicable consumer-protection laws and jurisdictional requirements."
                       },
                       {
-                        "id": "s16h",
+                        "id": "tc93",
                         "type": "heading",
                         "level": 3,
                         "text": "16. Changes to These Terms"
                       },
                       {
-                        "id": "s16p1",
+                        "id": "tc94",
                         "type": "paragraph",
                         "text": "surzion may update these Terms from time to time."
                       },
                       {
-                        "id": "s16p2",
+                        "id": "tc95",
                         "type": "paragraph",
                         "text": "The revised Terms will be published on the Website and will become effective from the date specified in the updated version."
                       },
                       {
-                        "id": "s17h",
+                        "id": "tc96",
                         "type": "heading",
                         "level": 3,
                         "text": "17. Contact"
                       },
                       {
-                        "id": "s17p1",
+                        "id": "tc97",
                         "type": "paragraph",
                         "text": "For questions regarding these Terms, orders or products:"
                       },
                       {
-                        "id": "s17p2",
+                        "id": "tc98",
                         "type": "paragraph",
                         "text": "KAPSON ( surzion )"
                       },
                       {
-                        "id": "s17p3",
+                        "id": "tc99",
                         "type": "paragraph",
                         "text": "Email: sales@surzion.com"
                       },
                       {
-                        "id": "s17p4",
+                        "id": "tc100",
                         "type": "paragraph",
                         "text": "Phone: +917814861010, +918195831010"
                       },
                       {
-                        "id": "s17p5",
+                        "id": "tc101",
                         "type": "paragraph",
-                        "text": "Address:",
-                        "html": "<strong>Address:</strong>"
+                        "text": "Address:"
                       },
                       {
-                        "id": "s17p6",
+                        "id": "tc102",
                         "type": "paragraph",
                         "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021"
                       }

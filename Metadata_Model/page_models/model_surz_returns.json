@@ -241,13 +241,13 @@
                     },
                     "children": [
                       {
-                        "id": "t",
+                        "id": "rp1",
                         "type": "heading",
                         "level": 2,
                         "text": "Returns & Refunds policy"
                       },
                       {
-                        "id": "eff",
+                        "id": "rp2",
                         "type": "paragraph",
                         "text": "Effective Date: 26-01-2026",
                         "style": {
@@ -255,460 +255,459 @@
                         }
                       },
                       {
-                        "id": "i1",
+                        "id": "rp3",
                         "type": "paragraph",
                         "text": "This Return, Refund & Replacement Policy applies to purchases made through surzion, a brand operated by Kapson."
                       },
                       {
-                        "id": "i2",
+                        "id": "rp4",
                         "type": "paragraph",
                         "text": "We aim to ensure that customers receive the correct products in proper condition."
                       },
                       {
-                        "id": "s1h",
+                        "id": "rp5",
                         "type": "heading",
                         "level": 3,
                         "text": "1. 7-Day Return Policy"
                       },
                       {
-                        "id": "s1p1",
+                        "id": "rp6",
                         "type": "paragraph",
                         "text": "Customers may request a return within 7 calendar days from the date of delivery."
                       },
                       {
-                        "id": "s1p2",
+                        "id": "rp7",
                         "type": "paragraph",
                         "text": "The return request must be submitted within the applicable 7-day period."
                       },
                       {
-                        "id": "s1p3",
+                        "id": "rp8",
                         "type": "paragraph",
                         "text": "Products returned under the general return policy should:"
                       },
                       {
-                        "id": "s1l1",
+                        "id": "rp9",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s1l1a",
+                            "id": "rp10",
                             "text": "Be unused"
                           },
                           {
-                            "id": "s1l1b",
+                            "id": "rp11",
                             "text": "Be in their original condition"
                           },
                           {
-                            "id": "s1l1c",
+                            "id": "rp12",
                             "text": "Include original packaging and accessories, where applicable"
                           },
                           {
-                            "id": "s1l1d",
+                            "id": "rp13",
                             "text": "Not show signs of misuse, alteration or damage caused after delivery"
                           },
                           {
-                            "id": "s1l1e",
+                            "id": "rp14",
                             "text": "Be accompanied by the relevant order details/invoice"
                           }
                         ]
                       },
                       {
-                        "id": "s1p4",
+                        "id": "rp15",
                         "type": "paragraph",
                         "text": "All returns are subject to inspection and approval by Surzion."
                       },
                       {
-                        "id": "s2h",
+                        "id": "rp16",
                         "type": "heading",
                         "level": 3,
                         "text": "2. Products That Cannot Be Returned"
                       },
                       {
-                        "id": "s2p1",
+                        "id": "rp17",
                         "type": "paragraph",
                         "text": "For safety, hygiene and quality-control reasons, products may not be eligible for return where they have been:"
                       },
                       {
-                        "id": "s2l1",
+                        "id": "rp18",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s2l1a",
+                            "id": "rp19",
                             "text": "Used"
                           },
                           {
-                            "id": "s2l1b",
+                            "id": "rp20",
                             "text": "Modified"
                           },
                           {
-                            "id": "s2l1c",
+                            "id": "rp21",
                             "text": "Damaged after delivery"
                           },
                           {
-                            "id": "s2l1d",
+                            "id": "rp22",
                             "text": "Improperly cleaned or maintained"
                           },
                           {
-                            "id": "s2l1e",
+                            "id": "rp23",
                             "text": "Altered, repaired or tampered with"
                           },
                           {
-                            "id": "s2l1f",
+                            "id": "rp24",
                             "text": "Returned without required original packaging/accessories, where applicable"
                           }
                         ]
                       },
                       {
-                        "id": "s2p2",
+                        "id": "rp25",
                         "type": "paragraph",
                         "text": "This does not affect rights available to consumers under applicable law in relation to defective, deficient, incorrect or misrepresented products."
                       },
                       {
-                        "id": "s3h",
+                        "id": "rp26",
                         "type": "heading",
                         "level": 3,
                         "text": "3. Wrong, Damaged or Defective Products"
                       },
                       {
-                        "id": "s3p1",
+                        "id": "rp27",
                         "type": "paragraph",
                         "text": "If you receive:"
                       },
                       {
-                        "id": "s3l1",
+                        "id": "rp28",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s3l1a",
+                            "id": "rp29",
                             "text": "A wrong product"
                           },
                           {
-                            "id": "s3l1b",
+                            "id": "rp30",
                             "text": "A damaged product"
                           },
                           {
-                            "id": "s3l1c",
+                            "id": "rp31",
                             "text": "A product with a manufacturing defect"
                           },
                           {
-                            "id": "s3l1d",
+                            "id": "rp32",
                             "text": "A product materially different from the product ordered"
                           }
                         ]
                       },
                       {
-                        "id": "s3p2",
+                        "id": "rp33",
                         "type": "paragraph",
                         "text": "please contact us as soon as possible with the order details and supporting photographs/videos where applicable."
                       },
                       {
-                        "id": "s3p3",
+                        "id": "rp34",
                         "type": "paragraph",
                         "text": "After verification, surzion may arrange an appropriate replacement, return or refund in accordance with applicable law and the circumstances of the case."
                       },
                       {
-                        "id": "s4h",
+                        "id": "rp35",
                         "type": "heading",
                         "level": 3,
                         "text": "4. Return Shipping Charges"
                       },
                       {
-                        "id": "s4p1",
+                        "id": "rp36",
                         "type": "paragraph",
                         "text": "For a standard customer-requested return, the customer will be responsible for the cost of shipping the product back to surzion."
                       },
                       {
-                        "id": "s4p2",
+                        "id": "rp37",
                         "type": "paragraph",
                         "text": "Once the returned product is received and approved, surzion will bear the shipping cost for sending the applicable replacement product back to the customer."
                       },
                       {
-                        "id": "s4p3",
+                        "id": "rp38",
                         "type": "paragraph",
                         "text": "The customer will not be charged additional shipping for the replacement shipment."
                       },
                       {
-                        "id": "s4p4",
+                        "id": "rp39",
                         "type": "paragraph",
                         "text": "For products that are confirmed to have been wrongly supplied or damaged/defective due to an issue attributable to Surzion, the applicable shipping costs will be handled by Surzion, subject to verification."
                       },
                       {
-                        "id": "s5h",
+                        "id": "rp40",
                         "type": "heading",
                         "level": 3,
                         "text": "5. One-Year Replacement Warranty"
                       },
                       {
-                        "id": "s5p1",
+                        "id": "rp41",
                         "type": "paragraph",
                         "text": "Eligible products are covered by a one-year replacement warranty against manufacturing defects, beginning from the date of delivery."
                       },
                       {
-                        "id": "s5p2",
+                        "id": "rp42",
                         "type": "paragraph",
                         "text": "If a manufacturing defect develops during the warranty period, the customer may contact surzion with:"
                       },
                       {
-                        "id": "s5l1",
+                        "id": "rp43",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s5l1a",
+                            "id": "rp44",
                             "text": "Order/invoice details"
                           },
                           {
-                            "id": "s5l1b",
+                            "id": "rp45",
                             "text": "Product information"
                           },
                           {
-                            "id": "s5l1c",
+                            "id": "rp46",
                             "text": "Description of the issue"
                           },
                           {
-                            "id": "s5l1d",
+                            "id": "rp47",
                             "text": "Photographs/videos where required"
                           }
                         ]
                       },
                       {
-                        "id": "s5p3",
+                        "id": "rp48",
                         "type": "paragraph",
                         "text": "The product may need to be returned to surzion for inspection."
                       },
                       {
-                        "id": "s5p4",
+                        "id": "rp49",
                         "type": "paragraph",
                         "text": "If the defect is confirmed to be a manufacturing defect covered by the warranty, surzion will provide a replacement, subject to product availability."
                       },
                       {
-                        "id": "s6h",
+                        "id": "rp50",
                         "type": "heading",
                         "level": 3,
                         "text": "6. Warranty Exclusions"
                       },
                       {
-                        "id": "s6p1",
+                        "id": "rp51",
                         "type": "paragraph",
                         "text": "The one-year replacement warranty does not cover damage or failure caused by:"
                       },
                       {
-                        "id": "s6l1",
+                        "id": "rp52",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s6l1a",
+                            "id": "rp53",
                             "text": "Normal wear and tear"
                           },
                           {
-                            "id": "s6l1b",
+                            "id": "rp54",
                             "text": "Accidental damage"
                           },
                           {
-                            "id": "s6l1c",
+                            "id": "rp55",
                             "text": "Improper use"
                           },
                           {
-                            "id": "s6l1d",
+                            "id": "rp56",
                             "text": "Misuse or negligence"
                           },
                           {
-                            "id": "s6l1e",
+                            "id": "rp57",
                             "text": "Improper cleaning or maintenance"
                           },
                           {
-                            "id": "s6l1f",
+                            "id": "rp58",
                             "text": "Improper storage"
                           },
                           {
-                            "id": "s6l1g",
+                            "id": "rp59",
                             "text": "Unauthorized modification"
                           },
                           {
-                            "id": "s6l1h",
+                            "id": "rp60",
                             "text": "Unauthorized repair"
                           },
                           {
-                            "id": "s6l1i",
+                            "id": "rp61",
                             "text": "Corrosion caused by improper handling, cleaning or storage"
                           },
                           {
-                            "id": "s6l1j",
+                            "id": "rp62",
                             "text": "Use outside the intended purpose of the product"
                           },
                           {
-                            "id": "s6l1k",
-                            "text": "Damage resulting from circumstances beyond the manufacturer\u2019s or seller\u2019s control"
+                            "id": "rp63",
+                            "text": "Damage resulting from circumstances beyond the manufacturer’s or seller’s control"
                           }
                         ]
                       },
                       {
-                        "id": "s6p2",
+                        "id": "rp64",
                         "type": "paragraph",
                         "text": "The final determination of warranty eligibility will be made after inspection of the product."
                       },
                       {
-                        "id": "s7h",
+                        "id": "rp65",
                         "type": "heading",
                         "level": 3,
                         "text": "7. Refunds"
                       },
                       {
-                        "id": "s7p1",
+                        "id": "rp66",
                         "type": "paragraph",
                         "text": "Where a refund is approved, the refund will generally be processed through the original payment method or another appropriate method permitted by the payment provider."
                       },
                       {
-                        "id": "s7p2",
+                        "id": "rp67",
                         "type": "paragraph",
-                        "text": "The time taken for the amount to reflect in the customer\u2019s account may depend on the relevant bank, payment gateway or financial institution."
+                        "text": "The time taken for the amount to reflect in the customer’s account may depend on the relevant bank, payment gateway or financial institution."
                       },
                       {
-                        "id": "s7p3",
+                        "id": "rp68",
                         "type": "paragraph",
                         "text": "Where a product is returned because of a customer-requested return rather than a confirmed defect, wrong-product delivery or other issue attributable to Surzion, applicable shipping charges may not be refundable."
                       },
                       {
-                        "id": "s8h",
+                        "id": "rp69",
                         "type": "heading",
                         "level": 3,
                         "text": "8. Cancellation"
                       },
                       {
-                        "id": "s8p1",
+                        "id": "rp70",
                         "type": "paragraph",
                         "text": "Orders may be cancelled before dispatch."
                       },
                       {
-                        "id": "s8p2",
+                        "id": "rp71",
                         "type": "paragraph",
                         "text": "Once an order has been dispatched, cancellation is no longer available and the customer may use the applicable return process described in this Policy."
                       },
                       {
-                        "id": "s9h",
+                        "id": "rp72",
                         "type": "heading",
                         "level": 3,
                         "text": "9. How to Request a Return or Replacement"
                       },
                       {
-                        "id": "s9p1",
+                        "id": "rp73",
                         "type": "paragraph",
                         "text": "To request a return, refund or replacement, contact us with:"
                       },
                       {
-                        "id": "s9l1",
+                        "id": "rp74",
                         "type": "bullet_list",
                         "items": [
                           {
-                            "id": "s9l1a",
+                            "id": "rp75",
                             "text": "Order number"
                           },
                           {
-                            "id": "s9l1b",
+                            "id": "rp76",
                             "text": "Customer name"
                           },
                           {
-                            "id": "s9l1c",
+                            "id": "rp77",
                             "text": "Contact number/email"
                           },
                           {
-                            "id": "s9l1d",
+                            "id": "rp78",
                             "text": "Product name"
                           },
                           {
-                            "id": "s9l1e",
+                            "id": "rp79",
                             "text": "Reason for return/replacement"
                           },
                           {
-                            "id": "s9l1f",
+                            "id": "rp80",
                             "text": "Photographs/videos where applicable"
                           }
                         ]
                       },
                       {
-                        "id": "s9p2",
+                        "id": "rp81",
                         "type": "paragraph",
                         "text": "Requests should be sent to:"
                       },
                       {
-                        "id": "s9p3",
+                        "id": "rp82",
                         "type": "paragraph",
                         "text": "Email: sales@surzion.com"
                       },
                       {
-                        "id": "s9p4",
+                        "id": "rp83",
                         "type": "paragraph",
                         "text": "Phone(WhatsApp): +917814861010"
                       },
                       {
-                        "id": "s9p5",
+                        "id": "rp84",
                         "type": "paragraph",
                         "text": "Our team may provide return instructions after reviewing the request."
                       },
                       {
-                        "id": "s10h",
+                        "id": "rp85",
                         "type": "heading",
                         "level": 3,
                         "text": "10. Inspection"
                       },
                       {
-                        "id": "s10p1",
+                        "id": "rp86",
                         "type": "paragraph",
                         "text": "All returned products may be inspected before a return, refund or replacement is approved."
                       },
                       {
-                        "id": "s10p2",
+                        "id": "rp87",
                         "type": "paragraph",
                         "text": "Submitting a return request does not automatically guarantee approval."
                       },
                       {
-                        "id": "s10p3",
+                        "id": "rp88",
                         "type": "paragraph",
                         "text": "The decision will be based on the condition of the product, reason for return, applicable warranty conditions and applicable law."
                       },
                       {
-                        "id": "s11h",
+                        "id": "rp89",
                         "type": "heading",
                         "level": 3,
                         "text": "11. Changes to This Policy"
                       },
                       {
-                        "id": "s11p1",
+                        "id": "rp90",
                         "type": "paragraph",
                         "text": "surzion may update this Return, Refund & Replacement Policy from time to time."
                       },
                       {
-                        "id": "s11p2",
+                        "id": "rp91",
                         "type": "paragraph",
                         "text": "The updated version will be published on the Website with the applicable effective date."
                       },
                       {
-                        "id": "s12h",
+                        "id": "rp92",
                         "type": "heading",
                         "level": 3,
                         "text": "12. Contact Us"
                       },
                       {
-                        "id": "s12p1",
+                        "id": "rp93",
                         "type": "paragraph",
                         "text": "KAPSONS( surzion )"
                       },
                       {
-                        "id": "s12p2",
+                        "id": "rp94",
                         "type": "paragraph",
                         "text": "Email: sales@surzion.com"
                       },
                       {
-                        "id": "s12p3",
+                        "id": "rp95",
                         "type": "paragraph",
                         "text": "Phone: +917814861010, +918195831010"
                       },
                       {
-                        "id": "s12p4",
+                        "id": "rp96",
                         "type": "paragraph",
-                        "text": "Address:",
-                        "html": "<strong>Address:</strong>"
+                        "text": "Address:"
                       },
                       {
-                        "id": "s12p5",
+                        "id": "rp97",
                         "type": "paragraph",
                         "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext Chopra Township, Jalandhar, Punjab, India, 144021"
                       }

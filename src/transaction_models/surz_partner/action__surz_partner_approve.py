@@ -9,9 +9,16 @@
 # Row action. Admin / func-admin only (role read from the optional `_user`
 # object when the runtime supplies it; otherwise the object edit right is the
 # gate). Re-reads the stored row, PENDING only. Needs DISCOUNT_PCT in (0,100]
-# or an existing DISCOUNT_CODE. Blank code -> generates SZP-XXXX-NN and inserts
-# it into SURZ_DISCOUNT; given code -> must exist and be unowned or owned by
-# this partner. Sets STATUS/APPROVED_ON/APPROVED_BY/QR_URL. REGISTRY_ID
+# or an existing DISCOUNT_CODE. The code and % are taken from the FORM as the
+# admin set them (the action posts the stored row overlaid with the screen), so
+# they need not be saved first. Blank code -> generates SZP-XXXX-NN and inserts
+# it into SURZ_DISCOUNT; a NEW code the admin typed (letters, digits, - and _,
+# up to 24, stored upper-case) -> inserted with the given % (required); an
+# EXISTING code (matched case-insensitively) -> must already be THIS partner's
+# (a store-wide code with no partner is refused, never claimed or re-priced),
+# and a % given replaces its PERCENT_OFF. The % is rounded to 2 places; a
+# non-number is an error. The action runs in one transaction: any error
+# return rolls every write back. Sets STATUS/APPROVED_ON/APPROVED_BY/QR_URL. REGISTRY_ID
 # CONTRACT: the application's OWN REGISTRY_ID (row-security stamp) is used
 # first; the SURZ_CUSTOMER-by-e-mail match runs ONLY as a fallback when it is
 # empty (best effort) and the source used is logged. BACKFILL: SURZ_ORDER rows
@@ -106,13 +113,42 @@ def _base_letters(name):
     return (letters + 'XXXX')[:4]
 
 
+_CODE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_'
+
+
+def _valid_code(code):
+    if not code or len(code) > 24:
+        return False
+    for ch in code:
+        if ch not in _CODE_CHARS:
+            return False
+    return True
+
+
+def _insert_code(code, pct, partner_id, name, stamp_user, now_ts):
+    db.insert('SURZ_DISCOUNT', {
+        'CODE': code,
+        'DESCR': ('Partner ' + name)[:160],
+        'PERCENT_OFF': str(pct),
+        'MIN_ORDER': '0',
+        'IS_ACTIVE': 'Y',
+        'PARTNER_ID': partner_id,
+        'PARTNER_NAME': name[:120],
+        'USAGE_COUNT': 0,
+        'ADD_DATE': now_ts,
+        'ADD_USER': stamp_user,
+        'CHG_DATE': now_ts,
+        'CHG_USER': stamp_user,
+    })
+
+
 def _new_code(name):
     prefix = 'SZP-' + _base_letters(name) + '-'
     seed = datetime.datetime.now().microsecond
     for attempt in range(200):
         code = prefix + ('%02d' % ((seed + attempt * 7) % 100))
         if db.query_one('SELECT CODE FROM ' + db.t('SURZ_DISCOUNT')
-                        + ' WHERE CODE = :c', {'c': code}) is None:
+                        + ' WHERE UPPER(CODE) = :c', {'c': code}) is None:
             return code
     return ''
 
@@ -137,53 +173,95 @@ def run(args):
 
         name = _text(row['PARTNER_NAME'])
         email = _text(row['EMAIL'])
-        code = _text(row['DISCOUNT_CODE'])
-        pct = _dec(row['DISCOUNT_PCT'])
+        # The admin's choice ON SCREEN wins over what was last saved: the
+        # action posts the stored row overlaid with the form, so a code / %
+        # typed and not yet saved still counts. Everything else (STATUS,
+        # REGISTRY_ID) comes from the stored row above.
+        typed_code = _pick(args, 'DISCOUNT_CODE', 'discount_code')
+        typed_pct = _pick(args, 'DISCOUNT_PCT', 'discount_pct')
+        code = _text(typed_code if typed_code is not None else row['DISCOUNT_CODE'])
+        # The screen wins even when the admin CLEARED the % there (an existing
+        # code then keeps its own %); the stored value is used only when the
+        # payload carries no % at all.
+        pct_raw = _text(typed_pct if typed_pct is not None else row['DISCOUNT_PCT'])
+        pct = Decimal('0')
+        if pct_raw:
+            try:
+                pct = Decimal(pct_raw)
+            except Exception:
+                return {'error': 'Discount % is not a number.'}
+            if not pct.is_finite():
+                return {'error': 'Discount % is not a number.'}
+        # One rounding, matching the NUMBER(5,2) columns, used everywhere below.
+        pct = pct.quantize(Decimal('0.01'), rounding='ROUND_HALF_UP')
+        if pct < 0 or pct > 100:
+            return {'error': 'Discount % must be between 0 and 100.'}
         now_ts = now()
         approver = user_id[:10] if user_id else None
         stamp_user = approver or _SYSTEM_USER
 
-        if not code:
-            if pct <= 0 or pct > 100:
-                return {'error': 'Enter a Discount % between 0 and 100 (or pick '
-                                 'an existing Discount code) before approving.'}
-            code = _new_code(name)
-            if not code:
-                return {'error': 'Could not generate a unique discount code. Try again.'}
-            db.insert('SURZ_DISCOUNT', {
-                'CODE': code,
-                'DESCR': ('Partner ' + name)[:160],
-                'PERCENT_OFF': str(pct),
-                'MIN_ORDER': '0',
-                'IS_ACTIVE': 'Y',
-                'PARTNER_ID': partner_id,
-                'PARTNER_NAME': name[:120],
-                'USAGE_COUNT': 0,
-                'ADD_DATE': now_ts,
-                'ADD_USER': stamp_user,
-                'CHG_DATE': now_ts,
-                'CHG_USER': stamp_user,
-            })
-        else:
+        # Codes match case-insensitively (a shopper's code is too), so a typed
+        # `abc` finds a stored `ABC` / `Abc` and can never mint a near-duplicate
+        # or slip past another partner's ownership.
+        offer = None
+        if code:
             offer = db.query_one(
                 'SELECT CODE, PERCENT_OFF, PARTNER_ID FROM ' + db.t('SURZ_DISCOUNT')
-                + ' WHERE CODE = :c', {'c': code})
-            if offer is None:
-                return {'error': 'Discount code ' + code + ' does not exist.'}
+                + ' WHERE UPPER(CODE) = :c', {'c': code.upper()})
+        if offer is None:
+            # No code yet (generate one) or a NEW code the admin typed:
+            # either way it is created here with the given percentage.
+            if pct <= 0:
+                return {'error': 'Enter a Discount % between 0 and 100 (or pick '
+                                 'a code this partner already owns) before approving.'}
+            if code:
+                code = code.upper()
+                if not _valid_code(code):
+                    return {'error': 'A new discount code may use only letters, digits, '
+                                     '- and _ (up to 24 characters).'}
+            else:
+                code = _new_code(name)
+                if not code:
+                    return {'error': 'Could not generate a unique discount code. Try again.'}
+            try:
+                _insert_code(code, pct, partner_id, name, stamp_user, now_ts)
+            except Exception as exc:
+                # The action rolls back either way, nothing is half-written.
+                # Only a key clash means another approval took the code a
+                # moment ago (re-reading is not possible: the failed statement
+                # has aborted the transaction).
+                log('surz_partner_approve: insert of code ' + code + ' failed: ' + str(exc))
+                reason = str(exc).lower()
+                if 'duplicate' in reason or 'unique' in reason:
+                    return {'error': 'Discount code ' + code + ' was just taken. Choose '
+                                     'another code and approve again.'}
+                return {'error': 'Could not create discount code ' + code
+                                 + '. Please try again.'}
+        else:
+            code = _text(offer['CODE'])          # the stored spelling
             owner = _text(offer['PARTNER_ID'])
-            if owner and owner != partner_id:
+            if not owner:
+                # A store-wide promo (no partner) is never handed to a partner,
+                # and its percentage is never changed from here.
+                return {'error': 'Discount code ' + code + ' is a store-wide code, not a '
+                                 'partner code. Type a new code, or leave it blank to '
+                                 'generate one.'}
+            if owner != partner_id:
                 return {'error': 'This code belongs to another partner.'}
-            db.update('SURZ_DISCOUNT', {
-                'PARTNER_ID': partner_id,
+            changes_offer = {
                 'PARTNER_NAME': name[:120],
                 'IS_ACTIVE': 'Y',
                 'CHG_DATE': now_ts,
                 'CHG_USER': stamp_user,
-            }, {'CODE': code})
-            if pct <= 0:
-                pct = _dec(offer['PERCENT_OFF'])
+            }
+            if pct > 0:
+                # This partner's own code: it now gives exactly what was set.
+                changes_offer['PERCENT_OFF'] = str(pct)
+            else:
+                pct = _dec(offer['PERCENT_OFF']).quantize(Decimal('0.01'), rounding='ROUND_HALF_UP')
             if pct <= 0:
                 return {'error': 'The discount code has no percentage; enter a Discount %.'}
+            db.update('SURZ_DISCOUNT', changes_offer, {'CODE': code})
 
         qr_url = _QR_BASE + _encode(code)
 

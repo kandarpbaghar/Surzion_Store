@@ -8,7 +8,8 @@
 # functional_specification:
 # Row action. Admin / func-admin only (role read from the optional `_user`
 # object when the runtime supplies it). Re-reads the stored row: PENDING only
-# and REJECT_REASON must be non-blank. Sets STATUS = 'REJECTED', clears
+# and REJECT_REASON (as on the form, else as stored) must be non-blank; it is
+# saved with the rejection. Sets STATUS = 'REJECTED', clears
 # APPROVED_ON / APPROVED_BY, then emits 'surz_partner_rejected'
 # {partner_id, partner_name, email, reason}; an emit failure is logged only.
 # PARTNER ROLE: when REGISTRY_ID is non-blank, api.revoke_role(REGISTRY_ID,
@@ -66,12 +67,16 @@ def run(args):
             return {'error': 'Partner ' + partner_id + ' was not found.'}
         if _text(row['STATUS']).upper() != 'PENDING':
             return {'error': 'Only a PENDING application can be rejected.'}
-        reason = _text(row['REJECT_REASON'])
+        # The reason as typed on screen wins (the action posts the stored row
+        # overlaid with the form), so it need not be saved first.
+        typed_reason = _pick(args, 'REJECT_REASON', 'reject_reason')
+        reason = _text(typed_reason if typed_reason is not None else row['REJECT_REASON'])[:400]
         if not reason:
-            return {'error': 'Enter and save a Reject reason first.'}
+            return {'error': 'Enter a Reject reason first.'}
 
         db.update('SURZ_PARTNER', {
             'STATUS': 'REJECTED',
+            'REJECT_REASON': reason,
             'APPROVED_ON': None,
             'APPROVED_BY': None,
             'CHG_DATE': now(),

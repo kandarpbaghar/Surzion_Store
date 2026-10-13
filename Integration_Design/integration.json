@@ -123,6 +123,12 @@
           "type": "string",
           "description": "Ready-made plain-text e-mail body",
           "required": false
+        },
+        {
+          "name": "unboxing_instructions",
+          "type": "string",
+          "description": "Packing / unboxing instructions shown at checkout; blank lines separate paragraphs",
+          "required": false
         }
       ],
       "active": true
@@ -358,21 +364,27 @@
     "flows": {
       "twasta_surzion_store_partner_application_received": {
         "flow_id": "16ab74e4-2ba0-4c69-be32-f6dced46717b",
-        "flow_name": "Twasta · Surzion_Store · Partner Application Received",
+        "flow_name": "Twasta \u00b7 Surzion_Store \u00b7 Partner Application Received",
         "event": "surz_partner_registered",
         "last_saved_at": "2026-10-13T10:14:42+00:00"
       },
       "twasta_surzion_store_partner_approved": {
         "flow_id": "9eb9b7c6-1ad2-4211-a703-1047e45563b0",
-        "flow_name": "Twasta · Surzion_Store · Partner Approved",
+        "flow_name": "Twasta \u00b7 Surzion_Store \u00b7 Partner Approved",
         "event": "surz_partner_approved",
         "last_saved_at": "2026-10-13T10:15:00+00:00"
       },
       "twasta_surzion_store_partner_rejected": {
         "flow_id": "8c1389c9-4d4a-4e96-9a16-fa01c32b3572",
-        "flow_name": "Twasta · Surzion_Store · Partner Rejected",
+        "flow_name": "Twasta \u00b7 Surzion_Store \u00b7 Partner Rejected",
         "event": "surz_partner_rejected",
         "last_saved_at": "2026-10-13T10:15:30+00:00"
+      },
+      "twasta_surzion_store_order_confirmed": {
+        "flow_id": "2b8c4e75-67b5-4a0c-a063-ab4d464a3d98",
+        "flow_name": "Twasta \u00b7 Surzion_Store \u00b7 Order Confirmed",
+        "event": "surz_order_confirmed",
+        "last_saved_at": "2026-10-13T17:45:03.136616+00:00"
       }
     }
   }

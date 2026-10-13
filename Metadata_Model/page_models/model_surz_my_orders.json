@@ -255,7 +255,15 @@
                       "date": "ORDER_DATE",
                       "status": "ORDER_STATUS",
                       "paymentStatus": "PAY_STATUS",
-                      "total": "TOTAL_AMOUNT"
+                      "total": "TOTAL_AMOUNT",
+                      "subtotal": "SUBTOTAL",
+                      "discount": "DISCOUNT_AMT",
+                      "discountCode": "DISCOUNT_CODE",
+                      "tax": "GST_AMT",
+                      "shipping": "SHIPPING_AMT",
+                      "paidAmount": "PAID_AMOUNT",
+                      "paymentMethod": "PAY_METHOD",
+                      "address": "SHIP_ADDRESS"
                     },
                     "statusTones": {
                       "NEW": "info",
@@ -270,7 +278,7 @@
                       "REFUNDED": "neutral",
                       "FAILED": "error"
                     },
-                    "currencyPrefix": "\u20b9",
+                    "currencyPrefix": "₹",
                     "lines": {
                       "detailFormNo": "2",
                       "sku": "PRODUCT_CODE",
@@ -291,7 +299,40 @@
                     "pageSize": 10,
                     "emptyText": "You have not ordered anything yet.",
                     "emptyCtaLabel": "Browse instruments",
-                    "emptyCtaHref": "/instruments"
+                    "emptyCtaHref": "/instruments",
+                    "valueLabels": {
+                      "upi": "UPI",
+                      "card": "Card",
+                      "netbanking": "Net banking",
+                      "wallet": "Wallet",
+                      "emi": "EMI",
+                      "COD": "Cash on delivery",
+                      "PAID": "Paid",
+                      "FAILED": "Payment failed",
+                      "PENDING": "Payment pending",
+                      "NEW": "Placed",
+                      "CONFIRMED": "Confirmed",
+                      "PACKED": "Packed",
+                      "SHIPPED": "Shipped",
+                      "DELIVERED": "Delivered",
+                      "CANCELLED": "Cancelled",
+                      "REFUNDED": "Refunded"
+                    },
+                    "pay": {
+                      "label": "Complete payment",
+                      "href": "/pay?order={{id}}",
+                      "when": [
+                        "FAILED",
+                        "PENDING",
+                        ""
+                      ],
+                      "hideWhenStatus": [
+                        "CANCELLED",
+                        "DELIVERED"
+                      ]
+                    },
+                    "continueHref": "/instruments",
+                    "continueLabel": "Continue shopping"
                   }
                 ]
               }

@@ -43,6 +43,17 @@
 _EVENT_NAME = 'surz_order_confirmed'
 # Only ever used to choose WORDING — never to decide whether money is owed.
 _PAID_STATES = ('PAID', 'CAPTURED', 'SETTLED', 'COMPLETED', 'SUCCESS')
+# Packing / unboxing instructions — the same words the checkout shows, which
+# promises the customer a copy "to your email after placing an order".
+_UNBOXING = (
+    'Dear Valued Customer, we deeply appreciate your business. To ensure your '
+    'complete satisfaction and to help us assist you quickly in the rare event '
+    'of damage or missing items, we kindly request that you record a video '
+    'while opening the package.\n\n'
+    'This unboxing video and a damage report must be submitted within 48 hours '
+    'of receiving the shipment to process any replacements or refunds smoothly. '
+    'Thank you for your cooperation and for trusting us with your order!'
+)
 
 
 def _text(value):
@@ -185,6 +196,9 @@ def run(args):
                'Order total: INR ' + str(total),
                payment_line,
                '',
+               'Before you open your parcel',
+               _UNBOXING,
+               '',
                'Surzion Surgical Instruments']
         )
 
@@ -210,6 +224,7 @@ def run(args):
             'lines': lines,
             'subject': 'Your Surzion order ' + order_no,
             'body': body,
+            'unboxing_instructions': _UNBOXING,
         })
         log('surz_order_confirmation: confirmation for ' + order_no
             + ' queued for ' + email)
