@@ -230,7 +230,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Surgical Instruments \u00b7 Best Seller \u00b7 In stock",
+                    "eyebrow": "Surgical Instruments · Best Seller · In stock",
                     "text": "Allison Lung Retractor",
                     "bindings": {
                       "text": {
@@ -268,7 +268,7 @@
                     "id": "pprice",
                     "type": "heading",
                     "level": 2,
-                    "text": "\u20b92,010 per unit"
+                    "text": "₹2,010 per unit"
                   },
                   {
                     "id": "pbtns",
@@ -280,6 +280,16 @@
                         "source": "data_field",
                         "dataSource": "ds_self",
                         "path": "PRODUCT_CODE"
+                      },
+                      "buttons.0.on_click.name": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_NAME"
+                      },
+                      "buttons.0.on_click.image": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "IMAGE_URL"
                       }
                     },
                     "buttons": [
@@ -293,12 +303,12 @@
                           "kind": "add_to_cart",
                           "sku": "SURZ-0008",
                           "name": "Allison Lung Retractor",
-                          "price": "\u20b92,010",
+                          "price": "₹2,010",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=0db52f017b4e6ac5.jpg",
                           "href": "/allison-lung-retractor",
                           "meta": "Surgical Instruments",
                           "addedLabel": "Added",
-                          "inCartLabel": "In cart \u00b7 {n}",
+                          "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
                           "toast": true,
                           "toastLabel": "Added to cart",
@@ -332,8 +342,8 @@
                       {
                         "id": "pk1",
                         "icon": "truck",
-                        "title": "Dispatched in 2\u20133 working days",
-                        "description": "Delivery in about 7\u201310 working days"
+                        "title": "Dispatched in 2–3 working days",
+                        "description": "Delivery in about 7–10 working days"
                       },
                       {
                         "id": "pk2",
@@ -354,7 +364,7 @@
                     "type": "wishlist_button",
                     "sku": "SURZ-0008",
                     "name": "Allison Lung Retractor",
-                    "price": "\u20b92,010",
+                    "price": "₹2,010",
                     "href": "/allison-lung-retractor",
                     "meta": "Surgical Instruments",
                     "addLabel": "Save to wishlist",
@@ -554,12 +564,12 @@
                   "kind": "add_to_cart",
                   "sku": "{{p.PRODUCT_CODE}}",
                   "name": "{{p.PRODUCT_NAME}}",
-                  "price": "\u20b9{{p.UNIT_PRICE}}",
+                  "price": "₹{{p.UNIT_PRICE}}",
                   "image": "{{p.IMAGE_URL}}",
                   "href": "/{{p.SLUG}}",
                   "meta": "{{p.CATEGORY_NAME}}",
                   "addedLabel": "Added",
-                  "inCartLabel": "In cart \u00b7 {n}",
+                  "inCartLabel": "In cart · {n}",
                   "inCartStepper": true,
                   "toast": true,
                   "toastLabel": "Added to cart",
@@ -600,7 +610,7 @@
     ],
     "blocks": [],
     "seo": {
-      "title": "Allison Lung Retractor \u2014 Surzion",
+      "title": "Allison Lung Retractor — Surzion",
       "description": "A thoracic retractor with a broad fenestrated blade for holding lung tissue clear of the operative field."
     },
     "navigation": {

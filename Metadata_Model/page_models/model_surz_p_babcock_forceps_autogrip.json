@@ -230,7 +230,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Dissecting Forceps \u00b7 New \u00b7 In stock",
+                    "eyebrow": "Dissecting Forceps · New · In stock",
                     "text": "Babcock Forceps Autogrip",
                     "bindings": {
                       "text": {
@@ -268,7 +268,7 @@
                     "id": "pprice",
                     "type": "heading",
                     "level": 2,
-                    "text": "\u20b91,463 per unit"
+                    "text": "₹1,463 per unit"
                   },
                   {
                     "id": "pbtns",
@@ -280,6 +280,16 @@
                         "source": "data_field",
                         "dataSource": "ds_self",
                         "path": "PRODUCT_CODE"
+                      },
+                      "buttons.0.on_click.name": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "PRODUCT_NAME"
+                      },
+                      "buttons.0.on_click.image": {
+                        "source": "data_field",
+                        "dataSource": "ds_self",
+                        "path": "IMAGE_URL"
                       }
                     },
                     "buttons": [
@@ -293,12 +303,12 @@
                           "kind": "add_to_cart",
                           "sku": "SURZ-0016",
                           "name": "Babcock Forceps Autogrip",
-                          "price": "\u20b91,463",
+                          "price": "₹1,463",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=522ff00ac6f46b18.jpg",
                           "href": "/babcock-forceps-autogrip",
                           "meta": "Dissecting Forceps",
                           "addedLabel": "Added",
-                          "inCartLabel": "In cart \u00b7 {n}",
+                          "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
                           "toast": true,
                           "toastLabel": "Added to cart",
@@ -332,8 +342,8 @@
                       {
                         "id": "pk1",
                         "icon": "truck",
-                        "title": "Dispatched in 2\u20133 working days",
-                        "description": "Delivery in about 7\u201310 working days"
+                        "title": "Dispatched in 2–3 working days",
+                        "description": "Delivery in about 7–10 working days"
                       },
                       {
                         "id": "pk2",
@@ -354,7 +364,7 @@
                     "type": "wishlist_button",
                     "sku": "SURZ-0016",
                     "name": "Babcock Forceps Autogrip",
-                    "price": "\u20b91,463",
+                    "price": "₹1,463",
                     "href": "/babcock-forceps-autogrip",
                     "meta": "Surgical Instruments",
                     "addLabel": "Save to wishlist",
@@ -554,12 +564,12 @@
                   "kind": "add_to_cart",
                   "sku": "{{p.PRODUCT_CODE}}",
                   "name": "{{p.PRODUCT_NAME}}",
-                  "price": "\u20b9{{p.UNIT_PRICE}}",
+                  "price": "₹{{p.UNIT_PRICE}}",
                   "image": "{{p.IMAGE_URL}}",
                   "href": "/{{p.SLUG}}",
                   "meta": "{{p.CATEGORY_NAME}}",
                   "addedLabel": "Added",
-                  "inCartLabel": "In cart \u00b7 {n}",
+                  "inCartLabel": "In cart · {n}",
                   "inCartStepper": true,
                   "toast": true,
                   "toastLabel": "Added to cart",
@@ -600,7 +610,7 @@
     ],
     "blocks": [],
     "seo": {
-      "title": "Babcock Forceps Autogrip \u2014 Surzion",
+      "title": "Babcock Forceps Autogrip — Surzion",
       "description": "Non-crushing atraumatic jaw serrations for holding bowel and other delicate structures."
     },
     "navigation": {

@@ -112,7 +112,7 @@
           {
             "id": "p",
             "type": "paragraph",
-            "text": "Quality Surgical Instruments Supplier in India \u2014 forceps, retractors, clamps and handles for theatre, clinic and orthopaedic work.",
+            "text": "Quality Surgical Instruments Supplier in India — forceps, retractors, clamps and handles for theatre, clinic and orthopaedic work.",
             "style": {
               "typography": {
                 "maxWidth": 560
@@ -132,159 +132,180 @@
         },
         "blocks": [
           {
-            "id": "fb",
-            "type": "filter_bar",
-            "target": "cg_all",
-            "layout": "inline",
-            "search": {
-              "label": "Search instruments",
-              "placeholder": "Search instruments"
-            },
-            "facets": [
+            "id": "shop_cols",
+            "type": "columns",
+            "count": 2,
+            "gap": 32,
+            "align": "top",
+            "columns": [
               {
-                "id": "fspec",
-                "label": "Specialty",
-                "from": "eyebrow",
-                "showCounts": true,
-                "allLabel": "All instruments"
-              }
-            ],
-            "sort": [
-              {
-                "id": "sp1",
-                "label": "Price: low to high",
-                "by": "price",
-                "dir": "asc"
+                "id": "shop_col_filter",
+                "width": "250px",
+                "blocks": [
+                  {
+                    "id": "fb",
+                    "type": "filter_bar",
+                    "target": "cg_all",
+                    "layout": "sidebar",
+                    "search": {
+                      "label": "Search instruments",
+                      "placeholder": "Search instruments"
+                    },
+                    "facets": [
+                      {
+                        "id": "fspec",
+                        "label": "Specialty",
+                        "from": "eyebrow",
+                        "showCounts": true,
+                        "allLabel": "All instruments"
+                      }
+                    ],
+                    "sort": [
+                      {
+                        "id": "sp1",
+                        "label": "Price: low to high",
+                        "by": "price",
+                        "dir": "asc"
+                      },
+                      {
+                        "id": "sp2",
+                        "label": "Price: high to low",
+                        "by": "price",
+                        "dir": "desc"
+                      },
+                      {
+                        "id": "sn1",
+                        "label": "Name: A to Z",
+                        "by": "title",
+                        "dir": "asc"
+                      }
+                    ],
+                    "resultLabel": "{n} instruments"
+                  }
+                ]
               },
               {
-                "id": "sp2",
-                "label": "Price: high to low",
-                "by": "price",
-                "dir": "desc"
-              },
-              {
-                "id": "sn1",
-                "label": "Name: A to Z",
-                "by": "title",
-                "dir": "asc"
+                "id": "shop_col_grid",
+                "blocks": [
+                  {
+                    "id": "cg_all",
+                    "type": "card",
+                    "style": {
+                      "hover": {
+                        "translateY": -4,
+                        "shadow": "lg"
+                      },
+                      "hoverScope": "items",
+                      "transition": 200
+                    },
+                    "repeat": {
+                      "source": "ds_products",
+                      "as": "p",
+                      "designCount": 4,
+                      "layout": {
+                        "mode": "grid",
+                        "columns": 3,
+                        "gap": 16,
+                        "minColumnWidth": 160
+                      }
+                    },
+                    "bindings": {
+                      "card.title": {
+                        "source": "item_field",
+                        "path": "PRODUCT_NAME"
+                      },
+                      "card.imageAlt": {
+                        "source": "item_field",
+                        "path": "PRODUCT_NAME"
+                      },
+                      "card.eyebrow": {
+                        "source": "item_field",
+                        "path": "CATEGORY_NAME"
+                      },
+                      "card.imageUrl": {
+                        "source": "item_field",
+                        "path": "IMAGE_URL"
+                      },
+                      "card.badge": {
+                        "source": "item_field",
+                        "path": "RIBBON"
+                      },
+                      "card.price": {
+                        "source": "item_field",
+                        "path": "UNIT_PRICE"
+                      },
+                      "card.compareAtPrice": {
+                        "source": "item_field",
+                        "path": "MRP"
+                      },
+                      "card.hoverImageUrl": {
+                        "source": "item_field",
+                        "path": "HOVER_IMAGE_URL"
+                      }
+                    },
+                    "cardStyle": {
+                      "radius": 14,
+                      "padding": 14,
+                      "titleSize": 14,
+                      "bodySize": 13,
+                      "border": true,
+                      "shadow": "sm",
+                      "imageFit": "contain",
+                      "imageAspect": "1/1"
+                    },
+                    "card": {
+                      "id": "cg_all_c",
+                      "title": "Instrument",
+                      "eyebrow": "Specialty",
+                      "badge": "",
+                      "price": "0",
+                      "priceFormat": "currency",
+                      "priceCurrency": "INR",
+                      "showSavings": true,
+                      "wishlist": true,
+                      "secondaryCta": {
+                        "id": "cg_all_a",
+                        "label": "Add to bag",
+                        "variant": "primary",
+                        "size": "sm",
+                        "icon": "shopping-cart",
+                        "on_click": {
+                          "kind": "add_to_cart",
+                          "sku": "{{p.PRODUCT_CODE}}",
+                          "name": "{{p.PRODUCT_NAME}}",
+                          "price": "₹{{p.UNIT_PRICE}}",
+                          "image": "{{p.IMAGE_URL}}",
+                          "href": "/{{p.SLUG}}",
+                          "meta": "{{p.CATEGORY_NAME}}",
+                          "addedLabel": "Added",
+                          "inCartLabel": "In bag · {n}",
+                          "inCartStepper": true,
+                          "toast": true,
+                          "toastLabel": "Added to bag",
+                          "toastLinkLabel": "View bag",
+                          "cartHref": "/cart"
+                        }
+                      },
+                      "imageFit": "contain",
+                      "imageAspect": "1/1"
+                    },
+                    "on_click": {
+                      "kind": "external_url",
+                      "url": "/{{p.SLUG}}",
+                      "newTab": false
+                    }
+                  },
+                  {
+                    "id": "cg_none",
+                    "type": "paragraph",
+                    "text": "No instrument matches that. Clear the search or pick another specialty.",
+                    "style": {
+                      "textColor": "var(--pg-muted)"
+                    }
+                  }
+                ]
               }
-            ],
-            "resultLabel": "{n} instruments"
-          },
-          {
-            "id": "cg_all",
-            "type": "card",
-            "style": {
-              "hover": {
-                "translateY": -4,
-                "shadow": "lg"
-              },
-              "hoverScope": "items",
-              "transition": 200
-            },
-            "repeat": {
-              "source": "ds_products",
-              "as": "p",
-              "designCount": 4,
-              "layout": {
-                "mode": "grid",
-                "columns": 4,
-                "gap": 20
-              }
-            },
-            "bindings": {
-              "card.title": {
-                "source": "item_field",
-                "path": "PRODUCT_NAME"
-              },
-              "card.imageAlt": {
-                "source": "item_field",
-                "path": "PRODUCT_NAME"
-              },
-              "card.eyebrow": {
-                "source": "item_field",
-                "path": "CATEGORY_NAME"
-              },
-              "card.imageUrl": {
-                "source": "item_field",
-                "path": "IMAGE_URL"
-              },
-              "card.badge": {
-                "source": "item_field",
-                "path": "RIBBON"
-              },
-              "card.price": {
-                "source": "item_field",
-                "path": "UNIT_PRICE"
-              },
-              "card.compareAtPrice": {
-                "source": "item_field",
-                "path": "MRP"
-              },
-              "card.hoverImageUrl": {
-                "source": "item_field",
-                "path": "HOVER_IMAGE_URL"
-              }
-            },
-            "cardStyle": {
-              "radius": 14,
-              "padding": 14,
-              "titleSize": 14,
-              "bodySize": 13,
-              "border": true,
-              "shadow": "sm",
-              "imageFit": "contain",
-              "imageAspect": "1/1"
-            },
-            "card": {
-              "id": "cg_all_c",
-              "title": "Instrument",
-              "eyebrow": "Specialty",
-              "badge": "",
-              "price": "0",
-              "priceFormat": "currency",
-              "priceCurrency": "INR",
-              "showSavings": true,
-              "wishlist": true,
-              "secondaryCta": {
-                "id": "cg_all_a",
-                "label": "Add to bag",
-                "variant": "primary",
-                "size": "sm",
-                "icon": "shopping-cart",
-                "on_click": {
-                  "kind": "add_to_cart",
-                  "sku": "{{p.PRODUCT_CODE}}",
-                  "name": "{{p.PRODUCT_NAME}}",
-                  "price": "\u20b9{{p.UNIT_PRICE}}",
-                  "image": "{{p.IMAGE_URL}}",
-                  "href": "/{{p.SLUG}}",
-                  "meta": "{{p.CATEGORY_NAME}}",
-                  "addedLabel": "Added",
-                  "inCartLabel": "In bag \u00b7 {n}",
-                  "inCartStepper": true,
-                  "toast": true,
-                  "toastLabel": "Added to bag",
-                  "toastLinkLabel": "View bag",
-                  "cartHref": "/cart"
-                }
-              },
-              "imageFit": "contain",
-              "imageAspect": "1/1"
-            },
-            "on_click": {
-              "kind": "external_url",
-              "url": "/{{p.SLUG}}",
-              "newTab": false
-            }
-          },
-          {
-            "id": "cg_none",
-            "type": "paragraph",
-            "text": "No instrument matches that. Clear the search or pick another specialty.",
-            "style": {
-              "textColor": "var(--pg-muted)"
-            }
+            ]
           }
         ]
       },

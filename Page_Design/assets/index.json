@@ -1,5 +1,1103 @@
 [
   {
+    "id": "62fdc26abf66",
+    "name": "castpaw-retractor-kilner-retractor-4.png",
+    "file": "03004a792a435a4e.png",
+    "mime": "image/png",
+    "size": 236167,
+    "createdAt": 1791896432,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=03004a792a435a4e.png"
+  },
+  {
+    "id": "a2e6009b816c",
+    "name": "castpaw-retractor-kilner-retractor-3.png",
+    "file": "9f80ce58390dffe3.png",
+    "mime": "image/png",
+    "size": 293952,
+    "createdAt": 1791896430,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=9f80ce58390dffe3.png"
+  },
+  {
+    "id": "ad572a36f3eb",
+    "name": "castpaw-retractor-kilner-retractor-2.png",
+    "file": "5f15fe9cb0187265.png",
+    "mime": "image/png",
+    "size": 294890,
+    "createdAt": 1791896426,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=5f15fe9cb0187265.png"
+  },
+  {
+    "id": "3db54e3dbf49",
+    "name": "castpaw-retractor-kilner-retractor-1.png",
+    "file": "04a7631666b688cc.png",
+    "mime": "image/png",
+    "size": 289940,
+    "createdAt": 1791896422,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=04a7631666b688cc.png"
+  },
+  {
+    "id": "45d74d3157e1",
+    "name": "bone-reduction-clamp-towel-type-6.png",
+    "file": "0a2722c2089214e0.png",
+    "mime": "image/png",
+    "size": 404634,
+    "createdAt": 1791896420,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=0a2722c2089214e0.png"
+  },
+  {
+    "id": "968457ea718e",
+    "name": "bone-reduction-clamp-towel-type-5.png",
+    "file": "c151d8e332c6a675.png",
+    "mime": "image/png",
+    "size": 402676,
+    "createdAt": 1791896418,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c151d8e332c6a675.png"
+  },
+  {
+    "id": "34e0cb263e52",
+    "name": "bone-reduction-clamp-towel-type-4.png",
+    "file": "dd7418aef3e6b91a.png",
+    "mime": "image/png",
+    "size": 405029,
+    "createdAt": 1791896414,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=dd7418aef3e6b91a.png"
+  },
+  {
+    "id": "faeb3b4de0cd",
+    "name": "bone-reduction-clamp-towel-type-3.png",
+    "file": "c37daf69e88db7b0.png",
+    "mime": "image/png",
+    "size": 401490,
+    "createdAt": 1791896411,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c37daf69e88db7b0.png"
+  },
+  {
+    "id": "a88b1d1edf99",
+    "name": "bone-reduction-clamp-towel-type-2.png",
+    "file": "8f95092af44f6bb5.png",
+    "mime": "image/png",
+    "size": 468498,
+    "createdAt": 1791896409,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=8f95092af44f6bb5.png"
+  },
+  {
+    "id": "711bdb2e7fcf",
+    "name": "bone-reduction-clamp-towel-type-1.png",
+    "file": "dfe209766da9530b.png",
+    "mime": "image/png",
+    "size": 464646,
+    "createdAt": 1791896406,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=dfe209766da9530b.png"
+  },
+  {
+    "id": "4016e38e955c",
+    "name": "bulldog-clamps1-6.jpg",
+    "file": "1e579dac6facb186.jpg",
+    "mime": "image/jpeg",
+    "size": 108059,
+    "createdAt": 1791896404,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=1e579dac6facb186.jpg"
+  },
+  {
+    "id": "dde29f99e686",
+    "name": "bulldog-clamps1-5.jpg",
+    "file": "d56a29ec530c8fd1.jpg",
+    "mime": "image/jpeg",
+    "size": 108085,
+    "createdAt": 1791896397,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=d56a29ec530c8fd1.jpg"
+  },
+  {
+    "id": "eaf49807407a",
+    "name": "bulldog-clamps1-4.jpg",
+    "file": "8730b5433dd7c3b4.jpg",
+    "mime": "image/jpeg",
+    "size": 115064,
+    "createdAt": 1791896389,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=8730b5433dd7c3b4.jpg"
+  },
+  {
+    "id": "f89bc8ef64a3",
+    "name": "bulldog-clamps1-3.jpg",
+    "file": "38aa9fc5a86a37a6.jpg",
+    "mime": "image/jpeg",
+    "size": 115103,
+    "createdAt": 1791896384,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=38aa9fc5a86a37a6.jpg"
+  },
+  {
+    "id": "b061379c7cdc",
+    "name": "bulldog-clamps1-2.jpg",
+    "file": "44fd0e67089ae806.jpg",
+    "mime": "image/jpeg",
+    "size": 122138,
+    "createdAt": 1791896378,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=44fd0e67089ae806.jpg"
+  },
+  {
+    "id": "a7a9f2d66479",
+    "name": "bulldog-clamps1-1.jpg",
+    "file": "c124ffb75692aac6.jpg",
+    "mime": "image/jpeg",
+    "size": 121747,
+    "createdAt": 1791896371,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c124ffb75692aac6.jpg"
+  },
+  {
+    "id": "465197e9a1bc",
+    "name": "dandy-artery-forceps-55-6.jpg",
+    "file": "b551d54fef144217.jpg",
+    "mime": "image/jpeg",
+    "size": 87734,
+    "createdAt": 1791896364,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=b551d54fef144217.jpg"
+  },
+  {
+    "id": "afd4dd749b58",
+    "name": "dandy-artery-forceps-55-5.jpg",
+    "file": "187d228b4a393800.jpg",
+    "mime": "image/jpeg",
+    "size": 87747,
+    "createdAt": 1791896358,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=187d228b4a393800.jpg"
+  },
+  {
+    "id": "c1e2092ab2f2",
+    "name": "dandy-artery-forceps-55-4.jpg",
+    "file": "e2f51760831442b2.jpg",
+    "mime": "image/jpeg",
+    "size": 90261,
+    "createdAt": 1791896350,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e2f51760831442b2.jpg"
+  },
+  {
+    "id": "320e0dad9e8d",
+    "name": "dandy-artery-forceps-55-3.jpg",
+    "file": "e9d76dae650740b6.jpg",
+    "mime": "image/jpeg",
+    "size": 91018,
+    "createdAt": 1791896344,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e9d76dae650740b6.jpg"
+  },
+  {
+    "id": "c1205df75218",
+    "name": "dandy-artery-forceps-55-2.jpg",
+    "file": "b066fa639dfa6c0f.jpg",
+    "mime": "image/jpeg",
+    "size": 99589,
+    "createdAt": 1791896337,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=b066fa639dfa6c0f.jpg"
+  },
+  {
+    "id": "ac48e6c37410",
+    "name": "dandy-artery-forceps-55-1.jpg",
+    "file": "8f934e232fec204f.jpg",
+    "mime": "image/jpeg",
+    "size": 100393,
+    "createdAt": 1791896335,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=8f934e232fec204f.jpg"
+  },
+  {
+    "id": "07446bd5cbbe",
+    "name": "birkett-tonsil-artery-forceps-6.jpg",
+    "file": "cf887404628dfb97.jpg",
+    "mime": "image/jpeg",
+    "size": 119473,
+    "createdAt": 1791896329,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=cf887404628dfb97.jpg"
+  },
+  {
+    "id": "5d0754cbd5a7",
+    "name": "birkett-tonsil-artery-forceps-5.jpg",
+    "file": "591c14ca56a07b27.jpg",
+    "mime": "image/jpeg",
+    "size": 126341,
+    "createdAt": 1791896322,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=591c14ca56a07b27.jpg"
+  },
+  {
+    "id": "8675753586d9",
+    "name": "birkett-tonsil-artery-forceps-4.jpg",
+    "file": "3dd9dc5bc953fd27.jpg",
+    "mime": "image/jpeg",
+    "size": 100107,
+    "createdAt": 1791896315,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=3dd9dc5bc953fd27.jpg"
+  },
+  {
+    "id": "04d2b6b13882",
+    "name": "birkett-tonsil-artery-forceps-3.jpg",
+    "file": "14c8408a129b4e6e.jpg",
+    "mime": "image/jpeg",
+    "size": 103608,
+    "createdAt": 1791896308,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=14c8408a129b4e6e.jpg"
+  },
+  {
+    "id": "8b2829d3515d",
+    "name": "birkett-tonsil-artery-forceps-2.jpg",
+    "file": "9c84f2ebdb5cf813.jpg",
+    "mime": "image/jpeg",
+    "size": 103717,
+    "createdAt": 1791896302,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=9c84f2ebdb5cf813.jpg"
+  },
+  {
+    "id": "b0bff26e08cd",
+    "name": "birkett-tonsil-artery-forceps-1.jpg",
+    "file": "bbe65df4feac3df3.jpg",
+    "mime": "image/jpeg",
+    "size": 114740,
+    "createdAt": 1791896296,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=bbe65df4feac3df3.jpg"
+  },
+  {
+    "id": "6d82a8e08c0a",
+    "name": "bulldog-clamps-6.jpg",
+    "file": "ae996dca302f7f72.jpg",
+    "mime": "image/jpeg",
+    "size": 99799,
+    "createdAt": 1791896291,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ae996dca302f7f72.jpg"
+  },
+  {
+    "id": "0411c5fab056",
+    "name": "bulldog-clamps-5.jpg",
+    "file": "0bb0ad9e86e7e917.jpg",
+    "mime": "image/jpeg",
+    "size": 99888,
+    "createdAt": 1791896283,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=0bb0ad9e86e7e917.jpg"
+  },
+  {
+    "id": "0ba6618a3a61",
+    "name": "bulldog-clamps-4.jpg",
+    "file": "c16ec35046cd0d46.jpg",
+    "mime": "image/jpeg",
+    "size": 102756,
+    "createdAt": 1791896276,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c16ec35046cd0d46.jpg"
+  },
+  {
+    "id": "37e5fc8aaf1c",
+    "name": "bulldog-clamps-3.jpg",
+    "file": "8617dacead3d2730.jpg",
+    "mime": "image/jpeg",
+    "size": 102851,
+    "createdAt": 1791896270,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=8617dacead3d2730.jpg"
+  },
+  {
+    "id": "f505847a0a02",
+    "name": "bulldog-clamps-2.jpg",
+    "file": "1b080d64511085a8.jpg",
+    "mime": "image/jpeg",
+    "size": 107881,
+    "createdAt": 1791896265,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=1b080d64511085a8.jpg"
+  },
+  {
+    "id": "fec82d3eb8a7",
+    "name": "bulldog-clamps-1.jpg",
+    "file": "ef76845cfe12eab9.jpg",
+    "mime": "image/jpeg",
+    "size": 108590,
+    "createdAt": 1791896259,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ef76845cfe12eab9.jpg"
+  },
+  {
+    "id": "97643e4a9a16",
+    "name": "babcock-forceps-autogrip-6.jpg",
+    "file": "e5ea258be09e886d.jpg",
+    "mime": "image/jpeg",
+    "size": 102728,
+    "createdAt": 1791896254,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e5ea258be09e886d.jpg"
+  },
+  {
+    "id": "1776dae64337",
+    "name": "babcock-forceps-autogrip-5.jpg",
+    "file": "16b6198fb9f85f70.jpg",
+    "mime": "image/jpeg",
+    "size": 108923,
+    "createdAt": 1791896247,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=16b6198fb9f85f70.jpg"
+  },
+  {
+    "id": "3ef9e05e7dfe",
+    "name": "babcock-forceps-autogrip-4.jpg",
+    "file": "2f19458507862a73.jpg",
+    "mime": "image/jpeg",
+    "size": 108655,
+    "createdAt": 1791896241,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=2f19458507862a73.jpg"
+  },
+  {
+    "id": "d243749ebc19",
+    "name": "babcock-forceps-autogrip-3.jpg",
+    "file": "db011918b0999eba.jpg",
+    "mime": "image/jpeg",
+    "size": 115724,
+    "createdAt": 1791896234,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=db011918b0999eba.jpg"
+  },
+  {
+    "id": "28a2b90523a1",
+    "name": "babcock-forceps-autogrip-2.jpg",
+    "file": "78e8a50b5408d395.jpg",
+    "mime": "image/jpeg",
+    "size": 115999,
+    "createdAt": 1791896229,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=78e8a50b5408d395.jpg"
+  },
+  {
+    "id": "0aa2e81433a7",
+    "name": "babcock-forceps-autogrip-1.jpg",
+    "file": "7ade66239ae15c4d.jpg",
+    "mime": "image/jpeg",
+    "size": 102522,
+    "createdAt": 1791896222,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=7ade66239ae15c4d.jpg"
+  },
+  {
+    "id": "2c8eaecf7c3e",
+    "name": "bp-handle-bayonet-5-6.jpg",
+    "file": "e95da01df17c08a4.jpg",
+    "mime": "image/jpeg",
+    "size": 87390,
+    "createdAt": 1791896215,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e95da01df17c08a4.jpg"
+  },
+  {
+    "id": "3fd4130344da",
+    "name": "bp-handle-bayonet-5-5.jpg",
+    "file": "ac957986e742ff04.jpg",
+    "mime": "image/jpeg",
+    "size": 88701,
+    "createdAt": 1791896209,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ac957986e742ff04.jpg"
+  },
+  {
+    "id": "71db93140f59",
+    "name": "bp-handle-bayonet-5-4.jpg",
+    "file": "4a450480687d0f82.jpg",
+    "mime": "image/jpeg",
+    "size": 88763,
+    "createdAt": 1791896204,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=4a450480687d0f82.jpg"
+  },
+  {
+    "id": "acfbd3e56072",
+    "name": "bp-handle-bayonet-5-3.jpg",
+    "file": "007677293cc215e8.jpg",
+    "mime": "image/jpeg",
+    "size": 94343,
+    "createdAt": 1791896198,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=007677293cc215e8.jpg"
+  },
+  {
+    "id": "c9446572d097",
+    "name": "bp-handle-bayonet-5-2.jpg",
+    "file": "9493f87a40bee08f.jpg",
+    "mime": "image/jpeg",
+    "size": 94743,
+    "createdAt": 1791896191,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=9493f87a40bee08f.jpg"
+  },
+  {
+    "id": "4b06ccb4bd2a",
+    "name": "bp-handle-bayonet-5-1.jpg",
+    "file": "00e3c63310dccbc8.jpg",
+    "mime": "image/jpeg",
+    "size": 87517,
+    "createdAt": 1791896189,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=00e3c63310dccbc8.jpg"
+  },
+  {
+    "id": "7e53c8828635",
+    "name": "artery-forceps-robert-hemostatic-forceps-6.jpg",
+    "file": "aa5661a3362917bf.jpg",
+    "mime": "image/jpeg",
+    "size": 96652,
+    "createdAt": 1791896187,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=aa5661a3362917bf.jpg"
+  },
+  {
+    "id": "373b24ee85d7",
+    "name": "artery-forceps-robert-hemostatic-forceps-5.jpg",
+    "file": "0cabe867829ef774.jpg",
+    "mime": "image/jpeg",
+    "size": 96523,
+    "createdAt": 1791896182,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=0cabe867829ef774.jpg"
+  },
+  {
+    "id": "393255ddbea3",
+    "name": "artery-forceps-robert-hemostatic-forceps-4.jpg",
+    "file": "5fa8cb7050d91c75.jpg",
+    "mime": "image/jpeg",
+    "size": 99549,
+    "createdAt": 1791896177,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=5fa8cb7050d91c75.jpg"
+  },
+  {
+    "id": "46f7ead6d3fe",
+    "name": "artery-forceps-robert-hemostatic-forceps-3.jpg",
+    "file": "72a0670e6b1e0d11.jpg",
+    "mime": "image/jpeg",
+    "size": 99381,
+    "createdAt": 1791896172,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=72a0670e6b1e0d11.jpg"
+  },
+  {
+    "id": "f2bb7b148a57",
+    "name": "artery-forceps-robert-hemostatic-forceps-2.jpg",
+    "file": "59bd95de72fbe623.jpg",
+    "mime": "image/jpeg",
+    "size": 108861,
+    "createdAt": 1791896164,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=59bd95de72fbe623.jpg"
+  },
+  {
+    "id": "8a2bf20a5558",
+    "name": "artery-forceps-robert-hemostatic-forceps-1.jpg",
+    "file": "5d715c5f7f5b100d.jpg",
+    "mime": "image/jpeg",
+    "size": 109067,
+    "createdAt": 1791896158,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=5d715c5f7f5b100d.jpg"
+  },
+  {
+    "id": "8895c146b7f0",
+    "name": "artery-forceps-pean-6.jpg",
+    "file": "7b5a432d45141619.jpg",
+    "mime": "image/jpeg",
+    "size": 95516,
+    "createdAt": 1791896152,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=7b5a432d45141619.jpg"
+  },
+  {
+    "id": "c8b88db6a97f",
+    "name": "artery-forceps-pean-5.jpg",
+    "file": "c71952a50b3f398e.jpg",
+    "mime": "image/jpeg",
+    "size": 95528,
+    "createdAt": 1791896147,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c71952a50b3f398e.jpg"
+  },
+  {
+    "id": "47bb21ef4b27",
+    "name": "artery-forceps-pean-4.jpg",
+    "file": "1c36d8c7412fecb0.jpg",
+    "mime": "image/jpeg",
+    "size": 99507,
+    "createdAt": 1791896142,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=1c36d8c7412fecb0.jpg"
+  },
+  {
+    "id": "1d35a8c6e0a1",
+    "name": "artery-forceps-pean-3.jpg",
+    "file": "53ad58306ccf4d0c.jpg",
+    "mime": "image/jpeg",
+    "size": 99378,
+    "createdAt": 1791896134,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=53ad58306ccf4d0c.jpg"
+  },
+  {
+    "id": "16e91fa4dcac",
+    "name": "artery-forceps-pean-2.jpg",
+    "file": "ee0286fe59702d38.jpg",
+    "mime": "image/jpeg",
+    "size": 105446,
+    "createdAt": 1791896130,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ee0286fe59702d38.jpg"
+  },
+  {
+    "id": "8068a4c5e697",
+    "name": "artery-forceps-pean-1.jpg",
+    "file": "c18fe04c4574be4f.jpg",
+    "mime": "image/jpeg",
+    "size": 105207,
+    "createdAt": 1791896124,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c18fe04c4574be4f.jpg"
+  },
+  {
+    "id": "aeb804a0ec61",
+    "name": "artery-forceps-ochsner-6.jpg",
+    "file": "47caf535b397cb1c.jpg",
+    "mime": "image/jpeg",
+    "size": 107764,
+    "createdAt": 1791896117,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=47caf535b397cb1c.jpg"
+  },
+  {
+    "id": "5096bb07e814",
+    "name": "artery-forceps-ochsner-5.jpg",
+    "file": "2f6d604bb8648e89.jpg",
+    "mime": "image/jpeg",
+    "size": 107800,
+    "createdAt": 1791896110,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=2f6d604bb8648e89.jpg"
+  },
+  {
+    "id": "c0539bfaade1",
+    "name": "artery-forceps-ochsner-4.jpg",
+    "file": "799f0fc70521e8e1.jpg",
+    "mime": "image/jpeg",
+    "size": 111829,
+    "createdAt": 1791896105,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=799f0fc70521e8e1.jpg"
+  },
+  {
+    "id": "0a7cc7576911",
+    "name": "artery-forceps-ochsner-3.jpg",
+    "file": "9b9cd07d4f659e5a.jpg",
+    "mime": "image/jpeg",
+    "size": 111927,
+    "createdAt": 1791896100,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=9b9cd07d4f659e5a.jpg"
+  },
+  {
+    "id": "41f0dd2d7a55",
+    "name": "artery-forceps-ochsner-2.jpg",
+    "file": "117eb0ad29af0ced.jpg",
+    "mime": "image/jpeg",
+    "size": 119557,
+    "createdAt": 1791896092,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=117eb0ad29af0ced.jpg"
+  },
+  {
+    "id": "4561dd18326d",
+    "name": "artery-forceps-ochsner-1.jpg",
+    "file": "df5b6a315e2f9fb3.jpg",
+    "mime": "image/jpeg",
+    "size": 120773,
+    "createdAt": 1791896087,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=df5b6a315e2f9fb3.jpg"
+  },
+  {
+    "id": "bda2bc53f7b6",
+    "name": "artery-forceps-kocher-6.jpg",
+    "file": "34e040a1cb1e9387.jpg",
+    "mime": "image/jpeg",
+    "size": 109393,
+    "createdAt": 1791896079,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=34e040a1cb1e9387.jpg"
+  },
+  {
+    "id": "2d4c5c86794f",
+    "name": "artery-forceps-kocher-5.jpg",
+    "file": "3e5d250c0ddf8b3a.jpg",
+    "mime": "image/jpeg",
+    "size": 100885,
+    "createdAt": 1791896073,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=3e5d250c0ddf8b3a.jpg"
+  },
+  {
+    "id": "87bba145ddc0",
+    "name": "artery-forceps-kocher-4.jpg",
+    "file": "43bceac4b6184a27.jpg",
+    "mime": "image/jpeg",
+    "size": 105814,
+    "createdAt": 1791896066,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=43bceac4b6184a27.jpg"
+  },
+  {
+    "id": "e3647618220f",
+    "name": "artery-forceps-kocher-3.jpg",
+    "file": "edbaa85737e8bf95.jpg",
+    "mime": "image/jpeg",
+    "size": 105674,
+    "createdAt": 1791896060,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=edbaa85737e8bf95.jpg"
+  },
+  {
+    "id": "1ca9b7b6fc73",
+    "name": "artery-forceps-kocher-2.jpg",
+    "file": "dd11379b6f21e551.jpg",
+    "mime": "image/jpeg",
+    "size": 118054,
+    "createdAt": 1791896053,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=dd11379b6f21e551.jpg"
+  },
+  {
+    "id": "30c656653357",
+    "name": "artery-forceps-kocher-1.jpg",
+    "file": "479d7f7be1365619.jpg",
+    "mime": "image/jpeg",
+    "size": 118480,
+    "createdAt": 1791896047,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=479d7f7be1365619.jpg"
+  },
+  {
+    "id": "2971afbce19a",
+    "name": "artery-forceps-crile-6.jpg",
+    "file": "d2451347bfaeb2de.jpg",
+    "mime": "image/jpeg",
+    "size": 94392,
+    "createdAt": 1791896040,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=d2451347bfaeb2de.jpg"
+  },
+  {
+    "id": "35a797e37b87",
+    "name": "artery-forceps-crile-5.jpg",
+    "file": "a0be91990ec28611.jpg",
+    "mime": "image/jpeg",
+    "size": 94393,
+    "createdAt": 1791896035,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=a0be91990ec28611.jpg"
+  },
+  {
+    "id": "ee04cd4f7fcd",
+    "name": "artery-forceps-crile-4.jpg",
+    "file": "18e6c756be7c3b3a.jpg",
+    "mime": "image/jpeg",
+    "size": 98594,
+    "createdAt": 1791896027,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=18e6c756be7c3b3a.jpg"
+  },
+  {
+    "id": "cb537fe1f843",
+    "name": "artery-forceps-crile-3.jpg",
+    "file": "ad16cfccde0101a5.jpg",
+    "mime": "image/jpeg",
+    "size": 98793,
+    "createdAt": 1791896020,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ad16cfccde0101a5.jpg"
+  },
+  {
+    "id": "b78408b78b7f",
+    "name": "artery-forceps-crile-2.jpg",
+    "file": "38f5d7bd5f0bfcac.jpg",
+    "mime": "image/jpeg",
+    "size": 106456,
+    "createdAt": 1791896012,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=38f5d7bd5f0bfcac.jpg"
+  },
+  {
+    "id": "8a2da9ebaf19",
+    "name": "artery-forceps-crile-1.jpg",
+    "file": "208e50e1c765a450.jpg",
+    "mime": "image/jpeg",
+    "size": 106421,
+    "createdAt": 1791896010,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=208e50e1c765a450.jpg"
+  },
+  {
+    "id": "cb0e6c1da981",
+    "name": "anderson-tendon-tunneling-forceps-5.jpg",
+    "file": "217d8b0d134f39ec.jpg",
+    "mime": "image/jpeg",
+    "size": 96306,
+    "createdAt": 1791895994,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=217d8b0d134f39ec.jpg"
+  },
+  {
+    "id": "702782ca0ec1",
+    "name": "anderson-tendon-tunneling-forceps-4.jpg",
+    "file": "7144174c62bcbc3b.jpg",
+    "mime": "image/jpeg",
+    "size": 95455,
+    "createdAt": 1791895989,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=7144174c62bcbc3b.jpg"
+  },
+  {
+    "id": "dce05edef962",
+    "name": "anderson-tendon-tunneling-forceps-3.jpg",
+    "file": "f775767d89af88a7.jpg",
+    "mime": "image/jpeg",
+    "size": 95610,
+    "createdAt": 1791895983,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=f775767d89af88a7.jpg"
+  },
+  {
+    "id": "f6720ee84948",
+    "name": "anderson-tendon-tunneling-forceps-2.jpg",
+    "file": "4dd80391297e9199.jpg",
+    "mime": "image/jpeg",
+    "size": 101739,
+    "createdAt": 1791895978,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=4dd80391297e9199.jpg"
+  },
+  {
+    "id": "89a7f08d5750",
+    "name": "anderson-tendon-tunneling-forceps-1.jpg",
+    "file": "7856166abc5dc3c4.jpg",
+    "mime": "image/jpeg",
+    "size": 101353,
+    "createdAt": 1791895976,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=7856166abc5dc3c4.jpg"
+  },
+  {
+    "id": "67967a45a5c5",
+    "name": "allison-lung-retractor-6.jpg",
+    "file": "c3d2b7d045052bfe.jpg",
+    "mime": "image/jpeg",
+    "size": 113562,
+    "createdAt": 1791895974,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=c3d2b7d045052bfe.jpg"
+  },
+  {
+    "id": "da8e546354e1",
+    "name": "allison-lung-retractor-5.jpg",
+    "file": "d5a8cf77063aad11.jpg",
+    "mime": "image/jpeg",
+    "size": 113438,
+    "createdAt": 1791895968,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=d5a8cf77063aad11.jpg"
+  },
+  {
+    "id": "fd4a66e0c0b8",
+    "name": "allison-lung-retractor-4.jpg",
+    "file": "f08c23637a1d7d99.jpg",
+    "mime": "image/jpeg",
+    "size": 109599,
+    "createdAt": 1791895963,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=f08c23637a1d7d99.jpg"
+  },
+  {
+    "id": "936a60707a9d",
+    "name": "allison-lung-retractor-3.jpg",
+    "file": "a407a7761b921a95.jpg",
+    "mime": "image/jpeg",
+    "size": 109614,
+    "createdAt": 1791895955,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=a407a7761b921a95.jpg"
+  },
+  {
+    "id": "37e43b36c53e",
+    "name": "allison-lung-retractor-2.jpg",
+    "file": "59b050006d4be2e6.jpg",
+    "mime": "image/jpeg",
+    "size": 129990,
+    "createdAt": 1791895948,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=59b050006d4be2e6.jpg"
+  },
+  {
+    "id": "273cbfb6931a",
+    "name": "allison-lung-retractor-1.jpg",
+    "file": "d8ad3e7e487a2213.jpg",
+    "mime": "image/jpeg",
+    "size": 130405,
+    "createdAt": 1791895946,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=d8ad3e7e487a2213.jpg"
+  },
+  {
+    "id": "e3af5f82e4c9",
+    "name": "allis-tissue-forceps-autragrip-6.jpg",
+    "file": "e3e5c15313fcdf2d.jpg",
+    "mime": "image/jpeg",
+    "size": 108590,
+    "createdAt": 1791895943,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e3e5c15313fcdf2d.jpg"
+  },
+  {
+    "id": "4383cbd167b8",
+    "name": "allis-tissue-forceps-autragrip-5.jpg",
+    "file": "be94c95205115aa1.jpg",
+    "mime": "image/jpeg",
+    "size": 102741,
+    "createdAt": 1791895938,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=be94c95205115aa1.jpg"
+  },
+  {
+    "id": "55b78ee401e1",
+    "name": "allis-tissue-forceps-autragrip-4.jpg",
+    "file": "5ec291a4bde12931.jpg",
+    "mime": "image/jpeg",
+    "size": 105420,
+    "createdAt": 1791895933,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=5ec291a4bde12931.jpg"
+  },
+  {
+    "id": "0811c059a1bd",
+    "name": "allis-tissue-forceps-autragrip-3.jpg",
+    "file": "148e5e053dce4e6d.jpg",
+    "mime": "image/jpeg",
+    "size": 105339,
+    "createdAt": 1791895928,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=148e5e053dce4e6d.jpg"
+  },
+  {
+    "id": "ec5fab345cab",
+    "name": "allis-tissue-forceps-autragrip-2.jpg",
+    "file": "0d35477d33d406db.jpg",
+    "mime": "image/jpeg",
+    "size": 114863,
+    "createdAt": 1791895922,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=0d35477d33d406db.jpg"
+  },
+  {
+    "id": "26e1c5c46e3a",
+    "name": "allis-tissue-forceps-autragrip-1.jpg",
+    "file": "2bc7682806e80bb6.jpg",
+    "mime": "image/jpeg",
+    "size": 114948,
+    "createdAt": 1791895916,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=2bc7682806e80bb6.jpg"
+  },
+  {
+    "id": "6aec596b1016",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-6.jpg",
+    "file": "e9087df2359e73fb.jpg",
+    "mime": "image/jpeg",
+    "size": 105275,
+    "createdAt": 1791895909,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=e9087df2359e73fb.jpg"
+  },
+  {
+    "id": "0a4fbfae8312",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-5.jpg",
+    "file": "a2b8fddcd32d01af.jpg",
+    "mime": "image/jpeg",
+    "size": 98016,
+    "createdAt": 1791895902,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=a2b8fddcd32d01af.jpg"
+  },
+  {
+    "id": "11892be8193d",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-4.jpg",
+    "file": "88a71fcb03538cc8.jpg",
+    "mime": "image/jpeg",
+    "size": 102998,
+    "createdAt": 1791895896,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=88a71fcb03538cc8.jpg"
+  },
+  {
+    "id": "1cfcd58d665a",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-3.jpg",
+    "file": "95ff6711080e2984.jpg",
+    "mime": "image/jpeg",
+    "size": 102992,
+    "createdAt": 1791895891,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=95ff6711080e2984.jpg"
+  },
+  {
+    "id": "a4f175f75107",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-2.jpg",
+    "file": "b27e8833bfe4039e.jpg",
+    "mime": "image/jpeg",
+    "size": 108794,
+    "createdAt": 1791895883,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=b27e8833bfe4039e.jpg"
+  },
+  {
+    "id": "3343f8578ac3",
+    "name": "allis-tissue-forceps-surgical-tissue-forceps-1.jpg",
+    "file": "4169203f6ac5fac8.jpg",
+    "mime": "image/jpeg",
+    "size": 108967,
+    "createdAt": 1791895876,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=4169203f6ac5fac8.jpg"
+  },
+  {
+    "id": "27d19352c6d5",
+    "name": "premium-surgical-instruments-2-6.jpg",
+    "file": "01458a1ec08a66fd.jpg",
+    "mime": "image/jpeg",
+    "size": 93173,
+    "createdAt": 1791895872,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=01458a1ec08a66fd.jpg"
+  },
+  {
+    "id": "17ef2a2f9610",
+    "name": "premium-surgical-instruments-2-5.jpg",
+    "file": "52a8950cba9ea891.jpg",
+    "mime": "image/jpeg",
+    "size": 93311,
+    "createdAt": 1791895866,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=52a8950cba9ea891.jpg"
+  },
+  {
+    "id": "652be8e475ce",
+    "name": "premium-surgical-instruments-2-4.jpg",
+    "file": "ec97397151992013.jpg",
+    "mime": "image/jpeg",
+    "size": 101404,
+    "createdAt": 1791895861,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=ec97397151992013.jpg"
+  },
+  {
+    "id": "b44d7a2e000f",
+    "name": "premium-surgical-instruments-2-3.jpg",
+    "file": "44048bdf82972969.jpg",
+    "mime": "image/jpeg",
+    "size": 101553,
+    "createdAt": 1791895855,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=44048bdf82972969.jpg"
+  },
+  {
+    "id": "ef65687d5f4f",
+    "name": "premium-surgical-instruments-2-2.jpg",
+    "file": "cd713c05975bc2d0.jpg",
+    "mime": "image/jpeg",
+    "size": 95256,
+    "createdAt": 1791895848,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=cd713c05975bc2d0.jpg"
+  },
+  {
+    "id": "8ca9b5c1fe40",
+    "name": "premium-surgical-instruments-2-1.jpg",
+    "file": "76639d7ba4bdd661.jpg",
+    "mime": "image/jpeg",
+    "size": 97643,
+    "createdAt": 1791895843,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=76639d7ba4bdd661.jpg"
+  },
+  {
+    "id": "a7b1fef72b93",
+    "name": "adson-brown-tissue-forceps-6.jpg",
+    "file": "3dc8bfdbb8d89b98.jpg",
+    "mime": "image/jpeg",
+    "size": 100934,
+    "createdAt": 1791895810,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=3dc8bfdbb8d89b98.jpg"
+  },
+  {
+    "id": "4d7678eef9d4",
+    "name": "adson-brown-tissue-forceps-5.jpg",
+    "file": "adf1c8a3185b19ba.jpg",
+    "mime": "image/jpeg",
+    "size": 104654,
+    "createdAt": 1791895804,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=adf1c8a3185b19ba.jpg"
+  },
+  {
+    "id": "ea9928bc85ed",
+    "name": "adson-brown-tissue-forceps-4.jpg",
+    "file": "83fe95ae6083bd1d.jpg",
+    "mime": "image/jpeg",
+    "size": 104605,
+    "createdAt": 1791895796,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=83fe95ae6083bd1d.jpg"
+  },
+  {
+    "id": "247dd80cf2ba",
+    "name": "adson-brown-tissue-forceps-3.jpg",
+    "file": "b6d84a54efe8de59.jpg",
+    "mime": "image/jpeg",
+    "size": 115328,
+    "createdAt": 1791895790,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=b6d84a54efe8de59.jpg"
+  },
+  {
+    "id": "36f94511be1e",
+    "name": "adson-brown-tissue-forceps-2.jpg",
+    "file": "6ec6a605314b459e.jpg",
+    "mime": "image/jpeg",
+    "size": 115401,
+    "createdAt": 1791895785,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=6ec6a605314b459e.jpg"
+  },
+  {
+    "id": "e454b1939f32",
+    "name": "adson-brown-tissue-forceps-1.jpg",
+    "file": "8807fc70b819407a.jpg",
+    "mime": "image/jpeg",
+    "size": 100750,
+    "createdAt": 1791895783,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=8807fc70b819407a.jpg"
+  },
+  {
+    "id": "c3014ec2789b",
+    "name": "adson-beckman-retractor-6.jpg",
+    "file": "9e11cdd0cb056ea7.jpg",
+    "mime": "image/jpeg",
+    "size": 113355,
+    "createdAt": 1791895782,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=9e11cdd0cb056ea7.jpg"
+  },
+  {
+    "id": "87daad55c235",
+    "name": "adson-beckman-retractor-5.jpg",
+    "file": "637835cc48d9050a.jpg",
+    "mime": "image/jpeg",
+    "size": 113316,
+    "createdAt": 1791895778,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=637835cc48d9050a.jpg"
+  },
+  {
+    "id": "8eb83bac2347",
+    "name": "adson-beckman-retractor-4.jpg",
+    "file": "31622fbe984b5700.jpg",
+    "mime": "image/jpeg",
+    "size": 106788,
+    "createdAt": 1791895773,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=31622fbe984b5700.jpg"
+  },
+  {
+    "id": "1fedd473e373",
+    "name": "adson-beckman-retractor-3.jpg",
+    "file": "6a59eaf06cdfea78.jpg",
+    "mime": "image/jpeg",
+    "size": 107124,
+    "createdAt": 1791895767,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=6a59eaf06cdfea78.jpg"
+  },
+  {
+    "id": "49f16dbca87d",
+    "name": "adson-beckman-retractor-2.jpg",
+    "file": "f8408299ff98acb9.jpg",
+    "mime": "image/jpeg",
+    "size": 120720,
+    "createdAt": 1791895761,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=f8408299ff98acb9.jpg"
+  },
+  {
+    "id": "e8d33f67b697",
+    "name": "adson-beckman-retractor-1.jpg",
+    "file": "f475e4350ce2e735.jpg",
+    "mime": "image/jpeg",
+    "size": 121097,
+    "createdAt": 1791895758,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=f475e4350ce2e735.jpg"
+  },
+  {
+    "id": "73b6f858df96",
+    "name": "adenoid-curette-with-cage-surgical-instruments-5.jpg",
+    "file": "3da6d2d8ed5491bf.jpg",
+    "mime": "image/jpeg",
+    "size": 92492,
+    "createdAt": 1791895699,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=3da6d2d8ed5491bf.jpg"
+  },
+  {
+    "id": "16227fc5a0b4",
+    "name": "adenoid-curette-with-cage-surgical-instruments-4.jpg",
+    "file": "bcf02d72a9c1a98f.jpg",
+    "mime": "image/jpeg",
+    "size": 92575,
+    "createdAt": 1791895691,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=bcf02d72a9c1a98f.jpg"
+  },
+  {
+    "id": "64de50b4c485",
+    "name": "adenoid-curette-with-cage-surgical-instruments-3.jpg",
+    "file": "66cefaa8976284d6.jpg",
+    "mime": "image/jpeg",
+    "size": 110691,
+    "createdAt": 1791895683,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=66cefaa8976284d6.jpg"
+  },
+  {
+    "id": "896b61e48a2f",
+    "name": "adenoid-curette-with-cage-surgical-instruments-2.jpg",
+    "file": "6e49d5edc7e2888c.jpg",
+    "mime": "image/jpeg",
+    "size": 97887,
+    "createdAt": 1791895676,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=6e49d5edc7e2888c.jpg"
+  },
+  {
+    "id": "d98294739610",
+    "name": "adenoid-curette-with-cage-surgical-instruments-1.jpg",
+    "file": "050682e379d27504.jpg",
+    "mime": "image/jpeg",
+    "size": 110177,
+    "createdAt": 1791895668,
+    "url": "/api/designers/assets/raw?project=Surzion_Store&file=050682e379d27504.jpg"
+  },
+  {
     "id": "4f657d6b31f5",
     "name": "f62e2b1b6e63668e7b024ddba1ba12d1.jpg",
     "file": "64d2050448a70652.jpg",

@@ -75,71 +75,6 @@
     },
     "sections": [
       {
-        "id": "sec_announce",
-        "name": "Announcement bar",
-        "tag": "custom",
-        "width": "full",
-        "sticky": false,
-        "colorSchemeId": "cs_navy",
-        "style": {
-          "padding": {
-            "top": 8,
-            "bottom": 8
-          }
-        },
-        "blocks": [
-          {
-            "id": "hdr_announce_cols",
-            "type": "columns",
-            "count": 2,
-            "gap": 16,
-            "align": "center",
-            "columns": [
-              {
-                "id": "hdr_ann_l",
-                "blocks": [
-                  {
-                    "id": "hdr_announce_p",
-                    "type": "paragraph",
-                    "text": "Exclusive discounts on surgical instruments today!",
-                    "html": "<strong>Exclusive discounts on surgical instruments today!</strong>",
-                    "style": {
-                      "align": "left",
-                      "typography": {
-                        "fontSize": 13,
-                        "fontWeight": 600
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "hdr_ann_r",
-                "blocks": [
-                  {
-                    "id": "hdr_announce_btn",
-                    "type": "button",
-                    "align": "right",
-                    "button": {
-                      "id": "hdr_announce_b",
-                      "label": "NEW · Creators & influencers: get your own Surzion discount code",
-                      "variant": "link",
-                      "size": "sm",
-                      "icon": "arrow-right",
-                      "on_click": {
-                        "kind": "external_url",
-                        "url": "/partner",
-                        "newTab": false
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "sec_header",
         "name": "Header",
         "tag": "header",
@@ -147,8 +82,8 @@
         "sticky": true,
         "style": {
           "padding": {
-            "top": 18,
-            "bottom": 18
+            "top": 10,
+            "bottom": 10
           },
           "background": {
             "kind": "color",
@@ -172,7 +107,7 @@
                     "type": "image",
                     "url": "/api/website/ea6b6f31-4e76-4a88-aaae-39fec360ad03/Surzion_Store/asset/77fd5cd73669e05e.jpg",
                     "alt": "Surzion logo",
-                    "maxWidth": 150,
+                    "maxWidth": 120,
                     "align": "left",
                     "priority": true,
                     "on_click": {
@@ -274,7 +209,13 @@
                     "href": "/wishlist",
                     "icon": "heart",
                     "variant": "ghost",
-                    "iconOnly": true
+                    "iconOnly": true,
+                    "visibility": {
+                      "devices": [
+                        "desktop",
+                        "tablet"
+                      ]
+                    }
                   }
                 ]
               },
@@ -312,6 +253,11 @@
                         "url": "/online-catalogue",
                         "newTab": false
                       }
+                    },
+                    "visibility": {
+                      "devices": [
+                        "desktop"
+                      ]
                     }
                   }
                 ]
