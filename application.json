@@ -253,6 +253,48 @@
             "add",
             "save"
           ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_hsn_gst",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_hsn_gst",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_category",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_category",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "admin",
+          "obj_name": "surz_product",
+          "actions": [
+            "*"
+          ]
+        },
+        {
+          "role": "func-admin",
+          "obj_name": "surz_product",
+          "actions": [
+            "*"
+          ]
         }
       ],
       "defaultCountryCode": "+91"
@@ -683,6 +725,13 @@
         "admin",
         "func-admin"
       ]
+    },
+    {
+      "id": "g_import_csv",
+      "obj_type": "G",
+      "title": "Import from CSV",
+      "obj_name": "import_from_csv",
+      "parent_id": "f_catalogue"
     },
     {
       "id": "f_sales",

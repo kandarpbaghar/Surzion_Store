@@ -1,0 +1,202 @@
+{
+  "general_process": {
+    "process_name": "import_from_csv",
+    "title": "Import Data from CSV",
+    "description": "Multi-step import process that loads HSN & GST data, then Categories, then Products from CSV files in the project root directory.",
+    "steps": [
+      {
+        "step_no": 1,
+        "step_name": "import_hsn_gst",
+        "title": "Import HSN & GST",
+        "description": "Import HSN codes and GST rates from CSV file",
+        "source_connection_id": "",
+        "source_type": "csv",
+        "source_path": "/import_hsn_gst.csv",
+        "target_connection_id": "",
+        "target_transaction": "surz_hsn_gst",
+        "persist_mode": "transaction",
+        "merge_on_key": true,
+        "merge_logic": "upsert",
+        "field_mappings": [
+          {
+            "csv_column": "HSN_CODE",
+            "transaction_form": "1",
+            "form_field": "hsn_code"
+          },
+          {
+            "csv_column": "DESCR",
+            "transaction_form": "1",
+            "form_field": "descr"
+          },
+          {
+            "csv_column": "GST_RATE",
+            "transaction_form": "1",
+            "form_field": "gst_rate"
+          }
+        ]
+      },
+      {
+        "step_no": 2,
+        "step_name": "import_categories",
+        "title": "Import Categories",
+        "description": "Import product categories from CSV file",
+        "source_connection_id": "",
+        "source_type": "csv",
+        "source_path": "/import_categories.csv",
+        "target_connection_id": "",
+        "target_transaction": "surz_category",
+        "persist_mode": "transaction",
+        "merge_on_key": true,
+        "merge_logic": "upsert",
+        "field_mappings": [
+          {
+            "csv_column": "CATEGORY_CODE",
+            "transaction_form": "1",
+            "form_field": "category_code"
+          },
+          {
+            "csv_column": "CATEGORY_NAME",
+            "transaction_form": "1",
+            "form_field": "category_name"
+          },
+          {
+            "csv_column": "DESCR",
+            "transaction_form": "1",
+            "form_field": "descr"
+          },
+          {
+            "csv_column": "IMAGE_URL",
+            "transaction_form": "1",
+            "form_field": "image_url"
+          },
+          {
+            "csv_column": "SORT_ORDER",
+            "transaction_form": "1",
+            "form_field": "sort_order"
+          },
+          {
+            "csv_column": "IS_ACTIVE",
+            "transaction_form": "1",
+            "form_field": "is_active"
+          }
+        ]
+      },
+      {
+        "step_no": 3,
+        "step_name": "import_products",
+        "title": "Import Products",
+        "description": "Import surgical instruments and products from CSV file",
+        "source_connection_id": "",
+        "source_type": "csv",
+        "source_path": "/import_products.csv",
+        "target_connection_id": "",
+        "target_transaction": "surz_product",
+        "persist_mode": "transaction",
+        "merge_on_key": false,
+        "merge_logic": "replace",
+        "field_mappings": [
+          {
+            "csv_column": "PRODUCT_NAME",
+            "transaction_form": "1",
+            "form_field": "product_name"
+          },
+          {
+            "csv_column": "CATEGORY_CODE",
+            "transaction_form": "1",
+            "form_field": "category_code"
+          },
+          {
+            "csv_column": "UNIT_PRICE",
+            "transaction_form": "1",
+            "form_field": "unit_price"
+          },
+          {
+            "csv_column": "MRP",
+            "transaction_form": "1",
+            "form_field": "mrp"
+          },
+          {
+            "csv_column": "DESCR",
+            "transaction_form": "1",
+            "form_field": "descr"
+          },
+          {
+            "csv_column": "HSN_CODE",
+            "transaction_form": "1",
+            "form_field": "hsn_code"
+          },
+          {
+            "csv_column": "GST_RATE",
+            "transaction_form": "1",
+            "form_field": "gst_rate"
+          },
+          {
+            "csv_column": "SUBTITLE",
+            "transaction_form": "1",
+            "form_field": "subtitle"
+          },
+          {
+            "csv_column": "IMAGE_URL",
+            "transaction_form": "1",
+            "form_field": "image_url"
+          },
+          {
+            "csv_column": "HOVER_IMAGE_URL",
+            "transaction_form": "1",
+            "form_field": "hover_image_url"
+          },
+          {
+            "csv_column": "GRADE",
+            "transaction_form": "1",
+            "form_field": "grade"
+          },
+          {
+            "csv_column": "FINISH",
+            "transaction_form": "1",
+            "form_field": "finish"
+          },
+          {
+            "csv_column": "LENGTH_MM",
+            "transaction_form": "1",
+            "form_field": "length_mm"
+          },
+          {
+            "csv_column": "PATTERN",
+            "transaction_form": "1",
+            "form_field": "pattern"
+          },
+          {
+            "csv_column": "RIBBON",
+            "transaction_form": "1",
+            "form_field": "ribbon"
+          },
+          {
+            "csv_column": "STOCK_QTY",
+            "transaction_form": "1",
+            "form_field": "stock_qty"
+          },
+          {
+            "csv_column": "REORDER_LEVEL",
+            "transaction_form": "1",
+            "form_field": "reorder_level"
+          },
+          {
+            "csv_column": "SLUG",
+            "transaction_form": "1",
+            "form_field": "slug"
+          },
+          {
+            "csv_column": "SORT_ORDER",
+            "transaction_form": "1",
+            "form_field": "sort_order"
+          },
+          {
+            "csv_column": "IS_ACTIVE",
+            "transaction_form": "1",
+            "form_field": "is_active"
+          }
+        ]
+      }
+    ]
+  }
+}
