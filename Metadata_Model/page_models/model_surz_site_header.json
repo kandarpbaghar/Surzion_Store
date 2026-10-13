@@ -192,7 +192,18 @@
                         "id": "am_part",
                         "label": "Partner account",
                         "href": "/partner-portal",
-                        "icon": "handshake"
+                        "icon": "handshake",
+                        "badge": "{{ds_partner.STATUS}}",
+                        "badgeLabels": {
+                          "PENDING": "In review",
+                          "APPROVED": "Active",
+                          "REJECTED": "Not approved"
+                        },
+                        "badgeTones": {
+                          "PENDING": "warning",
+                          "APPROVED": "success",
+                          "REJECTED": "error"
+                        }
                       }
                     ]
                   }
@@ -327,6 +338,27 @@
           "fromTheme": true
         }
       ]
-    }
+    },
+    "dataSources": [
+      {
+        "id": "ds_partner",
+        "resource": {
+          "obj_type": "T",
+          "obj_name": "surz_partner"
+        },
+        "mode": "record",
+        "bindingTime": "runtime",
+        "columns": [
+          "STATUS",
+          "DISCOUNT_CODE",
+          "DISCOUNT_PCT",
+          "QR_URL",
+          "APPLIED_ON",
+          "REJECT_REASON",
+          "PARTNER_NAME"
+        ],
+        "signedInOnly": true
+      }
+    ]
   }
 }

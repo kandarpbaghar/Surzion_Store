@@ -844,181 +844,39 @@
         },
         "blocks": [
           {
+            "id": "tm_h",
+            "type": "heading",
+            "level": 2,
+            "align": "center",
+            "eyebrow": "Testimonials",
+            "text": "What surgeons say about Surzion"
+          },
+          {
             "id": "tm",
             "type": "testimonial",
-            "mode": "single",
+            "mode": "carousel",
             "align": "center",
-            "quote": "Surzion provides top-notch surgical instruments.",
+            "quote": "Surzion provides top-notch surgical instruments. Their quality and service are unmatched, making them my go-to supplier for medical needs.",
             "authorName": "Dr. Sharma",
-            "authorRole": "Surgeon",
+            "authorRole": "",
             "rating": 5,
-            "repeat": {
-              "source": "ds_testimonials",
-              "as": "t",
-              "max": 10,
-              "designCount": 3,
-              "layout": {
-                "mode": "grid",
-                "columns": 3,
-                "gap": 24
+            "bindings": {
+              "items": {
+                "source": "data_field",
+                "dataSource": "ds_testimonials",
+                "path": "rows",
+                "map": {
+                  "quote": "QUOTE",
+                  "authorName": "AUTHOR_NAME",
+                  "authorRole": "AUTHOR_ROLE",
+                  "authorAvatarUrl": "AUTHOR_IMAGE_URL",
+                  "rating": "RATING"
+                }
               }
             },
-            "bindings": {
-              "quote": {
-                "source": "item_field",
-                "path": "QUOTE"
-              },
-              "authorName": {
-                "source": "item_field",
-                "path": "AUTHOR_NAME"
-              },
-              "authorRole": {
-                "source": "item_field",
-                "path": "AUTHOR_ROLE"
-              },
-              "rating": {
-                "source": "item_field",
-                "path": "RATING"
-              },
-              "authorAvatarUrl": {
-                "source": "item_field",
-                "path": "AUTHOR_IMAGE_URL"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "sec_contact",
-        "tag": "main",
-        "width": "full",
-        "anchorId": "enquiry",
-        "style": {
-          "padding": {
-            "top": 72,
-            "bottom": 80
-          },
-          "background": {
-            "kind": "color",
-            "color": "var(--pg-surface)"
-          }
-        },
-        "blocks": [
-          {
-            "id": "ct_cols",
-            "type": "columns",
-            "count": 2,
-            "gap": 56,
-            "align": "top",
-            "columns": [
-              {
-                "id": "ct_l",
-                "blocks": [
-                  {
-                    "id": "ct_h",
-                    "type": "heading",
-                    "level": 2,
-                    "eyebrow": "Contact us",
-                    "text": "We provide premium surgical solutions for precision care"
-                  },
-                  {
-                    "id": "ct_p",
-                    "type": "paragraph",
-                    "text": "Bulk order, custom instrument or a question about a product? Send us a message — we'll reply within 12 hours."
-                  },
-                  {
-                    "id": "ct_ph",
-                    "type": "paragraph",
-                    "text": "+91 78148 61010 · +91 81958 31010",
-                    "style": {
-                      "textColor": "var(--pg-heading)",
-                      "typography": {
-                        "fontWeight": 500
-                      }
-                    }
-                  },
-                  {
-                    "id": "ct_em",
-                    "type": "paragraph",
-                    "text": "sales@surzion.com",
-                    "style": {
-                      "textColor": "var(--pg-heading)",
-                      "typography": {
-                        "fontWeight": 500
-                      }
-                    }
-                  },
-                  {
-                    "id": "ct_ad",
-                    "type": "paragraph",
-                    "text": "3, Kapurthala Road, Jalandhar Vihar, Prime Enclave Ext, Chopra Township, Jalandhar, Punjab 144021"
-                  }
-                ]
-              },
-              {
-                "id": "ct_r",
-                "blocks": [
-                  {
-                    "id": "enquiry_form",
-                    "type": "form",
-                    "submitLabel": "Send enquiry",
-                    "layout": "grid",
-                    "destination": "submissions",
-                    "spam": {
-                      "honeypot": true,
-                      "minSeconds": 2
-                    },
-                    "success": {
-                      "title": "Thank you",
-                      "message": "We have your enquiry and will reply shortly."
-                    },
-                    "style": {
-                      "background": {
-                        "kind": "color",
-                        "color": "var(--pg-background)"
-                      },
-                      "padding": {
-                        "top": 28,
-                        "bottom": 28,
-                        "left": 28,
-                        "right": 28
-                      },
-                      "radius": 20,
-                      "border": true
-                    },
-                    "fields": [
-                      {
-                        "id": "n",
-                        "name": "contact_name",
-                        "label": "Name",
-                        "type": "text",
-                        "required": true
-                      },
-                      {
-                        "id": "ln",
-                        "name": "last_name",
-                        "label": "Last name",
-                        "type": "text"
-                      },
-                      {
-                        "id": "e",
-                        "name": "email",
-                        "label": "Your email",
-                        "type": "email",
-                        "required": true
-                      },
-                      {
-                        "id": "m",
-                        "name": "message",
-                        "label": "Message",
-                        "type": "textarea",
-                        "required": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "autoplay": true,
+            "autoplayInterval": 6000,
+            "items": []
           }
         ]
       }

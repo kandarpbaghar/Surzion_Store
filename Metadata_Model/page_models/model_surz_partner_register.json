@@ -530,7 +530,7 @@
             "eyebrow": "Apply",
             "text": "Partner application",
             "visibility": {
-              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED')"
+              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} != '')"
             }
           },
           {
@@ -538,7 +538,31 @@
             "type": "paragraph",
             "text": "Tell us who you are and where your audience follows you. Our team reviews every application; once you are approved you get your own discount code, your followers' discount and a QR code.",
             "visibility": {
-              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED')"
+              "condition": "!({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} != '')"
+            }
+          },
+          {
+            "id": "pr_pending",
+            "type": "callout",
+            "variant": "warning",
+            "icon": "clock",
+            "iconPosition": "left",
+            "title": "Your partnership request is in review",
+            "body": "Thank you for applying. Our team is reviewing your request and will email you as soon as it has been decided. Until then you can still edit your application below.",
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'PENDING'"
+            }
+          },
+          {
+            "id": "pr_rejected",
+            "type": "callout",
+            "variant": "error",
+            "icon": "x-circle",
+            "iconPosition": "left",
+            "title": "Your application was not approved",
+            "body": "Reason: {{ds_partner.REJECT_REASON}}. If you would like to discuss it, contact us.",
+            "visibility": {
+              "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'REJECTED'"
             }
           },
           {
@@ -723,7 +747,7 @@
             "kind": "generic",
             "single": true,
             "allowDelete": false,
-            "formTitle": "Your partner application",
+            "formTitle": "Your partnership request",
             "submitLabel": "Submit application",
             "intro": "Takes about two minutes. Your name, email and mobile come from your account — check them before you submit.",
             "successText": "Thank you — your partnership request is in review. We will email you once our team has decided.",
@@ -1007,7 +1031,8 @@
           "APPLIED_ON",
           "REJECT_REASON",
           "PARTNER_NAME"
-        ]
+        ],
+        "signedInOnly": true
       }
     ]
   }

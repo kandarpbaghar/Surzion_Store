@@ -66,33 +66,7 @@
         }
       }
     },
-    "inputs": [
-      {
-        "name": "order_filter",
-        "label": "Show",
-        "type": "select",
-        "isInput": true,
-        "default": "all",
-        "options": [
-          {
-            "label": "All orders",
-            "value": "all"
-          },
-          {
-            "label": "Paid",
-            "value": "PAID"
-          },
-          {
-            "label": "Awaiting payment",
-            "value": "PENDING"
-          },
-          {
-            "label": "Delivered",
-            "value": "DELIVERED"
-          }
-        ]
-      }
-    ],
+    "inputs": [],
     "actions": [],
     "sections": [
       {
@@ -663,123 +637,57 @@
                     }
                   },
                   {
-                    "id": "ig_orders",
-                    "type": "input_group",
-                    "layout": "inline",
-                    "inputs": [
-                      "order_filter"
-                    ],
+                    "id": "mr_referred",
+                    "type": "my_records",
+                    "object": "surz_partner_order",
+                    "heading": "",
+                    "pageSize": 10,
+                    "columns": {
+                      "reference": "ORDER_NO",
+                      "date": "ORDER_DATE",
+                      "status": "ORDER_STATUS",
+                      "paymentStatus": "PAY_STATUS",
+                      "total": "TOTAL_AMOUNT",
+                      "subtotal": "SUBTOTAL",
+                      "discount": "DISCOUNT_AMT",
+                      "discountCode": "DISCOUNT_CODE"
+                    },
+                    "reorder": false,
+                    "emptyText": "No orders with your code yet. When your followers order with it, each order and the discount they received shows here.",
+                    "statusTones": {
+                      "NEW": "info",
+                      "CONFIRMED": "info",
+                      "PACKED": "warning",
+                      "SHIPPED": "warning",
+                      "DELIVERED": "success",
+                      "CANCELLED": "error",
+                      "PAID": "success",
+                      "COD": "info",
+                      "PENDING": "warning",
+                      "REFUNDED": "neutral",
+                      "FAILED": "error"
+                    },
+                    "valueLabels": {
+                      "upi": "UPI",
+                      "card": "Card",
+                      "netbanking": "Net banking",
+                      "wallet": "Wallet",
+                      "emi": "EMI",
+                      "COD": "Cash on delivery",
+                      "PAID": "Paid",
+                      "FAILED": "Payment failed",
+                      "PENDING": "Payment pending",
+                      "NEW": "Placed",
+                      "CONFIRMED": "Confirmed",
+                      "PACKED": "Packed",
+                      "SHIPPED": "Shipped",
+                      "DELIVERED": "Delivered",
+                      "CANCELLED": "Cancelled",
+                      "REFUNDED": "Refunded"
+                    },
+                    "currencyPrefix": "₹",
                     "visibility": {
                       "condition": "{{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED'"
-                    }
-                  },
-                  {
-                    "id": "em_orders",
-                    "type": "embed",
-                    "visibility": {
-                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"all\" || {{order_filter}} == \"\" || {{order_filter}} == null)"
-                    },
-                    "embed": {
-                      "obj_type": "T",
-                      "obj_name": "surz_partner_order",
-                      "renderMode": "realtime",
-                      "mode": "list",
-                      "signInPrompt": {
-                        "title": "Sign in to your partner account",
-                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
-                        "signInLabel": "Sign in",
-                        "registerLabel": "Create an account"
-                      }
-                    }
-                  },
-                  {
-                    "id": "em_orders_paid",
-                    "type": "embed",
-                    "visibility": {
-                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"PAID\")"
-                    },
-                    "embed": {
-                      "obj_type": "T",
-                      "obj_name": "surz_partner_order",
-                      "renderMode": "realtime",
-                      "mode": "list",
-                      "filters": [
-                        {
-                          "id": "f_paid",
-                          "column": "PAY_STATUS",
-                          "op": "eq",
-                          "value": {
-                            "source": "static",
-                            "value": "PAID"
-                          }
-                        }
-                      ],
-                      "signInPrompt": {
-                        "title": "Sign in to your partner account",
-                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
-                        "signInLabel": "Sign in",
-                        "registerLabel": "Create an account"
-                      }
-                    }
-                  },
-                  {
-                    "id": "em_orders_pending",
-                    "type": "embed",
-                    "visibility": {
-                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"PENDING\")"
-                    },
-                    "embed": {
-                      "obj_type": "T",
-                      "obj_name": "surz_partner_order",
-                      "renderMode": "realtime",
-                      "mode": "list",
-                      "filters": [
-                        {
-                          "id": "f_pending",
-                          "column": "PAY_STATUS",
-                          "op": "eq",
-                          "value": {
-                            "source": "static",
-                            "value": "PENDING"
-                          }
-                        }
-                      ],
-                      "signInPrompt": {
-                        "title": "Sign in to your partner account",
-                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
-                        "signInLabel": "Sign in",
-                        "registerLabel": "Create an account"
-                      }
-                    }
-                  },
-                  {
-                    "id": "em_orders_delivered",
-                    "type": "embed",
-                    "visibility": {
-                      "condition": "({{me.signedIn}} && {{ds_partner._loaded}} && {{ds_partner.STATUS}} == 'APPROVED') && ({{order_filter}} == \"DELIVERED\")"
-                    },
-                    "embed": {
-                      "obj_type": "T",
-                      "obj_name": "surz_partner_order",
-                      "renderMode": "realtime",
-                      "mode": "list",
-                      "filters": [
-                        {
-                          "id": "f_delivered",
-                          "column": "ORDER_STATUS",
-                          "op": "eq",
-                          "value": {
-                            "source": "static",
-                            "value": "DELIVERED"
-                          }
-                        }
-                      ],
-                      "signInPrompt": {
-                        "title": "Sign in to your partner account",
-                        "body": "Partners see their application, discount code and referred orders after signing in. Sign in to view yours, or create an account to apply.",
-                        "signInLabel": "Sign in",
-                        "registerLabel": "Create an account"
-                      }
                     }
                   },
                   {
@@ -835,7 +743,8 @@
           "APPLIED_ON",
           "REJECT_REASON",
           "PARTNER_NAME"
-        ]
+        ],
+        "signedInOnly": true
       },
       {
         "id": "ds_claimed_orders",
@@ -856,7 +765,8 @@
             "dir": "desc"
           }
         ],
-        "limit": 1000
+        "limit": 1000,
+        "signedInOnly": true
       }
     ],
     "blocks": [],
