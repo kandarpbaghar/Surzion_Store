@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Orthopaedic",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Bone Reduction Clamp Towel Type",
                 "href": "/bone-reduction-clamp-towel-type"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Orthopaedic · Best Seller · In stock",
+                    "eyebrow": "Best Seller · In stock",
                     "text": "Bone Reduction Clamp Towel Type",
                     "bindings": {
                       "text": {
@@ -243,7 +238,7 @@
                   {
                     "id": "psub",
                     "type": "paragraph",
-                    "text": "Precision Instrument for Orthopaedic Procedures",
+                    "text": "Precision Surgical Instrument for Orthopedic Procedures",
                     "bindings": {
                       "text": {
                         "source": "data_field",
@@ -306,7 +301,7 @@
                           "price": "₹1,800",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=deaefc88052a8d62.jpg",
                           "href": "/bone-reduction-clamp-towel-type",
-                          "meta": "Orthopaedic",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Bone Reduction Clamp Towel Type",
                     "price": "₹1,800",
                     "href": "/bone-reduction-clamp-towel-type",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Orthopaedic",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

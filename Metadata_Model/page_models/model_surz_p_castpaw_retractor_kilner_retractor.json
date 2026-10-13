@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Orthopaedic",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Castpaw Retractor (Kilner Retractor)",
                 "href": "/castpaw-retractor-kilner-retractor"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Orthopaedic · Surgical Grade · In stock",
+                    "eyebrow": "Surgical Grade · In stock",
                     "text": "Castpaw Retractor (Kilner Retractor)",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹350",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=8096860f34cc1025.jpg",
                           "href": "/castpaw-retractor-kilner-retractor",
-                          "meta": "Orthopaedic",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Castpaw Retractor (Kilner Retractor)",
                     "price": "₹350",
                     "href": "/castpaw-retractor-kilner-retractor",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Orthopaedic",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Dissecting Forceps",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Adson Dissecting Forceps Plain",
                 "href": "/premium-surgical-instruments-2"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Dissecting Forceps · Best Seller · In stock",
+                    "eyebrow": "Best Seller · In stock",
                     "text": "Adson Dissecting Forceps Plain",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹182",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=a7a42348854acf1a.jpg",
                           "href": "/premium-surgical-instruments-2",
-                          "meta": "Dissecting Forceps",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Adson Dissecting Forceps Plain",
                     "price": "₹182",
                     "href": "/premium-surgical-instruments-2",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Dissecting Forceps",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

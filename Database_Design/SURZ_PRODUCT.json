@@ -27,7 +27,7 @@
       "size": "12",
       "sequence": 3,
       "key": false,
-      "mandatory": true,
+      "mandatory": false,
       "description": "Category",
       "lookup": {
         "table": "SURZ_CATEGORY",

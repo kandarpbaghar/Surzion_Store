@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Dissecting Forceps",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Babcock Forceps TC",
                 "href": "/bulldog-clamps"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Dissecting Forceps · Premium Quality · In stock",
+                    "eyebrow": "Premium Quality · In stock",
                     "text": "Babcock Forceps TC",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹1,950",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=263d6a4963a0b57f.jpg",
                           "href": "/bulldog-clamps",
-                          "meta": "Dissecting Forceps",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Bulldog Clamps",
                     "price": "₹1,950",
                     "href": "/bulldog-clamps",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Dissecting Forceps",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

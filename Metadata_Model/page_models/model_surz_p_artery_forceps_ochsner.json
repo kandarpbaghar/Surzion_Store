@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Surgical Instruments",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Artery Forceps Ochsner",
                 "href": "/artery-forceps-ochsner"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Surgical Instruments · New · In stock",
+                    "eyebrow": "New · In stock",
                     "text": "Artery Forceps Ochsner",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹404",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=f3cda876c5cd637b.jpg",
                           "href": "/artery-forceps-ochsner",
-                          "meta": "Surgical Instruments",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Artery Forceps Ochsner",
                     "price": "₹404",
                     "href": "/artery-forceps-ochsner",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Surgical Instruments",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

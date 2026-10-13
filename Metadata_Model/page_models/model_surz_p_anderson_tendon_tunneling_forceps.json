@@ -165,7 +165,7 @@
               },
               {
                 "id": "bc2",
-                "label": "Orthopaedic",
+                "label": "Surgical Instruments",
                 "href": "/instruments"
               },
               {
@@ -230,7 +230,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Orthopaedic · New · In stock",
+                    "eyebrow": "Surgical Instruments · New · In stock",
                     "text": "Anderson Tendon Tunneling Forceps",
                     "bindings": {
                       "text": {
@@ -243,7 +243,7 @@
                   {
                     "id": "psub",
                     "type": "paragraph",
-                    "text": "Precision Instrument for Tendon Procedures",
+                    "text": "Precision Surgical Instrument for Tendon Procedures",
                     "bindings": {
                       "text": {
                         "source": "data_field",
@@ -306,7 +306,7 @@
                           "price": "₹3,900",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=8f790f5cbbd5c711.jpg",
                           "href": "/anderson-tendon-tunneling-forceps",
-                          "meta": "Orthopaedic",
+                          "meta": "Surgical Instruments",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -547,7 +547,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +593,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Orthopaedic",
+                "label": "All Surgical Instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

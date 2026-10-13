@@ -52,7 +52,7 @@
                 "col_type": "VARCHAR12",
                 "heading": "Category",
                 "group_name": "Basic",
-                "mandatory": 1,
+                "mandatory": 0,
                 "key": false,
                 "protect": 0,
                 "hidden": 0,

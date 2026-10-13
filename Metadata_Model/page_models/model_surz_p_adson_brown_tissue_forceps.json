@@ -366,7 +366,7 @@
                     "name": "Adson Brown Tissue Forceps",
                     "price": "₹650",
                     "href": "/adson-brown-tissue-forceps",
-                    "meta": "Surgical Instruments",
+                    "meta": "Dissecting Forceps",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +547,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",

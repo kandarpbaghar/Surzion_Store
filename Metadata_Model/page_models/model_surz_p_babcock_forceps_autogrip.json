@@ -165,7 +165,7 @@
               },
               {
                 "id": "bc2",
-                "label": "Dissecting Forceps",
+                "label": "Surgical Instruments",
                 "href": "/instruments"
               },
               {
@@ -230,7 +230,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Dissecting Forceps · New · In stock",
+                    "eyebrow": "Surgical Instruments · New · In stock",
                     "text": "Babcock Forceps Autogrip",
                     "bindings": {
                       "text": {
@@ -306,7 +306,7 @@
                           "price": "₹1,463",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=522ff00ac6f46b18.jpg",
                           "href": "/babcock-forceps-autogrip",
-                          "meta": "Dissecting Forceps",
+                          "meta": "Surgical Instruments",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -547,7 +547,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +593,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Dissecting Forceps",
+                "label": "All Surgical Instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

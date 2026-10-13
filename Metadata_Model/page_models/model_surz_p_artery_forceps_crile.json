@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Surgical Instruments",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Artery Forceps Crile",
                 "href": "/artery-forceps-crile"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Surgical Instruments · Best Seller · In stock",
+                    "eyebrow": "Best Seller · In stock",
                     "text": "Artery Forceps Crile",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹390",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=02313cf3d7244bfd.jpg",
                           "href": "/artery-forceps-crile",
-                          "meta": "Surgical Instruments",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Artery Forceps Crile",
                     "price": "₹390",
                     "href": "/artery-forceps-crile",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +542,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -593,7 +588,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Surgical Instruments",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

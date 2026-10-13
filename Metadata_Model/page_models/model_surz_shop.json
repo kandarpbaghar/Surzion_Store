@@ -256,7 +256,7 @@
                     "card": {
                       "id": "cg_all_c",
                       "title": "Instrument",
-                      "eyebrow": "Specialty",
+                      "eyebrow": "",
                       "badge": "",
                       "price": "0",
                       "priceFormat": "currency",

@@ -164,11 +164,6 @@
                 "href": "/instruments"
               },
               {
-                "id": "bc2",
-                "label": "Orthopaedic",
-                "href": "/instruments"
-              },
-              {
                 "id": "bc3",
                 "label": "Adson Beckman Retractor",
                 "href": "/adson-beckman-retractor"
@@ -230,7 +225,7 @@
                     "id": "ph",
                     "type": "heading",
                     "level": 1,
-                    "eyebrow": "Orthopaedic · Top Quality · In stock",
+                    "eyebrow": "Top Quality · In stock",
                     "text": "Adson Beckman Retractor",
                     "bindings": {
                       "text": {
@@ -306,7 +301,7 @@
                           "price": "₹3,200",
                           "image": "/api/designers/assets/raw?project=Surzion_Store&file=8f6049a90668587b.jpg",
                           "href": "/adson-beckman-retractor",
-                          "meta": "Orthopaedic",
+                          "meta": "",
                           "addedLabel": "Added",
                           "inCartLabel": "In cart · {n}",
                           "inCartStepper": true,
@@ -366,7 +361,7 @@
                     "name": "Adson Beckman Retractor",
                     "price": "₹3,200",
                     "href": "/adson-beckman-retractor",
-                    "meta": "Surgical Instruments",
+                    "meta": "",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -610,7 +605,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",
@@ -656,7 +651,7 @@
             "buttons": [
               {
                 "id": "rall",
-                "label": "All Orthopaedic",
+                "label": "All instruments",
                 "variant": "outline",
                 "size": "md",
                 "on_click": {

@@ -243,7 +243,7 @@
                   {
                     "id": "psub",
                     "type": "paragraph",
-                    "text": "Precision Surgical Instrument",
+                    "text": "Precision Surgical Instrument by Surzion",
                     "bindings": {
                       "text": {
                         "source": "data_field",
@@ -366,7 +366,7 @@
                     "name": "Dandy Artery Forceps 5.5",
                     "price": "₹445",
                     "href": "/dandy-artery-forceps-55",
-                    "meta": "Surgical Instruments",
+                    "meta": "Orthopaedic",
                     "addLabel": "Save to wishlist",
                     "removeLabel": "Saved to wishlist",
                     "display": "button",
@@ -547,7 +547,7 @@
             "card": {
               "id": "rg_c",
               "title": "Instrument",
-              "eyebrow": "Specialty",
+              "eyebrow": "",
               "badge": "",
               "price": "0",
               "priceFormat": "currency",

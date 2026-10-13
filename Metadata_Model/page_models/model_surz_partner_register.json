@@ -533,21 +533,7 @@
           {
             "id": "ap",
             "type": "paragraph",
-            "text": "Tell us who you are and where your audience follows you. Your code, your followers' discount and your QR code are set by our team when you are approved."
-          },
-          {
-            "id": "signin_note",
-            "type": "callout",
-            "variant": "info",
-            "title": "How to apply",
-            "body": "Any signed-in customer can apply. 1) Sign in or create an account (Sign in / Create account at the top right). 2) Complete the form below. 3) Our team reviews it; when it is approved your account is granted the partner role, your discount code and QR code are issued, and 'Partner account' opens your partner orders.",
-            "icon": "lock",
-            "iconPosition": "left"
-          },
-          {
-            "id": "fill_note",
-            "type": "paragraph",
-            "text": "Fill in your contact, business and address details. Your discount code, percentage and QR code are set by our team when your application is approved."
+            "text": "Tell us who you are and where your audience follows you. Our team reviews every application; once you are approved you get your own discount code, your followers' discount and a QR code."
           },
           {
             "id": "me_strip",
@@ -586,21 +572,237 @@
           },
           {
             "id": "em_apply",
-            "type": "embed",
-            "embed": {
-              "obj_type": "T",
-              "obj_name": "surz_partner_apply",
-              "renderMode": "realtime",
-              "mode": "add",
-              "presentation": "inline",
-              "successMessage": "Thank you. Your application is received and is pending approval. Track it in My partner account."
+            "type": "saved_records",
+            "object": "surz_partner_apply",
+            "kind": "generic",
+            "single": true,
+            "allowDelete": false,
+            "formTitle": "Your partner application",
+            "submitLabel": "Submit application",
+            "intro": "Takes about two minutes. Your name, email and mobile come from your account — check them before you submit.",
+            "successText": "Thank you — your application is in. We will email you once our team has reviewed it.",
+            "editableWhen": {
+              "key": "status",
+              "in": [
+                "PENDING",
+                ""
+              ]
             },
-            "signInPrompt": {
-              "title": "Sign in to your partner account",
-              "body": "Applications are linked to your customer account. Sign in or create an account to apply to become a partner.",
-              "signInLabel": "Sign in",
-              "registerLabel": "Create account"
-            }
+            "statusLabels": {
+              "PENDING": "Under review",
+              "APPROVED": "Approved",
+              "REJECTED": "Not approved"
+            },
+            "statusTones": {
+              "PENDING": "warning",
+              "APPROVED": "success",
+              "REJECTED": "error"
+            },
+            "fields": [
+              {
+                "key": "name",
+                "label": "Your name",
+                "column": "PARTNER_NAME",
+                "required": true,
+                "prefill": "name",
+                "autocomplete": "name",
+                "maxLength": 120,
+                "half": true,
+                "group": "About you",
+                "role": "line"
+              },
+              {
+                "key": "handle",
+                "label": "Creator or channel name",
+                "column": "HANDLE",
+                "required": true,
+                "maxLength": 60,
+                "half": true,
+                "role": "title",
+                "placeholder": "e.g. @drsharma"
+              },
+              {
+                "key": "email",
+                "label": "Email",
+                "column": "EMAIL",
+                "kind": "email",
+                "required": true,
+                "prefill": "email",
+                "autocomplete": "email",
+                "maxLength": 160,
+                "half": true,
+                "role": "meta"
+              },
+              {
+                "key": "phone",
+                "label": "Mobile number",
+                "column": "PHONE",
+                "kind": "tel",
+                "required": true,
+                "prefill": "phone",
+                "autocomplete": "tel",
+                "maxLength": 30,
+                "half": true,
+                "role": "meta"
+              },
+              {
+                "key": "platform",
+                "label": "Main platform",
+                "column": "PLATFORM",
+                "kind": "select",
+                "required": true,
+                "group": "Your channels",
+                "role": "line",
+                "options": [
+                  {
+                    "value": "Instagram",
+                    "label": "Instagram"
+                  },
+                  {
+                    "value": "YouTube",
+                    "label": "YouTube"
+                  },
+                  {
+                    "value": "Facebook",
+                    "label": "Facebook"
+                  },
+                  {
+                    "value": "LinkedIn",
+                    "label": "LinkedIn"
+                  },
+                  {
+                    "value": "X",
+                    "label": "X"
+                  },
+                  {
+                    "value": "Other",
+                    "label": "Other"
+                  }
+                ]
+              },
+              {
+                "key": "profile",
+                "label": "Profile link",
+                "column": "PROFILE_URL",
+                "required": true,
+                "maxLength": 400,
+                "placeholder": "https://…",
+                "role": "line",
+                "joinPrevious": true
+              },
+              {
+                "key": "followers",
+                "label": "Followers",
+                "column": "FOLLOWER_RANGE",
+                "kind": "select",
+                "half": true,
+                "options": [
+                  {
+                    "value": "Under 5,000",
+                    "label": "Under 5,000"
+                  },
+                  {
+                    "value": "5,000 – 50,000",
+                    "label": "5,000 – 50,000"
+                  },
+                  {
+                    "value": "50,000 – 2,50,000",
+                    "label": "50,000 – 2,50,000"
+                  },
+                  {
+                    "value": "Over 2,50,000",
+                    "label": "Over 2,50,000"
+                  }
+                ]
+              },
+              {
+                "key": "audience",
+                "label": "Your audience",
+                "column": "AUDIENCE",
+                "kind": "select",
+                "half": true,
+                "options": [
+                  {
+                    "value": "Surgeons",
+                    "label": "Surgeons"
+                  },
+                  {
+                    "value": "Doctors (general)",
+                    "label": "Doctors (general)"
+                  },
+                  {
+                    "value": "Medical students",
+                    "label": "Medical students"
+                  },
+                  {
+                    "value": "Nurses",
+                    "label": "Nurses"
+                  },
+                  {
+                    "value": "Dentists",
+                    "label": "Dentists"
+                  },
+                  {
+                    "value": "Veterinarians",
+                    "label": "Veterinarians"
+                  },
+                  {
+                    "value": "Other",
+                    "label": "Other"
+                  }
+                ]
+              },
+              {
+                "key": "other",
+                "label": "Other channels (optional, one link per line)",
+                "column": "OTHER_CHANNELS",
+                "kind": "textarea"
+              },
+              {
+                "key": "city",
+                "label": "City",
+                "column": "CITY",
+                "maxLength": 80,
+                "half": true,
+                "group": "Where you are",
+                "autocomplete": "address-level2"
+              },
+              {
+                "key": "state",
+                "label": "State",
+                "column": "STATE_NAME",
+                "maxLength": 80,
+                "half": true,
+                "autocomplete": "address-level1"
+              },
+              {
+                "key": "gstin",
+                "label": "GSTIN (only if you invoice as a business)",
+                "column": "GSTIN",
+                "maxLength": 15,
+                "pattern": "^[0-9]{2}[A-Z0-9]{13}$"
+              },
+              {
+                "key": "message",
+                "label": "What do you post, and how would you feature Surzion?",
+                "column": "MESSAGE",
+                "kind": "textarea",
+                "group": "Tell us more"
+              },
+              {
+                "key": "status",
+                "label": "Status",
+                "column": "STATUS",
+                "inForm": false,
+                "role": "status"
+              },
+              {
+                "key": "applied",
+                "label": "Applied on",
+                "column": "APPLIED_ON",
+                "inForm": false
+              }
+            ]
           },
           {
             "id": "after_apply",

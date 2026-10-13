@@ -186,20 +186,99 @@
           },
           {
             "id": "em_addr",
-            "type": "embed",
-            "embed": {
-              "obj_type": "T",
-              "obj_name": "surz_customer_address",
-              "renderMode": "realtime",
-              "mode": "list",
-              "presentation": "inline",
-              "signInPrompt": {
-                "title": "Sign in to manage your addresses",
-                "body": "Your address book is private to your account. Sign in or create an account to save delivery addresses.",
-                "signInLabel": "Sign in",
-                "registerLabel": "Create account"
+            "type": "saved_records",
+            "object": "surz_customer_address",
+            "kind": "address",
+            "defaultColumn": "IS_DEFAULT",
+            "defaultValue": "Y",
+            "notDefaultValue": "N",
+            "formTitle": "Address",
+            "maxRecords": 20,
+            "fields": [
+              {
+                "key": "label",
+                "label": "Save as (e.g. Home, Clinic, Hospital)",
+                "column": "LABEL",
+                "role": "title",
+                "maxLength": 20,
+                "placeholder": "Home"
+              },
+              {
+                "key": "name",
+                "label": "Full name",
+                "column": "CONTACT_NAME",
+                "role": "line",
+                "required": true,
+                "autocomplete": "name",
+                "maxLength": 120,
+                "half": true
+              },
+              {
+                "key": "phone",
+                "label": "Mobile number",
+                "column": "PHONE",
+                "kind": "tel",
+                "role": "meta",
+                "required": true,
+                "autocomplete": "tel",
+                "maxLength": 30,
+                "half": true
+              },
+              {
+                "key": "line1",
+                "label": "Flat / house no., building, street",
+                "column": "ADDRESS_LINE1",
+                "role": "line",
+                "required": true,
+                "autocomplete": "address-line1",
+                "maxLength": 400
+              },
+              {
+                "key": "line2",
+                "label": "Area, landmark (optional)",
+                "column": "ADDRESS_LINE2",
+                "role": "line",
+                "autocomplete": "address-line2",
+                "maxLength": 200
+              },
+              {
+                "key": "city",
+                "label": "City",
+                "column": "CITY",
+                "role": "line",
+                "required": true,
+                "autocomplete": "address-level2",
+                "maxLength": 80,
+                "half": true
+              },
+              {
+                "key": "state",
+                "label": "State",
+                "column": "STATE_NAME",
+                "role": "line",
+                "joinPrevious": true,
+                "required": true,
+                "autocomplete": "address-level1",
+                "maxLength": 80,
+                "half": true
+              },
+              {
+                "key": "pin",
+                "label": "PIN code",
+                "column": "PINCODE",
+                "kind": "postcode",
+                "role": "line",
+                "joinPrevious": true,
+                "required": true,
+                "autocomplete": "postal-code",
+                "pattern": "^[1-9][0-9]{5}$",
+                "maxLength": 6,
+                "half": true,
+                "placeholder": "6 digits"
               }
-            }
+            ],
+            "addLabel": "Add a new address",
+            "emptyText": "No saved addresses yet — add one now and checkout will offer it next time."
           }
         ]
       },
@@ -232,20 +311,100 @@
           },
           {
             "id": "em_pay",
-            "type": "embed",
-            "embed": {
-              "obj_type": "T",
-              "obj_name": "surz_customer_payment_method",
-              "renderMode": "realtime",
-              "mode": "list",
-              "presentation": "inline",
-              "signInPrompt": {
-                "title": "Sign in to manage your payment methods",
-                "body": "Saved payment preferences are private to your account. Sign in or create an account to add one.",
-                "signInLabel": "Sign in",
-                "registerLabel": "Create account"
+            "type": "saved_records",
+            "object": "surz_customer_payment_method",
+            "kind": "payment_method",
+            "defaultColumn": "IS_DEFAULT",
+            "defaultValue": "Y",
+            "notDefaultValue": "N",
+            "formTitle": "Payment method",
+            "maxRecords": 10,
+            "fields": [
+              {
+                "key": "type",
+                "label": "How would you like to pay?",
+                "column": "METHOD_TYPE",
+                "kind": "select",
+                "optionsFrom": "payment_methods",
+                "required": true,
+                "role": "title"
+              },
+              {
+                "key": "label",
+                "label": "Nickname (optional)",
+                "column": "LABEL",
+                "role": "meta",
+                "maxLength": 60,
+                "placeholder": "e.g. Clinic account"
+              },
+              {
+                "key": "upi",
+                "label": "UPI ID",
+                "column": "UPI_ID",
+                "role": "line",
+                "required": true,
+                "maxLength": 80,
+                "placeholder": "name@bank",
+                "showWhen": {
+                  "key": "type",
+                  "in": [
+                    "UPI"
+                  ]
+                },
+                "pattern": "^[A-Za-z0-9._-]{2,}@[A-Za-z][A-Za-z0-9.-]{1,}$"
+              },
+              {
+                "key": "brand",
+                "label": "Card network",
+                "column": "CARD_BRAND",
+                "kind": "select",
+                "options": [
+                  {
+                    "value": "VISA",
+                    "label": "Visa"
+                  },
+                  {
+                    "value": "MASTERCARD",
+                    "label": "Mastercard"
+                  },
+                  {
+                    "value": "RUPAY",
+                    "label": "RuPay"
+                  },
+                  {
+                    "value": "AMEX",
+                    "label": "American Express"
+                  }
+                ],
+                "role": "line",
+                "showWhen": {
+                  "key": "type",
+                  "in": [
+                    "CARD"
+                  ]
+                },
+                "half": true
+              },
+              {
+                "key": "last4",
+                "label": "Last 4 digits (for your reference)",
+                "column": "CARD_LAST4",
+                "role": "line",
+                "joinPrevious": true,
+                "maxLength": 4,
+                "pattern": "^[0-9]{4}$",
+                "placeholder": "1234",
+                "showWhen": {
+                  "key": "type",
+                  "in": [
+                    "CARD"
+                  ]
+                },
+                "half": true
               }
-            }
+            ],
+            "addLabel": "Add a payment method",
+            "emptyText": "No saved payment methods yet. Your full card details are never stored — you enter them securely with the payment gateway at checkout."
           }
         ]
       }
