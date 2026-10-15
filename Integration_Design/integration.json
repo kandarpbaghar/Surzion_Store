@@ -325,14 +325,26 @@
         {
           "name": "follower_range",
           "type": "string",
-          "description": "Follower range",
+          "description": "Follower range ('Not provided' when blank)",
           "required": false
         },
         {
           "name": "audience",
           "type": "string",
-          "description": "Audience description",
+          "description": "Audience description ('Not provided' when blank)",
           "required": false
+        },
+        {
+          "name": "admin_emails",
+          "type": "string",
+          "description": "Comma-separated e-mails of the application's admin / func-admin users (falls back to the owner) - recipients of the review request",
+          "required": true
+        },
+        {
+          "name": "review_url",
+          "type": "string",
+          "description": "Link to the Partners review screen in the application",
+          "required": true
         }
       ],
       "active": true,
@@ -413,17 +425,27 @@
               },
               "follower_range": {
                 "type": "string",
-                "description": "Follower range"
+                "description": "Follower range ('Not provided' when blank)"
               },
               "audience": {
                 "type": "string",
-                "description": "Audience description"
+                "description": "Audience description ('Not provided' when blank)"
+              },
+              "admin_emails": {
+                "type": "string",
+                "description": "Comma-separated e-mails of the application's admin / func-admin users (falls back to the owner) - recipients of the review request"
+              },
+              "review_url": {
+                "type": "string",
+                "description": "Link to the Partners review screen in the application"
               }
             },
             "required": [
               "partner_id",
               "partner_name",
-              "email"
+              "email",
+              "admin_emails",
+              "review_url"
             ]
           }
         }
@@ -807,7 +829,7 @@
   "ioflow": {
     "app_id": "3d02bd26-5bbc-4c32-b677-54a30bf19da0",
     "url": "https://ioflow.twasta.ai",
-    "last_synced_at": "2026-10-15T07:42:14.381747+00:00",
+    "last_synced_at": "2026-10-15T09:51:34.948541+00:00",
     "event_ids": {
       "surz_order_confirmed": "74fc8ce9-de05-4c11-907f-6db9caf18f09",
       "surz_partner_registered": "2c7b768e-434e-415d-8b07-f04c45965fd2",

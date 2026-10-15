@@ -1,0 +1,148 @@
+{
+ "flow_id": "16ab74e4-2ba0-4c69-be32-f6dced46717b",
+ "flow_name": "Twasta \u00b7 Surzion_Store \u00b7 Partner Application Received",
+ "description": "Acknowledges partner application to applicant and notifies admin.",
+ "category": null,
+ "flow_scope": "user",
+ "trigger_config": {
+  "type": "event",
+  "app_id": "3d02bd26-5bbc-4c32-b677-54a30bf19da0",
+  "event_name": "surz_partner_registered",
+  "schedule": null,
+  "manual_variables": null,
+  "execute_immediately": null,
+  "folder_path": null,
+  "listener_type": null,
+  "file_pattern": null,
+  "recursive": null,
+  "debounce_seconds": null,
+  "system_prompt": null,
+  "placeholder_text": null,
+  "session_timeout_minutes": null
+ },
+ "flow_definition": {
+  "nodes": [
+   {
+    "id": "trigger_1",
+    "type": "trigger",
+    "position": {
+     "x": 250.0,
+     "y": 100.0
+    },
+    "data": {
+     "label": "Partner Application Received",
+     "triggerType": "application_event",
+     "appId": "3d02bd26-5bbc-4c32-b677-54a30bf19da0",
+     "eventId": "2c7b768e-434e-415d-8b07-f04c45965fd2"
+    }
+   },
+   {
+    "id": "action_ack",
+    "type": "action",
+    "position": {
+     "x": 250.0,
+     "y": 300.0
+    },
+    "data": {
+     "label": "Acknowledge Applicant",
+     "appId": "21c168d6-6c3d-4998-b08c-7dbb08e1a48b",
+     "appName": "SMTP Email",
+     "serviceId": "42a9403c-8e23-4c42-89db-fd5e5cf0581d",
+     "service": "send_email",
+     "subscriptionId": "fe218ba9-1add-4ad0-892a-870ef50742c5",
+     "parameterMapping": {
+      "to": {
+       "source": "variable",
+       "value": "input.arguments.email"
+      },
+      "subject": {
+       "source": "static",
+       "value": "Surzion Partner Program - Application Received"
+      },
+      "body": {
+       "source": "static",
+       "value": "<p>Dear Partner,</p><p>Thank you for applying to the Surzion Partner Program! We will review your application and email you once a decision is made.</p><p>The Surzion Team</p>"
+      },
+      "body_type": {
+       "source": "static",
+       "value": "html"
+      }
+     }
+    }
+   },
+   {
+    "id": "action_admin",
+    "type": "action",
+    "position": {
+     "x": 250.0,
+     "y": 500.0
+    },
+    "data": {
+     "label": "Notify Admin",
+     "appId": "21c168d6-6c3d-4998-b08c-7dbb08e1a48b",
+     "appName": "SMTP Email",
+     "serviceId": "42a9403c-8e23-4c42-89db-fd5e5cf0581d",
+     "service": "send_email",
+     "subscriptionId": "fe218ba9-1add-4ad0-892a-870ef50742c5",
+     "parameterMapping": {
+      "to": {
+       "source": "static",
+       "value": "twasta.surzion@gmail.com"
+      },
+      "subject": {
+       "source": "template",
+       "value": "New Partner Application: {{input.arguments.partner_name}}"
+      },
+      "body": {
+       "source": "template",
+       "value": "New application from {{input.arguments.partner_name}} ({{input.arguments.email}}). Platform: {{input.arguments.platform}}, Handle: {{input.arguments.handle}}, Followers: {{input.arguments.follower_range}}. Review at: https://surzion.platform.twasta.ai"
+      },
+      "body_type": {
+       "source": "static",
+       "value": "html"
+      }
+     }
+    }
+   }
+  ],
+  "edges": [
+   {
+    "id": "e1",
+    "source": "trigger_1",
+    "target": "action_ack",
+    "sourceHandle": null,
+    "targetHandle": null,
+    "label": null
+   },
+   {
+    "id": "e2",
+    "source": "action_ack",
+    "target": "action_admin",
+    "sourceHandle": null,
+    "targetHandle": null,
+    "label": null
+   }
+  ]
+ },
+ "status": "active",
+ "is_synchronous": false,
+ "sync_timeout": 30,
+ "created_by": "66ec999b-2efc-4a1b-8fd2-8c636a40e1f9",
+ "created_by_user": {
+  "user_id": "66ec999b-2efc-4a1b-8fd2-8c636a40e1f9",
+  "user_name": "Twasta Surzion",
+  "email": "twasta.surzion@gmail.com"
+ },
+ "last_modified_by": "66ec999b-2efc-4a1b-8fd2-8c636a40e1f9",
+ "last_modified_by_user": {
+  "user_id": "66ec999b-2efc-4a1b-8fd2-8c636a40e1f9",
+  "user_name": "Twasta Surzion",
+  "email": "twasta.surzion@gmail.com"
+ },
+ "created_at": "2026-10-13T10:14:42",
+ "updated_at": "2026-10-13T10:42:49",
+ "execution_count": 2,
+ "last_execution_at": "2026-10-15T08:55:43",
+ "version": 1,
+ "edit_link": "/flow-designer?flowId=16ab74e4-2ba0-4c69-be32-f6dced46717b"
+}
