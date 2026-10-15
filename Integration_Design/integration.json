@@ -131,7 +131,139 @@
           "required": false
         }
       ],
-      "active": true
+      "active": true,
+      "payload_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          },
+          "obj_name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "txn_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Record id (composite keys are encoded)"
+          },
+          "pk": {
+            "type": "object",
+            "description": "Primary-key column values"
+          },
+          "record": {
+            "type": "object",
+            "properties": {}
+          },
+          "user": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arguments": {
+            "type": "object",
+            "properties": {
+              "order_no": {
+                "type": "string",
+                "description": "Order number"
+              },
+              "order_date": {
+                "type": "string",
+                "description": "Order date, YYYY-MM-DD or YYYY-MM-DD HH:MM"
+              },
+              "email": {
+                "type": "string",
+                "description": "Customer e-mail address (recipient)"
+              },
+              "customer_name": {
+                "type": "string",
+                "description": "Customer name"
+              },
+              "phone": {
+                "type": "string",
+                "description": "Customer phone"
+              },
+              "ship_address": {
+                "type": "string",
+                "description": "Shipping address"
+              },
+              "subtotal": {
+                "type": "string",
+                "description": "Subtotal, 2dp string"
+              },
+              "discount_amt": {
+                "type": "string",
+                "description": "Discount amount, 2dp string"
+              },
+              "gst_amt": {
+                "type": "string",
+                "description": "GST amount, 2dp string"
+              },
+              "shipping_amt": {
+                "type": "string",
+                "description": "Shipping amount, 2dp string"
+              },
+              "total_amount": {
+                "type": "string",
+                "description": "Order total, 2dp string"
+              },
+              "paid_amount": {
+                "type": "string",
+                "description": "Amount paid so far, 2dp string"
+              },
+              "amount_due": {
+                "type": "string",
+                "description": "Outstanding amount, 2dp string"
+              },
+              "payment_due": {
+                "type": "boolean",
+                "description": "True when an amount is still outstanding"
+              },
+              "pay_status": {
+                "type": "string",
+                "description": "Payment status (upper case)"
+              },
+              "pay_method": {
+                "type": "string",
+                "description": "Payment method"
+              },
+              "lines": {
+                "type": "object",
+                "description": "List of order lines, each with line_no, product_code, product_name, qty, unit_price, line_total (all strings)"
+              },
+              "subject": {
+                "type": "string",
+                "description": "Ready-made e-mail subject"
+              },
+              "body": {
+                "type": "string",
+                "description": "Ready-made plain-text e-mail body"
+              },
+              "unboxing_instructions": {
+                "type": "string",
+                "description": "Packing / unboxing instructions shown at checkout; blank lines separate paragraphs"
+              }
+            },
+            "required": [
+              "order_no",
+              "email",
+              "total_amount"
+            ]
+          }
+        }
+      }
     },
     {
       "event_name": "surz_partner_registered",
@@ -203,7 +335,99 @@
           "required": false
         }
       ],
-      "active": true
+      "active": true,
+      "payload_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          },
+          "obj_name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "txn_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Record id (composite keys are encoded)"
+          },
+          "pk": {
+            "type": "object",
+            "description": "Primary-key column values"
+          },
+          "record": {
+            "type": "object",
+            "properties": {}
+          },
+          "user": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arguments": {
+            "type": "object",
+            "properties": {
+              "partner_id": {
+                "type": "string",
+                "description": "Partner ID"
+              },
+              "partner_name": {
+                "type": "string",
+                "description": "Partner contact name"
+              },
+              "org_name": {
+                "type": "string",
+                "description": "Partner organisation name"
+              },
+              "email": {
+                "type": "string",
+                "description": "Applicant e-mail address (recipient of the acknowledgement)"
+              },
+              "phone": {
+                "type": "string",
+                "description": "Applicant phone"
+              },
+              "handle": {
+                "type": "string",
+                "description": "Social handle"
+              },
+              "platform": {
+                "type": "string",
+                "description": "Main platform"
+              },
+              "profile_url": {
+                "type": "string",
+                "description": "Profile URL"
+              },
+              "follower_range": {
+                "type": "string",
+                "description": "Follower range"
+              },
+              "audience": {
+                "type": "string",
+                "description": "Audience description"
+              }
+            },
+            "required": [
+              "partner_id",
+              "partner_name",
+              "email"
+            ]
+          }
+        }
+      }
     },
     {
       "event_name": "surz_partner_approved",
@@ -263,7 +487,95 @@
           "required": false
         }
       ],
-      "active": true
+      "active": true,
+      "payload_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          },
+          "obj_name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "txn_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Record id (composite keys are encoded)"
+          },
+          "pk": {
+            "type": "object",
+            "description": "Primary-key column values"
+          },
+          "record": {
+            "type": "object",
+            "properties": {}
+          },
+          "user": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arguments": {
+            "type": "object",
+            "properties": {
+              "partner_id": {
+                "type": "string",
+                "description": "Partner ID"
+              },
+              "partner_name": {
+                "type": "string",
+                "description": "Partner name"
+              },
+              "email": {
+                "type": "string",
+                "description": "Partner e-mail address (recipient)"
+              },
+              "discount_code": {
+                "type": "string",
+                "description": "Partner discount code"
+              },
+              "discount_pct": {
+                "type": "string",
+                "description": "Discount percentage, exact 2-decimal string"
+              },
+              "qr_url": {
+                "type": "string",
+                "description": "URL of the partner QR image"
+              },
+              "portal_url": {
+                "type": "string",
+                "description": "Link to the partner portal"
+              },
+              "admin_email": {
+                "type": "string",
+                "description": "Admin e-mail address to copy, if any"
+              }
+            },
+            "required": [
+              "partner_id",
+              "partner_name",
+              "email",
+              "discount_code",
+              "discount_pct",
+              "qr_url",
+              "portal_url"
+            ]
+          }
+        }
+      }
     },
     {
       "event_name": "surz_partner_rejected",
@@ -299,7 +611,75 @@
           "required": false
         }
       ],
-      "active": true
+      "active": true,
+      "payload_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          },
+          "obj_name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "txn_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Record id (composite keys are encoded)"
+          },
+          "pk": {
+            "type": "object",
+            "description": "Primary-key column values"
+          },
+          "record": {
+            "type": "object",
+            "properties": {}
+          },
+          "user": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arguments": {
+            "type": "object",
+            "properties": {
+              "partner_id": {
+                "type": "string",
+                "description": "Partner ID"
+              },
+              "partner_name": {
+                "type": "string",
+                "description": "Partner name"
+              },
+              "email": {
+                "type": "string",
+                "description": "Applicant e-mail address (recipient)"
+              },
+              "reason": {
+                "type": "string",
+                "description": "Rejection reason"
+              }
+            },
+            "required": [
+              "partner_id",
+              "partner_name",
+              "email"
+            ]
+          }
+        }
+      }
     },
     {
       "event_name": "notification.created",
@@ -344,14 +724,90 @@
         }
       ],
       "active": true,
-      "managed": true
+      "managed": true,
+      "payload_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          },
+          "obj_name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "txn_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Record id (composite keys are encoded)"
+          },
+          "pk": {
+            "type": "object",
+            "description": "Primary-key column values"
+          },
+          "record": {
+            "type": "object",
+            "properties": {}
+          },
+          "user": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arguments": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "description": "task_assigned | task_opened | task_closed | approval | job | alert | info"
+              },
+              "title": {
+                "type": "string",
+                "description": "The one line the recipient reads."
+              },
+              "body": {
+                "type": "string",
+                "description": "Optional detail under the title."
+              },
+              "users": {
+                "type": "string",
+                "description": "The user ids told, roles already expanded to members."
+              },
+              "source_ref": {
+                "type": "string",
+                "description": "What it is about (a task key, an approval instance)."
+              },
+              "actor": {
+                "type": "string",
+                "description": "Who caused it (excluded from the recipients)."
+              }
+            },
+            "required": [
+              "kind",
+              "title",
+              "users"
+            ]
+          }
+        }
+      }
     }
   ],
   "apis": [],
   "ioflow": {
     "app_id": "3d02bd26-5bbc-4c32-b677-54a30bf19da0",
     "url": "https://ioflow.twasta.ai",
-    "last_synced_at": "2026-10-13T10:14:00+00:00",
+    "last_synced_at": "2026-10-15T07:42:14.381747+00:00",
     "event_ids": {
       "surz_order_confirmed": "74fc8ce9-de05-4c11-907f-6db9caf18f09",
       "surz_partner_registered": "2c7b768e-434e-415d-8b07-f04c45965fd2",
